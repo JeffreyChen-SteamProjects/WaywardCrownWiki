@@ -26,7 +26,7 @@ Feinde erscheinen natürlich in Wildnisgebieten auf der gesamten Karte und bedro
 | **Bandit** | 100 | 7 | 4 | 1,1 | 26 | 16 | 3 | 12 | Grasland | 2 |
 | **Harpyie** | 95 | 11 | 3 | 1,8 | 36 | 18 | 3 | 14 | Grasland | 3 |
 
-Drache, Goblin-Bogenschütze und Dunkler Kultist feuern Projektile (Feuerbälle, Pfeile bzw. Feuerbälle); die übrigen schlagen aus bis zu 3 Feldern Entfernung zu.
+Drache, Goblin-Bogenschütze und Dunkler Kultist feuern Projektile (Flammenstöße, grobe Pfeile bzw. dunkle Kugeln); die übrigen schlagen aus bis zu 3 Feldern Entfernung zu.
 
 Ein Gegner macht alle 3 ÷ Geschwindigkeit Ticks einen Schritt, abgerundet (mindestens 1): jeden Tick ab Geschwindigkeit 1,6, alle 2 Ticks bei 1,1–1,4, alle 3 bei 0,8–1,0, alle 4 beim Troll und alle 5 bei 0,6.
 
@@ -82,14 +82,14 @@ Feinde erscheinen basierend auf dem **Geländetyp**:
 - **Wüste** — Sandgeister
 
 :::note[Drachen]
-Drachen und Trolle sind die gefährlichsten Feinde (Gefahrenstufe 5). Mit einer Angriffsreichweite von 16, 550 HP und Feuerball-Projektilen werden Drachen am besten mit Fernkampf-Abenteurern und Pfeiltürmen bekämpft; der Troll hat mehr HP und Angriff, muss aber nahe herankommen.
+Drachen und Trolle sind die gefährlichsten Feinde (Gefahrenstufe 5). Mit einer Angriffsreichweite von 16, 550 HP und Flammenstößen als Projektilen werden Drachen am besten mit Fernkampf-Abenteurern und Pfeiltürmen bekämpft; der Troll hat mehr HP und Angriff, muss aber nahe herankommen.
 :::
 
 ---
 
 ## Spezielle Drachenmechaniken
 
-- **Fernkampfangriff**: Angriffsreichweite von 16, feuert Feuerball-Projektile
+- **Fernkampfangriff**: Angriffsreichweite von 16, speit Flammenstöße
 - **Hohe Mobilität**: Geschwindigkeit von 1,4, ein Schritt alle 2 Ticks: so schnell wie Riesenratten, Riesenspinnen und Banditen; nur Harpyien und Schattenwölfe (ein Schritt pro Tick) sind schneller
 - **Weite Sicht**: 32 Felder Sichtweite, kann Abenteurer aus großer Entfernung entdecken
 - **Ausweichen**: Alle Feinde haben eine Basis-Ausweichrate von 5%

@@ -51,15 +51,20 @@ Danno effettivo = max(1, Danno - DEF)
 
 ## Sistema di proiettili
 
-Solo i Maghi e i Ranger usano attacchi a proiettile. Le altre classi combattono in mischia anche se arrivano a 3 caselle:
+Ogni unità che combatte a distanza scaglia un proiettile tutto suo, così un colpo si riconosce da ciò che vola. Le altre classi combattono in mischia anche se arrivano a 3 caselle:
 
 | Classe | Tipo di proiettile |
 |--------|-------------------|
-| Mago | Palla di fuoco (fireball) |
 | Ranger | Freccia (arrow) |
-| Drago (nemico) | Palla di fuoco (fireball) |
+| Battistrada | Giavellotto (javelin) |
+| Guardia delle Strade | Dardo di balestra (bolt) |
+| Mago | Palla di fuoco (fireball) |
+| Adepto | Scheggia di luce (light_shard) |
+| Arciere goblin (nemico) | Freccia rozza (goblin_arrow) |
+| Cultista oscuro (nemico) | Globo oscuro (dark_orb) |
+| Drago (nemico) | Vampata di fuoco (dragon_flame) |
 
-I proiettili viaggiano verso il bersaglio ogni tick dopo essere stati lanciati e infliggono danni all'impatto.
+I proiettili viaggiano verso il bersaglio ogni tick dopo essere stati lanciati e infliggono danni all'impatto. Ognuno è disegnato secondo la direzione in cui vola: quello che risale la mappa si vede da dietro, quello che la attraversa si vede di lato.
 
 ---
 

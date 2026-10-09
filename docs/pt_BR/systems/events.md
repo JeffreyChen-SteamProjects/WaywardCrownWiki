@@ -31,7 +31,7 @@ Estes exercem pressão sobre o jogador durante sua duração e exigem uma respos
 | **Despertar do Ninho do Dragão** | 450 | 1 | Um ninho de dragão surge e gera dragões. Destrua-o! |
 | **Noite Amaldiçoada** | 300 | 2 | Inimigos mais rápidos, mas 2x EXP por abate |
 | **Terremoto** | Instantâneo | 1 | Construções e o castelo sofrem dano pesado e estradas são destruídas |
-| **Traidor** | Instantâneo | 1 | Um aventureiro aleatório trai a guilda e vira inimigo! |
+| **Traidor** | Instantâneo | 1 | Um aventureiro aleatório trai a guilda e vira inimigo! O traidor fica marcado como de elite no mapa. |
 | **Guilda Rebelde** | 400 | 2 | Uma guilda hostil aparece e gera inimigos. Destrua-a! |
 | **Inflação** | 350 | 1 | Preços de poções e equipamentos sobem 50% |
 | **Selo de Mana** | 250 | 1 | Magos perdem todo o poder de ataque |
@@ -80,7 +80,7 @@ Surtem efeito imediatamente sem duração.
 
 | Evento | Peso | Efeito |
 |--------|------|--------|
-| **Mutação de Elite** | 1 | Um inimigo aleatório evolui para uma elite poderosa! |
+| **Mutação de Elite** | 1 | Um inimigo aleatório evolui para uma elite poderosa! Ele fica marcado como de elite no mapa. |
 | **Aventureiro Perdido** | 1 | Um aventureiro de alto nível chega das terras selvagens |
 | **Roda da Fortuna** | 1 | Um evento aleatório é acionado! |
 | **Despertar do Herói** | 1 | Um aventureiro aleatório desperta permanentemente como herói! |

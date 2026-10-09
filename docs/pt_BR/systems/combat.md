@@ -51,15 +51,20 @@ Dano Real = max(1, Dano - DEF)
 
 ## Sistema de Projéteis
 
-Só os Magos e os Patrulheiros usam ataques de projétil. As demais classes lutam corpo a corpo, mesmo alcançando 3 tiles:
+Cada unidade que luta à distância dispara um projétil próprio, de modo que um disparo é reconhecido pelo que voa. As outras classes lutam corpo a corpo mesmo alcançando 3 tiles:
 
 | Classe | Tipo de Projétil |
 |--------|------------------|
-| Mago | Bola de Fogo (fireball) |
 | Patrulheiro | Flecha (arrow) |
-| Dragão (inimigo) | Bola de Fogo (fireball) |
+| Batedor | Azagaia (javelin) |
+| Guarda das Estradas | Virote de besta (bolt) |
+| Mago | Bola de fogo (fireball) |
+| Adepto | Estilhaço de luz (light_shard) |
+| Arqueiro goblin (inimigo) | Flecha tosca (goblin_arrow) |
+| Cultista sombrio (inimigo) | Orbe sombrio (dark_orb) |
+| Dragão (inimigo) | Jato de chamas (dragon_flame) |
 
-Os projéteis viajam em direção ao alvo a cada tick após serem disparados e causam dano ao impactar.
+Os projéteis viajam em direção ao alvo a cada tick após serem disparados e causam dano ao impactar. Cada um é desenhado conforme o rumo em que voa: o que sobe pelo mapa é visto por trás, e o que o cruza, de lado.
 
 ---
 

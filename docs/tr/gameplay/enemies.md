@@ -26,7 +26,7 @@ Düşmanlar harita genelindeki vahşi bölgelerde doğal olarak ortaya çıkar v
 | **Haydut** | 100 | 7 | 4 | 1.1 | 26 | 16 | 3 | 12 | Çayırlık | 2 |
 | **Harpi** | 95 | 11 | 3 | 1.8 | 36 | 18 | 3 | 14 | Çayırlık | 3 |
 
-Ejderha, Goblin Okçu ve Karanlık Tarikatçı mermi fırlatır (sırasıyla ateş topu, ok ve ateş topu); diğerleri en fazla 3 karo uzaktan vurur.
+Ejderha, Goblin Okçu ve Karanlık Tarikatçı mermi fırlatır (sırasıyla alev püskürtüsü, kaba ok ve karanlık küre); diğerleri en fazla 3 karo uzaktan vurur.
 
 Bir düşman her 3 ÷ hız tikte bir adım atar, aşağı yuvarlanır (en az 1): 1.6 ve üzeri hızda her tik, 1.1–1.4'te her 2 tik, 0.8–1.0'da her 3 tik, Trol'de her 4 tik ve 0.6'da her 5 tik.
 
@@ -82,14 +82,14 @@ Düşmanlar **arazi türüne** göre doğar:
 - **Çöl** — Kum Hortlakları
 
 :::note[Ejderhalar]
-Ejderhalar ve Troller en tehlikeli düşmanlardır (tehlike seviyesi 5). 16 saldırı menzili, 550 HP ve ateş topu mermileriyle Ejderhalarla en iyi şekilde uzun menzilli maceraperestler ve ok kuleleri ile mücadele edilir; Trolün HP'si ve saldırısı daha yüksektir ama yakına gelmek zorundadır.
+Ejderhalar ve Troller en tehlikeli düşmanlardır (tehlike seviyesi 5). 16 saldırı menzili, 550 HP ve alev püskürtüleriyle Ejderhalarla en iyi şekilde uzun menzilli maceraperestler ve ok kuleleri ile mücadele edilir; Trolün HP'si ve saldırısı daha yüksektir ama yakına gelmek zorundadır.
 :::
 
 ---
 
 ## Ejderha Özel Mekanikleri
 
-- **Uzun Menzilli Saldırı**: 16 saldırı menzili, ateş topu mermisi fırlatır
+- **Uzun Menzilli Saldırı**: 16 saldırı menzili, alev püskürtür
 - **Yüksek Hareketlilik**: 1.4 hız, her 2 tikte bir adım: Dev Sıçanlar, Dev Örümcekler ve Haydutlar kadar hızlıdır; yalnızca Harpiler ve Dev Kurtlar (her tikte bir adım) daha hızlıdır
 - **Geniş Görüş**: 32 karo görüş menzili, maceraperestleri çok uzaktan fark edebilir
 - **Kaçınma**: Tüm düşmanların temel %5 kaçınma oranı vardır

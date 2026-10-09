@@ -51,15 +51,20 @@ Dégâts réels = max(1, Dégâts - DEF)
 
 ## Système de projectiles
 
-Seuls les Mages et les Rôdeurs utilisent des attaques à projectiles. Les autres classes se battent au corps à corps, même avec une portée de 3 cases :
+Chaque unité qui combat à distance tire un projectile qui lui est propre : on reconnaît un tir à ce qui vole. Les autres classes combattent au corps à corps même si elles atteignent 3 cases :
 
 | Classe | Type de projectile |
 |--------|--------------------|
-| Mage | Boule de feu (fireball) |
 | Rôdeur | Flèche (arrow) |
-| Dragon (ennemi) | Boule de feu (fireball) |
+| Éclaireur | Javelot (javelin) |
+| Garde des routes | Carreau d'arbalète (bolt) |
+| Mage | Boule de feu (fireball) |
+| Adepte | Éclat de lumière (light_shard) |
+| Archer gobelin (ennemi) | Flèche grossière (goblin_arrow) |
+| Cultiste sombre (ennemi) | Orbe sombre (dark_orb) |
+| Dragon (ennemi) | Jet de flammes (dragon_flame) |
 
-Les projectiles se déplacent vers la cible à chaque tick après avoir été tirés et infligent des dégâts à l'impact.
+Les projectiles se déplacent vers la cible à chaque tick après avoir été tirés et infligent des dégâts à l'impact. Chacun est dessiné selon le cap qu'il suit : celui qui remonte la carte est vu de dos, celui qui la traverse est vu de côté.
 
 ---
 

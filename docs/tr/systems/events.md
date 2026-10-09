@@ -31,7 +31,7 @@ Bunlar süreleri boyunca oyuncuya baskı uygular ve aktif müdahale gerektirir.
 | **Ejderha Yuvası Uyanışı** | 450 | 1 | Bir ejderha yuvası belirir ve ejderhalar doğurur. Yok et! |
 | **Lanetli Gece** | 300 | 2 | Düşmanlar daha hızlı ama öldürme TP'si 2x |
 | **Deprem** | Anlık | 1 | Binalar ve kale ağır hasar alır, yollar yok olur |
-| **Hain** | Anlık | 1 | Rastgele bir maceracı loncaya ihanet edip düşman olur! |
+| **Hain** | Anlık | 1 | Rastgele bir maceracı loncaya ihanet edip düşman olur! Hain, haritada Seçkin olarak işaretlenir. |
 | **Asi Lonca** | 400 | 2 | Düşman bir lonca belirir ve düşman doğurur. Yok et! |
 | **Enflasyon** | 350 | 1 | İksir ve ekipman fiyatları %50 artar |
 | **Mana Mührü** | 250 | 1 | Büyücüler tüm saldırı gücünü kaybeder |
@@ -80,7 +80,7 @@ Süresi olmadan anında geçerli olur.
 
 | Olay | Ağırlık | Etki |
 |------|---------|------|
-| **Elit Mutasyon** | 1 | Rastgele bir düşman güçlü bir elit olarak mutasyona uğrar! |
+| **Elit Mutasyon** | 1 | Rastgele bir düşman güçlü bir elit olarak mutasyona uğrar! Haritada Seçkin olarak işaretlenir. |
 | **Kayıp Maceracı** | 1 | Yüksek seviyeli bir maceracı vahşi diyarlardan katılır |
 | **Şans Çarkı** | 1 | Rastgele bir olay tetiklenir! |
 | **Kahraman Uyanışı** | 1 | Rastgele bir maceracı kalıcı olarak kahraman olarak uyanır! |

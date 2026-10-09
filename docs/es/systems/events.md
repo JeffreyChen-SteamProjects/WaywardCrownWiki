@@ -31,7 +31,7 @@ Estos ejercen presión sobre el jugador durante su duración y requieren una res
 | **Despertar del nido de dragones** | 450 | 1 | Aparece un nido de dragones que engendra dragones. ¡Destrúyelo! |
 | **Noche maldita** | 300 | 2 | Enemigos más rápidos, pero el doble de EXP por matar |
 | **Terremoto** | Instantáneo | 1 | Los edificios y el castillo reciben mucho daño y los caminos se destruyen |
-| **Traidor** | Instantáneo | 1 | ¡Un héroe aleatorio traiciona al gremio y se vuelve enemigo! |
+| **Traidor** | Instantáneo | 1 | ¡Un héroe aleatorio traiciona al gremio y se vuelve enemigo! El traidor queda marcado como de élite en el mapa. |
 | **Gremio rebelde** | 400 | 2 | Aparece un gremio hostil que engendra enemigos. ¡Destrúyelo! |
 | **Inflación** | 350 | 1 | El precio de pociones y equipo sube un 50% |
 | **Sello de maná** | 250 | 1 | Los magos pierden todo su poder de ataque |
@@ -80,7 +80,7 @@ Surten efecto inmediatamente sin duración.
 
 | Evento | Peso | Efecto |
 |--------|------|--------|
-| **Mutación de élite** | 1 | ¡Un enemigo aleatorio muta en una poderosa élite! |
+| **Mutación de élite** | 1 | ¡Un enemigo aleatorio muta en una poderosa élite! Queda marcado como de élite en el mapa. |
 | **Aventurero perdido** | 1 | Un héroe de alto nivel llega desde tierras salvajes |
 | **Rueda de la fortuna** | 1 | ¡Se desencadena un evento aleatorio! |
 | **Despertar heroico** | 1 | ¡Un héroe aleatorio despierta permanentemente como héroe verdadero! |

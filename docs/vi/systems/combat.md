@@ -51,15 +51,20 @@ Sát thương thực tế = max(1, Sát thương - PHÒNG THỦ)
 
 ## Hệ thống đạn
 
-Chỉ Pháp sư và Xạ thủ dùng tấn công đạn. Các lớp còn lại đánh cận chiến dù tầm đánh là 3 ô:
+Mỗi đơn vị chiến đấu từ xa bắn một loại đạn riêng, nên nhìn vật đang bay là biết ai bắn. Các lớp còn lại đánh cận chiến dù với tới 3 ô:
 
 | Lớp | Loại đạn |
 |-----|---------|
-| Pháp sư | Cầu lửa (fireball) |
 | Xạ thủ | Mũi tên (arrow) |
-| Rồng (kẻ thù) | Cầu lửa (fireball) |
+| Người dẫn đường | Lao (javelin) |
+| Người gác đường | Tên nỏ (bolt) |
+| Pháp sư | Cầu lửa (fireball) |
+| Thuật sĩ Cộng hưởng | Mảnh ánh sáng (light_shard) |
+| Cung thủ Goblin (kẻ thù) | Mũi tên thô (goblin_arrow) |
+| Giáo đồ bóng tối (kẻ thù) | Cầu bóng tối (dark_orb) |
+| Rồng (kẻ thù) | Luồng lửa (dragon_flame) |
 
-Đạn bay về phía mục tiêu mỗi tick sau khi được bắn ra và gây sát thương khi trúng.
+Đạn bay về phía mục tiêu mỗi tick sau khi được bắn ra và gây sát thương khi trúng. Mỗi loại được vẽ theo hướng nó bay: viên bay lên phía trên bản đồ được nhìn từ phía sau, viên bay ngang được nhìn từ bên cạnh.
 
 ---
 

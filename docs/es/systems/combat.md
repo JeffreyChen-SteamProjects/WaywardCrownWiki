@@ -51,15 +51,20 @@ Daño Real = max(1, Daño - DEF)
 
 ## Sistema de Proyectiles
 
-Solo los Magos y los Exploradores usan ataques de proyectil. Las demás clases luchan cuerpo a cuerpo aunque alcancen 3 casillas:
+Cada unidad que combate a distancia dispara un proyectil propio, de modo que un disparo se reconoce por lo que vuela. Las demás clases combaten cuerpo a cuerpo aunque alcancen 3 casillas:
 
 | Clase | Tipo de Proyectil |
 |-------|-------------------|
-| Mago | Bola de Fuego (fireball) |
 | Explorador | Flecha (arrow) |
-| Dragón (enemigo) | Bola de Fuego (fireball) |
+| Batidor | Jabalina (javelin) |
+| Guardacaminos | Virote de ballesta (bolt) |
+| Mago | Bola de fuego (fireball) |
+| Adepto | Esquirla de luz (light_shard) |
+| Arquero goblin (enemigo) | Flecha tosca (goblin_arrow) |
+| Cultista oscuro (enemigo) | Orbe oscuro (dark_orb) |
+| Dragón (enemigo) | Llamarada (dragon_flame) |
 
-Los proyectiles viajan hacia el objetivo cada tick después de ser disparados y causan daño al impactar.
+Los proyectiles viajan hacia el objetivo cada tick después de ser disparados y causan daño al impactar. Cada uno se dibuja según el rumbo en que vuela: el que sube por el mapa se ve por detrás y el que lo cruza, de lado.
 
 ---
 

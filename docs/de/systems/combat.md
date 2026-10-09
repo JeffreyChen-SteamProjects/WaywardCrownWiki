@@ -51,15 +51,20 @@ Tatsächlicher Schaden = max(1, Schaden - DEF)
 
 ## Projektilsystem
 
-Nur Magier und Waldläufer verwenden Projektile. Die übrigen Klassen kämpfen im Nahkampf, obwohl sie 3 Felder weit reichen:
+Jede Einheit, die aus der Ferne kämpft, verschießt ein eigenes Projektil, sodass man einen Schuss an dem erkennt, was fliegt. Die übrigen Klassen kämpfen im Nahkampf, auch wenn sie 3 Felder weit reichen:
 
 | Klasse | Projektiltyp |
 |--------|-------------|
-| Magier | Feuerball (fireball) |
 | Waldläufer | Pfeil (arrow) |
-| Drache (Feind) | Feuerball (fireball) |
+| Pfadfinder | Wurfspeer (javelin) |
+| Straßenwächter | Armbrustbolzen (bolt) |
+| Magier | Feuerball (fireball) |
+| Adept | Lichtsplitter (light_shard) |
+| Goblin-Bogenschütze (Feind) | Grober Pfeil (goblin_arrow) |
+| Dunkler Kultist (Feind) | Dunkle Kugel (dark_orb) |
+| Drache (Feind) | Flammenstoß (dragon_flame) |
 
-Projektile bewegen sich nach dem Abfeuern jeden Tick auf das Ziel zu und verursachen beim Treffer Schaden.
+Projektile bewegen sich nach dem Abfeuern jeden Tick auf das Ziel zu und verursachen beim Treffer Schaden. Jedes wird in der Richtung gezeichnet, in die es fliegt: Eines, das die Karte hinauffliegt, sieht man von hinten, eines, das quer fliegt, von der Seite.
 
 ---
 

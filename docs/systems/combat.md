@@ -51,15 +51,20 @@ Actual Damage = max(1, Damage - DEF)
 
 ## Projectile System
 
-Only Mages and Rangers use projectile attacks. The other classes fight in melee even though they reach 3 tiles:
+Every unit that fights from a distance shoots a projectile of its own, so a shot is told by what flies. The other classes fight in melee even though they reach 3 tiles:
 
 | Class | Projectile Type |
 |-------|----------------|
-| Mage | Fireball (fireball) |
 | Ranger | Arrow (arrow) |
-| Dragon (enemy) | Fireball (fireball) |
+| Pathfinder | Javelin (javelin) |
+| Roadwarden | Crossbow bolt (bolt) |
+| Mage | Fireball (fireball) |
+| Adept | Shard of light (light_shard) |
+| Goblin Archer (enemy) | Crude arrow (goblin_arrow) |
+| Dark Cultist (enemy) | Dark orb (dark_orb) |
+| Dragon (enemy) | Gout of flame (dragon_flame) |
 
-Projectiles travel toward the target each tick after being fired and deal damage on hit.
+Projectiles travel toward the target each tick after being fired and deal damage on hit. Each is drawn along the heading it flies: one that flies up the map is seen from behind, one that flies across from the side.
 
 ---
 

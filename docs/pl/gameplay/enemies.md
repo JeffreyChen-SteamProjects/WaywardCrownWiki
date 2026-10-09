@@ -26,7 +26,7 @@ Wrogowie pojawiają się naturalnie na dzikich obszarach mapy, zagrażając twoi
 | **Bandyta** | 100 | 7 | 4 | 1,1 | 26 | 16 | 3 | 12 | Łąka | 2 |
 | **Harpia** | 95 | 11 | 3 | 1,8 | 36 | 18 | 3 | 14 | Łąka | 3 |
 
-Smok, Goblin łucznik i Mroczny kultysta wystrzeliwują pociski (odpowiednio kule ognia, strzały i kule ognia); pozostali uderzają z odległości do 3 kafelków.
+Smok, Goblin łucznik i Mroczny kultysta wystrzeliwują pociski (odpowiednio strugi ognia, prymitywne strzały i mroczne kule); pozostali uderzają z odległości do 3 kafelków.
 
 Wróg robi krok co 3 ÷ szybkość taktów, w zaokrągleniu w dół (co najmniej 1): w każdym takcie przy szybkości od 1,6, co 2 takty przy 1,1–1,4, co 3 przy 0,8–1,0, co 4 Troll i co 5 przy 0,6.
 
@@ -82,14 +82,14 @@ Wrogowie pojawiają się na podstawie **typu terenu**:
 - **Pustynia** — Piaskowe zjawy
 
 :::note[Smoki]
-Smoki i Trolle to najgroźniejsi wrogowie (poziom zagrożenia 5). Ze Smokami, które mają zasięg ataku 16, 550 HP i pociski ogniste, najlepiej radzić sobie za pomocą poszukiwaczy przygód dystansowych i wież strzelniczych; Troll ma więcej HP i ataku, ale musi podejść blisko.
+Smoki i Trolle to najgroźniejsi wrogowie (poziom zagrożenia 5). Ze Smokami, które mają zasięg ataku 16, 550 HP i strugi ognia jako pociski, najlepiej radzić sobie za pomocą poszukiwaczy przygód dystansowych i wież strzelniczych; Troll ma więcej HP i ataku, ale musi podejść blisko.
 :::
 
 ---
 
 ## Specjalne mechaniki smoka
 
-- **Atak dystansowy**: Zasięg ataku 16, wystrzeliwuje pociski ogniste
+- **Atak dystansowy**: Zasięg ataku 16, zionie strugami ognia
 - **Wysoka mobilność**: Szybkość 1,4, krok co 2 takty: tak szybko jak Olbrzymie szczury, Olbrzymie pająki i Bandyci; szybsze są tylko Harpie i Wilkory (krok w każdym takcie)
 - **Szeroka wizja**: Zasięg widzenia 32 kafelki, zdolny do wykrycia poszukiwaczy przygód z dużej odległości
 - **Unik**: Wszyscy wrogowie mają bazową 5% szansę na unik

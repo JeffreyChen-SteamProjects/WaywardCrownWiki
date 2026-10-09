@@ -31,7 +31,7 @@ Ces événements exercent une pression sur le joueur pendant leur durée et néc
 | **Réveil du nid de dragons** | 450 | 1 | Un nid de dragons apparaît et engendre des dragons. Détruisez-le ! |
 | **Nuit maudite** | 300 | 2 | Ennemis plus rapides, mais 2x XP par kill |
 | **Tremblement de terre** | Instantané | 1 | Les bâtiments et le château subissent de lourds dégâts et les routes sont détruites |
-| **Traître** | Instantané | 1 | Un aventurier trahit la guilde et devient ennemi ! |
+| **Traître** | Instantané | 1 | Un aventurier trahit la guilde et devient ennemi ! Le traître est marqué comme d'élite sur la carte. |
 | **Guilde rebelle** | 400 | 2 | Une guilde hostile apparaît et génère des ennemis. Détruisez-la ! |
 | **Inflation** | 350 | 1 | Prix des potions et équipements augmentés de 50 % |
 | **Sceau de mana** | 250 | 1 | Les mages perdent toute leur puissance d'attaque |
@@ -80,7 +80,7 @@ Prennent effet immédiatement, sans durée.
 
 | Événement | Poids | Effet |
 |-----------|-------|-------|
-| **Mutation d'élite** | 1 | Un ennemi aléatoire mute en puissante élite ! |
+| **Mutation d'élite** | 1 | Un ennemi aléatoire mute en puissante élite ! Il est marqué comme d'élite sur la carte. |
 | **Aventurier égaré** | 1 | Un aventurier de haut niveau arrive depuis les terres sauvages |
 | **Roue de la fortune** | 1 | Un événement aléatoire se déclenche ! |
 | **Éveil du héros** | 1 | Un aventurier aléatoire s'éveille en héros de façon permanente ! |

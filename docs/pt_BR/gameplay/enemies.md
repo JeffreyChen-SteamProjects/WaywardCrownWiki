@@ -26,7 +26,7 @@ Os inimigos surgem naturalmente em áreas selvagens pelo mapa, ameaçando seus a
 | **Bandido** | 100 | 7 | 4 | 1.1 | 26 | 16 | 3 | 12 | Planície | 2 |
 | **Harpia** | 95 | 11 | 3 | 1.8 | 36 | 18 | 3 | 14 | Planície | 3 |
 
-O Dragão, o Arqueiro goblin e o Cultista sombrio disparam projéteis (bolas de fogo, flechas e bolas de fogo); os demais atacam a até 3 tiles de distância.
+O Dragão, o Arqueiro goblin e o Cultista sombrio disparam projéteis (jatos de chamas, flechas toscas e orbes sombrios); os demais atacam a até 3 tiles de distância.
 
 Um inimigo dá um passo a cada 3 ÷ velocidade ticks, arredondado para baixo (no mínimo 1): a cada tick com velocidade 1.6 ou mais, a cada 2 ticks com 1.1–1.4, a cada 3 com 0.8–1.0, a cada 4 o Troll e a cada 5 com 0.6.
 
@@ -82,14 +82,14 @@ Os inimigos surgem com base no **tipo de terreno**:
 - **Deserto** — Espectros da areia
 
 :::note[Dragões]
-Os dragões e os trolls são os inimigos mais perigosos (nível de perigo 5). Com alcance de ataque de 16, 550 HP e projéteis de bola de fogo, a melhor forma de enfrentar os dragões é com aventureiros de longo alcance e torres de flechas; o Troll tem mais HP e ataque, mas precisa se aproximar.
+Os dragões e os trolls são os inimigos mais perigosos (nível de perigo 5). Com alcance de ataque de 16, 550 HP e jatos de chamas como projéteis, a melhor forma de enfrentar os dragões é com aventureiros de longo alcance e torres de flechas; o Troll tem mais HP e ataque, mas precisa se aproximar.
 :::
 
 ---
 
 ## Mecânicas Especiais do Dragão
 
-- **Ataque à Distância**: Alcance de ataque de 16, dispara projéteis de bola de fogo
+- **Ataque à Distância**: Alcance de ataque de 16, cospe jatos de chamas
 - **Alta Mobilidade**: Velocidade de 1.4, um passo a cada 2 ticks: tão rápido quanto Ratos gigantes, Aranhas gigantes e Bandidos; só Harpias e Lobos atrozes (um passo por tick) são mais rápidos
 - **Visão Ampla**: Alcance de visão de 32 tiles, capaz de detectar aventureiros a grande distância
 - **Evasão**: Todos os inimigos têm uma taxa de esquiva base de 5%

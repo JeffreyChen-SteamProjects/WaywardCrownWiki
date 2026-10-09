@@ -31,7 +31,7 @@ Gây áp lực lên người chơi trong thời gian diễn ra và yêu cầu ph
 | **Tổ rồng thức tỉnh** | 450 | 1 | Tổ rồng xuất hiện và sinh ra rồng. Phá hủy nó! |
 | **Đêm bị nguyền** | 300 | 2 | Kẻ thù nhanh hơn, nhưng XP tiêu diệt x2 |
 | **Động đất** | Tức thì | 1 | Công trình và lâu đài bị hư hại nặng, đường bị phá hủy |
-| **Kẻ phản bội** | Tức thì | 1 | Một nhà phiêu lưu ngẫu nhiên phản bội phường hội và trở thành kẻ thù! |
+| **Kẻ phản bội** | Tức thì | 1 | Một nhà phiêu lưu ngẫu nhiên phản bội phường hội và trở thành kẻ thù! Kẻ phản bội được đánh dấu là tinh nhuệ trên bản đồ. |
 | **Phường hội nổi loạn** | 400 | 2 | Một phường hội thù địch xuất hiện và sinh ra kẻ thù. Phá hủy nó! |
 | **Lạm phát** | 350 | 1 | Giá thuốc và trang bị tăng 50% |
 | **Phong ấn mana** | 250 | 1 | Pháp sư mất hết sức tấn công |
@@ -80,7 +80,7 @@ Có hiệu lực ngay lập tức, không có thời lượng.
 
 | Sự kiện | Trọng số | Hiệu ứng |
 |---------|----------|----------|
-| **Đột biến tinh anh** | 1 | Một kẻ thù ngẫu nhiên đột biến thành tinh anh mạnh mẽ! |
+| **Đột biến tinh anh** | 1 | Một kẻ thù ngẫu nhiên đột biến thành tinh anh mạnh mẽ! Nó được đánh dấu là tinh nhuệ trên bản đồ. |
 | **Nhà phiêu lưu lạc đường** | 1 | Một nhà phiêu lưu cấp cao gia nhập từ hoang dã |
 | **Bánh xe vận mệnh** | 1 | Một sự kiện ngẫu nhiên được kích hoạt! |
 | **Anh hùng thức tỉnh** | 1 | Một nhà phiêu lưu ngẫu nhiên thức tỉnh vĩnh viễn thành anh hùng! |

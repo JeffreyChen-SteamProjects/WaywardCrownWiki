@@ -31,7 +31,7 @@ These apply pressure on the player for their duration and require an active resp
 | **Dragon Nest Awakening** | 450 | 1 | A dragon nest appears and spawns dragons. Destroy it! |
 | **Cursed Night** | 300 | 2 | Enemies move faster, but kill XP is doubled |
 | **Earthquake** | Instant | 1 | Buildings and the castle take heavy damage, and roads are destroyed |
-| **Traitor** | Instant | 1 | A random adventurer betrays the guild and becomes an enemy! |
+| **Traitor** | Instant | 1 | A random adventurer betrays the guild and becomes an enemy! The turncoat is marked as an Elite on the map. |
 | **Rebel Guild** | 400 | 2 | A hostile guild appears and spawns enemies. Destroy it! |
 | **Inflation** | 350 | 1 | Potion and equipment prices increase by 50% |
 | **Mana Seal** | 250 | 1 | Mages lose all attack power |
@@ -80,7 +80,7 @@ Take effect immediately with no duration.
 
 | Event | Weight | Effect |
 |-------|--------|--------|
-| **Elite Mutation** | 1 | A random enemy mutates into a powerful elite! |
+| **Elite Mutation** | 1 | A random enemy mutates into a powerful elite! It is marked as an Elite on the map. |
 | **Lost Adventurer** | 1 | A high-level adventurer joins from the wilds |
 | **Wheel of Fortune** | 1 | A random event is triggered! |
 | **Hero Awakening** | 1 | A random adventurer permanently awakens as a hero! |

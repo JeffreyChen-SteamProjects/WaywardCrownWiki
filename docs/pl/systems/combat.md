@@ -51,15 +51,20 @@ Rzeczywiste obrażenia = max(1, Obrażenia - DEF)
 
 ## System pocisków
 
-Ataków pociskami używają tylko magowie i łowcy. Pozostałe klasy walczą wręcz, choć sięgają na 3 pola:
+Każda jednostka walcząca na dystans wystrzeliwuje własny pocisk, więc strzał rozpoznaje się po tym, co leci. Pozostałe klasy walczą wręcz, choć sięgają na 3 kafelki:
 
 | Klasa | Typ pocisku |
 |-------|------------|
-| Mag | Kula ognia (fireball) |
 | Łowca | Strzała (arrow) |
-| Smok (wróg) | Kula ognia (fireball) |
+| Tropiciel | Oszczep (javelin) |
+| Strażnik Traktów | Bełt kuszy (bolt) |
+| Mag | Kula ognia (fireball) |
+| Adept | Odłamek światła (light_shard) |
+| Goblin łucznik (wróg) | Prymitywna strzała (goblin_arrow) |
+| Mroczny kultysta (wróg) | Mroczna kula (dark_orb) |
+| Smok (wróg) | Struga ognia (dragon_flame) |
 
-Pociski lecą w kierunku celu co tick po wystrzeleniu i zadają obrażenia przy trafieniu.
+Pociski lecą w kierunku celu co tick po wystrzeleniu i zadają obrażenia przy trafieniu. Każdy jest rysowany zgodnie z kierunkiem lotu: ten, który leci w górę mapy, widać od tyłu, a ten, który leci w poprzek, z boku.
 
 ---
 

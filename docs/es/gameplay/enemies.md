@@ -26,7 +26,7 @@ Los enemigos aparecen naturalmente en las zonas salvajes del mapa, amenazando a 
 | **Bandido** | 100 | 7 | 4 | 1.1 | 26 | 16 | 3 | 12 | Pradera | 2 |
 | **Arpía** | 95 | 11 | 3 | 1.8 | 36 | 18 | 3 | 14 | Pradera | 3 |
 
-El Dragón, el Arquero goblin y el Cultista oscuro disparan proyectiles (bolas de fuego, flechas y bolas de fuego); los demás golpean desde un máximo de 3 casillas.
+El Dragón, el Arquero goblin y el Cultista oscuro disparan proyectiles (llamaradas, flechas toscas y orbes oscuros); los demás golpean desde un máximo de 3 casillas.
 
 Un enemigo da un paso cada 3 ÷ velocidad ticks, redondeado hacia abajo (al menos 1): cada tick con velocidad 1.6 o más, cada 2 ticks con 1.1–1.4, cada 3 con 0.8–1.0, cada 4 el Trol y cada 5 con 0.6.
 
@@ -82,14 +82,14 @@ Los enemigos aparecen según el **tipo de terreno**:
 - **Desierto** — Espectros de arena
 
 :::note[Dragones]
-Los dragones y los troles son los enemigos más peligrosos (nivel de peligro 5). Con un rango de ataque de 16, 550 HP y proyectiles de bola de fuego, lo mejor es enfrentar a los dragones con aventureros a distancia y torres de arqueros; el Trol tiene más HP y ataque, pero debe acercarse.
+Los dragones y los troles son los enemigos más peligrosos (nivel de peligro 5). Con un rango de ataque de 16, 550 HP y llamaradas como proyectiles, lo mejor es enfrentar a los dragones con aventureros a distancia y torres de arqueros; el Trol tiene más HP y ataque, pero debe acercarse.
 :::
 
 ---
 
 ## Mecánicas Especiales del Dragón
 
-- **Ataque a Distancia**: Rango de ataque de 16, dispara proyectiles de bola de fuego
+- **Ataque a Distancia**: Rango de ataque de 16, escupe llamaradas
 - **Alta Movilidad**: Velocidad de 1.4, un paso cada 2 ticks: tan rápido como las Ratas gigantes, las Arañas gigantes y los Bandidos; solo las Arpías y los Lobos huargos (un paso por tick) son más rápidos
 - **Visión Amplia**: Rango de visión de 32 casillas, capaz de detectar aventureros desde gran distancia
 - **Evasión**: Todos los enemigos tienen una tasa de esquiva base del 5%

@@ -31,7 +31,7 @@ Esercitano pressione sul giocatore per la loro durata e richiedono una risposta 
 | **Risveglio del nido di draghi** | 450 | 1 | Appare un nido di draghi che genera draghi. Distruggilo! |
 | **Notte maledetta** | 300 | 2 | Nemici più veloci, ma 2x XP per uccisione |
 | **Terremoto** | Istantaneo | 1 | Gli edifici e il castello subiscono gravi danni e le strade vengono distrutte |
-| **Traditore** | Istantaneo | 1 | Un avventuriero casuale tradisce la gilda e diventa un nemico! |
+| **Traditore** | Istantaneo | 1 | Un avventuriero casuale tradisce la gilda e diventa un nemico! Sulla mappa il traditore è contrassegnato come d'élite. |
 | **Gilda ribelle** | 400 | 2 | Appare una gilda ostile che genera nemici. Distruggila! |
 | **Inflazione** | 350 | 1 | Prezzi di pozioni ed equipaggiamento aumentati del 50% |
 | **Sigillo del mana** | 250 | 1 | I maghi perdono tutta la potenza d'attacco |
@@ -80,7 +80,7 @@ Hanno effetto immediato senza durata.
 
 | Evento | Peso | Effetto |
 |--------|------|---------|
-| **Mutazione élite** | 1 | Un nemico casuale muta in una potente élite! |
+| **Mutazione élite** | 1 | Un nemico casuale muta in una potente élite! Sulla mappa è contrassegnato come d'élite. |
 | **Avventuriero smarrito** | 1 | Un avventuriero di alto livello arriva dalle terre selvagge |
 | **Ruota della fortuna** | 1 | Viene attivato un evento casuale! |
 | **Risveglio dell'eroe** | 1 | Un avventuriero casuale si risveglia permanentemente come eroe! |

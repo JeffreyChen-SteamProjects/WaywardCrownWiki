@@ -31,7 +31,7 @@ Wywierają presję na gracza przez czas trwania i wymagają aktywnej reakcji.
 | **Przebudzenie smoczego gniazda** | 450 | 1 | Pojawia się smocze gniazdo tworzące smoki. Zniszcz je! |
 | **Przeklęta noc** | 300 | 2 | Szybsi wrogowie, ale 2x PD za zabicie |
 | **Trzęsienie ziemi** | Natychmiast | 1 | Budynki i zamek otrzymują ciężkie obrażenia, a drogi są niszczone |
-| **Zdrajca** | Natychmiast | 1 | Losowy bohater zdradza gildię i staje się wrogiem! |
+| **Zdrajca** | Natychmiast | 1 | Losowy bohater zdradza gildię i staje się wrogiem! Na mapie zdrajca jest oznaczony jako elitarny. |
 | **Zbuntowana gildia** | 400 | 2 | Pojawia się wroga gildia tworząca wrogów. Zniszcz ją! |
 | **Inflacja** | 350 | 1 | Ceny mikstur i ekwipunku wzrastają o 50% |
 | **Pieczęć many** | 250 | 1 | Magowie tracą całą moc ataku |
@@ -80,7 +80,7 @@ Działają natychmiast, bez czasu trwania.
 
 | Wydarzenie | Waga | Efekt |
 |------------|------|-------|
-| **Mutacja elity** | 1 | Losowy wróg mutuje w potężną elitę! |
+| **Mutacja elity** | 1 | Losowy wróg mutuje w potężną elitę! Na mapie jest oznaczony jako elitarny. |
 | **Zagubiony bohater** | 1 | Bohater wysokiego poziomu dołącza z dziczy |
 | **Koło fortuny** | 1 | Wywołane zostaje losowe wydarzenie! |
 | **Przebudzenie bohatera** | 1 | Losowy bohater budzi się na stałe jako heros! |

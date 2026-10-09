@@ -26,7 +26,7 @@ Enemies spawn naturally in wilderness areas across the map, threatening your adv
 | **Bandit** | 100 | 7 | 4 | 1.1 | 26 | 16 | 3 | 12 | Grass | 2 |
 | **Harpy** | 95 | 11 | 3 | 1.8 | 36 | 18 | 3 | 14 | Grass | 3 |
 
-The Dragon, Goblin Archer and Dark Cultist fire projectiles (fireballs, arrows and fireballs); the others strike from up to 3 tiles away.
+The Dragon, Goblin Archer and Dark Cultist fire projectiles (gouts of flame, crude arrows and dark orbs); the others strike from up to 3 tiles away.
 
 An enemy steps once every 3 ÷ speed ticks, rounded down (at least 1): every tick at speed 1.6 and above, every 2 ticks at 1.1–1.4, every 3 at 0.8–1.0, every 4 for the Troll and every 5 at 0.6.
 
@@ -82,14 +82,14 @@ Enemies spawn based on **terrain type**:
 - **Desert** — Sand Wraiths
 
 :::note[Dragons]
-Dragons and Trolls are the most dangerous enemies (danger level 5). With an attack range of 16, 550 HP, and fireball projectiles, Dragons are best dealt with using ranged adventurers and arrow towers; the Troll has more HP and attack but must close in.
+Dragons and Trolls are the most dangerous enemies (danger level 5). With an attack range of 16, 550 HP, and gouts of flame for projectiles, Dragons are best dealt with using ranged adventurers and arrow towers; the Troll has more HP and attack but must close in.
 :::
 
 ---
 
 ## Dragon Special Mechanics
 
-- **Ranged Attack**: Attack range of 16, fires fireball projectiles
+- **Ranged Attack**: Attack range of 16, breathes gouts of flame
 - **High Mobility**: Speed of 1.4, a step every 2 ticks: as fast as Giant Rats, Giant Spiders and Bandits; only Harpies and Dire Wolves (a step every tick) are faster
 - **Wide Vision**: 32-tile vision range, able to spot adventurers from a great distance
 - **Evasion**: All enemies have a base 5% dodge rate

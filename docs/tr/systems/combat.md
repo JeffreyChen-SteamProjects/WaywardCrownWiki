@@ -51,15 +51,20 @@ Gerçek Hasar = max(1, Hasar - DEF)
 
 ## Mermi Sistemi
 
-Mermi saldırısını yalnızca Büyücüler ve Kolcular kullanır. Diğer sınıflar menzilleri 3 karo olsa da yakın dövüşte savaşır:
+Uzaktan savaşan her birim kendine özgü bir mermi fırlatır; böylece bir atış, uçan şeye bakılarak tanınır. Diğer sınıflar 3 karoya ulaşsa da yakın dövüşte savaşır:
 
 | Sınıf | Mermi Türü |
 |-------|------------|
-| Büyücü | Ateş Topu (fireball) |
 | Kolcu | Ok (arrow) |
-| Ejderha (düşman) | Ateş Topu (fireball) |
+| İz Sürücü | Cirit (javelin) |
+| Yol Bekçisi | Arbalet oku (bolt) |
+| Büyücü | Ateş topu (fireball) |
+| Tılsım Ustası | Işık kıymığı (light_shard) |
+| Goblin Okçu (düşman) | Kaba ok (goblin_arrow) |
+| Karanlık Tarikatçı (düşman) | Karanlık küre (dark_orb) |
+| Ejderha (düşman) | Alev püskürtüsü (dragon_flame) |
 
-Mermiler ateşlendikten sonra her tick'te hedefe doğru ilerler ve isabet ettiğinde hasar verirler.
+Mermiler ateşlendikten sonra her tick'te hedefe doğru ilerler ve isabet ettiğinde hasar verirler. Her biri uçtuğu yöne göre çizilir: haritada yukarı doğru uçan arkadan, enine uçan yandan görünür.
 
 ---
 

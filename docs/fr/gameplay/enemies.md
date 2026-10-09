@@ -26,7 +26,7 @@ Les ennemis apparaissent naturellement dans les zones sauvages à travers la car
 | **Bandit** | 100 | 7 | 4 | 1,1 | 26 | 16 | 3 | 12 | Prairie | 2 |
 | **Harpie** | 95 | 11 | 3 | 1,8 | 36 | 18 | 3 | 14 | Prairie | 3 |
 
-Le Dragon, l'Archer gobelin et le Cultiste sombre tirent des projectiles (boules de feu, flèches et boules de feu) ; les autres frappent à 3 cases au maximum.
+Le Dragon, l'Archer gobelin et le Cultiste sombre tirent des projectiles (jets de flammes, flèches grossières et orbes sombres) ; les autres frappent à 3 cases au maximum.
 
 Un ennemi fait un pas tous les 3 ÷ vitesse ticks, arrondi à l'inférieur (au moins 1) : à chaque tick à partir d'une vitesse de 1,6, tous les 2 ticks entre 1,1 et 1,4, tous les 3 entre 0,8 et 1,0, tous les 4 pour le Troll et tous les 5 à 0,6.
 
@@ -82,14 +82,14 @@ Les ennemis apparaissent en fonction du **type de terrain** :
 - **Désert** — Spectres des sables
 
 :::note[Dragons]
-Les Dragons et les Trolls sont les ennemis les plus dangereux (niveau de danger 5). Avec une portée d'attaque de 16, 550 HP et des projectiles de boule de feu, les Dragons sont mieux gérés avec des aventuriers à distance et des tours à flèches ; le Troll a plus de HP et d'attaque, mais doit s'approcher.
+Les Dragons et les Trolls sont les ennemis les plus dangereux (niveau de danger 5). Avec une portée d'attaque de 16, 550 HP et des jets de flammes pour projectiles, les Dragons sont mieux gérés avec des aventuriers à distance et des tours à flèches ; le Troll a plus de HP et d'attaque, mais doit s'approcher.
 :::
 
 ---
 
 ## Mécaniques spéciales du dragon
 
-- **Attaque à distance** : Portée d'attaque de 16, tire des projectiles de boule de feu
+- **Attaque à distance** : Portée d'attaque de 16, crache des jets de flammes
 - **Haute mobilité** : Vitesse de 1,4, un pas tous les 2 ticks : aussi rapide que les Rats géants, les Araignées géantes et les Bandits ; seuls les Harpies et les Loups sinistres (un pas par tick) sont plus rapides
 - **Vision étendue** : Portée de vision de 32 cases, capable de repérer les aventuriers à grande distance
 - **Esquive** : Tous les ennemis ont un taux d'esquive de base de 5%

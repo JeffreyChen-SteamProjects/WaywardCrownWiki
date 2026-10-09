@@ -26,7 +26,7 @@ I nemici appaiono naturalmente nelle aree selvagge della mappa, minacciando i tu
 | **Bandito** | 100 | 7 | 4 | 1,1 | 26 | 16 | 3 | 12 | Prateria | 2 |
 | **Arpia** | 95 | 11 | 3 | 1,8 | 36 | 18 | 3 | 14 | Prateria | 3 |
 
-Il Drago, l'Arciere goblin e il Cultista oscuro scagliano proiettili (palle di fuoco, frecce e palle di fuoco); gli altri colpiscono fino a 3 caselle di distanza.
+Il Drago, l'Arciere goblin e il Cultista oscuro scagliano proiettili (vampate di fuoco, frecce rozze e globi oscuri); gli altri colpiscono fino a 3 caselle di distanza.
 
 Un nemico fa un passo ogni 3 ÷ velocità tick, arrotondato per difetto (almeno 1): a ogni tick da velocità 1,6 in su, ogni 2 tick tra 1,1 e 1,4, ogni 3 tra 0,8 e 1,0, ogni 4 per il Troll e ogni 5 a 0,6.
 
@@ -82,14 +82,14 @@ I nemici appaiono in base al **tipo di terreno**:
 - **Deserto** — Spettri delle sabbie
 
 :::note[Draghi]
-Draghi e Troll sono i nemici più pericolosi (livello di pericolo 5). Con una gittata d'attacco di 16, 550 HP e proiettili palle di fuoco, è meglio affrontare i Draghi con avventurieri a distanza e torri di frecce; il Troll ha più HP e attacco, ma deve avvicinarsi.
+Draghi e Troll sono i nemici più pericolosi (livello di pericolo 5). Con una gittata d'attacco di 16, 550 HP e vampate di fuoco come proiettili, è meglio affrontare i Draghi con avventurieri a distanza e torri di frecce; il Troll ha più HP e attacco, ma deve avvicinarsi.
 :::
 
 ---
 
 ## Meccaniche speciali del drago
 
-- **Attacco a distanza**: Gittata d'attacco di 16, lancia proiettili palle di fuoco
+- **Attacco a distanza**: Gittata d'attacco di 16, sputa vampate di fuoco
 - **Alta mobilità**: Velocità di 1,4, un passo ogni 2 tick: veloce quanto Ratti giganti, Ragni giganti e Banditi; solo Arpie e Lupi crudeli (un passo a ogni tick) sono più veloci
 - **Visione ampia**: Raggio visivo di 32 caselle, in grado di avvistare avventurieri a grande distanza
 - **Evasione**: Tutti i nemici hanno un tasso base di schivata del 5%

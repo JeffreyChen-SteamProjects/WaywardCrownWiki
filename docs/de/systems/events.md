@@ -31,7 +31,7 @@ Diese setzen den Spieler für ihre Dauer unter Druck und erfordern eine aktive R
 | **Erwachen des Drachennests** | 450 | 1 | Ein Drachennest erscheint und gebiert Drachen. Zerstöre es! |
 | **Verfluchte Nacht** | 300 | 2 | Schnellere Feinde, aber doppelte Tötungs-EP |
 | **Erdbeben** | Sofort | 1 | Gebäude und die Burg nehmen schweren Schaden, Straßen werden zerstört |
-| **Verräter** | Sofort | 1 | Ein zufälliger Held verrät die Gilde und wird zum Feind! |
+| **Verräter** | Sofort | 1 | Ein zufälliger Held verrät die Gilde und wird zum Feind! Der Verräter wird auf der Karte als Elite gekennzeichnet. |
 | **Rebellengilde** | 400 | 2 | Eine feindliche Gilde erscheint und gebiert Feinde. Zerstöre sie! |
 | **Inflation** | 350 | 1 | Trank- und Ausrüstungspreise steigen um 50% |
 | **Mana-Siegel** | 250 | 1 | Magier verlieren ihre gesamte Angriffskraft |
@@ -80,7 +80,7 @@ Treten sofort in Kraft, ohne Dauer.
 
 | Ereignis | Gewicht | Effekt |
 |----------|---------|--------|
-| **Elite-Mutation** | 1 | Ein zufälliger Feind mutiert zu einem mächtigen Eliteexemplar! |
+| **Elite-Mutation** | 1 | Ein zufälliger Feind mutiert zu einem mächtigen Eliteexemplar! Er wird auf der Karte als Elite gekennzeichnet. |
 | **Verirrter Held** | 1 | Ein hochstufiger Held kommt aus der Wildnis hinzu |
 | **Glücksrad** | 1 | Ein zufälliges Ereignis wird ausgelöst! |
 | **Heldenerwachen** | 1 | Ein zufälliger Held erwacht dauerhaft als wahrer Held! |
