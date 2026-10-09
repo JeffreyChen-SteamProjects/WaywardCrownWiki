@@ -18,6 +18,8 @@ Nút **Trình chỉnh sửa bản đồ** ở menu chính mở trình chỉnh s�
 - **Hoàn tác / Làm lại** — Tối đa 30 bước (Ctrl+Z / Ctrl+Y)
 - **Cài đặt bản đồ** — Kích thước (100 – 1000 ô mỗi cạnh), tên, tác giả và các thông tin khác, số vàng khởi đầu và một điều kiện chiến thắng
 - **Lưu/Tải** — Lưu bản đồ vào thư mục `maps/`; Đóng, Esc và Mới sẽ hỏi trước khi bỏ các thay đổi chưa lưu (Lưu / Bỏ / Hủy), và bỏ một chiến dịch chưa từng lưu sẽ xóa luôn thư mục của nó
+- **Đối tượng…** — Chỉnh sửa trong trình biên tập đối tượng các lớp anh hùng, quái vật, công trình, căn cứ và trùm được làm cho bản đồ. Lần đầu, nó tạo gói nội dung của bản đồ (một plugin của riêng bạn mà bản đồ yêu cầu); lưu gói sẽ nạp lại nội dung, nên những gì gói định nghĩa có thể đặt ngay
+- **Chơi thử** — Bắt đầu bản đồ đã lưu, hoặc chiến dịch ở màn đang chỉnh sửa, trong một ván riêng, với gói nội dung của nó và không kèm nội dung nào khác của bạn
 
 Bản đồ không chứa đơn vị nào: nhà phiêu lưu được tuyển mộ và kẻ thù xuất hiện khi trò chơi bắt đầu chạy.
 
@@ -84,3 +86,4 @@ campaigns/my_campaign/
 - Đặt bản đồ nhận được vào `maps/` để tải từ menu chính
 - Đặt chiến dịch nhận được vào `campaigns/` để thấy trong menu chính
 - Khi chạy trò chơi qua Steam, nút **Đăng lên Workshop** của trình quản lý bản đồ đưa bản đồ hoặc chiến dịch của bạn lên Steam Workshop, còn những mục bạn đăng ký sẽ hiện trong danh sách với dấu [Workshop]. Steam tự cập nhật chúng nên không thể sửa, đổi tên hay xóa; **Nhân bản** để có bản đồ của riêng bạn
+- Bản đồ hoặc chiến dịch có gói nội dung sẽ yêu cầu plugin đó: hãy chia sẻ gói cùng với nó và phát hành gói trước (cửa sổ phát hành khi đó sẽ gợi ý vật phẩm Workshop của gói làm vật phẩm bắt buộc)

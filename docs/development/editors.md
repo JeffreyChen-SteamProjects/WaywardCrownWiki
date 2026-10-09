@@ -18,6 +18,8 @@ The main menu's **Map Editor** button opens the editor on a new map. Saved maps 
 - **Undo / Redo** — Up to 30 steps (Ctrl+Z / Ctrl+Y)
 - **Map Settings** — Size (100 – 1000 tiles per side), name, author and other details, starting gold and a victory condition
 - **Save/Load** — Save maps to the `maps/` directory; Close, Esc and New ask before dropping unsaved changes (Save / Discard / Cancel), and discarding a campaign that was never saved removes its folder again
+- **Objects…** — Edit the hero classes, monsters, buildings, strongholds and bosses made for the map in the object editor. The first time, it makes the map's content pack (a plugin of your own that the map requires); saving the pack loads the content again, so what it defines can be placed at once
+- **Test play** — Start the saved map, or the campaign at the level being edited, in a game of its own, with its content pack and nothing else of yours
 
 Maps hold no units: adventurers are recruited and enemies spawn once the game runs.
 
@@ -84,3 +86,4 @@ campaigns/my_campaign/
 - Place received maps into `maps/` to load them from the main menu
 - Place received campaigns into `campaigns/` to see them in the main menu
 - When the game runs through Steam, the map manager's **Publish to Workshop** puts one of your maps or campaigns on the Steam Workshop, and the ones you subscribe to appear in its lists marked [Workshop]. Steam keeps those up to date, so they cannot be edited, renamed or deleted; **Duplicate** makes a map of your own
+- A map or campaign with a content pack requires that plugin: share the pack with it, and publish the pack first (the publish window then suggests the pack's Workshop item as a required item)

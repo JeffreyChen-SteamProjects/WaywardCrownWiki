@@ -18,6 +18,8 @@ O botão **Editor de Mapas** do menu principal abre o editor em um mapa novo. Os
 - **Desfazer / Refazer** — Até 30 passos (Ctrl+Z / Ctrl+Y)
 - **Configurações do Mapa** — Tamanho (100 – 1000 tiles por lado), nome, autor e outros detalhes, ouro inicial e uma condição de vitória
 - **Salvar/Carregar** — Salve mapas no diretório `maps/`; Fechar, Esc e Novo perguntam antes de descartar alterações não salvas (Salvar / Descartar / Cancelar), e descartar uma campanha nunca salva remove a pasta dela
+- **Objetos…** — Edite no editor de objetos as classes de herói, monstros, construções, fortalezas e chefes feitos para o mapa. Na primeira vez, ele cria o pacote de conteúdo do mapa (um plugin seu que o mapa exige); salvar o pacote recarrega o conteúdo, então o que ele define já pode ser colocado
+- **Testar** — Inicia o mapa salvo, ou a campanha na fase que está sendo editada, em um jogo próprio, com o pacote de conteúdo dele e nada mais seu
 
 Os mapas não contêm unidades: os aventureiros são recrutados e os inimigos surgem quando o jogo está rodando.
 
@@ -84,3 +86,4 @@ campaigns/my_campaign/
 - Coloque os mapas recebidos em `maps/` para carregá-los pelo menu principal
 - Coloque as campanhas recebidas em `campaigns/` para vê-las no menu principal
 - Com o jogo rodando pelo Steam, **Publicar na Oficina** no gerenciador de mapas envia um mapa ou campanha seu para a Oficina Steam, e os que você assina aparecem nas listas marcados com [Oficina]. O Steam os mantém atualizados, então não podem ser editados, renomeados nem excluídos; **Duplicar** cria um mapa seu
+- Um mapa ou uma campanha com pacote de conteúdo exige esse plugin: compartilhe o pacote junto e publique o pacote primeiro (a janela de publicação então sugere o item da Oficina do pacote como item necessário)

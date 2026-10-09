@@ -18,6 +18,8 @@ Le bouton **Éditeur de cartes** du menu principal ouvre l'éditeur sur une nouv
 - **Annuler / Rétablir** — Jusqu'à 30 étapes (Ctrl+Z / Ctrl+Y)
 - **Paramètres de la carte** — Taille (100 – 1000 cases de côté), nom, auteur et autres détails, or de départ et une condition de victoire
 - **Sauvegarder/Charger** — Sauvegardez les cartes dans le répertoire `maps/` ; Fermer, Échap et Nouveau demandent avant d'abandonner des modifications non enregistrées (Enregistrer / Abandonner / Annuler), et abandonner une campagne jamais enregistrée supprime son dossier
+- **Objets…** — Modifiez dans l'éditeur d'objets les classes de héros, monstres, bâtiments, forteresses et boss créés pour la carte. La première fois, il crée le pack de contenu de la carte (un plugin à vous que la carte exige) ; enregistrer le pack recharge le contenu, ce qu'il définit peut donc être placé aussitôt
+- **Tester** — Lance la carte enregistrée, ou la campagne au niveau en cours d'édition, dans une partie à part, avec son pack de contenu et rien d'autre de vos contenus
 
 Les cartes ne contiennent aucune unité : les aventuriers sont recrutés et les ennemis apparaissent une fois la partie lancée.
 
@@ -84,3 +86,4 @@ campaigns/my_campaign/
 - Placez les cartes reçues dans `maps/` pour les charger depuis le menu principal
 - Placez les campagnes reçues dans `campaigns/` pour les voir dans le menu principal
 - Quand le jeu tourne avec Steam, **Publier sur le Workshop** du gestionnaire de cartes met l'une de vos cartes ou campagnes sur le Workshop Steam, et celles auxquelles vous êtes abonné apparaissent dans ses listes marquées [Workshop]. Steam les tient à jour : elles ne peuvent être ni modifiées, ni renommées, ni supprimées ; **Dupliquer** crée votre propre carte
+- Une carte ou une campagne avec un pack de contenu exige ce plugin : partagez le pack avec elle et publiez d'abord le pack (la fenêtre de publication propose alors l'élément Workshop du pack comme élément requis)

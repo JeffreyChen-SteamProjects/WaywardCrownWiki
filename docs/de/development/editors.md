@@ -18,6 +18,8 @@ Die Schaltfläche **Karteneditor** im Hauptmenü öffnet den Editor mit einer ne
 - **Rückgängig / Wiederholen** — Bis zu 30 Schritte (Ctrl+Z / Ctrl+Y)
 - **Karteneinstellungen** — Größe (100 – 1000 Felder pro Seite), Name, Autor und weitere Angaben, Startgold und eine Siegbedingung
 - **Speichern/Laden** — Speichere Karten im Verzeichnis `maps/`; Schließen, Esc und Neu fragen vor dem Verwerfen ungespeicherter Änderungen (Speichern / Verwerfen / Abbrechen), und das Verwerfen einer nie gespeicherten Kampagne entfernt ihren Ordner wieder
+- **Objekte…** — Bearbeite im Objekteditor die Heldenklassen, Monster, Gebäude, Festungen und Bosse, die für die Karte gemacht wurden. Beim ersten Mal legt er das Inhaltspaket der Karte an (ein eigenes Plugin, das die Karte voraussetzt); beim Speichern des Pakets wird der Inhalt neu geladen, sodass sich das Definierte sofort platzieren lässt
+- **Testspiel** — Startet die gespeicherte Karte oder die Kampagne am gerade bearbeiteten Level in einem eigenen Spiel, mit ihrem Inhaltspaket und sonst nichts von dir
 
 Karten enthalten keine Einheiten: Abenteurer werden rekrutiert und Feinde erscheinen, sobald das Spiel läuft.
 
@@ -84,3 +86,4 @@ campaigns/my_campaign/
 - Erhaltene Karten in `maps/` ablegen, um sie im Hauptmenü laden zu können
 - Erhaltene Kampagnen in `campaigns/` ablegen, um sie im Hauptmenü anzuzeigen
 - Läuft das Spiel über Steam, stellt **Im Workshop veröffentlichen** in der Kartenverwaltung eine eigene Karte oder Kampagne in den Steam Workshop, und abonnierte erscheinen in ihren Listen mit der Markierung [Workshop]. Steam hält sie aktuell, deshalb lassen sie sich nicht bearbeiten, umbenennen oder löschen; **Duplizieren** erstellt eine eigene Karte
+- Eine Karte oder Kampagne mit Inhaltspaket setzt dieses Plugin voraus: Gib das Paket mit weiter und veröffentliche es zuerst (das Veröffentlichungsfenster schlägt dann das Workshop-Objekt des Pakets als erforderliches Objekt vor)

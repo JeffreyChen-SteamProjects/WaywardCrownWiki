@@ -18,6 +18,8 @@ Ana menüdeki **Harita Editörü** düğmesi editörü yeni bir haritayla açar.
 - **Geri Al / Yinele** — En fazla 30 adım (Ctrl+Z / Ctrl+Y)
 - **Harita Ayarları** — Boyut (kenar başına 100 – 1000 karo), ad, yazar ve diğer ayrıntılar, başlangıç altını ve bir zafer koşulu
 - **Kaydet/Yükle** — Haritaları `maps/` dizinine kaydedin; Kapat, Esc ve Yeni kaydedilmemiş değişiklikleri atmadan önce sorar (Kaydet / At / İptal) ve hiç kaydedilmemiş bir seferi atmak klasörünü de siler
+- **Nesneler…** — Harita için yapılan kahraman sınıflarını, canavarları, binaları, kaleleri ve bossları nesne editöründe düzenleyin. İlk seferde haritanın içerik paketini (haritanın gerekli kıldığı kendi eklentinizi) oluşturur; paketi kaydetmek içeriği yeniden yükler, böylece tanımladıkları hemen yerleştirilebilir
+- **Deneme oyunu** — Kaydedilmiş haritayı ya da düzenlenen bölümdeki kampanyayı, içerik paketiyle ve başka hiçbir içeriğiniz olmadan ayrı bir oyunda başlatır
 
 Haritalar birim içermez: maceraperestler oyun çalışmaya başlayınca işe alınır ve düşmanlar o zaman doğar.
 
@@ -84,3 +86,4 @@ campaigns/my_campaign/
 - Alınan haritaları ana menüden yüklemek için `maps/` dizinine yerleştirin
 - Alınan kampanyaları ana menüde görmek için `campaigns/` dizinine yerleştirin
 - Oyun Steam üzerinden çalışırken harita yöneticisindeki **Atölyede yayınla** haritalarından veya kampanyalarından birini Steam Atölyesi'ne koyar; abone olduklarınız listelerinde [Atölye] işaretiyle görünür. Bunları Steam güncel tuttuğu için düzenlenemez, yeniden adlandırılamaz ve silinemezler; **Kopyala** kendi haritanı oluşturur
+- İçerik paketi olan bir harita ya da kampanya o eklentiyi gerektirir: paketi onunla birlikte paylaşın ve önce paketi yayımlayın (yayımlama penceresi o zaman paketin Atölye öğesini gerekli öğe olarak önerir)

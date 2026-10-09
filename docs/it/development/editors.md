@@ -18,6 +18,8 @@ Il pulsante **Editor mappe** del menu principale apre l'editor su una nuova mapp
 - **Annulla / Ripeti** — Fino a 30 passi (Ctrl+Z / Ctrl+Y)
 - **Impostazioni mappa** — Dimensione (100 – 1000 caselle per lato), nome, autore e altri dettagli, oro iniziale e una condizione di vittoria
 - **Salva/Carica** — Salva le mappe nella directory `maps/`; Chiudi, Esc e Nuovo chiedono prima di scartare le modifiche non salvate (Salva / Scarta / Annulla), e scartare una campagna mai salvata ne rimuove la cartella
+- **Oggetti…** — Modifica nell'editor di oggetti le classi di eroe, i mostri, gli edifici, le roccaforti e i boss creati per la mappa. La prima volta crea il pacchetto di contenuti della mappa (un tuo plugin che la mappa richiede); salvando il pacchetto i contenuti vengono ricaricati, così ciò che definisce si può piazzare subito
+- **Prova** — Avvia la mappa salvata, o la campagna al livello che stai modificando, in una partita a sé, con il suo pacchetto di contenuti e nient'altro di tuo
 
 Le mappe non contengono unità: gli avventurieri vengono reclutati e i nemici appaiono una volta avviata la partita.
 
@@ -84,3 +86,4 @@ campaigns/my_campaign/
 - Posiziona le mappe ricevute in `maps/` per caricarle dal menu principale
 - Posiziona le campagne ricevute in `campaigns/` per visualizzarle nel menu principale
 - Se il gioco è avviato da Steam, **Pubblica nel Workshop** del gestore mappe mette una tua mappa o campagna nello Steam Workshop, e quelle a cui sei iscritto compaiono nei suoi elenchi contrassegnate con [Workshop]. Steam le mantiene aggiornate, quindi non si possono modificare, rinominare né eliminare; **Duplica** crea una mappa tua
+- Una mappa o una campagna con un pacchetto di contenuti richiede quel plugin: condividi il pacchetto insieme a essa e pubblica prima il pacchetto (la finestra di pubblicazione propone poi l'elemento Workshop del pacchetto come elemento richiesto)

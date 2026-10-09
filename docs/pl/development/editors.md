@@ -18,6 +18,8 @@ Przycisk **Edytor map** w menu głównym otwiera edytor z nową mapą. Zapisane 
 - **Cofnij / Ponów** — Do 30 kroków (Ctrl+Z / Ctrl+Y)
 - **Ustawienia mapy** — Rozmiar (100 – 1000 kafelków na bok), nazwa, autor i inne szczegóły, początkowe złoto i warunek zwycięstwa
 - **Zapisz/Wczytaj** — Zapisuj mapy do katalogu `maps/`; Zamknij, Esc i Nowy pytają przed porzuceniem niezapisanych zmian (Zapisz / Odrzuć / Anuluj), a odrzucenie nigdy niezapisanej kampanii usuwa jej folder
+- **Obiekty…** — Edytuj w edytorze obiektów klasy bohaterów, potwory, budynki, twierdze i bossów stworzonych dla mapy. Za pierwszym razem tworzy pakiet zawartości mapy (twoją wtyczkę, której mapa wymaga); zapisanie pakietu wczytuje zawartość ponownie, więc to, co definiuje, można od razu stawiać
+- **Test** — Uruchamia zapisaną mapę albo kampanię na edytowanym poziomie w osobnej grze, z jej pakietem zawartości i niczym więcej z twoich rzeczy
 
 Mapy nie zawierają jednostek: poszukiwacze przygód są rekrutowani, a wrogowie pojawiają się dopiero po uruchomieniu gry.
 
@@ -84,3 +86,4 @@ campaigns/my_campaign/
 - Umieść otrzymane mapy w katalogu `maps/`, aby wczytać je z menu głównego
 - Umieść otrzymane kampanie w katalogu `campaigns/`, aby pojawiły się w menu głównym
 - Gdy gra działa przez Steam, przycisk **Opublikuj w Warsztacie** w menedżerze map umieszcza Twoją mapę lub kampanię w Warsztacie Steam, a subskrybowane pojawiają się na jego listach z oznaczeniem [Warsztat]. Steam dba o ich aktualizacje, więc nie można ich edytować, zmieniać nazwy ani usuwać; **Duplikuj** tworzy własną mapę
+- Mapa albo kampania z pakietem zawartości wymaga tej wtyczki: udostępniaj pakiet razem z nią, a publikuj najpierw pakiet (okno publikacji zaproponuje wtedy element Warsztatu pakietu jako wymagany)
