@@ -117,6 +117,7 @@ Font apparaître des structures persistantes sur la carte.
 - Maintenez en permanence une défense composée de Gardes et de Tours à flèches
 - Pendant les événements d'invasion, assurez-vous d'avoir suffisamment de puissance de combat autour du Château
 - Envoyez des expéditions de primes pour détruire les Nids de dragons et les Guildes rebelles le plus rapidement possible
+- Les deux sont indiqués sur la carte dès leur apparition : cliquez dessus pour voir leurs points de vie, et mettez-y une prime « Tuer » pour envoyer des héros les raser
 :::
 
 :::tip[Tirer parti des événements bénéfiques]

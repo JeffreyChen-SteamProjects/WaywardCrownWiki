@@ -26,6 +26,7 @@ Le roccaforti nemiche sono basi nemiche sparse per la mappa. Mantengono guardie 
 | **Caverna del troll** | Troll | 13 caselle | -- |
 | **Tana dei ratti** | Ratto gigante | 9 caselle | -- |
 | **Nido delle arpie** | Arpia | 11 caselle | -- |
+| **Gilda ribelle** | Bandito | 9 caselle | Solo tramite evento |
 
 :::note[Una per mappa]
 La Fortezza goblin e il Castello dei non-morti possono apparire al massimo una volta sull'intera mappa.

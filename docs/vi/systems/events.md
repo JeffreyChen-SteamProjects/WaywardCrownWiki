@@ -117,6 +117,7 @@ Tạo ra các cấu trúc bản đồ lâu dài.
 - Luôn duy trì lực lượng phòng thủ gồm Vệ binh và Tháp bắn tên
 - Trong các sự kiện xâm lăng, đảm bảo có đủ sức chiến đấu xung quanh Lâu đài
 - Gửi lệnh truy nã để phá hủy Hang Rồng và Phường hội nổi loạn càng sớm càng tốt
+- Cả hai đều được đánh dấu trên bản đồ ngay khi xuất hiện: nhấp vào để xem máu, và đặt lệnh «Tiêu diệt» lên nó để cử anh hùng đến san phẳng
 :::
 
 :::tip[Tận dụng sự kiện tăng cường]

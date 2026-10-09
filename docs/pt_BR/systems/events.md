@@ -117,6 +117,7 @@ Geram estruturas persistentes no mapa.
 - Mantenha uma defesa permanente de Guardas e Torres de Flechas em todos os momentos
 - Durante eventos de invasão, certifique-se de ter poder de combate suficiente ao redor do Castelo
 - Envie expedições de recompensa para destruir Ninhos de Dragão e Guildas Rebeldes o mais rápido possível
+- Ambos são marcados no mapa assim que aparecem: clique em um para ver sua vida e ponha uma recompensa «Matar» nele para enviar heróis para arrasá-lo
 :::
 
 :::tip[Aproveitamento de Benefícios]

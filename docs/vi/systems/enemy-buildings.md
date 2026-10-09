@@ -26,6 +26,7 @@ Căn cứ kẻ thù là các cơ sở của kẻ thù nằm rải rác trên b�
 | **Hang Troll** | Troll | 13 ô | -- |
 | **Ổ Chuột** | Chuột khổng lồ | 9 ô | -- |
 | **Tổ Harpy** | Harpy | 11 ô | -- |
+| **Phường hội nổi loạn** | Thổ phỉ | 9 ô | Chỉ từ sự kiện |
 
 :::note[Một trên mỗi bản đồ]
 Pháo đài Goblin và Lâu đài Bất tử chỉ có thể xuất hiện tối đa một lần trên toàn bộ bản đồ.

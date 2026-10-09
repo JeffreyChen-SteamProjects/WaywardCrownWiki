@@ -117,6 +117,7 @@ Erzeugen dauerhafte Kartenstrukturen.
 - Halte stets eine stehende Verteidigung aus Wachen und Pfeiltürmen bereit
 - Während Invasionsereignissen sollte genügend Kampfkraft rund um die Burg vorhanden sein
 - Sende Auftragsexpeditionen, um Drachennester und Rebellengilden so schnell wie möglich zu zerstören
+- Beide werden sofort bei ihrem Erscheinen auf der Karte markiert: Klicke eines an, um seine Lebenspunkte zu sehen, und setze einen Auftrag „Töten“ darauf aus, damit Helden es schleifen
 :::
 
 :::tip[Buffs nutzen]

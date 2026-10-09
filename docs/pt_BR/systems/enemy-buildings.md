@@ -26,6 +26,7 @@ As Fortalezas Inimigas são bases inimigas espalhadas pelo mapa. Elas mantêm gu
 | **Caverna do Troll** | Troll | 13 tiles | -- |
 | **Toca de Ratos** | Rato gigante | 9 tiles | -- |
 | **Ninho de Harpias** | Harpia | 11 tiles | -- |
+| **Guilda Rebelde** | Bandido | 9 tiles | Somente por evento |
 
 :::note[Uma por Mapa]
 A Fortaleza Goblin e o Castelo dos Mortos-Vivos podem aparecer no máximo uma vez em todo o mapa.

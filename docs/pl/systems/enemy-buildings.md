@@ -26,6 +26,7 @@ Twierdze wrogów to bazy wroga rozmieszczone na mapie. Utrzymują własnych stra
 | **Jaskinia trolla** | Troll | 13 pól | -- |
 | **Szczurza nora** | Olbrzymi szczur | 9 pól | -- |
 | **Gniazdo harpii** | Harpia | 11 pól | -- |
+| **Zbuntowana gildia** | Bandyta | 9 pól | Tylko z wydarzenia |
 
 :::note[Jeden na mapę]
 Forteca goblinów i Zamek nieumarłych mogą pojawić się najwyżej raz na całej mapie.

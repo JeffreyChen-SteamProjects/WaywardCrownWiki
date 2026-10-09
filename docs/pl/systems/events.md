@@ -117,6 +117,7 @@ Tworzą trwałe struktury na mapie.
 - Utrzymuj stałą obronę ze Strażników i Wież strzelniczych przez cały czas
 - Podczas wydarzeń inwazji upewnij się, że wokół Zamku jest wystarczająca siła bojowa
 - Wysyłaj ekspedycje ze zleceniami, aby jak najszybciej zniszczyć Gniazda smoka i Zbuntowane gildie
+- Oba są zaznaczane na mapie od razu po pojawieniu się: kliknij jedno z nich, by zobaczyć jego zdrowie, i wyznacz na nie zlecenie „Zabij”, by wysłać bohaterów do jego zburzenia
 :::
 
 :::tip[Wykorzystanie wzmocnień]

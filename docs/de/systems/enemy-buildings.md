@@ -26,6 +26,7 @@ Feindliche Festungen sind über die Karte verstreute Feindbasen. Sie halten eige
 | **Trollhöhle** | Troll | 13 Felder | -- |
 | **Rattenbau** | Riesenratte | 9 Felder | -- |
 | **Harpyienhorst** | Harpyie | 11 Felder | -- |
+| **Rebellengilde** | Bandit | 9 Felder | Nur durch Ereignis |
 
 :::note[Einmal pro Karte]
 Die Goblinfestung und die Untotenborg können jeweils höchstens einmal auf der gesamten Karte vorkommen.

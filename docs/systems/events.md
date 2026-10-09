@@ -117,6 +117,7 @@ Spawn persistent map structures.
 - Keep a standing defense of Guards and Arrow Towers at all times
 - During invasion events, make sure there is enough fighting power around the Castle
 - Send bounty expeditions to destroy Dragon Nests and Rebel Guilds as soon as possible
+- Both are marked on the map the moment they appear: click one to see its health, and put a Kill bounty on it to send heroes to raze it
 :::
 
 :::tip[Making Use of Buffs]

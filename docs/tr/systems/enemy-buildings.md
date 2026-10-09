@@ -26,6 +26,7 @@ Düşman Kaleleri, harita boyunca dağılmış düşman üsleridir. Kendi muhaf�
 | **Trol Mağarası** | Trol | 13 karo | -- |
 | **Sıçan Yuvası** | Dev Sıçan | 9 karo | -- |
 | **Harpi Yuvası** | Harpi | 11 karo | -- |
+| **Asi Lonca** | Haydut | 9 karo | Yalnızca olayla |
 
 :::note[Harita Başına Bir]
 Goblin Kalesi ve Ölümsüz Kalesi, tüm haritada en fazla birer kez görünebilir.

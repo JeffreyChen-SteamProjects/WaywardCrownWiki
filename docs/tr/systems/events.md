@@ -117,6 +117,7 @@ Kalıcı harita yapıları oluşturur.
 - Her zaman Muhafızlar ve Ok Kulelerinden oluşan sabit bir savunma hattı bulundurun
 - İstila olayları sırasında Kale çevresinde yeterli savaş gücünün olduğundan emin olun
 - Ejderha Yuvalarını ve Asi Loncaları mümkün olan en kısa sürede yok etmek için görev seferleri gönderin
+- İkisi de ortaya çıktığı anda haritada işaretlenir: canını görmek için birine tıklayın ve kahramanları onu yıkmaya göndermek için üzerine bir «Öldür» ödülü asın
 :::
 
 :::tip[Güçlendirmelerden Yararlanma]

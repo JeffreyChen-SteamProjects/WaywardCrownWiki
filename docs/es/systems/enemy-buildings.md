@@ -26,6 +26,7 @@ Las Fortalezas Enemigas son bases enemigas dispersas por el mapa. Mantienen sus 
 | **Cueva del Trol** | Trol | 13 casillas | -- |
 | **Madriguera de Ratas** | Rata gigante | 9 casillas | -- |
 | **Nido de Arpías** | Arpía | 11 casillas | -- |
+| **Gremio rebelde** | Bandido | 9 casillas | Solo por evento |
 
 :::note[Una por Mapa]
 La Fortaleza Goblin y el Castillo No-muerto pueden aparecer como máximo una vez en todo el mapa.

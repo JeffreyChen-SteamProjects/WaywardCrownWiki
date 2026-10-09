@@ -26,6 +26,7 @@ Les forteresses ennemies sont des bases ennemies disséminées sur la carte. Ell
 | **Caverne du troll** | Troll | 13 cases | -- |
 | **Terrier de rats** | Rat géant | 9 cases | -- |
 | **Aire des harpies** | Harpie | 11 cases | -- |
+| **Guilde rebelle** | Bandit | 9 cases | Par événement uniquement |
 
 :::note[Une par carte]
 La Forteresse gobeline et le Château mort-vivant ne peuvent apparaître qu'une seule fois sur l'ensemble de la carte.

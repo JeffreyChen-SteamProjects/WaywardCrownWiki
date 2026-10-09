@@ -117,6 +117,7 @@ Generano strutture persistenti sulla mappa.
 - Mantieni sempre una difesa permanente di Guardie e Torri di frecce
 - Durante gli eventi di invasione, assicurati che ci sia abbastanza potenza di combattimento attorno al Castello
 - Invia spedizioni con taglie per distruggere i Nidi di draghi e le Gilde ribelli il prima possibile
+- Entrambi sono segnati sulla mappa appena compaiono: fai clic su uno per vederne la salute e mettici una taglia «Uccidi» per mandare gli eroi a raderlo al suolo
 :::
 
 :::tip[Sfruttare i potenziamenti]

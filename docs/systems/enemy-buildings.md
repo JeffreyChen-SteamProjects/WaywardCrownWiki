@@ -26,6 +26,7 @@ Enemy Strongholds are enemy bases scattered across the map. They keep guards of 
 | **Troll Cave** | Troll | 13 tiles | -- |
 | **Rat Warren** | Giant Rat | 9 tiles | -- |
 | **Harpy Roost** | Harpy | 11 tiles | -- |
+| **Rebel Guild** | Bandit | 9 tiles | Event only |
 
 :::note[One Per Map]
 The Goblin Fortress and Undead Castle can each appear at most once on the entire map.

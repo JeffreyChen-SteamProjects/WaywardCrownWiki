@@ -117,6 +117,7 @@ Generan estructuras persistentes en el mapa.
 - Mantén una defensa permanente de Guardias y Torres de arqueros en todo momento
 - Durante eventos de invasión, asegúrate de tener suficiente poder de combate alrededor del Castillo
 - Envía expediciones de recompensa para destruir Nidos de Dragones y Gremios rebeldes lo antes posible
+- Ambos aparecen marcados en el mapa en cuanto surgen: haz clic en uno para ver su vida y ponle una misión «Matar» para enviar héroes a arrasarlo
 :::
 
 :::tip[Aprovechamiento de Beneficios]
