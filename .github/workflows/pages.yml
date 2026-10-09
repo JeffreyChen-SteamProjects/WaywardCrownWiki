@@ -1,0 +1,48 @@
+name: Publish the wiki
+
+# Builds the wiki's pages (docs/) with the build in wiki/ and serves the result with GitHub Pages.
+# This repository is filled from the game's own repository: every push here is a new edition of the wiki.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: wiki/package-lock.json
+      - name: Install the build's packages
+        run: npm ci
+        working-directory: wiki
+      - name: Build the wiki into site/
+        run: npm run build
+        working-directory: wiki
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

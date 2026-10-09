@@ -1,0 +1,12 @@
+/* The wiki's deep-purple accent, in both colour schemes. */
+:root {
+  --sl-color-accent-low: #2a1a4a;
+  --sl-color-accent: #7e57c2;
+  --sl-color-accent-high: #d1c4e9;
+}
+
+:root[data-theme='light'] {
+  --sl-color-accent-low: #ede7f6;
+  --sl-color-accent: #5e35b1;
+  --sl-color-accent-high: #311b92;
+}

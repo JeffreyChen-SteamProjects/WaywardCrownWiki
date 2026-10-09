@@ -1,0 +1,171 @@
+---
+title: "Bâtiments"
+---
+
+Les bâtiments sont votre principal moyen d'influencer le comportement des aventuriers. Différents bâtiments servent différents objectifs : recruter des classes, vendre de l'équipement, fournir du repos, défense automatisée, et plus encore.
+
+---
+
+## Aperçu des bâtiments
+
+### Bâtiments de recrutement
+
+| Bâtiment | Coût | HP | Classe recrutée | Description |
+|----------|------|-----|----------------|-------------|
+| **Caserne** | 150g | 900 | Guerrier | Combattants de mêlée en première ligne — recommandé de construire en premier |
+| **Tour de mage** | 200g | 750 | Mage | Attaques magiques à distance |
+| **Cabane du rôdeur** | 150g | 750 | Rôdeur | Attaques à l'arc à distance, forte motivation d'exploration |
+| **Poste de garde** | 120g | 1050 | Garde | Patrouille et protège les bâtiments |
+| **Guilde des bâtisseurs** | 100g | 600 | Bâtisseur | Répare les bâtiments endommagés |
+| **Guilde des voleurs** | 140g | 650 | Voleur | Voleurs cupides et insaisissables ; améliorable jusqu'au Nv. 3 (220g → 340g) |
+
+:::tip[Mécaniques de recrutement]
+Chaque bâtiment de recrutement peut héberger jusqu'à **3** aventuriers. Construisez des copies supplémentaires du même bâtiment pour en recruter davantage. Un remplaçant est recruté 50 ticks (~10 secondes) après qu'une place s'est libérée. Le panneau d'une guilde dit combien de ses héros y vivent et quand arrive le prochain, ou qu'elle est complète.
+:::
+
+### Bâtiments commerciaux
+
+| Bâtiment | Coût | HP | Niveau max. | Coût d'amélioration | Description |
+|----------|------|-----|------------|---------------------|-------------|
+| **Marché** | 300g | 600 | 3 | 400g → 600g | Rapporte 30g × son niveau toutes les 72 secondes de temps de jeu |
+| **Forge** | 200g | 900 | 3 | 300g → 500g | Les aventuriers achètent armes et armures ici |
+| **Bibliothèque** | 250g | 750 | 3 | 400g → 600g | Recherche des compétences qui améliorent les aventuriers |
+| **Auberge** | 120g | 600 | 3 | 200g → 350g | Fournit des quartiers de repos supplémentaires |
+| **Temple** | 220g | 750 | 3 | 300g → 450g | Soigne les aventuriers blessés à proximité, davantage à chaque niveau |
+| **Entrepôt** | 260g | 700 | 3 | 350g → 500g | Réduit le coût des nouveaux bâtiments de 5 % par niveau, jusqu'à 30 % |
+| **Maison de village** | 100g | 500 | 1 | — | Héberge des villageois, qui plantent chacun une herbe que les aventuriers peuvent cueillir |
+| **Comptoir commercial** | 320g | 500 | 1 | — | Autant qu'on veut, chacun plus cher que le précédent, à au moins 45 cases du château : sa caravane va au château et revient, et chaque aller-retour verse 0,6o par case entre le comptoir et le château dans sa caisse. Il exige un château de niveau 2 |
+| **Bureau des impôts** | 280g | 650 | 1 | — | Entretient son propre percepteur : il vit ici et y rapporte ce qu'il perçoit. S'il tombe, un autre prend son poste après 60s |
+
+### Bâtiments défensifs
+
+| Bâtiment | Coût | HP | Niveau max. | Coût d'amélioration | Description |
+|----------|------|-----|------------|---------------------|-------------|
+| **Tour à flèches** | 250g | 150 | 3 | 300g → 500g | Attaque automatiquement les ennemis dans un rayon de 20 cases, 2 de plus par niveau au-dessus du 1 (dégâts 16 + 8 × (Nv − 1)) |
+| **Rempart** | 90g | 1400 | 2 | 140g | Pan de rempart : bon marché et très résistant. Les pans et les portes se touchent en rangées, et chaque pan coûte le même prix |
+| **Porte** | 160g | 1000 | 2 | 220g | Le passage à travers un rempart : les gens de la couronne le franchissent, les monstres non |
+
+**Remparts et portes**: Les pans de rempart et les portes se touchent, à 9 cases l'un de l'autre sur l'un ou l'autre axe, si bien qu'une rangée ne laisse aucun passage ; tout autre bâtiment garde son écart, et chaque pan coûte le même prix quel que soit leur nombre. Un pan en main, faites glisser sur la carte pour poser une rangée (un clic pose un pan ; chaque pan se place sur la grille des remparts du royaume, si bien qu'ils sont toujours alignés et que des remparts commencés à part se rejoignent) ; les silhouettes montrent la rangée jointe telle qu'elle se tiendra, en rouge au-delà de ce que le trésor permet, avec le prix de la rangée, et l'outil reste en main. Le passage d'une porte, large de trois cases en travers de son rempart, est pour les gens de la couronne : les monstres cherchent leur chemin comme si c'était du mur et doivent abattre un pan pour entrer. Un pan est dessiné comme un mur nu selon les côtés où il est joint, avec un pilier seulement là où le rempart finit, tourne ou en rejoint un autre, et une porte selon le sens de son rempart. Un pan de rempart n'attire aucun garde ; une porte, si. Une porte demandée sur un pan de rempart debout prend sa place : le pan est démoli comme n'importe quel bâtiment, une partie de son prix revenant, et la porte s'élève à son emplacement.
+
+### Bâtiments décoratifs
+
+| Bâtiment | Coût | HP | Description |
+|----------|------|-----|-------------|
+| **Fontaine** | 80g | 300 | Décoration |
+| **Jardin** | 60g | 300 | Décoration |
+| **Beffroi** | 70g | 300 | Décoration |
+| **Route** | 0g | — | Se peint sur le sol par glisser-déposer ; coût de mouvement 1, identique à la prairie |
+
+---
+
+## Améliorations de bâtiments
+
+Certains bâtiments peuvent être améliorés jusqu'au **Nv. 3** :
+
+- **Marché** — Augmente les revenus
+- **Forge** — Propose de l'équipement de niveau supérieur
+- **Bibliothèque** — Débloque des compétences de recherche plus avancées
+- **Caserne**, **Tour de mage**, **Cabane du rôdeur**, **Poste de garde** (Niveau 3), **Guilde des bâtisseurs** (Niveau 2) — Chaque niveau débloque les recherches suivantes de la guilde
+- **Auberge** — Place pour 3 / 4 / 5 occupants selon le niveau, qui guérissent ×1 / ×1,2 / ×1,5 plus vite (le château et les bâtiments de classe en logent 3 au rythme de base)
+- **Tour à flèches** — Augmente la puissance d'attaque
+- **Temple**, **Entrepôt** — Effet renforcé ; **Guilde des voleurs** — Le Nv. 2 débloque la recherche Lames empoisonnées (300g) : le coup d'un voleur empoisonne 5 s, 1 % des HP max par seconde, sans cumul ; **Maison de village** — Ne peut pas être améliorée ; **Rempart** — jusqu'au Nv. 2
+
+Chaque niveau ajoute 50 % des HP de base du bâtiment. Une amélioration conserve la part de santé du bâtiment (à moitié de ses PV avant, à moitié après) : ce n'est pas une réparation.
+
+:::note[Coût de construction]
+Chaque bâtiment d'un type que vous possédez déjà ajoute 50 % du prix de base (le deuxième coûte 1,5×, le troisième 2× ; sauf les décorations), puis les Entrepôts appliquent leur réduction.
+:::
+
+---
+
+## Règles de placement des bâtiments
+
+- Ne peut pas être placé sur l'**eau** ni sur un terrain inexploré
+- Doit laisser au moins 3 cases entre son bord et tout autre bâtiment
+- Ne peut pas être placé à moins de 14 cases du **Château**
+- Ne peut pas chevaucher des **coffres au trésor**, des aventuriers, des ennemis ou des forteresses ennemies
+- Un aperçu du plan est affiché lors du placement (bleu = constructible, rouge = non constructible)
+
+---
+
+## Dégâts et réparation des bâtiments
+
+- Les bâtiments subissent des dégâts des ennemis et sont détruits lorsque les HP atteignent 0
+- Les bâtiments endommagés affichent une barre de vie
+- Les **Bâtisseurs** se déplacent automatiquement vers les bâtiments endommagés pour les réparer
+- Les bâtiments ne se régénèrent pas d'eux-mêmes
+- **Chantiers** : un bâtiment que vous placez est un chantier jusqu'à la fin des travaux. Il est debout dès qu'il est payé et peut être attaqué, défendu et réparé, mais il ne sert personne, ne recrute personne et ne tire pas avant d'être terminé. L'équipe de la couronne termine un chantier à la fois (4 points de vie par tick pour chaque ouvrier sur place), celui marqué *Construire ceci d'abord* avant le plus ancien, et les bâtisseurs travaillent sur les chantiers comme sur tout bâtiment endommagé, attirés d'abord par un chantier prioritaire ; personne ne travaille avec des monstres à proximité, et un bâtisseur rentre quand l'un d'eux arrive. Annuler un chantier rend 75 % de son prix ; un chantier détruit par des monstres ne rend rien. Les routes, les décorations et les bâtiments placés par une carte sont terminés aussitôt, et les prix comme la règle du comptoir unique comptent les chantiers. L’équipe se voit au travail : ses ouvriers au bleu de la couronne marchent du château jusqu’à ce chantier, martèlent sa façade et rentrent quand il est fini ; le chantier n’avance qu’une fois l’un d’eux arrivé, un chantier éloigné attend donc leur marche. Les ouvriers se reposent dans le château tant qu'il n'y a pas de travail. Un ouvrier rentre en courant devant un monstre et ne se bat jamais ; un monstre à côté de lui peut le tuer, et le château en engage un autre 300 ticks plus tard, jusqu'à ce que l'équipe soit de nouveau au complet. Le panneau du château a une ligne pour l'équipe qui dit où se trouve chaque ouvrier. Le château garde deux ouvriers et un de plus pour chacun de ses niveaux au-dessus du premier, et tous font un travail à la fois, dans cet ordre : le chantier marqué en premier ; un bâtiment achevé sous 30 % de ses points de vie ; le chantier le plus ancien ; la plus ancienne amélioration en cours ; tout bâtiment endommagé, le plus atteint d'abord. Une amélioration est aussi un travail : elle se paie à la commande, le bâtiment sert entre-temps à son niveau actuel, et le niveau monte quand l'équipe a fourni un travail égal à la moitié des points de vie de base du bâtiment. Un ouvrier répare 2 points de vie par tick et marche deux fois plus vite sur une route. La vue d'ensemble du royaume fixe l'ordre dans lequel l'équipe prend ses travaux : nouveaux bâtiments d'abord (l'habitude), réparations d'abord ou améliorations d'abord ; un chantier marqué prioritaire et un bâtiment gravement endommagé passent avant tout le reste.
+
+:::caution[Sécurité des résidents]
+Lorsqu'un bâtiment est détruit, tous les aventuriers qui s'y reposent sont immédiatement libérés sur la carte. Assurez-vous d'avoir suffisamment de Gardes et de Tours à flèches pour protéger les bâtiments clés.
+:::
+
+---
+
+## Château
+
+Le Château est le cœur de votre colonie :
+
+| Propriété | Valeur |
+|-----------|--------|
+| HP | 3000 |
+| Rayon d'emprise | 10 cases |
+| Portée de vision | 30 cases au début, puis 5 |
+| Capacité d'hébergement | 3 |
+
+**Si le Château est détruit, la partie est terminée.**
+
+---
+
+## Niveaux du château
+
+Le château a un niveau. Il fixe le nombre de percepteurs du château et ce qu'il débloque ; il ne limite ni les héros (chaque guilde recrute jusqu'à sa propre capacité) ni les niveaux des bâtiments (tout bâtiment peut être amélioré jusqu'au niveau maximal de son type) :
+
+| Niveau | Percepteurs | Débloque | Pour l'atteindre |
+|---|---|---|---|
+| 1 Donjon | 1 | — | Départ |
+| 2 Château | 2 | Le comptoir commercial, le choix de la voie du château, le sort de reconnaissance | 1200 or ; 4 guildes et boutiques debout, 3 héros en vie, 1500 or d'impôts rapportés |
+| 3 Palais royal | 3 | Le pas suivant de la voie | 3000 or ; 8 guildes et boutiques debout, un héros ayant atteint le niveau 8, 1 forteresse rasée |
+
+Sélectionnez le château pour voir les conditions du niveau suivant et où vous en êtes, puis agrandissez-le avec le bouton une fois qu'elles sont remplies. Un niveau n'est jamais perdu si des bâtiments tombent ensuite.
+
+## Sorts royaux
+
+La couronne a deux sorts à elle, payés par le trésor, dans un panneau Sorts royaux à eux (il se déplace, se détache ou se ferme comme les autres). Activez-en un puis cliquez sur la carte : une cible qui ne convient pas est refusée avec la raison et ne coûte rien. Les héros gardent leur libre arbitre ; un sort ne donne d'ordre à personne. Quand la reconnaissance est prête, la carte éclaire sa portée, et Q et W préparent les deux sorts au clavier. Un royaume qui a pris une voie du château possède aussi les sorts propres à cette voie, chacun débloqué par l'un de ses bâtiments (le tableau des voies les énumère) ; E, R et T préparent le troisième au cinquième du panneau. Un sort qui porte sur tout le royaume n'a pas besoin de cible : son bouton, ou sa touche, le lance aussitôt.
+
+| Sort | Débloqué par | Cible | Effet | Coût | De nouveau prêt après |
+|---|---|---|---|---|---|
+| Soins d'urgence | Un temple terminé | Un héros blessé que le château voit (pas un qui se repose à l'intérieur) | 60 % de sa santé d'un coup | 250 or | 900 ticks (3 minutes) |
+| Reconnaissance | Un château de niveau 2 | Un terrain inconnu à 70 cases du château ou à 30 d'une tour d'archers | Le terrain dans un rayon de 8 cases est révélé | 150 or | 600 ticks (2 minutes) |
+
+Auberges, potions et temple restent la façon la moins chère de soigner, et une prime d'exploration la moins chère de cartographier un terrain sans urgence. L'attente suit la vitesse du jeu, s'arrête en pause et est sauvegardée. Un sort lancé se voit sur la carte là où il tombe : une couronne de lumière au-dessus du héros soigné, un fanal et des anneaux de lumière qui s'étendent sur le terrain reconnu.
+
+## Voies du château
+
+Une fois le château au niveau 2, sélectionnez-le pour choisir la voie du royaume. Le choix est définitif : le premier clic sur une voie redemande, le second la prend, et une voie n'est jamais échangée contre une autre. Une voie change ce à quoi tiennent les héros et ce que coûtent les choses, débloque des bâtiments, des héros, des compétences et une recherche qui lui sont propres et va un pas plus loin au niveau 3 du château. La voie y choisit aussi une spécialité, l'une des quelques-unes qu'elle propose et pour toujours, avec les deux mêmes clics : chacune apporte quelque chose et a son prix, et les lignes ci-dessous disent les deux. La Démo joue trois voies ; Ordre, Bravoure, Arcanes, Commerce, Tyrannie figurent dans le panneau du château comme celles du jeu complet. **Comparer les voies…** dans le panneau du château ouvre une fenêtre avec toutes les voies côte à côte : son bâtiment avec son coût et ses points de vie, ce que les héros font autrement, son prix, son pas au niveau 3 et si elle peut être prise maintenant ; regarder ne coûte rien, et prendre une voie y demande les mêmes deux clics. La fenêtre reste ouverte pendant que le jeu continue, quoi qu'on sélectionne, et peut être agrandie ou maximisée. Une carte énumère aussi les compétences des héros de la voie (gratuites, avec le niveau, l'attente entre deux lancements et ce que fait chacune), les bâtiments où les héros dépensent leur propre or, ainsi que ses recherches et ses sorts royaux avec leur prix pour le trésor et ce que fait chacun.
+
+Les bâtiments d'une voie ne se bâtissent que sur cette voie, autant que le trésor en paie : comme tout autre bâtiment, chacun coûte la moitié de son prix de base en plus pour chaque bâtiment du même type déjà debout ; la liste des bâtiments d'un niveau ne les cache pas. Un garde invoqué n'est pas un héros : il ne prend pas de place de recrutement, n'ouvre aucun coffre et ses victimes ne paient personne ; il tombe en poussière quand son temps est écoulé, que son Ossuaire (ou le Nécromancien qui l'a relevé) tombe ou que le trésor ne peut pas payer. Le limier d'un Gardien des bêtes est son compagnon et n'est pas un héros non plus : il ne coûte rien au trésor et reste tant que son gardien vit, lequel en appelle un autre quelque temps après la chute du premier. Un trésor qui ne peut pas payer le prochain entretien des gardes le dit un paiement à l'avance, dans la chronique et la vue d'ensemble du royaume.
+
+<!-- castle-paths-content:begin (written by tools/path_docs.py from the game's data; do not edit) -->
+- **Gardien** — Tient la ville : le Bastion vend les potions moins cher et protège les défenseurs proches. Les héros restent plus près de chez eux et tiennent plus aux primes de défense. *Héros*: Explorent 20 % moins loin du château et tiennent 30 % plus aux primes de défense. *Prix*: Les expéditions attendent plus longtemps leur groupe et les primes lointaines demandent plus d'or. *Château au niveau 3*: Le château et les tours d'archers subissent un quart de moins de chaque coup. *Spécialités (une seule, château au niveau 3)*: **Miséricorde** — Apporte : Soins des auberges et du temple +30% · Guérison des héros au repos +25%. Prix : Prix des boutiques +15%. **Ligne de défense** — Apporte : Dégâts subis par le château -25% → -40% · Dégâts subis par les tours d'archers -25% → -40% · Intérêt pour les primes de défense +30% → +60%. Prix : Portée d'exploration des héros -20% → -35% · Intérêt pour les primes de chasse -20%.
+- **Contrées sauvages** — Vit en campagne : le Camp sauvage, bâti loin de la ville, vend des potions et laisse les héros se reposer. Les héros vont plus loin et tiennent plus aux primes d'exploration. *Héros*: Explorent 25 % plus loin et tiennent 30 % plus aux primes d'exploration. *Prix*: Les auberges et le temple de la ville soignent plus lentement, et les boutiques coûtent 10 % de plus. *Château au niveau 3*: Les héros s'éloignent 50 % plus loin du château. *Spécialités (une seule, château au niveau 3)*: **Pistes lointaines** — Apporte : Portée d'exploration des héros +50% → +90% · Intérêt pour les primes d'exploration +30% → +60%. Prix : Soins des auberges et du temple -30% → -45%. **Feu de camp** — Apporte : Guérison des héros au repos +25% · Prix des boutiques +10% → 0%. Prix : Portée d'exploration des héros +50% → +25%. **La Meute** — Apporte : Santé d'un compagnon +40%. Prix : Attente d'un nouveau compagnon +50%.
+- **Mort-vivant** — Réveille les morts : l'Ossuaire entretient jusqu'à trois gardes squelettes qui patrouillent et combattent près de lui un temps. *Héros*: Se comportent comme avant. Les gardes ne sont pas des héros : ni or, ni primes, ni place dans une guilde. *Prix*: Chaque garde coûte un entretien au trésor et tombe en poussière s'il n'est pas payé ; les héros vivants guérissent plus lentement au repos. *Château au niveau 3*: Jusqu'à cinq gardes, chacun durant moitié plus longtemps. *Spécialités (une seule, château au niveau 3)*: **L'Ost des morts** — Apporte : Gardes par ossuaire 5 → 7. Prix : Guérison des héros au repos -25% → -40%. **La longue veille** — Apporte : Durée de chaque garde +50% → +150%. Prix : Part du trésor sur les impôts -10%.
+- **Ordre** — Garde la loi et les comptes : la part du trésor sur chaque impôt est 15 % plus grande, le Poste de péage lève un péage pour les bâtiments alentour, et prévôts et gardes des routes tiennent la ville. *Héros*: Tiennent 20 % plus aux primes de défense et 20 % moins aux primes d'exploration. *Prix*: Les héros tiennent moins aux primes d'exploration. *Château au niveau 3*: La part du trésor est 25 % plus grande. *Spécialités (une seule, château au niveau 3)*: **Le Grand Livre** — Apporte : Part du trésor sur les impôts +25% → +40%. Prix : Prix des boutiques +10%. **Le Guet** — Apporte : Intérêt pour les primes de défense +20% → +50% · Dégâts subis par le château -15% · Dégâts subis par les tours d'archers -15%. Prix : Intérêt pour les primes d'exploration -20% → -40%.
+- **Bravoure** — Vit pour le combat : les héros tiennent davantage aux primes de chasse et les expéditions partent plus tôt, la Halle de guerre entraîne les héros proches et l'Intendance vend des potions. *Héros*: Tiennent 30 % plus aux primes de chasse ; les expéditions attendent leur groupe un quart de moins. *Prix*: La part du trésor sur chaque impôt est 10 % plus petite. *Château au niveau 3*: Les héros tiennent 50 % plus aux primes de chasse. *Spécialités (une seule, château au niveau 3)*: **Gloire** — Apporte : Intérêt pour les primes de chasse +50% → +80% · Or demandé par les primes lointaines -20%. Prix : Part du trésor sur les impôts -10% → -20%. **L'Avant-garde** — Apporte : Attente du groupe par les expéditions -25% → -50% · Guérison des héros au repos +20%. Prix : Intérêt pour les primes de défense -20%.
+- **Arcanes** — Met le royaume au service de la magie : les sorts royaux sont de nouveau prêts un quart plus tôt, la Flèche frappe les monstres proches, et lames-sorts et adeptes combattent avec la lumière. *Héros*: Se comportent comme avant. *Prix*: Le château et les tours d'archers subissent 15 % de plus de chaque coup. *Château au niveau 3*: Les sorts royaux sont de nouveau prêts 40 % plus tôt. *Spécialités (une seule, château au niveau 3)*: **Le Conclave** — Apporte : Attente des sorts royaux -40% → -55%. Prix : Part du trésor sur les impôts -10%. **Les Protections** — Apporte : Dégâts subis par le château +15% → -5% · Dégâts subis par les tours d'archers +15% → -5%. Prix : Attente des sorts royaux -40% → -30%.
+- **Commerce** — Vit du commerce : chaque aller-retour d'une caravane rapporte 25 % de plus, les boutiques coûtent 10 % de moins et les Contrats de fret du Dépôt caravanier font rapporter encore plus chaque aller-retour. Escorteurs et caravaniers tiennent les routes. *Héros*: Se comportent comme avant. *Prix*: Les primes lointaines demandent plus d'or. *Château au niveau 3*: Chaque aller-retour d'une caravane rapporte 50 % de plus. *Spécialités (une seule, château au niveau 3)*: **Les Caravanes** — Apporte : Gain d'un aller-retour de caravane +50% → +80%. Prix : Prix des boutiques -10% → 0%. **Le Bazar** — Apporte : Prix des boutiques -10% → -20% · Part du trésor sur les impôts +10%. Prix : Gain d'un aller-retour de caravane +50% → +30%.
+- **Tyrannie** — Règne par la peur : la part du trésor sur chaque impôt est 25 % plus grande, le Bureau des levées saisit les caisses voisines sans attendre un percepteur, et inquisiteurs et exécuteurs tiennent la ville en respect. *Héros*: Se comportent comme avant. *Prix*: Les héros guérissent 15 % plus lentement au repos, et les boutiques coûtent 10 % de plus. L'Édit et les caisses saisies laissent du grief aux héros : celui qu'on pousse trop donne son préavis et part. *Château au niveau 3*: La part du trésor est 40 % plus grande. *Spécialités (une seule, château au niveau 3)*: **Extorsion** — Apporte : Part du trésor sur les impôts +40% → +60%. Prix : Guérison des héros au repos -15% → -30%. **Main de fer** — Apporte : Intérêt pour les primes de défense +30% · Dégâts subis par le château -15% · Dégâts subis par les tours d'archers -15%. Prix : Part du trésor sur les impôts +40% → +30%.
+
+Le contenu propre à une voie : ses bâtiments ne se construisent que sur cette voie, chacun recrute une classe de héros qui lui est propre, dotée d'une compétence active, et sa recherche s'achète dans ces bâtiments.
+
+| Voie | Ses bâtiments | Leurs compétences | Sa recherche | Sorts royaux |
+|---|---|---|---|---|
+| **Gardien** | Bastion : 380 or, 1400 points de vie. Vend les potions à 80 % du prix ; les héros qui défendent la ville à 10 cases subissent 80 % de chaque coup · Recrute des Chevalier au bouclier (max 3)<br>Sanctuaire : 320 or, 800 points de vie. Soigne les héros blessés à 9 cases ou moins de 8% de leur santé toutes les 10s · Recrute des Hospitalier (max 3) | Chevalier au bouclier — Bouclier du serment, Serment du remplaçant, À la rescousse<br>Hospitalier — Prière de guérison | Pavois — Chevalier au bouclier : +4 en défense.<br>Exercice du rempart — Bastion : sa protection porte 5 cases plus loin.<br>Chirurgie de campagne — Sanctuaire et Prière de guérison soignent 50 % de plus.<br>Serment du soigneur — Hospitalier : +3 en défense. | Main de miséricorde (400 or) [Sanctuaire] — Activez-le puis cliquez sur un terrain déjà vu : chaque héros blessé à 5 cases ou moins récupère 35 % de sa santé.<br>Garde protectrice (350 or) [Bastion] — Activez-le puis cliquez sur un terrain déjà vu : pendant 30 secondes, les héros à 5 cases ou moins subissent 40 % de moins à chaque coup. |
+| **Contrées sauvages** | Camp sauvage : 260 or, 600 points de vie. Vend des potions et laisse les héros se reposer ici, loin de la ville · Recrute des Éclaireur (max 3)<br>Pavillon des bêtes : 280 or, 700 points de vie. Recrute des Gardien des bêtes (max 3) | Éclaireur — Marque du chasseur<br>Gardien des bêtes — Frappe du faucon, Pistage, Compagnon animal, Couverture du compagnon, Soins aux herbes | Vol juste — Éclaireur : +4 en attaque.<br>Science des pistes — Les héros explorent 15 % plus loin du château.<br>Remèdes d'herboriste — Les auberges et le temple de la ville soignent de nouveau à plein rythme.<br>Peaux de bête — Gardien des bêtes : +3 en défense. | Œil de la forêt (200 or) [Camp sauvage] — Activez-le puis cliquez sur un point à portée du château (100 cases) ou d'un camp sauvage (60) : le terrain à 10 cases ou moins est révélé et reste en vue pendant 80 secondes, monstres compris.<br>Barrière de ronces (300 or) [Pavillon des bêtes] — Activez-le puis cliquez sur un terrain déjà vu : pendant 40 secondes, les monstres à 5 cases ou moins avancent à mi-vitesse. |
+| **Mort-vivant** | Ossuaire : 350 or, 900 points de vie. Réveille un garde squelette toutes les 60 s, jusqu'à 3 ; chacun coûte 6 or toutes les 20 s · Recrute des Chevalier des tombes (max 3)<br>Crypte : 300 or, 750 points de vie. Recrute des Nécromancien (max 3) | Chevalier des tombes — Armure d'os<br>Nécromancien — Sceau de flétrissure, Garde d'os, Dette d'âme | Harnois sans mort — Chevalier des tombes : +4 en défense.<br>Pacte des tombes — L'entretien d'un garde invoqué est réduit de moitié.<br>Lien de moelle — Ossuaire : entretient un garde de plus.<br>Grimoires interdits — Nécromancien : +5 en attaque. | Appel des morts (300 or) [Ossuaire] — Activez-le puis cliquez sur votre ossuaire : il lève aussitôt 2 gardes en plus de ceux qu'il entretient, pour 120 secondes. Ils coûtent l'entretien comme les autres.<br>Voile des limbes (300 or) [Crypte] — Activez-le puis cliquez sur un terrain déjà vu : chaque héros et garde invoqué à 5 cases ou moins reçoit pendant 24 secondes un bouclier valant 30 % de sa santé.<br>Pacte de mort (150 or) [Crypte] — Activez-le puis cliquez sur un héros visible : pendant 120 secondes, un coup qui l'abattrait le laisse debout avec 30 % de sa santé, une seule fois. Le trésor paie alors 300 or de plus ; s'il ne le peut pas, le héros tombe. |
+| **Ordre** | Prévôté : 320 or, 950 points de vie. Recrute des Prévôt (max 3)<br>Poste de péage : 260 or, 600 points de vie. Lève dans sa caisse un péage de 3o par bâtiment à 14 cases ou moins toutes les 60s · Les percepteurs remettent ici leur bourse au lieu de la porter au château · Recrute des Garde des routes (max 3) | Prévôt — Bouclage, Ordre de rassemblement, Ronde d'alarme<br>Garde des routes — Garde du convoi | Rôles d'impôt — La caisse d'un bâtiment contient 50 % de plus.<br>Patrouilles des routes — Un percepteur transporte 50 % de plus.<br>Ordres permanents — Prévôt : +3 en attaque.<br>Exercice d'arbalète — Garde des routes : +4 en attaque. | Sceau protecteur (300 or) [Prévôté] — Activez-le puis cliquez sur l'un de vos bâtiments : pendant 40 secondes, il subit 60 % de dégâts en moins des attaques des monstres.<br>Filet de guet (250 or) [Poste de péage] — Activez-le puis cliquez sur un point à portée du château (80 cases) ou d'un poste de péage (40) : le terrain à 8 cases ou moins est révélé et reste en vue pendant 60 secondes, et les monstres à 5 cases ou moins du point subissent 25 % de dégâts en plus. |
+| **Bravoure** | Halle de guerre : 340 or, 1000 points de vie. Entraîne les héros à 8 cases ou moins : 8 d'expérience chacun toutes les 60s · Recrute des Juré de guerre (max 3)<br>Intendance : 280 or, 700 points de vie. Vend des potions · Vend du matériel d'assaut pour 60o : les 20 prochains coups d'un héros contre le mur d'un bastion frappent 2 fois plus fort · Recrute des Porte-bannière (max 3) | Juré de guerre — Coup fendant, À l'assaut des murs, Frénésie sanglante<br>Porte-bannière — Rugissement inflexible | Exercices de guerre — Chaque ennemi tué donne 20 % d'expérience de plus à son héros.<br>Salle des trophées — Chaque ennemi tué rapporte 15 % d'or de plus.<br>Serment de sang — Juré de guerre : +5 en attaque.<br>Garde de la bannière — Porte-bannière : +3 en défense. | Bénédiction du seigneur de guerre (350 or) [Halle de guerre] — Activez-le puis cliquez sur un terrain déjà vu : pendant 30 secondes, les héros à 5 cases ou moins frappent 30 % plus fort.<br>Marque de siège (300 or) [Intendance] — Activez-le puis cliquez sur une forteresse ennemie déjà vue : pendant 40 secondes, les attaques des héros contre elle infligent 50 % de dégâts en plus. |
+| **Arcanes** | Académie : 360 or, 850 points de vie. Recrute des Lame-sort (max 3)<br>Flèche : 300 or, 650 points de vie. Frappe toutes les 8s le monstre le plus proche à 9 cases ou moins pour 14 · Porte le Sceau du tonnerre tant qu'elle est reliée : à 45 cases ou moins du château ou d'une flèche reliée. Chaque flèche reliée après la première renchérit le sceau de 15 % · Recrute des Adepte (max 3) | Lame-sort — Lumière déchirante, Pas de phase, Riposte runique<br>Adepte — Garde runique | Harmonisation tellurique — Les sorts royaux coûtent 20 % de moins.<br>Lien runique — Les compétences actives des héros sont de nouveau prêtes 15 % plus tôt.<br>Tranchant runique — Lame-sort : +4 en attaque.<br>Cristal de concentration — Adepte : +5 en attaque. | Carte des étoiles (300 or) [Académie] — Activez-le puis cliquez n'importe où sur la carte, terrain connu ou non : le terrain à 12 cases ou moins du point est révélé.<br>Sceau du tonnerre (350 or) [Flèche] — Activez-le puis cliquez sur un terrain déjà vu à 30 cases ou moins d'une flèche : chaque monstre à 3 cases ou moins du point perd 30 % de sa santé totale (10 % pour un boss nommé), 200 au plus. Il ne tue jamais : le dernier coup revient à un héros.<br>Voile arcanique (200 or) [Académie] — Activez-le puis cliquez sur un héros que vous voyez : il reçoit pendant 30 secondes un bouclier valant 50 % de sa santé. |
+| **Commerce** | Guilde marchande : 360 or, 900 points de vie. Recrute des Escorteur (max 3)<br>Dépôt caravanier : 280 or, 750 points de vie. On y recherche les Contrats de fret : chaque aller-retour d'une caravane rapporte 20 % de plus · Les caravanes déchargent ici quand il est plus proche de leur comptoir que le château : le trajet paie pour les cases parcourues, dans cette caisse · Vend des potions · Recrute des Caravanier (max 3) | Escorteur — Garde des marchandises, Marche forcée, Service d'escorte<br>Caravanier — Marque de route | Chartes de commerce — Chaque aller-retour d'une caravane rapporte 20 % de plus.<br>Achats en gros — Les bâtiments coûtent 10 % de moins.<br>Acier à gages — Escorteur : +3 en défense.<br>Endurci par la route — Caravanier : +3 en défense.<br>Contrats de fret — Chaque aller-retour d'une caravane rapporte encore 20 % de plus. | Pacte d'or (200 or) [Guilde marchande] — Appuyez, sans cible : pendant 60 secondes, vos percepteurs, caravanes et ouvriers royaux subissent 75 % de dégâts en moins du coup d'un monstre.<br>Transfert d'urgence (150 or) [Dépôt caravanier] — Appuyez, sans cible : chaque percepteur en route remet aussitôt ce qu'il porte au trésor et reprend sa tournée. Il coûte son prix, si peu qu'ils portent. |
+| **Tyrannie** | Tribunal : 360 or, 1000 points de vie. Recrute des Inquisiteur (max 3)<br>Bureau des levées : 300 or, 800 points de vie. Saisit toutes les 60s les caisses des bâtiments à 12 cases ou moins : le trésor en reçoit 85% · Recrute des Exécuteur (max 3) | Inquisiteur — Marque d'effroi, Serment de fer<br>Exécuteur — Verdict des chaînes | Levée de fer — Bureau des levées : ne perd rien de ce qu'il saisit.<br>Règne de la peur — Le château et les tours d'archers subissent 15 % de moins de chaque coup.<br>Édit de zèle — Inquisiteur : +4 en attaque.<br>Lourde maille — Exécuteur : +4 en défense. | Édit du tyran (300 or) [Tribunal] — Appuyez, sans cible : pendant 40 secondes, le château et tous vos bâtiments subissent 40 % de dégâts en moins des attaques des monstres. Pendant ce temps, les héros au repos guérissent à 50 % de leur rythme : nul ne se repose tant que l'édit tient.<br>Levée de guerre (100 or) [Bureau des levées] — Appuyez, sans cible : tout ce que contiennent les caisses de vos bâtiments va aussitôt au trésor, en entier. Pendant les 120 secondes suivantes, la part du trésor sur ce que les héros dépensent et pillent n'est que de 50 % de l'ordinaire.<br>Marque du silence (250 or) [Tribunal] — Activez-le puis cliquez sur un terrain déjà vu : pendant 30 secondes, les monstres à 2 cases ou moins du point infligent 50 % de dégâts en moins par leurs coups sur vos gens, et un boss nommé parmi eux n'utilise aucune compétence (un boss se défait plus tôt de la marque). |
+<!-- castle-paths-content:end -->
