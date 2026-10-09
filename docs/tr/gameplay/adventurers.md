@@ -21,6 +21,35 @@ Maceraperestler oyunun kalbidir. Özgür iradeye sahiptirler ve kişiliklerine, 
 Kolcu (oklar), Büyücü (ateş topları), İz Sürücü (ciritler), Yol Bekçisi (arbalet okları) ve Tılsım Ustası (ışık kıymıkları) mermilerle saldırır; her birinin mermisi kendine özgüdür. Savaşan diğer sınıflar yakın dövüşte savaşır: 3 karoya kadar uzaktan vurur ve iki kat hasar verirler.
 :::
 
+<!-- hero-classes:begin (written by tools/hero_docs.py from the game's data; do not edit) -->
+Oyundaki her kahraman sınıfı, oyunun verilerinden yazılmıştır: her krallığın topladığı altı sınıf ve bir şato yolunun kendi binalarının topladığı sınıflar.
+
+| Sınıf | Şato yolu | Toplandığı bina | Can | Saldırı | Saldırı menzili | Yetenekler |
+|---|---|---|---|---|---|---|
+| **Savaşçı** | — | Kışla | 70–150 | GÜÇ | 3 | Güçlü Darbe, Kalkan Duvarı, Berserker, Savaş Lordu, Savaş Narası |
+| **Büyücü** | — | Büyücü Kulesi | 25–65 | ZKA | 12 | Ateş Oku, Mana Kalkanı, Zincir Şimşek, Baş Büyücü, Ateş Kasırgası |
+| **Kolcu** | — | Kolcu Kulübesi | 45–100 | ÇVK | 11 | Hassas Atış, Kaçınma, Çoklu Atış, Kartal Gözü, Rüzgar Kıran |
+| **Muhafız** | — | Muhafız Mevzisi | 50–120 | GÜÇ | 3 | Teyakkuz, Tahkim, Kışkırtma, Kale |
+| **İnşaatçı** | — | İnşaatçılar Loncası | 30–70 | — | 3 | Hızlı Onarım, Takviye, Usta Zanaat, Mimar |
+| **Hırsız** | — | Hırsızlar Loncası | 35–80 | ÇVK | 3 | Sırttan Bıçaklama, Kaçınma, Yankesici, Gölge Dansı |
+| **Kalkan Şövalyesi** | Muhafız | Burç | 90–170 | GÜÇ | 3 | Teyakkuz, Kalkan Duvarı, Kışkırtma, Kale, Yemin Kalkanı, Vekil Yemini, İmdada Koşu |
+| **Hospitalye** | Muhafız | Sığınak Tapınağı | 50–100 | ZKA | 3 | Teyakkuz, Mana Kalkanı, Tahkim, Kale, Şifa Duası |
+| **İz Sürücü** | Yaban | Yaban kampı | 50–105 | ÇVK | 11 | Hassas Atış, Kaçınma, Çoklu Atış, Kartal Gözü, Avcı İşareti |
+| **Hayvan Bekçisi** | Yaban | Hayvan Ocağı | 65–135 | GÜÇ | 3 | Güçlü Darbe, Kaçınma, Berserker, Kartal Gözü, Şahin Vuruşu, İz Sürme, Yoldaş Hayvan, Yoldaş Siperi, Şifalı Ot Yardımı |
+| **Mezar Şövalyesi** | Ölümsüz | Kemiklik | 95–175 | GÜÇ | 3 | Güçlü Darbe, Kalkan Duvarı, Berserker, Savaş Lordu, Kemik Zırh |
+| **Ölüm Büyücüsü** | Ölümsüz | Kripta | 40–90 | ZKA | 3 | Ateş Oku, Mana Kalkanı, Zincir Şimşek, Baş Büyücü, Solduran Mühür, Kemik Muhafız, Ruh Borcu |
+| **Mareşal** | Düzen | Zabıta Konağı | 80–155 | GÜÇ | 3 | Teyakkuz, Kalkan Duvarı, Kışkırtma, Savaş Lordu, Kuşatma Düzeni, Toplanma Emri, Alarm Devriyesi |
+| **Yol Bekçisi** | Düzen | Geçiş Karakolu | 55–115 | ÇVK | 10 | Hassas Atış, Kaçınma, Çoklu Atış, Kartal Gözü, Kervan Muhafızı |
+| **Yeminli Savaşçı** | Yiğitlik | Savaş Salonu | 85–165 | GÜÇ | 3 | Güçlü Darbe, Kaçınma, Berserker, Savaş Lordu, Yaran Darbe, Surlara Hücum, Kan Çılgınlığı |
+| **Sancaktar** | Yiğitlik | Levazım Deposu | 70–140 | GÜÇ | 3 | Güçlü Darbe, Kalkan Duvarı, Kışkırtma, Savaş Lordu, Yılmaz Nara |
+| **Büyü Kılıcı** | Gizem | Akademi | 60–125 | ZKA | 3 | Ateş Oku, Kaçınma, Zincir Şimşek, Baş Büyücü, Yaran Işık, Faz Adımı, Rün Karşılığı |
+| **Tılsım Ustası** | Gizem | Tınlayan Kule | 40–88 | ZKA | 11 | Ateş Oku, Mana Kalkanı, Zincir Şimşek, Baş Büyücü, Rün Koruması |
+| **Refakatçi** | Ticaret | Tüccar Loncası | 80–150 | GÜÇ | 3 | Teyakkuz, Kalkan Duvarı, Kışkırtma, Kale, Yük Muhafızı, Cebri Yürüyüş, Kafile Görevi |
+| **Kervancı** | Ticaret | Kervan Deposu | 55–115 | ÇVK | 3 | Hassas Atış, Kaçınma, Çoklu Atış, Kartal Gözü, Yol İşareti |
+| **Engizitör** | Zorbalık | Mahkeme | 65–130 | ZKA | 3 | Ateş Oku, Mana Kalkanı, Kışkırtma, Baş Büyücü, Dehşet Damgası, Demir Yemin |
+| **İnfazcı** | Zorbalık | Haraç Dairesi | 90–170 | GÜÇ | 3 | Güçlü Darbe, Kalkan Duvarı, Berserker, Savaş Lordu, Zincir Hükmü |
+<!-- hero-classes:end -->
+
 ---
 
 ## Ayrıntılı İstatistikler

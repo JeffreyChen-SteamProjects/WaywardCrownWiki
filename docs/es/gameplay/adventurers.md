@@ -21,6 +21,35 @@ Los aventureros son el corazón del juego. Tienen voluntad propia y toman decisi
 El Explorador (flechas), el Mago (bolas de fuego), el Batidor (jabalinas), el Guardacaminos (virotes de ballesta) y el Adepto (esquirlas de luz) atacan con proyectiles, cada uno con el suyo. Las demás clases que luchan combaten cuerpo a cuerpo: golpean desde hasta 3 casillas de distancia y hacen el doble de daño.
 :::
 
+<!-- hero-classes:begin (written by tools/hero_docs.py from the game's data; do not edit) -->
+Todas las clases de héroe del juego, escritas a partir de sus datos: las seis que recluta cualquier reino y las que reclutan los edificios propios de una senda del castillo.
+
+| Clase | Senda del castillo | Se recluta en | Salud | Ataque | Alcance de ataque | Habilidades |
+|---|---|---|---|---|---|---|
+| **Guerrero** | — | Cuartel | 70–150 | FUE | 3 | Golpe poderoso, Muro de escudos, Berserker, Señor de la guerra, Grito de guerra |
+| **Mago** | — | Torre del mago | 25–65 | INT | 12 | Dardo de fuego, Escudo de maná, Rayo encadenado, Archimago, Tornado de fuego |
+| **Explorador** | — | Refugio del explorador | 45–100 | AGI | 11 | Disparo preciso, Evasión, Disparo múltiple, Ojo de águila, Ruptura de viento |
+| **Guardia** | — | Puesto de guardia | 50–120 | FUE | 3 | Vigilancia, Fortificar, Provocar, Bastión |
+| **Constructor** | — | Gremio de Constructores | 30–70 | — | 3 | Reparación rápida, Reforzar, Maestría artesana, Arquitecto |
+| **Ladrón** | — | Gremio de ladrones | 35–80 | AGI | 3 | Puñalada trapera, Evasión, Carterista, Danza de sombras |
+| **Caballero del Escudo** | Guardián | Bastión | 90–170 | FUE | 3 | Vigilancia, Muro de escudos, Provocar, Bastión, Escudo del Juramento, Juramento del Sustituto, Al Rescate |
+| **Hospitalario** | Guardián | Santuario | 50–100 | INT | 3 | Vigilancia, Escudo de maná, Fortificar, Bastión, Plegaria Sanadora |
+| **Batidor** | Tierras salvajes | Campamento salvaje | 50–105 | AGI | 11 | Disparo preciso, Evasión, Disparo múltiple, Ojo de águila, Marca del Cazador |
+| **Guardián de Bestias** | Tierras salvajes | Refugio de Bestias | 65–135 | FUE | 3 | Golpe poderoso, Evasión, Berserker, Ojo de águila, Ataque del Halcón, Rastreo de Senda, Compañero Bestia, Cobertura del Compañero, Auxilio Herbal |
+| **Caballero Sepulcral** | No muerto | Osario | 95–175 | FUE | 3 | Golpe poderoso, Muro de escudos, Berserker, Señor de la guerra, Armadura de Hueso |
+| **Nigromante** | No muerto | Cripta | 40–90 | INT | 3 | Dardo de fuego, Escudo de maná, Rayo encadenado, Archimago, Sello Marchito, Guardia de Huesos, Deuda del Alma |
+| **Alguacil** | Orden | Alguacilazgo | 80–155 | FUE | 3 | Vigilancia, Muro de escudos, Provocar, Señor de la guerra, Cerco, Orden de Formar, Ronda de Alarma |
+| **Guardacaminos** | Orden | Puesto de Peaje | 55–115 | AGI | 10 | Disparo preciso, Evasión, Disparo múltiple, Ojo de águila, Escolta de Convoy |
+| **Juramentado** | Valor | Salón de Guerra | 85–165 | FUE | 3 | Golpe poderoso, Evasión, Berserker, Señor de la guerra, Golpe Desgarrador, Asalto a los Muros, Frenesí de Sangre |
+| **Abanderado** | Valor | Intendencia | 70–140 | FUE | 3 | Golpe poderoso, Muro de escudos, Provocar, Señor de la guerra, Rugido Indomable |
+| **Espadachín Arcano** | Arcano | Academia | 60–125 | INT | 3 | Dardo de fuego, Evasión, Rayo encadenado, Archimago, Luz Desgarradora, Paso de Fase, Réplica Rúnica |
+| **Adepto** | Arcano | Aguja | 40–88 | INT | 11 | Dardo de fuego, Escudo de maná, Rayo encadenado, Archimago, Guarda Rúnica |
+| **Escolta** | Comercio | Gremio Mercantil | 80–150 | FUE | 3 | Vigilancia, Muro de escudos, Provocar, Bastión, Guardia de la Carga, Marcha Forzada, Servicio de Escolta |
+| **Caravanero** | Comercio | Depósito | 55–115 | AGI | 3 | Disparo preciso, Evasión, Disparo múltiple, Ojo de águila, Marca de Ruta |
+| **Inquisidor** | Tiranía | Tribunal | 65–130 | INT | 3 | Dardo de fuego, Escudo de maná, Provocar, Archimago, Marca del Terror, Juramento de Hierro |
+| **Ejecutor** | Tiranía | Oficina de Tributos | 90–170 | FUE | 3 | Golpe poderoso, Muro de escudos, Berserker, Señor de la guerra, Veredicto de Cadenas |
+<!-- hero-classes:end -->
+
 ---
 
 ## Estadísticas Detalladas

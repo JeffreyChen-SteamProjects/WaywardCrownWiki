@@ -21,6 +21,35 @@ Abenteurer sind das Herzstück des Spiels. Sie haben einen freien Willen und tre
 Der Waldläufer (Pfeile), der Magier (Feuerbälle), der Pfadfinder (Wurfspeere), der Straßenwächter (Armbrustbolzen) und der Adept (Lichtsplitter) greifen mit Projektilen an, jeder mit seiner eigenen Art. Die übrigen kämpfenden Klassen kämpfen im Nahkampf: Sie schlagen aus bis zu 3 Feldern Entfernung zu und verursachen doppelten Schaden.
 :::
 
+<!-- hero-classes:begin (written by tools/hero_docs.py from the game's data; do not edit) -->
+Jede Heldenklasse des Spiels, aus seinen Daten geschrieben: die sechs, die jedes Königreich anwirbt, und die Klassen, die die eigenen Gebäude eines Burgwegs anwerben.
+
+| Klasse | Burgweg | Angeworben in | Lebenspunkte | Angriff | Angriffsreichweite | Fertigkeiten |
+|---|---|---|---|---|---|---|
+| **Krieger** | — | Kaserne | 70–150 | STR | 3 | Kraftvoller Schlag, Schildwall, Berserker, Kriegsherr, Kriegsschrei |
+| **Magier** | — | Magierturm | 25–65 | INT | 12 | Feuerblitz, Mana-Schild, Kettenblitz, Erzmagier, Feuertornado |
+| **Waldläufer** | — | Waldläuferhütte | 45–100 | GES | 11 | Präziser Schuss, Ausweichmanöver, Mehrfachschuss, Adlerauge, Windbruch |
+| **Wache** | — | Wachposten | 50–120 | STR | 3 | Wachsamkeit, Befestigen, Provozieren, Bastion |
+| **Baumeister** | — | Baumeistergilde | 30–70 | — | 3 | Schnellreparatur, Verstärken, Meisterhandwerk, Architekt |
+| **Dieb** | — | Diebesgilde | 35–80 | GES | 3 | Meucheln, Ausweichmanöver, Taschendieb, Schattentanz |
+| **Schildritter** | Wächter | Bastion | 90–170 | STR | 3 | Wachsamkeit, Schildwall, Provozieren, Bastion, Eidschild, Eid des Stellvertreters, Zur Rettung |
+| **Hospitaliter** | Wächter | Heiligtum | 50–100 | INT | 3 | Wachsamkeit, Mana-Schild, Befestigen, Bastion, Heilgebet |
+| **Pfadfinder** | Wildnis | Wildlager | 50–105 | GES | 11 | Präziser Schuss, Ausweichmanöver, Mehrfachschuss, Adlerauge, Jägermal |
+| **Tierhüter** | Wildnis | Bestienhütte | 65–135 | STR | 3 | Kraftvoller Schlag, Ausweichmanöver, Berserker, Adlerauge, Falkenstoß, Fährtenlesen, Tiergefährte, Deckung des Gefährten, Kräuterhilfe |
+| **Grabritter** | Untot | Beinhaus | 95–175 | STR | 3 | Kraftvoller Schlag, Schildwall, Berserker, Kriegsherr, Knochenrüstung |
+| **Nekromant** | Untot | Gruft | 40–90 | INT | 3 | Feuerblitz, Mana-Schild, Kettenblitz, Erzmagier, Siegel des Welkens, Knochenwache, Seelenschuld |
+| **Marschall** | Ordnung | Wachthaus | 80–155 | STR | 3 | Wachsamkeit, Schildwall, Provozieren, Kriegsherr, Abriegelung, Sammelbefehl, Alarmrunde |
+| **Straßenwächter** | Ordnung | Zollposten | 55–115 | GES | 10 | Präziser Schuss, Ausweichmanöver, Mehrfachschuss, Adlerauge, Geleitschutz |
+| **Eidkrieger** | Tapferkeit | Kriegshalle | 85–165 | STR | 3 | Kraftvoller Schlag, Ausweichmanöver, Berserker, Kriegsherr, Spaltender Hieb, Sturm auf die Mauern, Blutrausch |
+| **Bannerträger** | Tapferkeit | Quartiermeisterei | 70–140 | STR | 3 | Kraftvoller Schlag, Schildwall, Provozieren, Kriegsherr, Unbeugsamer Schrei |
+| **Zauberklinge** | Arkanes | Akademie | 60–125 | INT | 3 | Feuerblitz, Ausweichmanöver, Kettenblitz, Erzmagier, Reißendes Licht, Phasenschritt, Runenriposte |
+| **Adept** | Arkanes | Resonanzturm | 40–88 | INT | 11 | Feuerblitz, Mana-Schild, Kettenblitz, Erzmagier, Runenschutz |
+| **Geleitwache** | Handel | Handelsgilde | 80–150 | STR | 3 | Wachsamkeit, Schildwall, Provozieren, Bastion, Warenschutz, Eilmarsch, Geleitdienst |
+| **Karawanenführer** | Handel | Warenlager | 55–115 | GES | 3 | Präziser Schuss, Ausweichmanöver, Mehrfachschuss, Adlerauge, Wegmarke |
+| **Inquisitor** | Tyrannei | Tribunal | 65–130 | INT | 3 | Feuerblitz, Mana-Schild, Provozieren, Erzmagier, Schreckensmal, Eiserner Eid |
+| **Vollstrecker** | Tyrannei | Abgabenamt | 90–170 | STR | 3 | Kraftvoller Schlag, Schildwall, Berserker, Kriegsherr, Kettenurteil |
+<!-- hero-classes:end -->
+
 ---
 
 ## Detaillierte Werte

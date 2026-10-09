@@ -21,6 +21,35 @@ Gli avventurieri sono il cuore del gioco. Hanno libero arbitrio e prendono decis
 Il Ranger (frecce), il Mago (palle di fuoco), il Battistrada (giavellotti), la Guardia delle Strade (dardi di balestra) e l'Adepto (schegge di luce) attaccano con proiettili, ciascuno con il proprio. Le altre classi che combattono lo fanno in mischia: colpiscono fino a 3 caselle di distanza e infliggono danno doppio.
 :::
 
+<!-- hero-classes:begin (written by tools/hero_docs.py from the game's data; do not edit) -->
+Tutte le classi di eroi del gioco, scritte dai suoi dati: le sei che ogni regno recluta e quelle reclutate dagli edifici propri di una via del castello.
+
+| Classe | Via del castello | Reclutata in | Salute | Attacco | Portata d'attacco | Abilità |
+|---|---|---|---|---|---|---|
+| **Guerriero** | — | Caserma | 70–150 | FOR | 3 | Colpo potente, Muro di scudi, Berserker, Signore della guerra, Grido di guerra |
+| **Mago** | — | Torre del mago | 25–65 | INT | 12 | Dardo infuocato, Scudo di mana, Fulmine a catena, Arcimago, Tornado di fuoco |
+| **Ranger** | — | Capanna del ranger | 45–100 | AGI | 11 | Tiro preciso, Evasione, Tiro multiplo, Occhio d'aquila, Rompivento |
+| **Guardia** | — | Posto di guardia | 50–120 | FOR | 3 | Vigilanza, Fortifica, Provocazione, Bastione |
+| **Costruttore** | — | Gilda dei costruttori | 30–70 | — | 3 | Riparazione rapida, Rinforzo, Maestria artigiana, Architetto |
+| **Ladro** | — | Gilda dei ladri | 35–80 | AGI | 3 | Pugnalata alle spalle, Evasione, Borseggiatore, Danza delle ombre |
+| **Cavaliere dello Scudo** | Guardiano | Bastione | 90–170 | FOR | 3 | Vigilanza, Muro di scudi, Provocazione, Bastione, Scudo del Giuramento, Giuramento del Sostituto, Alla Riscossa |
+| **Ospitaliere** | Guardiano | Santuario | 50–100 | INT | 3 | Vigilanza, Scudo di mana, Fortifica, Bastione, Preghiera Risanatrice |
+| **Battistrada** | Terre selvagge | Campo selvaggio | 50–105 | AGI | 11 | Tiro preciso, Evasione, Tiro multiplo, Occhio d'aquila, Marchio del Cacciatore |
+| **Custode delle Bestie** | Terre selvagge | Rifugio delle Bestie | 65–135 | FOR | 3 | Colpo potente, Evasione, Berserker, Occhio d'aquila, Assalto del Falco, Seguire la Pista, Compagno Animale, Copertura del Compagno, Soccorso alle Erbe |
+| **Cavaliere Sepolcrale** | Non morto | Ossario | 95–175 | FOR | 3 | Colpo potente, Muro di scudi, Berserker, Signore della guerra, Armatura d'Ossa |
+| **Negromante** | Non morto | Cripta | 40–90 | INT | 3 | Dardo infuocato, Scudo di mana, Fulmine a catena, Arcimago, Sigillo dell'Avvizzimento, Guardia d'Ossa, Debito d'Anima |
+| **Maresciallo** | Ordine | Gendarmeria | 80–155 | FOR | 3 | Vigilanza, Muro di scudi, Provocazione, Signore della guerra, Blocco, Ordine di Adunata, Ronda d'Allarme |
+| **Guardia delle Strade** | Ordine | Posto di Pedaggio | 55–115 | AGI | 10 | Tiro preciso, Evasione, Tiro multiplo, Occhio d'aquila, Scorta del Convoglio |
+| **Giurato** | Valore | Sala della Guerra | 85–165 | FOR | 3 | Colpo potente, Evasione, Berserker, Signore della guerra, Colpo Squarciante, Assalto alle Mura, Frenesia di Sangue |
+| **Alfiere** | Valore | Intendenza | 70–140 | FOR | 3 | Colpo potente, Muro di scudi, Provocazione, Signore della guerra, Ruggito Indomito |
+| **Lama Arcana** | Arcano | Accademia | 60–125 | INT | 3 | Dardo infuocato, Evasione, Fulmine a catena, Arcimago, Luce Lacerante, Passo di Fase, Risposta Runica |
+| **Adepto** | Arcano | Guglia | 40–88 | INT | 11 | Dardo infuocato, Scudo di mana, Fulmine a catena, Arcimago, Custodia Runica |
+| **Scorta** | Commercio | Gilda Mercantile | 80–150 | FOR | 3 | Vigilanza, Muro di scudi, Provocazione, Bastione, Guardia del Carico, Marcia Forzata, Servizio di Scorta |
+| **Carovaniere** | Commercio | Deposito | 55–115 | AGI | 3 | Tiro preciso, Evasione, Tiro multiplo, Occhio d'aquila, Segno di Rotta |
+| **Inquisitore** | Tirannia | Tribunale | 65–130 | INT | 3 | Dardo infuocato, Scudo di mana, Provocazione, Arcimago, Marchio del Terrore, Giuramento di Ferro |
+| **Esattore di Ferro** | Tirannia | Ufficio dei Tributi | 90–170 | FOR | 3 | Colpo potente, Muro di scudi, Berserker, Signore della guerra, Verdetto delle Catene |
+<!-- hero-classes:end -->
+
 ---
 
 ## Statistiche dettagliate

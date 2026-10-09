@@ -21,6 +21,35 @@ Os aventureiros são o coração do jogo. Eles têm vontade própria e tomam dec
 O Patrulheiro (flechas), o Mago (bolas de fogo), o Batedor (azagaias), o Guarda das Estradas (virotes de besta) e o Adepto (estilhaços de luz) atacam com projéteis, cada um com o seu. As demais classes que lutam combatem corpo a corpo: golpeiam a até 3 tiles de distância e causam o dobro de dano.
 :::
 
+<!-- hero-classes:begin (written by tools/hero_docs.py from the game's data; do not edit) -->
+Todas as classes de herói do jogo, escritas a partir dos seus dados: as seis que qualquer reino recruta e as que os edifícios próprios de um caminho do castelo recrutam.
+
+| Classe | Caminho do castelo | Recrutada em | Vida | Ataque | Alcance de ataque | Habilidades |
+|---|---|---|---|---|---|---|
+| **Guerreiro** | — | Quartel | 70–150 | FOR | 3 | Golpe Poderoso, Muro de Escudos, Berserker, Senhor da Guerra, Grito de guerra |
+| **Mago** | — | Torre do Mago | 25–65 | INT | 12 | Projétil de Fogo, Escudo de Mana, Relâmpago em Cadeia, Arquimago, Tornado de fogo |
+| **Patrulheiro** | — | Abrigo do Patrulheiro | 45–100 | AGI | 11 | Tiro Preciso, Evasão, Tiro Múltiplo, Olho de Águia, Quebra-vento |
+| **Guarda** | — | Posto de Guarda | 50–120 | FOR | 3 | Vigilância, Fortificar, Provocar, Bastião |
+| **Construtor** | — | Guilda dos Construtores | 30–70 | — | 3 | Reparo Rápido, Reforçar, Mestre Artesão, Arquiteto |
+| **Ladrão** | — | Guilda dos ladrões | 35–80 | AGI | 3 | Punhalada nas costas, Evasão, Batedor de carteiras, Dança das sombras |
+| **Cavaleiro do Escudo** | Guardião | Bastião | 90–170 | FOR | 3 | Vigilância, Muro de Escudos, Provocar, Bastião, Escudo do Juramento, Juramento do Substituto, Ao Resgate |
+| **Hospitalário** | Guardião | Santuário | 50–100 | INT | 3 | Vigilância, Escudo de Mana, Fortificar, Bastião, Prece Curativa |
+| **Batedor** | Ermos | Acampamento selvagem | 50–105 | AGI | 11 | Tiro Preciso, Evasão, Tiro Múltiplo, Olho de Águia, Marca do Caçador |
+| **Guardião das Feras** | Ermos | Abrigo das Feras | 65–135 | FOR | 3 | Golpe Poderoso, Evasão, Berserker, Olho de Águia, Ataque do Falcão, Rastreio de Trilha, Companheiro Animal, Cobertura do Companheiro, Socorro Herbal |
+| **Cavaleiro Sepulcral** | Morto-vivo | Ossuário | 95–175 | FOR | 3 | Golpe Poderoso, Muro de Escudos, Berserker, Senhor da Guerra, Armadura de Ossos |
+| **Necromante** | Morto-vivo | Cripta | 40–90 | INT | 3 | Projétil de Fogo, Escudo de Mana, Relâmpago em Cadeia, Arquimago, Selo do Definhamento, Guarda de Ossos, Dívida da Alma |
+| **Marechal** | Ordem | Chefatura | 80–155 | FOR | 3 | Vigilância, Muro de Escudos, Provocar, Senhor da Guerra, Bloqueio, Ordem de Formar, Ronda de Alarme |
+| **Guarda das Estradas** | Ordem | Posto de Pedágio | 55–115 | AGI | 10 | Tiro Preciso, Evasão, Tiro Múltiplo, Olho de Águia, Guarda do Comboio |
+| **Juramentado** | Bravura | Salão de Guerra | 85–165 | FOR | 3 | Golpe Poderoso, Evasão, Berserker, Senhor da Guerra, Golpe Fendente, Assalto às Muralhas, Frenesi de Sangue |
+| **Porta-estandarte** | Bravura | Intendência | 70–140 | FOR | 3 | Golpe Poderoso, Muro de Escudos, Provocar, Senhor da Guerra, Rugido Inabalável |
+| **Lâmina Arcana** | Arcano | Academia | 60–125 | INT | 3 | Projétil de Fogo, Evasão, Relâmpago em Cadeia, Arquimago, Luz Dilacerante, Passo de Fase, Réplica Rúnica |
+| **Adepto** | Arcano | Pináculo | 40–88 | INT | 11 | Projétil de Fogo, Escudo de Mana, Relâmpago em Cadeia, Arquimago, Guarda Rúnica |
+| **Escolta** | Comércio | Guilda Mercantil | 80–150 | FOR | 3 | Vigilância, Muro de Escudos, Provocar, Bastião, Guarda da Carga, Marcha Forçada, Serviço de Escolta |
+| **Caravaneiro** | Comércio | Depósito | 55–115 | AGI | 3 | Tiro Preciso, Evasão, Tiro Múltiplo, Olho de Águia, Marca de Rota |
+| **Inquisidor** | Tirania | Tribunal | 65–130 | INT | 3 | Projétil de Fogo, Escudo de Mana, Provocar, Arquimago, Marca do Pavor, Juramento de Ferro |
+| **Executor** | Tirania | Escritório de Tributos | 90–170 | FOR | 3 | Golpe Poderoso, Muro de Escudos, Berserker, Senhor da Guerra, Veredito das Correntes |
+<!-- hero-classes:end -->
+
 ---
 
 ## Estatísticas Detalhadas

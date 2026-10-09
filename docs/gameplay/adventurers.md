@@ -21,6 +21,35 @@ Adventurers are the heart of the game. They have free will and make decisions ba
 The Ranger (arrows), the Mage (fireballs), the Pathfinder (javelins), the Roadwarden (crossbow bolts) and the Adept (shards of light) attack with projectiles, each with a kind of its own. The other classes that fight do so in melee: they strike from up to 3 tiles away and deal double damage.
 :::
 
+<!-- hero-classes:begin (written by tools/hero_docs.py from the game's data; do not edit) -->
+Every hero class in the game, written from its data: the six that any kingdom recruits, then the classes that a castle path's own buildings recruit.
+
+| Class | Castle path | Recruited at | Health | Attack | Attack range | Skills |
+|---|---|---|---|---|---|---|
+| **Warrior** | — | Barracks | 70–150 | STR | 3 | Power Strike, Shield Wall, Berserker, Warlord, War Cry |
+| **Mage** | — | Mage Tower | 25–65 | INT | 12 | Fire Bolt, Mana Shield, Chain Lightning, Archmage, Fire Tornado |
+| **Ranger** | — | Ranger Lodge | 45–100 | AGI | 11 | Precise Shot, Evasion, Multi Shot, Eagle Eye, Wind Break |
+| **Guard** | — | Guard Post | 50–120 | STR | 3 | Vigilance, Fortify, Taunt, Bastion |
+| **Builder** | — | Builder's Guild | 30–70 | — | 3 | Quick Repair, Reinforce, Master Craft, Architect |
+| **Thief** | — | Thieves' Guild | 35–80 | AGI | 3 | Backstab, Evasion, Cutpurse, Shadow Dance |
+| **Shield Knight** | Guardian | Bastion | 90–170 | STR | 3 | Vigilance, Shield Wall, Taunt, Bastion, Oath Shield, Sworn Stand-in, To the Rescue |
+| **Hospitaller** | Guardian | Sanctuary | 50–100 | INT | 3 | Vigilance, Mana Shield, Fortify, Bastion, Mending Prayer |
+| **Pathfinder** | Wilds | Wild Camp | 50–105 | AGI | 11 | Precise Shot, Evasion, Multi Shot, Eagle Eye, Hunter's Mark |
+| **Beast Warden** | Wilds | Beast Lodge | 65–135 | STR | 3 | Power Strike, Evasion, Berserker, Eagle Eye, Hawk Strike, Trail Tracking, Beast Companion, Companion Cover, Herbal First Aid |
+| **Grave Knight** | Undead | Ossuary | 95–175 | STR | 3 | Power Strike, Shield Wall, Berserker, Warlord, Bone Armor |
+| **Necromancer** | Undead | Crypt | 40–90 | INT | 3 | Fire Bolt, Mana Shield, Chain Lightning, Archmage, Withering Seal, Bone Guard, Soul Debt |
+| **Marshal** | Order | Constabulary | 80–155 | STR | 3 | Vigilance, Shield Wall, Taunt, Warlord, Lockdown, Muster Order, Alarm Round |
+| **Roadwarden** | Order | Toll Post | 55–115 | AGI | 10 | Precise Shot, Evasion, Multi Shot, Eagle Eye, Convoy Guard |
+| **Oathsworn** | Valor | War Hall | 85–165 | STR | 3 | Power Strike, Evasion, Berserker, Warlord, Sundering Blow, Storm the Walls, Blood Frenzy |
+| **Bannerman** | Valor | Quartermaster | 70–140 | STR | 3 | Power Strike, Shield Wall, Taunt, Warlord, Unyielding Roar |
+| **Spellblade** | Arcane | Academy | 60–125 | INT | 3 | Fire Bolt, Evasion, Chain Lightning, Archmage, Rending Light, Phase Step, Rune Riposte |
+| **Adept** | Arcane | Spire | 40–88 | INT | 11 | Fire Bolt, Mana Shield, Chain Lightning, Archmage, Rune Ward |
+| **Escort** | Commerce | Trade Guild | 80–150 | STR | 3 | Vigilance, Shield Wall, Taunt, Bastion, Guard the Goods, Forced March, Convoy Duty |
+| **Caravaneer** | Commerce | Depot | 55–115 | AGI | 3 | Precise Shot, Evasion, Multi Shot, Eagle Eye, Route Mark |
+| **Inquisitor** | Tyranny | Tribunal | 65–130 | INT | 3 | Fire Bolt, Mana Shield, Taunt, Archmage, Dread Brand, Iron Oath |
+| **Enforcer** | Tyranny | Levy Office | 90–170 | STR | 3 | Power Strike, Shield Wall, Berserker, Warlord, Chain Verdict |
+<!-- hero-classes:end -->
+
 ---
 
 ## Detailed Stats

@@ -21,6 +21,35 @@ Nhà phiêu lưu là trung tâm của trò chơi. Họ có ý chí tự do và �
 Xạ thủ (mũi tên), Pháp sư (cầu lửa), Người dẫn đường (lao), Người gác đường (tên nỏ) và Thuật sĩ Cộng hưởng (mảnh ánh sáng) tấn công bằng đạn, mỗi lớp một loại riêng. Các lớp chiến đấu còn lại đánh cận chiến: đánh từ xa tối đa 3 ô và gây sát thương gấp đôi.
 :::
 
+<!-- hero-classes:begin (written by tools/hero_docs.py from the game's data; do not edit) -->
+Mọi lớp anh hùng trong trò chơi, viết từ dữ liệu của nó: sáu lớp mà vương quốc nào cũng chiêu mộ, và các lớp do công trình riêng của một con đường lâu đài chiêu mộ.
+
+| Lớp | Con đường lâu đài | Chiêu mộ tại | Máu | Tấn công | Tầm tấn công | Kỹ năng |
+|---|---|---|---|---|---|---|
+| **Chiến binh** | — | Doanh trại | 70–150 | SỨC | 3 | Đánh mạnh, Tường khiên, Cuồng chiến, Lãnh chúa, Tiếng Thét Chiến Trận |
+| **Pháp sư** | — | Tháp Pháp sư | 25–65 | TRÍ | 12 | Tia lửa, Khiên mana, Sét liên hoàn, Đại pháp sư, Lốc Lửa |
+| **Xạ thủ** | — | Nhà Xạ thủ | 45–100 | NHẸ | 11 | Bắn chính xác, Né tránh, Bắn loạt, Mắt đại bàng, Phá Phong |
+| **Vệ binh** | — | Trạm gác | 50–120 | SỨC | 3 | Cảnh giác, Gia cố, Khiêu khích, Pháo đài |
+| **Thợ xây** | — | Phường hội Thợ xây | 30–70 | — | 3 | Sửa nhanh, Tăng cường, Bậc thầy chế tạo, Kiến trúc sư |
+| **Kẻ trộm** | — | Hội đạo tặc | 35–80 | NHẸ | 3 | Đâm lén, Né tránh, Móc túi, Vũ điệu bóng tối |
+| **Kỵ sĩ Khiên** | Thủ hộ | Pháo đài | 90–170 | SỨC | 3 | Cảnh giác, Tường khiên, Khiêu khích, Pháo đài, Khiên Thệ ước, Lời thề Thế thân, Xông tới Cứu viện |
+| **Tu sĩ Cứu thương** | Thủ hộ | Thánh đường | 50–100 | TRÍ | 3 | Cảnh giác, Khiên mana, Gia cố, Pháo đài, Lời nguyện Chữa lành |
+| **Người dẫn đường** | Hoang dã | Trại hoang | 50–105 | NHẸ | 11 | Bắn chính xác, Né tránh, Bắn loạt, Mắt đại bàng, Dấu ấn Thợ săn |
+| **Người giữ thú** | Hoang dã | Trại thú | 65–135 | SỨC | 3 | Đánh mạnh, Né tránh, Cuồng chiến, Mắt đại bàng, Chim ưng Tập kích, Lần theo Dấu vết, Bạn đồng hành Thú, Bạn đồng hành Yểm trợ, Sơ cứu Thảo dược |
+| **Kỵ sĩ Mộ phần** | Bất tử | Nhà hài cốt | 95–175 | SỨC | 3 | Đánh mạnh, Tường khiên, Cuồng chiến, Lãnh chúa, Giáp Xương |
+| **Tử linh sư** | Bất tử | Hầm mộ | 40–90 | TRÍ | 3 | Tia lửa, Khiên mana, Sét liên hoàn, Đại pháp sư, Ấn Tàn úa, Vệ binh Hài cốt, Món nợ Linh hồn |
+| **Chấp pháp quan** | Trật tự | Sở Tuần luật | 80–155 | SỨC | 3 | Cảnh giác, Tường khiên, Khiêu khích, Lãnh chúa, Phong tỏa, Lệnh Tập hợp, Tuần tra Báo động |
+| **Người gác đường** | Trật tự | Trạm thu thuế | 55–115 | NHẸ | 10 | Bắn chính xác, Né tránh, Bắn loạt, Mắt đại bàng, Hộ tống |
+| **Chiến binh Thệ nguyện** | Dũng cảm | Chiến đường | 85–165 | SỨC | 3 | Đánh mạnh, Né tránh, Cuồng chiến, Lãnh chúa, Đòn Phá trận, Công phá Tường thành, Cuồng huyết |
+| **Người cầm cờ** | Dũng cảm | Kho quân nhu | 70–140 | SỨC | 3 | Đánh mạnh, Tường khiên, Khiêu khích, Lãnh chúa, Tiếng gầm Bất khuất |
+| **Ma kiếm sĩ** | Bí thuật | Học viện | 60–125 | TRÍ | 3 | Tia lửa, Né tránh, Sét liên hoàn, Đại pháp sư, Trảm Quang, Bước lùi Pha, Phản kích Cổ tự |
+| **Thuật sĩ Cộng hưởng** | Bí thuật | Tháp Cộng hưởng | 40–88 | TRÍ | 11 | Tia lửa, Khiên mana, Sét liên hoàn, Đại pháp sư, Bùa hộ Cổ tự |
+| **Hộ vệ Khế ước** | Thương mại | Thương hội | 80–150 | SỨC | 3 | Cảnh giác, Tường khiên, Khiêu khích, Pháo đài, Thế Hộ hàng, Hành quân Thần tốc, Nhiệm vụ Hộ tống |
+| **Trưởng đoàn buôn** | Thương mại | Kho hàng | 55–115 | NHẸ | 3 | Bắn chính xác, Né tránh, Bắn loạt, Mắt đại bàng, Dấu Thương lộ |
+| **Thẩm phán Hắc thệ** | Bạo chúa | Tòa Hắc thệ | 65–130 | TRÍ | 3 | Tia lửa, Khiên mana, Khiêu khích, Đại pháp sư, Ấn Kinh hãi, Thiết thệ Hộ vệ |
+| **Người cưỡng chế** | Bạo chúa | Sở Trưng thu | 90–170 | SỨC | 3 | Đánh mạnh, Tường khiên, Cuồng chiến, Lãnh chúa, Phán quyết Xiềng xích |
+<!-- hero-classes:end -->
+
 ---
 
 ## Chỉ số chi tiết

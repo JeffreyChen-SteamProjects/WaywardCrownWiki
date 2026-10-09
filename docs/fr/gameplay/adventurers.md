@@ -21,6 +21,35 @@ Les aventuriers sont le cœur du jeu. Ils ont un libre arbitre et prennent des d
 Le Rôdeur (flèches), le Mage (boules de feu), l'Éclaireur (javelots), le Garde des routes (carreaux d'arbalète) et l'Adepte (éclats de lumière) attaquent avec des projectiles, chacun avec le sien. Les autres classes qui combattent se battent au corps à corps : elles frappent jusqu'à 3 cases de distance et infligent des dégâts doublés.
 :::
 
+<!-- hero-classes:begin (written by tools/hero_docs.py from the game's data; do not edit) -->
+Toutes les classes de héros du jeu, écrites à partir de ses données : les six que tout royaume recrute, puis celles que recrutent les bâtiments propres à une voie du château.
+
+| Classe | Voie du château | Recrutée à | Santé | Attaque | Portée d'attaque | Compétences |
+|---|---|---|---|---|---|---|
+| **Guerrier** | — | Caserne | 70–150 | FOR | 3 | Frappe puissante, Mur de boucliers, Berserker, Seigneur de guerre, Cri de guerre |
+| **Mage** | — | Tour de mage | 25–65 | INT | 12 | Trait de feu, Bouclier de mana, Éclair en chaîne, Archimage, Tornade de feu |
+| **Rôdeur** | — | Cabane du rôdeur | 45–100 | AGI | 11 | Tir précis, Évasion, Tir multiple, Œil de l'aigle, Brise-vent |
+| **Garde** | — | Poste de garde | 50–120 | FOR | 3 | Vigilance, Fortifier, Provocation, Bastion |
+| **Bâtisseur** | — | Guilde des bâtisseurs | 30–70 | — | 3 | Réparation rapide, Renforcer, Maîtrise artisanale, Architecte |
+| **Voleur** | — | Guilde des voleurs | 35–80 | AGI | 3 | Coup dans le dos, Évasion, Coupe-bourse, Danse de l'ombre |
+| **Chevalier au bouclier** | Gardien | Bastion | 90–170 | FOR | 3 | Vigilance, Mur de boucliers, Provocation, Bastion, Bouclier du serment, Serment du remplaçant, À la rescousse |
+| **Hospitalier** | Gardien | Sanctuaire | 50–100 | INT | 3 | Vigilance, Bouclier de mana, Fortifier, Bastion, Prière de guérison |
+| **Éclaireur** | Contrées sauvages | Camp sauvage | 50–105 | AGI | 11 | Tir précis, Évasion, Tir multiple, Œil de l'aigle, Marque du chasseur |
+| **Gardien des bêtes** | Contrées sauvages | Pavillon des bêtes | 65–135 | FOR | 3 | Frappe puissante, Évasion, Berserker, Œil de l'aigle, Frappe du faucon, Pistage, Compagnon animal, Couverture du compagnon, Soins aux herbes |
+| **Chevalier des tombes** | Mort-vivant | Ossuaire | 95–175 | FOR | 3 | Frappe puissante, Mur de boucliers, Berserker, Seigneur de guerre, Armure d'os |
+| **Nécromancien** | Mort-vivant | Crypte | 40–90 | INT | 3 | Trait de feu, Bouclier de mana, Éclair en chaîne, Archimage, Sceau de flétrissure, Garde d'os, Dette d'âme |
+| **Prévôt** | Ordre | Prévôté | 80–155 | FOR | 3 | Vigilance, Mur de boucliers, Provocation, Seigneur de guerre, Bouclage, Ordre de rassemblement, Ronde d'alarme |
+| **Garde des routes** | Ordre | Poste de péage | 55–115 | AGI | 10 | Tir précis, Évasion, Tir multiple, Œil de l'aigle, Garde du convoi |
+| **Juré de guerre** | Bravoure | Halle de guerre | 85–165 | FOR | 3 | Frappe puissante, Évasion, Berserker, Seigneur de guerre, Coup fendant, À l'assaut des murs, Frénésie sanglante |
+| **Porte-bannière** | Bravoure | Intendance | 70–140 | FOR | 3 | Frappe puissante, Mur de boucliers, Provocation, Seigneur de guerre, Rugissement inflexible |
+| **Lame-sort** | Arcanes | Académie | 60–125 | INT | 3 | Trait de feu, Évasion, Éclair en chaîne, Archimage, Lumière déchirante, Pas de phase, Riposte runique |
+| **Adepte** | Arcanes | Flèche | 40–88 | INT | 11 | Trait de feu, Bouclier de mana, Éclair en chaîne, Archimage, Garde runique |
+| **Escorteur** | Commerce | Guilde marchande | 80–150 | FOR | 3 | Vigilance, Mur de boucliers, Provocation, Bastion, Garde des marchandises, Marche forcée, Service d'escorte |
+| **Caravanier** | Commerce | Dépôt caravanier | 55–115 | AGI | 3 | Tir précis, Évasion, Tir multiple, Œil de l'aigle, Marque de route |
+| **Inquisiteur** | Tyrannie | Tribunal | 65–130 | INT | 3 | Trait de feu, Bouclier de mana, Provocation, Archimage, Marque d'effroi, Serment de fer |
+| **Exécuteur** | Tyrannie | Bureau des levées | 90–170 | FOR | 3 | Frappe puissante, Mur de boucliers, Berserker, Seigneur de guerre, Verdict des chaînes |
+<!-- hero-classes:end -->
+
 ---
 
 ## Statistiques détaillées

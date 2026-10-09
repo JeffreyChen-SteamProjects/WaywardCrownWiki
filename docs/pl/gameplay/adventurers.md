@@ -21,6 +21,35 @@ Poszukiwacze przygód są sercem gry. Mają wolną wolę i podejmują decyzje na
 Łowca (strzały), Mag (kule ognia), Tropiciel (oszczepy), Strażnik Traktów (bełty kuszy) i Adept (odłamki światła) atakują pociskami, każdy własnym rodzajem. Pozostałe walczące klasy walczą wręcz: uderzają z odległości do 3 pól i zadają podwójne obrażenia.
 :::
 
+<!-- hero-classes:begin (written by tools/hero_docs.py from the game's data; do not edit) -->
+Wszystkie klasy bohaterów w grze, spisane z jej danych: sześć, które werbuje każde królestwo, oraz klasy werbowane przez własne budynki drogi zamku.
+
+| Klasa | Droga zamku | Werbowana w | Zdrowie | Atak | Zasięg ataku | Umiejętności |
+|---|---|---|---|---|---|---|
+| **Wojownik** | — | Koszary | 70–150 | SIŁ | 3 | Potężne uderzenie, Ściana tarcz, Berserker, Wódz wojenny, Okrzyk bojowy |
+| **Mag** | — | Wieża maga | 25–65 | INT | 12 | Ognisty pocisk, Tarcza many, Łańcuch błyskawic, Arcymag, Ognisty tornado |
+| **Łowca** | — | Chata łowcy | 45–100 | ZRC | 11 | Precyzyjny strzał, Uniki, Wielostrzał, Orle oko, Przełamanie wiatru |
+| **Strażnik** | — | Posterunek strażnika | 50–120 | SIŁ | 3 | Czujność, Fortyfikacja, Prowokacja, Bastion |
+| **Budowniczy** | — | Gildia budowniczych | 30–70 | — | 3 | Szybka naprawa, Wzmocnienie, Mistrzowskie rzemiosło, Architekt |
+| **Złodziej** | — | Gildia złodziei | 35–80 | ZRC | 3 | Cios w plecy, Uniki, Kieszonkowiec, Taniec cieni |
+| **Rycerz Tarczy** | Strażnik | Bastion | 90–170 | SIŁ | 3 | Czujność, Ściana tarcz, Prowokacja, Bastion, Tarcza Przysięgi, Przysięga Zastępcy, Na Ratunek |
+| **Szpitalnik** | Strażnik | Sanktuarium | 50–100 | INT | 3 | Czujność, Tarcza many, Fortyfikacja, Bastion, Modlitwa Uzdrowienia |
+| **Tropiciel** | Dzicz | Dziki obóz | 50–105 | ZRC | 11 | Precyzyjny strzał, Uniki, Wielostrzał, Orle oko, Znak Łowcy |
+| **Opiekun Bestii** | Dzicz | Leśna Zagroda | 65–135 | SIŁ | 3 | Potężne uderzenie, Uniki, Berserker, Orle oko, Atak Jastrzębia, Tropienie, Zwierzęcy Towarzysz, Osłona Towarzysza, Ziołowa Pomoc |
+| **Rycerz Grobów** | Nieumarli | Ossuarium | 95–175 | SIŁ | 3 | Potężne uderzenie, Ściana tarcz, Berserker, Wódz wojenny, Kościany Pancerz |
+| **Nekromanta** | Nieumarli | Krypta | 40–90 | INT | 3 | Ognisty pocisk, Tarcza many, Łańcuch błyskawic, Arcymag, Pieczęć Więdnięcia, Kościana Straż, Dług Duszy |
+| **Marszałek** | Ład | Posterunek Straży | 80–155 | SIŁ | 3 | Czujność, Ściana tarcz, Prowokacja, Wódz wojenny, Blokada, Rozkaz Zbiórki, Obchód Alarmowy |
+| **Strażnik Traktów** | Ład | Rogatka | 55–115 | ZRC | 10 | Precyzyjny strzał, Uniki, Wielostrzał, Orle oko, Straż Konwoju |
+| **Zaprzysiężony** | Męstwo | Hala Wojenna | 85–165 | SIŁ | 3 | Potężne uderzenie, Uniki, Berserker, Wódz wojenny, Rozłupujący Cios, Szturm na Mury, Krwawy Szał |
+| **Chorąży** | Męstwo | Kwatermistrzostwo | 70–140 | SIŁ | 3 | Potężne uderzenie, Ściana tarcz, Prowokacja, Wódz wojenny, Nieugięty Ryk |
+| **Ostrze Zaklęć** | Tajemne | Akademia | 60–125 | INT | 3 | Ognisty pocisk, Uniki, Łańcuch błyskawic, Arcymag, Rozdzierające Światło, Krok Fazowy, Runiczna Riposta |
+| **Adept** | Tajemne | Iglica | 40–88 | INT | 11 | Ognisty pocisk, Tarcza many, Łańcuch błyskawic, Arcymag, Runiczna Osłona |
+| **Eskortant** | Handel | Gildia Kupiecka | 80–150 | SIŁ | 3 | Czujność, Ściana tarcz, Prowokacja, Bastion, Straż Towaru, Forsowny Marsz, Służba Konwojowa |
+| **Karawaniarz** | Handel | Skład | 55–115 | ZRC | 3 | Precyzyjny strzał, Uniki, Wielostrzał, Orle oko, Znak Szlaku |
+| **Inkwizytor** | Tyrania | Trybunał | 65–130 | INT | 3 | Ognisty pocisk, Tarcza many, Prowokacja, Arcymag, Piętno Grozy, Żelazna Przysięga |
+| **Egzekutor** | Tyrania | Urząd Poboru | 90–170 | SIŁ | 3 | Potężne uderzenie, Ściana tarcz, Berserker, Wódz wojenny, Wyrok Łańcuchów |
+<!-- hero-classes:end -->
+
 ---
 
 ## Szczegółowe statystyki
