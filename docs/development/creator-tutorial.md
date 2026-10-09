@@ -33,7 +33,7 @@ The template is two levels, each its own map with the same castle and chest; the
 
 The template holds a hero class, an enemy, a building that recruits the class, a stronghold that sends the enemy, a skill, a research, an event, a named boss, a tile skin and an English language file, all under the project's own namespace.
 
-1. Edit each kind in its table; the properties form greys values taken from the base definition and marks a value out of the game's bounds at once.
+1. Edit in the **Objects** tab. The bar picks a kind; each definition is listed under the name and with the picture the game would give it, and the selected one is previewed (a walker walks). **New…** adds one by what it builds on and its name; its art and sound are chosen or imported in its own rows; the properties form greys values taken from the base definition and marks a value out of the game's bounds at once. **Advanced** shows the by-ID row and the definition's JSON.
 2. Assets: the **Assets** tab takes image files dropped on it and shows each against the size and memory limits. The template's tile skin uses `preview.png` as an example sprite; replace it there.
 3. Overrides: **Copy built-in…** adds a full copy of one of the game's actors under your own ID, which replaces the original where it is used. A definition with a built-in ID (for example `SLIME` with base `SLIME`) changes the game's own slime while the plugin is on; **Content profiles** shows which plugin's override wins.
 4. Versions: **Project version** is the project's own version; **Supported game versions** is the range of game versions it accepts (`*` for any; a development build accepts only `*`).

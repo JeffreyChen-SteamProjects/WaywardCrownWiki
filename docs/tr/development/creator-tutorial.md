@@ -33,7 +33,7 @@ Her şablon **Yaratıcı ve Steam Atölyesi** içinde (ana menü, harita yöneti
 
 Şablonda bir kahraman sınıfı, bir düşman, sınıfı toplayan bir yapı, düşmanı gönderen bir kale, bir yetenek, bir araştırma, bir olay, adı olan bir patron, bir kare görünümü ve bir İngilizce dil dosyası vardır; hepsi projenin kendi ad alanındadır.
 
-1. Her türü kendi tablosunda düzenleyin; özellik formu temel tanımdan gelen değerleri griler ve oyunun sınırları dışındaki bir değeri hemen işaretler.
+1. **Nesneler** sekmesinde düzenleyin. Çubuk bir tür seçer; her tanım, oyunun ona vereceği ad ve resimle listelenir ve seçili olan önizlenir (yürüyen birim yürür). **Yeni…** bir tanımı neyi temel aldığına ve adına göre ekler; resmi ve sesi kendi satırlarında seçilir ya da içe aktarılır; özellik formu temel tanımdan alınan değerleri gri gösterir ve oyunun sınırları dışındaki bir değeri hemen işaretler. **Gelişmiş**, ID ile ekleme satırını ve tanımın JSON'unu gösterir.
 2. Varlıklar: **Varlıklar** sekmesi üzerine bırakılan resim dosyalarını alır ve her birini boyut ve bellek sınırlarıyla karşılaştırır. Şablonun kare görünümü örnek resim olarak `preview.png` kullanır; onu orada değiştirin.
 3. Geçersiz kılmalar: **Oyundan kopyala…**, oyunun bir karakterinin tam kopyasını kendi kimliğinizle ekler; kopya, kullanıldığı yerde aslının yerini alır. Yerleşik bir kimlikli tanım (örneğin tabanı `SLIME` olan `SLIME`) eklenti açıkken oyunun kendi balçığını değiştirir; hangi eklentinin geçersiz kılmasının kazandığını **İçerik profilleri** gösterir.
 4. Sürümler: **Proje versiyonu** projenin kendi sürümüdür; **Desteklenen oyun versiyonları** kabul ettiği oyun sürümleri aralığıdır (`*` hepsi için; bir geliştirme derlemesi yalnızca `*` kabul eder).
