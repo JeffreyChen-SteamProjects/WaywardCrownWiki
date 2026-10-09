@@ -71,7 +71,7 @@ Some buildings can be upgraded up to **Lv.3**:
 - **Arrow Tower** — Increases attack power
 - **Temple**, **Warehouse** — Stronger effect; **Thieves' Guild** — Lv.2 unlocks the Poisoned Blades research (300g): a thief's hit poisons for 5 s, 1% of max HP a second, without stacking; **Village House** — Cannot be upgraded; **Rampart** — up to Lv.2
 
-Each level adds 50% of the building's base HP. An upgrade keeps the building's share of health (at half HP before, at half HP after), so it is no repair.
+Each level adds 50% of the building's base HP. An upgrade keeps the building's share of health (at half HP before, at half HP after), so it is no repair. A raised building also looks it on the map: each level adds more of what the building is (a market gains stalls and bunting, a smithy a second chimney and armour on its stands, a library a globe and then a telescope), a raised wall gets a roofed walk, and the castle grows towers and, at its last level, a great hall.
 
 :::note[Construction cost]
 Each building of a type you already have adds 50% of the base price (the second costs 1.5×, the third 2×; decorations excepted), and Warehouses then take their discount.

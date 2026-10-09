@@ -71,7 +71,7 @@ Certains bâtiments peuvent être améliorés jusqu'au **Nv. 3** :
 - **Tour à flèches** — Augmente la puissance d'attaque
 - **Temple**, **Entrepôt** — Effet renforcé ; **Guilde des voleurs** — Le Nv. 2 débloque la recherche Lames empoisonnées (300g) : le coup d'un voleur empoisonne 5 s, 1 % des HP max par seconde, sans cumul ; **Maison de village** — Ne peut pas être améliorée ; **Rempart** — jusqu'au Nv. 2
 
-Chaque niveau ajoute 50 % des HP de base du bâtiment. Une amélioration conserve la part de santé du bâtiment (à moitié de ses PV avant, à moitié après) : ce n'est pas une réparation.
+Chaque niveau ajoute 50 % des HP de base du bâtiment. Une amélioration conserve la part de santé du bâtiment (à moitié de ses PV avant, à moitié après) : ce n'est pas une réparation. Un bâtiment amélioré se voit aussi sur la carte : chaque niveau ajoute davantage de ce qu'est le bâtiment (le marché gagne des étals et des fanions, la forge une seconde cheminée et des armures sur leurs supports, la bibliothèque un globe puis un télescope), un rempart amélioré reçoit un chemin de ronde couvert et le château gagne des tours et, à son dernier niveau, une grande salle.
 
 :::note[Coût de construction]
 Chaque bâtiment d'un type que vous possédez déjà ajoute 50 % du prix de base (le deuxième coûte 1,5×, le troisième 2× ; sauf les décorations), puis les Entrepôts appliquent leur réduction.

@@ -71,7 +71,7 @@ Algumas construções podem ser melhoradas até **Nv.3**:
 - **Torre de Flechas** — Aumenta o poder de ataque
 - **Templo**, **Armazém** — Efeito mais forte; **Guilda dos ladrões** — O Nv.2 desbloqueia a pesquisa Lâminas envenenadas (300g): o golpe de um ladrão envenena por 5 s, 1% do HP máximo por segundo, sem acumular; **Casa da vila** — Não pode ser melhorada; **Muralha** — até Nv.2
 
-Cada nível adiciona 50% do HP base da construção. A melhoria mantém a proporção de vida da construção (com metade do HP antes, com metade depois), então não a repara.
+Cada nível adiciona 50% do HP base da construção. A melhoria mantém a proporção de vida da construção (com metade do HP antes, com metade depois), então não a repara. Uma construção melhorada também aparece diferente no mapa: cada nível acrescenta mais do que a construção é (o mercado ganha barracas e bandeirolas, a ferraria uma segunda chaminé e armaduras nos suportes, a biblioteca um globo e depois um telescópio), uma muralha melhorada recebe um adarve coberto e o castelo ganha torres e, no último nível, um grande salão.
 
 :::note[Custo de construção]
 Cada construção de um tipo que você já possui acrescenta 50% do preço base (a segunda custa 1,5×, a terceira 2×; exceto decorações), e depois os Armazéns aplicam seu desconto.

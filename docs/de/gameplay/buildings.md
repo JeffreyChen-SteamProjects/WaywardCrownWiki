@@ -71,7 +71,7 @@ Einige Gebäude können bis auf **Stufe 3** aufgewertet werden:
 - **Pfeilturm** — Erhöht die Angriffskraft
 - **Tempel**, **Lagerhaus** — Stärkerer Effekt; **Diebesgilde** — Stufe 2 schaltet die Forschung Giftklingen frei (300g): Ein Treffer eines Diebs vergiftet 5 s lang mit 1 % der max. HP pro Sekunde, ohne zu stapeln; **Dorfhaus** — Nicht ausbaubar; **Wall** — bis Stufe 2
 
-Jede Stufe fügt 50% der Basis-HP des Gebäudes hinzu. Ein Ausbau behält den Gesundheitsanteil des Gebäudes bei (vorher halbe HP, danach halbe HP) und ist daher keine Reparatur.
+Jede Stufe fügt 50% der Basis-HP des Gebäudes hinzu. Ein Ausbau behält den Gesundheitsanteil des Gebäudes bei (vorher halbe HP, danach halbe HP) und ist daher keine Reparatur. Ein ausgebautes Gebäude sieht man auch auf der Karte: Jede Stufe bringt mehr von dem, was das Gebäude ausmacht (der Markt bekommt Stände und Wimpel, die Schmiede einen zweiten Schornstein und Rüstungen auf Ständern, die Bibliothek einen Globus und dann ein Teleskop), eine ausgebaute Mauer erhält einen überdachten Wehrgang, und die Burg bekommt Türme und auf der letzten Stufe eine große Halle.
 
 :::note[Baukosten]
 Jedes weitere Gebäude eines Typs, den du bereits hast, kostet 50% des Grundpreises mehr (das zweite das 1,5-Fache, das dritte das 2-Fache; Dekorationen ausgenommen), und Lagerhäuser gewähren danach ihren Rabatt.

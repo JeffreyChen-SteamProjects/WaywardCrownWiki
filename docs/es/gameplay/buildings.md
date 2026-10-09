@@ -71,7 +71,7 @@ Algunos edificios pueden mejorarse hasta **Nv.3**:
 - **Torre de arqueros** — Aumenta el poder de ataque
 - **Templo**, **Almacén** — Efecto más fuerte; **Gremio de ladrones** — El Nv.2 desbloquea la investigación Hojas envenenadas (300g): el golpe de un ladrón envenena 5 s, 1 % de los HP máx. por segundo, sin acumularse; **Casa de aldea** — No se puede mejorar; **Muralla** — hasta Nv.2
 
-Cada nivel añade un 50% del HP base del edificio. Mejorar conserva la proporción de salud del edificio (a medio HP antes, a medio HP después), así que no lo repara.
+Cada nivel añade un 50% del HP base del edificio. Mejorar conserva la proporción de salud del edificio (a medio HP antes, a medio HP después), así que no lo repara. Un edificio mejorado también se nota en el mapa: cada nivel añade más de lo que el edificio es (el mercado gana puestos y banderines, la herrería una segunda chimenea y armaduras en sus soportes, la biblioteca un globo terráqueo y después un telescopio), una muralla mejorada recibe un adarve techado y el castillo suma torres y, en su último nivel, un gran salón.
 
 :::note[Coste de construcción]
 Cada edificio de un tipo que ya tienes suma un 50% del precio base (el segundo cuesta 1,5×, el tercero 2×; salvo las decoraciones), y después se aplica el descuento de los Almacenes.

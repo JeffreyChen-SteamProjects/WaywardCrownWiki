@@ -71,7 +71,7 @@ Alcuni edifici possono essere potenziati fino al **Lv.3**:
 - **Torre di frecce** — Aumenta la potenza d'attacco
 - **Tempio**, **Magazzino** — Effetto più forte; **Gilda dei ladri** — Il Lv.2 sblocca la ricerca Lame avvelenate (300g): il colpo di un ladro avvelena per 5 s, 1% degli HP massimi al secondo, senza accumulo; **Casa del villaggio** — Non si può potenziare; **Bastione** — fino al Lv.2
 
-Ogni livello aggiunge il 50% degli HP base dell'edificio. Un potenziamento mantiene la quota di salute dell'edificio (a metà HP prima, a metà HP dopo), quindi non lo ripara.
+Ogni livello aggiunge il 50% degli HP base dell'edificio. Un potenziamento mantiene la quota di salute dell'edificio (a metà HP prima, a metà HP dopo), quindi non lo ripara. Un edificio potenziato si vede anche sulla mappa: ogni livello aggiunge qualcosa di ciò che l'edificio è (il mercato guadagna bancarelle e bandierine, la fucina un secondo camino e armature sui supporti, la biblioteca un globo e poi un telescopio), una muraglia potenziata riceve un camminamento coperto e il castello guadagna torri e, all'ultimo livello, una grande sala.
 
 :::note[Costo di costruzione]
 Ogni edificio di un tipo che possiedi già aggiunge il 50% del prezzo base (il secondo costa 1,5×, il terzo 2×; decorazioni escluse), e poi si applica lo sconto dei Magazzini.

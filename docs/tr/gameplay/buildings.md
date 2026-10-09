@@ -71,7 +71,7 @@ Bazı binalar **Sv.3**'e kadar yükseltilebilir:
 - **Ok Kulesi** — Saldırı gücünü artırır
 - **Tapınak**, **Ambar** — Daha güçlü etki; **Hırsızlar Loncası** — Sv.2, Zehirli Bıçaklar araştırmasını açar (300a): bir hırsızın vuruşu 5 sn boyunca saniyede azami HP'nin %1'i kadar zehirler, üst üste binmez; **Köy Evi** — Yükseltilemez; **Sur** — en fazla Sv.2
 
-Her seviye, binanın temel HP'sinin %50'si kadar HP ekler. Yükseltme binanın sağlık oranını korur (önce yarı CP ise sonra da yarı), yani onarım sayılmaz.
+Her seviye, binanın temel HP'sinin %50'si kadar HP ekler. Yükseltme binanın sağlık oranını korur (önce yarı CP ise sonra da yarı), yani onarım sayılmaz. Yükseltilen bir bina haritada da farklı görünür: her seviye, binayı o bina yapan şeylerden daha fazlasını ekler (pazar tezgâhlar ve flamalar, demirci ikinci bir baca ve askılarda zırhlar, kütüphane bir küre, ardından bir teleskop kazanır), yükseltilen sur üstü örtülü bir yürüyüş yolu alır, kale ise kuleler ve son seviyesinde büyük bir salon kazanır.
 
 :::note[İnşa maliyeti]
 Zaten sahip olduğunuz türden her yeni bina taban fiyatın %50'si kadar daha pahalıdır (ikincisi 1,5×, üçüncüsü 2×; dekorasyonlar hariç); ardından Ambarların indirimi uygulanır.

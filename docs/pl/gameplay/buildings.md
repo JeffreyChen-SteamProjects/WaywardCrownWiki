@@ -71,7 +71,7 @@ Niektóre budynki można ulepszyć do **Lv.3**:
 - **Wieża strzelnicza** — Zwiększa siłę ataku
 - **Świątynia**, **Magazyn** — Silniejszy efekt; **Gildia złodziei** — Lv.2 odblokowuje badanie Zatrute ostrza (300g): cios złodzieja zatruwa na 5 s, 1% maks. HP na sekundę, bez kumulowania; **Dom wiejski** — Nie można ulepszyć; **Wał obronny** — do Lv.2
 
-Każdy poziom dodaje 50% bazowego HP budynku. Ulepszenie zachowuje udział zdrowia budynku (połowa HP przed, połowa HP po), więc go nie naprawia.
+Każdy poziom dodaje 50% bazowego HP budynku. Ulepszenie zachowuje udział zdrowia budynku (połowa HP przed, połowa HP po), więc go nie naprawia. Ulepszony budynek widać też na mapie: każdy poziom dodaje więcej tego, czym budynek jest (targ zyskuje stragany i chorągiewki, kuźnia drugi komin i zbroje na stojakach, biblioteka globus, a potem teleskop), ulepszony mur dostaje zadaszony chodnik, a zamek zyskuje wieże i na ostatnim poziomie wielką salę.
 
 :::note[Koszt budowy]
 Każdy kolejny budynek typu, który już posiadasz, dolicza 50% ceny bazowej (drugi kosztuje 1,5×, trzeci 2×; poza dekoracjami), a następnie Magazyny odliczają swoją zniżkę.

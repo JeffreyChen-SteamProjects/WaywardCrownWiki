@@ -71,7 +71,7 @@ Một số công trình có thể được nâng cấp lên **Cấp 3**:
 - **Tháp bắn tên** — Tăng sức tấn công
 - **Đền thờ**, **Nhà kho** — Hiệu ứng mạnh hơn; **Hội đạo tặc** — Cấp 2 mở khóa nghiên cứu Lưỡi dao tẩm độc (300g): đòn của đạo tặc gây độc 5 giây, mỗi giây mất 1% HP tối đa, không cộng dồn; **Nhà dân** — Không thể nâng cấp; **Tường thành** — tối đa Cấp 2
 
-Mỗi cấp tăng thêm 50% HP cơ bản của công trình. Nâng cấp giữ nguyên tỉ lệ máu của công trình (trước còn một nửa thì sau vẫn một nửa), nên không phải là sửa chữa.
+Mỗi cấp tăng thêm 50% HP cơ bản của công trình. Nâng cấp giữ nguyên tỉ lệ máu của công trình (trước còn một nửa thì sau vẫn một nửa), nên không phải là sửa chữa. Công trình đã nâng cấp cũng trông khác đi trên bản đồ: mỗi cấp thêm nhiều hơn những gì làm nên công trình đó (chợ có thêm sạp hàng và dây cờ, lò rèn có ống khói thứ hai và áo giáp trên giá, thư viện có quả địa cầu rồi đến kính viễn vọng), tường thành nâng cấp có lối đi có mái che, còn lâu đài có thêm tháp và ở cấp cuối là một đại sảnh.
 
 :::note[Chi phí xây dựng]
 Mỗi công trình cùng loại với loại bạn đã có sẽ cộng thêm 50% giá gốc (cái thứ hai giá 1,5×, cái thứ ba 2×; trừ công trình trang trí), sau đó Nhà kho mới áp dụng mức giảm giá của mình.
