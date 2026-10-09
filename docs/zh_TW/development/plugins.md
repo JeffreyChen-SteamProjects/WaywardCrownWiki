@@ -68,6 +68,7 @@ title: "外掛開發"
 | adventurer_classes.active_skill, tree_skills | 職業自己的主動技能，同一棵樹上的節點：`active_skill` 是第一個（樹根）的 ID，`tree_skills` 是從樹上長出來的其他技能，最多 12 個 ID。每個都是 `skills` 裡的技能（不可召喚），到了它的 `level`、而且英雄已學會 `requires` 列出的每個技能（最多 8 個本職業技能的 ID，被動或主動皆可；第一個不可有）時學會，各自依自己的 `cooldown` 等待。沒有 `active_skill` 的職業沿用基底職業的第一個技能 |
 | buildings.effect | 攻擊、治療、護盾或狀態類的技能（不可召喚），建築達到 1–3 級後每 10–3600 tick 施放一次；狀態不會疊加 |
 | research | stat_modifier |
+| castle_branches | 城堡路線：`id`、`playable`、`buildings`（建築的 ID，遊戲內建或外掛自己的）、`effects` 與 `level3`（以效果名稱為鍵的數字，名稱與遊戲內建路線用的相同）、`specialities`（沒有，或兩個以上的 `{"id", "effects"}`）。ID 與內建路線相同的定義會整個取代那條路線；`namespace:name` 形式的 ID 則新增一條路線，排在遊戲的路線之後，有路線的地方都會提供。它的文字是語言鍵 `branch_<id>`, `branch_<id>_desc`, `branch_<id>_price`, `branch_<id>_level3`, `branch_<id>_heroes` 與 `speciality_<id>_<speciality>`。路線已不再載入的王國，會當成還沒選路線來玩，存檔仍保留原本的選擇 |
 | events | gold, enemy_wave, stat_buff |
 | bosses | 1–8 phases; optional `stats` of its own (`hp`, `attack`, `defense`); a `name` starting `i18n:` is a translation key |
 | skins | tiles, adventurer_classes, enemies, buildings, enemy_buildings; 僅變更外觀 |

@@ -68,6 +68,7 @@ title: "플러그인 개발"
 | adventurer_classes.active_skill, tree_skills | 직업 고유의 액티브 스킬(같은 트리의 노드): `active_skill`은 첫 스킬(뿌리)의 ID, `tree_skills`는 트리에서 뻗는 스킬의 ID(최대 12개). 모두 `skills`의 스킬이며(summon 불가), 자신의 `level`에 이르고 `requires`에 적힌 스킬(직업 스킬의 ID 최대 8개, 패시브·액티브 모두 가능, 첫 스킬에는 불가)을 모두 익히면 배우고, 각자 자신의 `cooldown`만큼 기다림. `active_skill`이 없는 직업은 기반 직업의 첫 스킬을 그대로 씀 |
 | buildings.effect | 공격·치유·보호막·상태 기술(소환 불가)을 건물 레벨 1–3부터 10–3600틱마다 사용, 상태는 겹치지 않음 |
 | research | stat_modifier |
+| castle_branches | 성의 길: `id`, `playable`, `buildings`(건물 ID, 게임 기본 또는 플러그인 자체의 것), `effects`와 `level3`(효과 이름을 키로 하는 숫자, 이름은 게임 기본 길과 같음), `specialities`(없음, 또는 둘 이상의 `{"id", "effects"}`). 기본 길과 같은 ID의 정의는 그 길을 통째로 대체하고, `namespace:name` 형식의 ID는 길을 추가함(게임의 길 뒤에 나열되고 길을 고를 수 있는 곳이면 어디서나 제공). 문구는 언어 키 `branch_<id>`, `branch_<id>_desc`, `branch_<id>_price`, `branch_<id>_level3`, `branch_<id>_heroes` 와 `speciality_<id>_<speciality>`. 길이 더 이상 로드되지 않는 왕국은 길을 고르지 않은 것으로 플레이하며, 저장에는 선택이 남음 |
 | events | gold, enemy_wave, stat_buff |
 | bosses | 1–8 phases; optional `stats` of its own (`hp`, `attack`, `defense`); a `name` starting `i18n:` is a translation key |
 | skins | tiles, adventurer_classes, enemies, buildings, enemy_buildings; 외형 전용 |

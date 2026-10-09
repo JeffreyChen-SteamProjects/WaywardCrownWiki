@@ -68,6 +68,7 @@ title: "插件开发"
 | adventurer_classes.active_skill, tree_skills | 职业自己的主动技能，同一棵树上的节点：`active_skill` 是第一个（树根）的 ID，`tree_skills` 是从树上长出来的其他技能，最多 12 个 ID。每个都是 `skills` 里的技能（不可召唤），到了它的 `level`、并且英雄已学会 `requires` 列出的每个技能（最多 8 个本职业技能的 ID，被动或主动皆可；第一个不可有）时学会，各自按自己的 `cooldown` 等待。没有 `active_skill` 的职业沿用基础职业的第一个技能 |
 | buildings.effect | 攻击、治疗、护盾或状态类的技能（不可召唤），建筑达到 1–3 级后每 10–3600 tick 施放一次；状态不会叠加 |
 | research | stat_modifier |
+| castle_branches | 城堡路线：`id`、`playable`、`buildings`（建筑的 ID，游戏内置或插件自己的）、`effects` 与 `level3`（以效果名称为键的数字，名称与游戏内置路线用的相同）、`specialities`（没有，或两个以上的 `{"id", "effects"}`）。ID 与内置路线相同的定义会整个取代那条路线；`namespace:name` 形式的 ID 则新增一条路线，排在游戏的路线之后，有路线的地方都会提供。它的文字是语言键 `branch_<id>`, `branch_<id>_desc`, `branch_<id>_price`, `branch_<id>_level3`, `branch_<id>_heroes` 与 `speciality_<id>_<speciality>`。路线已不再加载的王国，会当成还没选路线来玩，存档仍保留原本的选择 |
 | events | gold, enemy_wave, stat_buff |
 | bosses | 1–8 phases; optional `stats` of its own (`hp`, `attack`, `defense`); a `name` starting `i18n:` is a translation key |
 | skins | tiles, adventurer_classes, enemies, buildings, enemy_buildings; 仅修改外观 |

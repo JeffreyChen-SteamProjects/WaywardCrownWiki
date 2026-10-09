@@ -68,6 +68,7 @@ title: "プラグイン開発"
 | adventurer_classes.active_skill, tree_skills | クラス独自のアクティブスキル（同じツリーのノード）：`active_skill` は最初のスキル（根）の ID、`tree_skills` はツリーから伸びるスキルの ID（最大 12）。いずれも `skills` のスキル（summon 不可）で、その `level` に達し、`requires` に挙げたスキル（クラスのスキルの ID を最大 8、パッシブでもアクティブでも可。最初のスキルには不可）をすべて習得すると覚え、それぞれ自分の `cooldown` で待機する。`active_skill` がないクラスは基底クラスの最初のスキルを引き継ぐ |
 | buildings.effect | 攻撃・回復・シールド・状態のスキル（召喚は不可）を、建物レベル 1–3 から 10–3600 ティックごとに発動。状態は重ならない |
 | research | stat_modifier |
+| castle_branches | 城の道：`id`、`playable`、`buildings`（建物の ID。ゲームのものでもプラグイン独自のものでも可）、`effects` と `level3`（効果名をキーにした数値。名前はゲーム標準の道と同じ）、`specialities`（なし、または 2 つ以上の `{"id", "effects"}`）。標準の道と同じ ID の定義はその道を丸ごと置き換え、`namespace:name` 形式の ID は道を追加する（ゲームの道の後に並び、道を選べる場所ならどこでも選べる）。文言は言語キー `branch_<id>`, `branch_<id>_desc`, `branch_<id>_price`, `branch_<id>_level3`, `branch_<id>_heroes` と `speciality_<id>_<speciality>`。道が読み込まれなくなった王国は道を選んでいないものとして遊び、セーブには選択が残る |
 | events | gold, enemy_wave, stat_buff |
 | bosses | 1–8 phases; optional `stats` of its own (`hp`, `attack`, `defense`); a `name` starting `i18n:` is a translation key |
 | skins | tiles, adventurer_classes, enemies, buildings, enemy_buildings; 外観のみ |
