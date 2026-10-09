@@ -64,6 +64,8 @@ title: "外掛開發"
 | JSON | 素材與預算 |
 |---|---|
 | skills | attack, heal, shield, status, summon |
+| adventurer_classes.skills | 職業的技能樹（被動技能）：`{"id", "level", "effect", "requires": [ids]}` 的清單，數量不限、同一等級可以有好幾個；或舊式的表 `{"<等級>": {"id", "effect"}}`，視為一條鏈。id 在職業內不可重複，`requires` 只能指同一職業的技能，不可成環 |
+| adventurer_classes.active_skill, tree_skills | 職業自己的主動技能，同一棵樹上的節點：`active_skill` 是第一個（樹根）的 ID，`tree_skills` 是從樹上長出來的其他技能，最多 12 個 ID。每個都是 `skills` 裡的技能（不可召喚），到了它的 `level`、而且英雄已學會 `requires` 列出的每個技能（最多 8 個本職業技能的 ID，被動或主動皆可；第一個不可有）時學會，各自依自己的 `cooldown` 等待。沒有 `active_skill` 的職業沿用基底職業的第一個技能 |
 | buildings.effect | 攻擊、治療、護盾或狀態類的技能（不可召喚），建築達到 1–3 級後每 10–3600 tick 施放一次；狀態不會疊加 |
 | research | stat_modifier |
 | events | gold, enemy_wave, stat_buff |

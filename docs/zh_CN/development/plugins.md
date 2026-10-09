@@ -64,6 +64,8 @@ title: "插件开发"
 | JSON | 素材与预算 |
 |---|---|
 | skills | attack, heal, shield, status, summon |
+| adventurer_classes.skills | 职业的技能树（被动技能）：`{"id", "level", "effect", "requires": [ids]}` 的列表，数量不限、同一等级可以有多个；或旧式的表 `{"<等级>": {"id", "effect"}}`，视为一条链。id 在职业内不可重复，`requires` 只能指同一职业的技能，不可成环 |
+| adventurer_classes.active_skill, tree_skills | 职业自己的主动技能，同一棵树上的节点：`active_skill` 是第一个（树根）的 ID，`tree_skills` 是从树上长出来的其他技能，最多 12 个 ID。每个都是 `skills` 里的技能（不可召唤），到了它的 `level`、并且英雄已学会 `requires` 列出的每个技能（最多 8 个本职业技能的 ID，被动或主动皆可；第一个不可有）时学会，各自按自己的 `cooldown` 等待。没有 `active_skill` 的职业沿用基础职业的第一个技能 |
 | buildings.effect | 攻击、治疗、护盾或状态类的技能（不可召唤），建筑达到 1–3 级后每 10–3600 tick 施放一次；状态不会叠加 |
 | research | stat_modifier |
 | events | gold, enemy_wave, stat_buff |

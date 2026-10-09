@@ -64,6 +64,8 @@ Ortak manifest proje kimliği, yazar, sürüm, uyumluluk, varlık ve bağımlıl
 | JSON | Varlıklar ve sınırlar |
 |---|---|
 | skills | attack, heal, shield, status, summon |
+| adventurer_classes.skills | bir sınıfın yetenek ağacı (pasif yetenekler): `{"id", "level", "effect", "requires": [ids]}` listesi, istenildiği kadar ve seviye başına birkaç tane, ya da zincir olarak okunan eski tablo `{"<seviye>": {"id", "effect"}}`; id'ler sınıf içinde benzersizdir, `requires` aynı sınıfın yeteneklerini gösterir, döngü olamaz |
+| adventurer_classes.active_skill, tree_skills | sınıfın kendi aktif yetenekleri, aynı ağacın düğümleri: `active_skill` ilkinin (kök) kimliği, `tree_skills` ağaçtan büyüyenlerin en çok 12 kimliği. Her biri `skills` içindeki bir yetenektir (summon asla), kahraman `requires` içindeki her yeteneği öğrendiğinde kendi `level` değerinde öğrenilir (sınıfın yeteneklerinden en çok 8 kimlik, pasif ya da aktif; ilki için yok) ve her biri kendi `cooldown` süresini bekler. `active_skill` yoksa sınıf, temel sınıfının ilk yeteneğini korur |
 | buildings.effect | attack, heal, shield ya da status yeteneği (summon asla), yapı seviyesi 1–3'ten itibaren her 10–3600 tikte bir; durumlar üst üste binmez |
 | research | stat_modifier |
 | events | gold, enemy_wave, stat_buff |

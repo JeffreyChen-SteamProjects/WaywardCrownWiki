@@ -64,6 +64,8 @@ title: "プラグイン開発"
 | JSON | 素材と制限 |
 |---|---|
 | skills | attack, heal, shield, status, summon |
+| adventurer_classes.skills | クラスのスキルツリー（パッシブスキル）：`{"id", "level", "effect", "requires": [ids]}` のリスト（数は自由、同じレベルに複数可）、または旧形式の表 `{"<レベル>": {"id", "effect"}}`（一本の鎖として読む）。id はクラス内で一意、`requires` は同じクラスのスキルを指し、循環は不可 |
+| adventurer_classes.active_skill, tree_skills | クラス独自のアクティブスキル（同じツリーのノード）：`active_skill` は最初のスキル（根）の ID、`tree_skills` はツリーから伸びるスキルの ID（最大 12）。いずれも `skills` のスキル（summon 不可）で、その `level` に達し、`requires` に挙げたスキル（クラスのスキルの ID を最大 8、パッシブでもアクティブでも可。最初のスキルには不可）をすべて習得すると覚え、それぞれ自分の `cooldown` で待機する。`active_skill` がないクラスは基底クラスの最初のスキルを引き継ぐ |
 | buildings.effect | 攻撃・回復・シールド・状態のスキル（召喚は不可）を、建物レベル 1–3 から 10–3600 ティックごとに発動。状態は重ならない |
 | research | stat_modifier |
 | events | gold, enemy_wave, stat_buff |

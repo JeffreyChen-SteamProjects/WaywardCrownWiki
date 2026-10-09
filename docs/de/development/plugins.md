@@ -64,6 +64,8 @@ Das gemeinsame Manifest enthält Projekt-ID, Autor, Version, Kompatibilität, Re
 | JSON | Ressourcen und Grenzen |
 |---|---|
 | skills | attack, heal, shield, status, summon |
+| adventurer_classes.skills | der Fähigkeitenbaum einer Klasse (passive Fähigkeiten): eine Liste von `{"id", "level", "effect", "requires": [ids]}`, beliebig viele und mehrere pro Stufe, oder die ältere Tabelle `{"<Stufe>": {"id", "effect"}}`, als Kette gelesen; ids sind in der Klasse eindeutig, `requires` nennt Fähigkeiten derselben Klasse, kein Ring |
+| adventurer_classes.active_skill, tree_skills | die eigenen aktiven Fähigkeiten der Klasse, Knoten desselben Baums: `active_skill` ist die ID der ersten (eine Wurzel), `tree_skills` bis zu 12 IDs derer, die aus dem Baum wachsen. Jede ist eine Fähigkeit aus `skills` (nie summon), gelernt auf ihrem `level`, sobald der Held jede in `requires` genannte Fähigkeit hat (bis zu 8 IDs von Fähigkeiten der Klasse, passiv oder aktiv; keine bei der ersten), und jede wartet ihre eigene `cooldown` ab. Ohne `active_skill` behält die Klasse die erste Fähigkeit ihrer Basisklasse |
 | buildings.effect | eine Fähigkeit mit attack, heal, shield oder status (nie summon), alle 10–3600 Ticks ab Gebäudestufe 1–3 gewirkt; Zustände stapeln sich nicht |
 | research | stat_modifier |
 | events | gold, enemy_wave, stat_buff |

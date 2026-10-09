@@ -64,6 +64,8 @@ title: "플러그인 개발"
 | JSON | 자산과 제한 |
 |---|---|
 | skills | attack, heal, shield, status, summon |
+| adventurer_classes.skills | 직업의 스킬 트리(패시브 스킬): `{"id", "level", "effect", "requires": [ids]}` 목록(개수 제한 없음, 같은 레벨에 여러 개 가능) 또는 예전 방식의 표 `{"<레벨>": {"id", "effect"}}`(한 줄의 사슬로 읽음). id는 직업 안에서 고유하고, `requires`는 같은 직업의 스킬을 가리키며, 순환은 안 됨 |
+| adventurer_classes.active_skill, tree_skills | 직업 고유의 액티브 스킬(같은 트리의 노드): `active_skill`은 첫 스킬(뿌리)의 ID, `tree_skills`는 트리에서 뻗는 스킬의 ID(최대 12개). 모두 `skills`의 스킬이며(summon 불가), 자신의 `level`에 이르고 `requires`에 적힌 스킬(직업 스킬의 ID 최대 8개, 패시브·액티브 모두 가능, 첫 스킬에는 불가)을 모두 익히면 배우고, 각자 자신의 `cooldown`만큼 기다림. `active_skill`이 없는 직업은 기반 직업의 첫 스킬을 그대로 씀 |
 | buildings.effect | 공격·치유·보호막·상태 기술(소환 불가)을 건물 레벨 1–3부터 10–3600틱마다 사용, 상태는 겹치지 않음 |
 | research | stat_modifier |
 | events | gold, enemy_wave, stat_buff |

@@ -64,6 +64,8 @@ title: "Разработка плагинов"
 | JSON | Ресурсы и ограничения |
 |---|---|
 | skills | attack, heal, shield, status, summon |
+| adventurer_classes.skills | древо умений класса (пассивные умения): список `{"id", "level", "effect", "requires": [ids]}`, сколько угодно и по нескольку на уровень, либо прежняя таблица `{"<уровень>": {"id", "effect"}}`, читаемая как цепочка; id уникальны в классе, `requires` называет умения того же класса, без колец |
+| adventurer_classes.active_skill, tree_skills | собственные активные умения класса, узлы того же древа: `active_skill` — ID первого (корень), `tree_skills` — до 12 ID тех, что растут из древа. Каждое — умение из `skills` (не summon), изучается на своём `level`, когда герой изучил все умения из `requires` (до 8 ID умений класса, пассивных или активных; у первого их нет), и каждое ждёт своё `cooldown`. Без `active_skill` класс сохраняет первое умение базового класса |
 | buildings.effect | навык attack, heal, shield или status (не summon), применяется каждые 10–3600 тиков с уровня здания 1–3; состояния не складываются |
 | research | stat_modifier |
 | events | gold, enemy_wave, stat_buff |

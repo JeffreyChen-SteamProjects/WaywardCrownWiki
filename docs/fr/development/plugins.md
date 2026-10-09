@@ -64,6 +64,8 @@ Le manifeste commun décrit ID du projet, auteur, version, compatibilité, resso
 | JSON | Ressources et limites |
 |---|---|
 | skills | attack, heal, shield, status, summon |
+| adventurer_classes.skills | l'arbre de compétences d'une classe (compétences passives) : une liste de `{"id", "level", "effect", "requires": [ids]}`, autant qu'on veut et plusieurs par niveau, ou l'ancienne table `{"<niveau>": {"id", "effect"}}`, lue comme une chaîne ; les id sont uniques dans la classe, `requires` nomme des compétences de la même classe, sans boucle |
+| adventurer_classes.active_skill, tree_skills | les compétences actives propres à la classe, nœuds du même arbre : `active_skill` est l'ID de la première (une racine), `tree_skills` jusqu'à 12 ID de celles qui poussent de l'arbre. Chacune est une compétence de `skills` (jamais summon), apprise à son `level` dès que le héros a toutes celles que nomme son `requires` (jusqu'à 8 ID de compétences de la classe, passives ou actives ; aucune pour la première), et chacune attend son propre `cooldown`. Sans `active_skill`, la classe garde la première compétence de sa classe de base |
 | buildings.effect | une compétence attack, heal, shield ou status (jamais summon), lancée toutes les 10–3600 ticks dès le niveau 1–3 du bâtiment ; les états ne se cumulent pas |
 | research | stat_modifier |
 | events | gold, enemy_wave, stat_buff |

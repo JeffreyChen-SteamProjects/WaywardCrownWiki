@@ -64,6 +64,8 @@ Manifest chung ghi ID dự án, tác giả, phiên bản, tương thích, tài n
 | JSON | Tài nguyên và giới hạn |
 |---|---|
 | skills | attack, heal, shield, status, summon |
+| adventurer_classes.skills | cây kỹ năng của một lớp (kỹ năng bị động): danh sách `{"id", "level", "effect", "requires": [ids]}`, bao nhiêu cũng được và nhiều kỹ năng cùng một cấp, hoặc bảng kiểu cũ `{"<cấp>": {"id", "effect"}}`, đọc như một chuỗi; id là duy nhất trong lớp, `requires` chỉ các kỹ năng của cùng lớp, không tạo vòng |
+| adventurer_classes.active_skill, tree_skills | các kỹ năng chủ động riêng của lớp, là nút của cùng một cây: `active_skill` là ID của kỹ năng đầu tiên (gốc), `tree_skills` là tối đa 12 ID của những kỹ năng mọc từ cây. Mỗi cái là một kỹ năng trong `skills` (không bao giờ summon), học được ở `level` của nó khi anh hùng đã có mọi kỹ năng mà `requires` liệt kê (tối đa 8 ID kỹ năng của lớp, bị động hay chủ động; kỹ năng đầu tiên thì không có), và mỗi cái chờ `cooldown` riêng. Không có `active_skill` thì lớp giữ kỹ năng đầu tiên của lớp gốc |
 | buildings.effect | một kỹ năng attack, heal, shield hoặc status (không bao giờ summon), dùng mỗi 10–3600 tick từ cấp công trình 1–3; trạng thái không cộng dồn |
 | research | stat_modifier |
 | events | gold, enemy_wave, stat_buff |

@@ -64,6 +64,8 @@ Il manifesto comune registra ID, autore, versione, compatibilità, risorse e dip
 | JSON | Risorse e limiti |
 |---|---|
 | skills | attack, heal, shield, status, summon |
+| adventurer_classes.skills | l'albero delle abilità di una classe (abilità passive): un elenco di `{"id", "level", "effect", "requires": [ids]}`, quante se ne vogliono e più d'una per livello, oppure la vecchia tabella `{"<livello>": {"id", "effect"}}`, letta come una catena; gli id sono unici nella classe, `requires` nomina abilità della stessa classe, senza cicli |
+| adventurer_classes.active_skill, tree_skills | le abilità attive proprie della classe, nodi dello stesso albero: `active_skill` è l'ID della prima (una radice), `tree_skills` fino a 12 ID di quelle che crescono dall'albero. Ciascuna è un'abilità di `skills` (mai summon), appresa al suo `level` quando l'eroe ha tutte quelle elencate in `requires` (fino a 8 ID di abilità della classe, passive o attive; nessuna per la prima), e ciascuna attende il proprio `cooldown`. Senza `active_skill` la classe mantiene la prima abilità della sua classe base |
 | buildings.effect | un'abilità attack, heal, shield o status (mai summon), lanciata ogni 10–3600 tick dal livello 1–3 dell'edificio; gli stati non si sommano |
 | research | stat_modifier |
 | events | gold, enemy_wave, stat_buff |

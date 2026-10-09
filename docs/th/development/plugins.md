@@ -64,6 +64,8 @@ title: "การพัฒนาปลั๊กอิน"
 | JSON | สื่อและขีดจำกัด |
 |---|---|
 | skills | attack, heal, shield, status, summon |
+| adventurer_classes.skills | ผังทักษะของอาชีพ (สกิลติดตัว): รายการ `{"id", "level", "effect", "requires": [ids]}` มีกี่อันก็ได้และหลายอันต่อระดับได้ หรือตารางแบบเดิม `{"<ระดับ>": {"id", "effect"}}` ซึ่งอ่านเป็นสายเดียว id ต้องไม่ซ้ำในอาชีพ `requires` อ้างถึงสกิลของอาชีพเดียวกัน และห้ามวนเป็นวง |
+| adventurer_classes.active_skill, tree_skills | สกิลใช้งานของอาชีพเอง เป็นโหนดในผังเดียวกัน: `active_skill` คือ ID ของสกิลแรก (ราก) `tree_skills` คือ ID ของสกิลที่งอกจากผัง ได้สูงสุด 12 แต่ละอันเป็นสกิลใน `skills` (ห้าม summon) เรียนรู้เมื่อถึง `level` ของมันและฮีโร่มีทุกสกิลที่ `requires` ระบุ (ID ของสกิลในอาชีพได้สูงสุด 8 จะเป็นสกิลติดตัวหรือสกิลใช้งานก็ได้ สกิลแรกห้ามมี) และแต่ละอันรอ `cooldown` ของตัวเอง ถ้าไม่มี `active_skill` อาชีพจะใช้สกิลแรกของอาชีพฐาน |
 | buildings.effect | สกิล attack, heal, shield หรือ status (ไม่ใช่ summon) ใช้ทุก 10–3600 tick ตั้งแต่สิ่งก่อสร้างระดับ 1–3 สถานะไม่ซ้อนกัน |
 | research | stat_modifier |
 | events | gold, enemy_wave, stat_buff |
