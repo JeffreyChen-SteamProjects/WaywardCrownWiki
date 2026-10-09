@@ -58,6 +58,8 @@ Les campagnes sont créées, ouvertes, importées et exportées dans l'onglet Ca
 
 ### Options de conditions de victoire
 
+Les éditeurs les listent par leur nom, dans votre langue ; le type du tableau est ce qu'enregistre le fichier d'une carte ou d'une campagne.
+
 | Type | Description |
 |------|-------------|
 | `free` | Mode libre, aucune condition de victoire |
@@ -67,6 +69,8 @@ Les campagnes sont créées, ouvertes, importées et exportées dans l'onglet Ca
 | `destroy_building` | Détruire un type spécifique d'avant-poste |
 | `defend` | Défendre le Château pendant une durée spécifiée |
 | `collect_chests` | Collecter tous les coffres au trésor |
+| `defeat_boss` | Vaincre un boss nommé, placé sur la carte ou lancé par un déclencheur |
+| `secure_trade` | Faire aboutir un nombre d'allers-retours de caravane et détruire tous les avant-postes ennemis |
 
 ### Structure de sauvegarde
 

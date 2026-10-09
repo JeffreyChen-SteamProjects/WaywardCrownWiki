@@ -58,6 +58,8 @@ As campanhas são criadas, abertas, importadas e exportadas na aba **Campanhas**
 
 ### Opções de Condições de Vitória
 
+Os editores as listam pelo nome, no seu idioma; o tipo da tabela é o que o arquivo de um mapa ou de uma campanha guarda.
+
 | Tipo | Descrição |
 |------|-----------|
 | `free` | Modo livre, sem condição de vitória |
@@ -67,6 +69,8 @@ As campanhas são criadas, abertas, importadas e exportadas na aba **Campanhas**
 | `destroy_building` | Destruir um tipo específico de fortaleza |
 | `defend` | Defender o Castelo por uma duração especificada |
 | `collect_chests` | Coletar todos os baús de tesouro |
+| `defeat_boss` | Derrotar um chefe nomeado, colocado no mapa ou iniciado por um gatilho |
+| `secure_trade` | Concluir um número de viagens de caravana e destruir todas as fortalezas inimigas |
 
 ### Estrutura de Salvamento
 

@@ -58,6 +58,8 @@ Kampanyalar, harita yöneticisinin **Kampanyalar** sekmesinde (ana menüdeki **K
 
 ### Zafer Koşulu Seçenekleri
 
+Düzenleyiciler bunları kendi dilinizde, adlarıyla listeler; tablodaki tür, bir harita ya da sefer dosyasının sakladığı değerdir.
+
 | Tür | Açıklama |
 |-----|----------|
 | `free` | Serbest mod, zafer koşulu yok |
@@ -67,6 +69,8 @@ Kampanyalar, harita yöneticisinin **Kampanyalar** sekmesinde (ana menüdeki **K
 | `destroy_building` | Belirli bir türdeki ileri karakolu yok edin |
 | `defend` | Kale'yi belirli bir süre savunun |
 | `collect_chests` | Tüm hazine sandıklarını toplayın |
+| `defeat_boss` | Haritaya yerleştirilen ya da bir tetikleyiciyle başlatılan adı olan bir boss'u yenin |
+| `secure_trade` | Belirli sayıda kervan turunu tamamlatın ve tüm düşman ileri karakollarını yok edin |
 
 ### Kayıt Yapısı
 

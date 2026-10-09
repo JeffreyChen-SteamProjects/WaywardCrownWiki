@@ -58,6 +58,8 @@ Campaigns are created, opened, imported and exported on the Campaigns tab of the
 
 ### Victory Condition Options
 
+The editors list these by name, in your language; the type below is what a map or a campaign file stores.
+
 | Type | Description |
 |------|-------------|
 | `free` | Free mode, no victory condition |
@@ -67,6 +69,8 @@ Campaigns are created, opened, imported and exported on the Campaigns tab of the
 | `destroy_building` | Destroy a specific type of outpost |
 | `defend` | Defend the Castle for a specified duration |
 | `collect_chests` | Collect all treasure chests |
+| `defeat_boss` | Defeat a named boss, placed on the map or started by a trigger |
+| `secure_trade` | See a number of caravan round trips paid and destroy all enemy outposts |
 
 ### Save Structure
 

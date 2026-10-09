@@ -58,6 +58,8 @@ Kampanie są tworzone, otwierane, importowane i eksportowane na karcie **Kampani
 
 ### Opcje warunków zwycięstwa
 
+Edytory pokazują je z nazwy, w twoim języku; typ w tabeli to wartość zapisywana w pliku mapy lub kampanii.
+
 | Typ | Opis |
 |-----|------|
 | `free` | Tryb swobodny, brak warunku zwycięstwa |
@@ -67,6 +69,8 @@ Kampanie są tworzone, otwierane, importowane i eksportowane na karcie **Kampani
 | `destroy_building` | Zniszcz konkretny typ twierdzy |
 | `defend` | Broń Zamku przez określony czas |
 | `collect_chests` | Zbierz wszystkie skrzynie ze skarbami |
+| `defeat_boss` | Pokonaj nazwanego bossa, ustawionego na mapie lub uruchomionego wyzwalaczem |
+| `secure_trade` | Doprowadź do określonej liczby opłaconych kursów karawany i zniszcz wszystkie twierdze wrogów |
 
 ### Struktura zapisu
 

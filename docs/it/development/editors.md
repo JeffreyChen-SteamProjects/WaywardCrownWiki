@@ -58,6 +58,8 @@ Le campagne si creano, aprono, importano ed esportano nella scheda Campagne del 
 
 ### Opzioni per le condizioni di vittoria
 
+Gli editor le elencano per nome, nella tua lingua; il tipo in tabella è ciò che salva il file di una mappa o di una campagna.
+
 | Tipo | Descrizione |
 |------|-------------|
 | `free` | Modalità libera, nessuna condizione di vittoria |
@@ -67,6 +69,8 @@ Le campagne si creano, aprono, importano ed esportano nella scheda Campagne del 
 | `destroy_building` | Distruggi un tipo specifico di roccaforte |
 | `defend` | Difendi il Castello per una durata specificata |
 | `collect_chests` | Raccogli tutti i forzieri del tesoro |
+| `defeat_boss` | Sconfiggi un boss con nome, piazzato sulla mappa o avviato da un trigger |
+| `secure_trade` | Porta a termine un numero di giri di carovana e distruggi tutte le roccaforti nemiche |
 
 ### Struttura di salvataggio
 

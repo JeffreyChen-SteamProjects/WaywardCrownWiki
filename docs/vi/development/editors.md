@@ -58,6 +58,8 @@ Chiến dịch được tạo, mở, nhập và xuất ở thẻ **Chiến dịc
 
 ### Tùy chọn điều kiện chiến thắng
 
+Các trình chỉnh sửa liệt kê chúng theo tên, bằng ngôn ngữ của bạn; loại trong bảng là giá trị mà tệp bản đồ hoặc chiến dịch lưu lại.
+
 | Loại | Mô tả |
 |------|-------|
 | `free` | Chế độ tự do, không có điều kiện chiến thắng |
@@ -67,6 +69,8 @@ Chiến dịch được tạo, mở, nhập và xuất ở thẻ **Chiến dịc
 | `destroy_building` | Phá hủy một loại tiền đồn cụ thể |
 | `defend` | Bảo vệ Lâu đài trong khoảng thời gian quy định |
 | `collect_chests` | Thu thập tất cả rương kho báu |
+| `defeat_boss` | Đánh bại một trùm có tên, đặt trên bản đồ hoặc được kích hoạt bởi trigger |
+| `secure_trade` | Để đoàn buôn hoàn thành một số chuyến khứ hồi và phá hủy tất cả tiền đồn kẻ thù |
 
 ### Cấu trúc lưu trữ
 

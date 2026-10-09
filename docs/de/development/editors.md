@@ -58,6 +58,8 @@ Kampagnen werden im Tab „Kampagnen“ der Kartenverwaltung (Schaltfläche **Ka
 
 ### Siegbedingungsoptionen
 
+Die Editoren führen sie mit ihrem Namen in deiner Sprache auf; der Typ in der Tabelle ist das, was die Datei einer Karte oder Kampagne speichert.
+
 | Typ | Beschreibung |
 |-----|-------------|
 | `free` | Freier Modus, keine Siegbedingung |
@@ -67,6 +69,8 @@ Kampagnen werden im Tab „Kampagnen“ der Kartenverwaltung (Schaltfläche **Ka
 | `destroy_building` | Einen bestimmten Festungstyp zerstören |
 | `defend` | Die Burg für eine bestimmte Zeitspanne verteidigen |
 | `collect_chests` | Alle Schatztruhen einsammeln |
+| `defeat_boss` | Einen benannten Boss besiegen, der auf der Karte steht oder von einem Auslöser gestartet wird |
+| `secure_trade` | Eine Anzahl Karawanenrunden gelingen lassen und alle feindlichen Festungen zerstören |
 
 ### Speicherstruktur
 
