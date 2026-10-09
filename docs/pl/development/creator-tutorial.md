@@ -50,6 +50,14 @@ Szablon to folder z wtyczką i dwupoziomową kampanią, która jej wymaga; drugi
 
 Szablon to jeden poziom królestwa z odprawą, miastem, legowiskiem, flagami korony Zwiad, Zabij i Broń, dwiema zapowiedzianymi falami, nazwanym bossem i opcjonalnym znaleziskiem. Rozbierz go poziom po poziomie w panelu kampanii, potem przejdź wspólne kroki.
 
+## Przykład Frostfang (gotowy pakiet zawartości i jego mapa)
+
+Szablon to gotowy przykład do rozebrania na części: pakiet zawartości z klasą bohatera (Strażnik Mrozu), potworem (Szronowy Yeti), halą, która rekrutuje tę klasę, legowiskiem, z którego wychodzi potwór, dwiema umiejętnościami, badaniem i nazwanym bossem, każde z własnym obrazem i dźwiękiem, oraz mapa, która wymaga pakietu i którą wygrywa się, pokonując bossa.
+
+1. Otwórz mapę w edytorze terenu i naciśnij **Obiekty…**, aby zobaczyć, na czym z gry opiera się każda definicja; zmień liczbę lub nazwę, zapisz i postaw wynik na mapie.
+2. Naciśnij **Test**, aby zagrać na mapie z pakietem i niczym więcej z twoich rzeczy.
+3. Najpierw opublikuj pakiet, potem mapę: okno publikacji zaproponuje element Warsztatu pakietu jako wymagany.
+
 ## Czego szablony nigdy nie zawierają
 
 Szablon nie zawiera prawdziwego ID elementu Warsztatu, konta Steam ani ścieżki bezwzględnej: ID projektów powstają od nowa na twoim komputerze, a każdy plik jest nazwany względem projektu.

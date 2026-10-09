@@ -50,6 +50,14 @@ Her şablon **Yaratıcı ve Steam Atölyesi** içinde (ana menü, harita yöneti
 
 Şablon; brifing, kasaba, in, tacın Keşfet, Öldür ve Savun bayrakları, duyurulan iki dalga, adı olan bir patron ve isteğe bağlı bir buluntu içeren tek bir krallık bölümüdür. Kampanya panelinde bölüm bölüm parçalarına ayırın, sonra ortak adımları izleyin.
 
+## Frostfang örneği (bitmiş bir içerik paketi ve haritası)
+
+Şablon, söküp incelenecek bitmiş bir örnektir: bir kahraman sınıfı (Ayaz Muhafızı), bir canavar (Kırağı Yetisi), sınıfı toplayan salon, canavarın geldiği in, iki yetenek, bir araştırma ve adlı bir boss içeren, her birinin kendi resmi ve sesi olan bir içerik paketi ile bu paketi gerektiren ve boss yenilerek kazanılan bir harita.
+
+1. Haritayı arazi editöründe açın ve **Nesneler…** düğmesine basarak her tanımın oyundaki hangi şeyi temel aldığını görün; bir sayıyı ya da adı değiştirin, kaydedin ve sonucu haritaya yerleştirin.
+2. **Deneme oyunu** düğmesine basarak haritayı yalnızca bu paketle oynayın.
+3. Önce paketi, sonra haritayı yayımlayın: yayımlama penceresi paketin Atölye öğesini gerekli öğe olarak önerir.
+
 ## Şablonlarda asla bulunmayanlar
 
 Bir şablonda gerçek bir Atölye öğe kimliği, bir Steam hesabı ya da mutlak bir yol bulunmaz: proje kimlikleri bilgisayarınızda yeniden oluşturulur ve her dosya projeye göre adlandırılır.

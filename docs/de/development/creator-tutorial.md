@@ -50,6 +50,14 @@ Die Vorlage ist ein Ordner mit einem Plugin und einer zweistufigen Kampagne, die
 
 Die Vorlage ist ein Königreichslevel mit Einsatzbesprechung, Stadt, Bau, den Erkunden-, Töten- und Verteidigen-Flaggen der Krone, zwei angekündigten Wellen, einem benannten Boss und einem optionalen Fund. Zerlege sie Level für Level im Kampagnenpanel und folge dann den gemeinsamen Schritten.
 
+## Frostfang-Beispiel (ein fertiges Inhaltspaket und seine Karte)
+
+Die Vorlage ist ein fertiges Beispiel zum Auseinandernehmen: ein Inhaltspaket mit einer Heldenklasse (dem Frostwächter), einem Monster (dem Raureif-Yeti), der Halle, die die Klasse rekrutiert, dem Bau, aus dem das Monster kommt, zwei Fähigkeiten, einer Forschung und einem benannten Boss, jeweils mit eigenem Bild und Ton, und eine Karte, die das Paket voraussetzt und durch den Sieg über den Boss gewonnen wird.
+
+1. Öffne die Karte im Geländeeditor und drücke **Objekte…**, um zu sehen, wie jede Definition auf einer des Spiels aufbaut; ändere eine Zahl oder einen Namen, speichere und platziere das Ergebnis auf der Karte.
+2. Drücke **Testspiel**, um die Karte mit dem Paket und sonst nichts von dir zu spielen.
+3. Veröffentliche zuerst das Paket, dann die Karte: Das Veröffentlichungsfenster schlägt das Workshop-Objekt des Pakets als erforderliches Objekt vor.
+
 ## Was Vorlagen nie enthalten
 
 Eine Vorlage enthält keine echte Workshop-Artikel-ID, kein Steam-Konto und keinen absoluten Pfad: Projekt-IDs entstehen neu auf deinem Computer, und jede Datei wird relativ zum Projekt benannt.

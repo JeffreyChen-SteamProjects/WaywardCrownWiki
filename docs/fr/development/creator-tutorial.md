@@ -50,6 +50,14 @@ Le modèle est un dossier avec un plugin et une campagne de deux niveaux qui le 
 
 Le modèle est un niveau de royaume avec un briefing, une ville, un repaire, les drapeaux Explorer, Tuer et Défendre de la couronne, deux vagues annoncées, un boss nommé et une trouvaille facultative. Démontez-le niveau par niveau dans le panneau de campagne, puis suivez les étapes communes.
 
+## Exemple Frostfang (un pack de contenu terminé et sa carte)
+
+Le modèle est un exemple terminé à démonter : un pack de contenu avec une classe de héros (le Gardien du givre), un monstre (le Yéti de givre), la halle qui recrute la classe, la tanière d'où vient le monstre, deux compétences, une recherche et un boss nommé, chacun avec son image et son son, et une carte qui exige le pack et se gagne en battant le boss.
+
+1. Ouvrez la carte dans l'éditeur de terrain et appuyez sur **Objets…** pour voir comment chaque définition s'appuie sur un élément du jeu ; changez un nombre ou un nom, enregistrez, puis placez le résultat sur la carte.
+2. Appuyez sur **Tester** pour jouer la carte avec le pack et rien d'autre de vos contenus.
+3. Publiez d'abord le pack, puis la carte : la fenêtre de publication propose l'élément Workshop du pack comme élément requis.
+
 ## Ce qu'un modèle ne contient jamais
 
 Un modèle ne contient aucun vrai ID d'élément du Workshop, aucun compte Steam et aucun chemin absolu : les ID de projet sont créés à neuf sur votre ordinateur et chaque fichier est nommé relativement au projet.

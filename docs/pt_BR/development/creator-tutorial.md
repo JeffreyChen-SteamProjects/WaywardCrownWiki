@@ -50,6 +50,14 @@ O modelo é uma pasta com um plugin e uma campanha de duas fases que o exige; a 
 
 O modelo é uma fase de reino com um briefing, uma cidade, um covil, as bandeiras de Explorar, Matar e Defender da coroa, duas ondas anunciadas, um chefe com nome e um achado opcional. Desmonte-o fase por fase no painel da campanha e depois siga os passos comuns.
 
+## Exemplo Frostfang (um pacote de conteúdo pronto e seu mapa)
+
+O modelo é um exemplo pronto para desmontar: um pacote de conteúdo com uma classe de herói (o Guardião da Geada), um monstro (o Yeti da Geada), o salão que recruta a classe, o covil de onde vem o monstro, duas habilidades, uma pesquisa e um chefe nomeado, cada um com imagem e som próprios, e um mapa que exige o pacote e é vencido ao derrotar o chefe.
+
+1. Abra o mapa no editor de terreno e pressione **Objetos…** para ver como cada definição se baseia em uma do jogo; mude um número ou um nome, salve e coloque o resultado no mapa.
+2. Pressione **Testar** para jogar o mapa com o pacote e nada mais seu.
+3. Publique primeiro o pacote e depois o mapa: a janela de publicação sugere o item da Oficina do pacote como item necessário.
+
 ## O que um modelo nunca tem
 
 Um modelo não tem nenhum ID real de item da Oficina, nenhuma conta da Steam e nenhum caminho absoluto: os IDs de projeto são criados novos no seu computador e cada arquivo é nomeado em relação ao projeto.

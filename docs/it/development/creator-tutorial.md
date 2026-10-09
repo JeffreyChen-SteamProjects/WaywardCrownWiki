@@ -50,6 +50,14 @@ Il modello è una cartella con un plugin e una campagna di due livelli che lo ri
 
 Il modello è un livello del regno con un briefing, una città, una tana, le bandiere Esplora, Uccidi e Difendi della corona, due ondate annunciate, un boss con nome e un ritrovamento facoltativo. Smontalo livello per livello nel pannello della campagna, poi segui i passi comuni.
 
+## Esempio Frostfang (un pacchetto di contenuti finito e la sua mappa)
+
+Il modello è un esempio finito da smontare: un pacchetto di contenuti con una classe di eroe (il Guardiano del gelo), un mostro (lo Yeti di brina), la sala che recluta la classe, la tana da cui viene il mostro, due abilità, una ricerca e un boss con nome, ciascuno con immagine e suono propri, e una mappa che richiede il pacchetto e si vince sconfiggendo il boss.
+
+1. Apri la mappa nell'editor del terreno e premi **Oggetti…** per vedere come ogni definizione si basa su una del gioco; cambia un numero o un nome, salva e piazza il risultato sulla mappa.
+2. Premi **Prova** per giocare la mappa con il pacchetto e nient'altro di tuo.
+3. Pubblica prima il pacchetto, poi la mappa: la finestra di pubblicazione propone l'elemento Workshop del pacchetto come elemento richiesto.
+
 ## Cosa un modello non contiene mai
 
 Un modello non contiene nessun vero ID di elemento del Workshop, nessun account Steam e nessun percorso assoluto: gli ID di progetto nascono nuovi sul tuo computer e ogni file è indicato relativamente al progetto.

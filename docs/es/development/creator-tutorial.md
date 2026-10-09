@@ -50,6 +50,14 @@ La plantilla es una carpeta con un plugin y una campaña de dos niveles que lo r
 
 La plantilla es un nivel de reino con un informe, una ciudad, una guarida, las banderas de Explorar, Matar y Defender de la corona, dos oleadas anunciadas, un jefe con nombre y un hallazgo opcional. Desmóntala nivel a nivel en el panel de campaña y luego sigue los pasos comunes.
 
+## Ejemplo Frostfang (un paquete de contenido terminado y su mapa)
+
+La plantilla es un ejemplo terminado para desmontar: un paquete de contenido con una clase de héroe (el Guardián de la Escarcha), un monstruo (el Yeti de Escarcha), el salón que recluta la clase, la guarida de la que sale el monstruo, dos habilidades, una investigación y un jefe con nombre, cada uno con su propia imagen y sonido, y un mapa que requiere el paquete y se gana derrotando al jefe.
+
+1. Abre el mapa en el editor de terreno y pulsa **Objetos…** para ver cómo cada definición se basa en una del juego; cambia un número o un nombre, guarda y coloca el resultado en el mapa.
+2. Pulsa **Probar** para jugar el mapa con el paquete y nada más de lo tuyo.
+3. Publica primero el paquete y luego el mapa: la ventana de publicación sugiere el elemento de Workshop del paquete como elemento requerido.
+
 ## Lo que una plantilla nunca tiene
 
 Una plantilla no tiene ningún ID real de elemento del Workshop, ninguna cuenta de Steam ni ninguna ruta absoluta: los ID de proyecto se crean nuevos en tu ordenador y cada archivo se nombra en relación con el proyecto.

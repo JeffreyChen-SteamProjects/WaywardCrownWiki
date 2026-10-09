@@ -50,6 +50,14 @@ Mẫu là một thư mục có một plugin và một chiến dịch hai màn c�
 
 Mẫu là một màn vương quốc với lời giao nhiệm vụ, một thị trấn, một hang ổ, các cờ Khám phá, Tiêu diệt và Phòng thủ của hoàng gia, hai đợt tấn công được báo trước, một trùm có tên và một vật tìm thấy tùy chọn. Hãy tháo rời từng màn trong bảng chiến dịch, rồi theo các bước chung.
 
+## Mẫu Frostfang (một gói nội dung hoàn chỉnh và bản đồ của nó)
+
+Mẫu này là một ví dụ hoàn chỉnh để tháo ra xem: một gói nội dung gồm một lớp anh hùng (Vệ binh Băng giá), một quái vật (Yeti Sương muối), sảnh chiêu mộ lớp đó, hang ổ của quái vật, hai kỹ năng, một nghiên cứu và một trùm có tên, mỗi thứ có hình và âm thanh riêng, cùng một bản đồ yêu cầu gói này và thắng bằng cách hạ trùm.
+
+1. Mở bản đồ trong trình chỉnh sửa địa hình và nhấn **Đối tượng…** để xem mỗi định nghĩa dựa trên thứ nào của trò chơi; đổi một con số hoặc một cái tên, lưu lại rồi đặt kết quả lên bản đồ.
+2. Nhấn **Chơi thử** để chơi bản đồ chỉ với gói này, không kèm nội dung nào khác của bạn.
+3. Phát hành gói trước, rồi đến bản đồ: cửa sổ phát hành sẽ gợi ý vật phẩm Workshop của gói làm vật phẩm bắt buộc.
+
 ## Những gì mẫu không bao giờ có
 
 Mẫu không có ID vật phẩm Workshop thật, tài khoản Steam hay đường dẫn tuyệt đối nào: ID dự án được tạo mới trên máy của bạn và mọi tệp được đặt tên tương đối theo dự án.
