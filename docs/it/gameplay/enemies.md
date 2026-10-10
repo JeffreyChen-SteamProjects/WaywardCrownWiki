@@ -28,7 +28,7 @@ I nemici appaiono naturalmente nelle aree selvagge della mappa, minacciando i tu
 
 Il Drago, l'Arciere goblin e il Cultista oscuro scagliano proiettili (vampate di fuoco, frecce rozze e globi oscuri); gli altri colpiscono fino a 3 caselle di distanza.
 
-Un nemico fa un passo ogni 3 ÷ velocità tick, arrotondato per difetto (almeno 1): a ogni tick da velocità 1,6 in su, ogni 2 tick tra 1,1 e 1,4, ogni 3 tra 0,8 e 1,0, ogni 4 per il Troll e ogni 5 a 0,6.
+Un nemico ha il suo turno una volta ogni 4 tick. La sua velocità gli dà un passo ogni 3 ÷ velocità turni, arrotondato per difetto (almeno 1), e ogni nemico cammina poi ancora la metà più in fretta: quell'attesa è divisa per 1,5, la frazione passa ai passi successivi e non scende mai sotto un turno. Così c'è un passo a ogni turno da velocità 1,6 in su, tre passi in 4 turni tra 1,1 e 1,4, uno ogni 2 turni tra 0,8 e 1,0, tre in 8 turni per il Troll e tre in 10 a 0,6.
 
 ### Gradi
 
@@ -90,7 +90,7 @@ Draghi e Troll sono i nemici più pericolosi (livello di pericolo 5). Con una gi
 ## Meccaniche speciali del drago
 
 - **Attacco a distanza**: Gittata d'attacco di 16, sputa vampate di fuoco
-- **Alta mobilità**: Velocità di 1,4, un passo ogni 2 tick: veloce quanto Ratti giganti, Ragni giganti e Banditi; solo Arpie e Lupi crudeli (un passo a ogni tick) sono più veloci
+- **Alta mobilità**: Velocità di 1,4, tre passi ogni 4 turni: veloce quanto Ratti giganti, Ragni giganti e Banditi; solo Arpie e Lupi crudeli (un passo a ogni turno) sono più veloci
 - **Visione ampia**: Raggio visivo di 32 caselle, in grado di avvistare avventurieri a grande distanza
 - **Evasione**: Tutti i nemici hanno un tasso base di schivata del 5%
 

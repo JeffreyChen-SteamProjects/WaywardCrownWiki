@@ -28,7 +28,7 @@ Los enemigos aparecen naturalmente en las zonas salvajes del mapa, amenazando a 
 
 El Dragón, el Arquero goblin y el Cultista oscuro disparan proyectiles (llamaradas, flechas toscas y orbes oscuros); los demás golpean desde un máximo de 3 casillas.
 
-Un enemigo da un paso cada 3 ÷ velocidad ticks, redondeado hacia abajo (al menos 1): cada tick con velocidad 1.6 o más, cada 2 ticks con 1.1–1.4, cada 3 con 0.8–1.0, cada 4 el Trol y cada 5 con 0.6.
+A un enemigo le toca su turno una vez cada 4 ticks. Su velocidad le da un paso cada 3 ÷ velocidad turnos, redondeado hacia abajo (al menos 1), y todos los enemigos caminan además la mitad más rápido: esa espera se divide entre 1.5, la fracción pasa a los pasos siguientes y nunca baja de un turno. Así, hay un paso cada turno con velocidad 1.6 o más, tres pasos en 4 turnos con 1.1–1.4, uno cada 2 turnos con 0.8–1.0, tres en 8 turnos para el Trol y tres en 10 con 0.6.
 
 ### Rangos
 
@@ -90,7 +90,7 @@ Los dragones y los troles son los enemigos más peligrosos (nivel de peligro 5).
 ## Mecánicas Especiales del Dragón
 
 - **Ataque a Distancia**: Rango de ataque de 16, escupe llamaradas
-- **Alta Movilidad**: Velocidad de 1.4, un paso cada 2 ticks: tan rápido como las Ratas gigantes, las Arañas gigantes y los Bandidos; solo las Arpías y los Lobos huargos (un paso por tick) son más rápidos
+- **Alta Movilidad**: Velocidad de 1.4, tres pasos cada 4 turnos: tan rápido como las Ratas gigantes, las Arañas gigantes y los Bandidos; solo las Arpías y los Lobos huargos (un paso por turno) son más rápidos
 - **Visión Amplia**: Rango de visión de 32 casillas, capaz de detectar aventureros desde gran distancia
 - **Evasión**: Todos los enemigos tienen una tasa de esquiva base del 5%
 

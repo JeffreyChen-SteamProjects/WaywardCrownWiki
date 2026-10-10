@@ -28,7 +28,7 @@ Kẻ thù xuất hiện tự nhiên trong các vùng hoang dã trên bản đồ
 
 Rồng, Cung thủ Goblin và Giáo đồ bóng tối bắn đạn (lần lượt là luồng lửa, mũi tên thô và cầu bóng tối); các loại còn lại tấn công từ khoảng cách tối đa 3 ô.
 
-Kẻ địch đi một bước sau mỗi 3 ÷ tốc độ tick, làm tròn xuống (ít nhất 1): mỗi tick khi tốc độ từ 1.6 trở lên, mỗi 2 tick ở 1.1–1.4, mỗi 3 tick ở 0.8–1.0, mỗi 4 tick với Troll và mỗi 5 tick ở 0.6.
+Kẻ địch đến lượt một lần sau mỗi 4 tick. Tốc độ cho nó một bước sau mỗi 3 ÷ tốc độ lượt, làm tròn xuống (ít nhất 1), rồi mọi kẻ địch còn đi nhanh thêm một nửa: số lượt chờ được chia cho 1.5, phần lẻ dồn sang các bước sau và không bao giờ ít hơn một lượt. Vì vậy tốc độ từ 1.6 trở lên đi một bước mỗi lượt, ở 1.1–1.4 đi ba bước trong 4 lượt, ở 0.8–1.0 mỗi 2 lượt một bước, Troll đi ba bước trong 8 lượt và ở 0.6 đi ba bước trong 10 lượt.
 
 ### Cấp bậc
 
@@ -90,7 +90,7 @@ Rồng và Troll là những kẻ thù nguy hiểm nhất (mức nguy hiểm 5).
 ## Cơ chế đặc biệt của Rồng
 
 - **Tấn công tầm xa**: Tầm tấn công 16, phun luồng lửa
-- **Cơ động cao**: Tốc độ 1.4, mỗi 2 tick đi một bước: nhanh bằng Chuột khổng lồ, Nhện khổng lồ và Thổ phỉ; chỉ Harpy và Sói dữ (mỗi tick một bước) là nhanh hơn
+- **Cơ động cao**: Tốc độ 1.4, đi ba bước trong 4 lượt: nhanh bằng Chuột khổng lồ, Nhện khổng lồ và Thổ phỉ; chỉ Harpy và Sói dữ (mỗi lượt một bước) là nhanh hơn
 - **Tầm nhìn rộng**: Tầm nhìn 32 ô, có thể phát hiện nhà phiêu lưu từ rất xa
 - **Né tránh**: Tất cả kẻ thù có tỷ lệ né cơ bản 5%
 

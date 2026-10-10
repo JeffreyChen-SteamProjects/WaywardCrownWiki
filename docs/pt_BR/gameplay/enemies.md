@@ -28,7 +28,7 @@ Os inimigos surgem naturalmente em áreas selvagens pelo mapa, ameaçando seus a
 
 O Dragão, o Arqueiro goblin e o Cultista sombrio disparam projéteis (jatos de chamas, flechas toscas e orbes sombrios); os demais atacam a até 3 tiles de distância.
 
-Um inimigo dá um passo a cada 3 ÷ velocidade ticks, arredondado para baixo (no mínimo 1): a cada tick com velocidade 1.6 ou mais, a cada 2 ticks com 1.1–1.4, a cada 3 com 0.8–1.0, a cada 4 o Troll e a cada 5 com 0.6.
+Um inimigo tem a sua vez uma vez a cada 4 ticks. A velocidade lhe dá um passo a cada 3 ÷ velocidade turnos, arredondado para baixo (no mínimo 1), e todo inimigo anda ainda metade mais rápido: essa espera é dividida por 1.5, a fração passa para os passos seguintes e nunca fica abaixo de um turno. Assim, há um passo por turno com velocidade 1.6 ou mais, três passos em 4 turnos com 1.1–1.4, um a cada 2 turnos com 0.8–1.0, três em 8 turnos para o Troll e três em 10 com 0.6.
 
 ### Patentes
 
@@ -90,7 +90,7 @@ Os dragões e os trolls são os inimigos mais perigosos (nível de perigo 5). Co
 ## Mecânicas Especiais do Dragão
 
 - **Ataque à Distância**: Alcance de ataque de 16, cospe jatos de chamas
-- **Alta Mobilidade**: Velocidade de 1.4, um passo a cada 2 ticks: tão rápido quanto Ratos gigantes, Aranhas gigantes e Bandidos; só Harpias e Lobos atrozes (um passo por tick) são mais rápidos
+- **Alta Mobilidade**: Velocidade de 1.4, três passos a cada 4 turnos: tão rápido quanto Ratos gigantes, Aranhas gigantes e Bandidos; só Harpias e Lobos atrozes (um passo por turno) são mais rápidos
 - **Visão Ampla**: Alcance de visão de 32 tiles, capaz de detectar aventureiros a grande distância
 - **Evasão**: Todos os inimigos têm uma taxa de esquiva base de 5%
 

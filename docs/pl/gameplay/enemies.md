@@ -28,7 +28,7 @@ Wrogowie pojawiają się naturalnie na dzikich obszarach mapy, zagrażając twoi
 
 Smok, Goblin łucznik i Mroczny kultysta wystrzeliwują pociski (odpowiednio strugi ognia, prymitywne strzały i mroczne kule); pozostali uderzają z odległości do 3 kafelków.
 
-Wróg robi krok co 3 ÷ szybkość taktów, w zaokrągleniu w dół (co najmniej 1): w każdym takcie przy szybkości od 1,6, co 2 takty przy 1,1–1,4, co 3 przy 0,8–1,0, co 4 Troll i co 5 przy 0,6.
+Wróg ma swoją turę raz na 4 takty. Jego szybkość daje mu krok co 3 ÷ szybkość tur, w zaokrągleniu w dół (co najmniej 1), a każdy wróg chodzi potem jeszcze o połowę szybciej: to czekanie dzieli się przez 1,5, ułamek przechodzi na następne kroki i nigdy nie jest krótsze niż jedna tura. Krok przypada więc w każdej turze przy szybkości od 1,6, trzy kroki na 4 tury przy 1,1–1,4, krok co 2 tury przy 0,8–1,0, trzy kroki na 8 tur u Trolla i trzy na 10 przy 0,6.
 
 ### Rangi
 
@@ -90,7 +90,7 @@ Smoki i Trolle to najgroźniejsi wrogowie (poziom zagrożenia 5). Ze Smokami, kt
 ## Specjalne mechaniki smoka
 
 - **Atak dystansowy**: Zasięg ataku 16, zionie strugami ognia
-- **Wysoka mobilność**: Szybkość 1,4, krok co 2 takty: tak szybko jak Olbrzymie szczury, Olbrzymie pająki i Bandyci; szybsze są tylko Harpie i Wilkory (krok w każdym takcie)
+- **Wysoka mobilność**: Szybkość 1,4, trzy kroki na 4 tury: tak szybko jak Olbrzymie szczury, Olbrzymie pająki i Bandyci; szybsze są tylko Harpie i Wilkory (krok w każdej turze)
 - **Szeroka wizja**: Zasięg widzenia 32 kafelki, zdolny do wykrycia poszukiwaczy przygód z dużej odległości
 - **Unik**: Wszyscy wrogowie mają bazową 5% szansę na unik
 

@@ -28,7 +28,7 @@ Les ennemis apparaissent naturellement dans les zones sauvages à travers la car
 
 Le Dragon, l'Archer gobelin et le Cultiste sombre tirent des projectiles (jets de flammes, flèches grossières et orbes sombres) ; les autres frappent à 3 cases au maximum.
 
-Un ennemi fait un pas tous les 3 ÷ vitesse ticks, arrondi à l'inférieur (au moins 1) : à chaque tick à partir d'une vitesse de 1,6, tous les 2 ticks entre 1,1 et 1,4, tous les 3 entre 0,8 et 1,0, tous les 4 pour le Troll et tous les 5 à 0,6.
+Un ennemi joue son tour une fois tous les 4 ticks. Sa vitesse lui donne un pas tous les 3 ÷ vitesse tours, arrondi à l'inférieur (au moins 1), et chaque ennemi marche ensuite moitié plus vite : cette attente est divisée par 1,5, la fraction est reportée sur les pas suivants, et elle ne descend jamais sous un tour. Il y a donc un pas à chaque tour à partir d'une vitesse de 1,6, trois pas en 4 tours entre 1,1 et 1,4, un pas tous les 2 tours entre 0,8 et 1,0, trois pas en 8 tours pour le Troll et trois en 10 à 0,6.
 
 ### Rangs
 
@@ -90,7 +90,7 @@ Les Dragons et les Trolls sont les ennemis les plus dangereux (niveau de danger 
 ## Mécaniques spéciales du dragon
 
 - **Attaque à distance** : Portée d'attaque de 16, crache des jets de flammes
-- **Haute mobilité** : Vitesse de 1,4, un pas tous les 2 ticks : aussi rapide que les Rats géants, les Araignées géantes et les Bandits ; seuls les Harpies et les Loups sinistres (un pas par tick) sont plus rapides
+- **Haute mobilité** : Vitesse de 1,4, trois pas en 4 tours : aussi rapide que les Rats géants, les Araignées géantes et les Bandits ; seuls les Harpies et les Loups sinistres (un pas par tour) sont plus rapides
 - **Vision étendue** : Portée de vision de 32 cases, capable de repérer les aventuriers à grande distance
 - **Esquive** : Tous les ennemis ont un taux d'esquive de base de 5%
 

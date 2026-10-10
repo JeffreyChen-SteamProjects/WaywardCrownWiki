@@ -28,7 +28,7 @@ Enemies spawn naturally in wilderness areas across the map, threatening your adv
 
 The Dragon, Goblin Archer and Dark Cultist fire projectiles (gouts of flame, crude arrows and dark orbs); the others strike from up to 3 tiles away.
 
-An enemy steps once every 3 ÷ speed ticks, rounded down (at least 1): every tick at speed 1.6 and above, every 2 ticks at 1.1–1.4, every 3 at 0.8–1.0, every 4 for the Troll and every 5 at 0.6.
+An enemy takes its turn once every 4 ticks. Its speed gives it a step every 3 ÷ speed turns, rounded down (at least 1), and every enemy then walks half as fast again: that wait is divided by 1.5, the fraction carried over to its next steps, and is never under one turn. So a step comes every turn at speed 1.6 and above, three times in 4 turns at 1.1–1.4, every 2 turns at 0.8–1.0, three times in 8 turns for the Troll and three times in 10 at 0.6.
 
 ### Ranks
 
@@ -90,7 +90,7 @@ Dragons and Trolls are the most dangerous enemies (danger level 5). With an atta
 ## Dragon Special Mechanics
 
 - **Ranged Attack**: Attack range of 16, breathes gouts of flame
-- **High Mobility**: Speed of 1.4, a step every 2 ticks: as fast as Giant Rats, Giant Spiders and Bandits; only Harpies and Dire Wolves (a step every tick) are faster
+- **High Mobility**: Speed of 1.4, three steps every 4 turns: as fast as Giant Rats, Giant Spiders and Bandits; only Harpies and Dire Wolves (a step every turn) are faster
 - **Wide Vision**: 32-tile vision range, able to spot adventurers from a great distance
 - **Evasion**: All enemies have a base 5% dodge rate
 

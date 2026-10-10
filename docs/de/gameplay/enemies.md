@@ -28,7 +28,7 @@ Feinde erscheinen natürlich in Wildnisgebieten auf der gesamten Karte und bedro
 
 Drache, Goblin-Bogenschütze und Dunkler Kultist feuern Projektile (Flammenstöße, grobe Pfeile bzw. dunkle Kugeln); die übrigen schlagen aus bis zu 3 Feldern Entfernung zu.
 
-Ein Gegner macht alle 3 ÷ Geschwindigkeit Ticks einen Schritt, abgerundet (mindestens 1): jeden Tick ab Geschwindigkeit 1,6, alle 2 Ticks bei 1,1–1,4, alle 3 bei 0,8–1,0, alle 4 beim Troll und alle 5 bei 0,6.
+Ein Gegner ist alle 4 Ticks einmal am Zug. Seine Geschwindigkeit gibt ihm alle 3 ÷ Geschwindigkeit Züge einen Schritt, abgerundet (mindestens 1), und jeder Gegner läuft dann noch einmal halb so schnell: Die Wartezeit wird durch 1,5 geteilt, der Bruchteil auf die nächsten Schritte übertragen, und sie ist nie kürzer als ein Zug. So kommt ab Geschwindigkeit 1,6 in jedem Zug ein Schritt, bei 1,1–1,4 dreimal in 4 Zügen, bei 0,8–1,0 alle 2 Züge, beim Troll dreimal in 8 Zügen und bei 0,6 dreimal in 10.
 
 ### Ränge
 
@@ -90,7 +90,7 @@ Drachen und Trolle sind die gefährlichsten Feinde (Gefahrenstufe 5). Mit einer 
 ## Spezielle Drachenmechaniken
 
 - **Fernkampfangriff**: Angriffsreichweite von 16, speit Flammenstöße
-- **Hohe Mobilität**: Geschwindigkeit von 1,4, ein Schritt alle 2 Ticks: so schnell wie Riesenratten, Riesenspinnen und Banditen; nur Harpyien und Schattenwölfe (ein Schritt pro Tick) sind schneller
+- **Hohe Mobilität**: Geschwindigkeit von 1,4, drei Schritte in 4 Zügen: so schnell wie Riesenratten, Riesenspinnen und Banditen; nur Harpyien und Schattenwölfe (ein Schritt pro Zug) sind schneller
 - **Weite Sicht**: 32 Felder Sichtweite, kann Abenteurer aus großer Entfernung entdecken
 - **Ausweichen**: Alle Feinde haben eine Basis-Ausweichrate von 5%
 
