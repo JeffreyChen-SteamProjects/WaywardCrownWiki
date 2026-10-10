@@ -20,6 +20,7 @@ Le bouton **Éditeur de cartes** du menu principal ouvre l'éditeur sur une nouv
 - **Sauvegarder/Charger** — Sauvegardez les cartes dans le répertoire `maps/` ; Fermer, Échap et Nouveau demandent avant d'abandonner des modifications non enregistrées (Enregistrer / Abandonner / Annuler), et abandonner une campagne jamais enregistrée supprime son dossier
 - **Objets…** — Modifiez dans l'éditeur d'objets les classes de héros, monstres, bâtiments, forteresses et boss créés pour la carte. La première fois, il crée le pack de contenu de la carte (un plugin à vous que la carte exige) ; enregistrer le pack recharge le contenu, ce qu'il définit peut donc être placé aussitôt
 - **Tester** — Lance la carte enregistrée, ou la campagne au niveau en cours d'édition, dans une partie à part, avec son pack de contenu et rien d'autre de vos contenus
+- **Panneaux** — Les pinceaux et les règles de la carte (ou la campagne) sont des panneaux à onglets à côté de la carte : faites-en glisser un de l'autre côté ou hors de la fenêtre, fermez-le, puis rappelez-le avec **Panneaux**. Terrains, bâtiments, forteresses et boss se choisissent par leur image, et l'éditeur et les fenêtres qu'il ouvre (l'éditeur d'objets, l'éditeur de déclencheurs, les détails de la carte) peuvent être agrandis au maximum
 
 Les cartes ne contiennent aucune unité : les aventuriers sont recrutés et les ennemis apparaissent une fois la partie lancée.
 

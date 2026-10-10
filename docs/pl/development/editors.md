@@ -20,6 +20,7 @@ Przycisk **Edytor map** w menu głównym otwiera edytor z nową mapą. Zapisane 
 - **Zapisz/Wczytaj** — Zapisuj mapy do katalogu `maps/`; Zamknij, Esc i Nowy pytają przed porzuceniem niezapisanych zmian (Zapisz / Odrzuć / Anuluj), a odrzucenie nigdy niezapisanej kampanii usuwa jej folder
 - **Obiekty…** — Edytuj w edytorze obiektów klasy bohaterów, potwory, budynki, twierdze i bossów stworzonych dla mapy. Za pierwszym razem tworzy pakiet zawartości mapy (twoją wtyczkę, której mapa wymaga); zapisanie pakietu wczytuje zawartość ponownie, więc to, co definiuje, można od razu stawiać
 - **Test** — Uruchamia zapisaną mapę albo kampanię na edytowanym poziomie w osobnej grze, z jej pakietem zawartości i niczym więcej z twoich rzeczy
+- **Panele** — Pędzle i zasady mapy (albo kampania) to panele z kartami obok mapy: przeciągnij panel na drugą stronę albo poza okno, zamknij go i przywróć przyciskiem **Panele**. Tereny, budynki, twierdze i bossów wybiera się po obrazkach, a edytor i okna, które otwiera (edytor obiektów, edytor wyzwalaczy, szczegóły mapy), można zmaksymalizować
 
 Mapy nie zawierają jednostek: poszukiwacze przygód są rekrutowani, a wrogowie pojawiają się dopiero po uruchomieniu gry.
 

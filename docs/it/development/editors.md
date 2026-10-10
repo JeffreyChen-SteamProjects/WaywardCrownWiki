@@ -20,6 +20,7 @@ Il pulsante **Editor mappe** del menu principale apre l'editor su una nuova mapp
 - **Salva/Carica** — Salva le mappe nella directory `maps/`; Chiudi, Esc e Nuovo chiedono prima di scartare le modifiche non salvate (Salva / Scarta / Annulla), e scartare una campagna mai salvata ne rimuove la cartella
 - **Oggetti…** — Modifica nell'editor di oggetti le classi di eroe, i mostri, gli edifici, le roccaforti e i boss creati per la mappa. La prima volta crea il pacchetto di contenuti della mappa (un tuo plugin che la mappa richiede); salvando il pacchetto i contenuti vengono ricaricati, così ciò che definisce si può piazzare subito
 - **Prova** — Avvia la mappa salvata, o la campagna al livello che stai modificando, in una partita a sé, con il suo pacchetto di contenuti e nient'altro di tuo
+- **Pannelli** — I pennelli e le regole della mappa (o la campagna) sono pannelli a schede accanto alla mappa: trascinane uno dall'altra parte o fuori dalla finestra, chiudilo e richiamalo con **Pannelli**. Terreni, edifici, roccaforti e boss si scelgono dalla loro immagine, e l'editor e le finestre che apre (l'editor di oggetti, l'editor dei trigger, i dettagli della mappa) si possono ingrandire a tutto schermo
 
 Le mappe non contengono unità: gli avventurieri vengono reclutati e i nemici appaiono una volta avviata la partita.
 

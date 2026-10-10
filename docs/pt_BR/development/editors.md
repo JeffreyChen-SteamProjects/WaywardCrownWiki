@@ -20,6 +20,7 @@ O botão **Editor de Mapas** do menu principal abre o editor em um mapa novo. Os
 - **Salvar/Carregar** — Salve mapas no diretório `maps/`; Fechar, Esc e Novo perguntam antes de descartar alterações não salvas (Salvar / Descartar / Cancelar), e descartar uma campanha nunca salva remove a pasta dela
 - **Objetos…** — Edite no editor de objetos as classes de herói, monstros, construções, fortalezas e chefes feitos para o mapa. Na primeira vez, ele cria o pacote de conteúdo do mapa (um plugin seu que o mapa exige); salvar o pacote recarrega o conteúdo, então o que ele define já pode ser colocado
 - **Testar** — Inicia o mapa salvo, ou a campanha na fase que está sendo editada, em um jogo próprio, com o pacote de conteúdo dele e nada mais seu
+- **Painéis** — Os pincéis e as regras do mapa (ou a campanha) são painéis com abas ao lado do mapa: arraste um para o outro lado ou para fora da janela, feche-o e traga-o de volta com **Painéis**. Terrenos, construções, fortalezas e chefes são escolhidos pela imagem, e o editor e as janelas que ele abre (o editor de objetos, o editor de gatilhos, os detalhes do mapa) podem ser maximizados
 
 Os mapas não contêm unidades: os aventureiros são recrutados e os inimigos surgem quando o jogo está rodando.
 

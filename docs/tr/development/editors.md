@@ -20,6 +20,7 @@ Ana menüdeki **Harita Editörü** düğmesi editörü yeni bir haritayla açar.
 - **Kaydet/Yükle** — Haritaları `maps/` dizinine kaydedin; Kapat, Esc ve Yeni kaydedilmemiş değişiklikleri atmadan önce sorar (Kaydet / At / İptal) ve hiç kaydedilmemiş bir seferi atmak klasörünü de siler
 - **Nesneler…** — Harita için yapılan kahraman sınıflarını, canavarları, binaları, kaleleri ve bossları nesne editöründe düzenleyin. İlk seferde haritanın içerik paketini (haritanın gerekli kıldığı kendi eklentinizi) oluşturur; paketi kaydetmek içeriği yeniden yükler, böylece tanımladıkları hemen yerleştirilebilir
 - **Deneme oyunu** — Kaydedilmiş haritayı ya da düzenlenen bölümdeki kampanyayı, içerik paketiyle ve başka hiçbir içeriğiniz olmadan ayrı bir oyunda başlatır
+- **Paneller** — Fırçalar ve haritanın kuralları (ya da kampanya), haritanın yanındaki sekmeli panellerdir: birini öbür tarafa ya da pencerenin dışına sürükleyin, kapatın ve **Paneller** ile geri getirin. Araziler, binalar, kaleler ve bosslar resimlerinden seçilir; editör ve açtığı pencereler (nesne editörü, tetikleyici editörü, harita ayrıntıları) ekranı kaplayacak şekilde büyütülebilir
 
 Haritalar birim içermez: maceraperestler oyun çalışmaya başlayınca işe alınır ve düşmanlar o zaman doğar.
 

@@ -20,6 +20,7 @@ The main menu's **Map Editor** button opens the editor on a new map. Saved maps 
 - **Save/Load** — Save maps to the `maps/` directory; Close, Esc and New ask before dropping unsaved changes (Save / Discard / Cancel), and discarding a campaign that was never saved removes its folder again
 - **Objects…** — Edit the hero classes, monsters, buildings, strongholds and bosses made for the map in the object editor. The first time, it makes the map's content pack (a plugin of your own that the map requires); saving the pack loads the content again, so what it defines can be placed at once
 - **Test play** — Start the saved map, or the campaign at the level being edited, in a game of its own, with its content pack and nothing else of yours
+- **Panels** — The brushes and the map's rules (or the campaign) are panels of tabs beside the map: drag one to the other side or out of the window, close it, and bring it back with **Panels**. Terrains, buildings, strongholds and bosses are chosen by their pictures, and the editor and the windows it opens (the object editor, the trigger editor, the map's details) can be maximised
 
 Maps hold no units: adventurers are recruited and enemies spawn once the game runs.
 

@@ -20,6 +20,7 @@ El botón **Editor de mapas** del menú principal abre el editor con un mapa nue
 - **Guardar/Cargar** — Guarda mapas en el directorio `maps/`; Cerrar, Esc y Nuevo preguntan antes de descartar cambios sin guardar (Guardar / Descartar / Cancelar), y descartar una campaña nunca guardada elimina de nuevo su carpeta
 - **Objetos…** — Edita en el editor de objetos las clases de héroe, monstruos, edificios, fortalezas y jefes hechos para el mapa. La primera vez crea el paquete de contenido del mapa (un plugin tuyo que el mapa requiere); al guardar el paquete se vuelve a cargar el contenido, así que lo que define se puede colocar enseguida
 - **Probar** — Inicia el mapa guardado, o la campaña en el nivel que se está editando, en una partida propia, con su paquete de contenido y nada más de lo tuyo
+- **Paneles** — Los pinceles y las reglas del mapa (o la campaña) son paneles con pestañas junto al mapa: arrastra uno al otro lado o fuera de la ventana, ciérralo y recupéralo con **Paneles**. Los terrenos, edificios, fortalezas y jefes se eligen por su imagen, y el editor y las ventanas que abre (el editor de objetos, el editor de disparadores, los datos del mapa) se pueden maximizar
 
 Los mapas no contienen unidades: los aventureros se reclutan y los enemigos aparecen una vez que la partida está en marcha.
 

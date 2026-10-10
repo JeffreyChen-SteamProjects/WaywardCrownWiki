@@ -20,6 +20,7 @@ Die Schaltfläche **Karteneditor** im Hauptmenü öffnet den Editor mit einer ne
 - **Speichern/Laden** — Speichere Karten im Verzeichnis `maps/`; Schließen, Esc und Neu fragen vor dem Verwerfen ungespeicherter Änderungen (Speichern / Verwerfen / Abbrechen), und das Verwerfen einer nie gespeicherten Kampagne entfernt ihren Ordner wieder
 - **Objekte…** — Bearbeite im Objekteditor die Heldenklassen, Monster, Gebäude, Festungen und Bosse, die für die Karte gemacht wurden. Beim ersten Mal legt er das Inhaltspaket der Karte an (ein eigenes Plugin, das die Karte voraussetzt); beim Speichern des Pakets wird der Inhalt neu geladen, sodass sich das Definierte sofort platzieren lässt
 - **Testspiel** — Startet die gespeicherte Karte oder die Kampagne am gerade bearbeiteten Level in einem eigenen Spiel, mit ihrem Inhaltspaket und sonst nichts von dir
+- **Bereiche** — Die Pinsel und die Regeln der Karte (oder die Kampagne) sind Bereiche mit Reitern neben der Karte: Ziehe einen auf die andere Seite oder aus dem Fenster, schließe ihn und hole ihn mit **Bereiche** zurück. Gelände, Gebäude, Festungen und Bosse wählst du nach ihrem Bild, und der Editor und die Fenster, die er öffnet (der Objekteditor, der Trigger-Editor, die Kartendetails), lassen sich maximieren
 
 Karten enthalten keine Einheiten: Abenteurer werden rekrutiert und Feinde erscheinen, sobald das Spiel läuft.
 

@@ -20,6 +20,7 @@ Nút **Trình chỉnh sửa bản đồ** ở menu chính mở trình chỉnh s�
 - **Lưu/Tải** — Lưu bản đồ vào thư mục `maps/`; Đóng, Esc và Mới sẽ hỏi trước khi bỏ các thay đổi chưa lưu (Lưu / Bỏ / Hủy), và bỏ một chiến dịch chưa từng lưu sẽ xóa luôn thư mục của nó
 - **Đối tượng…** — Chỉnh sửa trong trình biên tập đối tượng các lớp anh hùng, quái vật, công trình, căn cứ và trùm được làm cho bản đồ. Lần đầu, nó tạo gói nội dung của bản đồ (một plugin của riêng bạn mà bản đồ yêu cầu); lưu gói sẽ nạp lại nội dung, nên những gì gói định nghĩa có thể đặt ngay
 - **Chơi thử** — Bắt đầu bản đồ đã lưu, hoặc chiến dịch ở màn đang chỉnh sửa, trong một ván riêng, với gói nội dung của nó và không kèm nội dung nào khác của bạn
+- **Bảng** — Cọ vẽ và luật của bản đồ (hoặc chiến dịch) là các bảng có thẻ nằm cạnh bản đồ: kéo một bảng sang bên kia hoặc ra ngoài cửa sổ, đóng nó lại, rồi gọi lại bằng **Bảng**. Địa hình, công trình, căn cứ và trùm được chọn bằng hình ảnh; trình biên tập và các cửa sổ nó mở (trình biên tập đối tượng, trình biên tập trình kích hoạt, chi tiết bản đồ) đều có thể phóng to tối đa
 
 Bản đồ không chứa đơn vị nào: nhà phiêu lưu được tuyển mộ và kẻ thù xuất hiện khi trò chơi bắt đầu chạy.
 
