@@ -52,7 +52,7 @@ Her şablon **Yaratıcı ve Steam Atölyesi** içinde (ana menü, harita yöneti
 
 ## Frostfang örneği (bitmiş bir içerik paketi ve haritası)
 
-Şablon, söküp incelenecek bitmiş bir örnektir: bir kahraman sınıfı (Ayaz Muhafızı), bir canavar (Kırağı Yetisi), sınıfı toplayan salon, canavarın geldiği in, iki yetenek, bir araştırma ve adlı bir boss içeren, her birinin kendi resmi ve sesi olan bir içerik paketi ile bu paketi gerektiren ve boss yenilerek kazanılan bir harita.
+Şablon, söküp incelenecek bitmiş bir örnektir: bir kahraman sınıfı (Ayaz Muhafızı), bir canavar (Kırağı Yetisi), sınıfı toplayan salon, canavarın geldiği in, iki yetenek, bir araştırma ve adlı bir boss içeren, her birinin kendi resmi ve sesi olan bir içerik paketi ile bu paketi gerektiren ve boss yenilerek kazanılan bir harita. Aynı pencere, diğer Atölye kategorileri için de bitmiş birer örnek sunar; her biri **Örnek: <kategori>** adıyla yer alır (aralarında bir harita, bir kampanya, bir hikâye, bir dizi meydan okuma ve araştırma, etkinlik ve dil paketleri vardır): oynamak, incelemek ve değiştirmek için kendi projeniz olarak kopyalanır.
 
 1. Haritayı arazi editöründe açın ve **Nesneler…** düğmesine basarak her tanımın oyundaki hangi şeyi temel aldığını görün; bir sayıyı ya da adı değiştirin, kaydedin ve sonucu haritaya yerleştirin.
 2. **Deneme oyunu** düğmesine basarak haritayı yalnızca bu paketle oynayın.

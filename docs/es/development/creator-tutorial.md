@@ -52,7 +52,7 @@ La plantilla es un nivel de reino con un informe, una ciudad, una guarida, las b
 
 ## Ejemplo Frostfang (un paquete de contenido terminado y su mapa)
 
-La plantilla es un ejemplo terminado para desmontar: un paquete de contenido con una clase de héroe (el Guardián de la Escarcha), un monstruo (el Yeti de Escarcha), el salón que recluta la clase, la guarida de la que sale el monstruo, dos habilidades, una investigación y un jefe con nombre, cada uno con su propia imagen y sonido, y un mapa que requiere el paquete y se gana derrotando al jefe.
+La plantilla es un ejemplo terminado para desmontar: un paquete de contenido con una clase de héroe (el Guardián de la Escarcha), un monstruo (el Yeti de Escarcha), el salón que recluta la clase, la guarida de la que sale el monstruo, dos habilidades, una investigación y un jefe con nombre, cada uno con su propia imagen y sonido, y un mapa que requiere el paquete y se gana derrotando al jefe. La misma ventana ofrece también un ejemplo terminado para otras categorías del Workshop, cada uno como **Ejemplo: <categoría>** (entre ellos un mapa, una campaña, una historia, un conjunto de desafíos y paquetes de investigación, de eventos y de un idioma): se copia como proyecto tuyo, para jugarlo, desmontarlo y cambiarlo.
 
 1. Abre el mapa en el editor de terreno y pulsa **Objetos…** para ver cómo cada definición se basa en una del juego; cambia un número o un nombre, guarda y coloca el resultado en el mapa.
 2. Pulsa **Probar** para jugar el mapa con el paquete y nada más de lo tuyo.

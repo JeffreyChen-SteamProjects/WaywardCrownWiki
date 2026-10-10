@@ -52,7 +52,7 @@ Mẫu là một màn vương quốc với lời giao nhiệm vụ, một thị t
 
 ## Mẫu Frostfang (một gói nội dung hoàn chỉnh và bản đồ của nó)
 
-Mẫu này là một ví dụ hoàn chỉnh để tháo ra xem: một gói nội dung gồm một lớp anh hùng (Vệ binh Băng giá), một quái vật (Yeti Sương muối), sảnh chiêu mộ lớp đó, hang ổ của quái vật, hai kỹ năng, một nghiên cứu và một trùm có tên, mỗi thứ có hình và âm thanh riêng, cùng một bản đồ yêu cầu gói này và thắng bằng cách hạ trùm.
+Mẫu này là một ví dụ hoàn chỉnh để tháo ra xem: một gói nội dung gồm một lớp anh hùng (Vệ binh Băng giá), một quái vật (Yeti Sương muối), sảnh chiêu mộ lớp đó, hang ổ của quái vật, hai kỹ năng, một nghiên cứu và một trùm có tên, mỗi thứ có hình và âm thanh riêng, cùng một bản đồ yêu cầu gói này và thắng bằng cách hạ trùm. Cửa sổ đó cũng có sẵn một ví dụ hoàn chỉnh cho các danh mục Workshop khác, mỗi ví dụ mang tên **Mẫu: <danh mục>** (trong đó có một bản đồ, một chiến dịch, một cốt truyện, một bộ thử thách và các gói nghiên cứu, sự kiện, ngôn ngữ): nó được sao chép thành dự án của riêng bạn để chơi, mổ xẻ và chỉnh sửa.
 
 1. Mở bản đồ trong trình chỉnh sửa địa hình và nhấn **Đối tượng…** để xem mỗi định nghĩa dựa trên thứ nào của trò chơi; đổi một con số hoặc một cái tên, lưu lại rồi đặt kết quả lên bản đồ.
 2. Nhấn **Chơi thử** để chơi bản đồ chỉ với gói này, không kèm nội dung nào khác của bạn.

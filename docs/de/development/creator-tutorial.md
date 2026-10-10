@@ -52,7 +52,7 @@ Die Vorlage ist ein Königreichslevel mit Einsatzbesprechung, Stadt, Bau, den Er
 
 ## Frostfang-Beispiel (ein fertiges Inhaltspaket und seine Karte)
 
-Die Vorlage ist ein fertiges Beispiel zum Auseinandernehmen: ein Inhaltspaket mit einer Heldenklasse (dem Frostwächter), einem Monster (dem Raureif-Yeti), der Halle, die die Klasse rekrutiert, dem Bau, aus dem das Monster kommt, zwei Fähigkeiten, einer Forschung und einem benannten Boss, jeweils mit eigenem Bild und Ton, und eine Karte, die das Paket voraussetzt und durch den Sieg über den Boss gewonnen wird.
+Die Vorlage ist ein fertiges Beispiel zum Auseinandernehmen: ein Inhaltspaket mit einer Heldenklasse (dem Frostwächter), einem Monster (dem Raureif-Yeti), der Halle, die die Klasse rekrutiert, dem Bau, aus dem das Monster kommt, zwei Fähigkeiten, einer Forschung und einem benannten Boss, jeweils mit eigenem Bild und Ton, und eine Karte, die das Paket voraussetzt und durch den Sieg über den Boss gewonnen wird. Dasselbe Fenster bietet auch für andere Workshop-Kategorien ein fertiges Beispiel an, jeweils als **Beispiel: <Kategorie>** (darunter eine Karte, eine Kampagne, eine Geschichte, eine Reihe von Herausforderungen sowie Pakete mit Forschung, Ereignissen und einer Sprache): Es wird als eigenes Projekt kopiert, zum Spielen, Auseinandernehmen und Ändern.
 
 1. Öffne die Karte im Geländeeditor und drücke **Objekte…**, um zu sehen, wie jede Definition auf einer des Spiels aufbaut; ändere eine Zahl oder einen Namen, speichere und platziere das Ergebnis auf der Karte.
 2. Drücke **Testspiel**, um die Karte mit dem Paket und sonst nichts von dir zu spielen.

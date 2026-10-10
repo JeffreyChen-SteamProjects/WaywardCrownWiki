@@ -52,7 +52,7 @@ The template is one kingdom level with a briefing, a town, a lair, the crown's E
 
 ## Frostfang sample (a finished content pack and its map)
 
-The template is a finished example to take apart: a content pack with a hero class (the Frost Warden), a monster (the Rime Yeti), the hall that recruits the class, the den the monster comes from, two skills, a research and a named boss, each with its own art and sound, and a map that requires the pack and is won by defeating the boss.
+The template is a finished example to take apart: a content pack with a hero class (the Frost Warden), a monster (the Rime Yeti), the hall that recruits the class, the den the monster comes from, two skills, a research and a named boss, each with its own art and sound, and a map that requires the pack and is won by defeating the boss. The same window offers a finished example for other Workshop categories too, each as **Sample: <category>** (a map, a campaign, a story, a set of challenges, and packs of research, of events and of a language among them): it is copied as a project of your own, to play, take apart and change.
 
 1. Open the map in the terrain editor and press **Objects…** to see how each definition builds on one of the game's own; change a number or a name, save, and place the result on the map.
 2. Press **Test play** to play the map with the pack and nothing else of yours.

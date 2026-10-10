@@ -52,7 +52,7 @@ Il modello è un livello del regno con un briefing, una città, una tana, le ban
 
 ## Esempio Frostfang (un pacchetto di contenuti finito e la sua mappa)
 
-Il modello è un esempio finito da smontare: un pacchetto di contenuti con una classe di eroe (il Guardiano del gelo), un mostro (lo Yeti di brina), la sala che recluta la classe, la tana da cui viene il mostro, due abilità, una ricerca e un boss con nome, ciascuno con immagine e suono propri, e una mappa che richiede il pacchetto e si vince sconfiggendo il boss.
+Il modello è un esempio finito da smontare: un pacchetto di contenuti con una classe di eroe (il Guardiano del gelo), un mostro (lo Yeti di brina), la sala che recluta la classe, la tana da cui viene il mostro, due abilità, una ricerca e un boss con nome, ciascuno con immagine e suono propri, e una mappa che richiede il pacchetto e si vince sconfiggendo il boss. La stessa finestra offre anche un esempio finito per altre categorie del Workshop, ciascuno come **Esempio: <categoria>** (tra cui una mappa, una campagna, una storia, una serie di sfide e pacchetti di ricerche, di eventi e di una lingua): viene copiato come tuo progetto, da giocare, smontare e modificare.
 
 1. Apri la mappa nell'editor del terreno e premi **Oggetti…** per vedere come ogni definizione si basa su una del gioco; cambia un numero o un nome, salva e piazza il risultato sulla mappa.
 2. Premi **Prova** per giocare la mappa con il pacchetto e nient'altro di tuo.

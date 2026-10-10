@@ -52,7 +52,7 @@ Le modèle est un niveau de royaume avec un briefing, une ville, un repaire, les
 
 ## Exemple Frostfang (un pack de contenu terminé et sa carte)
 
-Le modèle est un exemple terminé à démonter : un pack de contenu avec une classe de héros (le Gardien du givre), un monstre (le Yéti de givre), la halle qui recrute la classe, la tanière d'où vient le monstre, deux compétences, une recherche et un boss nommé, chacun avec son image et son son, et une carte qui exige le pack et se gagne en battant le boss.
+Le modèle est un exemple terminé à démonter : un pack de contenu avec une classe de héros (le Gardien du givre), un monstre (le Yéti de givre), la halle qui recrute la classe, la tanière d'où vient le monstre, deux compétences, une recherche et un boss nommé, chacun avec son image et son son, et une carte qui exige le pack et se gagne en battant le boss. La même fenêtre propose aussi un exemple terminé pour d'autres catégories du Workshop, chacun sous le nom **Exemple : <catégorie>** (dont une carte, une campagne, une histoire, une série de défis et des packs de recherches, d'événements et d'une langue) : il est copié comme projet à vous, pour y jouer, le démonter et le modifier.
 
 1. Ouvrez la carte dans l'éditeur de terrain et appuyez sur **Objets…** pour voir comment chaque définition s'appuie sur un élément du jeu ; changez un nombre ou un nom, enregistrez, puis placez le résultat sur la carte.
 2. Appuyez sur **Tester** pour jouer la carte avec le pack et rien d'autre de vos contenus.

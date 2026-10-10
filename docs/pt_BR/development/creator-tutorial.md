@@ -52,7 +52,7 @@ O modelo é uma fase de reino com um briefing, uma cidade, um covil, as bandeira
 
 ## Exemplo Frostfang (um pacote de conteúdo pronto e seu mapa)
 
-O modelo é um exemplo pronto para desmontar: um pacote de conteúdo com uma classe de herói (o Guardião da Geada), um monstro (o Yeti da Geada), o salão que recruta a classe, o covil de onde vem o monstro, duas habilidades, uma pesquisa e um chefe nomeado, cada um com imagem e som próprios, e um mapa que exige o pacote e é vencido ao derrotar o chefe.
+O modelo é um exemplo pronto para desmontar: um pacote de conteúdo com uma classe de herói (o Guardião da Geada), um monstro (o Yeti da Geada), o salão que recruta a classe, o covil de onde vem o monstro, duas habilidades, uma pesquisa e um chefe nomeado, cada um com imagem e som próprios, e um mapa que exige o pacote e é vencido ao derrotar o chefe. A mesma janela também oferece um exemplo pronto para outras categorias da Oficina, cada um como **Exemplo: <categoria>** (entre eles um mapa, uma campanha, uma história, um conjunto de desafios e pacotes de pesquisa, de eventos e de um idioma): ele é copiado como projeto seu, para jogar, desmontar e alterar.
 
 1. Abra o mapa no editor de terreno e pressione **Objetos…** para ver como cada definição se baseia em uma do jogo; mude um número ou um nome, salve e coloque o resultado no mapa.
 2. Pressione **Testar** para jogar o mapa com o pacote e nada mais seu.

@@ -52,7 +52,7 @@ Szablon to jeden poziom królestwa z odprawą, miastem, legowiskiem, flagami kor
 
 ## Przykład Frostfang (gotowy pakiet zawartości i jego mapa)
 
-Szablon to gotowy przykład do rozebrania na części: pakiet zawartości z klasą bohatera (Strażnik Mrozu), potworem (Szronowy Yeti), halą, która rekrutuje tę klasę, legowiskiem, z którego wychodzi potwór, dwiema umiejętnościami, badaniem i nazwanym bossem, każde z własnym obrazem i dźwiękiem, oraz mapa, która wymaga pakietu i którą wygrywa się, pokonując bossa.
+Szablon to gotowy przykład do rozebrania na części: pakiet zawartości z klasą bohatera (Strażnik Mrozu), potworem (Szronowy Yeti), halą, która rekrutuje tę klasę, legowiskiem, z którego wychodzi potwór, dwiema umiejętnościami, badaniem i nazwanym bossem, każde z własnym obrazem i dźwiękiem, oraz mapa, która wymaga pakietu i którą wygrywa się, pokonując bossa. To samo okno oferuje też gotowy przykład dla innych kategorii Warsztatu, każdy jako **Przykład: <kategoria>** (wśród nich mapa, kampania, opowieść, zestaw wyzwań oraz pakiety badań, wydarzeń i języka): jest kopiowany jako twój projekt, do zagrania, rozebrania i zmiany.
 
 1. Otwórz mapę w edytorze terenu i naciśnij **Obiekty…**, aby zobaczyć, na czym z gry opiera się każda definicja; zmień liczbę lub nazwę, zapisz i postaw wynik na mapie.
 2. Naciśnij **Test**, aby zagrać na mapie z pakietem i niczym więcej z twoich rzeczy.
