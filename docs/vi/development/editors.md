@@ -13,7 +13,7 @@ Nút **Bộ công cụ chỉnh sửa** ở menu chính mở trình chỉnh sửa
 ### Tính năng
 
 - **Vẽ địa hình** — Chọn loại địa hình và vẽ lên bản đồ bằng cọ (kích thước 1 – 20), hoặc tô đầy một vùng
-- **Đặt công trình** — Đặt công trình của người chơi, Căn cứ kẻ thù và rương kho báu, di chuyển Lâu đài, hoặc xóa
+- **Công trình và đơn vị** — Đặt công trình của người chơi, anh hùng của vương miện, Căn cứ kẻ thù, quái vật và rương kho báu, di chuyển Lâu đài, hoặc xóa. Trình chỉnh sửa chỉ đòi hỏi đất trống: những thứ mà một vương quốc phải có cấp lâu đài, con đường của lâu đài hoặc sự cho phép của màn chơi mới xây được thì ở đây đặt tự do. Đường là một loại địa hình, không phải công trình
 - **Ngẫu nhiên** — Tạo một bản đồ ngẫu nhiên để bắt đầu
 - **Hoàn tác / Làm lại** — Tối đa 30 bước (Ctrl+Z / Ctrl+Y)
 - **Cài đặt bản đồ** — Kích thước (100 – 1000 ô mỗi cạnh), tên, tác giả và các thông tin khác, số vàng khởi đầu và một điều kiện chiến thắng
@@ -22,7 +22,7 @@ Nút **Bộ công cụ chỉnh sửa** ở menu chính mở trình chỉnh sửa
 - **Chơi thử** — Bắt đầu bản đồ đã lưu, hoặc chiến dịch ở màn đang chỉnh sửa, trong một ván riêng, với các gói nội dung mà nó yêu cầu và không kèm nội dung nào khác của bạn
 - **Bảng** — Cọ vẽ và luật của bản đồ (hoặc chiến dịch) là các bảng có thẻ nằm cạnh bản đồ: kéo một bảng sang bên kia hoặc ra ngoài cửa sổ, đóng nó lại, rồi gọi lại bằng **Bảng**. Địa hình, công trình, căn cứ và trùm được chọn bằng hình ảnh; trình biên tập và các cửa sổ nó mở (trình biên tập đối tượng, trình biên tập trình kích hoạt, chi tiết bản đồ) đều có thể phóng to tối đa
 
-Bản đồ không chứa đơn vị nào: nhà phiêu lưu được tuyển mộ và kẻ thù xuất hiện khi trò chơi bắt đầu chạy.
+Bản đồ lưu các anh hùng và quái vật bạn đặt: họ đứng ở đó khi trò chơi bắt đầu. Trong lúc chơi, thêm anh hùng được tuyển mộ và thêm quái vật xuất hiện.
 
 ### Các loại địa hình
 
@@ -34,7 +34,7 @@ Bản đồ được lưu ở định dạng JSON trong thư mục `maps/` và b
 
 - Dữ liệu địa hình (một mảng NumPy được nén)
 - Dữ liệu độ cao
-- Công trình, Căn cứ kẻ thù và rương kho báu
+- Công trình, Căn cứ kẻ thù, rương kho báu, cùng các anh hùng và quái vật đã đặt
 - Vị trí Lâu đài
 - Thông tin bản đồ, số vàng khởi đầu và điều kiện chiến thắng
 

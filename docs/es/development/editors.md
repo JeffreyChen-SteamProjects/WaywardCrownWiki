@@ -13,7 +13,7 @@ El botón **Kit de edición** del menú principal abre el editor con un mapa nue
 ### Funciones
 
 - **Pintura de Terreno** — Selecciona un tipo de terreno y píntalo sobre el mapa con un pincel (tamaño 1 – 20), o rellena una región
-- **Colocación de Edificios** — Coloca edificios del jugador, Fortalezas Enemigas y cofres del tesoro, mueve el Castillo o borra
+- **Edificios y unidades** — Coloca edificios del jugador, héroes de la corona, Fortalezas Enemigas, monstruos y cofres del tesoro, mueve el Castillo o borra. El editor solo pide terreno libre: lo que un reino necesitaría antes un nivel de castillo, una senda del castillo o el permiso de un nivel se coloca libremente. El camino es uno de los terrenos, no un edificio
 - **Aleatorizar** — Genera un mapa aleatorio como punto de partida
 - **Deshacer / Rehacer** — Hasta 30 pasos (Ctrl+Z / Ctrl+Y)
 - **Ajustes del Mapa** — Tamaño (100 – 1000 casillas por lado), nombre, autor y otros detalles, oro inicial y una condición de victoria
@@ -22,7 +22,7 @@ El botón **Kit de edición** del menú principal abre el editor con un mapa nue
 - **Probar** — Inicia el mapa guardado, o la campaña en el nivel que se está editando, en una partida propia, con los paquetes de contenido que requiere y nada más de lo tuyo
 - **Paneles** — Los pinceles y las reglas del mapa (o la campaña) son paneles con pestañas junto al mapa: arrastra uno al otro lado o fuera de la ventana, ciérralo y recupéralo con **Paneles**. Los terrenos, edificios, fortalezas y jefes se eligen por su imagen, y el editor y las ventanas que abre (el editor de objetos, el editor de disparadores, los datos del mapa) se pueden maximizar
 
-Los mapas no contienen unidades: los aventureros se reclutan y los enemigos aparecen una vez que la partida está en marcha.
+Un mapa guarda los héroes y los monstruos que colocas: están ahí cuando empieza la partida. Mientras transcurre se reclutan más héroes y aparecen más monstruos.
 
 ### Tipos de Terreno
 
@@ -34,7 +34,7 @@ Los mapas se almacenan en formato JSON en el directorio `maps/` e incluyen:
 
 - Datos de terreno (un array NumPy comprimido)
 - Datos de altura
-- Edificios, Fortalezas Enemigas y cofres del tesoro
+- Edificios, Fortalezas Enemigas, cofres del tesoro y los héroes y monstruos colocados
 - Posición del Castillo
 - Detalles del mapa, oro inicial y condición de victoria
 

@@ -13,7 +13,7 @@ Il pulsante **Kit di editor** del menu principale apre l'editor su una nuova map
 ### Funzionalità
 
 - **Pittura del terreno** — Seleziona un tipo di terreno e dipingilo sulla mappa con un pennello (dimensione 1 – 20), oppure riempi un'area
-- **Posizionamento edifici** — Posiziona edifici del giocatore, Roccaforti nemiche e forzieri del tesoro, sposta il Castello o cancella
+- **Edifici e unità** — Posiziona edifici del giocatore, eroi della corona, Roccaforti nemiche, mostri e forzieri del tesoro, sposta il Castello o cancella. L'editor chiede solo terreno libero: ciò per cui a un regno servirebbe prima un livello del castello, una via del castello o il permesso di un livello si piazza liberamente. La strada è uno dei terreni, non un edificio
 - **Casualizza** — Genera una mappa casuale da cui partire
 - **Annulla / Ripeti** — Fino a 30 passi (Ctrl+Z / Ctrl+Y)
 - **Impostazioni mappa** — Dimensione (100 – 1000 caselle per lato), nome, autore e altri dettagli, oro iniziale e una condizione di vittoria
@@ -22,7 +22,7 @@ Il pulsante **Kit di editor** del menu principale apre l'editor su una nuova map
 - **Prova** — Avvia la mappa salvata, o la campagna al livello che stai modificando, in una partita a sé, con i pacchetti di contenuti che richiede e nient'altro di tuo
 - **Pannelli** — I pennelli e le regole della mappa (o la campagna) sono pannelli a schede accanto alla mappa: trascinane uno dall'altra parte o fuori dalla finestra, chiudilo e richiamalo con **Pannelli**. Terreni, edifici, roccaforti e boss si scelgono dalla loro immagine, e l'editor e le finestre che apre (l'editor di oggetti, l'editor dei trigger, i dettagli della mappa) si possono ingrandire a tutto schermo
 
-Le mappe non contengono unità: gli avventurieri vengono reclutati e i nemici appaiono una volta avviata la partita.
+Una mappa conserva gli eroi e i mostri che piazzi: sono lì quando la partita comincia. Durante la partita vengono reclutati altri eroi e appaiono altri mostri.
 
 ### Tipi di terreno
 
@@ -34,7 +34,7 @@ Le mappe sono salvate in formato JSON nella directory `maps/` e includono:
 
 - Dati del terreno (un array NumPy compresso)
 - Dati di altitudine
-- Edifici, Roccaforti nemiche e forzieri del tesoro
+- Edifici, Roccaforti nemiche, forzieri del tesoro e gli eroi e i mostri piazzati
 - Posizione del Castello
 - Dettagli della mappa, oro iniziale e condizione di vittoria
 

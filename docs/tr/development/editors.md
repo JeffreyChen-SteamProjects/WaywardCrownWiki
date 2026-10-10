@@ -13,7 +13,7 @@ Ana menüdeki **Editör Araç Seti** düğmesi editörü yeni bir haritayla aça
 ### Özellikler
 
 - **Arazi Boyama** — Bir arazi türü seçip fırça ile haritaya boyayın (boyut 1 – 20) veya bir bölgeyi doldurun
-- **Bina Yerleştirme** — Oyuncu binaları, Düşman Kaleleri ve hazine sandıkları yerleştirin, Kale'yi taşıyın veya silin
+- **Binalar ve birimler** — Oyuncu binaları, tacın kahramanları, Düşman Kaleleri, canavarlar ve hazine sandıkları yerleştirin, Kale'yi taşıyın veya silin. Editör yalnızca boş zemin ister: bir krallığın önce şato seviyesine, şato yoluna ya da bölümün iznine ihtiyaç duyacağı şeyler serbestçe yerleştirilir. Yol bir bina değil, arazilerden biridir
 - **Rastgele Oluştur** — Başlangıç için rastgele bir harita oluşturun
 - **Geri Al / Yinele** — En fazla 30 adım (Ctrl+Z / Ctrl+Y)
 - **Harita Ayarları** — Boyut (kenar başına 100 – 1000 karo), ad, yazar ve diğer ayrıntılar, başlangıç altını ve bir zafer koşulu
@@ -22,7 +22,7 @@ Ana menüdeki **Editör Araç Seti** düğmesi editörü yeni bir haritayla aça
 - **Deneme oyunu** — Kaydedilmiş haritayı ya da düzenlenen bölümdeki kampanyayı, gerekli kıldığı içerik paketleriyle ve başka hiçbir içeriğiniz olmadan ayrı bir oyunda başlatır
 - **Paneller** — Fırçalar ve haritanın kuralları (ya da kampanya), haritanın yanındaki sekmeli panellerdir: birini öbür tarafa ya da pencerenin dışına sürükleyin, kapatın ve **Paneller** ile geri getirin. Araziler, binalar, kaleler ve bosslar resimlerinden seçilir; editör ve açtığı pencereler (nesne editörü, tetikleyici editörü, harita ayrıntıları) ekranı kaplayacak şekilde büyütülebilir
 
-Haritalar birim içermez: maceraperestler oyun çalışmaya başlayınca işe alınır ve düşmanlar o zaman doğar.
+Harita, yerleştirdiğiniz kahramanları ve canavarları saklar: oyun başladığında orada dururlar. Oyun sürerken başka kahramanlar işe alınır ve başka canavarlar doğar.
 
 ### Arazi Türleri
 
@@ -34,7 +34,7 @@ Haritalar `maps/` dizininde JSON formatında saklanır ve şunları içerir:
 
 - Arazi verileri (sıkıştırılmış bir NumPy dizisi)
 - Yükseklik verileri
-- Binalar, Düşman Kaleleri ve hazine sandıkları
+- Binalar, Düşman Kaleleri, hazine sandıkları ve yerleştirilen kahramanlar ile canavarlar
 - Kale konumu
 - Harita ayrıntıları, başlangıç altını ve zafer koşulu
 

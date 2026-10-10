@@ -13,7 +13,7 @@ Le bouton **Kit d'édition** du menu principal ouvre l'éditeur sur une nouvelle
 ### Fonctionnalités
 
 - **Peinture de terrain** — Sélectionnez un type de terrain et peignez-le sur la carte avec un pinceau (taille 1 – 20), ou remplissez une zone d'un seul coup
-- **Placement de bâtiments** — Placez des bâtiments du joueur, des forteresses ennemies et des coffres au trésor, déplacez le Château, ou effacez
+- **Bâtiments et unités** — Placez des bâtiments du joueur, des héros de la couronne, des forteresses ennemies, des monstres et des coffres au trésor, déplacez le Château, ou effacez. L'éditeur ne demande qu'un terrain libre : ce pour quoi un royaume aurait d'abord besoin d'un niveau de château, d'une voie du château ou de l'accord d'un niveau se place librement. La route est un terrain, pas un bâtiment
 - **Génération aléatoire** — Générez une carte aléatoire comme point de départ
 - **Annuler / Rétablir** — Jusqu'à 30 étapes (Ctrl+Z / Ctrl+Y)
 - **Paramètres de la carte** — Taille (100 – 1000 cases de côté), nom, auteur et autres détails, or de départ et une condition de victoire
@@ -22,7 +22,7 @@ Le bouton **Kit d'édition** du menu principal ouvre l'éditeur sur une nouvelle
 - **Tester** — Lance la carte enregistrée, ou la campagne au niveau en cours d'édition, dans une partie à part, avec les packs de contenu qu'elle exige et rien d'autre de vos contenus
 - **Panneaux** — Les pinceaux et les règles de la carte (ou la campagne) sont des panneaux à onglets à côté de la carte : faites-en glisser un de l'autre côté ou hors de la fenêtre, fermez-le, puis rappelez-le avec **Panneaux**. Terrains, bâtiments, forteresses et boss se choisissent par leur image, et l'éditeur et les fenêtres qu'il ouvre (l'éditeur d'objets, l'éditeur de déclencheurs, les détails de la carte) peuvent être agrandis au maximum
 
-Les cartes ne contiennent aucune unité : les aventuriers sont recrutés et les ennemis apparaissent une fois la partie lancée.
+Une carte conserve les héros et les monstres que vous placez : ils s'y tiennent au début de la partie. D'autres héros sont recrutés et d'autres monstres apparaissent en cours de partie.
 
 ### Types de terrain
 
@@ -34,7 +34,7 @@ Les cartes sont stockées au format JSON dans le répertoire `maps/` et incluent
 
 - Données de terrain (un tableau NumPy compressé)
 - Données d'altitude
-- Bâtiments, forteresses ennemies et coffres au trésor
+- Bâtiments, forteresses ennemies, coffres au trésor, ainsi que les héros et les monstres placés
 - Position du Château
 - Détails de la carte, or de départ et condition de victoire
 

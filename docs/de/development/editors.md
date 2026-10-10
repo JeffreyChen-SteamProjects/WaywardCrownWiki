@@ -13,7 +13,7 @@ Die Schaltfläche **Editor-Toolkit** im Hauptmenü öffnet den Editor mit einer 
 ### Funktionen
 
 - **Geländemalerei** — Wähle einen Geländetyp und male ihn mit einem Pinsel (Größe 1 – 20) auf die Karte, oder fülle einen Bereich mit der Füllfunktion
-- **Gebäude platzieren** — Platziere Spielergebäude, feindliche Festungen und Schatztruhen, verschiebe die Burg oder radiere
+- **Gebäude und Einheiten** — Platziere Spielergebäude, Helden der Krone, feindliche Festungen, Monster und Schatztruhen, verschiebe die Burg oder radiere. Der Editor verlangt nur freien Boden: Was ein Königreich erst mit einer Burgstufe, einem Weg der Burg oder der Freigabe eines Levels bauen dürfte, lässt sich frei platzieren. Die Straße ist ein Gelände, kein Gebäude
 - **Zufallskarte** — Erzeuge eine zufällige Karte als Ausgangspunkt
 - **Rückgängig / Wiederholen** — Bis zu 30 Schritte (Ctrl+Z / Ctrl+Y)
 - **Karteneinstellungen** — Größe (100 – 1000 Felder pro Seite), Name, Autor und weitere Angaben, Startgold und eine Siegbedingung
@@ -22,7 +22,7 @@ Die Schaltfläche **Editor-Toolkit** im Hauptmenü öffnet den Editor mit einer 
 - **Testspiel** — Startet die gespeicherte Karte oder die Kampagne am gerade bearbeiteten Level in einem eigenen Spiel, mit den Inhaltspaketen, die sie voraussetzt, und sonst nichts von dir
 - **Bereiche** — Die Pinsel und die Regeln der Karte (oder die Kampagne) sind Bereiche mit Reitern neben der Karte: Ziehe einen auf die andere Seite oder aus dem Fenster, schließe ihn und hole ihn mit **Bereiche** zurück. Gelände, Gebäude, Festungen und Bosse wählst du nach ihrem Bild, und der Editor und die Fenster, die er öffnet (der Objekteditor, der Trigger-Editor, die Kartendetails), lassen sich maximieren
 
-Karten enthalten keine Einheiten: Abenteurer werden rekrutiert und Feinde erscheinen, sobald das Spiel läuft.
+Eine Karte enthält die Helden und Monster, die du platzierst: Sie stehen dort, wenn das Spiel beginnt. Im Lauf des Spiels werden weitere Helden rekrutiert und weitere Monster erscheinen.
 
 ### Geländetypen
 
@@ -34,7 +34,7 @@ Karten werden im JSON-Format im Verzeichnis `maps/` gespeichert und enthalten:
 
 - Geländedaten (ein komprimiertes NumPy-Array)
 - Höhendaten
-- Gebäude, feindliche Festungen und Schatztruhen
+- Gebäude, feindliche Festungen, Schatztruhen sowie die platzierten Helden und Monster
 - Position der Burg
 - Kartenangaben, Startgold und Siegbedingung
 

@@ -13,7 +13,7 @@ The main menu's **Editor Toolkit** button opens the editor on a new map. Saved m
 ### Features
 
 - **Terrain Painting** — Select a terrain type and paint it onto the map with a brush (size 1 – 20), or flood-fill a region
-- **Building Placement** — Place player buildings, Enemy Strongholds and treasure chests, move the Castle, or erase
+- **Buildings and units** — Place player buildings, heroes of the crown, Enemy Strongholds, monsters and treasure chests, move the Castle, or erase. The editor asks only for open ground: what a kingdom would first need a castle level, a castle path or a level's leave for is placed freely. A road is one of the terrains, not a building
 - **Randomize** — Generate a random map to start from
 - **Undo / Redo** — Up to 30 steps (Ctrl+Z / Ctrl+Y)
 - **Map Settings** — Size (100 – 1000 tiles per side), name, author and other details, starting gold and a victory condition
@@ -22,7 +22,7 @@ The main menu's **Editor Toolkit** button opens the editor on a new map. Saved m
 - **Test play** — Start the saved map, or the campaign at the level being edited, in a game of its own, with the content packs it requires and nothing else of yours
 - **Panels** — The brushes and the map's rules (or the campaign) are panels of tabs beside the map: drag one to the other side or out of the window, close it, and bring it back with **Panels**. Terrains, buildings, strongholds and bosses are chosen by their pictures, and the editor and the windows it opens (the object editor, the trigger editor, the map's details) can be maximised
 
-Maps hold no units: adventurers are recruited and enemies spawn once the game runs.
+A map holds the heroes and the monsters you place: they stand there when the game starts. More heroes are recruited and more monsters spawn as it runs.
 
 ### Terrain Types
 
@@ -34,7 +34,7 @@ Maps are stored in JSON format in the `maps/` directory and include:
 
 - Terrain data (a compressed NumPy array)
 - Height data
-- Buildings, Enemy Strongholds and treasure chests
+- Buildings, Enemy Strongholds, treasure chests, and the heroes and monsters placed
 - Castle position
 - Map details, starting gold and victory condition
 

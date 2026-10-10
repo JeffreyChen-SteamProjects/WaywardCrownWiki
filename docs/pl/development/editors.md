@@ -13,7 +13,7 @@ Przycisk **Zestaw edytorów** w menu głównym otwiera edytor z nową mapą. Zap
 ### Funkcje
 
 - **Malowanie terenu** — Wybierz typ terenu i namaluj go na mapie za pomocą pędzla (rozmiar 1 – 20) lub wypełnij obszar
-- **Rozmieszczanie budynków** — Umieszczaj budynki gracza, twierdze wrogów i skrzynie ze skarbami, przesuwaj Zamek lub usuwaj obiekty
+- **Budynki i jednostki** — Umieszczaj budynki gracza, bohaterów korony, twierdze wrogów, potwory i skrzynie ze skarbami, przesuwaj Zamek lub usuwaj obiekty. Edytor wymaga tylko wolnego terenu: to, do czego królestwo najpierw potrzebowałoby poziomu zamku, drogi zamku albo zgody poziomu, stawia się swobodnie. Droga to jeden z terenów, a nie budynek
 - **Losowanie** — Wygeneruj losową mapę jako punkt wyjścia
 - **Cofnij / Ponów** — Do 30 kroków (Ctrl+Z / Ctrl+Y)
 - **Ustawienia mapy** — Rozmiar (100 – 1000 kafelków na bok), nazwa, autor i inne szczegóły, początkowe złoto i warunek zwycięstwa
@@ -22,7 +22,7 @@ Przycisk **Zestaw edytorów** w menu głównym otwiera edytor z nową mapą. Zap
 - **Test** — Uruchamia zapisaną mapę albo kampanię na edytowanym poziomie w osobnej grze, z pakietami zawartości, których wymaga, i niczym więcej z twoich rzeczy
 - **Panele** — Pędzle i zasady mapy (albo kampania) to panele z kartami obok mapy: przeciągnij panel na drugą stronę albo poza okno, zamknij go i przywróć przyciskiem **Panele**. Tereny, budynki, twierdze i bossów wybiera się po obrazkach, a edytor i okna, które otwiera (edytor obiektów, edytor wyzwalaczy, szczegóły mapy), można zmaksymalizować
 
-Mapy nie zawierają jednostek: poszukiwacze przygód są rekrutowani, a wrogowie pojawiają się dopiero po uruchomieniu gry.
+Mapa przechowuje bohaterów i potwory, które postawisz: stoją tam, gdy gra się zaczyna. W trakcie gry rekrutowani są kolejni bohaterowie i pojawiają się kolejne potwory.
 
 ### Typy terenu
 
@@ -34,7 +34,7 @@ Mapy są przechowywane w formacie JSON w katalogu `maps/` i zawierają:
 
 - Dane terenu (skompresowana tablica NumPy)
 - Dane wysokości
-- Budynki, twierdze wrogów i skrzynie ze skarbami
+- Budynki, twierdze wrogów, skrzynie ze skarbami oraz postawieni bohaterowie i potwory
 - Pozycję Zamku
 - Szczegóły mapy, początkowe złoto i warunek zwycięstwa
 
