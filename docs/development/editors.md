@@ -8,7 +8,7 @@ Wayward Crown includes built-in map and campaign editors that let you create cus
 
 ## Map Editor
 
-The main menu's **Map Editor** button opens the editor on a new map. Saved maps are listed, played, edited, imported and exported on the Maps tab of the map manager, which the main menu's **Campaigns** button opens.
+The main menu's **Editor Toolkit** button opens the editor on a new map. Saved maps are listed, played, edited, imported and exported on the Maps tab of the map manager, which the main menu's **Campaigns** button opens.
 
 ### Features
 
@@ -18,8 +18,8 @@ The main menu's **Map Editor** button opens the editor on a new map. Saved maps 
 - **Undo / Redo** — Up to 30 steps (Ctrl+Z / Ctrl+Y)
 - **Map Settings** — Size (100 – 1000 tiles per side), name, author and other details, starting gold and a victory condition
 - **Save/Load** — Save maps to the `maps/` directory; Close, Esc and New ask before dropping unsaved changes (Save / Discard / Cancel), and discarding a campaign that was never saved removes its folder again
-- **Objects…** — Edit the hero classes, monsters, buildings, strongholds and bosses made for the map in the object editor. The first time, it makes the map's content pack (a plugin of your own that the map requires); saving the pack loads the content again, so what it defines can be placed at once
-- **Test play** — Start the saved map, or the campaign at the level being edited, in a game of its own, with its content pack and nothing else of yours
+- **Objects…** — Edit hero classes, monsters, buildings, strongholds and bosses in a content pack of your own, in the object editor. The button lists your packs and **New content pack…**, and needs no saved map. A pack is a plugin that stands by itself; saving it loads the content again, so what it defines can be placed at once. A map or campaign comes to require a pack only when it is saved with something of the pack's on it
+- **Test play** — Start the saved map, or the campaign at the level being edited, in a game of its own, with the content packs it requires and nothing else of yours
 - **Panels** — The brushes and the map's rules (or the campaign) are panels of tabs beside the map: drag one to the other side or out of the window, close it, and bring it back with **Panels**. Terrains, buildings, strongholds and bosses are chosen by their pictures, and the editor and the windows it opens (the object editor, the trigger editor, the map's details) can be maximised
 
 Maps hold no units: adventurers are recruited and enemies spawn once the game runs.
@@ -91,4 +91,4 @@ campaigns/my_campaign/
 - Place received maps into `maps/` to load them from the main menu
 - Place received campaigns into `campaigns/` to see them in the main menu
 - When the game runs through Steam, the map manager's **Publish to Workshop** puts one of your maps or campaigns on the Steam Workshop, and the ones you subscribe to appear in its lists marked [Workshop]. Steam keeps those up to date, so they cannot be edited, renamed or deleted; **Duplicate** makes a map of your own
-- A map or campaign with a content pack requires that plugin: share the pack with it, and publish the pack first (the publish window then suggests the pack's Workshop item as a required item)
+- A content pack is installed by itself: publish it or share its ZIP on its own, and whoever installs it finds its classes, monsters, buildings and strongholds in their own games, with no map needed. A map or campaign that places something from a pack requires that plugin: publish the pack first (the publish window then suggests the pack's Workshop item as a required item)

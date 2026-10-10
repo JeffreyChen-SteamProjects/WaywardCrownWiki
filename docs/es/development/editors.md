@@ -8,7 +8,7 @@ Wayward Crown incluye editores integrados de mapas y campañas que te permiten c
 
 ## Editor de Mapas
 
-El botón **Editor de mapas** del menú principal abre el editor con un mapa nuevo. Los mapas guardados se listan, juegan, editan, importan y exportan en la pestaña **Mapas** del gestor de mapas, que se abre con el botón **Campañas** del menú principal.
+El botón **Kit de edición** del menú principal abre el editor con un mapa nuevo. Los mapas guardados se listan, juegan, editan, importan y exportan en la pestaña **Mapas** del gestor de mapas, que se abre con el botón **Campañas** del menú principal.
 
 ### Funciones
 
@@ -18,8 +18,8 @@ El botón **Editor de mapas** del menú principal abre el editor con un mapa nue
 - **Deshacer / Rehacer** — Hasta 30 pasos (Ctrl+Z / Ctrl+Y)
 - **Ajustes del Mapa** — Tamaño (100 – 1000 casillas por lado), nombre, autor y otros detalles, oro inicial y una condición de victoria
 - **Guardar/Cargar** — Guarda mapas en el directorio `maps/`; Cerrar, Esc y Nuevo preguntan antes de descartar cambios sin guardar (Guardar / Descartar / Cancelar), y descartar una campaña nunca guardada elimina de nuevo su carpeta
-- **Objetos…** — Edita en el editor de objetos las clases de héroe, monstruos, edificios, fortalezas y jefes hechos para el mapa. La primera vez crea el paquete de contenido del mapa (un plugin tuyo que el mapa requiere); al guardar el paquete se vuelve a cargar el contenido, así que lo que define se puede colocar enseguida
-- **Probar** — Inicia el mapa guardado, o la campaña en el nivel que se está editando, en una partida propia, con su paquete de contenido y nada más de lo tuyo
+- **Objetos…** — Edita clases de héroe, monstruos, edificios, fortalezas y jefes en un paquete de contenido tuyo, en el editor de objetos. El botón lista tus paquetes y **Nuevo paquete de contenido…**, y no necesita un mapa guardado. Un paquete es un plugin independiente; al guardarlo se vuelve a cargar el contenido, así que lo que define se puede colocar enseguida. Un mapa o una campaña solo pasa a requerir un paquete cuando se guarda con algo de ese paquete colocado
+- **Probar** — Inicia el mapa guardado, o la campaña en el nivel que se está editando, en una partida propia, con los paquetes de contenido que requiere y nada más de lo tuyo
 - **Paneles** — Los pinceles y las reglas del mapa (o la campaña) son paneles con pestañas junto al mapa: arrastra uno al otro lado o fuera de la ventana, ciérralo y recupéralo con **Paneles**. Los terrenos, edificios, fortalezas y jefes se eligen por su imagen, y el editor y las ventanas que abre (el editor de objetos, el editor de disparadores, los datos del mapa) se pueden maximizar
 
 Los mapas no contienen unidades: los aventureros se reclutan y los enemigos aparecen una vez que la partida está en marcha.
@@ -91,4 +91,4 @@ campaigns/my_campaign/
 - Coloca los mapas recibidos en `maps/` para cargarlos desde el menú principal
 - Coloca las campañas recibidas en `campaigns/` para verlas en el menú principal
 - Si el juego se ejecuta desde Steam, **Publicar en Workshop** del gestor de mapas sube uno de tus mapas o campañas a Steam Workshop, y los que suscribas aparecen en sus listas marcados con [Workshop]. Steam los mantiene actualizados, así que no se pueden editar, renombrar ni eliminar; **Duplicar** crea un mapa propio
-- Un mapa o una campaña con paquete de contenido requiere ese plugin: compártelo junto con el mapa y publica primero el paquete (la ventana de publicación sugiere entonces el elemento de Workshop del paquete como elemento requerido)
+- Un paquete de contenido se instala por sí solo: publícalo o comparte su ZIP aparte, y quien lo instale tendrá sus clases, monstruos, edificios y fortalezas en sus propias partidas, sin necesidad de ningún mapa. Un mapa o una campaña que coloca algo de un paquete requiere ese plugin: publica primero el paquete (la ventana de publicación sugiere entonces el elemento de Workshop del paquete como elemento requerido)

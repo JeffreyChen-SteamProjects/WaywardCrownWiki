@@ -8,7 +8,7 @@ Wayward Crown tích hợp sẵn trình chỉnh sửa bản đồ và chiến d�
 
 ## Trình chỉnh sửa bản đồ
 
-Nút **Trình chỉnh sửa bản đồ** ở menu chính mở trình chỉnh sửa với một bản đồ mới. Các bản đồ đã lưu được liệt kê, chơi, chỉnh sửa, nhập và xuất ở thẻ **Bản đồ** của trình quản lý bản đồ, được mở bằng nút **Chiến dịch** ở menu chính.
+Nút **Bộ công cụ chỉnh sửa** ở menu chính mở trình chỉnh sửa với một bản đồ mới. Các bản đồ đã lưu được liệt kê, chơi, chỉnh sửa, nhập và xuất ở thẻ **Bản đồ** của trình quản lý bản đồ, được mở bằng nút **Chiến dịch** ở menu chính.
 
 ### Tính năng
 
@@ -18,8 +18,8 @@ Nút **Trình chỉnh sửa bản đồ** ở menu chính mở trình chỉnh s�
 - **Hoàn tác / Làm lại** — Tối đa 30 bước (Ctrl+Z / Ctrl+Y)
 - **Cài đặt bản đồ** — Kích thước (100 – 1000 ô mỗi cạnh), tên, tác giả và các thông tin khác, số vàng khởi đầu và một điều kiện chiến thắng
 - **Lưu/Tải** — Lưu bản đồ vào thư mục `maps/`; Đóng, Esc và Mới sẽ hỏi trước khi bỏ các thay đổi chưa lưu (Lưu / Bỏ / Hủy), và bỏ một chiến dịch chưa từng lưu sẽ xóa luôn thư mục của nó
-- **Đối tượng…** — Chỉnh sửa trong trình biên tập đối tượng các lớp anh hùng, quái vật, công trình, căn cứ và trùm được làm cho bản đồ. Lần đầu, nó tạo gói nội dung của bản đồ (một plugin của riêng bạn mà bản đồ yêu cầu); lưu gói sẽ nạp lại nội dung, nên những gì gói định nghĩa có thể đặt ngay
-- **Chơi thử** — Bắt đầu bản đồ đã lưu, hoặc chiến dịch ở màn đang chỉnh sửa, trong một ván riêng, với gói nội dung của nó và không kèm nội dung nào khác của bạn
+- **Đối tượng…** — Chỉnh sửa lớp anh hùng, quái vật, công trình, căn cứ và trùm trong một gói nội dung của riêng bạn, bằng trình biên tập đối tượng. Nút này liệt kê các gói của bạn và **Gói nội dung mới…**, không cần bản đồ đã lưu. Gói là một plugin độc lập; lưu gói sẽ nạp lại nội dung, nên những gì gói định nghĩa có thể đặt ngay. Bản đồ hoặc chiến dịch chỉ yêu cầu một gói khi được lưu với thứ gì đó của gói ấy đặt trên đó
+- **Chơi thử** — Bắt đầu bản đồ đã lưu, hoặc chiến dịch ở màn đang chỉnh sửa, trong một ván riêng, với các gói nội dung mà nó yêu cầu và không kèm nội dung nào khác của bạn
 - **Bảng** — Cọ vẽ và luật của bản đồ (hoặc chiến dịch) là các bảng có thẻ nằm cạnh bản đồ: kéo một bảng sang bên kia hoặc ra ngoài cửa sổ, đóng nó lại, rồi gọi lại bằng **Bảng**. Địa hình, công trình, căn cứ và trùm được chọn bằng hình ảnh; trình biên tập và các cửa sổ nó mở (trình biên tập đối tượng, trình biên tập trình kích hoạt, chi tiết bản đồ) đều có thể phóng to tối đa
 
 Bản đồ không chứa đơn vị nào: nhà phiêu lưu được tuyển mộ và kẻ thù xuất hiện khi trò chơi bắt đầu chạy.
@@ -91,4 +91,4 @@ campaigns/my_campaign/
 - Đặt bản đồ nhận được vào `maps/` để tải từ menu chính
 - Đặt chiến dịch nhận được vào `campaigns/` để thấy trong menu chính
 - Khi chạy trò chơi qua Steam, nút **Đăng lên Workshop** của trình quản lý bản đồ đưa bản đồ hoặc chiến dịch của bạn lên Steam Workshop, còn những mục bạn đăng ký sẽ hiện trong danh sách với dấu [Workshop]. Steam tự cập nhật chúng nên không thể sửa, đổi tên hay xóa; **Nhân bản** để có bản đồ của riêng bạn
-- Bản đồ hoặc chiến dịch có gói nội dung sẽ yêu cầu plugin đó: hãy chia sẻ gói cùng với nó và phát hành gói trước (cửa sổ phát hành khi đó sẽ gợi ý vật phẩm Workshop của gói làm vật phẩm bắt buộc)
+- Gói nội dung được cài riêng: hãy phát hành gói hoặc chia sẻ riêng tệp ZIP của nó, và ai cài gói sẽ có các lớp, quái vật, công trình và căn cứ của gói trong các ván chơi của mình mà không cần bản đồ nào. Bản đồ hoặc chiến dịch đặt thứ gì đó từ một gói sẽ yêu cầu plugin đó: hãy phát hành gói trước (cửa sổ phát hành khi đó sẽ gợi ý vật phẩm Workshop của gói làm vật phẩm bắt buộc)

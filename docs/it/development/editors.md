@@ -8,7 +8,7 @@ Wayward Crown include editor di mappe e campagne integrati che permettono di cre
 
 ## Editor di mappe
 
-Il pulsante **Editor mappe** del menu principale apre l'editor su una nuova mappa. Le mappe salvate si elencano, giocano, modificano, importano ed esportano nella scheda Mappe del gestore mappe, che si apre con il pulsante **Campagne** del menu principale.
+Il pulsante **Kit di editor** del menu principale apre l'editor su una nuova mappa. Le mappe salvate si elencano, giocano, modificano, importano ed esportano nella scheda Mappe del gestore mappe, che si apre con il pulsante **Campagne** del menu principale.
 
 ### Funzionalità
 
@@ -18,8 +18,8 @@ Il pulsante **Editor mappe** del menu principale apre l'editor su una nuova mapp
 - **Annulla / Ripeti** — Fino a 30 passi (Ctrl+Z / Ctrl+Y)
 - **Impostazioni mappa** — Dimensione (100 – 1000 caselle per lato), nome, autore e altri dettagli, oro iniziale e una condizione di vittoria
 - **Salva/Carica** — Salva le mappe nella directory `maps/`; Chiudi, Esc e Nuovo chiedono prima di scartare le modifiche non salvate (Salva / Scarta / Annulla), e scartare una campagna mai salvata ne rimuove la cartella
-- **Oggetti…** — Modifica nell'editor di oggetti le classi di eroe, i mostri, gli edifici, le roccaforti e i boss creati per la mappa. La prima volta crea il pacchetto di contenuti della mappa (un tuo plugin che la mappa richiede); salvando il pacchetto i contenuti vengono ricaricati, così ciò che definisce si può piazzare subito
-- **Prova** — Avvia la mappa salvata, o la campagna al livello che stai modificando, in una partita a sé, con il suo pacchetto di contenuti e nient'altro di tuo
+- **Oggetti…** — Modifica nell'editor di oggetti classi di eroe, mostri, edifici, roccaforti e boss in un tuo pacchetto di contenuti. Il pulsante elenca i tuoi pacchetti e **Nuovo pacchetto di contenuti…**, e non serve una mappa salvata. Un pacchetto è un plugin a sé; salvandolo i contenuti vengono ricaricati, così ciò che definisce si può piazzare subito. Una mappa o una campagna richiede un pacchetto solo quando viene salvata con qualcosa di quel pacchetto sopra
+- **Prova** — Avvia la mappa salvata, o la campagna al livello che stai modificando, in una partita a sé, con i pacchetti di contenuti che richiede e nient'altro di tuo
 - **Pannelli** — I pennelli e le regole della mappa (o la campagna) sono pannelli a schede accanto alla mappa: trascinane uno dall'altra parte o fuori dalla finestra, chiudilo e richiamalo con **Pannelli**. Terreni, edifici, roccaforti e boss si scelgono dalla loro immagine, e l'editor e le finestre che apre (l'editor di oggetti, l'editor dei trigger, i dettagli della mappa) si possono ingrandire a tutto schermo
 
 Le mappe non contengono unità: gli avventurieri vengono reclutati e i nemici appaiono una volta avviata la partita.
@@ -91,4 +91,4 @@ campaigns/my_campaign/
 - Posiziona le mappe ricevute in `maps/` per caricarle dal menu principale
 - Posiziona le campagne ricevute in `campaigns/` per visualizzarle nel menu principale
 - Se il gioco è avviato da Steam, **Pubblica nel Workshop** del gestore mappe mette una tua mappa o campagna nello Steam Workshop, e quelle a cui sei iscritto compaiono nei suoi elenchi contrassegnate con [Workshop]. Steam le mantiene aggiornate, quindi non si possono modificare, rinominare né eliminare; **Duplica** crea una mappa tua
-- Una mappa o una campagna con un pacchetto di contenuti richiede quel plugin: condividi il pacchetto insieme a essa e pubblica prima il pacchetto (la finestra di pubblicazione propone poi l'elemento Workshop del pacchetto come elemento richiesto)
+- Un pacchetto di contenuti si installa da solo: pubblicalo o condividi il suo ZIP a parte, e chi lo installa trova le sue classi, i suoi mostri, edifici e roccaforti nelle proprie partite, senza bisogno di alcuna mappa. Una mappa o una campagna che colloca qualcosa di un pacchetto richiede quel plugin: pubblica prima il pacchetto (la finestra di pubblicazione propone poi l'elemento Workshop del pacchetto come elemento richiesto)

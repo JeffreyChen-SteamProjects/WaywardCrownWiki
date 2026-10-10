@@ -8,7 +8,7 @@ Wayward Crown enthält integrierte Karten- und Kampagnen-Editoren, mit denen du 
 
 ## Karteneditor
 
-Die Schaltfläche **Karteneditor** im Hauptmenü öffnet den Editor mit einer neuen Karte. Gespeicherte Karten werden im Tab „Karten“ der Kartenverwaltung aufgelistet, gespielt, bearbeitet, importiert und exportiert; die Kartenverwaltung öffnet die Schaltfläche **Kampagnen** im Hauptmenü.
+Die Schaltfläche **Editor-Toolkit** im Hauptmenü öffnet den Editor mit einer neuen Karte. Gespeicherte Karten werden im Tab „Karten“ der Kartenverwaltung aufgelistet, gespielt, bearbeitet, importiert und exportiert; die Kartenverwaltung öffnet die Schaltfläche **Kampagnen** im Hauptmenü.
 
 ### Funktionen
 
@@ -18,8 +18,8 @@ Die Schaltfläche **Karteneditor** im Hauptmenü öffnet den Editor mit einer ne
 - **Rückgängig / Wiederholen** — Bis zu 30 Schritte (Ctrl+Z / Ctrl+Y)
 - **Karteneinstellungen** — Größe (100 – 1000 Felder pro Seite), Name, Autor und weitere Angaben, Startgold und eine Siegbedingung
 - **Speichern/Laden** — Speichere Karten im Verzeichnis `maps/`; Schließen, Esc und Neu fragen vor dem Verwerfen ungespeicherter Änderungen (Speichern / Verwerfen / Abbrechen), und das Verwerfen einer nie gespeicherten Kampagne entfernt ihren Ordner wieder
-- **Objekte…** — Bearbeite im Objekteditor die Heldenklassen, Monster, Gebäude, Festungen und Bosse, die für die Karte gemacht wurden. Beim ersten Mal legt er das Inhaltspaket der Karte an (ein eigenes Plugin, das die Karte voraussetzt); beim Speichern des Pakets wird der Inhalt neu geladen, sodass sich das Definierte sofort platzieren lässt
-- **Testspiel** — Startet die gespeicherte Karte oder die Kampagne am gerade bearbeiteten Level in einem eigenen Spiel, mit ihrem Inhaltspaket und sonst nichts von dir
+- **Objekte…** — Bearbeite im Objekteditor Heldenklassen, Monster, Gebäude, Festungen und Bosse in einem eigenen Inhaltspaket. Die Schaltfläche listet deine Pakete und **Neues Inhaltspaket…** auf und braucht keine gespeicherte Karte. Ein Paket ist ein eigenständiges Plugin; beim Speichern wird der Inhalt neu geladen, sodass sich das Definierte sofort platzieren lässt. Eine Karte oder Kampagne setzt ein Paket erst voraus, wenn sie mit etwas aus diesem Paket darauf gespeichert wird
+- **Testspiel** — Startet die gespeicherte Karte oder die Kampagne am gerade bearbeiteten Level in einem eigenen Spiel, mit den Inhaltspaketen, die sie voraussetzt, und sonst nichts von dir
 - **Bereiche** — Die Pinsel und die Regeln der Karte (oder die Kampagne) sind Bereiche mit Reitern neben der Karte: Ziehe einen auf die andere Seite oder aus dem Fenster, schließe ihn und hole ihn mit **Bereiche** zurück. Gelände, Gebäude, Festungen und Bosse wählst du nach ihrem Bild, und der Editor und die Fenster, die er öffnet (der Objekteditor, der Trigger-Editor, die Kartendetails), lassen sich maximieren
 
 Karten enthalten keine Einheiten: Abenteurer werden rekrutiert und Feinde erscheinen, sobald das Spiel läuft.
@@ -91,4 +91,4 @@ campaigns/my_campaign/
 - Erhaltene Karten in `maps/` ablegen, um sie im Hauptmenü laden zu können
 - Erhaltene Kampagnen in `campaigns/` ablegen, um sie im Hauptmenü anzuzeigen
 - Läuft das Spiel über Steam, stellt **Im Workshop veröffentlichen** in der Kartenverwaltung eine eigene Karte oder Kampagne in den Steam Workshop, und abonnierte erscheinen in ihren Listen mit der Markierung [Workshop]. Steam hält sie aktuell, deshalb lassen sie sich nicht bearbeiten, umbenennen oder löschen; **Duplizieren** erstellt eine eigene Karte
-- Eine Karte oder Kampagne mit Inhaltspaket setzt dieses Plugin voraus: Gib das Paket mit weiter und veröffentliche es zuerst (das Veröffentlichungsfenster schlägt dann das Workshop-Objekt des Pakets als erforderliches Objekt vor)
+- Ein Inhaltspaket wird für sich allein installiert: Veröffentliche es oder gib sein ZIP einzeln weiter, und wer es installiert, findet seine Klassen, Monster, Gebäude und Festungen in den eigenen Spielen, ganz ohne Karte. Eine Karte oder Kampagne, die etwas aus einem Paket platziert, setzt dieses Plugin voraus: Veröffentliche das Paket zuerst (das Veröffentlichungsfenster schlägt dann das Workshop-Objekt des Pakets als erforderliches Objekt vor)

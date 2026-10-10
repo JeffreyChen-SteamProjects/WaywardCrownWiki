@@ -8,7 +8,7 @@ Wayward Crown inclui editores integrados de mapas e campanhas que permitem criar
 
 ## Editor de Mapas
 
-O botão **Editor de Mapas** do menu principal abre o editor em um mapa novo. Os mapas salvos são listados, jogados, editados, importados e exportados na aba **Mapas** do gerenciador de mapas, que o botão **Campanhas** do menu principal abre.
+O botão **Kit de Edição** do menu principal abre o editor em um mapa novo. Os mapas salvos são listados, jogados, editados, importados e exportados na aba **Mapas** do gerenciador de mapas, que o botão **Campanhas** do menu principal abre.
 
 ### Funcionalidades
 
@@ -18,8 +18,8 @@ O botão **Editor de Mapas** do menu principal abre o editor em um mapa novo. Os
 - **Desfazer / Refazer** — Até 30 passos (Ctrl+Z / Ctrl+Y)
 - **Configurações do Mapa** — Tamanho (100 – 1000 tiles por lado), nome, autor e outros detalhes, ouro inicial e uma condição de vitória
 - **Salvar/Carregar** — Salve mapas no diretório `maps/`; Fechar, Esc e Novo perguntam antes de descartar alterações não salvas (Salvar / Descartar / Cancelar), e descartar uma campanha nunca salva remove a pasta dela
-- **Objetos…** — Edite no editor de objetos as classes de herói, monstros, construções, fortalezas e chefes feitos para o mapa. Na primeira vez, ele cria o pacote de conteúdo do mapa (um plugin seu que o mapa exige); salvar o pacote recarrega o conteúdo, então o que ele define já pode ser colocado
-- **Testar** — Inicia o mapa salvo, ou a campanha na fase que está sendo editada, em um jogo próprio, com o pacote de conteúdo dele e nada mais seu
+- **Objetos…** — Edite classes de herói, monstros, construções, fortalezas e chefes em um pacote de conteúdo seu, no editor de objetos. O botão lista seus pacotes e **Novo pacote de conteúdo…**, e não precisa de um mapa salvo. Um pacote é um plugin independente; salvá-lo recarrega o conteúdo, então o que ele define já pode ser colocado. Um mapa ou uma campanha só passa a exigir um pacote quando é salvo com algo desse pacote colocado
+- **Testar** — Inicia o mapa salvo, ou a campanha na fase que está sendo editada, em um jogo próprio, com os pacotes de conteúdo que ele exige e nada mais seu
 - **Painéis** — Os pincéis e as regras do mapa (ou a campanha) são painéis com abas ao lado do mapa: arraste um para o outro lado ou para fora da janela, feche-o e traga-o de volta com **Painéis**. Terrenos, construções, fortalezas e chefes são escolhidos pela imagem, e o editor e as janelas que ele abre (o editor de objetos, o editor de gatilhos, os detalhes do mapa) podem ser maximizados
 
 Os mapas não contêm unidades: os aventureiros são recrutados e os inimigos surgem quando o jogo está rodando.
@@ -91,4 +91,4 @@ campaigns/my_campaign/
 - Coloque os mapas recebidos em `maps/` para carregá-los pelo menu principal
 - Coloque as campanhas recebidas em `campaigns/` para vê-las no menu principal
 - Com o jogo rodando pelo Steam, **Publicar na Oficina** no gerenciador de mapas envia um mapa ou campanha seu para a Oficina Steam, e os que você assina aparecem nas listas marcados com [Oficina]. O Steam os mantém atualizados, então não podem ser editados, renomeados nem excluídos; **Duplicar** cria um mapa seu
-- Um mapa ou uma campanha com pacote de conteúdo exige esse plugin: compartilhe o pacote junto e publique o pacote primeiro (a janela de publicação então sugere o item da Oficina do pacote como item necessário)
+- Um pacote de conteúdo é instalado por si só: publique-o ou compartilhe o ZIP dele separadamente, e quem o instalar terá suas classes, monstros, construções e fortalezas nos próprios jogos, sem precisar de mapa nenhum. Um mapa ou uma campanha que coloca algo de um pacote exige esse plugin: publique o pacote primeiro (a janela de publicação então sugere o item da Oficina do pacote como item necessário)

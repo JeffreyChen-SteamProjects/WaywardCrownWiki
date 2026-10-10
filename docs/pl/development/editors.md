@@ -8,7 +8,7 @@ Wayward Crown zawiera wbudowane edytory map i kampanii, które pozwalają tworzy
 
 ## Edytor map
 
-Przycisk **Edytor map** w menu głównym otwiera edytor z nową mapą. Zapisane mapy są wyświetlane, uruchamiane, edytowane, importowane i eksportowane na karcie **Mapy** menedżera map, który otwiera przycisk **Kampanie** w menu głównym.
+Przycisk **Zestaw edytorów** w menu głównym otwiera edytor z nową mapą. Zapisane mapy są wyświetlane, uruchamiane, edytowane, importowane i eksportowane na karcie **Mapy** menedżera map, który otwiera przycisk **Kampanie** w menu głównym.
 
 ### Funkcje
 
@@ -18,8 +18,8 @@ Przycisk **Edytor map** w menu głównym otwiera edytor z nową mapą. Zapisane 
 - **Cofnij / Ponów** — Do 30 kroków (Ctrl+Z / Ctrl+Y)
 - **Ustawienia mapy** — Rozmiar (100 – 1000 kafelków na bok), nazwa, autor i inne szczegóły, początkowe złoto i warunek zwycięstwa
 - **Zapisz/Wczytaj** — Zapisuj mapy do katalogu `maps/`; Zamknij, Esc i Nowy pytają przed porzuceniem niezapisanych zmian (Zapisz / Odrzuć / Anuluj), a odrzucenie nigdy niezapisanej kampanii usuwa jej folder
-- **Obiekty…** — Edytuj w edytorze obiektów klasy bohaterów, potwory, budynki, twierdze i bossów stworzonych dla mapy. Za pierwszym razem tworzy pakiet zawartości mapy (twoją wtyczkę, której mapa wymaga); zapisanie pakietu wczytuje zawartość ponownie, więc to, co definiuje, można od razu stawiać
-- **Test** — Uruchamia zapisaną mapę albo kampanię na edytowanym poziomie w osobnej grze, z jej pakietem zawartości i niczym więcej z twoich rzeczy
+- **Obiekty…** — Edytuj w edytorze obiektów klasy bohaterów, potwory, budynki, twierdze i bossów we własnym pakiecie zawartości. Przycisk pokazuje listę twoich pakietów oraz **Nowy pakiet zawartości…** i nie wymaga zapisanej mapy. Pakiet to samodzielna wtyczka; zapisanie go wczytuje zawartość ponownie, więc to, co definiuje, można od razu stawiać. Mapa albo kampania zaczyna wymagać pakietu dopiero wtedy, gdy zostanie zapisana z czymś z tego pakietu
+- **Test** — Uruchamia zapisaną mapę albo kampanię na edytowanym poziomie w osobnej grze, z pakietami zawartości, których wymaga, i niczym więcej z twoich rzeczy
 - **Panele** — Pędzle i zasady mapy (albo kampania) to panele z kartami obok mapy: przeciągnij panel na drugą stronę albo poza okno, zamknij go i przywróć przyciskiem **Panele**. Tereny, budynki, twierdze i bossów wybiera się po obrazkach, a edytor i okna, które otwiera (edytor obiektów, edytor wyzwalaczy, szczegóły mapy), można zmaksymalizować
 
 Mapy nie zawierają jednostek: poszukiwacze przygód są rekrutowani, a wrogowie pojawiają się dopiero po uruchomieniu gry.
@@ -91,4 +91,4 @@ campaigns/my_campaign/
 - Umieść otrzymane mapy w katalogu `maps/`, aby wczytać je z menu głównego
 - Umieść otrzymane kampanie w katalogu `campaigns/`, aby pojawiły się w menu głównym
 - Gdy gra działa przez Steam, przycisk **Opublikuj w Warsztacie** w menedżerze map umieszcza Twoją mapę lub kampanię w Warsztacie Steam, a subskrybowane pojawiają się na jego listach z oznaczeniem [Warsztat]. Steam dba o ich aktualizacje, więc nie można ich edytować, zmieniać nazwy ani usuwać; **Duplikuj** tworzy własną mapę
-- Mapa albo kampania z pakietem zawartości wymaga tej wtyczki: udostępniaj pakiet razem z nią, a publikuj najpierw pakiet (okno publikacji zaproponuje wtedy element Warsztatu pakietu jako wymagany)
+- Pakiet zawartości instaluje się samodzielnie: opublikuj go albo udostępnij jego ZIP osobno, a kto go zainstaluje, znajdzie jego klasy, potwory, budynki i twierdze we własnych grach, bez żadnej mapy. Mapa albo kampania, która umieszcza coś z pakietu, wymaga tej wtyczki: publikuj najpierw pakiet (okno publikacji zaproponuje wtedy element Warsztatu pakietu jako wymagany)
