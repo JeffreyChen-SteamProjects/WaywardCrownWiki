@@ -60,6 +60,10 @@ Badania kupuje się w budynku, do którego należą: badania klasy w jej gildii,
 | Trybunał | 1 | **Rządy Strachu** | Wszystkie klasy | 400 | Zamek i wieże łucznicze przyjmują o 15% mniej z każdego ciosu. |
 | Trybunał | 1 | **Edykt gorliwości** | Inkwizytor | 300 | Inkwizytor: +4 do ataku. |
 | Urząd Poboru | 1 | **Ciężka kolczuga** | Egzekutor | 300 | Egzekutor: +4 do obrony. |
+| Instytut Zaklęć | 1 | **Pośpiech** | Wszystkie klasy | 300 | Bohaterowie każdej klasy mogą nauczyć się zaklęcia Pośpiech w Instytucie Zaklęć. |
+| Instytut Zaklęć | 1 | **Samoleczenie** | Wszystkie klasy | 350 | Bohaterowie każdej klasy mogą nauczyć się zaklęcia Samoleczenie w Instytucie Zaklęć. |
+| Instytut Zaklęć | 2 | **Osłona** | Wszystkie klasy | 350 | Bohaterowie każdej klasy mogą nauczyć się zaklęcia Osłona w Instytucie Zaklęć. |
+| Instytut Zaklęć | 3 | **Iskra** | Wszystkie klasy | 400 | Bohaterowie każdej klasy mogą nauczyć się zaklęcia Iskra w Instytucie Zaklęć. |
 
 - **Medyk polowy**: Nie sprzedaje się królestwu na drodze Nieumarli
 
@@ -74,6 +78,7 @@ Badania kupuje się w budynku, do którego należą: badania klasy w jej gildii,
 | Gildia złodziei | 140 → 220 → 340 |
 | Biblioteka | 250 → 400 → 600 |
 | Świątynia | 220 → 300 → 450 |
+| Instytut Zaklęć | 320 → 480 → 720 |
 <!-- research-places:end -->
 
 ---

@@ -25,10 +25,16 @@ Les ennemis apparaissent naturellement dans les zones sauvages à travers la car
 | **Rat géant** | 45 | 4 | 1 | 1,4 | 12 | 4 | 3 | 10 | Prairie | 1 |
 | **Bandit** | 100 | 7 | 4 | 1,1 | 26 | 16 | 3 | 12 | Prairie | 2 |
 | **Harpie** | 95 | 11 | 3 | 1,8 | 36 | 18 | 3 | 14 | Prairie | 3 |
+| **Piquier** | 150 | 9 | 6 | 0,9 | 34 | 18 | 3 | 12 | Montagne | 3 |
+| **Porte-bouclier** | 220 | 7 | 10 | 0,8 | 40 | 20 | 3 | 12 | Montagne | 4 |
+| **Sapeur** | 90 | 5 | 3 | 1,0 | 36 | 22 | 3 | 12 | Forêt | 4 |
+| **Bête de siège** | 520 | 16 | 9 | 0,5 | 110 | 55 | 3 | 12 | Montagne | 5 |
+
+**L'ost** : quatre ennemis combattent en ligne et en troupe de siège. Le coup d'un Piquier retient un instant le héros qu'il touche. Un Porte-bouclier lève de temps à autre un bouclier sur lui-même et les monstres à ses côtés. Un Sapeur pose une charge marquée au sol avant d'exploser (elle n'explose jamais s'il tombe avant) et frappe les bâtiments trois fois plus fort. Une Bête de siège est lente, difficile à abattre et frappe les bâtiments quatre fois plus fort.
 
 Le Dragon, l'Archer gobelin et le Cultiste sombre tirent des projectiles (jets de flammes, flèches grossières et orbes sombres) ; les autres frappent à 3 cases au maximum.
 
-Un ennemi joue son tour une fois tous les 4 ticks. Sa vitesse lui donne un pas tous les 3 ÷ vitesse tours, arrondi à l'inférieur (au moins 1), et chaque ennemi marche ensuite moitié plus vite : cette attente est divisée par 1,5, la fraction est reportée sur les pas suivants, et elle ne descend jamais sous un tour. Il y a donc un pas à chaque tour à partir d'une vitesse de 1,6, trois pas en 4 tours entre 1,1 et 1,4, un pas tous les 2 tours entre 0,8 et 1,0, trois pas en 8 tours pour le Troll et trois en 10 à 0,6.
+Un ennemi joue son tour une fois tous les 4 ticks. Sa vitesse lui donne un pas tous les 3 ÷ vitesse tours, arrondi à l'inférieur (au moins 1), et chaque ennemi marche ensuite trois dixièmes plus vite : cette attente est divisée par 1,3, la fraction est reportée sur les pas suivants, et elle ne descend jamais sous un tour. Il y a donc un pas à chaque tour à partir d'une vitesse de 1,6, environ deux pas en 3 tours entre 1,1 et 1,4, environ trois en 7 entre 0,8 et 1,0, environ un tous les 3 tours pour le Troll et un tous les 4 ou 5 entre 0,5 et 0,6.
 
 ### Rangs
 
@@ -76,8 +82,8 @@ Lorsqu'un événement d'invasion se déclenche, les ennemis se dirigent droit ve
 
 Les ennemis apparaissent en fonction du **type de terrain** :
 
-- **Forêt** — Slimes, Zombies, Loups sinistres, Cultistes sombres, Araignées géantes
-- **Montagne** — Gobelins, Squelettes, Dragons, Brutes orques, Archers gobelins, Trolls
+- **Forêt** — Slimes, Zombies, Loups sinistres, Cultistes sombres, Araignées géantes, Sapeurs
+- **Montagne** — Gobelins, Squelettes, Dragons, Brutes orques, Archers gobelins, Trolls, Piquiers, Porte-boucliers, Bêtes de siège
 - **Prairie** — Rats géants, Bandits, Harpies
 - **Désert** — Spectres des sables
 
@@ -90,7 +96,7 @@ Les Dragons et les Trolls sont les ennemis les plus dangereux (niveau de danger 
 ## Mécaniques spéciales du dragon
 
 - **Attaque à distance** : Portée d'attaque de 16, crache des jets de flammes
-- **Haute mobilité** : Vitesse de 1,4, trois pas en 4 tours : aussi rapide que les Rats géants, les Araignées géantes et les Bandits ; seuls les Harpies et les Loups sinistres (un pas par tour) sont plus rapides
+- **Haute mobilité** : Vitesse de 1,4, environ deux pas en 3 tours : aussi rapide que les Rats géants, les Araignées géantes et les Bandits ; seuls les Harpies et les Loups sinistres (un pas par tour) sont plus rapides
 - **Vision étendue** : Portée de vision de 32 cases, capable de repérer les aventuriers à grande distance
 - **Esquive** : Tous les ennemis ont un taux d'esquive de base de 5%
 

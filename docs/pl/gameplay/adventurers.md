@@ -29,9 +29,9 @@ Wszystkie klasy bohaterów w grze, spisane z jej danych: sześć, które werbuje
 | **Wojownik** | — | Koszary | 70–150 | SIŁ | 3 | Potężne uderzenie, Ściana tarcz, Berserker, Wódz wojenny, Okrzyk bojowy |
 | **Mag** | — | Wieża maga | 25–65 | INT | 12 | Ognisty pocisk, Tarcza many, Łańcuch błyskawic, Arcymag, Ognisty tornado |
 | **Łowca** | — | Chata łowcy | 45–100 | ZRC | 11 | Precyzyjny strzał, Uniki, Wielostrzał, Orle oko, Przełamanie wiatru |
-| **Strażnik** | — | Posterunek strażnika | 50–120 | SIŁ | 3 | Czujność, Fortyfikacja, Prowokacja, Bastion |
-| **Budowniczy** | — | Gildia budowniczych | 30–70 | — | 3 | Szybka naprawa, Wzmocnienie, Mistrzowskie rzemiosło, Architekt |
-| **Złodziej** | — | Gildia złodziei | 35–80 | ZRC | 3 | Cios w plecy, Uniki, Kieszonkowiec, Taniec cieni |
+| **Strażnik** | — | Posterunek strażnika | 50–120 | SIŁ | 3 | Czujność, Fortyfikacja, Prowokacja, Bastion, Straż przyboczna |
+| **Budowniczy** | — | Gildia budowniczych | 30–70 | — | 3 | Szybka naprawa, Wzmocnienie, Mistrzowskie rzemiosło, Architekt, Naprawa awaryjna |
+| **Złodziej** | — | Gildia złodziei | 35–80 | ZRC | 3 | Cios w plecy, Uniki, Kieszonkowiec, Taniec cieni, Wymknięcie |
 | **Rycerz Tarczy** | Strażnik | Bastion | 90–170 | SIŁ | 3 | Czujność, Ściana tarcz, Prowokacja, Bastion, Tarcza Przysięgi, Przysięga Zastępcy, Na Ratunek |
 | **Szpitalnik** | Strażnik | Sanktuarium | 50–100 | INT | 3 | Czujność, Tarcza many, Fortyfikacja, Bastion, Modlitwa Uzdrowienia |
 | **Tropiciel** | Dzicz | Dziki obóz | 50–105 | ZRC | 11 | Precyzyjny strzał, Uniki, Wielostrzał, Orle oko, Znak Łowcy |

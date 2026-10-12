@@ -60,6 +60,10 @@ La recherche s'achète dans le bâtiment auquel elle appartient : celle d'une cl
 | Tribunal | 1 | **Règne de la peur** | Toutes les classes | 400 | Le château et les tours d'archers subissent 15 % de moins de chaque coup. |
 | Tribunal | 1 | **Édit de zèle** | Inquisiteur | 300 | Inquisiteur : +4 en attaque. |
 | Bureau des levées | 1 | **Lourde maille** | Exécuteur | 300 | Exécuteur : +4 en défense. |
+| Institut des sorts | 1 | **Hâte** | Toutes les classes | 300 | Les héros de toute classe peuvent apprendre Hâte à l'Institut des sorts. |
+| Institut des sorts | 1 | **Autoguérison** | Toutes les classes | 350 | Les héros de toute classe peuvent apprendre Autoguérison à l'Institut des sorts. |
+| Institut des sorts | 2 | **Protection** | Toutes les classes | 350 | Les héros de toute classe peuvent apprendre Protection à l'Institut des sorts. |
+| Institut des sorts | 3 | **Étincelle** | Toutes les classes | 400 | Les héros de toute classe peuvent apprendre Étincelle à l'Institut des sorts. |
 
 - **Médecin de campagne**: N'est pas vendu à un royaume sur la voie Mort-vivant
 
@@ -74,6 +78,7 @@ La recherche s'achète dans le bâtiment auquel elle appartient : celle d'une cl
 | Guilde des voleurs | 140 → 220 → 340 |
 | Bibliothèque | 250 → 400 → 600 |
 | Temple | 220 → 300 → 450 |
+| Institut des sorts | 320 → 480 → 720 |
 <!-- research-places:end -->
 
 ---

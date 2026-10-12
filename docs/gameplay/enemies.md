@@ -25,10 +25,16 @@ Enemies spawn naturally in wilderness areas across the map, threatening your adv
 | **Giant Rat** | 45 | 4 | 1 | 1.4 | 12 | 4 | 3 | 10 | Grass | 1 |
 | **Bandit** | 100 | 7 | 4 | 1.1 | 26 | 16 | 3 | 12 | Grass | 2 |
 | **Harpy** | 95 | 11 | 3 | 1.8 | 36 | 18 | 3 | 14 | Grass | 3 |
+| **Pikeman** | 150 | 9 | 6 | 0.9 | 34 | 18 | 3 | 12 | Mountain | 3 |
+| **Shieldbearer** | 220 | 7 | 10 | 0.8 | 40 | 20 | 3 | 12 | Mountain | 4 |
+| **Sapper** | 90 | 5 | 3 | 1.0 | 36 | 22 | 3 | 12 | Forest | 4 |
+| **Siege Beast** | 520 | 16 | 9 | 0.5 | 110 | 55 | 3 | 12 | Mountain | 5 |
+
+**The host**: four enemies fight as a line and its siege. A Pikeman's blow holds the hero it lands on back for a moment. A Shieldbearer now and then raises a shield over itself and the monsters beside it. A Sapper lays a charge that is marked on the ground before it goes off (it never does if the Sapper falls first) and hits buildings three times as hard. A Siege Beast is slow, hard to bring down, and hits buildings four times as hard.
 
 The Dragon, Goblin Archer and Dark Cultist fire projectiles (gouts of flame, crude arrows and dark orbs); the others strike from up to 3 tiles away.
 
-An enemy takes its turn once every 4 ticks. Its speed gives it a step every 3 ÷ speed turns, rounded down (at least 1), and every enemy then walks half as fast again: that wait is divided by 1.5, the fraction carried over to its next steps, and is never under one turn. So a step comes every turn at speed 1.6 and above, three times in 4 turns at 1.1–1.4, every 2 turns at 0.8–1.0, three times in 8 turns for the Troll and three times in 10 at 0.6.
+An enemy takes its turn once every 4 ticks. Its speed gives it a step every 3 ÷ speed turns, rounded down (at least 1), and every enemy then walks three tenths faster: that wait is divided by 1.3, the fraction carried over to its next steps, and is never under one turn. So a step comes every turn at speed 1.6 and above, about two steps in 3 turns at 1.1–1.4, about three in 7 at 0.8–1.0, about one in 3 for the Troll and one in 4 or 5 at 0.5–0.6.
 
 ### Ranks
 
@@ -76,8 +82,8 @@ When an invasion event triggers, enemies head straight for the player's castle a
 
 Enemies spawn based on **terrain type**:
 
-- **Forest** — Slimes, Zombies, Dire Wolves, Dark Cultists, Giant Spiders
-- **Mountain** — Goblins, Skeletons, Dragons, Orc Brutes, Goblin Archers, Trolls
+- **Forest** — Slimes, Zombies, Dire Wolves, Dark Cultists, Giant Spiders, Sappers
+- **Mountain** — Goblins, Skeletons, Dragons, Orc Brutes, Goblin Archers, Trolls, Pikemen, Shieldbearers, Siege Beasts
 - **Grass** — Giant Rats, Bandits, Harpies
 - **Desert** — Sand Wraiths
 
@@ -90,7 +96,7 @@ Dragons and Trolls are the most dangerous enemies (danger level 5). With an atta
 ## Dragon Special Mechanics
 
 - **Ranged Attack**: Attack range of 16, breathes gouts of flame
-- **High Mobility**: Speed of 1.4, three steps every 4 turns: as fast as Giant Rats, Giant Spiders and Bandits; only Harpies and Dire Wolves (a step every turn) are faster
+- **High Mobility**: Speed of 1.4, about two steps every 3 turns: as fast as Giant Rats, Giant Spiders and Bandits; only Harpies and Dire Wolves (a step every turn) are faster
 - **Wide Vision**: 32-tile vision range, able to spot adventurers from a great distance
 - **Evasion**: All enemies have a base 5% dodge rate
 

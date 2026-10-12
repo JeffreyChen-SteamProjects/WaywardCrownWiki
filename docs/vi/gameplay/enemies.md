@@ -25,10 +25,16 @@ Kẻ thù xuất hiện tự nhiên trong các vùng hoang dã trên bản đồ
 | **Chuột khổng lồ** | 45 | 4 | 1 | 1.4 | 12 | 4 | 3 | 10 | Đồng cỏ | 1 |
 | **Thổ phỉ** | 100 | 7 | 4 | 1.1 | 26 | 16 | 3 | 12 | Đồng cỏ | 2 |
 | **Harpy** | 95 | 11 | 3 | 1.8 | 36 | 18 | 3 | 14 | Đồng cỏ | 3 |
+| **Lính giáo dài** | 150 | 9 | 6 | 0.9 | 34 | 18 | 3 | 12 | Núi | 3 |
+| **Lính khiên** | 220 | 7 | 10 | 0.8 | 40 | 20 | 3 | 12 | Núi | 4 |
+| **Lính phá hoại** | 90 | 5 | 3 | 1.0 | 36 | 22 | 3 | 12 | Rừng | 4 |
+| **Quái thú công thành** | 520 | 16 | 9 | 0.5 | 110 | 55 | 3 | 12 | Núi | 5 |
+
+**Đạo quân**: bốn loại kẻ địch chiến đấu thành hàng ngũ và đội công thành. Đòn đánh của Lính giáo dài làm anh hùng trúng đòn chậm lại trong chốc lát. Lính khiên thỉnh thoảng dựng khiên cho mình và quái vật bên cạnh. Lính phá hoại đặt thuốc nổ, được đánh dấu trên mặt đất trước khi nổ (không bao giờ nổ nếu Lính phá hoại gục trước) và đánh công trình mạnh gấp ba. Quái thú công thành chậm, khó hạ và đánh công trình mạnh gấp bốn.
 
 Rồng, Cung thủ Goblin và Giáo đồ bóng tối bắn đạn (lần lượt là luồng lửa, mũi tên thô và cầu bóng tối); các loại còn lại tấn công từ khoảng cách tối đa 3 ô.
 
-Kẻ địch đến lượt một lần sau mỗi 4 tick. Tốc độ cho nó một bước sau mỗi 3 ÷ tốc độ lượt, làm tròn xuống (ít nhất 1), rồi mọi kẻ địch còn đi nhanh thêm một nửa: số lượt chờ được chia cho 1.5, phần lẻ dồn sang các bước sau và không bao giờ ít hơn một lượt. Vì vậy tốc độ từ 1.6 trở lên đi một bước mỗi lượt, ở 1.1–1.4 đi ba bước trong 4 lượt, ở 0.8–1.0 mỗi 2 lượt một bước, Troll đi ba bước trong 8 lượt và ở 0.6 đi ba bước trong 10 lượt.
+Kẻ địch đến lượt một lần sau mỗi 4 tick. Tốc độ cho nó một bước sau mỗi 3 ÷ tốc độ lượt, làm tròn xuống (ít nhất 1), rồi mọi kẻ địch còn đi nhanh thêm ba phần mười: số lượt chờ được chia cho 1.3, phần lẻ dồn sang các bước sau và không bao giờ ít hơn một lượt. Vì vậy tốc độ từ 1.6 trở lên đi một bước mỗi lượt, ở 1.1–1.4 khoảng hai bước trong 3 lượt, ở 0.8–1.0 khoảng ba bước trong 7 lượt, Troll khoảng 3 lượt một bước và ở 0.5–0.6 cứ 4 đến 5 lượt một bước.
 
 ### Cấp bậc
 
@@ -76,8 +82,8 @@ Khi sự kiện xâm lăng kích hoạt, kẻ thù đi thẳng đến lâu đài
 
 Kẻ thù sinh dựa trên **loại địa hình**:
 
-- **Rừng** — Slime, Zombie, Sói dữ, Giáo đồ bóng tối, Nhện khổng lồ
-- **Núi** — Goblin, Bộ xương, Rồng, Orc lực lưỡng, Cung thủ Goblin, Troll
+- **Rừng** — Slime, Zombie, Sói dữ, Giáo đồ bóng tối, Nhện khổng lồ, Lính phá hoại
+- **Núi** — Goblin, Bộ xương, Rồng, Orc lực lưỡng, Cung thủ Goblin, Troll, Lính giáo dài, Lính khiên, Quái thú công thành
 - **Đồng cỏ** — Chuột khổng lồ, Thổ phỉ, Harpy
 - **Sa mạc** — Oan hồn cát
 
@@ -90,7 +96,7 @@ Rồng và Troll là những kẻ thù nguy hiểm nhất (mức nguy hiểm 5).
 ## Cơ chế đặc biệt của Rồng
 
 - **Tấn công tầm xa**: Tầm tấn công 16, phun luồng lửa
-- **Cơ động cao**: Tốc độ 1.4, đi ba bước trong 4 lượt: nhanh bằng Chuột khổng lồ, Nhện khổng lồ và Thổ phỉ; chỉ Harpy và Sói dữ (mỗi lượt một bước) là nhanh hơn
+- **Cơ động cao**: Tốc độ 1.4, khoảng hai bước trong 3 lượt: nhanh bằng Chuột khổng lồ, Nhện khổng lồ và Thổ phỉ; chỉ Harpy và Sói dữ (mỗi lượt một bước) là nhanh hơn
 - **Tầm nhìn rộng**: Tầm nhìn 32 ô, có thể phát hiện nhà phiêu lưu từ rất xa
 - **Né tránh**: Tất cả kẻ thù có tỷ lệ né cơ bản 5%
 

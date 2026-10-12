@@ -111,6 +111,17 @@ Geram estruturas persistentes no mapa.
 
 ---
 
+## Dia, noite e clima
+
+Um jogo livre pode começar com o dia girando, com clima, ou com os dois; cada um é marcado separadamente, e nenhum é um evento: não há nada a responder.
+
+- **Um dia** dura 12, 24 ou 48 minutos de jogo, à escolha: amanhecer, dia, entardecer e noite. A barra superior mostra o dia, a parte dele e o clima, e a dica diz o que vem depois e quando. A previsão é sempre o que acontece.
+- **Chuva e tempestade** seguram quem caminha fora das estradas, herói ou monstro, um turno em dez no máximo. Nas estradas anda-se no seco.
+- **Névoa e noite** encurtam o que heróis e construções veem em um quarto no máximo. Perto do castelo e das construções do reino as janelas ficam acesas e a noite não tira nada; um arqueiro nunca vê menos longe do que atira.
+- **O vento** tira um décimo do dano de flechas, virotes e dardos. Feitiços não são levados pelo vento.
+- **Uma tempestade de areia ou uma névoa densa** toma o lugar do clima onde manda na mesma coisa: os dois nunca se somam.
+- **Os monstros têm os seus horários.** Esqueletos, zumbis, espectros, cultistas, aranhas e ratos ficam lentos de dia; goblins, orcs, bandidos, harpias e a infantaria da legião, à noite. Trolls, lobos e o dragão não têm horário.
+
 ## Estratégias de Enfrentamento
 
 :::tip[Eventos de Ameaça]

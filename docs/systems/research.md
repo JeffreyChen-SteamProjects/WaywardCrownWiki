@@ -60,6 +60,10 @@ Research is bought at the building it belongs to: a class's at its guild, faith'
 | Tribunal | 1 | **Reign of Fear** | All Classes | 400 | The castle and the arrow towers take 15% less from every hit. |
 | Tribunal | 1 | **Writ of Zeal** | Inquisitor | 300 | Inquisitor: +4 attack. |
 | Levy Office | 1 | **Heavy Mail** | Enforcer | 300 | Enforcer: +4 defence. |
+| Spell Institute | 1 | **Haste** | All Classes | 300 | Heroes of any class may learn Haste at the Spell Institute. |
+| Spell Institute | 1 | **Mending** | All Classes | 350 | Heroes of any class may learn Mending at the Spell Institute. |
+| Spell Institute | 2 | **Warding** | All Classes | 350 | Heroes of any class may learn Warding at the Spell Institute. |
+| Spell Institute | 3 | **Spark** | All Classes | 400 | Heroes of any class may learn Spark at the Spell Institute. |
 
 - **Field Medic**: Not sold to a kingdom on the Undead path
 
@@ -74,6 +78,7 @@ Research is bought at the building it belongs to: a class's at its guild, faith'
 | Thieves' Guild | 140 → 220 → 340 |
 | Library | 250 → 400 → 600 |
 | Temple | 220 → 300 → 450 |
+| Spell Institute | 320 → 480 → 720 |
 <!-- research-places:end -->
 
 ---

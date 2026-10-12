@@ -111,6 +111,17 @@ Generano strutture persistenti sulla mappa.
 
 ---
 
+## Giorno, notte e meteo
+
+Una partita libera può iniziare con il giorno che scorre, con il meteo o con entrambi; ciascuno si spunta a parte e nessuno è un evento: non c'è nulla a cui rispondere.
+
+- **Un giorno** dura 12, 24 o 48 minuti di gioco, a scelta: alba, giorno, tramonto e notte. La barra in alto indica il giorno, la sua parte e il meteo, e il suggerimento dice che cosa viene dopo e quando. La previsione è sempre ciò che arriva.
+- **Pioggia e temporali** fermano chi cammina fuori dalle strade, eroe o mostro, un turno su dieci al massimo. Sulle strade si cammina all'asciutto.
+- **Foschia e notte** accorciano di un quarto al massimo ciò che vedono eroi ed edifici. Vicino al castello e agli edifici del regno le finestre sono accese e la notte non toglie nulla; un arciere non vede mai meno lontano di quanto tiri.
+- **Il vento** toglie un decimo del danno di frecce, dardi e giavellotti. Gli incantesimi non vengono spostati.
+- **Una tempesta di sabbia o una nebbia fitta** prende il posto del meteo dove regola la stessa cosa: le due non si sommano mai.
+- **I mostri hanno i loro orari.** Scheletri, zombi, spettri, cultisti, ragni e ratti sono lenti di giorno; goblin, orchi, banditi, arpie e la fanteria della legione di notte. Troll, lupi e il drago non ne hanno.
+
 ## Strategie di risposta
 
 :::tip[Eventi di minaccia]

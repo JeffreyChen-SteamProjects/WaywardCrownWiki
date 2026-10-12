@@ -60,6 +60,10 @@ A pesquisa é comprada no edifício a que pertence: a de uma classe em sua guild
 | Tribunal | 1 | **Reinado do Medo** | Todas as Classes | 400 | O castelo e as torres de arqueiros sofrem 15% a menos de cada golpe. |
 | Tribunal | 1 | **Édito de zelo** | Inquisidor | 300 | Inquisidor: +4 de ataque. |
 | Escritório de Tributos | 1 | **Cota pesada** | Executor | 300 | Executor: +4 de defesa. |
+| Instituto de Feitiços | 1 | **Pressa** | Todas as Classes | 300 | Heróis de qualquer classe podem aprender Pressa no Instituto de Feitiços. |
+| Instituto de Feitiços | 1 | **Autocura** | Todas as Classes | 350 | Heróis de qualquer classe podem aprender Autocura no Instituto de Feitiços. |
+| Instituto de Feitiços | 2 | **Resguardo** | Todas as Classes | 350 | Heróis de qualquer classe podem aprender Resguardo no Instituto de Feitiços. |
+| Instituto de Feitiços | 3 | **Faísca** | Todas as Classes | 400 | Heróis de qualquer classe podem aprender Faísca no Instituto de Feitiços. |
 
 - **Médico de campanha**: Não é vendido a um reino no caminho Morto-vivo
 
@@ -74,6 +78,7 @@ A pesquisa é comprada no edifício a que pertence: a de uma classe em sua guild
 | Guilda dos ladrões | 140 → 220 → 340 |
 | Biblioteca | 250 → 400 → 600 |
 | Templo | 220 → 300 → 450 |
+| Instituto de Feitiços | 320 → 480 → 720 |
 <!-- research-places:end -->
 
 ---

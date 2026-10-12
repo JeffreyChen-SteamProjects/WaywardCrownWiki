@@ -29,9 +29,9 @@ Todas las clases de héroe del juego, escritas a partir de sus datos: las seis q
 | **Guerrero** | — | Cuartel | 70–150 | FUE | 3 | Golpe poderoso, Muro de escudos, Berserker, Señor de la guerra, Grito de guerra |
 | **Mago** | — | Torre del mago | 25–65 | INT | 12 | Dardo de fuego, Escudo de maná, Rayo encadenado, Archimago, Tornado de fuego |
 | **Explorador** | — | Refugio del explorador | 45–100 | AGI | 11 | Disparo preciso, Evasión, Disparo múltiple, Ojo de águila, Ruptura de viento |
-| **Guardia** | — | Puesto de guardia | 50–120 | FUE | 3 | Vigilancia, Fortificar, Provocar, Bastión |
-| **Constructor** | — | Gremio de Constructores | 30–70 | — | 3 | Reparación rápida, Reforzar, Maestría artesana, Arquitecto |
-| **Ladrón** | — | Gremio de ladrones | 35–80 | AGI | 3 | Puñalada trapera, Evasión, Carterista, Danza de sombras |
+| **Guardia** | — | Puesto de guardia | 50–120 | FUE | 3 | Vigilancia, Fortificar, Provocar, Bastión, Guardia cercana |
+| **Constructor** | — | Gremio de Constructores | 30–70 | — | 3 | Reparación rápida, Reforzar, Maestría artesana, Arquitecto, Reparación de urgencia |
+| **Ladrón** | — | Gremio de ladrones | 35–80 | AGI | 3 | Puñalada trapera, Evasión, Carterista, Danza de sombras, Escabullirse |
 | **Caballero del Escudo** | Guardián | Bastión | 90–170 | FUE | 3 | Vigilancia, Muro de escudos, Provocar, Bastión, Escudo del Juramento, Juramento del Sustituto, Al Rescate |
 | **Hospitalario** | Guardián | Santuario | 50–100 | INT | 3 | Vigilancia, Escudo de maná, Fortificar, Bastión, Plegaria Sanadora |
 | **Batidor** | Tierras salvajes | Campamento salvaje | 50–105 | AGI | 11 | Disparo preciso, Evasión, Disparo múltiple, Ojo de águila, Marca del Cazador |

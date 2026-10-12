@@ -29,9 +29,9 @@ Jede Heldenklasse des Spiels, aus seinen Daten geschrieben: die sechs, die jedes
 | **Krieger** | — | Kaserne | 70–150 | STR | 3 | Kraftvoller Schlag, Schildwall, Berserker, Kriegsherr, Kriegsschrei |
 | **Magier** | — | Magierturm | 25–65 | INT | 12 | Feuerblitz, Mana-Schild, Kettenblitz, Erzmagier, Feuertornado |
 | **Waldläufer** | — | Waldläuferhütte | 45–100 | GES | 11 | Präziser Schuss, Ausweichmanöver, Mehrfachschuss, Adlerauge, Windbruch |
-| **Wache** | — | Wachposten | 50–120 | STR | 3 | Wachsamkeit, Befestigen, Provozieren, Bastion |
-| **Baumeister** | — | Baumeistergilde | 30–70 | — | 3 | Schnellreparatur, Verstärken, Meisterhandwerk, Architekt |
-| **Dieb** | — | Diebesgilde | 35–80 | GES | 3 | Meucheln, Ausweichmanöver, Taschendieb, Schattentanz |
+| **Wache** | — | Wachposten | 50–120 | STR | 3 | Wachsamkeit, Befestigen, Provozieren, Bastion, Leibwache |
+| **Baumeister** | — | Baumeistergilde | 30–70 | — | 3 | Schnellreparatur, Verstärken, Meisterhandwerk, Architekt, Notreparatur |
+| **Dieb** | — | Diebesgilde | 35–80 | GES | 3 | Meucheln, Ausweichmanöver, Taschendieb, Schattentanz, Entwischen |
 | **Schildritter** | Wächter | Bastion | 90–170 | STR | 3 | Wachsamkeit, Schildwall, Provozieren, Bastion, Eidschild, Eid des Stellvertreters, Zur Rettung |
 | **Hospitaliter** | Wächter | Heiligtum | 50–100 | INT | 3 | Wachsamkeit, Mana-Schild, Befestigen, Bastion, Heilgebet |
 | **Pfadfinder** | Wildnis | Wildlager | 50–105 | GES | 11 | Präziser Schuss, Ausweichmanöver, Mehrfachschuss, Adlerauge, Jägermal |

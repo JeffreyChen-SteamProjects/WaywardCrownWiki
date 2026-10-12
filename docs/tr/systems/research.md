@@ -60,6 +60,10 @@ Araştırma ait olduğu binada satın alınır: bir sınıfınki loncasında, in
 | Mahkeme | 1 | **Korku Saltanatı** | Tüm Sınıflar | 400 | Şato ve okçu kuleleri her darbeden %15 daha az hasar alır. |
 | Mahkeme | 1 | **Gayret fermanı** | Engizitör | 300 | Engizitör: +4 saldırı. |
 | Haraç Dairesi | 1 | **Ağır zincir zırh** | İnfazcı | 300 | İnfazcı: +4 savunma. |
+| Büyü Enstitüsü | 1 | **Çabukluk** | Tüm Sınıflar | 300 | Her sınıftan kahraman Büyü Enstitüsü'nde Çabukluk büyüsünü öğrenebilir. |
+| Büyü Enstitüsü | 1 | **Kendini İyileştirme** | Tüm Sınıflar | 350 | Her sınıftan kahraman Büyü Enstitüsü'nde Kendini İyileştirme büyüsünü öğrenebilir. |
+| Büyü Enstitüsü | 2 | **Koruma** | Tüm Sınıflar | 350 | Her sınıftan kahraman Büyü Enstitüsü'nde Koruma büyüsünü öğrenebilir. |
+| Büyü Enstitüsü | 3 | **Kıvılcım** | Tüm Sınıflar | 400 | Her sınıftan kahraman Büyü Enstitüsü'nde Kıvılcım büyüsünü öğrenebilir. |
 
 - **Saha Doktoru**: Ölümsüz yolundaki bir krallığa satılmaz
 
@@ -74,6 +78,7 @@ Araştırma ait olduğu binada satın alınır: bir sınıfınki loncasında, in
 | Hırsızlar Loncası | 140 → 220 → 340 |
 | Kütüphane | 250 → 400 → 600 |
 | Tapınak | 220 → 300 → 450 |
+| Büyü Enstitüsü | 320 → 480 → 720 |
 <!-- research-places:end -->
 
 ---

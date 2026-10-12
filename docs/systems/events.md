@@ -111,6 +111,17 @@ Spawn persistent map structures.
 
 ---
 
+## Day, Night and Weather
+
+A free game may be started with a turning day, with weather, or with both; each is ticked by itself, and neither is an event: nothing has to be answered.
+
+- **A day** lasts 12, 24 or 48 minutes of game time, as chosen: dawn, day, dusk and night. The top bar names the day, its part and the weather, and its tooltip says what comes next and when. The forecast is always what comes.
+- **Rain and thunderstorms** hold anyone walking off the roads, hero or monster, one turn in ten at the most. Roads are dry going.
+- **Mist and night** shorten what heroes and buildings see by a quarter at the most. Near the castle and the kingdom's buildings the windows are lit and the night takes nothing; an archer never sees less than it can shoot.
+- **Wind** takes a tenth of the damage of arrows, bolts and javelins. Spells are not blown about.
+- **A sandstorm or a dense fog** takes the weather's place where it rules the same thing: the two are never added together.
+- **Monsters keep hours.** Skeletons, zombies, wraiths, cultists, spiders and rats are sluggish by day; goblins, orcs, bandits, harpies and the legion's foot by night. Trolls, wolves and the dragon keep none.
+
 ## Coping Strategies
 
 :::tip[Threat Events]

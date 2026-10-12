@@ -60,6 +60,10 @@ Nghiên cứu được mua ở công trình mà nó thuộc về: của một l�
 | Tòa Hắc thệ | 1 | **Triều đại Sợ hãi** | Mọi lớp | 400 | Lâu đài và tháp cung chịu ít hơn 15% sát thương mỗi đòn. |
 | Tòa Hắc thệ | 1 | **Sắc lệnh nhiệt thành** | Thẩm phán Hắc thệ | 300 | Thẩm phán Hắc thệ: +4 tấn công. |
 | Sở Trưng thu | 1 | **Giáp xích nặng** | Người cưỡng chế | 300 | Người cưỡng chế: +4 phòng thủ. |
+| Viện Phép thuật | 1 | **Thần tốc** | Mọi lớp | 300 | Anh hùng thuộc mọi lớp đều có thể học Thần tốc tại Viện Phép thuật. |
+| Viện Phép thuật | 1 | **Tự chữa lành** | Mọi lớp | 350 | Anh hùng thuộc mọi lớp đều có thể học Tự chữa lành tại Viện Phép thuật. |
+| Viện Phép thuật | 2 | **Hộ thân** | Mọi lớp | 350 | Anh hùng thuộc mọi lớp đều có thể học Hộ thân tại Viện Phép thuật. |
+| Viện Phép thuật | 3 | **Tia lửa** | Mọi lớp | 400 | Anh hùng thuộc mọi lớp đều có thể học Tia lửa tại Viện Phép thuật. |
 
 - **Y tá dã chiến**: Không bán cho vương quốc theo con đường Bất tử
 
@@ -74,6 +78,7 @@ Nghiên cứu được mua ở công trình mà nó thuộc về: của một l�
 | Hội đạo tặc | 140 → 220 → 340 |
 | Thư viện | 250 → 400 → 600 |
 | Đền thờ | 220 → 300 → 450 |
+| Viện Phép thuật | 320 → 480 → 720 |
 <!-- research-places:end -->
 
 ---

@@ -25,10 +25,16 @@ Wrogowie pojawiają się naturalnie na dzikich obszarach mapy, zagrażając twoi
 | **Olbrzymi szczur** | 45 | 4 | 1 | 1,4 | 12 | 4 | 3 | 10 | Łąka | 1 |
 | **Bandyta** | 100 | 7 | 4 | 1,1 | 26 | 16 | 3 | 12 | Łąka | 2 |
 | **Harpia** | 95 | 11 | 3 | 1,8 | 36 | 18 | 3 | 14 | Łąka | 3 |
+| **Pikinier** | 150 | 9 | 6 | 0,9 | 34 | 18 | 3 | 12 | Góry | 3 |
+| **Tarczownik** | 220 | 7 | 10 | 0,8 | 40 | 20 | 3 | 12 | Góry | 4 |
+| **Saper** | 90 | 5 | 3 | 1,0 | 36 | 22 | 3 | 12 | Las | 4 |
+| **Bestia oblężnicza** | 520 | 16 | 9 | 0,5 | 110 | 55 | 3 | 12 | Góry | 5 |
+
+**Zastęp**: czterech wrogów walczy jako szyk i oddział oblężniczy. Cios, który zadaje Pikinier, na chwilę spowalnia trafionego bohatera. Tarczownik co jakiś czas wznosi tarczę nad sobą i potworami obok. Saper podkłada ładunek, który przed wybuchem jest zaznaczony na ziemi (nie wybucha, jeśli Saper padnie wcześniej), i uderza w budynki trzy razy mocniej. Bestia oblężnicza jest powolna, trudna do powalenia i uderza w budynki cztery razy mocniej.
 
 Smok, Goblin łucznik i Mroczny kultysta wystrzeliwują pociski (odpowiednio strugi ognia, prymitywne strzały i mroczne kule); pozostali uderzają z odległości do 3 kafelków.
 
-Wróg ma swoją turę raz na 4 takty. Jego szybkość daje mu krok co 3 ÷ szybkość tur, w zaokrągleniu w dół (co najmniej 1), a każdy wróg chodzi potem jeszcze o połowę szybciej: to czekanie dzieli się przez 1,5, ułamek przechodzi na następne kroki i nigdy nie jest krótsze niż jedna tura. Krok przypada więc w każdej turze przy szybkości od 1,6, trzy kroki na 4 tury przy 1,1–1,4, krok co 2 tury przy 0,8–1,0, trzy kroki na 8 tur u Trolla i trzy na 10 przy 0,6.
+Wróg ma swoją turę raz na 4 takty. Jego szybkość daje mu krok co 3 ÷ szybkość tur, w zaokrągleniu w dół (co najmniej 1), a każdy wróg chodzi potem o trzy dziesiąte szybciej: to czekanie dzieli się przez 1,3, ułamek przechodzi na następne kroki i nigdy nie jest krótsze niż jedna tura. Krok przypada więc w każdej turze przy szybkości od 1,6, około dwóch kroków na 3 tury przy 1,1–1,4, około trzech na 7 przy 0,8–1,0, mniej więcej krok co 3 tury u Trolla i krok co 4–5 tur przy 0,5–0,6.
 
 ### Rangi
 
@@ -76,8 +82,8 @@ Gdy wydarzenie inwazji się uruchomi, wrogowie kierują się prosto do zamku gra
 
 Wrogowie pojawiają się na podstawie **typu terenu**:
 
-- **Las** — Szlamy, Zombie, Wilkory, Mroczni kultyści, Olbrzymie pająki
-- **Góry** — Gobliny, Szkielety, Smoki, Orkowie siłacze, Gobliny łucznicy, Trolle
+- **Las** — Szlamy, Zombie, Wilkory, Mroczni kultyści, Olbrzymie pająki, Saperzy
+- **Góry** — Gobliny, Szkielety, Smoki, Orkowie siłacze, Gobliny łucznicy, Trolle, Pikinierzy, Tarczownicy, Bestie oblężnicze
 - **Łąka** — Olbrzymie szczury, Bandyci, Harpie
 - **Pustynia** — Piaskowe zjawy
 
@@ -90,7 +96,7 @@ Smoki i Trolle to najgroźniejsi wrogowie (poziom zagrożenia 5). Ze Smokami, kt
 ## Specjalne mechaniki smoka
 
 - **Atak dystansowy**: Zasięg ataku 16, zionie strugami ognia
-- **Wysoka mobilność**: Szybkość 1,4, trzy kroki na 4 tury: tak szybko jak Olbrzymie szczury, Olbrzymie pająki i Bandyci; szybsze są tylko Harpie i Wilkory (krok w każdej turze)
+- **Wysoka mobilność**: Szybkość 1,4, około dwóch kroków na 3 tury: tak szybko jak Olbrzymie szczury, Olbrzymie pająki i Bandyci; szybsze są tylko Harpie i Wilkory (krok w każdej turze)
 - **Szeroka wizja**: Zasięg widzenia 32 kafelki, zdolny do wykrycia poszukiwaczy przygód z dużej odległości
 - **Unik**: Wszyscy wrogowie mają bazową 5% szansę na unik
 

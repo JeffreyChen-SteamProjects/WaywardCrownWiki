@@ -29,9 +29,9 @@ Todas as classes de herói do jogo, escritas a partir dos seus dados: as seis qu
 | **Guerreiro** | — | Quartel | 70–150 | FOR | 3 | Golpe Poderoso, Muro de Escudos, Berserker, Senhor da Guerra, Grito de guerra |
 | **Mago** | — | Torre do Mago | 25–65 | INT | 12 | Projétil de Fogo, Escudo de Mana, Relâmpago em Cadeia, Arquimago, Tornado de fogo |
 | **Patrulheiro** | — | Abrigo do Patrulheiro | 45–100 | AGI | 11 | Tiro Preciso, Evasão, Tiro Múltiplo, Olho de Águia, Quebra-vento |
-| **Guarda** | — | Posto de Guarda | 50–120 | FOR | 3 | Vigilância, Fortificar, Provocar, Bastião |
-| **Construtor** | — | Guilda dos Construtores | 30–70 | — | 3 | Reparo Rápido, Reforçar, Mestre Artesão, Arquiteto |
-| **Ladrão** | — | Guilda dos ladrões | 35–80 | AGI | 3 | Punhalada nas costas, Evasão, Batedor de carteiras, Dança das sombras |
+| **Guarda** | — | Posto de Guarda | 50–120 | FOR | 3 | Vigilância, Fortificar, Provocar, Bastião, Guarda próxima |
+| **Construtor** | — | Guilda dos Construtores | 30–70 | — | 3 | Reparo Rápido, Reforçar, Mestre Artesão, Arquiteto, Reparo de emergência |
+| **Ladrão** | — | Guilda dos ladrões | 35–80 | AGI | 3 | Punhalada nas costas, Evasão, Batedor de carteiras, Dança das sombras, Escapulir |
 | **Cavaleiro do Escudo** | Guardião | Bastião | 90–170 | FOR | 3 | Vigilância, Muro de Escudos, Provocar, Bastião, Escudo do Juramento, Juramento do Substituto, Ao Resgate |
 | **Hospitalário** | Guardião | Santuário | 50–100 | INT | 3 | Vigilância, Escudo de Mana, Fortificar, Bastião, Prece Curativa |
 | **Batedor** | Ermos | Acampamento selvagem | 50–105 | AGI | 11 | Tiro Preciso, Evasão, Tiro Múltiplo, Olho de Águia, Marca do Caçador |

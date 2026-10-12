@@ -60,6 +60,10 @@ La investigación se compra en el edificio al que pertenece: la de una clase en 
 | Tribunal | 1 | **Reinado del Miedo** | Todas las clases | 400 | El castillo y las torres de arqueros reciben un 15 % menos de cada golpe. |
 | Tribunal | 1 | **Edicto de celo** | Inquisidor | 300 | Inquisidor: +4 de ataque. |
 | Oficina de Tributos | 1 | **Cota pesada** | Ejecutor | 300 | Ejecutor: +4 de defensa. |
+| Instituto de Hechizos | 1 | **Presteza** | Todas las clases | 300 | Los héroes de cualquier clase pueden aprender Presteza en el Instituto de Hechizos. |
+| Instituto de Hechizos | 1 | **Autocuración** | Todas las clases | 350 | Los héroes de cualquier clase pueden aprender Autocuración en el Instituto de Hechizos. |
+| Instituto de Hechizos | 2 | **Resguardo** | Todas las clases | 350 | Los héroes de cualquier clase pueden aprender Resguardo en el Instituto de Hechizos. |
+| Instituto de Hechizos | 3 | **Chispa** | Todas las clases | 400 | Los héroes de cualquier clase pueden aprender Chispa en el Instituto de Hechizos. |
 
 - **Médico de campaña**: No se vende a un reino en la senda No muerto
 
@@ -74,6 +78,7 @@ La investigación se compra en el edificio al que pertenece: la de una clase en 
 | Gremio de ladrones | 140 → 220 → 340 |
 | Biblioteca | 250 → 400 → 600 |
 | Templo | 220 → 300 → 450 |
+| Instituto de Hechizos | 320 → 480 → 720 |
 <!-- research-places:end -->
 
 ---

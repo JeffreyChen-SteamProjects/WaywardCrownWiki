@@ -29,9 +29,9 @@ Oyundaki her kahraman sınıfı, oyunun verilerinden yazılmıştır: her krall�
 | **Savaşçı** | — | Kışla | 70–150 | GÜÇ | 3 | Güçlü Darbe, Kalkan Duvarı, Berserker, Savaş Lordu, Savaş Narası |
 | **Büyücü** | — | Büyücü Kulesi | 25–65 | ZKA | 12 | Ateş Oku, Mana Kalkanı, Zincir Şimşek, Baş Büyücü, Ateş Kasırgası |
 | **Kolcu** | — | Kolcu Kulübesi | 45–100 | ÇVK | 11 | Hassas Atış, Kaçınma, Çoklu Atış, Kartal Gözü, Rüzgar Kıran |
-| **Muhafız** | — | Muhafız Mevzisi | 50–120 | GÜÇ | 3 | Teyakkuz, Tahkim, Kışkırtma, Kale |
-| **İnşaatçı** | — | İnşaatçılar Loncası | 30–70 | — | 3 | Hızlı Onarım, Takviye, Usta Zanaat, Mimar |
-| **Hırsız** | — | Hırsızlar Loncası | 35–80 | ÇVK | 3 | Sırttan Bıçaklama, Kaçınma, Yankesici, Gölge Dansı |
+| **Muhafız** | — | Muhafız Mevzisi | 50–120 | GÜÇ | 3 | Teyakkuz, Tahkim, Kışkırtma, Kale, Yakın Koruma |
+| **İnşaatçı** | — | İnşaatçılar Loncası | 30–70 | — | 3 | Hızlı Onarım, Takviye, Usta Zanaat, Mimar, Acil Onarım |
+| **Hırsız** | — | Hırsızlar Loncası | 35–80 | ÇVK | 3 | Sırttan Bıçaklama, Kaçınma, Yankesici, Gölge Dansı, Sıvışma |
 | **Kalkan Şövalyesi** | Muhafız | Burç | 90–170 | GÜÇ | 3 | Teyakkuz, Kalkan Duvarı, Kışkırtma, Kale, Yemin Kalkanı, Vekil Yemini, İmdada Koşu |
 | **Hospitalye** | Muhafız | Sığınak Tapınağı | 50–100 | ZKA | 3 | Teyakkuz, Mana Kalkanı, Tahkim, Kale, Şifa Duası |
 | **İz Sürücü** | Yaban | Yaban kampı | 50–105 | ÇVK | 11 | Hassas Atış, Kaçınma, Çoklu Atış, Kartal Gözü, Avcı İşareti |

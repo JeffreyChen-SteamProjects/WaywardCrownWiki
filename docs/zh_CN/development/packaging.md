@@ -53,6 +53,7 @@ pyinstaller --noconfirm --clean --name WaywardCrown ^
     --add-data "THIRD_PARTY_LICENSES.md;." ^
     --add-data "LGPL-3.0.txt;." ^
     --add-data "GPL-3.0.txt;." ^
+    --add-data "LGPL-2.1.txt;." ^
     --add-binary "game/_ccore.cp314-win_amd64.pyd;game" ^
     --hidden-import PySide6.QtWidgets ^
     --hidden-import PySide6.QtCore ^

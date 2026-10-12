@@ -25,10 +25,16 @@ I nemici appaiono naturalmente nelle aree selvagge della mappa, minacciando i tu
 | **Ratto gigante** | 45 | 4 | 1 | 1,4 | 12 | 4 | 3 | 10 | Prateria | 1 |
 | **Bandito** | 100 | 7 | 4 | 1,1 | 26 | 16 | 3 | 12 | Prateria | 2 |
 | **Arpia** | 95 | 11 | 3 | 1,8 | 36 | 18 | 3 | 14 | Prateria | 3 |
+| **Picchiere** | 150 | 9 | 6 | 0,9 | 34 | 18 | 3 | 12 | Montagna | 3 |
+| **Portascudo** | 220 | 7 | 10 | 0,8 | 40 | 20 | 3 | 12 | Montagna | 4 |
+| **Guastatore** | 90 | 5 | 3 | 1,0 | 36 | 22 | 3 | 12 | Foresta | 4 |
+| **Bestia d'assedio** | 520 | 16 | 9 | 0,5 | 110 | 55 | 3 | 12 | Montagna | 5 |
+
+**L'armata**: quattro nemici combattono come linea e come truppa d'assedio. Il colpo di un Picchiere trattiene per un momento l'eroe che lo riceve. Un Portascudo alza ogni tanto uno scudo su di sé e sui mostri accanto. Un Guastatore piazza una carica segnata sul terreno prima di esplodere (non esplode mai se cade prima) e colpisce gli edifici tre volte più forte. Una Bestia d'assedio è lenta, dura da abbattere e colpisce gli edifici quattro volte più forte.
 
 Il Drago, l'Arciere goblin e il Cultista oscuro scagliano proiettili (vampate di fuoco, frecce rozze e globi oscuri); gli altri colpiscono fino a 3 caselle di distanza.
 
-Un nemico ha il suo turno una volta ogni 4 tick. La sua velocità gli dà un passo ogni 3 ÷ velocità turni, arrotondato per difetto (almeno 1), e ogni nemico cammina poi ancora la metà più in fretta: quell'attesa è divisa per 1,5, la frazione passa ai passi successivi e non scende mai sotto un turno. Così c'è un passo a ogni turno da velocità 1,6 in su, tre passi in 4 turni tra 1,1 e 1,4, uno ogni 2 turni tra 0,8 e 1,0, tre in 8 turni per il Troll e tre in 10 a 0,6.
+Un nemico ha il suo turno una volta ogni 4 tick. La sua velocità gli dà un passo ogni 3 ÷ velocità turni, arrotondato per difetto (almeno 1), e ogni nemico cammina poi tre decimi più in fretta: quell'attesa è divisa per 1,3, la frazione passa ai passi successivi e non scende mai sotto un turno. Così c'è un passo a ogni turno da velocità 1,6 in su, circa due passi in 3 turni tra 1,1 e 1,4, circa tre in 7 tra 0,8 e 1,0, circa uno ogni 3 turni per il Troll e uno ogni 4 o 5 tra 0,5 e 0,6.
 
 ### Gradi
 
@@ -76,8 +82,8 @@ Quando si attiva un evento di invasione, i nemici si dirigono direttamente verso
 
 I nemici appaiono in base al **tipo di terreno**:
 
-- **Foresta** — Slime, Zombie, Lupi crudeli, Cultisti oscuri, Ragni giganti
-- **Montagna** — Goblin, Scheletri, Draghi, Bruti orcheschi, Arcieri goblin, Troll
+- **Foresta** — Slime, Zombie, Lupi crudeli, Cultisti oscuri, Ragni giganti, Guastatori
+- **Montagna** — Goblin, Scheletri, Draghi, Bruti orcheschi, Arcieri goblin, Troll, Picchieri, Portascudi, Bestie d'assedio
 - **Prateria** — Ratti giganti, Banditi, Arpie
 - **Deserto** — Spettri delle sabbie
 
@@ -90,7 +96,7 @@ Draghi e Troll sono i nemici più pericolosi (livello di pericolo 5). Con una gi
 ## Meccaniche speciali del drago
 
 - **Attacco a distanza**: Gittata d'attacco di 16, sputa vampate di fuoco
-- **Alta mobilità**: Velocità di 1,4, tre passi ogni 4 turni: veloce quanto Ratti giganti, Ragni giganti e Banditi; solo Arpie e Lupi crudeli (un passo a ogni turno) sono più veloci
+- **Alta mobilità**: Velocità di 1,4, circa due passi ogni 3 turni: veloce quanto Ratti giganti, Ragni giganti e Banditi; solo Arpie e Lupi crudeli (un passo a ogni turno) sono più veloci
 - **Visione ampia**: Raggio visivo di 32 caselle, in grado di avvistare avventurieri a grande distanza
 - **Evasione**: Tutti i nemici hanno un tasso base di schivata del 5%
 

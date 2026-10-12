@@ -25,10 +25,16 @@ Feinde erscheinen natürlich in Wildnisgebieten auf der gesamten Karte und bedro
 | **Riesenratte** | 45 | 4 | 1 | 1,4 | 12 | 4 | 3 | 10 | Grasland | 1 |
 | **Bandit** | 100 | 7 | 4 | 1,1 | 26 | 16 | 3 | 12 | Grasland | 2 |
 | **Harpyie** | 95 | 11 | 3 | 1,8 | 36 | 18 | 3 | 14 | Grasland | 3 |
+| **Pikenier** | 150 | 9 | 6 | 0,9 | 34 | 18 | 3 | 12 | Gebirge | 3 |
+| **Schildträger** | 220 | 7 | 10 | 0,8 | 40 | 20 | 3 | 12 | Gebirge | 4 |
+| **Sprengmeister** | 90 | 5 | 3 | 1,0 | 36 | 22 | 3 | 12 | Wald | 4 |
+| **Belagerungsbestie** | 520 | 16 | 9 | 0,5 | 110 | 55 | 3 | 12 | Gebirge | 5 |
+
+**Das Heer**: Vier Gegner kämpfen als Linie und Belagerungstrupp. Der Hieb eines Pikeniers hält den getroffenen Helden einen Moment lang auf. Ein Schildträger hebt hin und wieder einen Schild über sich und die Monster neben ihm. Ein Sprengmeister legt eine Ladung, die auf dem Boden markiert wird, bevor sie hochgeht (fällt er vorher, geht sie nie hoch), und trifft Gebäude dreimal so hart. Eine Belagerungsbestie ist langsam, schwer zu fällen und trifft Gebäude viermal so hart.
 
 Drache, Goblin-Bogenschütze und Dunkler Kultist feuern Projektile (Flammenstöße, grobe Pfeile bzw. dunkle Kugeln); die übrigen schlagen aus bis zu 3 Feldern Entfernung zu.
 
-Ein Gegner ist alle 4 Ticks einmal am Zug. Seine Geschwindigkeit gibt ihm alle 3 ÷ Geschwindigkeit Züge einen Schritt, abgerundet (mindestens 1), und jeder Gegner läuft dann noch einmal halb so schnell: Die Wartezeit wird durch 1,5 geteilt, der Bruchteil auf die nächsten Schritte übertragen, und sie ist nie kürzer als ein Zug. So kommt ab Geschwindigkeit 1,6 in jedem Zug ein Schritt, bei 1,1–1,4 dreimal in 4 Zügen, bei 0,8–1,0 alle 2 Züge, beim Troll dreimal in 8 Zügen und bei 0,6 dreimal in 10.
+Ein Gegner ist alle 4 Ticks einmal am Zug. Seine Geschwindigkeit gibt ihm alle 3 ÷ Geschwindigkeit Züge einen Schritt, abgerundet (mindestens 1), und jeder Gegner läuft dann um drei Zehntel schneller: Die Wartezeit wird durch 1,3 geteilt, der Bruchteil auf die nächsten Schritte übertragen, und sie ist nie kürzer als ein Zug. So kommt ab Geschwindigkeit 1,6 in jedem Zug ein Schritt, bei 1,1–1,4 etwa zwei Schritte in 3 Zügen, bei 0,8–1,0 etwa drei in 7, beim Troll etwa einer in 3 und bei 0,5–0,6 einer in 4 bis 5.
 
 ### Ränge
 
@@ -76,8 +82,8 @@ Wenn ein Invasionsereignis ausgelöst wird, marschieren Feinde auf dem kürzeste
 
 Feinde erscheinen basierend auf dem **Geländetyp**:
 
-- **Wald** — Schleime, Zombies, Schattenwölfe, Dunkle Kultisten, Riesenspinnen
-- **Gebirge** — Goblins, Skelette, Drachen, Ork-Schläger, Goblin-Bogenschützen, Trolle
+- **Wald** — Schleime, Zombies, Schattenwölfe, Dunkle Kultisten, Riesenspinnen, Sprengmeister
+- **Gebirge** — Goblins, Skelette, Drachen, Ork-Schläger, Goblin-Bogenschützen, Trolle, Pikeniere, Schildträger, Belagerungsbestien
 - **Grasland** — Riesenratten, Banditen, Harpyien
 - **Wüste** — Sandgeister
 
@@ -90,7 +96,7 @@ Drachen und Trolle sind die gefährlichsten Feinde (Gefahrenstufe 5). Mit einer 
 ## Spezielle Drachenmechaniken
 
 - **Fernkampfangriff**: Angriffsreichweite von 16, speit Flammenstöße
-- **Hohe Mobilität**: Geschwindigkeit von 1,4, drei Schritte in 4 Zügen: so schnell wie Riesenratten, Riesenspinnen und Banditen; nur Harpyien und Schattenwölfe (ein Schritt pro Zug) sind schneller
+- **Hohe Mobilität**: Geschwindigkeit von 1,4, etwa zwei Schritte in 3 Zügen: so schnell wie Riesenratten, Riesenspinnen und Banditen; nur Harpyien und Schattenwölfe (ein Schritt pro Zug) sind schneller
 - **Weite Sicht**: 32 Felder Sichtweite, kann Abenteurer aus großer Entfernung entdecken
 - **Ausweichen**: Alle Feinde haben eine Basis-Ausweichrate von 5%
 

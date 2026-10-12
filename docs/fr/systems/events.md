@@ -111,6 +111,17 @@ Font apparaître des structures persistantes sur la carte.
 
 ---
 
+## Jour, nuit et météo
+
+Une partie libre peut commencer avec le jour qui tourne, avec la météo, ou avec les deux ; chacun se coche à part, et aucun n'est un événement : il n'y a rien à quoi répondre.
+
+- **Une journée** dure 12, 24 ou 48 minutes de jeu, au choix : aube, jour, crépuscule et nuit. La barre du haut indique le jour, son moment et le temps, et son infobulle dit ce qui vient ensuite et quand. La prévision est toujours ce qui arrive.
+- **La pluie et l'orage** arrêtent quiconque marche hors des routes, héros ou monstre, un tour sur dix au plus. Sur les routes, on avance au sec.
+- **La brume et la nuit** raccourcissent d'un quart au plus ce que voient héros et bâtiments. Près du château et des bâtiments du royaume, les fenêtres sont éclairées et la nuit ne retire rien ; un archer ne voit jamais moins loin qu'il ne tire.
+- **Le vent** retire un dixième des dégâts des flèches, carreaux et javelots. Les sorts ne sont pas emportés.
+- **Une tempête de sable ou un brouillard épais** prend la place de la météo là où il règle la même chose : les deux ne s'additionnent jamais.
+- **Les monstres ont leurs heures.** Squelettes, zombies, spectres, cultistes, araignées et rats sont lents le jour ; gobelins, orques, bandits, harpies et fantassins de la légion, la nuit. Trolls, loups et le dragon n'en ont pas.
+
 ## Stratégies d'adaptation
 
 :::tip[Événements de menace]

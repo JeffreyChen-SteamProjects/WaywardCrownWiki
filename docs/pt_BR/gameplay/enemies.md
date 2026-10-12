@@ -25,10 +25,16 @@ Os inimigos surgem naturalmente em áreas selvagens pelo mapa, ameaçando seus a
 | **Rato gigante** | 45 | 4 | 1 | 1.4 | 12 | 4 | 3 | 10 | Planície | 1 |
 | **Bandido** | 100 | 7 | 4 | 1.1 | 26 | 16 | 3 | 12 | Planície | 2 |
 | **Harpia** | 95 | 11 | 3 | 1.8 | 36 | 18 | 3 | 14 | Planície | 3 |
+| **Piqueiro** | 150 | 9 | 6 | 0.9 | 34 | 18 | 3 | 12 | Montanha | 3 |
+| **Porta-escudo** | 220 | 7 | 10 | 0.8 | 40 | 20 | 3 | 12 | Montanha | 4 |
+| **Sapador** | 90 | 5 | 3 | 1.0 | 36 | 22 | 3 | 12 | Floresta | 4 |
+| **Besta de cerco** | 520 | 16 | 9 | 0.5 | 110 | 55 | 3 | 12 | Montanha | 5 |
+
+**A hoste**: quatro inimigos lutam como linha e como tropa de cerco. O golpe de um Piqueiro segura por um momento o herói atingido. Um Porta-escudo ergue de vez em quando um escudo sobre si e os monstros ao lado. Um Sapador planta uma carga que é marcada no chão antes de explodir (nunca explode se ele cair antes) e atinge construções três vezes mais forte. Uma Besta de cerco é lenta, difícil de derrubar e atinge construções quatro vezes mais forte.
 
 O Dragão, o Arqueiro goblin e o Cultista sombrio disparam projéteis (jatos de chamas, flechas toscas e orbes sombrios); os demais atacam a até 3 tiles de distância.
 
-Um inimigo tem a sua vez uma vez a cada 4 ticks. A velocidade lhe dá um passo a cada 3 ÷ velocidade turnos, arredondado para baixo (no mínimo 1), e todo inimigo anda ainda metade mais rápido: essa espera é dividida por 1.5, a fração passa para os passos seguintes e nunca fica abaixo de um turno. Assim, há um passo por turno com velocidade 1.6 ou mais, três passos em 4 turnos com 1.1–1.4, um a cada 2 turnos com 0.8–1.0, três em 8 turnos para o Troll e três em 10 com 0.6.
+Um inimigo tem a sua vez uma vez a cada 4 ticks. A velocidade lhe dá um passo a cada 3 ÷ velocidade turnos, arredondado para baixo (no mínimo 1), e todo inimigo anda ainda três décimos mais rápido: essa espera é dividida por 1.3, a fração passa para os passos seguintes e nunca fica abaixo de um turno. Assim, há um passo por turno com velocidade 1.6 ou mais, cerca de dois passos em 3 turnos com 1.1–1.4, cerca de três em 7 com 0.8–1.0, mais ou menos um a cada 3 turnos para o Troll e um a cada 4 ou 5 com 0.5–0.6.
 
 ### Patentes
 
@@ -76,8 +82,8 @@ Quando um evento de invasão é acionado, os inimigos seguem direto para o caste
 
 Os inimigos surgem com base no **tipo de terreno**:
 
-- **Floresta** — Slimes, Zumbis, Lobos atrozes, Cultistas sombrios, Aranhas gigantes
-- **Montanha** — Goblins, Esqueletos, Dragões, Brutos orcs, Arqueiros goblins, Trolls
+- **Floresta** — Slimes, Zumbis, Lobos atrozes, Cultistas sombrios, Aranhas gigantes, Sapadores
+- **Montanha** — Goblins, Esqueletos, Dragões, Brutos orcs, Arqueiros goblins, Trolls, Piqueiros, Porta-escudos, Bestas de cerco
 - **Planície** — Ratos gigantes, Bandidos, Harpias
 - **Deserto** — Espectros da areia
 
@@ -90,7 +96,7 @@ Os dragões e os trolls são os inimigos mais perigosos (nível de perigo 5). Co
 ## Mecânicas Especiais do Dragão
 
 - **Ataque à Distância**: Alcance de ataque de 16, cospe jatos de chamas
-- **Alta Mobilidade**: Velocidade de 1.4, três passos a cada 4 turnos: tão rápido quanto Ratos gigantes, Aranhas gigantes e Bandidos; só Harpias e Lobos atrozes (um passo por turno) são mais rápidos
+- **Alta Mobilidade**: Velocidade de 1.4, cerca de dois passos a cada 3 turnos: tão rápido quanto Ratos gigantes, Aranhas gigantes e Bandidos; só Harpias e Lobos atrozes (um passo por turno) são mais rápidos
 - **Visão Ampla**: Alcance de visão de 32 tiles, capaz de detectar aventureiros a grande distância
 - **Evasão**: Todos os inimigos têm uma taxa de esquiva base de 5%
 

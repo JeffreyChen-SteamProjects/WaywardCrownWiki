@@ -25,10 +25,16 @@ Los enemigos aparecen naturalmente en las zonas salvajes del mapa, amenazando a 
 | **Rata gigante** | 45 | 4 | 1 | 1.4 | 12 | 4 | 3 | 10 | Pradera | 1 |
 | **Bandido** | 100 | 7 | 4 | 1.1 | 26 | 16 | 3 | 12 | Pradera | 2 |
 | **Arpía** | 95 | 11 | 3 | 1.8 | 36 | 18 | 3 | 14 | Pradera | 3 |
+| **Piquero** | 150 | 9 | 6 | 0.9 | 34 | 18 | 3 | 12 | Montaña | 3 |
+| **Portaescudo** | 220 | 7 | 10 | 0.8 | 40 | 20 | 3 | 12 | Montaña | 4 |
+| **Zapador** | 90 | 5 | 3 | 1.0 | 36 | 22 | 3 | 12 | Bosque | 4 |
+| **Bestia de asedio** | 520 | 16 | 9 | 0.5 | 110 | 55 | 3 | 12 | Montaña | 5 |
+
+**La hueste**: cuatro enemigos luchan como línea y como tropa de asedio. El golpe de un Piquero frena un momento al héroe que lo recibe. Un Portaescudo levanta de vez en cuando un escudo sobre sí mismo y los monstruos a su lado. Un Zapador coloca una carga que se marca en el suelo antes de estallar (nunca estalla si cae antes) y golpea los edificios tres veces más fuerte. Una Bestia de asedio es lenta, difícil de abatir y golpea los edificios cuatro veces más fuerte.
 
 El Dragón, el Arquero goblin y el Cultista oscuro disparan proyectiles (llamaradas, flechas toscas y orbes oscuros); los demás golpean desde un máximo de 3 casillas.
 
-A un enemigo le toca su turno una vez cada 4 ticks. Su velocidad le da un paso cada 3 ÷ velocidad turnos, redondeado hacia abajo (al menos 1), y todos los enemigos caminan además la mitad más rápido: esa espera se divide entre 1.5, la fracción pasa a los pasos siguientes y nunca baja de un turno. Así, hay un paso cada turno con velocidad 1.6 o más, tres pasos en 4 turnos con 1.1–1.4, uno cada 2 turnos con 0.8–1.0, tres en 8 turnos para el Trol y tres en 10 con 0.6.
+A un enemigo le toca su turno una vez cada 4 ticks. Su velocidad le da un paso cada 3 ÷ velocidad turnos, redondeado hacia abajo (al menos 1), y todos los enemigos caminan además tres décimas más rápido: esa espera se divide entre 1.3, la fracción pasa a los pasos siguientes y nunca baja de un turno. Así, hay un paso cada turno con velocidad 1.6 o más, unos dos pasos en 3 turnos con 1.1–1.4, unos tres en 7 con 0.8–1.0, más o menos uno cada 3 turnos para el Trol y uno cada 4 o 5 con 0.5–0.6.
 
 ### Rangos
 
@@ -76,8 +82,8 @@ Cuando se activa un evento de invasión, los enemigos se dirigen directamente al
 
 Los enemigos aparecen según el **tipo de terreno**:
 
-- **Bosque** — Limos, Zombis, Lobos huargos, Cultistas oscuros, Arañas gigantes
-- **Montaña** — Goblins, Esqueletos, Dragones, Brutos orcos, Arqueros goblin, Troles
+- **Bosque** — Limos, Zombis, Lobos huargos, Cultistas oscuros, Arañas gigantes, Zapadores
+- **Montaña** — Goblins, Esqueletos, Dragones, Brutos orcos, Arqueros goblin, Troles, Piqueros, Portaescudos, Bestias de asedio
 - **Pradera** — Ratas gigantes, Bandidos, Arpías
 - **Desierto** — Espectros de arena
 
@@ -90,7 +96,7 @@ Los dragones y los troles son los enemigos más peligrosos (nivel de peligro 5).
 ## Mecánicas Especiales del Dragón
 
 - **Ataque a Distancia**: Rango de ataque de 16, escupe llamaradas
-- **Alta Movilidad**: Velocidad de 1.4, tres pasos cada 4 turnos: tan rápido como las Ratas gigantes, las Arañas gigantes y los Bandidos; solo las Arpías y los Lobos huargos (un paso por turno) son más rápidos
+- **Alta Movilidad**: Velocidad de 1.4, unos dos pasos cada 3 turnos: tan rápido como las Ratas gigantes, las Arañas gigantes y los Bandidos; solo las Arpías y los Lobos huargos (un paso por turno) son más rápidos
 - **Visión Amplia**: Rango de visión de 32 casillas, capaz de detectar aventureros desde gran distancia
 - **Evasión**: Todos los enemigos tienen una tasa de esquiva base del 5%
 

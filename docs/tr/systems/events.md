@@ -111,6 +111,17 @@ Kalıcı harita yapıları oluşturur.
 
 ---
 
+## Gündüz, gece ve hava
+
+Serbest oyun, dönen bir günle, havayla ya da ikisiyle birlikte başlatılabilir; her biri ayrı işaretlenir ve hiçbiri bir olay değildir: yanıtlanacak bir şey yoktur.
+
+- **Bir gün**, seçime göre 12, 24 ya da 48 oyun dakikası sürer: şafak, gündüz, alacakaranlık ve gece. Üst çubuk günü, bölümünü ve havayı gösterir; ipucu ise sırada ne olduğunu ve ne zaman geleceğini söyler. Tahmin her zaman gerçekleşir.
+- **Yağmur ve fırtına**, yol dışında yürüyen herkesi, kahraman ya da canavar, en çok on turda bir tur durdurur. Yollarda etkisi yoktur.
+- **Sis ve gece**, kahramanların ve binaların görüşünü en çok dörtte bir kısaltır. Kalenin ve krallığın binalarının yakınında pencereler aydınlıktır ve gece hiçbir şey almaz; bir okçu asla atabildiğinden daha yakını görmez.
+- **Rüzgâr**, okların, arbalet oklarının ve ciritlerin hasarının onda birini alır. Büyüler rüzgârdan etkilenmez.
+- **Kum fırtınası ya da yoğun sis**, aynı şeyi yönettiği yerde havanın yerini alır: ikisi asla üst üste eklenmez.
+- **Canavarların kendi saatleri vardır.** İskeletler, zombiler, hayaletler, tarikatçılar, örümcekler ve fareler gündüz ağırdır; goblinler, orklar, haydutlar, harpiler ve lejyonun piyadesi gece. Troller, kurtlar ve ejderha saat tanımaz.
+
 ## Başa Çıkma Stratejileri
 
 :::tip[Tehdit Olayları]

@@ -29,9 +29,9 @@ Mọi lớp anh hùng trong trò chơi, viết từ dữ liệu của nó: sáu 
 | **Chiến binh** | — | Doanh trại | 70–150 | SỨC | 3 | Đánh mạnh, Tường khiên, Cuồng chiến, Lãnh chúa, Tiếng Thét Chiến Trận |
 | **Pháp sư** | — | Tháp Pháp sư | 25–65 | TRÍ | 12 | Tia lửa, Khiên mana, Sét liên hoàn, Đại pháp sư, Lốc Lửa |
 | **Xạ thủ** | — | Nhà Xạ thủ | 45–100 | NHẸ | 11 | Bắn chính xác, Né tránh, Bắn loạt, Mắt đại bàng, Phá Phong |
-| **Vệ binh** | — | Trạm gác | 50–120 | SỨC | 3 | Cảnh giác, Gia cố, Khiêu khích, Pháo đài |
-| **Thợ xây** | — | Phường hội Thợ xây | 30–70 | — | 3 | Sửa nhanh, Tăng cường, Bậc thầy chế tạo, Kiến trúc sư |
-| **Kẻ trộm** | — | Hội đạo tặc | 35–80 | NHẸ | 3 | Đâm lén, Né tránh, Móc túi, Vũ điệu bóng tối |
+| **Vệ binh** | — | Trạm gác | 50–120 | SỨC | 3 | Cảnh giác, Gia cố, Khiêu khích, Pháo đài, Hộ vệ cận kề |
+| **Thợ xây** | — | Phường hội Thợ xây | 30–70 | — | 3 | Sửa nhanh, Tăng cường, Bậc thầy chế tạo, Kiến trúc sư, Sửa chữa khẩn cấp |
+| **Kẻ trộm** | — | Hội đạo tặc | 35–80 | NHẸ | 3 | Đâm lén, Né tránh, Móc túi, Vũ điệu bóng tối, Lẩn đi |
 | **Kỵ sĩ Khiên** | Thủ hộ | Pháo đài | 90–170 | SỨC | 3 | Cảnh giác, Tường khiên, Khiêu khích, Pháo đài, Khiên Thệ ước, Lời thề Thế thân, Xông tới Cứu viện |
 | **Tu sĩ Cứu thương** | Thủ hộ | Thánh đường | 50–100 | TRÍ | 3 | Cảnh giác, Khiên mana, Gia cố, Pháo đài, Lời nguyện Chữa lành |
 | **Người dẫn đường** | Hoang dã | Trại hoang | 50–105 | NHẸ | 11 | Bắn chính xác, Né tránh, Bắn loạt, Mắt đại bàng, Dấu ấn Thợ săn |

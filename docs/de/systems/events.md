@@ -111,6 +111,17 @@ Erzeugen dauerhafte Kartenstrukturen.
 
 ---
 
+## Tag, Nacht und Wetter
+
+Ein freies Spiel kann mit laufendem Tag, mit Wetter oder mit beidem begonnen werden; jedes wird einzeln angehakt, und keines ist ein Ereignis: Es gibt nichts zu beantworten.
+
+- **Ein Tag** dauert nach Wahl 12, 24 oder 48 Spielminuten: Morgendämmerung, Tag, Abenddämmerung und Nacht. Die obere Leiste nennt den Tag, die Tageszeit und das Wetter, ihr Tooltip sagt, was als Nächstes kommt und wann. Die Vorhersage trifft immer ein.
+- **Regen und Gewitter** halten jeden, der abseits der Straßen geht, Held wie Monster, höchstens jede zehnte Runde auf. Auf Straßen geht es trocken voran.
+- **Nebel und Nacht** verkürzen die Sicht von Helden und Gebäuden um höchstens ein Viertel. Nahe der Burg und den Gebäuden des Reichs leuchten die Fenster, und die Nacht nimmt nichts; ein Schütze sieht nie weniger weit, als er schießt.
+- **Wind** nimmt Pfeilen, Bolzen und Wurfspeeren ein Zehntel des Schadens. Zauber werden nicht verweht.
+- **Ein Sandsturm oder dichter Nebel** tritt an die Stelle des Wetters, wo er dasselbe bestimmt: Beides wird nie addiert.
+- **Monster haben ihre Zeiten.** Skelette, Zombies, Geister, Kultisten, Spinnen und Ratten sind am Tag träge; Goblins, Orks, Banditen, Harpyien und das Fußvolk der Legion in der Nacht. Trolle, Wölfe und der Drache kennen keine.
+
 ## Bewältigungsstrategien
 
 :::tip[Bedrohungsereignisse]

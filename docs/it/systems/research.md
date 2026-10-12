@@ -60,6 +60,10 @@ La ricerca si compra nell'edificio a cui appartiene: quella di una classe nella 
 | Tribunale | 1 | **Regno del Terrore** | Tutte le classi | 400 | Il castello e le torri degli arcieri subiscono il 15% in meno da ogni colpo. |
 | Tribunale | 1 | **Editto di zelo** | Inquisitore | 300 | Inquisitore: +4 attacco. |
 | Ufficio dei Tributi | 1 | **Maglia pesante** | Esattore di Ferro | 300 | Esattore di Ferro: +4 difesa. |
+| Istituto degli incantesimi | 1 | **Rapidità** | Tutte le classi | 300 | Gli eroi di qualsiasi classe possono imparare Rapidità all'Istituto degli incantesimi. |
+| Istituto degli incantesimi | 1 | **Autoguarigione** | Tutte le classi | 350 | Gli eroi di qualsiasi classe possono imparare Autoguarigione all'Istituto degli incantesimi. |
+| Istituto degli incantesimi | 2 | **Protezione** | Tutte le classi | 350 | Gli eroi di qualsiasi classe possono imparare Protezione all'Istituto degli incantesimi. |
+| Istituto degli incantesimi | 3 | **Scintilla** | Tutte le classi | 400 | Gli eroi di qualsiasi classe possono imparare Scintilla all'Istituto degli incantesimi. |
 
 - **Medico da campo**: Non si vende a un regno sulla via Non morto
 
@@ -74,6 +78,7 @@ La ricerca si compra nell'edificio a cui appartiene: quella di una classe nella 
 | Gilda dei ladri | 140 → 220 → 340 |
 | Biblioteca | 250 → 400 → 600 |
 | Tempio | 220 → 300 → 450 |
+| Istituto degli incantesimi | 320 → 480 → 720 |
 <!-- research-places:end -->
 
 ---

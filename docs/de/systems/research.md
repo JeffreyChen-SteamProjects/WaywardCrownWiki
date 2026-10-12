@@ -60,6 +60,10 @@ Forschung wird in dem Gebäude gekauft, zu dem sie gehört: die einer Klasse in 
 | Tribunal | 1 | **Schreckensherrschaft** | Alle Klassen | 400 | Burg und Bogentürme nehmen von jedem Treffer 15 % weniger. |
 | Tribunal | 1 | **Eiferbrief** | Inquisitor | 300 | Inquisitor: +4 Angriff. |
 | Abgabenamt | 1 | **Schweres Kettenhemd** | Vollstrecker | 300 | Vollstrecker: +4 Verteidigung. |
+| Zauberinstitut | 1 | **Eile** | Alle Klassen | 300 | Helden jeder Klasse können im Zauberinstitut Eile erlernen. |
+| Zauberinstitut | 1 | **Selbstheilung** | Alle Klassen | 350 | Helden jeder Klasse können im Zauberinstitut Selbstheilung erlernen. |
+| Zauberinstitut | 2 | **Schutzzauber** | Alle Klassen | 350 | Helden jeder Klasse können im Zauberinstitut Schutzzauber erlernen. |
+| Zauberinstitut | 3 | **Funke** | Alle Klassen | 400 | Helden jeder Klasse können im Zauberinstitut Funke erlernen. |
 
 - **Feldarzt**: Wird einem Königreich auf dem Weg Untot nicht verkauft
 
@@ -74,6 +78,7 @@ Forschung wird in dem Gebäude gekauft, zu dem sie gehört: die einer Klasse in 
 | Diebesgilde | 140 → 220 → 340 |
 | Bibliothek | 250 → 400 → 600 |
 | Tempel | 220 → 300 → 450 |
+| Zauberinstitut | 320 → 480 → 720 |
 <!-- research-places:end -->
 
 ---

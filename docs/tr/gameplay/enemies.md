@@ -25,10 +25,16 @@ Düşmanlar harita genelindeki vahşi bölgelerde doğal olarak ortaya çıkar v
 | **Dev Sıçan** | 45 | 4 | 1 | 1.4 | 12 | 4 | 3 | 10 | Çayırlık | 1 |
 | **Haydut** | 100 | 7 | 4 | 1.1 | 26 | 16 | 3 | 12 | Çayırlık | 2 |
 | **Harpi** | 95 | 11 | 3 | 1.8 | 36 | 18 | 3 | 14 | Çayırlık | 3 |
+| **Mızrakçı** | 150 | 9 | 6 | 0.9 | 34 | 18 | 3 | 12 | Dağ | 3 |
+| **Kalkan Taşıyıcı** | 220 | 7 | 10 | 0.8 | 40 | 20 | 3 | 12 | Dağ | 4 |
+| **Lağımcı** | 90 | 5 | 3 | 1.0 | 36 | 22 | 3 | 12 | Orman | 4 |
+| **Kuşatma Canavarı** | 520 | 16 | 9 | 0.5 | 110 | 55 | 3 | 12 | Dağ | 5 |
+
+**Ordu**: dört düşman bir hat ve kuşatma birliği olarak savaşır. Mızrakçı vurduğu kahramanı bir an için yavaşlatır. Kalkan Taşıyıcı ara sıra kendisinin ve yanındaki canavarların üzerine kalkan kaldırır. Lağımcı, patlamadan önce yerde işaretlenen bir patlayıcı yerleştirir (önce kendisi düşerse hiç patlamaz) ve binalara üç kat sert vurur. Kuşatma Canavarı yavaştır, zor devrilir ve binalara dört kat sert vurur.
 
 Ejderha, Goblin Okçu ve Karanlık Tarikatçı mermi fırlatır (sırasıyla alev püskürtüsü, kaba ok ve karanlık küre); diğerleri en fazla 3 karo uzaktan vurur.
 
-Bir düşmanın sırası her 4 tikte bir gelir. Hızı ona her 3 ÷ hız sırada bir adım verir, aşağı yuvarlanır (en az 1) ve her düşman bunun üstüne yarı yarıya daha hızlı yürür: bu bekleme 1.5'e bölünür, kesir sonraki adımlara aktarılır ve hiçbir zaman bir sıradan kısa olmaz. Böylece 1.6 ve üzeri hızda her sırada bir adım, 1.1–1.4'te 4 sırada üç adım, 0.8–1.0'da her 2 sırada bir adım, Trol'de 8 sırada üç adım ve 0.6'da 10 sırada üç adım atılır.
+Bir düşmanın sırası her 4 tikte bir gelir. Hızı ona her 3 ÷ hız sırada bir adım verir, aşağı yuvarlanır (en az 1) ve her düşman bunun üstüne onda üç daha hızlı yürür: bu bekleme 1.3'e bölünür, kesir sonraki adımlara aktarılır ve hiçbir zaman bir sıradan kısa olmaz. Böylece 1.6 ve üzeri hızda her sırada bir adım, 1.1–1.4'te 3 sırada yaklaşık iki adım, 0.8–1.0'da 7 sırada yaklaşık üç adım, Trol'de yaklaşık her 3 sırada bir adım ve 0.5–0.6'da her 4–5 sırada bir adım atılır.
 
 ### Rütbeler
 
@@ -76,8 +82,8 @@ Bir istila olayı tetiklendiğinde düşmanlar en kısa yoldan doğruca oyuncunu
 
 Düşmanlar **arazi türüne** göre doğar:
 
-- **Orman** — Slime'lar, Zombiler, Dev Kurtlar, Karanlık Tarikatçılar, Dev Örümcekler
-- **Dağ** — Goblinler, İskeletler, Ejderhalar, Ork Kabadayılar, Goblin Okçular, Troller
+- **Orman** — Slime'lar, Zombiler, Dev Kurtlar, Karanlık Tarikatçılar, Dev Örümcekler, Lağımcılar
+- **Dağ** — Goblinler, İskeletler, Ejderhalar, Ork Kabadayılar, Goblin Okçular, Troller, Mızrakçılar, Kalkan Taşıyıcılar, Kuşatma Canavarları
 - **Çayırlık** — Dev Sıçanlar, Haydutlar, Harpiler
 - **Çöl** — Kum Hortlakları
 
@@ -90,7 +96,7 @@ Ejderhalar ve Troller en tehlikeli düşmanlardır (tehlike seviyesi 5). 16 sald
 ## Ejderha Özel Mekanikleri
 
 - **Uzun Menzilli Saldırı**: 16 saldırı menzili, alev püskürtür
-- **Yüksek Hareketlilik**: 1.4 hız, 4 sırada üç adım: Dev Sıçanlar, Dev Örümcekler ve Haydutlar kadar hızlıdır; yalnızca Harpiler ve Dev Kurtlar (her sırada bir adım) daha hızlıdır
+- **Yüksek Hareketlilik**: 1.4 hız, 3 sırada yaklaşık iki adım: Dev Sıçanlar, Dev Örümcekler ve Haydutlar kadar hızlıdır; yalnızca Harpiler ve Dev Kurtlar (her sırada bir adım) daha hızlıdır
 - **Geniş Görüş**: 32 karo görüş menzili, maceraperestleri çok uzaktan fark edebilir
 - **Kaçınma**: Tüm düşmanların temel %5 kaçınma oranı vardır
 

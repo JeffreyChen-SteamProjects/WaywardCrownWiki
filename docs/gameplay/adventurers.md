@@ -29,9 +29,9 @@ Every hero class in the game, written from its data: the six that any kingdom re
 | **Warrior** | — | Barracks | 70–150 | STR | 3 | Power Strike, Shield Wall, Berserker, Warlord, War Cry |
 | **Mage** | — | Mage Tower | 25–65 | INT | 12 | Fire Bolt, Mana Shield, Chain Lightning, Archmage, Fire Tornado |
 | **Ranger** | — | Ranger Lodge | 45–100 | AGI | 11 | Precise Shot, Evasion, Multi Shot, Eagle Eye, Wind Break |
-| **Guard** | — | Guard Post | 50–120 | STR | 3 | Vigilance, Fortify, Taunt, Bastion |
-| **Builder** | — | Builder's Guild | 30–70 | — | 3 | Quick Repair, Reinforce, Master Craft, Architect |
-| **Thief** | — | Thieves' Guild | 35–80 | AGI | 3 | Backstab, Evasion, Cutpurse, Shadow Dance |
+| **Guard** | — | Guard Post | 50–120 | STR | 3 | Vigilance, Fortify, Taunt, Bastion, Close Guard |
+| **Builder** | — | Builder's Guild | 30–70 | — | 3 | Quick Repair, Reinforce, Master Craft, Architect, Emergency Repair |
+| **Thief** | — | Thieves' Guild | 35–80 | AGI | 3 | Backstab, Evasion, Cutpurse, Shadow Dance, Slip Away |
 | **Shield Knight** | Guardian | Bastion | 90–170 | STR | 3 | Vigilance, Shield Wall, Taunt, Bastion, Oath Shield, Sworn Stand-in, To the Rescue |
 | **Hospitaller** | Guardian | Sanctuary | 50–100 | INT | 3 | Vigilance, Mana Shield, Fortify, Bastion, Mending Prayer |
 | **Pathfinder** | Wilds | Wild Camp | 50–105 | AGI | 11 | Precise Shot, Evasion, Multi Shot, Eagle Eye, Hunter's Mark |

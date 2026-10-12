@@ -29,9 +29,9 @@ Tutte le classi di eroi del gioco, scritte dai suoi dati: le sei che ogni regno 
 | **Guerriero** | — | Caserma | 70–150 | FOR | 3 | Colpo potente, Muro di scudi, Berserker, Signore della guerra, Grido di guerra |
 | **Mago** | — | Torre del mago | 25–65 | INT | 12 | Dardo infuocato, Scudo di mana, Fulmine a catena, Arcimago, Tornado di fuoco |
 | **Ranger** | — | Capanna del ranger | 45–100 | AGI | 11 | Tiro preciso, Evasione, Tiro multiplo, Occhio d'aquila, Rompivento |
-| **Guardia** | — | Posto di guardia | 50–120 | FOR | 3 | Vigilanza, Fortifica, Provocazione, Bastione |
-| **Costruttore** | — | Gilda dei costruttori | 30–70 | — | 3 | Riparazione rapida, Rinforzo, Maestria artigiana, Architetto |
-| **Ladro** | — | Gilda dei ladri | 35–80 | AGI | 3 | Pugnalata alle spalle, Evasione, Borseggiatore, Danza delle ombre |
+| **Guardia** | — | Posto di guardia | 50–120 | FOR | 3 | Vigilanza, Fortifica, Provocazione, Bastione, Guardia ravvicinata |
+| **Costruttore** | — | Gilda dei costruttori | 30–70 | — | 3 | Riparazione rapida, Rinforzo, Maestria artigiana, Architetto, Riparazione d'emergenza |
+| **Ladro** | — | Gilda dei ladri | 35–80 | AGI | 3 | Pugnalata alle spalle, Evasione, Borseggiatore, Danza delle ombre, Dileguarsi |
 | **Cavaliere dello Scudo** | Guardiano | Bastione | 90–170 | FOR | 3 | Vigilanza, Muro di scudi, Provocazione, Bastione, Scudo del Giuramento, Giuramento del Sostituto, Alla Riscossa |
 | **Ospitaliere** | Guardiano | Santuario | 50–100 | INT | 3 | Vigilanza, Scudo di mana, Fortifica, Bastione, Preghiera Risanatrice |
 | **Battistrada** | Terre selvagge | Campo selvaggio | 50–105 | AGI | 11 | Tiro preciso, Evasione, Tiro multiplo, Occhio d'aquila, Marchio del Cacciatore |

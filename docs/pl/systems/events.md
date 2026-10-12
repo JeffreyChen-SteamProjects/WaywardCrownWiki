@@ -111,6 +111,17 @@ Tworzą trwałe struktury na mapie.
 
 ---
 
+## Dzień, noc i pogoda
+
+Wolną grę można zacząć z płynącym dniem, z pogodą albo z jednym i drugim; każde zaznacza się osobno i żadne nie jest wydarzeniem: na nic nie trzeba odpowiadać.
+
+- **Dzień** trwa do wyboru 12, 24 lub 48 minut gry: świt, dzień, zmierzch i noc. Górny pasek podaje dzień, jego porę i pogodę, a podpowiedź mówi, co będzie dalej i kiedy. Prognoza zawsze się sprawdza.
+- **Deszcz i burza** zatrzymują każdego, kto idzie poza drogami, bohatera czy potwora, najwyżej raz na dziesięć tur. Po drogach idzie się sucho.
+- **Mgła i noc** skracają zasięg wzroku bohaterów i budynków najwyżej o jedną czwartą. Przy zamku i budynkach królestwa świecą się okna i noc niczego nie odbiera; łucznik nigdy nie widzi bliżej, niż strzela.
+- **Wiatr** odbiera jedną dziesiątą obrażeń strzał, bełtów i oszczepów. Zaklęć wiatr nie znosi.
+- **Burza piaskowa lub gęsta mgła** zajmuje miejsce pogody tam, gdzie rządzi tym samym: nigdy się nie sumują.
+- **Potwory mają swoje pory.** Szkielety, zombie, upiory, kultyści, pająki i szczury są ospałe za dnia; gobliny, orkowie, bandyci, harpie i piechota legionu nocą. Trolle, wilki i smok nie mają pór.
+
 ## Strategie radzenia sobie
 
 :::tip[Wydarzenia zagrożenia]
