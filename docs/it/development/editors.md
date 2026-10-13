@@ -92,3 +92,19 @@ campaigns/my_campaign/
 - Posiziona le campagne ricevute in `campaigns/` per visualizzarle nel menu principale
 - Se il gioco è avviato da Steam, **Pubblica nel Workshop** del gestore mappe mette una tua mappa o campagna nello Steam Workshop, e quelle a cui sei iscritto compaiono nei suoi elenchi contrassegnate con [Workshop]. Steam le mantiene aggiornate, quindi non si possono modificare, rinominare né eliminare; **Duplica** crea una mappa tua
 - Un pacchetto di contenuti si installa da solo: pubblicalo o condividi il suo ZIP a parte, e chi lo installa trova le sue classi, i suoi mostri, edifici e roccaforti nelle proprie partite, senza bisogno di alcuna mappa. Una mappa o una campagna che colloca qualcosa di un pacchetto richiede quel plugin: pubblica prima il pacchetto (la finestra di pubblicazione propone poi l'elemento Workshop del pacchetto come elemento richiesto)
+
+<!-- town-beautification:begin (written by tools/town_docs.py; do not edit) -->
+### Abbellire la città
+
+**Strumenti**
+
+Dodici decorazioni costano 10, 25 o 50 oro ciascuna, senza rincari per quantità. Otto aspetti delle strade sono gratuiti. Spostare, ruotare e cambiare colore è gratis; rimuovere restituisce metà del prezzo salvato, arrotondata per difetto per oggetto.
+
+Solo aspetto: nessun servizio, collisione, reddito o bonus in battaglia. Spostare e ruotare è gratis.
+
+Fontane, giardini e campanili sono in Abbellire la città → Decorazioni e conservano funzioni e prezzi degli edifici. La strada normale è in Strade gratuite.
+
+Scegli una decorazione e clicca sul terreno, oppure trascina e rilascia un tratto di strada. Seleziona → Sposta modifica un oggetto esistente. R ruota, Esc annulla, Delete rimuove la decorazione scelta. Ctrl+Z / Ctrl+Y cambiano solo l’aspetto stradale; le nuove strade rimangono. L’editor usa gli stessi strumenti e le decorazioni dell’autore non hanno valore di rimborso.
+
+Aspetti gratuiti con la normale velocità della strada. Trascina e rilascia; cancellare conserva la strada.
+<!-- town-beautification:end -->

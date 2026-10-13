@@ -177,3 +177,34 @@ El contenido propio de una senda: sus edificios solo se levantan en esa senda, c
 | **Comercio** | Gremio Mercantil: 360 de oro, 900 de vida. Recluta Escolta (máx. 3)<br>Depósito: 280 de oro, 750 de vida. Aquí se investigan los Contratos de Flete: cada viaje de una caravana paga un 20 % más · Las caravanas descargan aquí cuando queda más cerca de su puesto que el castillo: el viaje paga por las casillas recorridas, en esta caja · Vende pociones · Recluta Caravanero (máx. 3) | Escolta — Guardia de la Carga, Marcha Forzada, Servicio de Escolta<br>Caravanero — Marca de Ruta | Cartas de Comercio — Cada viaje de ida y vuelta de una caravana paga un 20 % más.<br>Compra al por Mayor — Los edificios cuestan un 10 % menos.<br>Acero a sueldo — Escolta: +3 de defensa.<br>Curtido en el camino — Caravanero: +3 de defensa.<br>Contratos de Flete — Cada viaje de ida y vuelta de una caravana paga otro 20 % más. | Pacto Dorado (200 de oro) [Gremio Mercantil] — Púlsalo, sin objetivo: durante 60 segundos tus recaudadores, caravanas y obreros reales reciben un 75 % menos de daño del golpe de un monstruo.<br>Traslado Urgente (150 de oro) [Depósito] — Púlsalo, sin objetivo: cada recaudador en camino entrega al instante lo que lleva al tesoro y sigue su ronda. Cuesta su precio por poco que lleven. |
 | **Tiranía** | Tribunal: 360 de oro, 1000 de vida. Recluta Inquisidor (máx. 3)<br>Oficina de Tributos: 300 de oro, 800 de vida. Incauta cada 60s las cajas de los edificios a 12 casillas o menos: el tesoro recibe el 85% · Recluta Ejecutor (máx. 3) | Inquisidor — Marca del Terror, Juramento de Hierro<br>Ejecutor — Veredicto de Cadenas | Tributo de Hierro — Oficina de Tributos: no pierde nada de lo que incauta.<br>Reinado del Miedo — El castillo y las torres de arqueros reciben un 15 % menos de cada golpe.<br>Edicto de celo — Inquisidor: +4 de ataque.<br>Cota pesada — Ejecutor: +4 de defensa. | Edicto del Tirano (300 de oro) [Tribunal] — Púlsalo, sin objetivo: durante 40 segundos el castillo y todos tus edificios reciben un 40 % menos de daño de los ataques de los monstruos. En ese tiempo los héroes que descansan sanan al 50 % de su ritmo: nadie descansa mientras rige el edicto.<br>Leva de Guerra (100 de oro) [Oficina de Tributos] — Púlsalo, sin objetivo: todo lo que hay en las cajas de tus edificios va al tesoro al instante, entero. Durante los 120 segundos siguientes la parte del tesoro en lo que los héroes gastan y saquean es solo el 50 % de lo habitual.<br>Marca del Silencio (250 de oro) [Tribunal] — Actívalo y haz clic en terreno que ya hayas visto: durante 30 segundos los monstruos a 2 casillas o menos del punto hacen un 50 % menos de daño con sus golpes a tu gente, y un jefe con nombre entre ellos no usa ninguna habilidad (un jefe se libra antes de la marca). |
 <!-- castle-paths-content:end -->
+
+<!-- town-beautification:begin (written by tools/town_docs.py; do not edit) -->
+### Embellecer la ciudad
+
+Doce decoraciones cuestan 10, 25 o 50 de oro por pieza, sin aumentos por cantidad. Ocho aspectos de camino son gratuitos. Mover, girar y cambiar colores es gratis; retirar devuelve la mitad del precio guardado, redondeada hacia abajo por objeto.
+
+Solo aspecto: sin servicios, colisión, ingresos ni ventajas de combate. Mover y girar es gratis.
+
+Las fuentes, jardines y campanarios están en Embellecer la ciudad → Decoraciones y conservan sus funciones y precios de edificio. El camino normal está en Caminos gratuitos.
+
+Elige una decoración y pulsa el terreno, o arrastra y suelta un tramo de camino. Seleccionar → Mover edita un objeto existente. R gira, Esc cancela y Delete retira la decoración elegida. Ctrl+Z / Ctrl+Y deshacen o rehacen el aspecto del camino; las nuevas carreteras permanecen. El editor usa las mismas herramientas y las decoraciones del autor no tienen valor de reembolso.
+
+Aspectos de camino gratuitos con la velocidad habitual. Arrastra y suelta para pintar; borrar conserva el camino.
+
+| Decoraciones | Coste:  oro |
+| --- | --- |
+| Cenador (2×2) | 25 |
+| Pabellón mirador (3×3) | 50 |
+| Monumento (2×2) | 25 |
+| Bandera del gremio (1×1) | 10 |
+| Quiosco de avisos (2×2) | 25 |
+| Bancos (2×1) | 25 |
+| Pérgola (2×2) | 25 |
+| Parterre con setos (2×2) | 25 |
+| Pozo ornamental (1×1) | 10 |
+| Santuario pequeño (1×1) | 10 |
+| Arco festivo (3×1) | 50 |
+| Macetas (1×1) | 10 |
+
+Caminos gratuitos: Tierra apisonada, Grava, Adoquines, Losas, Ladrillo rojo, Pavimento claro, Piedras con hierba, Pasarela de madera.
+<!-- town-beautification:end -->

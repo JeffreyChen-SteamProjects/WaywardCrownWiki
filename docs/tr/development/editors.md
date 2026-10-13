@@ -92,3 +92,19 @@ campaigns/my_campaign/
 - Alınan kampanyaları ana menüde görmek için `campaigns/` dizinine yerleştirin
 - Oyun Steam üzerinden çalışırken harita yöneticisindeki **Atölyede yayınla** haritalarından veya kampanyalarından birini Steam Atölyesi'ne koyar; abone olduklarınız listelerinde [Atölye] işaretiyle görünür. Bunları Steam güncel tuttuğu için düzenlenemez, yeniden adlandırılamaz ve silinemezler; **Kopyala** kendi haritanı oluşturur
 - İçerik paketi kendi başına kurulur: paketi yayımlayın ya da ZIP dosyasını ayrıca paylaşın; onu kuran kişi, hiçbir harita olmadan sınıflarını, canavarlarını, binalarını ve kalelerini kendi oyunlarında bulur. Bir paketten bir şey yerleştiren harita ya da kampanya o eklentiyi gerektirir: önce paketi yayımlayın (yayımlama penceresi o zaman paketin Atölye öğesini gerekli öğe olarak önerir)
+
+<!-- town-beautification:begin (written by tools/town_docs.py; do not edit) -->
+### Kasabayı güzelleştir
+
+**Araçlar**
+
+On iki süsleme parça başına 10, 25 veya 50 altındır; sayıyla fiyat artmaz. Sekiz yol görünümü ücretsizdir. Taşıma, döndürme ve renk değiştirme ücretsizdir; kaldırma, kayıtlı bedelin yarısını nesne başına aşağı yuvarlayarak iade eder.
+
+Yalnızca görünüm: hizmet, çarpışma, gelir veya savaş yararı yoktur. Taşıma ve döndürme ücretsizdir.
+
+Çeşmeler, bahçeler ve çan kuleleri Kasabayı güzelleştir → Süslemeler bölümündedir; bina işlevleri ve fiyatları korunur. Standart yol Ücretsiz yollar bölümündedir.
+
+Bir süsleme seçip yere tıkla veya yol çizgisini sürükleyip bırak. Seç → Taşı, mevcut nesneyi düzenler. R döndürür, Esc iptal eder, Delete seçili süslemeyi kaldırır. Ctrl+Z / Ctrl+Y yalnızca yol görünümünü geri alır veya yineler; yeni yollar kalır. Harita düzenleyici aynı araçları kullanır ve yazarın koyduğu süslemelerin iade değeri yoktur.
+
+Ücretsiz görünümler normal yol hızını kullanır. Sürükleyip bırak; temizlemek yolu korur.
+<!-- town-beautification:end -->

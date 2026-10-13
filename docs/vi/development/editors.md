@@ -92,3 +92,19 @@ campaigns/my_campaign/
 - Đặt chiến dịch nhận được vào `campaigns/` để thấy trong menu chính
 - Khi chạy trò chơi qua Steam, nút **Đăng lên Workshop** của trình quản lý bản đồ đưa bản đồ hoặc chiến dịch của bạn lên Steam Workshop, còn những mục bạn đăng ký sẽ hiện trong danh sách với dấu [Workshop]. Steam tự cập nhật chúng nên không thể sửa, đổi tên hay xóa; **Nhân bản** để có bản đồ của riêng bạn
 - Gói nội dung được cài riêng: hãy phát hành gói hoặc chia sẻ riêng tệp ZIP của nó, và ai cài gói sẽ có các lớp, quái vật, công trình và căn cứ của gói trong các ván chơi của mình mà không cần bản đồ nào. Bản đồ hoặc chiến dịch đặt thứ gì đó từ một gói sẽ yêu cầu plugin đó: hãy phát hành gói trước (cửa sổ phát hành khi đó sẽ gợi ý vật phẩm Workshop của gói làm vật phẩm bắt buộc)
+
+<!-- town-beautification:begin (written by tools/town_docs.py; do not edit) -->
+### Làm đẹp thị trấn
+
+**Công cụ**
+
+Mười hai đồ trang trí có giá cố định 10, 25 hoặc 50 vàng mỗi món, không tăng theo số lượng. Tám kiểu đường miễn phí. Di chuyển, xoay và đổi màu miễn phí; gỡ bỏ hoàn nửa giá mua đã lưu, làm tròn xuống từng món.
+
+Chỉ trang trí: không có dịch vụ, va chạm, thu nhập hay lợi ích chiến đấu. Di chuyển và xoay miễn phí.
+
+Đài phun nước, vườn và tháp chuông đã chuyển vào Làm đẹp thị trấn → Đồ trang trí, giữ nguyên chức năng và giá công trình. Đường thường nằm trong Đường miễn phí.
+
+Chọn đồ trang trí rồi nhấp vào đất, hoặc kéo và thả một nét đường. Chọn → Di chuyển chỉnh món hiện có. R xoay, Esc hủy, Delete gỡ món đã chọn. Ctrl+Z / Ctrl+Y chỉ hoàn tác hoặc làm lại kiểu đường; đường mới vẫn còn. Trình sửa bản đồ dùng cùng công cụ; đồ do tác giả đặt không có tiền hoàn lại.
+
+Kiểu đường miễn phí dùng tốc độ đường thường. Kéo rồi thả để vẽ; xóa kiểu vẫn giữ đường.
+<!-- town-beautification:end -->

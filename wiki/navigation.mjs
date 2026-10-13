@@ -447,26 +447,6 @@ export const sidebar = [
         "slug": "development/editors"
       },
       {
-        "label": "Packaging",
-        "translations": {
-          "zh-TW": "打包發布",
-          "zh": "打包发布",
-          "ja": "パッケージング",
-          "ko": "패키징",
-          "de": "Paketierung",
-          "fr": "Empaquetage",
-          "es": "Empaquetado",
-          "it": "Pacchettizzazione",
-          "pt-BR": "Empacotamento",
-          "ru": "Упаковка",
-          "pl": "Pakowanie",
-          "tr": "Paketleme",
-          "th": "การแพ็กเกจ",
-          "vi": "Đóng gói"
-        },
-        "slug": "development/packaging"
-      },
-      {
         "label": "Localization",
         "translations": {
           "zh-TW": "多語系",

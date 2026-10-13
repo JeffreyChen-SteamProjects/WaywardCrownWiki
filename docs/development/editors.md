@@ -92,3 +92,19 @@ campaigns/my_campaign/
 - Place received campaigns into `campaigns/` to see them in the main menu
 - When the game runs through Steam, the map manager's **Publish to Workshop** puts one of your maps or campaigns on the Steam Workshop, and the ones you subscribe to appear in its lists marked [Workshop]. Steam keeps those up to date, so they cannot be edited, renamed or deleted; **Duplicate** makes a map of your own
 - A content pack is installed by itself: publish it or share its ZIP on its own, and whoever installs it finds its classes, monsters, buildings and strongholds in their own games, with no map needed. A map or campaign that places something from a pack requires that plugin: publish the pack first (the publish window then suggests the pack's Workshop item as a required item)
+
+<!-- town-beautification:begin (written by tools/town_docs.py; do not edit) -->
+### Town beautification
+
+**Tools**
+
+Twelve decorations cost 10, 25 or 50 gold each, without quantity increases. Eight road appearances are free. Moving, turning and recolouring are free; removal refunds half the saved purchase price, rounded down per object.
+
+Visual only: no services, collision, income or combat benefits. Move and rotate for free.
+
+Fountains, gardens and belfries are now in Town beautification → Decorations and keep their building functions and prices. The standard road is in Free roads.
+
+Select a decoration to place it, or drag a road stroke and release to apply. Select → Move edits an existing object. R rotates, Esc cancels, Delete removes the selected decoration, and Ctrl+Z / Ctrl+Y undo or redo road appearance edits. New roads remain after undo. The map editor uses the same tools and saves authored decorations with no refund value.
+
+Free road appearances use ordinary road speed. Drag and release to paint; clearing keeps the road.
+<!-- town-beautification:end -->

@@ -92,3 +92,19 @@ campaigns/my_campaign/
 - Coloque as campanhas recebidas em `campaigns/` para vê-las no menu principal
 - Com o jogo rodando pelo Steam, **Publicar na Oficina** no gerenciador de mapas envia um mapa ou campanha seu para a Oficina Steam, e os que você assina aparecem nas listas marcados com [Oficina]. O Steam os mantém atualizados, então não podem ser editados, renomeados nem excluídos; **Duplicar** cria um mapa seu
 - Um pacote de conteúdo é instalado por si só: publique-o ou compartilhe o ZIP dele separadamente, e quem o instalar terá suas classes, monstros, construções e fortalezas nos próprios jogos, sem precisar de mapa nenhum. Um mapa ou uma campanha que coloca algo de um pacote exige esse plugin: publique o pacote primeiro (a janela de publicação então sugere o item da Oficina do pacote como item necessário)
+
+<!-- town-beautification:begin (written by tools/town_docs.py; do not edit) -->
+### Embelezar a cidade
+
+**Ferramentas**
+
+Doze decorações custam 10, 25 ou 50 de ouro por peça, sem aumento por quantidade. Oito aparências de estrada são grátis. Mover, girar e recolorir é grátis; remover devolve metade do preço registrado, arredondada para baixo por objeto.
+
+Somente aparência: sem serviços, colisão, renda ou bônus de combate. Mover e girar é grátis.
+
+Fontes, jardins e campanários estão em Embelezar a cidade → Decorações e mantêm as funções e preços de construção. A estrada padrão está em Estradas gratuitas.
+
+Escolha uma decoração e clique no chão, ou arraste e solte um trecho de estrada. Selecionar → Mover edita um objeto existente. R gira, Esc cancela e Delete remove a decoração escolhida. Ctrl+Z / Ctrl+Y desfazem ou refazem a aparência da estrada; as novas estradas permanecem. O editor usa as mesmas ferramentas e as decorações do autor não têm valor de reembolso.
+
+Aparências gratuitas com a velocidade normal da estrada. Arraste e solte para pintar; limpar preserva a estrada.
+<!-- town-beautification:end -->

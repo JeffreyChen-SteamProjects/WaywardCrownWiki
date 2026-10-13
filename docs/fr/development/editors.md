@@ -92,3 +92,19 @@ campaigns/my_campaign/
 - Placez les campagnes reçues dans `campaigns/` pour les voir dans le menu principal
 - Quand le jeu tourne avec Steam, **Publier sur le Workshop** du gestionnaire de cartes met l'une de vos cartes ou campagnes sur le Workshop Steam, et celles auxquelles vous êtes abonné apparaissent dans ses listes marquées [Workshop]. Steam les tient à jour : elles ne peuvent être ni modifiées, ni renommées, ni supprimées ; **Dupliquer** crée votre propre carte
 - Un pack de contenu s'installe seul : publiez-le ou partagez son ZIP à part, et quiconque l'installe retrouve ses classes, monstres, bâtiments et forteresses dans ses propres parties, sans aucune carte. Une carte ou une campagne qui place quelque chose d'un pack exige ce plugin : publiez d'abord le pack (la fenêtre de publication propose alors l'élément Workshop du pack comme élément requis)
+
+<!-- town-beautification:begin (written by tools/town_docs.py; do not edit) -->
+### Embellir la ville
+
+**Outils**
+
+Douze décorations coûtent chacune 10, 25 ou 50 or, sans hausse selon la quantité. Huit aspects de route sont gratuits. Déplacement, rotation et changement de couleur sont gratuits ; le retrait rembourse la moitié du prix enregistré, arrondie à l’entier inférieur par objet.
+
+Aspect uniquement : ni services, collision, revenus ou bonus de combat. Déplacement et rotation gratuits.
+
+Fontaines, jardins et beffrois sont dans Embellir la ville → Décorations et gardent leurs fonctions et prix de bâtiment. La route standard est dans Routes gratuites.
+
+Choisissez une décoration puis cliquez au sol, ou tracez une route et relâchez. Sélectionner → Déplacer modifie un objet existant. R tourne, Échap quitte, Suppr retire la décoration sélectionnée. Ctrl+Z / Ctrl+Y annulent ou rétablissent l’aspect des routes ; les nouvelles routes restent. L’éditeur utilise les mêmes outils et les décorations de l’auteur n’ont aucune valeur de remboursement.
+
+Aspects de route gratuits, avec la vitesse habituelle. Faites glisser puis relâchez ; effacer conserve la route.
+<!-- town-beautification:end -->

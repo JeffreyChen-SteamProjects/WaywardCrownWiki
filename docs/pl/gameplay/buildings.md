@@ -177,3 +177,34 @@ Własna zawartość drogi: jej budynki stoją tylko na tej drodze, każdy werbuj
 | **Handel** | Gildia Kupiecka: 360 złota, 900 wytrzymałości. Rekrutuje Eskortant (maks 3)<br>Skład: 280 złota, 750 wytrzymałości. Tu bada się Kontrakty Przewozowe: kurs karawany przynosi o 20% więcej · Karawany rozładowują się tutaj, gdy jest bliżej ich faktorii niż zamek: kurs płaci za przebyte pola, do tej kasy · Sprzedaje mikstury · Rekrutuje Karawaniarz (maks 3) | Eskortant — Straż Towaru, Forsowny Marsz, Służba Konwojowa<br>Karawaniarz — Znak Szlaku | Przywileje Handlowe — Kurs karawany tam i z powrotem przynosi o 20% więcej.<br>Zakupy Hurtowe — Budynki kosztują o 10% mniej.<br>Najemna stal — Eskortant: +3 do obrony.<br>Zahartowany w drodze — Karawaniarz: +3 do obrony.<br>Kontrakty Przewozowe — Kurs karawany tam i z powrotem przynosi o kolejne 20% więcej. | Złoty Kontrakt (200 zł.) [Gildia Kupiecka] — Naciśnij, bez celu: przez 60 sekund twoi poborcy, karawany i królewscy robotnicy otrzymują o 75% mniej obrażeń od ciosu potwora.<br>Pilny Przekaz (150 zł.) [Skład] — Naciśnij, bez celu: każdy poborca w drodze od razu oddaje skarbcowi to, co niesie, i idzie dalej. Kosztuje swoją cenę, choćby nieśli niewiele. |
 | **Tyrania** | Trybunał: 360 złota, 1000 wytrzymałości. Rekrutuje Inkwizytor (maks 3)<br>Urząd Poboru: 300 złota, 800 wytrzymałości. Co 60s zajmuje kasy budynków w promieniu 12 pól: skarbiec dostaje 85% · Rekrutuje Egzekutor (maks 3) | Inkwizytor — Piętno Grozy, Żelazna Przysięga<br>Egzekutor — Wyrok Łańcuchów | Żelazny Pobór — Urząd Poboru: nie traci nic z tego, co zajmuje.<br>Rządy Strachu — Zamek i wieże łucznicze przyjmują o 15% mniej z każdego ciosu.<br>Edykt gorliwości — Inkwizytor: +4 do ataku.<br>Ciężka kolczuga — Egzekutor: +4 do obrony. | Edykt Tyrana (300 zł.) [Trybunał] — Naciśnij, bez celu: przez 40 sekund zamek i każdy twój budynek otrzymują o 40% mniej obrażeń od ataków potworów. W tym czasie odpoczywający bohaterowie leczą się w 50% swojego tempa: nikt nie odpoczywa, póki trwa edykt.<br>Pobór Wojenny (100 zł.) [Urząd Poboru] — Naciśnij, bez celu: wszystko z kas twoich budynków trafia od razu do skarbca, w całości. Przez następne 120 sekund udział skarbca w tym, co bohaterowie wydają i łupią, to tylko 50% zwykłego.<br>Piętno Milczenia (250 zł.) [Trybunał] — Wybierz, potem kliknij widziany już teren: przez 30 sekund potwory w promieniu 2 pól od tego miejsca zadają twoim ludziom ciosami o 50% mniej obrażeń, a nazwany boss wśród nich nie używa żadnej umiejętności (boss szybciej zrzuca piętno). |
 <!-- castle-paths-content:end -->
+
+<!-- town-beautification:begin (written by tools/town_docs.py; do not edit) -->
+### Upiększanie miasta
+
+Dwanaście dekoracji kosztuje po 10, 25 lub 50 złota, bez wzrostu ceny za liczbę. Osiem stylów dróg jest darmowych. Przenoszenie, obrót i zmiana koloru są darmowe; usunięcie zwraca połowę zapisanej ceny, zaokrągloną w dół dla każdego obiektu.
+
+Tylko wygląd: bez usług, kolizji, dochodu i premii bojowych. Przenoszenie i obracanie są darmowe.
+
+Fontanny, ogrody i dzwonnice są w Upiększanie miasta → Dekoracje i zachowują funkcje oraz ceny budynków. Zwykła droga znajduje się w Darmowych drogach.
+
+Wybierz dekorację i kliknij ziemię lub przeciągnij odcinek drogi i puść. Wybierz → Przenieś edytuje istniejący obiekt. R obraca, Esc anuluje, Delete usuwa wybraną dekorację. Ctrl+Z / Ctrl+Y zmieniają tylko wygląd dróg; nowe drogi pozostają. Edytor używa tych samych narzędzi, a dekoracje autora nie dają zwrotu pieniędzy.
+
+Darmowe style zachowują zwykłą prędkość drogi. Przeciągnij i puść; czyszczenie nie usuwa drogi.
+
+| Dekoracje | Koszt:  złota |
+| --- | --- |
+| Altana (2×2) | 25 |
+| Pawilon widokowy (3×3) | 50 |
+| Pomnik (2×2) | 25 |
+| Sztandar gildii (1×1) | 10 |
+| Pawilon ogłoszeń (2×2) | 25 |
+| Ławki (2×1) | 25 |
+| Pergola (2×2) | 25 |
+| Rabata z żywopłotem (2×2) | 25 |
+| Ozdobna studnia (1×1) | 10 |
+| Mała kapliczka (1×1) | 10 |
+| Świąteczny łuk (3×1) | 50 |
+| Donice (1×1) | 10 |
+
+Darmowe drogi: Ubita ziemia, Żwir, Bruk, Płyty kamienne, Czerwona cegła, Jasna kostka, Kamienie w trawie, Drewniana ścieżka.
+<!-- town-beautification:end -->

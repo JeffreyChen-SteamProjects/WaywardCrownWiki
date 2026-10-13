@@ -177,3 +177,34 @@ O conteúdo próprio de um caminho: seus edifícios só existem nesse caminho, c
 | **Comércio** | Guilda Mercantil: 360 de ouro, 900 de vida. Recruta Escolta (máx 3)<br>Depósito: 280 de ouro, 750 de vida. Aqui se pesquisam os Contratos de Frete: cada viagem de uma caravana paga 20% a mais · As caravanas descarregam aqui quando fica mais perto do entreposto delas que o castelo: a viagem paga pelas casas percorridas, neste caixa · Vende poções · Recruta Caravaneiro (máx 3) | Escolta — Guarda da Carga, Marcha Forçada, Serviço de Escolta<br>Caravaneiro — Marca de Rota | Cartas de Comércio — Cada viagem de ida e volta de uma caravana paga 20% a mais.<br>Compras em Atacado — Os edifícios custam 10% a menos.<br>Aço contratado — Escolta: +3 de defesa.<br>Calejado pela estrada — Caravaneiro: +3 de defesa.<br>Contratos de Frete — Cada viagem de ida e volta de uma caravana paga mais 20%. | Pacto Dourado (200 de ouro) [Guilda Mercantil] — Pressione, sem alvo: por 60 segundos seus cobradores, caravanas e operários reais sofrem 75% menos dano do golpe de um monstro.<br>Transferência Urgente (150 de ouro) [Depósito] — Pressione, sem alvo: cada cobrador a caminho entrega na hora o que carrega ao tesouro e segue a ronda. Custa o seu preço por pouco que carreguem. |
 | **Tirania** | Tribunal: 360 de ouro, 1000 de vida. Recruta Inquisidor (máx 3)<br>Escritório de Tributos: 300 de ouro, 800 de vida. Confisca a cada 60s os caixas dos edifícios a até 12 casas: o tesouro recebe 85% · Recruta Executor (máx 3) | Inquisidor — Marca do Pavor, Juramento de Ferro<br>Executor — Veredito das Correntes | Tributo de Ferro — Escritório de Tributos: não perde nada do que confisca.<br>Reinado do Medo — O castelo e as torres de arqueiros sofrem 15% a menos de cada golpe.<br>Édito de zelo — Inquisidor: +4 de ataque.<br>Cota pesada — Executor: +4 de defesa. | Édito do Tirano (300 de ouro) [Tribunal] — Pressione, sem alvo: por 40 segundos o castelo e todos os seus edifícios sofrem 40% menos dano dos ataques dos monstros. Nesse tempo os heróis em repouso curam a 50% do ritmo: ninguém descansa enquanto o édito vigora.<br>Leva de Guerra (100 de ouro) [Escritório de Tributos] — Pressione, sem alvo: tudo o que há nos caixas dos seus edifícios vai na hora para o tesouro, inteiro. Nos 120 segundos seguintes a parte do tesouro no que os heróis gastam e saqueiam é só 50% do normal.<br>Marca do Silêncio (250 de ouro) [Tribunal] — Ative e clique em terreno que você já viu: por 30 segundos os monstros a até 2 tiles do ponto causam 50% menos dano com seus golpes na sua gente, e um chefe com nome entre eles não usa nenhuma habilidade (um chefe se livra da marca mais cedo). |
 <!-- castle-paths-content:end -->
+
+<!-- town-beautification:begin (written by tools/town_docs.py; do not edit) -->
+### Embelezar a cidade
+
+Doze decorações custam 10, 25 ou 50 de ouro por peça, sem aumento por quantidade. Oito aparências de estrada são grátis. Mover, girar e recolorir é grátis; remover devolve metade do preço registrado, arredondada para baixo por objeto.
+
+Somente aparência: sem serviços, colisão, renda ou bônus de combate. Mover e girar é grátis.
+
+Fontes, jardins e campanários estão em Embelezar a cidade → Decorações e mantêm as funções e preços de construção. A estrada padrão está em Estradas gratuitas.
+
+Escolha uma decoração e clique no chão, ou arraste e solte um trecho de estrada. Selecionar → Mover edita um objeto existente. R gira, Esc cancela e Delete remove a decoração escolhida. Ctrl+Z / Ctrl+Y desfazem ou refazem a aparência da estrada; as novas estradas permanecem. O editor usa as mesmas ferramentas e as decorações do autor não têm valor de reembolso.
+
+Aparências gratuitas com a velocidade normal da estrada. Arraste e solte para pintar; limpar preserva a estrada.
+
+| Decorações | Custo:  ouro |
+| --- | --- |
+| Gazebo (2×2) | 25 |
+| Pavilhão de observação (3×3) | 50 |
+| Monumento (2×2) | 25 |
+| Bandeira da guilda (1×1) | 10 |
+| Quiosque de avisos (2×2) | 25 |
+| Bancos (2×1) | 25 |
+| Pérgola (2×2) | 25 |
+| Canteiro com sebes (2×2) | 25 |
+| Poço ornamental (1×1) | 10 |
+| Pequeno santuário (1×1) | 10 |
+| Arco festivo (3×1) | 50 |
+| Vasos (1×1) | 10 |
+
+Estradas gratuitas: Terra batida, Cascalho, Pedras arredondadas, Lajes, Tijolos vermelhos, Piso claro, Pedras com grama, Passarela de madeira.
+<!-- town-beautification:end -->

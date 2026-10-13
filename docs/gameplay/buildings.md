@@ -177,3 +177,34 @@ A path's own content: its buildings stand only on that path, each recruits a her
 | **Commerce** | Trade Guild: 360 gold, 900 health. Recruits Escort (max 3)<br>Depot: 280 gold, 750 health. Freight Contracts are researched here: a caravan's round pays 20% more · Caravans unload here when it is nearer their post than the castle: the round pays for the tiles hauled, into this till · Sells potions · Recruits Caravaneer (max 3) | Escort — Guard the Goods, Forced March, Convoy Duty<br>Caravaneer — Route Mark | Trade Charters — A caravan's round trip pays 20% more.<br>Bulk Buying — Buildings cost 10% less.<br>Hired Steel — Escort: +3 defence.<br>Road-Hardened — Caravaneer: +3 defence.<br>Freight Contracts — A caravan's round trip pays 20% more again. | Golden Bond (200g) [Trade Guild] — Press it, no target needed: for 60 seconds your tax collectors, caravans and royal workmen take 75% less harm from a monster's blow.<br>Emergency Transfer (150g) [Depot] — Press it, no target needed: every tax collector on the road hands what it carries to the treasury at once and goes on with its round. It costs its price however little they carry. |
 | **Tyranny** | Tribunal: 360 gold, 1000 health. Recruits Inquisitor (max 3)<br>Levy Office: 300 gold, 800 health. Seizes the tills of the buildings within 12 tiles every 60s: the treasury gets 85% of them · Recruits Enforcer (max 3) | Inquisitor — Dread Brand, Iron Oath<br>Enforcer — Chain Verdict | Iron Levy — The Levy Office loses none of what it seizes.<br>Reign of Fear — The castle and the arrow towers take 15% less from every hit.<br>Writ of Zeal — Inquisitor: +4 attack.<br>Heavy Mail — Enforcer: +4 defence. | Tyrant's Edict (300g) [Tribunal] — Press it, no target needed: for 40 seconds the castle and every building of yours take 40% less harm from monsters' attacks. For that time resting heroes heal at 50% of their pace: nobody rests while the edict stands.<br>War Levy (100g) [Levy Office] — Press it, no target needed: everything in your buildings' tills goes to the treasury at once, whole. For 120 seconds afterwards the treasury's share of what heroes spend and loot is only 50% of what it would be.<br>Silencing Brand (250g) [Tribunal] — Arm it, then click ground you have seen: for 30 seconds the monsters within 2 tiles of the spot do 50% less harm with their blows on your people, and a named boss among them uses no skill (a boss shakes the brand off sooner). |
 <!-- castle-paths-content:end -->
+
+<!-- town-beautification:begin (written by tools/town_docs.py; do not edit) -->
+### Town beautification
+
+Twelve decorations cost 10, 25 or 50 gold each, without quantity increases. Eight road appearances are free. Moving, turning and recolouring are free; removal refunds half the saved purchase price, rounded down per object.
+
+Visual only: no services, collision, income or combat benefits. Move and rotate for free.
+
+Fountains, gardens and belfries are now in Town beautification → Decorations and keep their building functions and prices. The standard road is in Free roads.
+
+Select a decoration to place it, or drag a road stroke and release to apply. Select → Move edits an existing object. R rotates, Esc cancels, Delete removes the selected decoration, and Ctrl+Z / Ctrl+Y undo or redo road appearance edits. New roads remain after undo. The map editor uses the same tools and saves authored decorations with no refund value.
+
+Free road appearances use ordinary road speed. Drag and release to paint; clearing keeps the road.
+
+| Decorations | Cost:  gold |
+| --- | --- |
+| Gazebo (2×2) | 25 |
+| View pavilion (3×3) | 50 |
+| Monument (2×2) | 25 |
+| Guild banner (1×1) | 10 |
+| Notice kiosk (2×2) | 25 |
+| Bench group (2×1) | 25 |
+| Pergola (2×2) | 25 |
+| Hedge bed (2×2) | 25 |
+| Ornamental well (1×1) | 10 |
+| Small shrine (1×1) | 10 |
+| Festival arch (3×1) | 50 |
+| Planter group (1×1) | 10 |
+
+Free roads: Packed earth, Gravel, Cobblestone, Flagstone, Red brick, Pale pavers, Grass stones, Boardwalk.
+<!-- town-beautification:end -->

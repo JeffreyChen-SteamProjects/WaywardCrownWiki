@@ -177,3 +177,34 @@ Nội dung riêng của mỗi con đường: các công trình của nó chỉ d
 | **Thương mại** | Thương hội: 360 vàng, 900 độ bền. Tuyển Hộ vệ Khế ước (tối đa 3)<br>Kho hàng: 280 vàng, 750 độ bền. Nghiên cứu Hợp đồng Vận tải tại đây: mỗi chuyến của đoàn buôn trả nhiều hơn 20% · Đoàn buôn dỡ hàng tại đây khi nơi này gần trạm của họ hơn lâu đài: mỗi chuyến trả theo số ô đã chở, vào két này · Bán thuốc · Tuyển Trưởng đoàn buôn (tối đa 3) | Hộ vệ Khế ước — Thế Hộ hàng, Hành quân Thần tốc, Nhiệm vụ Hộ tống<br>Trưởng đoàn buôn — Dấu Thương lộ | Đặc quyền Giao thương — Mỗi chuyến đi về của đoàn buôn trả nhiều hơn 20%.<br>Mua sỉ — Công trình rẻ hơn 10%.<br>Thép đánh thuê — Hộ vệ Khế ước: +3 phòng thủ.<br>Dạn dày đường xa — Trưởng đoàn buôn: +3 phòng thủ.<br>Hợp đồng Vận tải — Mỗi chuyến đi về của đoàn buôn trả thêm 20% nữa. | Kim khế Bảo toàn (200 vàng) [Thương hội] — Bấm là dùng, không cần mục tiêu: trong 60 giây, người thu thuế, đoàn buôn và thợ hoàng gia của bạn chịu ít hơn 75% sát thương từ đòn của quái vật.<br>Chuyển vận Khẩn cấp (150 vàng) [Kho hàng] — Bấm là dùng, không cần mục tiêu: mỗi người thu thuế trên đường giao ngay những gì đang mang cho ngân khố rồi đi tiếp. Giá vẫn vậy dù họ mang ít đến đâu. |
 | **Bạo chúa** | Tòa Hắc thệ: 360 vàng, 1000 độ bền. Tuyển Thẩm phán Hắc thệ (tối đa 3)<br>Sở Trưng thu: 300 vàng, 800 độ bền. Mỗi 60s tịch thu két của các công trình trong 12 ô: ngân khố nhận 85% · Tuyển Người cưỡng chế (tối đa 3) | Thẩm phán Hắc thệ — Ấn Kinh hãi, Thiết thệ Hộ vệ<br>Người cưỡng chế — Phán quyết Xiềng xích | Trưng thu Sắt — Sở Trưng thu: không mất chút nào trong số đã tịch thu.<br>Triều đại Sợ hãi — Lâu đài và tháp cung chịu ít hơn 15% sát thương mỗi đòn.<br>Sắc lệnh nhiệt thành — Thẩm phán Hắc thệ: +4 tấn công.<br>Giáp xích nặng — Người cưỡng chế: +4 phòng thủ. | Sắc lệnh Bạo chúa (300 vàng) [Tòa Hắc thệ] — Bấm là dùng, không cần mục tiêu: trong 40 giây, lâu đài và mọi công trình của bạn chịu ít hơn 40% sát thương từ đòn tấn công của quái vật. Trong lúc đó anh hùng đang nghỉ chỉ hồi phục bằng 50% nhịp thường: không ai được nghỉ khi sắc lệnh còn hiệu lực.<br>Trưng thu Chiến thời (100 vàng) [Sở Trưng thu] — Bấm là dùng, không cần mục tiêu: mọi thứ trong két của các công trình của bạn vào ngân khố ngay, nguyên vẹn. Trong 120 giây sau đó, phần của ngân khố trong những gì anh hùng tiêu và cướp được chỉ còn 50% so với thường lệ.<br>Hình ấn Câm lặng (250 vàng) [Tòa Hắc thệ] — Chọn rồi bấm vào vùng đất đã nhìn thấy: trong 30 giây, quái vật trong vòng 2 ô quanh điểm đó gây ít hơn 50% sát thương bằng đòn đánh lên người của bạn, và trùm có tên trong số đó không dùng được kỹ năng (trùm rũ bỏ hình ấn sớm hơn). |
 <!-- castle-paths-content:end -->
+
+<!-- town-beautification:begin (written by tools/town_docs.py; do not edit) -->
+### Làm đẹp thị trấn
+
+Mười hai đồ trang trí có giá cố định 10, 25 hoặc 50 vàng mỗi món, không tăng theo số lượng. Tám kiểu đường miễn phí. Di chuyển, xoay và đổi màu miễn phí; gỡ bỏ hoàn nửa giá mua đã lưu, làm tròn xuống từng món.
+
+Chỉ trang trí: không có dịch vụ, va chạm, thu nhập hay lợi ích chiến đấu. Di chuyển và xoay miễn phí.
+
+Đài phun nước, vườn và tháp chuông đã chuyển vào Làm đẹp thị trấn → Đồ trang trí, giữ nguyên chức năng và giá công trình. Đường thường nằm trong Đường miễn phí.
+
+Chọn đồ trang trí rồi nhấp vào đất, hoặc kéo và thả một nét đường. Chọn → Di chuyển chỉnh món hiện có. R xoay, Esc hủy, Delete gỡ món đã chọn. Ctrl+Z / Ctrl+Y chỉ hoàn tác hoặc làm lại kiểu đường; đường mới vẫn còn. Trình sửa bản đồ dùng cùng công cụ; đồ do tác giả đặt không có tiền hoàn lại.
+
+Kiểu đường miễn phí dùng tốc độ đường thường. Kéo rồi thả để vẽ; xóa kiểu vẫn giữ đường.
+
+| Đồ trang trí | Giá:  vàng |
+| --- | --- |
+| Chòi nghỉ (2×2) | 25 |
+| Đình ngắm cảnh (3×3) | 50 |
+| Đài tưởng niệm (2×2) | 25 |
+| Cờ hội (1×1) | 10 |
+| Chòi thông báo (2×2) | 25 |
+| Nhóm ghế dài (2×1) | 25 |
+| Giàn hoa (2×2) | 25 |
+| Bồn hoa hàng rào (2×2) | 25 |
+| Giếng trang trí (1×1) | 10 |
+| Miếu nhỏ (1×1) | 10 |
+| Cổng lễ hội (3×1) | 50 |
+| Nhóm chậu hoa (1×1) | 10 |
+
+Đường miễn phí: Đường đất nện, Đường sỏi, Đường đá cuội, Đường phiến đá, Đường gạch đỏ, Đường lát sáng, Lối đá xen cỏ, Lối ván gỗ.
+<!-- town-beautification:end -->

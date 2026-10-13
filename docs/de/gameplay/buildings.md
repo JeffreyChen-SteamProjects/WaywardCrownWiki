@@ -177,3 +177,34 @@ Die eigenen Inhalte eines Wegs: Seine Gebäude stehen nur auf diesem Weg, jedes 
 | **Handel** | Handelsgilde: 360 Gold, 900 Lebenspunkte. Rekrutiert Geleitwache (max. 3)<br>Warenlager: 280 Gold, 750 Lebenspunkte. Hier werden Frachtverträge erforscht: Eine Rundreise der Karawane bringt 20 % mehr · Karawanen entladen hier, wenn es näher an ihrem Posten liegt als die Burg: Die Runde zahlt für die zurückgelegten Felder, in diese Kasse · Verkauft Tränke · Rekrutiert Karawanenführer (max. 3) | Geleitwache — Warenschutz, Eilmarsch, Geleitdienst<br>Karawanenführer — Wegmarke | Handelsprivilegien — Eine Rundreise der Karawane bringt 20 % mehr.<br>Großeinkauf — Gebäude kosten 10 % weniger.<br>Gedungener Stahl — Geleitwache: +3 Verteidigung.<br>Straßenerprobt — Karawanenführer: +3 Verteidigung.<br>Frachtverträge — Eine Rundreise der Karawane bringt noch einmal 20 % mehr. | Goldener Kontrakt (200 Gold) [Handelsgilde] — Drücken, kein Ziel nötig: 60 Sekunden lang erleiden deine Steuereintreiber, Karawanen und königlichen Bauarbeiter 75 % weniger Schaden durch den Schlag eines Monsters.<br>Eiltransfer (150 Gold) [Warenlager] — Drücken, kein Ziel nötig: Jeder Steuereintreiber unterwegs übergibt sofort, was er trägt, an die Schatzkammer und setzt seine Runde fort. Es kostet seinen Preis, wie wenig sie auch tragen. |
 | **Tyrannei** | Tribunal: 360 Gold, 1000 Lebenspunkte. Rekrutiert Inquisitor (max. 3)<br>Abgabenamt: 300 Gold, 800 Lebenspunkte. Zieht alle 60s die Kassen der Gebäude im Umkreis von 12 Feldern ein: 85% davon erhält die Schatzkammer · Rekrutiert Vollstrecker (max. 3) | Inquisitor — Schreckensmal, Eiserner Eid<br>Vollstrecker — Kettenurteil | Eiserne Abgabe — Abgabenamt: verliert nichts von dem, was es einzieht.<br>Schreckensherrschaft — Burg und Bogentürme nehmen von jedem Treffer 15 % weniger.<br>Eiferbrief — Inquisitor: +4 Angriff.<br>Schweres Kettenhemd — Vollstrecker: +4 Verteidigung. | Edikt des Tyrannen (300 Gold) [Tribunal] — Drücken, kein Ziel nötig: 40 Sekunden lang erleiden die Burg und jedes deiner Gebäude 40 % weniger Schaden durch Angriffe von Monstern. In dieser Zeit heilen ruhende Helden nur mit 50 % ihres Tempos: Niemand ruht, solange das Edikt gilt.<br>Kriegsabgabe (100 Gold) [Abgabenamt] — Drücken, kein Ziel nötig: Alles in den Kassen deiner Gebäude geht sofort und vollständig in die Schatzkammer. Danach beträgt der Anteil der Schatzkammer an dem, was Helden ausgeben und erbeuten, 120 Sekunden lang nur 50 % des Üblichen.<br>Mal des Schweigens (250 Gold) [Tribunal] — Aktivieren, dann gesehenes Gelände anklicken: 30 Sekunden lang richten die Monster im Umkreis von 2 Feldern um die Stelle mit ihren Schlägen gegen deine Leute 50 % weniger Schaden an, und ein benannter Boss unter ihnen setzt keine Fähigkeit ein (ein Boss schüttelt das Mal früher ab). |
 <!-- castle-paths-content:end -->
+
+<!-- town-beautification:begin (written by tools/town_docs.py; do not edit) -->
+### Stadtverschönerung
+
+Zwölf Dekorationen kosten jeweils 10, 25 oder 50 Gold, ohne Mengenaufschlag. Acht Wegdarstellungen sind kostenlos. Verschieben, Drehen und Umfärben sind kostenlos; Entfernen erstattet die Hälfte des gespeicherten Kaufpreises, pro Objekt abgerundet.
+
+Nur Aussehen: keine Dienste, Kollision, Einnahmen oder Kampfboni. Verschieben und Drehen sind kostenlos.
+
+Brunnen, Gärten und Glockentürme stehen unter Stadtverschönerung → Dekorationen und behalten ihre Gebäudefunktionen und Preise. Der Standardweg steht unter Kostenlose Wege.
+
+Dekoration wählen und den Boden anklicken, oder einen Wegstrich ziehen und loslassen. Auswählen → Verschieben bearbeitet bestehende Objekte. R dreht, Esc bricht ab, Entf entfernt die gewählte Dekoration. Ctrl+Z / Ctrl+Y ändern nur das Aussehen der Wege; neue Wege bleiben bestehen. Der Karteneditor nutzt dieselben Werkzeuge und vom Autor platzierte Dekorationen haben keinen Erstattungswert.
+
+Kostenlose Wegdarstellungen mit normaler Geschwindigkeit. Ziehen und loslassen; Löschen erhält den Weg.
+
+| Dekorationen | Kosten:  Gold |
+| --- | --- |
+| Gartenlaube (2×2) | 25 |
+| Aussichtspavillon (3×3) | 50 |
+| Denkmal (2×2) | 25 |
+| Gildenbanner (1×1) | 10 |
+| Anschlagpavillon (2×2) | 25 |
+| Bänke (2×1) | 25 |
+| Pergola (2×2) | 25 |
+| Heckenbeet (2×2) | 25 |
+| Zierbrunnen (1×1) | 10 |
+| Kleiner Schrein (1×1) | 10 |
+| Festbogen (3×1) | 50 |
+| Blumentöpfe (1×1) | 10 |
+
+Kostenlose Wege: Stampflehm, Kies, Kopfsteinpflaster, Steinplatten, Rote Ziegel, Helle Pflastersteine, Grassteinweg, Holzweg.
+<!-- town-beautification:end -->

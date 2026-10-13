@@ -177,3 +177,34 @@ I contenuti propri di una via: i suoi edifici sorgono solo su quella via, ciascu
 | **Commercio** | Gilda Mercantile: 360 oro, 900 punti vita. Recluta Scorta (max 3)<br>Deposito: 280 oro, 750 punti vita. Qui si ricercano i Contratti di Trasporto: ogni viaggio di una carovana paga il 20% in più · Le carovane scaricano qui quando è più vicino alla loro stazione del castello: il giro paga per le caselle percorse, in questa cassa · Vende pozioni · Recluta Carovaniere (max 3) | Scorta — Guardia del Carico, Marcia Forzata, Servizio di Scorta<br>Carovaniere — Segno di Rotta | Carte di Commercio — Ogni viaggio di andata e ritorno di una carovana paga il 20% in più.<br>Acquisti all'Ingrosso — Gli edifici costano il 10% in meno.<br>Acciaio a soldo — Scorta: +3 difesa.<br>Temprato dalla strada — Carovaniere: +3 difesa.<br>Contratti di Trasporto — Ogni viaggio di andata e ritorno di una carovana paga un altro 20% in più. | Patto Dorato (200 oro) [Gilda Mercantile] — Premilo, senza bersaglio: per 60 secondi i tuoi esattori, le carovane e gli operai reali subiscono il 75% di danni in meno dal colpo di un mostro.<br>Trasferimento Urgente (150 oro) [Deposito] — Premilo, senza bersaglio: ogni esattore in viaggio consegna subito al tesoro ciò che porta e riprende il giro. Costa il suo prezzo, per poco che portino. |
 | **Tirannia** | Tribunale: 360 oro, 1000 punti vita. Recluta Inquisitore (max 3)<br>Ufficio dei Tributi: 300 oro, 800 punti vita. Sequestra ogni 60s le casse degli edifici entro 12 caselle: il tesoro ne riceve il 85% · Recluta Esattore di Ferro (max 3) | Inquisitore — Marchio del Terrore, Giuramento di Ferro<br>Esattore di Ferro — Verdetto delle Catene | Tributo di Ferro — Ufficio dei Tributi: non perde nulla di ciò che sequestra.<br>Regno del Terrore — Il castello e le torri degli arcieri subiscono il 15% in meno da ogni colpo.<br>Editto di zelo — Inquisitore: +4 attacco.<br>Maglia pesante — Esattore di Ferro: +4 difesa. | Editto del Tiranno (300 oro) [Tribunale] — Premilo, senza bersaglio: per 40 secondi il castello e ogni tuo edificio subiscono il 40% di danni in meno dagli attacchi dei mostri. In quel tempo gli eroi a riposo guariscono al 50% del loro ritmo: nessuno riposa finché vige l'editto.<br>Leva di Guerra (100 oro) [Ufficio dei Tributi] — Premilo, senza bersaglio: tutto ciò che è nelle casse dei tuoi edifici va subito al tesoro, per intero. Per i 120 secondi successivi la quota del tesoro su ciò che gli eroi spendono e saccheggiano è solo il 50% del solito.<br>Marchio del Silenzio (250 oro) [Tribunale] — Attivalo e clicca un terreno già visto: per 30 secondi i mostri entro 2 caselle dal punto infliggono il 50% di danni in meno con i loro colpi alla tua gente, e un boss con nome tra loro non usa alcuna abilità (un boss si libera prima del marchio). |
 <!-- castle-paths-content:end -->
+
+<!-- town-beautification:begin (written by tools/town_docs.py; do not edit) -->
+### Abbellire la città
+
+Dodici decorazioni costano 10, 25 o 50 oro ciascuna, senza rincari per quantità. Otto aspetti delle strade sono gratuiti. Spostare, ruotare e cambiare colore è gratis; rimuovere restituisce metà del prezzo salvato, arrotondata per difetto per oggetto.
+
+Solo aspetto: nessun servizio, collisione, reddito o bonus in battaglia. Spostare e ruotare è gratis.
+
+Fontane, giardini e campanili sono in Abbellire la città → Decorazioni e conservano funzioni e prezzi degli edifici. La strada normale è in Strade gratuite.
+
+Scegli una decorazione e clicca sul terreno, oppure trascina e rilascia un tratto di strada. Seleziona → Sposta modifica un oggetto esistente. R ruota, Esc annulla, Delete rimuove la decorazione scelta. Ctrl+Z / Ctrl+Y cambiano solo l’aspetto stradale; le nuove strade rimangono. L’editor usa gli stessi strumenti e le decorazioni dell’autore non hanno valore di rimborso.
+
+Aspetti gratuiti con la normale velocità della strada. Trascina e rilascia; cancellare conserva la strada.
+
+| Decorazioni | Costo:  oro |
+| --- | --- |
+| Gazebo (2×2) | 25 |
+| Padiglione panoramico (3×3) | 50 |
+| Monumento (2×2) | 25 |
+| Bandiera della gilda (1×1) | 10 |
+| Chiosco degli avvisi (2×2) | 25 |
+| Panchine (2×1) | 25 |
+| Pergolato (2×2) | 25 |
+| Aiuola con siepi (2×2) | 25 |
+| Pozzo ornamentale (1×1) | 10 |
+| Piccolo santuario (1×1) | 10 |
+| Arco festivo (3×1) | 50 |
+| Vasi (1×1) | 10 |
+
+Strade gratuite: Terra battuta, Ghiaia, Ciottoli, Lastre, Mattoni rossi, Pavimentazione chiara, Pietre nell’erba, Passerella in legno.
+<!-- town-beautification:end -->

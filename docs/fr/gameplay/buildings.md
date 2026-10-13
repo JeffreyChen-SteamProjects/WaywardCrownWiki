@@ -177,3 +177,34 @@ Le contenu propre à une voie : ses bâtiments ne se construisent que sur cette 
 | **Commerce** | Guilde marchande : 360 or, 900 points de vie. Recrute des Escorteur (max 3)<br>Dépôt caravanier : 280 or, 750 points de vie. On y recherche les Contrats de fret : chaque aller-retour d'une caravane rapporte 20 % de plus · Les caravanes déchargent ici quand il est plus proche de leur comptoir que le château : le trajet paie pour les cases parcourues, dans cette caisse · Vend des potions · Recrute des Caravanier (max 3) | Escorteur — Garde des marchandises, Marche forcée, Service d'escorte<br>Caravanier — Marque de route | Chartes de commerce — Chaque aller-retour d'une caravane rapporte 20 % de plus.<br>Achats en gros — Les bâtiments coûtent 10 % de moins.<br>Acier à gages — Escorteur : +3 en défense.<br>Endurci par la route — Caravanier : +3 en défense.<br>Contrats de fret — Chaque aller-retour d'une caravane rapporte encore 20 % de plus. | Pacte d'or (200 or) [Guilde marchande] — Appuyez, sans cible : pendant 60 secondes, vos percepteurs, caravanes et ouvriers royaux subissent 75 % de dégâts en moins du coup d'un monstre.<br>Transfert d'urgence (150 or) [Dépôt caravanier] — Appuyez, sans cible : chaque percepteur en route remet aussitôt ce qu'il porte au trésor et reprend sa tournée. Il coûte son prix, si peu qu'ils portent. |
 | **Tyrannie** | Tribunal : 360 or, 1000 points de vie. Recrute des Inquisiteur (max 3)<br>Bureau des levées : 300 or, 800 points de vie. Saisit toutes les 60s les caisses des bâtiments à 12 cases ou moins : le trésor en reçoit 85% · Recrute des Exécuteur (max 3) | Inquisiteur — Marque d'effroi, Serment de fer<br>Exécuteur — Verdict des chaînes | Levée de fer — Bureau des levées : ne perd rien de ce qu'il saisit.<br>Règne de la peur — Le château et les tours d'archers subissent 15 % de moins de chaque coup.<br>Édit de zèle — Inquisiteur : +4 en attaque.<br>Lourde maille — Exécuteur : +4 en défense. | Édit du tyran (300 or) [Tribunal] — Appuyez, sans cible : pendant 40 secondes, le château et tous vos bâtiments subissent 40 % de dégâts en moins des attaques des monstres. Pendant ce temps, les héros au repos guérissent à 50 % de leur rythme : nul ne se repose tant que l'édit tient.<br>Levée de guerre (100 or) [Bureau des levées] — Appuyez, sans cible : tout ce que contiennent les caisses de vos bâtiments va aussitôt au trésor, en entier. Pendant les 120 secondes suivantes, la part du trésor sur ce que les héros dépensent et pillent n'est que de 50 % de l'ordinaire.<br>Marque du silence (250 or) [Tribunal] — Activez-le puis cliquez sur un terrain déjà vu : pendant 30 secondes, les monstres à 2 cases ou moins du point infligent 50 % de dégâts en moins par leurs coups sur vos gens, et un boss nommé parmi eux n'utilise aucune compétence (un boss se défait plus tôt de la marque). |
 <!-- castle-paths-content:end -->
+
+<!-- town-beautification:begin (written by tools/town_docs.py; do not edit) -->
+### Embellir la ville
+
+Douze décorations coûtent chacune 10, 25 ou 50 or, sans hausse selon la quantité. Huit aspects de route sont gratuits. Déplacement, rotation et changement de couleur sont gratuits ; le retrait rembourse la moitié du prix enregistré, arrondie à l’entier inférieur par objet.
+
+Aspect uniquement : ni services, collision, revenus ou bonus de combat. Déplacement et rotation gratuits.
+
+Fontaines, jardins et beffrois sont dans Embellir la ville → Décorations et gardent leurs fonctions et prix de bâtiment. La route standard est dans Routes gratuites.
+
+Choisissez une décoration puis cliquez au sol, ou tracez une route et relâchez. Sélectionner → Déplacer modifie un objet existant. R tourne, Échap quitte, Suppr retire la décoration sélectionnée. Ctrl+Z / Ctrl+Y annulent ou rétablissent l’aspect des routes ; les nouvelles routes restent. L’éditeur utilise les mêmes outils et les décorations de l’auteur n’ont aucune valeur de remboursement.
+
+Aspects de route gratuits, avec la vitesse habituelle. Faites glisser puis relâchez ; effacer conserve la route.
+
+| Décorations | Coût :  or |
+| --- | --- |
+| Kiosque de jardin (2×2) | 25 |
+| Pavillon panoramique (3×3) | 50 |
+| Monument (2×2) | 25 |
+| Bannière de guilde (1×1) | 10 |
+| Kiosque d’affichage (2×2) | 25 |
+| Bancs (2×1) | 25 |
+| Pergola (2×2) | 25 |
+| Massif de haies (2×2) | 25 |
+| Puits décoratif (1×1) | 10 |
+| Petit sanctuaire (1×1) | 10 |
+| Arche festive (3×1) | 50 |
+| Pots de fleurs (1×1) | 10 |
+
+Routes gratuites: Terre battue, Gravier, Pavés, Dalles, Briques rouges, Pavés clairs, Pierres dans l’herbe, Promenade en bois.
+<!-- town-beautification:end -->

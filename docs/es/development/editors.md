@@ -92,3 +92,19 @@ campaigns/my_campaign/
 - Coloca las campañas recibidas en `campaigns/` para verlas en el menú principal
 - Si el juego se ejecuta desde Steam, **Publicar en Workshop** del gestor de mapas sube uno de tus mapas o campañas a Steam Workshop, y los que suscribas aparecen en sus listas marcados con [Workshop]. Steam los mantiene actualizados, así que no se pueden editar, renombrar ni eliminar; **Duplicar** crea un mapa propio
 - Un paquete de contenido se instala por sí solo: publícalo o comparte su ZIP aparte, y quien lo instale tendrá sus clases, monstruos, edificios y fortalezas en sus propias partidas, sin necesidad de ningún mapa. Un mapa o una campaña que coloca algo de un paquete requiere ese plugin: publica primero el paquete (la ventana de publicación sugiere entonces el elemento de Workshop del paquete como elemento requerido)
+
+<!-- town-beautification:begin (written by tools/town_docs.py; do not edit) -->
+### Embellecer la ciudad
+
+**Herramientas**
+
+Doce decoraciones cuestan 10, 25 o 50 de oro por pieza, sin aumentos por cantidad. Ocho aspectos de camino son gratuitos. Mover, girar y cambiar colores es gratis; retirar devuelve la mitad del precio guardado, redondeada hacia abajo por objeto.
+
+Solo aspecto: sin servicios, colisión, ingresos ni ventajas de combate. Mover y girar es gratis.
+
+Las fuentes, jardines y campanarios están en Embellecer la ciudad → Decoraciones y conservan sus funciones y precios de edificio. El camino normal está en Caminos gratuitos.
+
+Elige una decoración y pulsa el terreno, o arrastra y suelta un tramo de camino. Seleccionar → Mover edita un objeto existente. R gira, Esc cancela y Delete retira la decoración elegida. Ctrl+Z / Ctrl+Y deshacen o rehacen el aspecto del camino; las nuevas carreteras permanecen. El editor usa las mismas herramientas y las decoraciones del autor no tienen valor de reembolso.
+
+Aspectos de camino gratuitos con la velocidad habitual. Arrastra y suelta para pintar; borrar conserva el camino.
+<!-- town-beautification:end -->

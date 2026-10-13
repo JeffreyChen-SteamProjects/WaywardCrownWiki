@@ -177,3 +177,34 @@ Bir yolun kendine özgü içeriği: binaları yalnızca o yolda kurulur, her bir
 | **Ticaret** | Tüccar Loncası: 360 altın, 900 dayanıklılık. Refakatçi toplar (maks 3)<br>Kervan Deposu: 280 altın, 750 dayanıklılık. Navlun Sözleşmeleri burada araştırılır: bir kervanın seferi %20 daha fazla kazandırır · Burası karakollarına şatodan daha yakınsa kervanlar yükünü burada boşaltır: tur, taşınan kareler için bu kasaya öder · İksir satar · Kervancı toplar (maks 3) | Refakatçi — Yük Muhafızı, Cebri Yürüyüş, Kafile Görevi<br>Kervancı — Yol İşareti | Ticaret Beratları — Bir kervanın gidiş dönüş seferi %20 daha fazla kazandırır.<br>Toptan Alım — Binalar %10 daha ucuza mal olur.<br>Kiralık çelik — Refakatçi: +3 savunma.<br>Yolda pişmiş — Kervancı: +3 savunma.<br>Navlun Sözleşmeleri — Bir kervanın gidiş dönüş seferi %20 daha kazandırır. | Altın Sözleşme (200 altın) [Tüccar Loncası] — Bas, hedef gerekmez: 60 saniye boyunca tahsildarların, kervanların ve kraliyet işçilerin bir canavarın darbesinden %75 daha az hasar alır.<br>Acil Aktarım (150 altın) [Kervan Deposu] — Bas, hedef gerekmez: yoldaki her tahsildar taşıdığını hemen hazineye teslim eder ve turuna devam eder. Ne kadar az taşırlarsa taşısınlar bedeli aynıdır. |
 | **Zorbalık** | Mahkeme: 360 altın, 1000 dayanıklılık. Engizitör toplar (maks 3)<br>Haraç Dairesi: 300 altın, 800 dayanıklılık. Her 60sn'de 12 kare içindeki binaların kasalarına el koyar: hazine %85'ini alır · İnfazcı toplar (maks 3) | Engizitör — Dehşet Damgası, Demir Yemin<br>İnfazcı — Zincir Hükmü | Demir Haraç — Haraç Dairesi: el koyduğundan hiçbir şey kaybetmez.<br>Korku Saltanatı — Şato ve okçu kuleleri her darbeden %15 daha az hasar alır.<br>Gayret fermanı — Engizitör: +4 saldırı.<br>Ağır zincir zırh — İnfazcı: +4 savunma. | Zorbanın Fermanı (300 altın) [Mahkeme] — Bas, hedef gerekmez: 40 saniye boyunca şato ve bütün binaların canavarların saldırılarından %40 daha az hasar alır. O süre içinde dinlenen kahramanlar hızlarının %50 kadarıyla iyileşir: ferman durdukça kimse dinlenmez.<br>Savaş Vergisi (100 altın) [Haraç Dairesi] — Bas, hedef gerekmez: binalarının kasalarındaki her şey hemen ve eksiksiz hazineye gider. Sonraki 120 saniye boyunca kahramanların harcadığı ve yağmaladığından hazinenin payı olağanın yalnızca %50 kadarıdır.<br>Susturma Damgası (250 altın) [Mahkeme] — Seç, sonra daha önce gördüğün bir araziye tıkla: 30 saniye boyunca noktanın 2 karo yakınındaki canavarlar adamlarına darbeleriyle %50 daha az hasar verir ve aralarındaki adlı bir boss hiçbir yetenek kullanamaz (bir boss damgadan daha çabuk kurtulur). |
 <!-- castle-paths-content:end -->
+
+<!-- town-beautification:begin (written by tools/town_docs.py; do not edit) -->
+### Kasabayı güzelleştir
+
+On iki süsleme parça başına 10, 25 veya 50 altındır; sayıyla fiyat artmaz. Sekiz yol görünümü ücretsizdir. Taşıma, döndürme ve renk değiştirme ücretsizdir; kaldırma, kayıtlı bedelin yarısını nesne başına aşağı yuvarlayarak iade eder.
+
+Yalnızca görünüm: hizmet, çarpışma, gelir veya savaş yararı yoktur. Taşıma ve döndürme ücretsizdir.
+
+Çeşmeler, bahçeler ve çan kuleleri Kasabayı güzelleştir → Süslemeler bölümündedir; bina işlevleri ve fiyatları korunur. Standart yol Ücretsiz yollar bölümündedir.
+
+Bir süsleme seçip yere tıkla veya yol çizgisini sürükleyip bırak. Seç → Taşı, mevcut nesneyi düzenler. R döndürür, Esc iptal eder, Delete seçili süslemeyi kaldırır. Ctrl+Z / Ctrl+Y yalnızca yol görünümünü geri alır veya yineler; yeni yollar kalır. Harita düzenleyici aynı araçları kullanır ve yazarın koyduğu süslemelerin iade değeri yoktur.
+
+Ücretsiz görünümler normal yol hızını kullanır. Sürükleyip bırak; temizlemek yolu korur.
+
+| Süslemeler | Bedel:  altın |
+| --- | --- |
+| Kamelya (2×2) | 25 |
+| Seyir köşkü (3×3) | 50 |
+| Anıt (2×2) | 25 |
+| Lonca sancağı (1×1) | 10 |
+| Duyuru köşkü (2×2) | 25 |
+| Bank grubu (2×1) | 25 |
+| Pergola (2×2) | 25 |
+| Çitli çiçeklik (2×2) | 25 |
+| Süs kuyusu (1×1) | 10 |
+| Küçük tapınak (1×1) | 10 |
+| Şenlik kemeri (3×1) | 50 |
+| Saksı grubu (1×1) | 10 |
+
+Ücretsiz yollar: Sıkıştırılmış toprak, Çakıl, Arnavut kaldırımı, Taş plakalar, Kırmızı tuğla, Açık renk döşeme, Çimli taşlar, Ahşap yürüyüş yolu.
+<!-- town-beautification:end -->

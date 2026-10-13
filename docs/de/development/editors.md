@@ -92,3 +92,19 @@ campaigns/my_campaign/
 - Erhaltene Kampagnen in `campaigns/` ablegen, um sie im Hauptmenü anzuzeigen
 - Läuft das Spiel über Steam, stellt **Im Workshop veröffentlichen** in der Kartenverwaltung eine eigene Karte oder Kampagne in den Steam Workshop, und abonnierte erscheinen in ihren Listen mit der Markierung [Workshop]. Steam hält sie aktuell, deshalb lassen sie sich nicht bearbeiten, umbenennen oder löschen; **Duplizieren** erstellt eine eigene Karte
 - Ein Inhaltspaket wird für sich allein installiert: Veröffentliche es oder gib sein ZIP einzeln weiter, und wer es installiert, findet seine Klassen, Monster, Gebäude und Festungen in den eigenen Spielen, ganz ohne Karte. Eine Karte oder Kampagne, die etwas aus einem Paket platziert, setzt dieses Plugin voraus: Veröffentliche das Paket zuerst (das Veröffentlichungsfenster schlägt dann das Workshop-Objekt des Pakets als erforderliches Objekt vor)
+
+<!-- town-beautification:begin (written by tools/town_docs.py; do not edit) -->
+### Stadtverschönerung
+
+**Werkzeuge**
+
+Zwölf Dekorationen kosten jeweils 10, 25 oder 50 Gold, ohne Mengenaufschlag. Acht Wegdarstellungen sind kostenlos. Verschieben, Drehen und Umfärben sind kostenlos; Entfernen erstattet die Hälfte des gespeicherten Kaufpreises, pro Objekt abgerundet.
+
+Nur Aussehen: keine Dienste, Kollision, Einnahmen oder Kampfboni. Verschieben und Drehen sind kostenlos.
+
+Brunnen, Gärten und Glockentürme stehen unter Stadtverschönerung → Dekorationen und behalten ihre Gebäudefunktionen und Preise. Der Standardweg steht unter Kostenlose Wege.
+
+Dekoration wählen und den Boden anklicken, oder einen Wegstrich ziehen und loslassen. Auswählen → Verschieben bearbeitet bestehende Objekte. R dreht, Esc bricht ab, Entf entfernt die gewählte Dekoration. Ctrl+Z / Ctrl+Y ändern nur das Aussehen der Wege; neue Wege bleiben bestehen. Der Karteneditor nutzt dieselben Werkzeuge und vom Autor platzierte Dekorationen haben keinen Erstattungswert.
+
+Kostenlose Wegdarstellungen mit normaler Geschwindigkeit. Ziehen und loslassen; Löschen erhält den Weg.
+<!-- town-beautification:end -->
