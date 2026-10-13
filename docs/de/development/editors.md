@@ -106,5 +106,5 @@ Brunnen, Gärten und Glockentürme stehen unter Stadtverschönerung → Dekorati
 
 Dekoration wählen und den Boden anklicken, oder einen Wegstrich ziehen und loslassen. Auswählen → Verschieben bearbeitet bestehende Objekte. R dreht, Esc bricht ab, Entf entfernt die gewählte Dekoration. Ctrl+Z / Ctrl+Y ändern nur das Aussehen der Wege; neue Wege bleiben bestehen. Der Karteneditor nutzt dieselben Werkzeuge und vom Autor platzierte Dekorationen haben keinen Erstattungswert.
 
-Kostenlose Wegdarstellungen mit normaler Geschwindigkeit. Ziehen und loslassen; Löschen erhält den Weg.
+Kostenlose Wegdarstellungen mit normaler Geschwindigkeit. Ziehen und loslassen; Löschen erhält den Weg. Straßenoberflächen folgen Hängen und Höhenunterschieden des Geländes.
 <!-- town-beautification:end -->

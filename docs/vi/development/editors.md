@@ -106,5 +106,5 @@ Chỉ trang trí: không có dịch vụ, va chạm, thu nhập hay lợi ích c
 
 Chọn đồ trang trí rồi nhấp vào đất, hoặc kéo và thả một nét đường. Chọn → Di chuyển chỉnh món hiện có. R xoay, Esc hủy, Delete gỡ món đã chọn. Ctrl+Z / Ctrl+Y chỉ hoàn tác hoặc làm lại kiểu đường; đường mới vẫn còn. Trình sửa bản đồ dùng cùng công cụ; đồ do tác giả đặt không có tiền hoàn lại.
 
-Kiểu đường miễn phí dùng tốc độ đường thường. Kéo rồi thả để vẽ; xóa kiểu vẫn giữ đường.
+Kiểu đường miễn phí dùng tốc độ đường thường. Kéo rồi thả để vẽ; xóa kiểu vẫn giữ đường. Mặt đường nối theo độ dốc và chênh lệch độ cao của địa hình.
 <!-- town-beautification:end -->

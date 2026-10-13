@@ -106,5 +106,5 @@ Fontane, giardini e campanili sono in Abbellire la città → Decorazioni e cons
 
 Scegli una decorazione e clicca sul terreno, oppure trascina e rilascia un tratto di strada. Seleziona → Sposta modifica un oggetto esistente. R ruota, Esc annulla, Delete rimuove la decorazione scelta. Ctrl+Z / Ctrl+Y cambiano solo l’aspetto stradale; le nuove strade rimangono. L’editor usa gli stessi strumenti e le decorazioni dell’autore non hanno valore di rimborso.
 
-Aspetti gratuiti con la normale velocità della strada. Trascina e rilascia; cancellare conserva la strada.
+Aspetti gratuiti con la normale velocità della strada. Trascina e rilascia; cancellare conserva la strada. La superficie delle strade segue le pendenze e i dislivelli del terreno.
 <!-- town-beautification:end -->

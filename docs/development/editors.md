@@ -106,5 +106,5 @@ Fountains, gardens and belfries are now in Town beautification → Decorations a
 
 Select a decoration to place it, or drag a road stroke and release to apply. Select → Move edits an existing object. R rotates, Esc cancels, Delete removes the selected decoration, and Ctrl+Z / Ctrl+Y undo or redo road appearance edits. New roads remain after undo. The map editor uses the same tools and saves authored decorations with no refund value.
 
-Free road appearances use ordinary road speed. Drag and release to paint; clearing keeps the road.
+Free road appearances use ordinary road speed. Drag and release to paint; clearing keeps the road. Road surfaces follow slopes and changes in terrain height.
 <!-- town-beautification:end -->

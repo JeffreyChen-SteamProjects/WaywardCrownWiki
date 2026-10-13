@@ -106,5 +106,5 @@ Fontes, jardins e campanários estão em Embelezar a cidade → Decorações e m
 
 Escolha uma decoração e clique no chão, ou arraste e solte um trecho de estrada. Selecionar → Mover edita um objeto existente. R gira, Esc cancela e Delete remove a decoração escolhida. Ctrl+Z / Ctrl+Y desfazem ou refazem a aparência da estrada; as novas estradas permanecem. O editor usa as mesmas ferramentas e as decorações do autor não têm valor de reembolso.
 
-Aparências gratuitas com a velocidade normal da estrada. Arraste e solte para pintar; limpar preserva a estrada.
+Aparências gratuitas com a velocidade normal da estrada. Arraste e solte para pintar; limpar preserva a estrada. A superfície das estradas acompanha as inclinações e os desníveis do terreno.
 <!-- town-beautification:end -->

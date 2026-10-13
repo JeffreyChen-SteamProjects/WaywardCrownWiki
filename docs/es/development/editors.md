@@ -106,5 +106,5 @@ Las fuentes, jardines y campanarios están en Embellecer la ciudad → Decoracio
 
 Elige una decoración y pulsa el terreno, o arrastra y suelta un tramo de camino. Seleccionar → Mover edita un objeto existente. R gira, Esc cancela y Delete retira la decoración elegida. Ctrl+Z / Ctrl+Y deshacen o rehacen el aspecto del camino; las nuevas carreteras permanecen. El editor usa las mismas herramientas y las decoraciones del autor no tienen valor de reembolso.
 
-Aspectos de camino gratuitos con la velocidad habitual. Arrastra y suelta para pintar; borrar conserva el camino.
+Aspectos de camino gratuitos con la velocidad habitual. Arrastra y suelta para pintar; borrar conserva el camino. La superficie de los caminos sigue las pendientes y los cambios de altura del terreno.
 <!-- town-beautification:end -->

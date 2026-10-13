@@ -106,5 +106,5 @@ Fontanny, ogrody i dzwonnice są w Upiększanie miasta → Dekoracje i zachowuj�
 
 Wybierz dekorację i kliknij ziemię lub przeciągnij odcinek drogi i puść. Wybierz → Przenieś edytuje istniejący obiekt. R obraca, Esc anuluje, Delete usuwa wybraną dekorację. Ctrl+Z / Ctrl+Y zmieniają tylko wygląd dróg; nowe drogi pozostają. Edytor używa tych samych narzędzi, a dekoracje autora nie dają zwrotu pieniędzy.
 
-Darmowe style zachowują zwykłą prędkość drogi. Przeciągnij i puść; czyszczenie nie usuwa drogi.
+Darmowe style zachowują zwykłą prędkość drogi. Przeciągnij i puść; czyszczenie nie usuwa drogi. Nawierzchnia dróg dopasowuje się do zboczy i różnic wysokości terenu.
 <!-- town-beautification:end -->

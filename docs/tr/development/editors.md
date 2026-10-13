@@ -106,5 +106,5 @@ Yalnızca görünüm: hizmet, çarpışma, gelir veya savaş yararı yoktur. Ta�
 
 Bir süsleme seçip yere tıkla veya yol çizgisini sürükleyip bırak. Seç → Taşı, mevcut nesneyi düzenler. R döndürür, Esc iptal eder, Delete seçili süslemeyi kaldırır. Ctrl+Z / Ctrl+Y yalnızca yol görünümünü geri alır veya yineler; yeni yollar kalır. Harita düzenleyici aynı araçları kullanır ve yazarın koyduğu süslemelerin iade değeri yoktur.
 
-Ücretsiz görünümler normal yol hızını kullanır. Sürükleyip bırak; temizlemek yolu korur.
+Ücretsiz görünümler normal yol hızını kullanır. Sürükleyip bırak; temizlemek yolu korur. Yol yüzeyleri eğimleri ve arazi yükseklik farklarını takip eder.
 <!-- town-beautification:end -->
