@@ -116,4 +116,8 @@ Sefer ayrıntıları ulaşılabilir iksir dükkânlarını ve dinlenme yerlerini
 
 Hazırlık değerleri birkaç saniyede bir güncellenir; katılım, toparlanma ve yola çıkma değişiklikleri hemen görünür.
 
+Düşman maceracıların donanımı, kervanlara, vergi tahsildarlarına ve kraliyet inşaat işçilerine verdikleri hasarı etkiler.
+
+Nekromansırın Kemik Muhafızı, onu çağıranı takip eder ve yakındaki çatışmalardan sonra yanına döner. Ayrıntılar kimi takip ettiğini gösterir. Binaların çağırdığı muhafızlar kendi binalarında devriye gezmeye devam eder.
+
 <!-- gameplay-preparation:end -->

@@ -116,4 +116,8 @@ Szczegóły wyprawy prowadzą do dostępnych sklepów z miksturami i odpoczynkó
 
 Wartości przygotowania odświeżają się co kilka sekund; zmiany uczestników, odpoczynku i wyruszenia pojawiają się od razu.
 
+Wyposażenie wpływa na obrażenia zadawane przez wrogich poszukiwaczy przygód karawanom, poborcom podatków i budowniczym Korony.
+
+Kościany strażnik nekromanty podąża za swoim przywoływaczem i wraca do niego po pobliskiej walce. Szczegóły pokazują, za kim podąża. Strażnicy przywołani przez budynki nadal patrolują swój budynek.
+
 <!-- gameplay-preparation:end -->

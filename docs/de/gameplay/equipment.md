@@ -116,4 +116,8 @@ Expeditionsdetails verlinken erreichbare Trankläden und Ruheplätze und zählen
 
 Vorbereitungswerte werden alle paar Sekunden aktualisiert; Änderungen bei Mitgliedern, Erholung und Aufbruch erscheinen sofort.
 
+Die Ausrüstung beeinflusst den Schaden feindlicher Abenteurer an Karawanen, Steuereintreibern und Bauarbeitern der Krone.
+
+Die Knochenwache des Nekromanten folgt ihrem Beschwörer und kehrt nach Kämpfen in der Nähe zu ihm zurück. Ihre Details nennen den Beschwörer. Von Gebäuden beschworene Wachen patrouillieren weiterhin an ihrem Gebäude.
+
 <!-- gameplay-preparation:end -->

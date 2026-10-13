@@ -116,4 +116,8 @@ I dettagli della spedizione collegano negozi di pozioni e riposi raggiungibili e
 
 I valori di preparazione si aggiornano ogni pochi secondi; i cambiamenti di membri, recupero e partenza sono immediati.
 
+L’equipaggiamento influisce sui danni che gli avventurieri ostili infliggono alle carovane, agli esattori e agli operai della Corona.
+
+La Guardia d’Ossa del Necromante segue il suo evocatore e torna al suo fianco dopo gli scontri vicini. I dettagli indicano chi segue. Le guardie evocate dagli edifici continuano a pattugliare il proprio edificio.
+
 <!-- gameplay-preparation:end -->

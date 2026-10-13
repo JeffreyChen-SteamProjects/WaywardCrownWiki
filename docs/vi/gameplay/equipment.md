@@ -116,4 +116,8 @@ Chi tiết viễn chinh dẫn đến tiệm thuốc và nơi nghỉ có thể t�
 
 Số liệu chuẩn bị cập nhật mỗi vài giây; thay đổi thành viên, hồi phục và xuất phát được cập nhật ngay.
 
+Trang bị ảnh hưởng đến sát thương mà nhà thám hiểm thù địch gây ra cho đoàn thương nhân, người thu thuế và thợ xây của hoàng gia.
+
+Vệ binh xương của pháp sư tử linh đi theo người triệu hồi khi họ di chuyển và quay lại bên cạnh sau giao tranh gần đó. Thông tin chi tiết cho biết đang đi theo ai. Vệ binh do công trình triệu hồi vẫn tuần tra công trình của mình.
+
 <!-- gameplay-preparation:end -->

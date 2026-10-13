@@ -116,4 +116,8 @@ Os detalhes da expedição indicam lojas de poções e descansos acessíveis, al
 
 Os valores de preparação são atualizados a cada poucos segundos; mudanças de integrantes, recuperação e partida aparecem imediatamente.
 
+O equipamento influencia o dano que aventureiros hostis causam às caravanas, aos coletores de impostos e aos operários da Coroa.
+
+O Guarda Ósseo do Necromante acompanha seu invocador e volta para perto dele após combates próximos. Os detalhes mostram quem ele segue. Guardas invocados por edifícios continuam patrulhando seu edifício.
+
 <!-- gameplay-preparation:end -->

@@ -116,4 +116,8 @@ Expedition details link to reachable potion shops and rest, and count learnt hea
 
 Preparation numbers refresh every few seconds; membership, recovery and departure changes refresh immediately.
 
+Equipment affects the damage hostile adventurers deal to caravans, tax collectors and the crown’s construction workers.
+
+A Necromancer’s Bone Guard follows its summoner as they move and returns after nearby combat. Its details name the summoner it is following. Guards raised by buildings keep their building patrols.
+
 <!-- gameplay-preparation:end -->

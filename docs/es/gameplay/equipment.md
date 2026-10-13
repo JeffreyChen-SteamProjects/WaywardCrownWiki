@@ -116,4 +116,8 @@ Los detalles de expedición enlazan tiendas de pociones y descansos accesibles e
 
 Los valores de preparación se actualizan cada pocos segundos; los cambios de miembros, recuperación y salida aparecen de inmediato.
 
+El equipo influye en el daño que los aventureros hostiles causan a las caravanas, los recaudadores y los obreros de la Corona.
+
+La Guardia Ósea del Nigromante sigue a su invocador cuando se mueve y vuelve a su lado tras el combate cercano. Sus detalles indican a quién sigue. Los guardias invocados por edificios siguen patrullando su edificio.
+
 <!-- gameplay-preparation:end -->

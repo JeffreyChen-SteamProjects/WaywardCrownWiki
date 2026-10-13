@@ -116,4 +116,8 @@ Les détails des expéditions indiquent les boutiques de potions et les repos ac
 
 Les valeurs de préparation sont actualisées toutes les quelques secondes ; les changements de membres, de récupération et de départ sont immédiats.
 
+L’équipement influe sur les dégâts que les aventuriers hostiles infligent aux caravanes, aux percepteurs et aux ouvriers de la Couronne.
+
+Le garde d’os du Nécromancien suit les déplacements de son invocateur et revient à ses côtés après un combat proche. Ses détails indiquent qui il suit. Les gardes invoqués par des bâtiments continuent de patrouiller autour de leur bâtiment.
+
 <!-- gameplay-preparation:end -->
