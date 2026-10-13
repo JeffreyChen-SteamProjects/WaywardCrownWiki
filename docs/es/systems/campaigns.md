@@ -175,3 +175,7 @@ Los detalles de expedición enlazan tiendas de pociones y descansos accesibles e
 ## Faro antiguo
 
 En mapas con un faro antiguo, selecciona el lugar descubierto para ver costes, plazo y opciones en los detalles. Reparar requiere una cuadrilla o constructor allí y se pausa a mitad para financiar más o retirarse. Al terminar avisa de enemigos descubiertos a 20 casillas. Recuperar tesoro requiere que un héroe acepte la bandera de exploración, llegue y trabaje; el tesoro real y el trabajador cobran una vez. Ignorar no inicia plazo; retirarse devuelve solo fondos sin usar. La ruina no recluta ni mejora banderas.
+
+## Logística goblin opcional
+
+Mapas y niveles pueden declarar la capacidad `lair_expansion` y hasta cuatro planes en su lista homónima. Cada plan requiere `id` y `target`, que identifica una tienda goblin existente por su `objective_id` único. El transportista debe llegar y un trabajador vivo construir el puesto. Convoyes, escoltas, defensores e incursiones comparten presupuesto: cuatro ciclos y 64 unidades nuevas por origen como máximo. Perder el puesto retrasa y debilita ataques sin salir; destruir la base detiene nueva producción pero deja unidades vivas y puestos opcionales. Los puestos no añaden objetivos obligatorios de bases. Sin planes se conserva el calendario antiguo. El prototipo usa el arte existente de goblins y atalayas.

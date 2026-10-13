@@ -175,3 +175,7 @@ Os detalhes da expedição indicam lojas de poções e descansos acessíveis, al
 ## Farol antigo
 
 Em mapas com um farol antigo, selecione o local descoberto para ver custos, prazo e escolhas nos detalhes. Reparar exige equipe ou construtor no local e pausa na metade para financiar mais ou retirar-se. A conclusão avisa sobre inimigos descobertos em 20 casas. Recuperar tesouro exige que um herói aceite a bandeira de exploração, chegue e trabalhe; tesouro real e trabalhador recebem uma vez. Ignorar não inicia prazo; retirar-se devolve só fundos não usados. A ruína não recruta nem melhora bandeiras.
+
+## Logística goblin opcional
+
+Mapas e níveis podem declarar a capacidade `lair_expansion` e uma lista com até quatro planos. Cada plano exige `id` e `target`, que aponta para uma tenda goblin existente por seu `objective_id` exclusivo. O transportador precisa chegar e um trabalhador vivo construir no local. Comboios, escoltas, defensores e ataques dividem orçamento finito: no máximo quatro ciclos e 64 novas unidades por origem. Perder o posto atrasa e enfraquece ataques que ainda não saíram; destruir a base interrompe a produção sem apagar sobreviventes nem postos opcionais. Postos não acrescentam bases obrigatórias à vitória. Sem planos, o calendário antigo continua. O protótipo usa arte existente de goblins e torres de vigia.

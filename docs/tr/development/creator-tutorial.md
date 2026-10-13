@@ -67,3 +67,7 @@ Bir şablonda gerçek bir Atölye öğe kimliği, bir Steam hesabı ya da mutlak
 Haritalar ve sefer bölümleri, `relics` yeteneğiyle en fazla iki `relics` girdisi kabul eder. Her girdinin benzersiz bir `id` değeri, `ancient_beacon`, `sealed_tomb` veya `lost_station` türü ve mevcut bir binanın `objective_id` değeriyle eşleşen `target` değeri vardır. Sabit seçenekler en fazla iki karara izin verir; keyfi betikler ve döngülü dallar reddedilir. Keşif tek başına ücret almaz veya süre başlatmaz. Kayıtlar kabul edilen seçimleri, masrafları, iadeleri ve tek seferlik ödülleri korur.
 
 Prototip alanı `type: BEACON` gerektirir.
+
+## İsteğe bağlı goblin ikmali
+
+Harita ve bölümler `lair_expansion` yeteneğini ve aynı adlı en fazla dört planlık listeyi belirtebilir. Her plan `id` ve mevcut goblin çadırını benzersiz `objective_id` ile gösteren `target` gerektirir. Taşıyıcı gerçekten gelmeli ve yaşayan işçi yerinde inşa etmelidir. Konvoy, refakatçiler, savunucular ve baskınlar sonlu bütçeyi paylaşır: kaynak başına en fazla dört tur ve 64 yeni birim. Karakol kaybı çıkmamış baskını geciktirip zayıflatır; ana üs yıkılırsa yeni üretim durur ama yaşayan birimler ve isteğe bağlı karakollar kalır. Karakollar zafer için gereken ana üsleri artırmaz. Plansız eski takvim sürer. Prototip mevcut goblin ve gözetleme kulesi görsellerini kullanır.

@@ -175,3 +175,7 @@ Sefer ayrıntıları ulaşılabilir iksir dükkânlarını ve dinlenme yerlerini
 ## Antik işaret kulesi
 
 Antik işaret kulesi olan haritalarda keşfedilen alanı seçerek ayrıntılarda masrafı, süreyi ve seçenekleri görün. Onarım için ekip veya inşaatçı alana gelmeli; iş yarıda ek finansman veya çekilme için durur. Tamamlanınca 20 karedeki keşfedilmiş düşmanlar bildirilir. Hazine için kahraman keşif bayrağını kendisi kabul edip gelmeli ve çalışmalı; hazine ve çalışan birer kez ödeme alır. Bekletmek süre başlatmaz; çekilmek yalnızca kullanılmamış fonları iade eder. Harabe asker almaz ve bayrakları güçlendirmez.
+
+## İsteğe bağlı goblin ikmali
+
+Harita ve bölümler `lair_expansion` yeteneğini ve aynı adlı en fazla dört planlık listeyi belirtebilir. Her plan `id` ve mevcut goblin çadırını benzersiz `objective_id` ile gösteren `target` gerektirir. Taşıyıcı gerçekten gelmeli ve yaşayan işçi yerinde inşa etmelidir. Konvoy, refakatçiler, savunucular ve baskınlar sonlu bütçeyi paylaşır: kaynak başına en fazla dört tur ve 64 yeni birim. Karakol kaybı çıkmamış baskını geciktirip zayıflatır; ana üs yıkılırsa yeni üretim durur ama yaşayan birimler ve isteğe bağlı karakollar kalır. Karakollar zafer için gereken ana üsleri artırmaz. Plansız eski takvim sürer. Prototip mevcut goblin ve gözetleme kulesi görsellerini kullanır.

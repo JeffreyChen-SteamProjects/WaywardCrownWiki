@@ -105,3 +105,7 @@ Dragons and Trolls are the most dangerous enemies (danger level 5). With an atta
 **Goblin shaman** — Heals up to four wounded allies within 4 tiles for 18 HP, every 20s, at most six times in its life. Kill the support first or outlast its remedies.
 
 **Bandit saboteur** — Prioritizes nearby buildings and deals 2.5× normal damage to structures. Still fights an intercepting hero; its light armor makes interception effective.
+
+**Venom scorpion** — A landed sting leaves one poison dose: 3 HP/s for 5s, without stacking. Antidotes and cleansing remove it; escort fragile heroes through scorpion ground.
+
+**Sand guardian** — Slow and heavily armored. At half health, gains an 80-HP shield for 10s once in its life, only on itself. Use ranged attrition or poison rather than repeated frontal blows.

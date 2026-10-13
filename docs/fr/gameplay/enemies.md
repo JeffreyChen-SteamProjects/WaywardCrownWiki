@@ -105,3 +105,7 @@ Les Dragons et les Trolls sont les ennemis les plus dangereux (niveau de danger 
 **Chaman gobelin** — Soigne de 18 PV jusqu’à quatre alliés blessés à 4 cases toutes les 20s, six fois au maximum durant sa vie. Éliminez le soutien ou épuisez ses remèdes.
 
 **Saboteur bandit** — Vise d’abord les bâtiments proches et leur inflige 2,5× les dégâts normaux. Riposte à un héros qui l’intercepte ; son armure légère facilite l’interception.
+
+**Scorpion venimeux** — Une piqûre réussie laisse 3 PV/s de poison pendant 5s, sans cumul. Antidotes et purification le retirent ; escortez les héros fragiles en terrain de scorpions.
+
+**Gardien de grès** — Lent et lourdement blindé. À mi-vie, obtient une seule fois un bouclier personnel de 80 PV pour 10s. Privilégiez l’usure à distance ou le poison.

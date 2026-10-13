@@ -175,3 +175,7 @@ I dettagli della spedizione collegano negozi di pozioni e riposi raggiungibili e
 ## Faro antico
 
 Nelle mappe con un faro antico, seleziona il luogo scoperto per vedere costi, scadenza e scelte nei dettagli. Riparare richiede una squadra o costruttore sul posto e si ferma a metà per finanziare ancora o ritirarsi. Il completamento avvisa di nemici scoperti entro 20 caselle. Recuperare tesoro richiede che un eroe accetti la bandiera di esplorazione, arrivi e lavori; tesoro reale e lavoratore sono pagati una volta. Ignorare non avvia scadenze; ritirarsi restituisce solo fondi inutilizzati. La rovina non recluta né potenzia bandiere.
+
+## Logistica goblin facoltativa
+
+Mappe e livelli possono dichiarare la capacità `lair_expansion` e una lista omonima di massimo quattro piani. Ogni piano richiede `id` e `target`, che indica una tenda goblin esistente tramite il suo `objective_id` univoco. Il trasportatore deve arrivare e un lavoratore vivo costruire sul posto. Convogli, scorte, difensori e incursioni condividono un budget finito: massimo quattro cicli e 64 nuove unità per origine. Perdere l’avamposto ritarda e indebolisce le incursioni non partite; distruggere la base ferma la produzione ma lascia superstiti e avamposti facoltativi. Gli avamposti non aggiungono basi obbligatorie alla vittoria. Senza piani resta il calendario precedente. Il prototipo usa la grafica esistente di goblin e torri di guardia.

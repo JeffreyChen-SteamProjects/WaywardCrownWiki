@@ -175,3 +175,7 @@ Les détails des expéditions indiquent les boutiques de potions et les repos ac
 ## Phare ancien
 
 Sur les cartes avec un phare ancien, sélectionnez le lieu découvert pour voir coûts, délai et choix dans les détails. Réparer exige une équipe ou un bâtisseur sur place ; à mi-chemin, choisissez un financement supplémentaire ou le retrait. La fin des travaux signale les ennemis découverts à 20 cases. Récupérer le trésor exige qu’un héros accepte le drapeau d’exploration, arrive et travaille ; le trésor royal et le travailleur sont payés une fois. Ignorer ne lance aucun délai ; le retrait rembourse seulement les fonds inutilisés. La ruine ne recrute pas et ne renforce pas les drapeaux.
+
+## Logistique gobeline facultative
+
+Cartes et niveaux peuvent déclarer la capacité `lair_expansion` et une liste homonyme de quatre plans au plus. Chaque plan exige `id` et `target`, qui désigne une tente gobeline existante par son `objective_id` unique. Le transporteur doit arriver et un travailleur vivant doit construire sur place. Convois, escortes, défenseurs et raids partagent un budget fini : quatre cycles et 64 nouvelles unités par source au plus. Perdre l’avant-poste retarde et affaiblit un raid non parti ; détruire la base arrête la production sans supprimer les survivants ni les avant-postes facultatifs. Ces postes n’ajoutent pas de bases obligatoires à la victoire. Sans plans, le calendrier existant reste actif. Le prototype utilise les images existantes des gobelins et tours de guet.

@@ -67,3 +67,7 @@ A template holds no real Workshop item ID, no Steam account and no absolute path
 Map files and campaign levels accept an optional `relics` list of at most two entries with the `relics` capability. Each entry has a unique `id`, one of `ancient_beacon`, `sealed_tomb` or `lost_station`, and a `target` matching an existing building’s `objective_id`. Fixed options permit at most two decisions; arbitrary scripts and cyclic branches are rejected. Discovery alone charges nothing and starts no deadline. Saves preserve accepted choices, costs, refunds and one-time rewards.
 
 Prototype sources require `type: BEACON`.
+
+## Optional Goblin logistics
+
+Authored maps and campaign levels may enable `lair_expansion` with that capability and up to four plans. Each plan names an existing Goblin Tent by its unique `objective_id`; `id` and `target` are required. Supply couriers physically travel before funding an outpost, and a living worker must build it. Convoys, escorts, defenders and raids share a finite unit budget: at most four cycles and 64 new units per source. A lost outpost delays and weakens an unissued raid; destroying the main lair stops new production but leaves living units and optional outposts. Outposts do not add mandatory main-lair victory targets. No plans preserves the old schedule. This functional prototype uses existing goblin and watchtower art.

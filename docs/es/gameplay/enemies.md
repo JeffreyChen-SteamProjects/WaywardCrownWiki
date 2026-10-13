@@ -105,3 +105,7 @@ Los dragones y los troles son los enemigos más peligrosos (nivel de peligro 5).
 **Chamán goblin** — Cura 18 PV a hasta cuatro aliados heridos en 4 casillas cada 20s, como máximo seis veces en su vida. Elimina al apoyo primero o agota sus remedios.
 
 **Saboteador bandido** — Prioriza edificios cercanos y causa 2,5× daño normal a estructuras. Responde al héroe que lo intercepta; su armadura ligera permite detenerlo.
+
+**Escorpión venenoso** — Un aguijonazo acertado deja veneno de 3 PV/s durante 5s, sin acumular. Antídotos y purificación lo eliminan; escolta héroes frágiles en terreno de escorpiones.
+
+**Guardián de arenisca** — Lento y muy blindado. A media vida obtiene una sola vez un escudo propio de 80 PV durante 10s. Usa desgaste a distancia o veneno contra su frente duro.

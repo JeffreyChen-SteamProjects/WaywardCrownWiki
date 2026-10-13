@@ -67,3 +67,7 @@ Un modèle ne contient aucun vrai ID d'élément du Workshop, aucun compte Steam
 Les cartes et niveaux de campagne acceptent au plus deux entrées `relics` avec la capacité `relics`. Chaque entrée possède un `id` unique, un type `ancient_beacon`, `sealed_tomb` ou `lost_station` et un `target` correspondant à l’`objective_id` d’un bâtiment existant. Les options fixes permettent au plus deux décisions ; les scripts arbitraires et les branches cycliques sont refusés. La découverte seule ne coûte rien et ne lance aucun délai. Les sauvegardes conservent les choix acceptés, les coûts, les remboursements et les récompenses uniques.
 
 Le lieu du prototype exige `type: BEACON`.
+
+## Logistique gobeline facultative
+
+Cartes et niveaux peuvent déclarer la capacité `lair_expansion` et une liste homonyme de quatre plans au plus. Chaque plan exige `id` et `target`, qui désigne une tente gobeline existante par son `objective_id` unique. Le transporteur doit arriver et un travailleur vivant doit construire sur place. Convois, escortes, défenseurs et raids partagent un budget fini : quatre cycles et 64 nouvelles unités par source au plus. Perdre l’avant-poste retarde et affaiblit un raid non parti ; détruire la base arrête la production sans supprimer les survivants ni les avant-postes facultatifs. Ces postes n’ajoutent pas de bases obligatoires à la victoire. Sans plans, le calendrier existant reste actif. Le prototype utilise les images existantes des gobelins et tours de guet.

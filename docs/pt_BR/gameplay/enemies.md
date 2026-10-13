@@ -105,3 +105,7 @@ Os dragões e os trolls são os inimigos mais perigosos (nível de perigo 5). Co
 **Xamã goblin** — Cura 18 PV de até quatro aliados feridos em 4 casas a cada 20s, no máximo seis vezes durante sua vida. Elimine o apoio primeiro ou esgote os remédios.
 
 **Sabotador bandido** — Prioriza construções próximas e causa 2,5× dano normal às estruturas. Revida contra um herói que o intercepta; a armadura leve facilita a interceptação.
+
+**Escorpião venenoso** — Uma ferroada acertada deixa veneno de 3 PV/s por 5s, sem acumular. Antídotos e purificação o removem; escolte heróis frágeis em áreas de escorpiões.
+
+**Guardião de arenito** — Lento e bem blindado. Com metade da vida recebe uma única vez um escudo próprio de 80 PV por 10s. Use desgaste à distância ou veneno contra a frente resistente.

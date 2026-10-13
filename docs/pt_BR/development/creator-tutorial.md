@@ -67,3 +67,7 @@ Um modelo não tem nenhum ID real de item da Oficina, nenhuma conta da Steam e n
 Mapas e níveis de campanha aceitam até duas entradas `relics` com a capacidade `relics`. Cada entrada tem um `id` exclusivo, um tipo `ancient_beacon`, `sealed_tomb` ou `lost_station` e um `target` correspondente ao `objective_id` de uma construção existente. As opções fixas permitem no máximo duas decisões; scripts arbitrários e ramificações cíclicas são rejeitados. Descobrir não cobra nem inicia um prazo. As partidas salvas preservam escolhas aceitas, custos, reembolsos e recompensas únicas.
 
 O local do protótipo exige `type: BEACON`.
+
+## Logística goblin opcional
+
+Mapas e níveis podem declarar a capacidade `lair_expansion` e uma lista com até quatro planos. Cada plano exige `id` e `target`, que aponta para uma tenda goblin existente por seu `objective_id` exclusivo. O transportador precisa chegar e um trabalhador vivo construir no local. Comboios, escoltas, defensores e ataques dividem orçamento finito: no máximo quatro ciclos e 64 novas unidades por origem. Perder o posto atrasa e enfraquece ataques que ainda não saíram; destruir a base interrompe a produção sem apagar sobreviventes nem postos opcionais. Postos não acrescentam bases obrigatórias à vitória. Sem planos, o calendário antigo continua. O protótipo usa arte existente de goblins e torres de vigia.

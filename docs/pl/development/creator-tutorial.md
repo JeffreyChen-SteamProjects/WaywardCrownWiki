@@ -67,3 +67,7 @@ Szablon nie zawiera prawdziwego ID elementu Warsztatu, konta Steam ani ścieżki
 Mapy i poziomy kampanii przyjmują najwyżej dwa wpisy `relics` z funkcją `relics`. Każdy wpis ma unikatowe `id`, typ `ancient_beacon`, `sealed_tomb` lub `lost_station` oraz `target` zgodny z `objective_id` istniejącego budynku. Stałe opcje pozwalają na najwyżej dwie decyzje; dowolne skrypty i cykliczne odgałęzienia są odrzucane. Samo odkrycie nic nie kosztuje i nie uruchamia terminu. Zapisy zachowują przyjęte wybory, koszty, zwroty i jednorazowe nagrody.
 
 Miejsce prototypu wymaga `type: BEACON`.
+
+## Opcjonalne zaopatrzenie goblinów
+
+Mapy i poziomy mogą zadeklarować funkcję `lair_expansion` i listę najwyżej czterech planów. Każdy plan wymaga `id` i `target`, wskazującego istniejący namiot goblinów przez unikatowe `objective_id`. Przewoźnik musi dotrzeć, a żywy pracownik budować na miejscu. Konwoje, eskorty, obrońcy i najazdy dzielą skończony budżet: najwyżej cztery cykle i 64 nowe jednostki na źródło. Utrata posterunku opóźnia i osłabia niewysłany najazd; zniszczenie bazy kończy produkcję, lecz pozostawia żywe jednostki i opcjonalne posterunki. Posterunki nie zwiększają obowiązkowych baz do zwycięstwa. Bez planów działa dawny harmonogram. Prototyp używa istniejących grafik goblinów i wież strażniczych.

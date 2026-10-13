@@ -105,3 +105,7 @@ Draghi e Troll sono i nemici più pericolosi (livello di pericolo 5). Con una gi
 **Sciamano goblin** — Ogni 20s cura 18 PV a fino a quattro alleati feriti entro 4 caselle, per massimo sei volte nella vita. Elimina prima il supporto o esaurisci i rimedi.
 
 **Sabotatore bandito** — Dà priorità agli edifici vicini e infligge alle strutture 2,5× danni normali. Reagisce agli eroi che lo intercettano; l’armatura leggera favorisce l’intercettazione.
+
+**Scorpione velenoso** — Un colpo del pungiglione lascia veleno di 3 PV/s per 5s, senza accumulo. Antidoti e purificazione lo rimuovono; scorta gli eroi fragili nelle zone degli scorpioni.
+
+**Guardiano di arenaria** — Lento e corazzato. A metà salute ottiene una volta nella vita uno scudo personale di 80 PV per 10s. Usa logoramento a distanza o veleno.

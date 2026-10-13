@@ -67,3 +67,7 @@ Una plantilla no tiene ningún ID real de elemento del Workshop, ninguna cuenta 
 Los mapas y niveles de campaña admiten hasta dos entradas `relics` con la capacidad `relics`. Cada entrada tiene un `id` único, un tipo `ancient_beacon`, `sealed_tomb` o `lost_station` y un `target` que coincide con el `objective_id` de un edificio existente. Las opciones fijas permiten como máximo dos decisiones; se rechazan los scripts arbitrarios y las ramas cíclicas. Descubrir no cobra ni inicia un plazo. Las partidas guardan las decisiones aceptadas, los costes, los reembolsos y las recompensas únicas.
 
 El lugar del prototipo requiere `type: BEACON`.
+
+## Logística goblin opcional
+
+Mapas y niveles pueden declarar la capacidad `lair_expansion` y hasta cuatro planes en su lista homónima. Cada plan requiere `id` y `target`, que identifica una tienda goblin existente por su `objective_id` único. El transportista debe llegar y un trabajador vivo construir el puesto. Convoyes, escoltas, defensores e incursiones comparten presupuesto: cuatro ciclos y 64 unidades nuevas por origen como máximo. Perder el puesto retrasa y debilita ataques sin salir; destruir la base detiene nueva producción pero deja unidades vivas y puestos opcionales. Los puestos no añaden objetivos obligatorios de bases. Sin planes se conserva el calendario antiguo. El prototipo usa el arte existente de goblins y atalayas.

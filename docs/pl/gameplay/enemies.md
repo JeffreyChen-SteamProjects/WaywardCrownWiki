@@ -105,3 +105,7 @@ Smoki i Trolle to najgroźniejsi wrogowie (poziom zagrożenia 5). Ze Smokami, kt
 **Gobliński szaman** — Co 20s leczy do czterech rannych sojuszników w 4 polach o 18 PŻ, najwyżej sześć razy za życia. Zabij wsparcie albo wyczerp jego lekarstwa.
 
 **Bandycki sabotażysta** — Najpierw podchodzi do pobliskich budynków i zadaje im 2,5× zwykłych obrażeń. Walczy z przechwytującym bohaterem; lekki pancerz ułatwia przechwycenie.
+
+**Jadowity skorpion** — Trafione żądło zostawia truciznę 3 PŻ/s na 5s, bez kumulacji. Antidotum i oczyszczenie ją usuwają; eskortuj słabych bohaterów na ziemiach skorpionów.
+
+**Piaskowcowy strażnik** — Wolny i ciężko opancerzony. Przy połowie zdrowia raz za życia otrzymuje własną tarczę 80 PŻ na 10s. Korzystaj z ostrzału lub trucizny.

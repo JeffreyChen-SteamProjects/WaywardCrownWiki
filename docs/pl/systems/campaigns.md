@@ -175,3 +175,7 @@ Szczegóły wyprawy prowadzą do dostępnych sklepów z miksturami i odpoczynkó
 ## Starożytna latarnia
 
 Na mapach ze starożytną latarnią wybierz odkryte miejsce, aby zobaczyć koszty, termin i opcje w szczegółach. Naprawa wymaga ekipy lub budowniczego na miejscu i zatrzymuje się w połowie na dodatkowe fundusze lub wycofanie. Ukończenie ostrzega o odkrytych wrogach w promieniu 20 pól. Skarb wymaga, by bohater dobrowolnie przyjął flagę eksploracji, dotarł i pracował; skarbiec i pracownik otrzymują po jednej wypłacie. Ignorowanie nie uruchamia terminu; wycofanie zwraca tylko niewykorzystane środki. Ruina nie rekrutuje ani nie wzmacnia flag.
+
+## Opcjonalne zaopatrzenie goblinów
+
+Mapy i poziomy mogą zadeklarować funkcję `lair_expansion` i listę najwyżej czterech planów. Każdy plan wymaga `id` i `target`, wskazującego istniejący namiot goblinów przez unikatowe `objective_id`. Przewoźnik musi dotrzeć, a żywy pracownik budować na miejscu. Konwoje, eskorty, obrońcy i najazdy dzielą skończony budżet: najwyżej cztery cykle i 64 nowe jednostki na źródło. Utrata posterunku opóźnia i osłabia niewysłany najazd; zniszczenie bazy kończy produkcję, lecz pozostawia żywe jednostki i opcjonalne posterunki. Posterunki nie zwiększają obowiązkowych baz do zwycięstwa. Bez planów działa dawny harmonogram. Prototyp używa istniejących grafik goblinów i wież strażniczych.

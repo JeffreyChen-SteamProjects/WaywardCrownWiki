@@ -105,3 +105,7 @@ Drachen und Trolle sind die gefährlichsten Feinde (Gefahrenstufe 5). Mit einer 
 **Goblin-Schamane** — Heilt alle 20s bis zu vier verletzte Verbündete in 4 Feldern um 18 LP, höchstens sechsmal im Leben. Unterstützung zuerst ausschalten oder die Mittel erschöpfen.
 
 **Banditensaboteur** — Geht zuerst auf nahe Gebäude und verursacht dort 2,5× normalen Schaden. Kämpft gegen abfangende Helden; leichte Rüstung macht Abfangen wirksam.
+
+**Giftskorpion** — Ein treffender Stich verursacht 5s lang 3 LP/s Gift, ohne Stapeln. Gegenmittel und Reinigung entfernen es; schwache Helden im Skorpiongebiet eskortieren.
+
+**Sandsteinwächter** — Langsam und schwer gepanzert. Bei halber Gesundheit einmal im Leben ein eigener Schild von 80 LP für 10s. Fernkampf und Gift helfen gegen die harte Front.

@@ -67,3 +67,7 @@ Eine Vorlage enthält keine echte Workshop-Artikel-ID, kein Steam-Konto und kein
 Karten und Kampagnenlevel akzeptieren mit der Fähigkeit `relics` höchstens zwei `relics`-Einträge. Jeder Eintrag besitzt eine eindeutige `id`, den Typ `ancient_beacon`, `sealed_tomb` oder `lost_station` und ein `target`, das der `objective_id` eines vorhandenen Gebäudes entspricht. Feste Optionen erlauben höchstens zwei Entscheidungen; beliebige Skripte und zyklische Zweige werden abgewiesen. Die Entdeckung allein kostet nichts und startet keine Frist. Spielstände erhalten angenommene Entscheidungen, Kosten, Rückerstattungen und einmalige Belohnungen.
 
 Der Prototyp benötigt einen Ort mit `type: BEACON`.
+
+## Optionale Goblin-Versorgung
+
+Karten und Kampagnenlevel können die Fähigkeit `lair_expansion` und eine gleichnamige Liste mit höchstens vier Plänen angeben. Jeder Plan braucht `id` und `target`, das ein vorhandenes Goblinzelt über dessen eindeutige `objective_id` benennt. Ein Transporteur muss ankommen und ein lebender Arbeiter den Außenposten vor Ort bauen. Konvois, Begleiter, Verteidiger und Überfälle teilen ein endliches Budget: höchstens vier Runden und 64 neue Einheiten je Quelle. Ein verlorener Außenposten verzögert und schwächt nicht gestartete Überfälle; das zerstörte Hauptlager stoppt die Produktion, lässt Überlebende und optionale Außenposten bestehen. Außenposten erhöhen die Pflichtziele für Hauptlager nicht. Ohne Pläne gilt der alte Zeitplan. Der Prototyp verwendet vorhandene Goblin- und Wachturmgrafiken.

@@ -175,3 +175,7 @@ Expeditionsdetails verlinken erreichbare Trankläden und Ruheplätze und zählen
 ## Antikes Leuchtfeuer
 
 Auf Karten mit einem antiken Leuchtfeuer zeigt die Auswahl des entdeckten Orts Kosten, Frist und Optionen in den Details. Eine Bautruppe oder ein Baumeister muss zur Reparatur vor Ort sein; auf halbem Weg wartet die Arbeit auf Zusatzmittel oder Rückzug. Der Abschluss warnt vor entdeckten Feinden innerhalb von 20 Feldern. Zur Bergung muss ein Held die Erkundungsflagge freiwillig annehmen, ankommen und arbeiten; Schatzkammer und Arbeiter werden einmal bezahlt. Ignorieren startet keine Frist; Rückzug erstattet nur ungenutzte Mittel. Die Ruine rekrutiert nicht und verbessert keine Flaggen.
+
+## Optionale Goblin-Versorgung
+
+Karten und Kampagnenlevel können die Fähigkeit `lair_expansion` und eine gleichnamige Liste mit höchstens vier Plänen angeben. Jeder Plan braucht `id` und `target`, das ein vorhandenes Goblinzelt über dessen eindeutige `objective_id` benennt. Ein Transporteur muss ankommen und ein lebender Arbeiter den Außenposten vor Ort bauen. Konvois, Begleiter, Verteidiger und Überfälle teilen ein endliches Budget: höchstens vier Runden und 64 neue Einheiten je Quelle. Ein verlorener Außenposten verzögert und schwächt nicht gestartete Überfälle; das zerstörte Hauptlager stoppt die Produktion, lässt Überlebende und optionale Außenposten bestehen. Außenposten erhöhen die Pflichtziele für Hauptlager nicht. Ohne Pläne gilt der alte Zeitplan. Der Prototyp verwendet vorhandene Goblin- und Wachturmgrafiken.

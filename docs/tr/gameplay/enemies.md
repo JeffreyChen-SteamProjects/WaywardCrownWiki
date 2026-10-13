@@ -105,3 +105,7 @@ Ejderhalar ve Troller en tehlikeli düşmanlardır (tehlike seviyesi 5). 16 sald
 **Goblin şamanı** — Her 20sn, 4 kare içindeki en fazla dört yaralı müttefiki 18 can iyileştirir; yaşamı boyunca en fazla altı kez. Önce desteği öldürün veya ilaçlarını tüketin.
 
 **Haydut sabotajcı** — Yakındaki binalara öncelik verir ve yapılara normalin 2,5 katı hasar verir. Önünü kesen kahramana karşı koyar; hafif zırhı önlemeyi etkili kılar.
+
+**Zehirli akrep** — İsabetli iğne 5sn boyunca 3 can/sn zehir bırakır, birikmez. Panzehir ve arınma kaldırır; akrep bölgesinde zayıf kahramanları koruyun.
+
+**Kumtaşı muhafızı** — Yavaş ve ağır zırhlı. Yarı candayken yaşamı boyunca bir kez kendine 10sn için 80 canlık kalkan alır. Cepheden vurmak yerine uzaktan yıpratma veya zehir kullanın.

@@ -105,3 +105,7 @@ Rồng và Troll là những kẻ thù nguy hiểm nhất (mức nguy hiểm 5).
 **Pháp sư goblin** — Mỗi 20 giây hồi 18 HP cho tối đa bốn đồng minh bị thương trong 4 ô, nhiều nhất sáu lần suốt đời. Diệt hỗ trợ trước hoặc chờ thuốc cạn.
 
 **Kẻ phá hoại cướp** — Ưu tiên tiếp cận công trình gần đó, gây 2,5 lần sát thương thường lên công trình. Vẫn chống trả anh hùng chặn đường; giáp nhẹ khiến đánh chặn hiệu quả.
+
+**Bọ cạp độc** — Đòn chích trúng để lại độc 3 HP/giây trong 5 giây, không cộng dồn. Thuốc giải và thanh tẩy loại bỏ độc; hộ tống anh hùng yếu qua vùng bọ cạp.
+
+**Vệ binh sa thạch** — Chậm và giáp nặng. Khi còn nửa máu nhận lá chắn 80 HP trong 10 giây cho riêng mình, chỉ một lần suốt đời. Dùng tiêu hao từ xa hoặc độc để đối phó.

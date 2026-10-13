@@ -67,3 +67,7 @@ Mẫu không có ID vật phẩm Workshop thật, tài khoản Steam hay đườ
 Bản đồ và màn chiến dịch nhận tối đa hai mục `relics` với khả năng `relics`. Mỗi mục có `id` duy nhất, loại `ancient_beacon`, `sealed_tomb` hoặc `lost_station`, cùng `target` khớp `objective_id` của công trình hiện có. Các lựa chọn cố định cho phép tối đa hai quyết định; mã lệnh tùy ý và nhánh lặp bị từ chối. Chỉ khám phá không trừ tiền hay bắt đầu thời hạn. Bản lưu giữ lựa chọn đã chấp nhận, chi phí, hoàn tiền và phần thưởng một lần.
 
 Địa điểm mẫu yêu cầu `type: BEACON`.
+
+## Tiếp tế goblin tùy chọn
+
+Bản đồ và màn có thể khai báo khả năng `lair_expansion` cùng danh sách tối đa bốn kế hoạch. Mỗi kế hoạch cần `id` và `target` trỏ đến lều goblin hiện có bằng `objective_id` duy nhất. Người vận chuyển phải thật sự đến nơi và người làm còn sống phải xây tại chỗ. Đoàn hàng, hộ vệ, quân thủ và tập kích dùng chung ngân sách hữu hạn: tối đa bốn lượt và 64 quân mới mỗi nguồn. Mất tiền đồn trì hoãn và làm yếu cuộc tập kích chưa xuất phát; phá căn cứ dừng sản xuất mới nhưng giữ quân còn sống và tiền đồn tùy chọn. Tiền đồn không tăng căn cứ bắt buộc cho chiến thắng. Không có kế hoạch thì dùng lịch cũ. Bản thử chức năng dùng hình goblin và tháp canh hiện có.

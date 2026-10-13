@@ -175,3 +175,7 @@ Expedition details link to reachable potion shops and rest, and count learnt hea
 ## Ancient beacon
 
 On maps with an ancient beacon, select its discovered site to see costs, the deadline and choices in the details panel. Repair requires a crew or builder on site and pauses halfway for extra funding or withdrawal. Completion warns about discovered enemies within 20 tiles. Salvage needs a hero to accept the explore flag, arrive and work; the crown and worker are paid once. Ignoring the offer starts no deadline. Withdrawal refunds only unspent funds. The relic gives no recruitment or flag bonus.
+
+## Optional Goblin logistics
+
+Authored maps and campaign levels may enable `lair_expansion` with that capability and up to four plans. Each plan names an existing Goblin Tent by its unique `objective_id`; `id` and `target` are required. Supply couriers physically travel before funding an outpost, and a living worker must build it. Convoys, escorts, defenders and raids share a finite unit budget: at most four cycles and 64 new units per source. A lost outpost delays and weakens an unissued raid; destroying the main lair stops new production but leaves living units and optional outposts. Outposts do not add mandatory main-lair victory targets. No plans preserves the old schedule. This functional prototype uses existing goblin and watchtower art.

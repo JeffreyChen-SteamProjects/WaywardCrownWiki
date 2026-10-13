@@ -67,3 +67,7 @@ Un modello non contiene nessun vero ID di elemento del Workshop, nessun account 
 Mappe e livelli della campagna accettano al massimo due voci `relics` con la capacità `relics`. Ogni voce ha un `id` univoco, un tipo `ancient_beacon`, `sealed_tomb` o `lost_station` e un `target` corrispondente all’`objective_id` di un edificio esistente. Le opzioni fisse consentono al massimo due decisioni; script arbitrari e rami ciclici vengono rifiutati. La scoperta da sola non addebita costi né avvia una scadenza. I salvataggi conservano scelte accettate, costi, rimborsi e ricompense uniche.
 
 Il luogo del prototipo richiede `type: BEACON`.
+
+## Logistica goblin facoltativa
+
+Mappe e livelli possono dichiarare la capacità `lair_expansion` e una lista omonima di massimo quattro piani. Ogni piano richiede `id` e `target`, che indica una tenda goblin esistente tramite il suo `objective_id` univoco. Il trasportatore deve arrivare e un lavoratore vivo costruire sul posto. Convogli, scorte, difensori e incursioni condividono un budget finito: massimo quattro cicli e 64 nuove unità per origine. Perdere l’avamposto ritarda e indebolisce le incursioni non partite; distruggere la base ferma la produzione ma lascia superstiti e avamposti facoltativi. Gli avamposti non aggiungono basi obbligatorie alla vittoria. Senza piani resta il calendario precedente. Il prototipo usa la grafica esistente di goblin e torri di guardia.
