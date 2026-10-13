@@ -43,7 +43,7 @@ Kẻ thù xuất hiện tự nhiên trong các vùng hoang dã trên bản đồ
 
 **Đạo quân**: bốn loại kẻ địch chiến đấu thành hàng ngũ và đội công thành. Đòn đánh của Lính giáo dài làm anh hùng trúng đòn chậm lại trong chốc lát. Lính khiên thỉnh thoảng dựng khiên cho mình và quái vật bên cạnh. Lính phá hoại đặt thuốc nổ, được đánh dấu trên mặt đất trước khi nổ (không bao giờ nổ nếu Lính phá hoại gục trước) và đánh công trình mạnh gấp ba. Quái thú công thành chậm, khó hạ và đánh công trình mạnh gấp bốn.
 
-Rồng, Cung thủ Goblin và Giáo đồ bóng tối bắn đạn (lần lượt là luồng lửa, mũi tên thô và cầu bóng tối); các loại còn lại tấn công từ khoảng cách tối đa 3 ô.
+Rồng, Cung thủ Goblin, Giáo đồ bóng tối, Kẻ phun nọc, Kẻ trói nguyền — bắn đạn tầm xa riêng; các loại thường khác đánh cận chiến trong 3 ô.
 
 Kẻ địch đến lượt một lần sau mỗi 4 tick. Tốc độ cho nó một bước sau mỗi 3 ÷ tốc độ lượt, làm tròn xuống (ít nhất 1), rồi mọi kẻ địch còn đi nhanh thêm ba phần mười: số lượt chờ được chia cho 1.3, phần lẻ dồn sang các bước sau và không bao giờ ít hơn một lượt. Vì vậy tốc độ từ 1.6 trở lên đi một bước mỗi lượt, ở 1.1–1.4 khoảng hai bước trong 3 lượt, ở 0.8–1.0 khoảng ba bước trong 7 lượt, Troll khoảng 3 lượt một bước và ở 0.5–0.6 cứ 4 đến 5 lượt một bước.
 
@@ -93,10 +93,11 @@ Khi sự kiện xâm lăng kích hoạt, kẻ thù đi thẳng đến lâu đài
 
 Kẻ thù sinh dựa trên **loại địa hình**:
 
-- **Rừng** — Slime, Zombie, Sói dữ, Giáo đồ bóng tối, Nhện khổng lồ, Lính phá hoại
-- **Núi** — Goblin, Bộ xương, Rồng, Orc lực lưỡng, Cung thủ Goblin, Troll, Lính giáo dài, Lính khiên, Quái thú công thành
+- **Rừng** — Slime, Zombie, Sói dữ, Giáo đồ bóng tối, Nhện khổng lồ, Lính phá hoại, Pháp sư goblin, Kẻ phá hoại cướp, Kẻ trói nguyền
+- **Núi** — Goblin, Bộ xương, Rồng, Orc lực lưỡng, Cung thủ Goblin, Troll, Lính giáo dài, Lính khiên, Quái thú công thành, Thuật sĩ gọi hồn địch, Thợ săn vong hồn, Dơi hút máu
 - **Đồng cỏ** — Chuột khổng lồ, Thổ phỉ, Harpy
-- **Sa mạc** — Oan hồn cát
+- **Sa mạc** — Oan hồn cát, Bọ cạp độc, Vệ binh sa thạch
+- **Đầm lầy** — Kẻ phun nọc, Chất nhầy phân đôi
 
 :::note[Rồng]
 Rồng và Troll là những kẻ thù nguy hiểm nhất (mức nguy hiểm 5). Với tầm tấn công 16, 550 HP và luồng lửa làm đạn, cách tốt nhất để đối phó với Rồng là dùng nhà phiêu lưu tầm xa và tháp bắn tên; Troll có nhiều HP và sức tấn công hơn nhưng phải áp sát mới đánh được.
@@ -138,3 +139,13 @@ Rồng và Troll là những kẻ thù nguy hiểm nhất (mức nguy hiểm 5).
 **Chất nhầy phân đôi** — Khi chết chỉ chia một lần thành tối đa hai chất nhầy thường, mỗi con có 35% HP tối đa và nửa công, thủ của mẹ, tính cả cấp bậc. Không chia tiếp, không cho vàng hay XP hạ gục. Tối đa 64 con còn sống trên thế giới. Dùng sát thương vùng và dự phòng tuyến thứ hai.
 
 Dọn đợt địch được chỉ định cũng cần hạ bộ xương được gọi và chất nhầy con; chỉ hạ nguồn không kết thúc đợt.
+
+**Lính giáo dài** — Đòn giáo trúng làm chậm mục tiêu 3 giây. Dùng tiền tuyến che anh hùng yếu; thanh tẩy bỏ làm chậm.
+
+**Lính khiên** — Khiên 40 HP trong 8 giây ở bán kính 2, tối đa bốn đồng minh mỗi lần và sáu lần suốt đời, mỗi 24 giây. Cấp bậc không tăng khiên. Giữ khiên mạnh hơn. Ưu tiên hạ người mang khiên hoặc dùng độc.
+
+**Lính phá hoại** — Hỗ trợ nổ yếu: nhắm xa tối đa 3 ô, cảnh báo 3 giây rồi gây 40 sát thương bán kính 2, mỗi 18 giây. Chết sẽ hủy cảnh báo. Đánh công trình dùng công đã tính cấp bậc rồi nhân ba một lần.
+
+**Quái thú công thành** — Đơn vị nặng chậm, đánh công trình bằng bốn lần nửa công đã tính cấp bậc. Chặn bằng tiền tuyến và tập trung bắn; thủ cao khiến đột kích cận chiến thiếu hỗ trợ tốn kém.
+
+Gnashfang gọi một giáo và một khiên mỗi lần, bốn suốt đời. Họ theo tâm phòng thủ và còn sống sau khi thủ lĩnh chết. Đòn nặng cảnh báo 2,4 giây, chọn trong 4 ô, trúng bán kính 2; hai cung thủ cuối là lần gọi hữu hạn riêng.

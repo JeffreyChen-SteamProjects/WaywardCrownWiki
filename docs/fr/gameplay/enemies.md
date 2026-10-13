@@ -43,7 +43,7 @@ Les ennemis apparaissent naturellement dans les zones sauvages à travers la car
 
 **L'ost** : quatre ennemis combattent en ligne et en troupe de siège. Le coup d'un Piquier retient un instant le héros qu'il touche. Un Porte-bouclier lève de temps à autre un bouclier sur lui-même et les monstres à ses côtés. Un Sapeur pose une charge marquée au sol avant d'exploser (elle n'explose jamais s'il tombe avant) et frappe les bâtiments trois fois plus fort. Une Bête de siège est lente, difficile à abattre et frappe les bâtiments quatre fois plus fort.
 
-Le Dragon, l'Archer gobelin et le Cultiste sombre tirent des projectiles (jets de flammes, flèches grossières et orbes sombres) ; les autres frappent à 3 cases au maximum.
+Dragon, Archer gobelin, Cultiste sombre, Cracheur de venin, Lie-sorts — tirent leurs propres projectiles ; les autres espèces ordinaires frappent à 3 cases au plus.
 
 Un ennemi joue son tour une fois tous les 4 ticks. Sa vitesse lui donne un pas tous les 3 ÷ vitesse tours, arrondi à l'inférieur (au moins 1), et chaque ennemi marche ensuite trois dixièmes plus vite : cette attente est divisée par 1,3, la fraction est reportée sur les pas suivants, et elle ne descend jamais sous un tour. Il y a donc un pas à chaque tour à partir d'une vitesse de 1,6, environ deux pas en 3 tours entre 1,1 et 1,4, environ trois en 7 entre 0,8 et 1,0, environ un tous les 3 tours pour le Troll et un tous les 4 ou 5 entre 0,5 et 0,6.
 
@@ -93,10 +93,11 @@ Lorsqu'un événement d'invasion se déclenche, les ennemis se dirigent droit ve
 
 Les ennemis apparaissent en fonction du **type de terrain** :
 
-- **Forêt** — Slimes, Zombies, Loups sinistres, Cultistes sombres, Araignées géantes, Sapeurs
-- **Montagne** — Gobelins, Squelettes, Dragons, Brutes orques, Archers gobelins, Trolls, Piquiers, Porte-boucliers, Bêtes de siège
-- **Prairie** — Rats géants, Bandits, Harpies
-- **Désert** — Spectres des sables
+- **Forêt** — Slime, Zombie, Loup sinistre, Cultiste sombre, Araignée géante, Sapeur, Chaman gobelin, Saboteur bandit, Lie-sorts
+- **Montagne** — Gobelin, Squelette, Dragon, Brute orque, Archer gobelin, Troll, Piquier, Porte-bouclier, Bête de siège, Nécromancien ennemi, Chasseur spectral, Chauve-souris vampire
+- **Prairie** — Rat géant, Bandit, Harpie
+- **Désert** — Spectre des sables, Scorpion venimeux, Gardien de grès
+- **Marécage** — Cracheur de venin, Gelée fissile
 
 :::note[Dragons]
 Les Dragons et les Trolls sont les ennemis les plus dangereux (niveau de danger 5). Avec une portée d'attaque de 16, 550 HP et des jets de flammes pour projectiles, les Dragons sont mieux gérés avec des aventuriers à distance et des tours à flèches ; le Troll a plus de HP et d'attaque, mais doit s'approcher.
@@ -138,3 +139,13 @@ Les raids de campagne respectent sa liste d’ennemis ; les royaumes libres util
 **Gelée fissile** — À sa mort se divise une fois en deux gelées ordinaires au plus, chacune avec 35% des PV maximaux et moitié de l’attaque et de la défense de la mère, rang compris. Sans nouvelle division ni or ou XP de mort. Au plus 64 enfants vivants dans le monde. Utilisez les dégâts de zone et prévoyez une seconde ligne.
 
 Éliminer une vague nommée exige aussi ses squelettes invoqués et ses petites gelées ; tuer seulement la source ne suffit pas.
+
+**Piquier** — Un coup de lance réussi ralentit sa cible 3s. Protégez les héros fragiles derrière le front ; la purification retire le ralentissement.
+
+**Porte-bouclier** — Bouclier de 40 PV pour 8s dans un rayon de 2, au plus quatre alliés par sort et six sorts par vie, toutes les 24s. Le rang ne le multiplie pas. Les boucliers plus forts restent. Visez le porteur ou utilisez le poison.
+
+**Sapeur** — Fragile soutien explosif : cible à 3 cases au plus, avertissement 3s, puis 40 dégâts dans un rayon de 2, toutes les 18s. Sa mort annule le tir. Les coups aux bâtiments utilisent l’attaque déjà ajustée au rang puis ×3 une fois.
+
+**Bête de siège** — Lent et lourd, frappe les bâtiments à ×4 de sa demi-attaque déjà ajustée au rang. Interceptez au front et concentrez les tirs ; sa défense rend la mêlée sans soutien coûteuse.
+
+Gnashfang appelle un lancier et un porteur de bouclier à la fois, quatre par vie. Ils suivent son centre de garde et survivent à sa mort. Le coup prévient 2,4s, vise à 4 cases et touche un rayon de 2 ; les deux derniers archers sont un appel limité distinct.

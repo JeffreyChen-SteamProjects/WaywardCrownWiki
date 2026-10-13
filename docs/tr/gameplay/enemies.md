@@ -43,7 +43,7 @@ Düşmanlar harita genelindeki vahşi bölgelerde doğal olarak ortaya çıkar v
 
 **Ordu**: dört düşman bir hat ve kuşatma birliği olarak savaşır. Mızrakçı vurduğu kahramanı bir an için yavaşlatır. Kalkan Taşıyıcı ara sıra kendisinin ve yanındaki canavarların üzerine kalkan kaldırır. Lağımcı, patlamadan önce yerde işaretlenen bir patlayıcı yerleştirir (önce kendisi düşerse hiç patlamaz) ve binalara üç kat sert vurur. Kuşatma Canavarı yavaştır, zor devrilir ve binalara dört kat sert vurur.
 
-Ejderha, Goblin Okçu ve Karanlık Tarikatçı mermi fırlatır (sırasıyla alev püskürtüsü, kaba ok ve karanlık küre); diğerleri en fazla 3 karo uzaktan vurur.
+Ejderha, Goblin Okçu, Karanlık Tarikatçı, Zehir tükürücü, Lanet bağlayıcı — kendilerine özgü menzilli atış yapar; diğer sıradan türler 3 kare içinde yakın dövüşür.
 
 Bir düşmanın sırası her 4 tikte bir gelir. Hızı ona her 3 ÷ hız sırada bir adım verir, aşağı yuvarlanır (en az 1) ve her düşman bunun üstüne onda üç daha hızlı yürür: bu bekleme 1.3'e bölünür, kesir sonraki adımlara aktarılır ve hiçbir zaman bir sıradan kısa olmaz. Böylece 1.6 ve üzeri hızda her sırada bir adım, 1.1–1.4'te 3 sırada yaklaşık iki adım, 0.8–1.0'da 7 sırada yaklaşık üç adım, Trol'de yaklaşık her 3 sırada bir adım ve 0.5–0.6'da her 4–5 sırada bir adım atılır.
 
@@ -93,10 +93,11 @@ Bir istila olayı tetiklendiğinde düşmanlar en kısa yoldan doğruca oyuncunu
 
 Düşmanlar **arazi türüne** göre doğar:
 
-- **Orman** — Slime'lar, Zombiler, Dev Kurtlar, Karanlık Tarikatçılar, Dev Örümcekler, Lağımcılar
-- **Dağ** — Goblinler, İskeletler, Ejderhalar, Ork Kabadayılar, Goblin Okçular, Troller, Mızrakçılar, Kalkan Taşıyıcılar, Kuşatma Canavarları
-- **Çayırlık** — Dev Sıçanlar, Haydutlar, Harpiler
-- **Çöl** — Kum Hortlakları
+- **Orman** — Slime, Zombi, Dev Kurt, Karanlık Tarikatçı, Dev Örümcek, Lağımcı, Goblin şamanı, Haydut sabotajcı, Lanet bağlayıcı
+- **Dağ** — Goblin, İskelet, Ejderha, Ork Kabadayı, Goblin Okçu, Trol, Mızrakçı, Kalkan Taşıyıcı, Kuşatma Canavarı, Düşman nekromans, Hayalet avcısı, Vampir yarasa
+- **Çayırlık** — Dev Sıçan, Haydut, Harpi
+- **Çöl** — Kum Hortlağı, Zehirli akrep, Kumtaşı muhafızı
+- **Bataklık** — Zehir tükürücü, Bölünen balçık
 
 :::note[Ejderhalar]
 Ejderhalar ve Troller en tehlikeli düşmanlardır (tehlike seviyesi 5). 16 saldırı menzili, 550 HP ve alev püskürtüleriyle Ejderhalarla en iyi şekilde uzun menzilli maceraperestler ve ok kuleleri ile mücadele edilir; Trolün HP'si ve saldırısı daha yüksektir ama yakına gelmek zorundadır.
@@ -138,3 +139,13 @@ Sefer baskınları seferin düşman listesine uyar; özgür krallıklar tüm in 
 **Bölünen balçık** — Ölünce bir kez en çok iki sıradan balçığa bölünür. Her yavru annenin azami canının %35’ine, saldırı ve savunmasının yarısına sahiptir; rütbe dahildir. Tekrar bölünmez, altın veya öldürme XP’si vermez. Dünyada en çok 64 canlı yavru. Alan hasarı kullanın ve ikinci cepheyi bekleyin.
 
 Adlandırılmış dalgayı temizlemek çağrılan iskeletleri ve balçık yavrularını da yenmeyi gerektirir; yalnız kaynağı öldürmek yetmez.
+
+**Mızrakçı** — İsabetli mızrak hedefi 3sn yavaşlatır. Kırılgan kahramanları ön hatla koruyun; arınma yavaşlığı kaldırır.
+
+**Kalkan Taşıyıcı** — Yarıçap 2 içinde 8sn için 40 can kalkanı, büyü başına en çok dört müttefik ve ömür boyu altı büyü, her 24sn. Rütbe kalkanı çoğaltmaz. Güçlü kalkanlar kalır. Taşıyıcıya odaklanın veya zehir kullanın.
+
+**Lağımcı** — Kırılgan patlayıcı desteği: en çok 3 kareden hedefler, 3sn uyarır, yarıçap 2 içinde 40 hasar verir; aralık 18sn. Ölümü uyarıyı iptal eder. Bina vuruşu rütbeli saldırıyı kullanıp bir kez ×3 uygular.
+
+**Kuşatma Canavarı** — Yavaş ağır birlik, yapılara rütbeli yarım saldırısının bir kez ×4’üyle vurur. Ön hatla durdurup uzaktan odaklanın; savunması desteksiz yakın hücumu pahalı kılar.
+
+Gnashfang bir mızrak ve bir kalkan çağırır, ömür boyu dört. Muhafız merkeziyle ilerler ve ölümünden sonra kalırlar. Darbe 2,4sn uyarır, 4 kareden seçer ve yarıçap 2 vurur; son iki okçu ayrı sınırlı çağrıdır.

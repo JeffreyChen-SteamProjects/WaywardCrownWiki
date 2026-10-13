@@ -43,7 +43,7 @@ Wrogowie pojawiają się naturalnie na dzikich obszarach mapy, zagrażając twoi
 
 **Zastęp**: czterech wrogów walczy jako szyk i oddział oblężniczy. Cios, który zadaje Pikinier, na chwilę spowalnia trafionego bohatera. Tarczownik co jakiś czas wznosi tarczę nad sobą i potworami obok. Saper podkłada ładunek, który przed wybuchem jest zaznaczony na ziemi (nie wybucha, jeśli Saper padnie wcześniej), i uderza w budynki trzy razy mocniej. Bestia oblężnicza jest powolna, trudna do powalenia i uderza w budynki cztery razy mocniej.
 
-Smok, Goblin łucznik i Mroczny kultysta wystrzeliwują pociski (odpowiednio strugi ognia, prymitywne strzały i mroczne kule); pozostali uderzają z odległości do 3 kafelków.
+Smok, Goblin łucznik, Mroczny kultysta, Plujnik jadu, Wiązacz klątw — strzelają własnymi pociskami; pozostałe zwykłe typy atakują do 3 pól.
 
 Wróg ma swoją turę raz na 4 takty. Jego szybkość daje mu krok co 3 ÷ szybkość tur, w zaokrągleniu w dół (co najmniej 1), a każdy wróg chodzi potem o trzy dziesiąte szybciej: to czekanie dzieli się przez 1,3, ułamek przechodzi na następne kroki i nigdy nie jest krótsze niż jedna tura. Krok przypada więc w każdej turze przy szybkości od 1,6, około dwóch kroków na 3 tury przy 1,1–1,4, około trzech na 7 przy 0,8–1,0, mniej więcej krok co 3 tury u Trolla i krok co 4–5 tur przy 0,5–0,6.
 
@@ -93,10 +93,11 @@ Gdy wydarzenie inwazji się uruchomi, wrogowie kierują się prosto do zamku gra
 
 Wrogowie pojawiają się na podstawie **typu terenu**:
 
-- **Las** — Szlamy, Zombie, Wilkory, Mroczni kultyści, Olbrzymie pająki, Saperzy
-- **Góry** — Gobliny, Szkielety, Smoki, Orkowie siłacze, Gobliny łucznicy, Trolle, Pikinierzy, Tarczownicy, Bestie oblężnicze
-- **Łąka** — Olbrzymie szczury, Bandyci, Harpie
-- **Pustynia** — Piaskowe zjawy
+- **Las** — Szlam, Zombie, Wilkor, Mroczny kultysta, Olbrzymi pająk, Saper, Gobliński szaman, Bandycki sabotażysta, Wiązacz klątw
+- **Góry** — Goblin, Szkielet, Smok, Ork siłacz, Goblin łucznik, Troll, Pikinier, Tarczownik, Bestia oblężnicza, Wrogi nekromanta, Łowca widm, Nietoperz wampir
+- **Łąka** — Olbrzymi szczur, Bandyta, Harpia
+- **Pustynia** — Piaskowa zjawa, Jadowity skorpion, Piaskowcowy strażnik
+- **Bagno** — Plujnik jadu, Dzielący się śluz
 
 :::note[Smoki]
 Smoki i Trolle to najgroźniejsi wrogowie (poziom zagrożenia 5). Ze Smokami, które mają zasięg ataku 16, 550 HP i strugi ognia jako pociski, najlepiej radzić sobie za pomocą poszukiwaczy przygód dystansowych i wież strzelniczych; Troll ma więcej HP i ataku, ale musi podejść blisko.
@@ -138,3 +139,13 @@ Najazdy kampanii stosują jej listę wrogów; wolne królestwa używają wszystk
 **Dzielący się śluz** — Przy śmierci raz dzieli się na najwyżej dwa zwykłe śluzy, każdy z 35% maksymalnych PŻ i połową ataku i obrony matki, z rangą. Nie dzielą się i nie dają złota ani PD za zabicie. Najwyżej 64 żywe dzieci na świecie. Użyj obrażeń obszarowych i przygotuj drugi front.
 
 Pokonanie nazwanej fali obejmuje jej przyzwane szkielety i małe śluzy; zabicie samego źródła nie kończy fali.
+
+**Pikinier** — Trafiona pika spowalnia cel na 3s. Osłoń słabych bohaterów frontem; oczyszczenie usuwa spowolnienie.
+
+**Tarczownik** — Tarcza 40 PŻ na 8s w promieniu 2, do czterech sojuszników na rzut i sześciu rzutów za życia, co 24s. Ranga jej nie mnoży. Silniejsze tarcze zostają. Skup atak na tarczowniku lub użyj trucizny.
+
+**Saper** — Słaby saper: cel do 3 pól, ostrzeżenie 3s, potem 40 obrażeń w promieniu 2, co 18s. Jego śmierć anuluje wybuch. Ciosy w budynki używają ataku już zmienionego rangą i jednego ×3.
+
+**Bestia oblężnicza** — Wolny ciężki wojownik uderza w budynki za ×4 połowy ataku już zmienionego rangą. Zatrzymaj frontem i skup ostrzał; wysoka obrona utrudnia szturm wręcz bez wsparcia.
+
+Gnashfang przywołuje jedną pikę i jedną tarczę naraz, cztery za życia. Śledzą środek jego straży i przeżywają jego śmierć. Cios ostrzega 2,4s, wybiera do 4 pól i uderza promień 2; ostatni dwaj łucznicy to osobne ograniczone wezwanie.

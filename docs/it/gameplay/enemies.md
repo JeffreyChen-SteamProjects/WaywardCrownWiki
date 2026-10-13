@@ -43,7 +43,7 @@ I nemici appaiono naturalmente nelle aree selvagge della mappa, minacciando i tu
 
 **L'armata**: quattro nemici combattono come linea e come truppa d'assedio. Il colpo di un Picchiere trattiene per un momento l'eroe che lo riceve. Un Portascudo alza ogni tanto uno scudo su di sé e sui mostri accanto. Un Guastatore piazza una carica segnata sul terreno prima di esplodere (non esplode mai se cade prima) e colpisce gli edifici tre volte più forte. Una Bestia d'assedio è lenta, dura da abbattere e colpisce gli edifici quattro volte più forte.
 
-Il Drago, l'Arciere goblin e il Cultista oscuro scagliano proiettili (vampate di fuoco, frecce rozze e globi oscuri); gli altri colpiscono fino a 3 caselle di distanza.
+Drago, Arciere goblin, Cultista oscuro, Sputatore di veleno, Vincolatore di malefici — sparano proiettili propri; gli altri tipi ordinari colpiscono entro 3 caselle.
 
 Un nemico ha il suo turno una volta ogni 4 tick. La sua velocità gli dà un passo ogni 3 ÷ velocità turni, arrotondato per difetto (almeno 1), e ogni nemico cammina poi tre decimi più in fretta: quell'attesa è divisa per 1,3, la frazione passa ai passi successivi e non scende mai sotto un turno. Così c'è un passo a ogni turno da velocità 1,6 in su, circa due passi in 3 turni tra 1,1 e 1,4, circa tre in 7 tra 0,8 e 1,0, circa uno ogni 3 turni per il Troll e uno ogni 4 o 5 tra 0,5 e 0,6.
 
@@ -93,10 +93,11 @@ Quando si attiva un evento di invasione, i nemici si dirigono direttamente verso
 
 I nemici appaiono in base al **tipo di terreno**:
 
-- **Foresta** — Slime, Zombie, Lupi crudeli, Cultisti oscuri, Ragni giganti, Guastatori
-- **Montagna** — Goblin, Scheletri, Draghi, Bruti orcheschi, Arcieri goblin, Troll, Picchieri, Portascudi, Bestie d'assedio
-- **Prateria** — Ratti giganti, Banditi, Arpie
-- **Deserto** — Spettri delle sabbie
+- **Foresta** — Slime, Zombie, Lupo crudele, Cultista oscuro, Ragno gigante, Guastatore, Sciamano goblin, Sabotatore bandito, Vincolatore di malefici
+- **Montagna** — Goblin, Scheletro, Drago, Bruto orchesco, Arciere goblin, Troll, Picchiere, Portascudo, Bestia d'assedio, Necromante nemico, Cacciatore spettrale, Pipistrello vampiro
+- **Prateria** — Ratto gigante, Bandito, Arpia
+- **Deserto** — Spettro delle sabbie, Scorpione velenoso, Guardiano di arenaria
+- **Palude** — Sputatore di veleno, Melma fissile
 
 :::note[Draghi]
 Draghi e Troll sono i nemici più pericolosi (livello di pericolo 5). Con una gittata d'attacco di 16, 550 HP e vampate di fuoco come proiettili, è meglio affrontare i Draghi con avventurieri a distanza e torri di frecce; il Troll ha più HP e attacco, ma deve avvicinarsi.
@@ -138,3 +139,13 @@ Le incursioni della campagna seguono il suo elenco di nemici; i regni liberi usa
 **Melma fissile** — Alla morte si divide una volta in massimo due melme normali, ciascuna con 35% dei PV massimi e metà attacco e difesa della madre, rango incluso. Non si dividono né danno oro o XP di uccisione. Massimo 64 figli vivi nel mondo. Usa danni ad area e prepara un secondo fronte.
 
 Eliminare un’ondata nominata richiede anche scheletri evocati e melme figlie; uccidere solo la fonte non basta.
+
+**Picchiere** — Un colpo di picca rallenta il bersaglio per 3s. Proteggi gli eroi fragili dietro il fronte; la purificazione rimuove il rallentamento.
+
+**Portascudo** — Scudo di 40 PV per 8s in raggio 2, massimo quattro alleati per lancio e sei lanci per vita, ogni 24s. Il rango non lo moltiplica. Gli scudi più forti restano. Dai priorità al portatore o usa veleno.
+
+**Guastatore** — Fragile supporto esplosivo: mira fino a 3 caselle, avvisa 3s e infligge 40 danni in raggio 2, ogni 18s. La sua morte annulla l’avviso. I colpi agli edifici usano l’attacco già modificato dal rango e ×3 una sola volta.
+
+**Bestia d'assedio** — Pesante lento che colpisce strutture a ×4 del mezzo attacco già modificato dal rango. Intercetta al fronte e concentra il fuoco a distanza; la difesa punisce gli assalti ravvicinati senza sostegno.
+
+Gnashfang richiama una picca e uno scudo per volta, quattro per vita. Seguono il suo centro di guardia e sopravvivono alla sua morte. Il colpo avvisa 2,4s, sceglie entro 4 caselle e colpisce raggio 2; gli ultimi due arcieri sono un richiamo limitato separato.

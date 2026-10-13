@@ -43,7 +43,7 @@ Los enemigos aparecen naturalmente en las zonas salvajes del mapa, amenazando a 
 
 **La hueste**: cuatro enemigos luchan como línea y como tropa de asedio. El golpe de un Piquero frena un momento al héroe que lo recibe. Un Portaescudo levanta de vez en cuando un escudo sobre sí mismo y los monstruos a su lado. Un Zapador coloca una carga que se marca en el suelo antes de estallar (nunca estalla si cae antes) y golpea los edificios tres veces más fuerte. Una Bestia de asedio es lenta, difícil de abatir y golpea los edificios cuatro veces más fuerte.
 
-El Dragón, el Arquero goblin y el Cultista oscuro disparan proyectiles (llamaradas, flechas toscas y orbes oscuros); los demás golpean desde un máximo de 3 casillas.
+Dragón, Arquero goblin, Cultista oscuro, Escupidor de veneno, Ligador de maleficios — disparan sus propios proyectiles; las otras clases comunes golpean a 3 casillas o menos.
 
 A un enemigo le toca su turno una vez cada 4 ticks. Su velocidad le da un paso cada 3 ÷ velocidad turnos, redondeado hacia abajo (al menos 1), y todos los enemigos caminan además tres décimas más rápido: esa espera se divide entre 1.3, la fracción pasa a los pasos siguientes y nunca baja de un turno. Así, hay un paso cada turno con velocidad 1.6 o más, unos dos pasos en 3 turnos con 1.1–1.4, unos tres en 7 con 0.8–1.0, más o menos uno cada 3 turnos para el Trol y uno cada 4 o 5 con 0.5–0.6.
 
@@ -93,10 +93,11 @@ Cuando se activa un evento de invasión, los enemigos se dirigen directamente al
 
 Los enemigos aparecen según el **tipo de terreno**:
 
-- **Bosque** — Limos, Zombis, Lobos huargos, Cultistas oscuros, Arañas gigantes, Zapadores
-- **Montaña** — Goblins, Esqueletos, Dragones, Brutos orcos, Arqueros goblin, Troles, Piqueros, Portaescudos, Bestias de asedio
-- **Pradera** — Ratas gigantes, Bandidos, Arpías
-- **Desierto** — Espectros de arena
+- **Bosque** — Limo, Zombi, Lobo huargo, Cultista oscuro, Araña gigante, Zapador, Chamán goblin, Saboteador bandido, Ligador de maleficios
+- **Montaña** — Goblin, Esqueleto, Dragón, Bruto orco, Arquero goblin, Trol, Piquero, Portaescudo, Bestia de asedio, Nigromante enemigo, Cazador espectral, Murciélago vampiro
+- **Pradera** — Rata gigante, Bandido, Arpía
+- **Desierto** — Espectro de arena, Escorpión venenoso, Guardián de arenisca
+- **Pantano** — Escupidor de veneno, Limo fisible
 
 :::note[Dragones]
 Los dragones y los troles son los enemigos más peligrosos (nivel de peligro 5). Con un rango de ataque de 16, 550 HP y llamaradas como proyectiles, lo mejor es enfrentar a los dragones con aventureros a distancia y torres de arqueros; el Trol tiene más HP y ataque, pero debe acercarse.
@@ -138,3 +139,13 @@ Las incursiones de campaña respetan su lista de enemigos; los reinos libres usa
 **Limo fisible** — Al morir se divide una vez en hasta dos limos normales, cada uno con 35% de PV máximos y la mitad del ataque y defensa de la madre, incluido rango. No se dividen ni dan oro o XP de muerte. Máximo 64 hijos vivos en el mundo. Usa daño de área y espera otra primera línea.
 
 Eliminar una oleada nombrada incluye sus esqueletos invocados y limos hijos; matar solo la fuente no completa la oleada.
+
+**Piquero** — Un golpe de pica ralentiza al objetivo 3s. Protege héroes frágiles tras la primera línea; purificar elimina la lentitud.
+
+**Portaescudo** — Escudo de 40 PV por 8s en radio 2, hasta cuatro aliados por lanzamiento y seis lanzamientos por vida, cada 24s. El rango no lo multiplica. Mantiene escudos más fuertes. Prioriza al portador o usa veneno.
+
+**Zapador** — Apoyo explosivo frágil: apunta hasta 3 casillas, avisa 3s y causa 40 de daño en radio 2, cada 18s. Su muerte cancela el aviso. Los golpes a edificios usan el ataque ya ajustado por rango y ×3 una vez.
+
+**Bestia de asedio** — Pesado lento que golpea estructuras a ×4 de su medio ataque ya ajustado por rango. Intercepta con la frente y concentra fuego a distancia; su defensa castiga el asalto cercano sin apoyo.
+
+Gnashfang llama una pica y un escudo por vez, cuatro por vida. Siguen su centro de guardia y sobreviven a su muerte. El tajo avisa 2,4s, elige hasta 4 casillas y alcanza radio 2; los dos últimos arqueros son otra llamada limitada.

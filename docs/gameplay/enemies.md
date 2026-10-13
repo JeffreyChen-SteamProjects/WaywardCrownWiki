@@ -43,7 +43,7 @@ Enemies spawn naturally in wilderness areas across the map, threatening your adv
 
 **The host**: four enemies fight as a line and its siege. A Pikeman's blow holds the hero it lands on back for a moment. A Shieldbearer now and then raises a shield over itself and the monsters beside it. A Sapper lays a charge that is marked on the ground before it goes off (it never does if the Sapper falls first) and hits buildings three times as hard. A Siege Beast is slow, hard to bring down, and hits buildings four times as hard.
 
-The Dragon, Goblin Archer and Dark Cultist fire projectiles (gouts of flame, crude arrows and dark orbs); the others strike from up to 3 tiles away.
+Dragon, Goblin Archer, Dark Cultist, Venom spitter, Hex binder — fire their own ranged projectiles; every other ordinary kind strikes within 3 tiles.
 
 An enemy takes its turn once every 4 ticks. Its speed gives it a step every 3 ÷ speed turns, rounded down (at least 1), and every enemy then walks three tenths faster: that wait is divided by 1.3, the fraction carried over to its next steps, and is never under one turn. So a step comes every turn at speed 1.6 and above, about two steps in 3 turns at 1.1–1.4, about three in 7 at 0.8–1.0, about one in 3 for the Troll and one in 4 or 5 at 0.5–0.6.
 
@@ -93,10 +93,11 @@ When an invasion event triggers, enemies head straight for the player's castle a
 
 Enemies spawn based on **terrain type**:
 
-- **Forest** — Slimes, Zombies, Dire Wolves, Dark Cultists, Giant Spiders, Sappers
-- **Mountain** — Goblins, Skeletons, Dragons, Orc Brutes, Goblin Archers, Trolls, Pikemen, Shieldbearers, Siege Beasts
-- **Grass** — Giant Rats, Bandits, Harpies
-- **Desert** — Sand Wraiths
+- **Forest** — Slime, Zombie, Dire Wolf, Dark Cultist, Giant Spider, Sapper, Goblin shaman, Bandit saboteur, Hex binder
+- **Mountain** — Goblin, Skeleton, Dragon, Orc Brute, Goblin Archer, Troll, Pikeman, Shieldbearer, Siege Beast, Enemy necromancer, Wraith hunter, Vampire bat
+- **Grassland** — Giant Rat, Bandit, Harpy
+- **Desert** — Sand Wraith, Venom scorpion, Sand guardian
+- **Swamp** — Venom spitter, Fission slime
 
 :::note[Dragons]
 Dragons and Trolls are the most dangerous enemies (danger level 5). With an attack range of 16, 550 HP, and gouts of flame for projectiles, Dragons are best dealt with using ranged adventurers and arrow towers; the Troll has more HP and attack but must close in.
@@ -138,3 +139,13 @@ Campaign raids obey the campaign enemy list; free kingdoms use the full lair tro
 **Fission slime** — On death splits once into at most two ordinary slimes, each with 35% of its maximum HP and half its attack and defense, including rank. Children cannot split and drop no gold or kill XP. At most 64 living children globally. Use area damage and expect a second front.
 
 Clearing a named wave also requires defeating its called skeletons and slime children; killing their source alone does not clear the wave.
+
+**Pikeman** — A landed pike blow slows its target for 3s. Protect fragile heroes behind a front line; cleansing removes the slow.
+
+**Shieldbearer** — A 40-HP shield for 8s within 2 tiles, at most four allies per cast and six casts per life, every 24s. Rank does not multiply it. Stronger shields remain. Focus the bearer or use poison.
+
+**Sapper** — Frail demolition support: warns 3s before a 40-damage blast in radius 2, aiming from 3 tiles, every 18s. Killing it cancels the warning. Building blows use its already ranked attack, then ×3 once.
+
+**Siege Beast** — Slow heavy that hits structures at ×4 of its already ranked half attack. Intercept with a front line and focus it from range; its high defense makes an unsupported melee rush costly.
+
+Gnashfang calls one pikeman and one shieldbearer per call, four over his life. They follow his guard center and survive his death. His cleave warns for 2.4s, aims within 4 tiles and hits radius 2; the final two archers remain a separate finite call.

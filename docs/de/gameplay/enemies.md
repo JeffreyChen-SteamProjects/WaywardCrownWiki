@@ -43,7 +43,7 @@ Feinde erscheinen natürlich in Wildnisgebieten auf der gesamten Karte und bedro
 
 **Das Heer**: Vier Gegner kämpfen als Linie und Belagerungstrupp. Der Hieb eines Pikeniers hält den getroffenen Helden einen Moment lang auf. Ein Schildträger hebt hin und wieder einen Schild über sich und die Monster neben ihm. Ein Sprengmeister legt eine Ladung, die auf dem Boden markiert wird, bevor sie hochgeht (fällt er vorher, geht sie nie hoch), und trifft Gebäude dreimal so hart. Eine Belagerungsbestie ist langsam, schwer zu fällen und trifft Gebäude viermal so hart.
 
-Drache, Goblin-Bogenschütze und Dunkler Kultist feuern Projektile (Flammenstöße, grobe Pfeile bzw. dunkle Kugeln); die übrigen schlagen aus bis zu 3 Feldern Entfernung zu.
+Drache, Goblin-Bogenschütze, Dunkler Kultist, Giftspucker, Fluchbinder — schießen eigene Fernkampfgeschosse; alle anderen gewöhnlichen Arten kämpfen innerhalb von 3 Feldern.
 
 Ein Gegner ist alle 4 Ticks einmal am Zug. Seine Geschwindigkeit gibt ihm alle 3 ÷ Geschwindigkeit Züge einen Schritt, abgerundet (mindestens 1), und jeder Gegner läuft dann um drei Zehntel schneller: Die Wartezeit wird durch 1,3 geteilt, der Bruchteil auf die nächsten Schritte übertragen, und sie ist nie kürzer als ein Zug. So kommt ab Geschwindigkeit 1,6 in jedem Zug ein Schritt, bei 1,1–1,4 etwa zwei Schritte in 3 Zügen, bei 0,8–1,0 etwa drei in 7, beim Troll etwa einer in 3 und bei 0,5–0,6 einer in 4 bis 5.
 
@@ -93,10 +93,11 @@ Wenn ein Invasionsereignis ausgelöst wird, marschieren Feinde auf dem kürzeste
 
 Feinde erscheinen basierend auf dem **Geländetyp**:
 
-- **Wald** — Schleime, Zombies, Schattenwölfe, Dunkle Kultisten, Riesenspinnen, Sprengmeister
-- **Gebirge** — Goblins, Skelette, Drachen, Ork-Schläger, Goblin-Bogenschützen, Trolle, Pikeniere, Schildträger, Belagerungsbestien
-- **Grasland** — Riesenratten, Banditen, Harpyien
-- **Wüste** — Sandgeister
+- **Wald** — Schleim, Zombie, Schattenwolf, Dunkler Kultist, Riesenspinne, Sprengmeister, Goblin-Schamane, Banditensaboteur, Fluchbinder
+- **Gebirge** — Goblin, Skelett, Drache, Ork-Schläger, Goblin-Bogenschütze, Troll, Pikenier, Schildträger, Belagerungsbestie, Feindlicher Nekromant, Geisterjäger, Vampirfledermaus
+- **Grasland** — Riesenratte, Bandit, Harpyie
+- **Wüste** — Sandgeist, Giftskorpion, Sandsteinwächter
+- **Sumpf** — Giftspucker, Spaltungsschleim
 
 :::note[Drachen]
 Drachen und Trolle sind die gefährlichsten Feinde (Gefahrenstufe 5). Mit einer Angriffsreichweite von 16, 550 HP und Flammenstößen als Projektilen werden Drachen am besten mit Fernkampf-Abenteurern und Pfeiltürmen bekämpft; der Troll hat mehr HP und Angriff, muss aber nahe herankommen.
@@ -138,3 +139,13 @@ Kampagnenüberfälle beachten die Feindliste der Kampagne; freie Königreiche nu
 **Spaltungsschleim** — Spaltet beim Tod einmal in bis zu zwei normale Schleime mit je 35% der maximalen LP und halbem Angriff und Schutz der Mutter, einschließlich Rang. Kinder spalten nicht und geben weder Gold noch Tötungs-EP. Weltweit höchstens 64 lebende Kinder. Flächenschaden nutzen und eine zweite Front erwarten.
 
 Eine benannte Welle ist erst nach ihren gerufenen Skeletten und Schleimkindern besiegt; nur die Quelle zu töten reicht nicht.
+
+**Pikenier** — Ein treffender Speer verlangsamt sein Ziel 3s. Schwache Helden hinter der Front schützen; Reinigung entfernt die Wirkung.
+
+**Schildträger** — 40-LP-Schild für 8s im Radius 2, höchstens vier Verbündete pro Zauber und sechs Zauber pro Leben, alle 24s. Der Rang vervielfacht ihn nicht. Stärkere Schilde bleiben. Den Träger fokussieren oder Gift nutzen.
+
+**Sprengmeister** — Schwacher Sprenghelfer: Ziel bis 3 Felder, 3s Warnung, dann 40 Schaden im Radius 2, alle 18s. Sein Tod löscht die Warnung. Gebäudeschläge nutzen den bereits erhöhten Angriff und einmal ×3.
+
+**Belagerungsbestie** — Langsamer Schwerer, der Gebäude mit einmal ×4 seines bereits erhöhten halben Angriffs trifft. Mit der Front abfangen und aus der Ferne fokussieren; hoher Schutz macht ungestützte Nahkampfstürme teuer.
+
+Gnashfang ruft je einen Speer- und Schildträger, vier im Leben. Sie folgen seinem Wachzentrum und überleben seinen Tod. Der Hieb warnt 2,4s, wählt bis 4 Felder und trifft Radius 2; die letzten zwei Bogner sind ein eigener endlicher Ruf.

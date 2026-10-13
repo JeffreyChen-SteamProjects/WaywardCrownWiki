@@ -43,7 +43,7 @@ Os inimigos surgem naturalmente em áreas selvagens pelo mapa, ameaçando seus a
 
 **A hoste**: quatro inimigos lutam como linha e como tropa de cerco. O golpe de um Piqueiro segura por um momento o herói atingido. Um Porta-escudo ergue de vez em quando um escudo sobre si e os monstros ao lado. Um Sapador planta uma carga que é marcada no chão antes de explodir (nunca explode se ele cair antes) e atinge construções três vezes mais forte. Uma Besta de cerco é lenta, difícil de derrubar e atinge construções quatro vezes mais forte.
 
-O Dragão, o Arqueiro goblin e o Cultista sombrio disparam projéteis (jatos de chamas, flechas toscas e orbes sombrios); os demais atacam a até 3 tiles de distância.
+Dragão, Arqueiro goblin, Cultista sombrio, Cuspidor de veneno, Vinculador de maldições — disparam projéteis próprios; os outros tipos comuns lutam a até 3 casas.
 
 Um inimigo tem a sua vez uma vez a cada 4 ticks. A velocidade lhe dá um passo a cada 3 ÷ velocidade turnos, arredondado para baixo (no mínimo 1), e todo inimigo anda ainda três décimos mais rápido: essa espera é dividida por 1.3, a fração passa para os passos seguintes e nunca fica abaixo de um turno. Assim, há um passo por turno com velocidade 1.6 ou mais, cerca de dois passos em 3 turnos com 1.1–1.4, cerca de três em 7 com 0.8–1.0, mais ou menos um a cada 3 turnos para o Troll e um a cada 4 ou 5 com 0.5–0.6.
 
@@ -93,10 +93,11 @@ Quando um evento de invasão é acionado, os inimigos seguem direto para o caste
 
 Os inimigos surgem com base no **tipo de terreno**:
 
-- **Floresta** — Slimes, Zumbis, Lobos atrozes, Cultistas sombrios, Aranhas gigantes, Sapadores
-- **Montanha** — Goblins, Esqueletos, Dragões, Brutos orcs, Arqueiros goblins, Trolls, Piqueiros, Porta-escudos, Bestas de cerco
-- **Planície** — Ratos gigantes, Bandidos, Harpias
-- **Deserto** — Espectros da areia
+- **Floresta** — Slime, Zumbi, Lobo atroz, Cultista sombrio, Aranha gigante, Sapador, Xamã goblin, Sabotador bandido, Vinculador de maldições
+- **Montanha** — Goblin, Esqueleto, Dragão, Bruto orc, Arqueiro goblin, Troll, Piqueiro, Porta-escudo, Besta de cerco, Necromante inimigo, Caçador espectral, Morcego vampiro
+- **Planície** — Rato gigante, Bandido, Harpia
+- **Deserto** — Espectro da areia, Escorpião venenoso, Guardião de arenito
+- **Pântano** — Cuspidor de veneno, Limo físsil
 
 :::note[Dragões]
 Os dragões e os trolls são os inimigos mais perigosos (nível de perigo 5). Com alcance de ataque de 16, 550 HP e jatos de chamas como projéteis, a melhor forma de enfrentar os dragões é com aventureiros de longo alcance e torres de flechas; o Troll tem mais HP e ataque, mas precisa se aproximar.
@@ -138,3 +139,13 @@ Ataques de campanha respeitam sua lista de inimigos; reinos livres usam todas as
 **Limo físsil** — Na morte divide uma vez em até dois limos comuns, cada um com 35% dos PV máximos e metade do ataque e defesa da mãe, incluindo patente. Filhos não dividem nem dão ouro ou XP por morte. Até 64 filhos vivos no mundo. Use dano em área e espere uma segunda frente.
 
 Limpar uma onda nomeada também exige derrotar seus esqueletos invocados e limos filhos; matar só a fonte não basta.
+
+**Piqueiro** — Um golpe de lança acertado desacelera o alvo por 3s. Proteja heróis frágeis atrás da frente; purificação remove a lentidão.
+
+**Porta-escudo** — Escudo de 40 PV por 8s em raio 2, no máximo quatro aliados por magia e seis magias por vida, a cada 24s. A patente não o multiplica. Escudos mais fortes ficam. Foque o portador ou use veneno.
+
+**Sapador** — Apoio explosivo frágil: mira até 3 casas, avisa 3s e causa 40 de dano em raio 2, a cada 18s. Sua morte cancela o aviso. Golpes em edifícios usam ataque já ajustado pela patente e ×3 uma vez.
+
+**Besta de cerco** — Pesado lento que atinge estruturas a ×4 do meio ataque já ajustado pela patente. Intercepte com a frente e foque à distância; a defesa pune ataques corpo a corpo sem apoio.
+
+Gnashfang chama um lanceiro e um escudeiro por vez, quatro por vida. Seguem seu centro de guarda e sobrevivem à sua morte. O golpe avisa 2,4s, mira a até 4 casas e atinge raio 2; os dois últimos arqueiros são outro chamado limitado.
