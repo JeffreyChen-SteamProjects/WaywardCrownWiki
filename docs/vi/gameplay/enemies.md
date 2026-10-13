@@ -101,3 +101,7 @@ Rồng và Troll là những kẻ thù nguy hiểm nhất (mức nguy hiểm 5).
 - **Né tránh**: Tất cả kẻ thù có tỷ lệ né cơ bản 5%
 
 **Áp lực**: ba mối đe dọa sinh ra từ cách cai quản vương quốc chứ không phải từ hang ổ. Mỗi mối được báo trước một phút trong biên niên sử và tổng quan, gửi một bầy 3 con (không bao giờ quá 6 quái vật của nó còn sống, như nhau dù bạn mạnh đến đâu), và bị hủy khi nguyên nhân được khắc phục. *Bẩn thỉu*: thị trấn 16 công trình không có đài phun nước hay khu vườn sẽ kéo chuột khổng lồ tới; mỗi đài phun nước hoặc khu vườn lo được 6 công trình. *Người chết không yên*: 3 anh hùng nằm chết mà không có đền thờ sẽ trỗi dậy thành bộ xương nơi người cuối cùng ngã xuống; đền thờ hoặc việc hồi sinh họ sẽ giữ chúng nằm yên, còn vương quốc theo con đường Xác sống có Nhà Hài Cốt sẽ nhận chúng làm lính gác. *Hoang dã*: công trình cách lâu đài hơn 60 ô mà không có tháp tên hay trạm gác trong vòng 12 ô sẽ kéo sói dữ tới; trạm giao thương không tính, trại của vương quốc Hoang dã cũng không. Không gì gây áp lực trong 5 phút đầu, hay trong màn chơi không cho xây công trình đối phó. Trại chiến orc cướp phá những gì đang xây: công trường hoặc lần nâng cấp đang làm gần nhất.
+
+**Pháp sư goblin** — Mỗi 20 giây hồi 18 HP cho tối đa bốn đồng minh bị thương trong 4 ô, nhiều nhất sáu lần suốt đời. Diệt hỗ trợ trước hoặc chờ thuốc cạn.
+
+**Kẻ phá hoại cướp** — Ưu tiên tiếp cận công trình gần đó, gây 2,5 lần sát thương thường lên công trình. Vẫn chống trả anh hùng chặn đường; giáp nhẹ khiến đánh chặn hiệu quả.

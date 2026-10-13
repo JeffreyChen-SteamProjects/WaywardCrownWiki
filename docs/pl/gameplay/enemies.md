@@ -101,3 +101,7 @@ Smoki i Trolle to najgroźniejsi wrogowie (poziom zagrożenia 5). Ze Smokami, kt
 - **Unik**: Wszyscy wrogowie mają bazową 5% szansę na unik
 
 **Naciski**: trzy zagrożenia biorą się z tego, jak prowadzone jest królestwo, a nie z leża. Każde jest zapowiadane minutę wcześniej w kronice i przeglądzie, wysyła stado 3 (nigdy więcej niż 6 jego potworów naraz, niezależnie od waszej siły) i jest odwoływane, gdy usunie się jego przyczynę. *Brud*: miasto z 16 budynkami bez fontanny i ogrodu ściąga olbrzymie szczury; każda fontanna lub ogród dba o 6 budynków. *Niespokojni umarli*: 3 bohaterów leżących martwych bez świątyni powstaje jako szkielety tam, gdzie padł ostatni; świątynia albo ich wskrzeszenie zatrzyma ich w ziemi, a królestwo na drodze Nieumarłych z Ossuarium bierze ich na strażników. *Dzicz*: budynek dalej niż 60 pól od zamku bez wieży strzelniczej lub posterunku w promieniu 12 ściąga straszne wilki; faktorie się nie liczą, podobnie obozy królestwa Dziczy. Nic nie naciska na królestwo przez pierwsze 5 minut ani na poziomie, który nie pozwala na budynek będący odpowiedzią. Orcze obozy wojenne napadają na to, co się buduje: najbliższą budowę lub trwające ulepszenie.
+
+**Gobliński szaman** — Co 20s leczy do czterech rannych sojuszników w 4 polach o 18 PŻ, najwyżej sześć razy za życia. Zabij wsparcie albo wyczerp jego lekarstwa.
+
+**Bandycki sabotażysta** — Najpierw podchodzi do pobliskich budynków i zadaje im 2,5× zwykłych obrażeń. Walczy z przechwytującym bohaterem; lekki pancerz ułatwia przechwycenie.

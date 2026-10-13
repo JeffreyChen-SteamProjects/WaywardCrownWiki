@@ -101,3 +101,7 @@ Los dragones y los troles son los enemigos más peligrosos (nivel de peligro 5).
 - **Evasión**: Todos los enemigos tienen una tasa de esquiva base del 5%
 
 **Presiones**: tres amenazas nacen de cómo se lleva el reino, no de una guarida. Cada una se anuncia un minuto antes en la crónica y en el resumen, envía una manada de 3 (nunca más de 6 de sus monstruos vivos, sea cual sea vuestra fuerza) y se cancela cuando se corrige su causa. *Suciedad*: un pueblo de 16 edificios sin fuente ni jardín atrae ratas gigantes; cada fuente o jardín responde por 6 edificios. *Los muertos sin reposo*: 3 héroes muertos sin templo se alzan como esqueletos donde cayó el último; un templo, o revivirlos, los mantiene en tierra, y un reino de la senda de los No muertos con un Osario los toma como guardias. *Lo salvaje*: un edificio a más de 60 casillas del castillo sin torre de flechas ni puesto de guardia a 12 atrae lobos terribles; los puestos comerciales no cuentan, ni los campamentos de un reino Salvaje. Nada presiona a un reino en sus primeros 5 minutos, ni en un nivel que no permite el edificio que lo remedia. Los campamentos de guerra orcos atacan lo que se construye: la obra o mejora en curso más cercana.
+
+**Chamán goblin** — Cura 18 PV a hasta cuatro aliados heridos en 4 casillas cada 20s, como máximo seis veces en su vida. Elimina al apoyo primero o agota sus remedios.
+
+**Saboteador bandido** — Prioriza edificios cercanos y causa 2,5× daño normal a estructuras. Responde al héroe que lo intercepta; su armadura ligera permite detenerlo.

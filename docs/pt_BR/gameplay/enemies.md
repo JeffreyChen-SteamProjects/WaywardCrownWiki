@@ -101,3 +101,7 @@ Os dragões e os trolls são os inimigos mais perigosos (nível de perigo 5). Co
 - **Evasão**: Todos os inimigos têm uma taxa de esquiva base de 5%
 
 **Pressões**: três ameaças nascem de como o reino é mantido, não de um covil. Cada uma é anunciada um minuto antes na crônica e no resumo, envia um bando de 3 (nunca mais de 6 de seus monstros vivos, seja qual for a sua força) e é cancelada quando sua causa é corrigida. *Imundície*: uma cidade de 16 prédios sem fonte nem jardim atrai ratos gigantes; cada fonte ou jardim responde por 6 prédios. *Os mortos sem descanso*: 3 heróis mortos sem templo se erguem como esqueletos onde o último caiu; um templo, ou revivê-los, os mantém no chão, e um reino no caminho dos Mortos-vivos com um Ossuário os toma como guardas. *O ermo*: um prédio a mais de 60 casas do castelo sem torre de flechas nem posto de guarda a até 12 atrai lobos atrozes; entrepostos não contam, nem os acampamentos de um reino Selvagem. Nada pressiona um reino em seus primeiros 5 minutos, nem em uma fase que não permite o prédio que responde a isso. Acampamentos de guerra orcs atacam o que está sendo construído: a obra ou melhoria em andamento mais próxima.
+
+**Xamã goblin** — Cura 18 PV de até quatro aliados feridos em 4 casas a cada 20s, no máximo seis vezes durante sua vida. Elimine o apoio primeiro ou esgote os remédios.
+
+**Sabotador bandido** — Prioriza construções próximas e causa 2,5× dano normal às estruturas. Revida contra um herói que o intercepta; a armadura leve facilita a interceptação.

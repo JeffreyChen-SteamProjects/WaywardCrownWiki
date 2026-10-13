@@ -101,3 +101,7 @@ Dragons and Trolls are the most dangerous enemies (danger level 5). With an atta
 - **Evasion**: All enemies have a base 5% dodge rate
 
 **Pressures**: three threats come of how the kingdom is kept, not of a lair. Each is announced a minute ahead in the chronicle and the overview, sends a pack of 3 (never more than 6 of its monsters alive, the same whatever your strength), and is called off when its cause is put right. *Squalor*: a town of 16 buildings with no fountain or garden draws giant rats; each fountain or garden answers for 6 buildings. *The restless dead*: 3 heroes lying dead with no temple rise as skeletons where the last fell; a temple, or reviving them, keeps them down, and a kingdom on the Undead path with an Ossuary takes them as guards instead. *The wilds*: a building more than 60 tiles from the castle with no arrow tower or guard post within 12 draws dire wolves; trading posts do not count, nor a Wilds kingdom's camps. Nothing presses a kingdom in its first 5 minutes, or in a level that does not allow the building that answers it. Orc Warcamps raid what is being built: the nearest site or upgrade under way.
+
+**Goblin shaman** — Heals up to four wounded allies within 4 tiles for 18 HP, every 20s, at most six times in its life. Kill the support first or outlast its remedies.
+
+**Bandit saboteur** — Prioritizes nearby buildings and deals 2.5× normal damage to structures. Still fights an intercepting hero; its light armor makes interception effective.

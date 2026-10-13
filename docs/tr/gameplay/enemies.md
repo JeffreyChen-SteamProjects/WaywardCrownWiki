@@ -101,3 +101,7 @@ Ejderhalar ve Troller en tehlikeli düşmanlardır (tehlike seviyesi 5). 16 sald
 - **Kaçınma**: Tüm düşmanların temel %5 kaçınma oranı vardır
 
 **Baskılar**: üç tehdit bir inden değil, krallığın nasıl yönetildiğinden doğar. Her biri vakayinamede ve genel bakışta bir dakika önceden duyurulur, 3'lük bir sürü gönderir (canavarlarından aynı anda en fazla 6'sı yaşar, gücünüz ne olursa olsun aynıdır) ve sebebi giderilince iptal edilir. *Pislik*: çeşmesi ya da bahçesi olmayan 16 binalık bir kasaba dev fareleri çeker; her çeşme ya da bahçe 6 binaya bakar. *Huzursuz ölüler*: tapınak olmadan ölü yatan 3 kahraman, sonuncunun düştüğü yerde iskelet olarak kalkar; bir tapınak ya da onları diriltmek onları yerde tutar, Kemikliği olan Ölümsüzler yolundaki bir krallık ise onları muhafız olarak alır. *Yaban*: şatodan 60 kareden uzak olup 12 kare içinde ok kulesi ya da muhafız mevzisi bulunmayan bina ulu kurtları çeker; ticaret karakolları ve Yaban krallığının kampları sayılmaz. İlk 5 dakikada ve buna yanıt veren binaya izin vermeyen bir bölümde krallığa hiçbir şey baskı yapmaz. Ork savaş kampları inşa edilene saldırır: en yakın şantiyeye ya da süren yükseltmeye.
+
+**Goblin şamanı** — Her 20sn, 4 kare içindeki en fazla dört yaralı müttefiki 18 can iyileştirir; yaşamı boyunca en fazla altı kez. Önce desteği öldürün veya ilaçlarını tüketin.
+
+**Haydut sabotajcı** — Yakındaki binalara öncelik verir ve yapılara normalin 2,5 katı hasar verir. Önünü kesen kahramana karşı koyar; hafif zırhı önlemeyi etkili kılar.
