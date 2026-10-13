@@ -128,7 +128,7 @@ Os desafios (`campaigns/demo_challenges/`, `"linear": false`) são escritos da m
 
 <!-- gameplay-preparation:start -->
 
-Os heróis comparam lojas acessíveis, preços e vagas reais de hospedagem. Após recuar, recuperam-se antes de voltar ao trabalho perigoso; os detalhes da expedição mostram a preparação e os descansos acessíveis. Fases personalizadas podem oferecer até três planos completos de vitória, mantendo os requisitos comuns.
+Os heróis comparam lojas acessíveis, preços e vagas reais de hospedagem. Após recuar, recuperam-se antes de voltar ao trabalho perigoso; os detalhes da expedição mostram a preparação e os descansos acessíveis. Fases personalizadas podem oferecer até três planos completos de vitória, mantendo os requisitos comuns. Fases antigas com uma única condição vencem ao alcançar o objetivo no último tick permitido; planos alternativos mantêm a prioridade da derrota.
 
 ```json
 {
@@ -167,5 +167,7 @@ Os heróis comparam lojas acessíveis, preços e vagas reais de hospedagem. Apó
 ```json
 {"type": "TRADING_POST", "x": 100, "y": 80, "objective_id": "trade-post"}
 ```
+
+Os detalhes da expedição indicam lojas de poções e descansos acessíveis, além da cura e dos escudos aliados aprendidos. As lojas registram visitas totais, trajeto médio e ataques. Os resultados mostram um plano principal e feitos simultâneos, com uma única liquidação básica.
 
 <!-- gameplay-preparation:end -->

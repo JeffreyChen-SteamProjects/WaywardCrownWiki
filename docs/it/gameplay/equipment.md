@@ -110,6 +110,10 @@ Ogni moneta è registrata:
 
 <!-- gameplay-preparation:start -->
 
-Gli eroi confrontano negozi raggiungibili, prezzi e capacità reale degli alloggi. Dopo la ritirata recuperano prima di riprendere lavori pericolosi; i dettagli delle spedizioni mostrano preparativi e riposi raggiungibili. I livelli personalizzati possono offrire fino a tre piani di vittoria completi, mantenendo i requisiti comuni.
+Gli eroi confrontano negozi raggiungibili, prezzi e capacità reale degli alloggi. Dopo la ritirata recuperano prima di riprendere lavori pericolosi; i dettagli delle spedizioni mostrano preparativi e riposi raggiungibili. I livelli personalizzati possono offrire fino a tre piani di vittoria completi, mantenendo i requisiti comuni. I livelli classici con una sola condizione vincono se raggiungono il traguardo nell’ultimo tick consentito; i piani alternativi mantengono la precedenza della sconfitta.
+
+I dettagli della spedizione collegano negozi di pozioni e riposi raggiungibili e contano cure e scudi alleati appresi. I negozi registrano arrivi totali, viaggio medio e attacchi. I risultati indicano un piano di vittoria principale e imprese simultanee, con un solo saldo di base.
+
+I valori di preparazione si aggiornano ogni pochi secondi; i cambiamenti di membri, recupero e partenza sono immediati.
 
 <!-- gameplay-preparation:end -->

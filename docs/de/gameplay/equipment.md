@@ -110,6 +110,10 @@ Jede Münze ist nachvollziehbar:
 
 <!-- gameplay-preparation:start -->
 
-Helden vergleichen erreichbare Läden, Preise und die tatsächliche Bettenzahl. Nach einem Rückzug erholen sie sich vor gefährlichen Aufträgen; Expeditionsdetails zeigen Vorbereitung und erreichbare Rastplätze. Eigene Level können bis zu drei vollständige Siegpläne anbieten, wobei gemeinsame Pflichtziele weiter gelten.
+Helden vergleichen erreichbare Läden, Preise und die tatsächliche Bettenzahl. Nach einem Rückzug erholen sie sich vor gefährlichen Aufträgen; Expeditionsdetails zeigen Vorbereitung und erreichbare Rastplätze. Eigene Level können bis zu drei vollständige Siegpläne anbieten, wobei gemeinsame Pflichtziele weiter gelten. Klassische Level mit einer Siegbedingung gewinnen auch beim Erreichen des Ziels im letzten erlaubten Tick; alternative Siegpläne behalten den Vorrang der Niederlage.
+
+Expeditionsdetails verlinken erreichbare Trankläden und Ruheplätze und zählen erlernte Heilung und Verbündetenschilde. Läden erfassen Besuche, mittlere Reisezeit und Angriffe. Ergebnisse nennen einen Hauptsiegesplan und gleichzeitige Leistungen bei einmaliger Grundabrechnung.
+
+Vorbereitungswerte werden alle paar Sekunden aktualisiert; Änderungen bei Mitgliedern, Erholung und Aufbruch erscheinen sofort.
 
 <!-- gameplay-preparation:end -->

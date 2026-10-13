@@ -110,6 +110,10 @@ Every coin is accounted for:
 
 <!-- gameplay-preparation:start -->
 
-Heroes compare reachable shops, prices and genuine lodging capacity. Retreating heroes recover before returning to dangerous work; expedition details show preparation and reachable rest. Custom levels may offer up to three complete victory plans, with common requirements still enforced.
+Heroes compare reachable shops, prices and genuine lodging capacity. Retreating heroes recover before returning to dangerous work; expedition details show preparation and reachable rest. Custom levels may offer up to three complete victory plans, with common requirements still enforced. Legacy levels with a single victory condition still win when the goal is achieved on the final allowed tick; alternative victory plans retain defeat priority.
+
+Expedition details link to reachable potion shops and rest, and count learnt healing and ally shields. Shops record total arrivals, average journey time and attacks. Results name one primary victory plan and any simultaneous feats, with one basic settlement.
+
+Preparation numbers refresh every few seconds; membership, recovery and departure changes refresh immediately.
 
 <!-- gameplay-preparation:end -->

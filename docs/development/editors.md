@@ -10,6 +10,9 @@ Wayward Crown includes built-in map and campaign editors that let you create cus
 
 The main menu's **Editor Toolkit** button opens the editor on a new map. Saved maps are listed, played, edited, imported and exported on the Maps tab of the map manager, which the main menu's **Campaigns** button opens.
 
+
+Standalone maps and campaign levels share objectives, defeat rules, triggers and up to three alternative victory plans with four conditions each. The rules panel keeps them when saving or reopening. Protection targets retain their stable IDs through undo; missing targets and cyclic wave sources prevent overwriting the map.
+
 ### Features
 
 - **Terrain Painting** — Select a terrain type and paint it onto the map with a brush (size 1 – 20), or flood-fill a region
@@ -40,6 +43,8 @@ Maps are stored in JSON format in the `maps/` directory and include:
 
 ---
 
+The hero brush lets you choose Crown, Friendly, Neutral or Hostile separately from the class; saved maps and undo/redo retain that identity.
+
 ## Campaign Editor
 
 Campaigns are created, opened, imported and exported on the Campaigns tab of the map manager (the main menu's **Campaigns** button). Opening a campaign starts the map editor with a campaign panel, so you edit each level's map and its settings in one place.
@@ -52,7 +57,7 @@ Campaigns are created, opened, imported and exported on the Campaigns tab of the
 - **Starting Resources** — Set the initial gold for each level
 - **Carry-over** — Keep gold, adventurers and research from the previous level
 - **Building Restrictions** — Restrict which building types the player can use
-- **Triggers** — Script messages and building unlocks for a level (campaign levels only)
+- **Triggers** — Script messages and building unlocks for a level
 - **Kingdom fields** — The level's starting castle level, time limit, the briefing's advice and up to two optional finds
 - **Further objectives and defeats** — More victory conditions, each required or optional, and more ways to lose (heroes fallen, buildings or caravans lost), in two tables with Add and Remove
 - **Target source** — Under a victory target, whether the boss is placed on the map or started by a trigger, and whether the stronghold type is the game's or a plugin's and how many stand on the map; an objective's target says the same in its tooltip

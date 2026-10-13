@@ -10,6 +10,9 @@ Wayward Crown inclut des éditeurs de cartes et de campagnes intégrés qui vous
 
 Le bouton **Kit d'édition** du menu principal ouvre l'éditeur sur une nouvelle carte. Les cartes sauvegardées sont listées, jouées, modifiées, importées et exportées dans l'onglet Cartes du gestionnaire de cartes, qu'ouvre le bouton **Campagnes** du menu principal.
 
+
+Cartes indépendantes et campagnes partagent objectifs, défaites, déclencheurs et jusqu’à trois plans de victoire de quatre conditions chacun. Sauvegarder et rouvrir conserve ces règles ; annuler garde les identifiants des cibles protégées. Les cibles absentes et les vagues cycliques empêchent l’écrasement.
+
 ### Fonctionnalités
 
 - **Peinture de terrain** — Sélectionnez un type de terrain et peignez-le sur la carte avec un pinceau (taille 1 – 20), ou remplissez une zone d'un seul coup
@@ -52,7 +55,7 @@ Les campagnes sont créées, ouvertes, importées et exportées dans l'onglet Ca
 - **Ressources de départ** — Définissez l'or initial pour chaque niveau
 - **Report** — Conservez l'or, les aventuriers et les recherches du niveau précédent
 - **Restrictions de bâtiments** — Limitez les types de bâtiments disponibles pour le joueur
-- **Déclencheurs** — Messages scriptés et déblocages de bâtiments pour un niveau (niveaux de campagne uniquement)
+- **Déclencheurs** — Messages scriptés et déblocages de bâtiments pour un niveau
 - **Champs de royaume** — Le niveau de château au départ, la limite de temps, le conseil du briefing et jusqu'à deux découvertes facultatives
 - **Objectifs supplémentaires et défaites** — D'autres conditions de victoire, requises ou facultatives, et d'autres façons de perdre (héros tombés, bâtiments ou caravanes perdus), dans deux tableaux avec Ajouter et Retirer
 - **Origine de la cible** — Sous une cible de victoire : si le boss est placé sur la carte ou lancé par un déclencheur, et si le type de place forte vient du jeu ou d'une extension et combien se dressent sur la carte ; la cible d'un objectif supplémentaire dit la même chose dans son infobulle
@@ -108,3 +111,5 @@ Choisissez une décoration puis cliquez au sol, ou tracez une route et relâchez
 
 Aspects de route gratuits, avec la vitesse habituelle. Faites glisser puis relâchez ; effacer conserve la route. La surface des routes suit les pentes et les différences de hauteur du terrain.
 <!-- town-beautification:end -->
+
+Le pinceau de héros permet de choisir Couronne, Amicale, Neutre ou Hostile séparément de la classe ; la sauvegarde et les actions annuler/rétablir conservent cette identité.

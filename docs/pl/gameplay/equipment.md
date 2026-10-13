@@ -110,6 +110,10 @@ Każda moneta jest rozliczana:
 
 <!-- gameplay-preparation:start -->
 
-Bohaterowie porównują dostępne sklepy, ceny i rzeczywistą liczbę miejsc noclegowych. Po odwrocie regenerują się przed niebezpieczną pracą; szczegóły wyprawy pokazują przygotowanie i dostępny odpoczynek. Własne poziomy mogą oferować do trzech kompletnych planów zwycięstwa z zachowaniem wspólnych wymagań.
+Bohaterowie porównują dostępne sklepy, ceny i rzeczywistą liczbę miejsc noclegowych. Po odwrocie regenerują się przed niebezpieczną pracą; szczegóły wyprawy pokazują przygotowanie i dostępny odpoczynek. Własne poziomy mogą oferować do trzech kompletnych planów zwycięstwa z zachowaniem wspólnych wymagań. Klasyczne poziomy z jednym warunkiem wygrywają po osiągnięciu celu w ostatnim dozwolonym ticku; alternatywne plany zachowują pierwszeństwo porażki.
+
+Szczegóły wyprawy prowadzą do dostępnych sklepów z miksturami i odpoczynków oraz pokazują nauczone leczenie i tarcze sojuszników. Sklepy zapisują wizyty, średni czas podróży i ataki. Wyniki podają jeden główny plan zwycięstwa i jednoczesne osiągnięcia, z jednorazowym rozliczeniem podstawowym.
+
+Wartości przygotowania odświeżają się co kilka sekund; zmiany uczestników, odpoczynku i wyruszenia pojawiają się od razu.
 
 <!-- gameplay-preparation:end -->

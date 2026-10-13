@@ -110,6 +110,10 @@ Her altının hesabı tutulur:
 
 <!-- gameplay-preparation:start -->
 
-Kahramanlar ulaşılabilir dükkânları, fiyatları ve gerçek konaklama kapasitesini karşılaştırır. Geri çekildikten sonra tehlikeli işe dönmeden önce toparlanırlar; sefer ayrıntıları hazırlığı ve ulaşılabilir dinlenme yerlerini gösterir. Özel bölümler, ortak gereksinimler korunarak en fazla üç tam zafer planı sunabilir.
+Kahramanlar ulaşılabilir dükkânları, fiyatları ve gerçek konaklama kapasitesini karşılaştırır. Geri çekildikten sonra tehlikeli işe dönmeden önce toparlanırlar; sefer ayrıntıları hazırlığı ve ulaşılabilir dinlenme yerlerini gösterir. Özel bölümler, ortak gereksinimler korunarak en fazla üç tam zafer planı sunabilir. Tek zafer koşullu eski seviyeler son izin verilen tickte hedef tamamlanırsa kazanılır; alternatif zafer planlarında yenilgi önceliği korunur.
+
+Sefer ayrıntıları ulaşılabilir iksir dükkânlarını ve dinlenme yerlerini gösterir; öğrenilen iyileştirme ve müttefik kalkanlarını sayar. Dükkânlar toplam ziyaretleri, ortalama yolculuk süresini ve saldırıları kaydeder. Sonuçlar bir ana zafer planını ve eşzamanlı başarıları gösterir; temel hesaplaşma bir kez yapılır.
+
+Hazırlık değerleri birkaç saniyede bir güncellenir; katılım, toparlanma ve yola çıkma değişiklikleri hemen görünür.
 
 <!-- gameplay-preparation:end -->

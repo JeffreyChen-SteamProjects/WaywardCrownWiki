@@ -128,7 +128,7 @@ The challenges (`campaigns/demo_challenges/`, `"linear": false`) are written the
 
 <!-- gameplay-preparation:start -->
 
-Heroes compare reachable shops, prices and genuine lodging capacity. Retreating heroes recover before returning to dangerous work; expedition details show preparation and reachable rest. Custom levels may offer up to three complete victory plans, with common requirements still enforced.
+Heroes compare reachable shops, prices and genuine lodging capacity. Retreating heroes recover before returning to dangerous work; expedition details show preparation and reachable rest. Custom levels may offer up to three complete victory plans, with common requirements still enforced. Legacy levels with a single victory condition still win when the goal is achieved on the final allowed tick; alternative victory plans retain defeat priority.
 
 ```json
 {
@@ -167,5 +167,7 @@ Heroes compare reachable shops, prices and genuine lodging capacity. Retreating 
 ```json
 {"type": "TRADING_POST", "x": 100, "y": 80, "objective_id": "trade-post"}
 ```
+
+Expedition details link to reachable potion shops and rest, and count learnt healing and ally shields. Shops record total arrivals, average journey time and attacks. Results name one primary victory plan and any simultaneous feats, with one basic settlement.
 
 <!-- gameplay-preparation:end -->

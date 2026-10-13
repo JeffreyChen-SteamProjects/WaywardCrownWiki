@@ -10,6 +10,9 @@ Wayward Crown enthält integrierte Karten- und Kampagnen-Editoren, mit denen du 
 
 Die Schaltfläche **Editor-Toolkit** im Hauptmenü öffnet den Editor mit einer neuen Karte. Gespeicherte Karten werden im Tab „Karten“ der Kartenverwaltung aufgelistet, gespielt, bearbeitet, importiert und exportiert; die Kartenverwaltung öffnet die Schaltfläche **Kampagnen** im Hauptmenü.
 
+
+Einzelkarten und Kampagnen teilen Ziele, Niederlagen, Auslöser und bis zu drei alternative Siegespläne mit je vier Bedingungen. Speichern und Öffnen bewahren die Regeln; Rückgängig erhält feste Schutzobjekt-IDs. Fehlende Ziele und zyklische Wellen verhindern das Überschreiben.
+
 ### Funktionen
 
 - **Geländemalerei** — Wähle einen Geländetyp und male ihn mit einem Pinsel (Größe 1 – 20) auf die Karte, oder fülle einen Bereich mit der Füllfunktion
@@ -52,7 +55,7 @@ Kampagnen werden im Tab „Kampagnen“ der Kartenverwaltung (Schaltfläche **Ka
 - **Startressourcen** — Das Anfangsgold für jedes Level festlegen
 - **Übernahme** — Gold, Abenteurer und Forschung aus dem vorherigen Level behalten
 - **Gebäudebeschränkungen** — Einschränken, welche Gebäudetypen der Spieler nutzen darf
-- **Auslöser** — Skriptnachrichten und Gebäudefreischaltungen für ein Level (nur Kampagnenlevel)
+- **Auslöser** — Skriptnachrichten und Gebäudefreischaltungen für ein Level
 - **Königreichsfelder** — Burgstufe des Levels zu Beginn, Zeitlimit, der Rat der Besprechung und bis zu zwei optionale Funde
 - **Weitere Ziele und Niederlagen** — Mehr Siegbedingungen, jede erforderlich oder optional, und mehr Arten zu verlieren (gefallene Helden, verlorene Gebäude oder Karawanen), in zwei Tabellen mit Hinzufügen und Entfernen
 - **Herkunft des Ziels** — Unter einem Siegziel steht, ob der Boss auf der Karte platziert oder von einem Auslöser gestartet wird und ob der Festungstyp vom Spiel oder einem Plugin stammt und wie viele auf der Karte stehen; das Ziel eines weiteren Ziels sagt dasselbe im Tooltip
@@ -108,3 +111,5 @@ Dekoration wählen und den Boden anklicken, oder einen Wegstrich ziehen und losl
 
 Kostenlose Wegdarstellungen mit normaler Geschwindigkeit. Ziehen und loslassen; Löschen erhält den Weg. Straßenoberflächen folgen Hängen und Höhenunterschieden des Geländes.
 <!-- town-beautification:end -->
+
+Der Heldenpinsel wählt Krone, Freundlich, Neutral oder Feindlich getrennt von der Klasse; gespeicherte Karten und Rückgängig/Wiederholen behalten diese Zugehörigkeit.

@@ -128,7 +128,7 @@ Les défis (`campaigns/demo_challenges/`, `"linear": false`) sont écrits de la 
 
 <!-- gameplay-preparation:start -->
 
-Les héros comparent les boutiques accessibles, les prix et la capacité réelle des logements. Après une retraite, ils récupèrent avant de reprendre un travail dangereux ; les détails d’expédition montrent la préparation et les repos accessibles. Les niveaux personnalisés peuvent proposer jusqu’à trois plans de victoire complets, tout en conservant les conditions communes.
+Les héros comparent les boutiques accessibles, les prix et la capacité réelle des logements. Après une retraite, ils récupèrent avant de reprendre un travail dangereux ; les détails d’expédition montrent la préparation et les repos accessibles. Les niveaux personnalisés peuvent proposer jusqu’à trois plans de victoire complets, tout en conservant les conditions communes. Les niveaux classiques à condition unique gagnent si le but est atteint au dernier tick autorisé ; les plans alternatifs conservent la priorité de la défaite.
 
 ```json
 {
@@ -167,5 +167,7 @@ Les héros comparent les boutiques accessibles, les prix et la capacité réelle
 ```json
 {"type": "TRADING_POST", "x": 100, "y": 80, "objective_id": "trade-post"}
 ```
+
+Les détails des expéditions indiquent les boutiques de potions et les repos accessibles, ainsi que les soins et boucliers alliés appris. Les boutiques comptent les visites, la durée moyenne du trajet et les attaques. Le bilan nomme un plan de victoire principal et les exploits simultanés, avec un seul règlement de base.
 
 <!-- gameplay-preparation:end -->

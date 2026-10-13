@@ -128,7 +128,7 @@ Wyzwania (`campaigns/demo_challenges/`, `"linear": false`) są zapisywane w ten 
 
 <!-- gameplay-preparation:start -->
 
-Bohaterowie porównują dostępne sklepy, ceny i rzeczywistą liczbę miejsc noclegowych. Po odwrocie regenerują się przed niebezpieczną pracą; szczegóły wyprawy pokazują przygotowanie i dostępny odpoczynek. Własne poziomy mogą oferować do trzech kompletnych planów zwycięstwa z zachowaniem wspólnych wymagań.
+Bohaterowie porównują dostępne sklepy, ceny i rzeczywistą liczbę miejsc noclegowych. Po odwrocie regenerują się przed niebezpieczną pracą; szczegóły wyprawy pokazują przygotowanie i dostępny odpoczynek. Własne poziomy mogą oferować do trzech kompletnych planów zwycięstwa z zachowaniem wspólnych wymagań. Klasyczne poziomy z jednym warunkiem wygrywają po osiągnięciu celu w ostatnim dozwolonym ticku; alternatywne plany zachowują pierwszeństwo porażki.
 
 ```json
 {
@@ -167,5 +167,7 @@ Bohaterowie porównują dostępne sklepy, ceny i rzeczywistą liczbę miejsc noc
 ```json
 {"type": "TRADING_POST", "x": 100, "y": 80, "objective_id": "trade-post"}
 ```
+
+Szczegóły wyprawy prowadzą do dostępnych sklepów z miksturami i odpoczynków oraz pokazują nauczone leczenie i tarcze sojuszników. Sklepy zapisują wizyty, średni czas podróży i ataki. Wyniki podają jeden główny plan zwycięstwa i jednoczesne osiągnięcia, z jednorazowym rozliczeniem podstawowym.
 
 <!-- gameplay-preparation:end -->

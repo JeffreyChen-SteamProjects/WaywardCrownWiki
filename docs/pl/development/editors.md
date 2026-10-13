@@ -10,6 +10,9 @@ Wayward Crown zawiera wbudowane edytory map i kampanii, które pozwalają tworzy
 
 Przycisk **Zestaw edytorów** w menu głównym otwiera edytor z nową mapą. Zapisane mapy są wyświetlane, uruchamiane, edytowane, importowane i eksportowane na karcie **Mapy** menedżera map, który otwiera przycisk **Kampanie** w menu głównym.
 
+
+Samodzielne mapy i kampanie współdzielą cele, porażki, wyzwalacze i do trzech planów zwycięstwa po cztery warunki. Zapis i ponowne otwarcie zachowują reguły; cofanie zachowuje ID chronionych celów. Brakujące cele i cykliczne zależności fal blokują nadpisanie.
+
 ### Funkcje
 
 - **Malowanie terenu** — Wybierz typ terenu i namaluj go na mapie za pomocą pędzla (rozmiar 1 – 20) lub wypełnij obszar
@@ -52,7 +55,7 @@ Kampanie są tworzone, otwierane, importowane i eksportowane na karcie **Kampani
 - **Zasoby początkowe** — Ustaw początkowe złoto dla każdego poziomu
 - **Przeniesienie** — Zachowaj złoto, poszukiwaczy przygód i badania z poprzedniego poziomu
 - **Ograniczenia budynków** — Ogranicz typy budynków dostępnych dla gracza
-- **Wyzwalacze** — Skryptowe komunikaty i odblokowania budynków dla poziomu (tylko poziomy kampanii)
+- **Wyzwalacze** — Skryptowe komunikaty i odblokowania budynków dla poziomu
 - **Pola królestwa** — Początkowy poziom zamku na danym poziomie, limit czasu, rada z odprawy i do dwóch opcjonalnych znalezisk
 - **Dodatkowe cele i porażki** — Więcej warunków zwycięstwa, wymaganych lub opcjonalnych, i więcej sposobów przegranej (polegli bohaterowie, utracone budynki lub karawany), w dwóch tabelach z Dodaj i Usuń
 - **Pochodzenie celu** — Pod celem zwycięstwa: czy boss jest umieszczony na mapie, czy uruchamiany przez wyzwalacz, oraz czy typ twierdzy pochodzi z gry, czy z wtyczki i ile ich stoi na mapie; cel dodatkowego celu mówi to samo w podpowiedzi
@@ -108,3 +111,5 @@ Wybierz dekorację i kliknij ziemię lub przeciągnij odcinek drogi i puść. Wy
 
 Darmowe style zachowują zwykłą prędkość drogi. Przeciągnij i puść; czyszczenie nie usuwa drogi. Nawierzchnia dróg dopasowuje się do zboczy i różnic wysokości terenu.
 <!-- town-beautification:end -->
+
+Pędzel bohaterów pozwala wybrać Koronę, Przyjazną, Neutralną lub Wrogą frakcję niezależnie od klasy; zapis mapy oraz cofanie i ponawianie zachowują tę tożsamość.

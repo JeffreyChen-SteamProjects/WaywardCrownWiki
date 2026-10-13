@@ -110,6 +110,10 @@ Mọi đồng vàng đều được ghi sổ:
 
 <!-- gameplay-preparation:start -->
 
-Anh hùng so sánh cửa hàng có thể tới, giá cả và sức chứa lưu trú thực tế. Sau khi rút lui, họ hồi phục trước khi trở lại việc nguy hiểm; chi tiết viễn chinh cho biết chuẩn bị và chỗ nghỉ có thể tới. Màn chơi tùy chỉnh có thể có tối đa ba phương án thắng hoàn chỉnh và vẫn yêu cầu điều kiện chung.
+Anh hùng so sánh cửa hàng có thể tới, giá cả và sức chứa lưu trú thực tế. Sau khi rút lui, họ hồi phục trước khi trở lại việc nguy hiểm; chi tiết viễn chinh cho biết chuẩn bị và chỗ nghỉ có thể tới. Màn chơi tùy chỉnh có thể có tối đa ba phương án thắng hoàn chỉnh và vẫn yêu cầu điều kiện chung. Màn cũ có một điều kiện thắng vẫn thắng khi đạt mục tiêu ở tick cuối cho phép; các phương án thắng thay thế vẫn ưu tiên thất bại.
+
+Chi tiết viễn chinh dẫn đến tiệm thuốc và nơi nghỉ có thể tới, đồng thời đếm kỹ năng hồi máu và khiên đồng đội đã học. Tiệm ghi tổng lượt đến, thời gian đi trung bình và các cuộc tấn công. Kết quả nêu một kế hoạch thắng chính cùng thành tích đồng thời, chỉ quyết toán cơ bản một lần.
+
+Số liệu chuẩn bị cập nhật mỗi vài giây; thay đổi thành viên, hồi phục và xuất phát được cập nhật ngay.
 
 <!-- gameplay-preparation:end -->

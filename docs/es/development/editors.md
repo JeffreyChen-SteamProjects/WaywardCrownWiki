@@ -10,6 +10,9 @@ Wayward Crown incluye editores integrados de mapas y campañas que te permiten c
 
 El botón **Kit de edición** del menú principal abre el editor con un mapa nuevo. Los mapas guardados se listan, juegan, editan, importan y exportan en la pestaña **Mapas** del gestor de mapas, que se abre con el botón **Campañas** del menú principal.
 
+
+Los mapas independientes y las campañas comparten objetivos, derrotas, disparadores y hasta tres planes de victoria con cuatro condiciones cada uno. Guardar y reabrir conserva las reglas; deshacer conserva los ID de protección. Los objetivos ausentes y las dependencias cíclicas impiden sobrescribir.
+
 ### Funciones
 
 - **Pintura de Terreno** — Selecciona un tipo de terreno y píntalo sobre el mapa con un pincel (tamaño 1 – 20), o rellena una región
@@ -52,7 +55,7 @@ Las campañas se crean, abren, importan y exportan en la pestaña **Campañas** 
 - **Recursos Iniciales** — Establece el oro inicial para cada nivel
 - **Arrastre** — Conserva el oro, los aventureros y la investigación del nivel anterior
 - **Restricciones de Edificios** — Restringe qué tipos de edificios puede usar el jugador
-- **Disparadores** — Mensajes de script y desbloqueos de edificios para un nivel (solo en niveles de campaña)
+- **Disparadores** — Mensajes de script y desbloqueos de edificios para un nivel
 - **Campos de reino** — El nivel de castillo con el que empieza el nivel, el límite de tiempo, el consejo del informe y hasta dos hallazgos opcionales
 - **Objetivos adicionales y derrotas** — Más condiciones de victoria, requeridas u opcionales, y más formas de perder (héroes caídos, edificios o caravanas perdidos), en dos tablas con Añadir y Quitar
 - **Origen del objetivo** — Bajo un objetivo de victoria: si el jefe está colocado en el mapa o lo inicia un disparador, y si el tipo de fortaleza es del juego o de un plugin y cuántas hay en el mapa; el objetivo de un objetivo adicional dice lo mismo en su descripción emergente
@@ -108,3 +111,5 @@ Elige una decoración y pulsa el terreno, o arrastra y suelta un tramo de camino
 
 Aspectos de camino gratuitos con la velocidad habitual. Arrastra y suelta para pintar; borrar conserva el camino. La superficie de los caminos sigue las pendientes y los cambios de altura del terreno.
 <!-- town-beautification:end -->
+
+El pincel de héroes permite elegir Corona, Amistosa, Neutral u Hostil además de la clase; guardar, deshacer y rehacer conservan esta identidad.

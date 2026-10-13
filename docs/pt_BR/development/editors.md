@@ -10,6 +10,9 @@ Wayward Crown inclui editores integrados de mapas e campanhas que permitem criar
 
 O botão **Kit de Edição** do menu principal abre o editor em um mapa novo. Os mapas salvos são listados, jogados, editados, importados e exportados na aba **Mapas** do gerenciador de mapas, que o botão **Campanhas** do menu principal abre.
 
+
+Mapas independentes e campanhas compartilham objetivos, derrotas, gatilhos e até três planos de vitória com quatro condições cada. Salvar e reabrir preserva as regras; desfazer mantém os IDs protegidos. Alvos ausentes e dependências cíclicas de ondas impedem a sobrescrita.
+
 ### Funcionalidades
 
 - **Pintura de Terreno** — Selecione um tipo de terreno e pinte-o no mapa com um pincel (tamanho 1 – 20), ou preencha uma região inteira
@@ -52,7 +55,7 @@ As campanhas são criadas, abertas, importadas e exportadas na aba **Campanhas**
 - **Recursos Iniciais** — Defina o ouro inicial para cada nível
 - **Transferência** — Mantenha ouro, aventureiros e pesquisas do nível anterior
 - **Restrições de Construções** — Restrinja quais tipos de construções o jogador pode usar
-- **Gatilhos** — Mensagens por script e desbloqueios de construções para um nível (apenas níveis de campanha)
+- **Gatilhos** — Mensagens por script e desbloqueios de construções para um nível
 - **Campos de reino** — O nível inicial do castelo da fase, o limite de tempo, o conselho das instruções e até dois achados opcionais
 - **Objetivos adicionais e derrotas** — Mais condições de vitória, obrigatórias ou opcionais, e mais formas de perder (heróis caídos, edifícios ou caravanas perdidos), em duas tabelas com Adicionar e Remover
 - **Origem do alvo** — Abaixo de um alvo de vitória: se o chefe está posicionado no mapa ou é iniciado por um gatilho, e se o tipo de fortaleza é do jogo ou de um plugin e quantas há no mapa; o alvo de um objetivo adicional diz o mesmo na dica
@@ -108,3 +111,5 @@ Escolha uma decoração e clique no chão, ou arraste e solte um trecho de estra
 
 Aparências gratuitas com a velocidade normal da estrada. Arraste e solte para pintar; limpar preserva a estrada. A superfície das estradas acompanha as inclinações e os desníveis do terreno.
 <!-- town-beautification:end -->
+
+O pincel de heróis permite escolher Coroa, Amigável, Neutra ou Hostil separadamente da classe; salvar, desfazer e refazer preservam essa identidade.

@@ -110,6 +110,10 @@ Cada moneda queda registrada:
 
 <!-- gameplay-preparation:start -->
 
-Los héroes comparan tiendas accesibles, precios y plazas reales de alojamiento. Tras retirarse, se recuperan antes de volver a trabajos peligrosos; los detalles de expedición muestran la preparación y los descansos accesibles. Los niveles personalizados pueden ofrecer hasta tres planes completos de victoria y mantienen los requisitos comunes.
+Los héroes comparan tiendas accesibles, precios y plazas reales de alojamiento. Tras retirarse, se recuperan antes de volver a trabajos peligrosos; los detalles de expedición muestran la preparación y los descansos accesibles. Los niveles personalizados pueden ofrecer hasta tres planes completos de victoria y mantienen los requisitos comunes. Los niveles clásicos con una sola condición ganan si alcanzan la meta en el último tick permitido; los planes alternativos mantienen la prioridad de derrota.
+
+Los detalles de expedición enlazan tiendas de pociones y descansos accesibles e indican la curación y los escudos aliados aprendidos. Las tiendas registran visitas totales, trayecto medio y ataques. Los resultados muestran un plan principal y hazañas simultáneas, con una sola liquidación básica.
+
+Los valores de preparación se actualizan cada pocos segundos; los cambios de miembros, recuperación y salida aparecen de inmediato.
 
 <!-- gameplay-preparation:end -->

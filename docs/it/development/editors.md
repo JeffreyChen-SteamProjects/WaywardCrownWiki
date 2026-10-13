@@ -10,6 +10,9 @@ Wayward Crown include editor di mappe e campagne integrati che permettono di cre
 
 Il pulsante **Kit di editor** del menu principale apre l'editor su una nuova mappa. Le mappe salvate si elencano, giocano, modificano, importano ed esportano nella scheda Mappe del gestore mappe, che si apre con il pulsante **Campagne** del menu principale.
 
+
+Mappe indipendenti e campagne condividono obiettivi, sconfitte, attivatori e fino a tre piani di vittoria con quattro condizioni ciascuno. Salvataggio e riapertura conservano le regole; annullare mantiene gli ID protetti. Bersagli mancanti e dipendenze cicliche delle ondate impediscono la sovrascrittura.
+
 ### Funzionalità
 
 - **Pittura del terreno** — Seleziona un tipo di terreno e dipingilo sulla mappa con un pennello (dimensione 1 – 20), oppure riempi un'area
@@ -52,7 +55,7 @@ Le campagne si creano, aprono, importano ed esportano nella scheda Campagne del 
 - **Risorse iniziali** — Imposta l'oro iniziale per ogni livello
 - **Continuità** — Mantieni oro, avventurieri e ricerche del livello precedente
 - **Restrizioni sugli edifici** — Limita i tipi di edifici utilizzabili dal giocatore
-- **Trigger** — Messaggi scriptati e sblocchi di edifici per un livello (solo livelli di campagna)
+- **Trigger** — Messaggi scriptati e sblocchi di edifici per un livello
 - **Campi del regno** — Il livello iniziale del castello, il limite di tempo, il consiglio del briefing e fino a due scoperte facoltative
 - **Obiettivi aggiuntivi e sconfitte** — Altre condizioni di vittoria, richieste o facoltative, e altri modi di perdere (eroi caduti, edifici o carovane perduti), in due tabelle con Aggiungi e Rimuovi
 - **Origine del bersaglio** — Sotto un bersaglio di vittoria: se il boss è piazzato sulla mappa o avviato da un trigger, e se il tipo di roccaforte è del gioco o di un plugin e quante ne stanno sulla mappa; il bersaglio di un obiettivo aggiuntivo dice lo stesso nel suggerimento
@@ -108,3 +111,5 @@ Scegli una decorazione e clicca sul terreno, oppure trascina e rilascia un tratt
 
 Aspetti gratuiti con la normale velocità della strada. Trascina e rilascia; cancellare conserva la strada. La superficie delle strade segue le pendenze e i dislivelli del terreno.
 <!-- town-beautification:end -->
+
+Il pennello degli eroi permette di scegliere Corona, Amica, Neutrale o Ostile separatamente dalla classe; salvataggio, annullamento e ripristino conservano questa identità.

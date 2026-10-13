@@ -10,6 +10,9 @@ Wayward Crown, özel seviyeler ve senaryolar oluşturmanıza olanak tanıyan yer
 
 Ana menüdeki **Editör Araç Seti** düğmesi editörü yeni bir haritayla açar. Kaydedilen haritalar, ana menüdeki **Kampanyalar** düğmesinin açtığı harita yöneticisinin **Haritalar** sekmesinde listelenir, oynanır, düzenlenir, içe ve dışa aktarılır.
 
+
+Bağımsız haritalar ve seferler hedefleri, yenilgi kurallarını, tetikleyicileri ve her biri dört koşullu en çok üç zafer planını paylaşır. Kaydetme ve yeniden açma kuralları, geri alma korunan hedef kimliklerini saklar. Eksik hedefler ve döngüsel dalga bağımlılıkları üzerine yazmayı engeller.
+
 ### Özellikler
 
 - **Arazi Boyama** — Bir arazi türü seçip fırça ile haritaya boyayın (boyut 1 – 20) veya bir bölgeyi doldurun
@@ -52,7 +55,7 @@ Kampanyalar, harita yöneticisinin **Kampanyalar** sekmesinde (ana menüdeki **K
 - **Başlangıç Kaynakları** — Her seviye için başlangıç altınını belirleyin
 - **Aktarma** — Önceki seviyeden altını, maceraperestleri ve araştırmayı koruyun
 - **Bina Kısıtlamaları** — Oyuncunun kullanabileceği bina türlerini kısıtlayın
-- **Tetikleyiciler** — Bir seviye için mesajları ve bina kilit açmalarını betikleyin (yalnızca kampanya seviyeleri)
+- **Tetikleyiciler** — Bir seviye için mesajları ve bina kilit açmalarını betikleyin
 - **Krallık alanları** — Seviyenin başlangıç şato seviyesi, süre sınırı, brifingin önerisi ve en çok iki isteğe bağlı buluntu
 - **Ek hedefler ve yenilgiler** — Zorunlu ya da isteğe bağlı daha fazla zafer koşulu ve daha fazla kaybetme yolu (düşen kahramanlar, kaybedilen binalar ya da kervanlar), Ekle ve Kaldır düğmeli iki tabloda
 - **Hedefin kaynağı** — Bir zafer hedefinin altında: boss haritaya mı yerleştirildi yoksa bir tetikleyici mi başlatıyor, kale türü oyunun mu yoksa bir eklentinin mi ve haritada kaç tane var; ek hedefin hedefi aynısını ipucunda söyler
@@ -108,3 +111,5 @@ Bir süsleme seçip yere tıkla veya yol çizgisini sürükleyip bırak. Seç �
 
 Ücretsiz görünümler normal yol hızını kullanır. Sürükleyip bırak; temizlemek yolu korur. Yol yüzeyleri eğimleri ve arazi yükseklik farklarını takip eder.
 <!-- town-beautification:end -->
+
+Kahraman fırçasında sınıftan ayrı olarak Taç, Dost, Tarafsız veya Düşman tarafı seçilebilir; harita kaydı ile geri alma/yineleme bu kimliği korur.

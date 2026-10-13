@@ -10,6 +10,9 @@ Wayward Crown tích hợp sẵn trình chỉnh sửa bản đồ và chiến d�
 
 Nút **Bộ công cụ chỉnh sửa** ở menu chính mở trình chỉnh sửa với một bản đồ mới. Các bản đồ đã lưu được liệt kê, chơi, chỉnh sửa, nhập và xuất ở thẻ **Bản đồ** của trình quản lý bản đồ, được mở bằng nút **Chiến dịch** ở menu chính.
 
+
+Bản đồ độc lập và chiến dịch dùng chung mục tiêu, điều kiện thua, kích hoạt và tối đa ba kế hoạch thắng, mỗi kế hoạch bốn điều kiện. Lưu và mở lại giữ các quy tắc; hoàn tác giữ ID mục tiêu bảo vệ. Mục tiêu thiếu và vòng phụ thuộc đợt quân ngăn ghi đè.
+
 ### Tính năng
 
 - **Vẽ địa hình** — Chọn loại địa hình và vẽ lên bản đồ bằng cọ (kích thước 1 – 20), hoặc tô đầy một vùng
@@ -52,7 +55,7 @@ Chiến dịch được tạo, mở, nhập và xuất ở thẻ **Chiến dịc
 - **Tài nguyên khởi đầu** — Đặt số vàng ban đầu cho từng màn
 - **Chuyển tiếp** — Giữ lại vàng, nhà phiêu lưu và nghiên cứu từ màn trước
 - **Giới hạn công trình** — Giới hạn loại công trình mà người chơi có thể sử dụng
-- **Kích hoạt** — Tin nhắn kịch bản và mở khóa công trình cho một màn (chỉ màn chiến dịch)
+- **Kích hoạt** — Tin nhắn kịch bản và mở khóa công trình cho một màn
 - **Trường vương quốc** — Cấp lâu đài khởi đầu của màn, giới hạn thời gian, lời khuyên trong tóm tắt và tối đa hai phát hiện tùy chọn
 - **Mục tiêu bổ sung và điều kiện thua** — Thêm điều kiện thắng, bắt buộc hoặc tùy chọn, và thêm cách thua (anh hùng ngã xuống, công trình hoặc đoàn buôn bị mất), trong hai bảng có Thêm và Gỡ
 - **Nguồn của mục tiêu** — Dưới mục tiêu chiến thắng: trùm được đặt trên bản đồ hay do trigger khởi động, loại thành trì là của trò chơi hay của plugin và có bao nhiêu trên bản đồ; mục tiêu của mục tiêu bổ sung cho biết điều tương tự trong chú thích
@@ -108,3 +111,5 @@ Chọn đồ trang trí rồi nhấp vào đất, hoặc kéo và thả một n�
 
 Kiểu đường miễn phí dùng tốc độ đường thường. Kéo rồi thả để vẽ; xóa kiểu vẫn giữ đường. Mặt đường nối theo độ dốc và chênh lệch độ cao của địa hình.
 <!-- town-beautification:end -->
+
+Cọ anh hùng cho phép chọn phe Vương triều, Thân thiện, Trung lập hoặc Thù địch riêng với lớp nhân vật; lưu bản đồ và hoàn tác/làm lại đều giữ danh tính này.
