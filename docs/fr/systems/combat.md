@@ -120,3 +120,5 @@ Chaque fois qu'un aventurier frappe un ennemi -- que ce soit en mêlée ou par p
 3. Bâtiments menaçants comme les Tours à flèches
 4. Château
 5. Autres bâtiments
+
+Le poison conserve sa durée restante, le prochain dégât et l'attribution de la mort dans les sauvegardes. Le poison du voleur est purifié par l'autel ou les bains sans retirer les boucliers. Après la résistance de base du boss, les contrôles répétés dans une fenêtre fixe de 10 secondes durent 100 %, 50 %, puis 25 % ; les suivants restent sans effet jusqu'à sa fin. Une réapplication plus courte ne raccourcit pas le contrôle existant et les tentatives ne retardent pas la réinitialisation. Les ennemis ordinaires n'ont pas cette immunité.

@@ -120,3 +120,5 @@ Cada vez que um aventureiro acerta um inimigo — seja corpo a corpo ou com proj
 3. Construções ameaçadoras como Torres de Flechas
 4. Castelo
 5. Outras construções
+
+O veneno mantém a duração restante, o próximo dano e o crédito da morte ao salvar. O veneno do ladrão é removido pelo altar ou pelos banhos sem retirar escudos. Após a resistência básica do chefe, controles repetidos em uma janela fixa de 10 segundos duram 100%, 50% e 25%; tentativas posteriores não têm efeito até o fim da janela. Uma reaplicação mais curta não encurta o controle existente, e tentativas não adiam a reinicialização. Inimigos comuns não ganham essa imunidade.

@@ -120,3 +120,5 @@ Bir maceraperest her düşmana vurduğunda — yakın dövüş veya mermiyle —
 3. Ok Kuleleri gibi tehdit oluşturan binalar
 4. Kale
 5. Diğer binalar
+
+Zehir, kayıtta kalan süresini, sonraki hasar anını ve öldürme sahibini korur. Hırsız zehri sunak veya hamamda arındırılır; kalkanlar kalır. Bossun temel kontrol direncinden sonra sabit 10 saniyelik aralıkta tekrarlanan kontroller %100, %50 ve %25 süreyle işler; sonraki denemeler aralık bitene kadar etkisizdir. Daha kısa yeniden uygulama mevcut kontrolü kısaltmaz; denemeler sıfırlamayı ertelemez. Normal düşmanlar bu bağışıklığı kazanmaz.

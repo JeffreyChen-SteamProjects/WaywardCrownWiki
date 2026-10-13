@@ -120,3 +120,5 @@ Ogni volta che un avventuriero colpisce un nemico — sia in mischia che con un 
 3. Edifici minacciosi come le Torri di frecce
 4. Castello
 5. Altri edifici
+
+Il veleno conserva durata residua, prossimo danno e attribuzione della morte nei salvataggi. Il veleno del ladro si purifica con altare o bagni senza rimuovere scudi. Dopo la resistenza base del boss, i controlli ripetuti in una finestra fissa di 10 secondi durano il 100%, 50% e 25%; i tentativi successivi sono inefficaci fino alla fine. Una riapplicazione più breve non abbrevia il controllo esistente e i tentativi non rimandano il ripristino. I nemici ordinari non ottengono questa immunità.

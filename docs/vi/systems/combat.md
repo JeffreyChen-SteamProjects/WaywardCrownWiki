@@ -120,3 +120,5 @@ Mỗi lần nhà phiêu lưu đánh trúng kẻ thù — dù bằng cận chiế
 3. Công trình đe dọa như Tháp bắn tên
 4. Lâu đài
 5. Các công trình khác
+
+Chất độc giữ thời gian còn lại, thời điểm gây sát thương tiếp theo và người được ghi công khi lưu. Độc của đạo tặc được bàn thờ hoặc nhà tắm thanh tẩy mà không mất lá chắn. Sau kháng khống chế cơ bản của trùm, khống chế lặp lại trong cửa sổ cố định 10 giây có thời lượng 100%, 50%, rồi 25%; lần sau vô hiệu tới hết cửa sổ. Áp dụng lại ngắn hơn không rút ngắn hiệu ứng đang có và không trì hoãn việc đặt lại. Kẻ địch thường không nhận miễn nhiễm này.

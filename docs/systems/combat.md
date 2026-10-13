@@ -120,3 +120,5 @@ Every time an adventurer hits an enemy — whether by melee or projectile — th
 3. Threatening buildings such as Arrow Towers
 4. Castle
 5. Other buildings
+
+Poison keeps its remaining duration, next bite and kill credit through saving and loading. Thief poison uses the same cleansing as the altar and bathhouse; cleansing leaves shields intact. After a boss's base control resistance, repeated controls within a fixed 10-second window use 100%, 50%, then 25% duration; further attempts are ineffective until the window ends. A shorter reapplication never shortens an existing control, and repeated attempts do not postpone the reset. Ordinary enemies do not gain this immunity.

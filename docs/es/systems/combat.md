@@ -120,3 +120,5 @@ Cada vez que un aventurero golpea a un enemigo — ya sea cuerpo a cuerpo o con 
 3. Edificios amenazantes como Torres de arqueros
 4. Castillo
 5. Otros edificios
+
+El veneno conserva su duración restante, el próximo daño y el crédito de la muerte al guardar. El veneno del ladrón se limpia con el altar o los baños sin quitar escudos. Tras la resistencia básica del jefe, los controles repetidos en un intervalo fijo de 10 segundos duran el 100%, 50% y 25%; los siguientes no tienen efecto hasta terminar el intervalo. Una reaplicación más corta no acorta el control existente, y los intentos no retrasan el reinicio. Los enemigos normales no obtienen esta inmunidad.
