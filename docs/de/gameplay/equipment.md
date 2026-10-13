@@ -107,3 +107,9 @@ Jede Münze ist nachvollziehbar:
 - **Jede Einheit hat eine Stimme**: Ein Monster, ein Steuereintreiber, eine Karawane und ein Dorfbewohner antworten auf einen Klick mit dem Laut ihrer Art, so wie ein Held mit seiner Stimmung antwortet, und alles, was über die Karte läuft, ist zu hören, wenn es fällt. Ein Held und die übrigen Leute der Krone (Steuereintreiber, Karawanen, die Arbeiter der Krone, die Dorfbewohner eines zerstörten Hauses) sind überall zu hören; ein Monster wird mit dem Abstand zum Bildausschnitt leiser, dieselbe Art ist höchstens alle zwei Sekunden zu hören, und höchstens zwei solche Laute überlagern sich. Kein Laut einer Einheit ist kürzer als eine Sekunde.
 - **Musik**: Menü und Spiel haben je eigene Stücke in gemischter Reihenfolge: jedes kann den Anfang machen, und jedes läuft einmal, bevor sich eines wiederholt. Solange ein benannter Boss im Feld steht, spielt dessen eigene Musik, und die des Spiels kehrt zurück, wenn er fällt; auch eine gefallene Burg hat ihre Musik.
 - **Auf der Karte zu sehen**: Der Wagen eines gestrandeten Versorgungstrupps, ein Rad ab und die Ladung halb abgeladen, steht an seinem Ort, sobald dieser erkundet ist, bis der Trupp erreicht oder verloren ist; ein Boss trägt über Namen und Lebensleiste ein gehörntes Schädelabzeichen. Beides sieht auf beiden Renderpfaden gleich aus. Häuptling Knirschzahn hat ein eigenes Aussehen: gehörnter Helm, roter Schild, doppelschneidige Axt und die Standarte seiner Kriegsschar auf dem Rücken.
+
+<!-- gameplay-preparation:start -->
+
+Helden vergleichen erreichbare Läden, Preise und die tatsächliche Bettenzahl. Nach einem Rückzug erholen sie sich vor gefährlichen Aufträgen; Expeditionsdetails zeigen Vorbereitung und erreichbare Rastplätze. Eigene Level können bis zu drei vollständige Siegpläne anbieten, wobei gemeinsame Pflichtziele weiter gelten.
+
+<!-- gameplay-preparation:end -->

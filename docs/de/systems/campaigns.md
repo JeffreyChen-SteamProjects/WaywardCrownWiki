@@ -125,3 +125,47 @@ Die Herausforderungen (`campaigns/demo_challenges/`, `"linear": false`) werden a
 5. In `campaign.json` nennt `roster` die Monster, die über die Karte streifen, und `blocked_events` die Zufallsereignisse, die nie gewürfelt werden.
 6. Prüfe: Die Prüfungen benennen eine falsche Burgstufe, ein falsches Zeitlimit, einen falschen optionalen Fund, einen falschen Eintrag der Besetzung oder ein falsches Ereignis mit seinem Feld. Spiele das Level dann aus dem Arbeitsbereich; die dort gewählte Schwierigkeit bestimmt Raubzüge, Wellen und Startgold.
 7. Veröffentliche es zuerst privat und mache es öffentlich, wenn es sich so spielt, wie du es meinst.
+
+<!-- gameplay-preparation:start -->
+
+Helden vergleichen erreichbare Läden, Preise und die tatsächliche Bettenzahl. Nach einem Rückzug erholen sie sich vor gefährlichen Aufträgen; Expeditionsdetails zeigen Vorbereitung und erreichbare Rastplätze. Eigene Level können bis zu drei vollständige Siegpläne anbieten, wobei gemeinsame Pflichtziele weiter gelten.
+
+```json
+{
+  "victory": "free",
+  "objectives": [
+    {
+      "victory": "protect_building",
+      "target": "trade-post"
+    }
+  ],
+  "victory_plans": [
+    {
+      "id": "commerce",
+      "title": "i18n:victory_kind_caravan_rounds",
+      "objectives": [
+        {
+          "victory": "caravan_rounds",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": "assault",
+      "title": "i18n:victory_kind_destroy_building",
+      "objectives": [
+        {
+          "victory": "destroy_building",
+          "target": "GOBLIN_TENT"
+        }
+      ]
+    }
+  ]
+}
+```
+
+```json
+{"type": "TRADING_POST", "x": 100, "y": 80, "objective_id": "trade-post"}
+```
+
+<!-- gameplay-preparation:end -->

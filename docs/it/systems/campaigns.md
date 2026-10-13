@@ -125,3 +125,47 @@ Le sfide (`campaigns/demo_challenges/`, `"linear": false`) vengono scritte allo 
 5. In `campaign.json`, `roster` indica i mostri che vagano sulla mappa e `blocked_events` gli eventi casuali mai tirati.
 6. Convalida: i controlli indicano per campo un livello del castello, un limite di tempo, una scoperta facoltativa, una voce dell'elenco o un evento sbagliati. Poi gioca il livello dall'area di lavoro; la difficoltà scelta lì dimensiona incursioni, ondate e oro iniziale.
 7. Pubblicalo prima in privato e rendilo pubblico quando si gioca come intendi.
+
+<!-- gameplay-preparation:start -->
+
+Gli eroi confrontano negozi raggiungibili, prezzi e capacità reale degli alloggi. Dopo la ritirata recuperano prima di riprendere lavori pericolosi; i dettagli delle spedizioni mostrano preparativi e riposi raggiungibili. I livelli personalizzati possono offrire fino a tre piani di vittoria completi, mantenendo i requisiti comuni.
+
+```json
+{
+  "victory": "free",
+  "objectives": [
+    {
+      "victory": "protect_building",
+      "target": "trade-post"
+    }
+  ],
+  "victory_plans": [
+    {
+      "id": "commerce",
+      "title": "i18n:victory_kind_caravan_rounds",
+      "objectives": [
+        {
+          "victory": "caravan_rounds",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": "assault",
+      "title": "i18n:victory_kind_destroy_building",
+      "objectives": [
+        {
+          "victory": "destroy_building",
+          "target": "GOBLIN_TENT"
+        }
+      ]
+    }
+  ]
+}
+```
+
+```json
+{"type": "TRADING_POST", "x": 100, "y": 80, "objective_id": "trade-post"}
+```
+
+<!-- gameplay-preparation:end -->

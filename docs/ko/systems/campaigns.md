@@ -125,3 +125,47 @@ campaigns/
 5. `campaign.json`에서 캠페인의 `roster`는 맵을 떠도는 괴물을, `blocked_events`는 굴리지 않을 무작위 이벤트를 지정합니다.
 6. 검증합니다. 검사는 잘못된 성 레벨, 제한 시간, 선택 목표, 구성, 이벤트 이름을 필드별로 알려 줍니다. 그다음 작업 공간에서 레벨을 플레이합니다. 거기서 고른 난이도가 습격, 웨이브, 시작 골드의 크기를 정합니다.
 7. 먼저 비공개로 게시하고, 뜻대로 플레이되면 공개합니다.
+
+<!-- gameplay-preparation:start -->
+
+영웅은 도달 가능한 경로, 가격과 실제 숙박 정원으로 상점을 선택합니다. 후퇴 후 회복한 다음 위험한 임무로 돌아가며, 원정 상세 정보에는 준비 상태와 도달 가능한 휴식처가 표시됩니다. 사용자 레벨은 최대 세 개의 완전한 승리 계획을 제공할 수 있으며 공통 필수 조건도 충족해야 합니다.
+
+```json
+{
+  "victory": "free",
+  "objectives": [
+    {
+      "victory": "protect_building",
+      "target": "trade-post"
+    }
+  ],
+  "victory_plans": [
+    {
+      "id": "commerce",
+      "title": "i18n:victory_kind_caravan_rounds",
+      "objectives": [
+        {
+          "victory": "caravan_rounds",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": "assault",
+      "title": "i18n:victory_kind_destroy_building",
+      "objectives": [
+        {
+          "victory": "destroy_building",
+          "target": "GOBLIN_TENT"
+        }
+      ]
+    }
+  ]
+}
+```
+
+```json
+{"type": "TRADING_POST", "x": 100, "y": 80, "objective_id": "trade-post"}
+```
+
+<!-- gameplay-preparation:end -->

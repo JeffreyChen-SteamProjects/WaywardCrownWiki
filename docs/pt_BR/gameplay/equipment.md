@@ -107,3 +107,9 @@ Cada moeda é contabilizada:
 - **Toda unidade tem voz**: um monstro, um coletor de impostos, uma caravana e um aldeão respondem a um clique com o som da sua espécie, como um herói responde conforme o seu ânimo, e tudo o que anda pelo mapa é ouvido ao cair. Um herói e o resto do povo da coroa (coletores de impostos, caravanas, os operários da coroa, os aldeões de uma casa derrubada) são ouvidos onde quer que a vista esteja; um monstro fica mais baixo com a distância da vista, a mesma espécie é ouvida no máximo uma vez a cada dois segundos e no máximo dois desses sons se sobrepõem. Nenhum som de unidade dura menos de um segundo.
 - **Música**: o menu e o jogo têm cada um as suas faixas, em ordem aleatória: qualquer uma pode abrir, e cada faixa toca uma vez antes que alguma se repita. Enquanto um chefe com nome está em campo, toca a música dele, e a do jogo volta quando ele cai; um castelo caído também tem a sua.
 - **Visível no mapa**: a carroça de um comboio de suprimentos encalhado, com uma roda solta e a carga meio descarregada, fica no local desde que ele é explorado até o comboio ser alcançado ou perdido; um chefe exibe um emblema de caveira com chifres acima do nome e da barra de vida. Os dois aparecem iguais nos dois caminhos de renderização. O Chefe Presa-Rangente tem uma aparência própria: elmo com chifres, escudo vermelho, machado de dois gumes e o estandarte do seu bando nas costas.
+
+<!-- gameplay-preparation:start -->
+
+Os heróis comparam lojas acessíveis, preços e vagas reais de hospedagem. Após recuar, recuperam-se antes de voltar ao trabalho perigoso; os detalhes da expedição mostram a preparação e os descansos acessíveis. Fases personalizadas podem oferecer até três planos completos de vitória, mantendo os requisitos comuns.
+
+<!-- gameplay-preparation:end -->

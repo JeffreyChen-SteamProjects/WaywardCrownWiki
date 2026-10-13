@@ -107,3 +107,9 @@ Every coin is accounted for:
 - **Every unit has a voice**: a monster, a tax collector, a caravan and a villager answer a click with their own kind's sound, as a hero answers with its mood, and everything that walks the map is heard when it falls. A hero and the crown's other people (tax collectors, caravans, the crown's hands, the villagers of a house brought down) are heard wherever the view is; a monster fades with its distance from the view, the same kind is heard at most once every two seconds, and at most two such sounds overlap. No unit's sound is shorter than a second.
 - **Music**: the menu and the game each have their own tracks, shuffled: any of them may open, and every track plays once before one repeats. While a named boss is in the field its own music plays, and the game's returns when it falls; a fallen castle has its music too.
 - **Seen on the map**: a stranded supply party's wagon, a wheel off and its load half unpacked, stands at its site from the moment the site is explored until the party is reached or lost, and a boss wears a horned-skull badge over its name and its health bar. Both look the same on either render path. Chief Gnashfang has a look of his own: a horned helm, a red shield, a two-bladed axe and his war band's standard on his back.
+
+<!-- gameplay-preparation:start -->
+
+Heroes compare reachable shops, prices and genuine lodging capacity. Retreating heroes recover before returning to dangerous work; expedition details show preparation and reachable rest. Custom levels may offer up to three complete victory plans, with common requirements still enforced.
+
+<!-- gameplay-preparation:end -->

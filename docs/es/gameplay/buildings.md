@@ -185,7 +185,7 @@ Doce decoraciones cuestan 10, 25 o 50 de oro por pieza, sin aumentos por cantida
 
 Solo aspecto: sin servicios, colisión, ingresos ni ventajas de combate. Mover y girar es gratis.
 
-Las fuentes, jardines y campanarios están en Embellecer la ciudad → Decoraciones y conservan sus funciones y precios de edificio. El camino normal está en Caminos gratuitos.
+Las fuentes, jardines y campanarios aparecen con icono y precio real en la misma lista Embellecer la ciudad → Decoraciones. Al seleccionarlos se usa la colocación normal de edificios, conservando funciones, precios y restricciones de desbloqueo. El camino normal está en Caminos gratuitos.
 
 Elige una decoración y pulsa el terreno, o arrastra y suelta un tramo de camino. Seleccionar → Mover edita un objeto existente. R gira, Esc cancela y Delete retira la decoración elegida. Ctrl+Z / Ctrl+Y deshacen o rehacen el aspecto del camino; las nuevas carreteras permanecen. El editor usa las mismas herramientas y las decoraciones del autor no tienen valor de reembolso.
 

@@ -102,7 +102,7 @@ On iki süsleme parça başına 10, 25 veya 50 altındır; sayıyla fiyat artmaz
 
 Yalnızca görünüm: hizmet, çarpışma, gelir veya savaş yararı yoktur. Taşıma ve döndürme ücretsizdir.
 
-Çeşmeler, bahçeler ve çan kuleleri Kasabayı güzelleştir → Süslemeler bölümündedir; bina işlevleri ve fiyatları korunur. Standart yol Ücretsiz yollar bölümündedir.
+Çeşmeler, bahçeler ve çan kuleleri aynı Kasabayı güzelleştir → Süslemeler listesinde simge ve güncel fiyatla görünür. Seçim normal bina yerleştirmesini kullanır; işlevler, fiyatlar ve açılma koşulları korunur. Standart yol Ücretsiz yollar bölümündedir.
 
 Bir süsleme seçip yere tıkla veya yol çizgisini sürükleyip bırak. Seç → Taşı, mevcut nesneyi düzenler. R döndürür, Esc iptal eder, Delete seçili süslemeyi kaldırır. Ctrl+Z / Ctrl+Y yalnızca yol görünümünü geri alır veya yineler; yeni yollar kalır. Harita düzenleyici aynı araçları kullanır ve yazarın koyduğu süslemelerin iade değeri yoktur.
 

@@ -107,3 +107,9 @@ Cada moneda queda registrada:
 - **Cada unidad tiene voz**: un monstruo, un recaudador, una caravana y un aldeano responden a un clic con el sonido de su especie, igual que un héroe responde según su ánimo, y todo lo que camina por el mapa se oye al caer. Un héroe y el resto de la gente de la corona (recaudadores, caravanas, los obreros de la corona, los aldeanos de una casa derribada) se oyen esté donde esté la vista; un monstruo se atenúa con la distancia a la vista, la misma especie se oye como mucho una vez cada dos segundos y como mucho se solapan dos de esos sonidos. Ningún sonido de unidad dura menos de un segundo.
 - **Música**: el menú y la partida tienen cada uno sus propias pistas, en orden aleatorio: cualquiera puede abrir, y cada pista suena una vez antes de que alguna se repita. Mientras un jefe con nombre está en el campo suena su propia música, y la de la partida vuelve cuando cae; un castillo caído también tiene la suya.
 - **Visible en el mapa**: el carro de un convoy de suministros varado, con una rueda suelta y la carga a medio descargar, está en su lugar desde que este se explora hasta que el convoy es alcanzado o se pierde; un jefe lleva una insignia de calavera con cuernos sobre su nombre y su barra de vida. Ambos se ven igual en las dos rutas de dibujo. El Jefe Colmillo Rechinante tiene un aspecto propio: yelmo con cuernos, escudo rojo, hacha de doble filo y el estandarte de su banda a la espalda.
+
+<!-- gameplay-preparation:start -->
+
+Los héroes comparan tiendas accesibles, precios y plazas reales de alojamiento. Tras retirarse, se recuperan antes de volver a trabajos peligrosos; los detalles de expedición muestran la preparación y los descansos accesibles. Los niveles personalizados pueden ofrecer hasta tres planes completos de victoria y mantienen los requisitos comunes.
+
+<!-- gameplay-preparation:end -->

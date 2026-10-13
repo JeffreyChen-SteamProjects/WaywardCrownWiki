@@ -185,7 +185,7 @@ Dwanaście dekoracji kosztuje po 10, 25 lub 50 złota, bez wzrostu ceny za liczb
 
 Tylko wygląd: bez usług, kolizji, dochodu i premii bojowych. Przenoszenie i obracanie są darmowe.
 
-Fontanny, ogrody i dzwonnice są w Upiększanie miasta → Dekoracje i zachowują funkcje oraz ceny budynków. Zwykła droga znajduje się w Darmowych drogach.
+Fontanny, ogrody i dzwonnice pojawiają się z ikoną i aktualną ceną na tej samej liście Upiększanie miasta → Dekoracje. Wybór korzysta ze zwykłego umieszczania budynków i zachowuje funkcje, ceny oraz warunki odblokowania. Zwykła droga znajduje się w Darmowych drogach.
 
 Wybierz dekorację i kliknij ziemię lub przeciągnij odcinek drogi i puść. Wybierz → Przenieś edytuje istniejący obiekt. R obraca, Esc anuluje, Delete usuwa wybraną dekorację. Ctrl+Z / Ctrl+Y zmieniają tylko wygląd dróg; nowe drogi pozostają. Edytor używa tych samych narzędzi, a dekoracje autora nie dają zwrotu pieniędzy.
 

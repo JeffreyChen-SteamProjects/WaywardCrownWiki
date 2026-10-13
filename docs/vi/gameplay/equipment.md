@@ -107,3 +107,9 @@ Mọi đồng vàng đều được ghi sổ:
 - **Đơn vị nào cũng có tiếng nói**: quái vật, người thu thuế, đoàn buôn và dân làng đáp lại cú nhấp bằng âm thanh của chính loài mình, như anh hùng đáp theo tình trạng của mình, và mọi thứ đi lại trên bản đồ đều phát ra tiếng khi gục ngã. Anh hùng và những người khác của vương triều (người thu thuế, đoàn buôn, thợ của vương triều, dân làng của ngôi nhà bị phá) được nghe thấy dù khung nhìn ở đâu; quái vật nhỏ dần theo khoảng cách tới khung nhìn, cùng một loài chỉ được nghe nhiều nhất hai giây một lần, và nhiều nhất hai âm thanh như vậy chồng lên nhau. Không âm thanh nào của đơn vị ngắn hơn một giây.
 - **Nhạc**: menu và trận chơi đều có các bản nhạc riêng, phát theo thứ tự ngẫu nhiên: bản nào cũng có thể mở đầu, và mỗi bản phát một lần trước khi có bản lặp lại. Khi một trùm có tên đang ở trên chiến trường, nhạc riêng của nó sẽ phát, và nhạc của trận chơi trở lại khi nó gục ngã; lâu đài thất thủ cũng có nhạc riêng.
 - **Thấy trên bản đồ**: chiếc xe của đoàn tiếp tế mắc kẹt, rơi mất một bánh và hàng dỡ dở một nửa, đứng tại chỗ từ lúc nơi đó được khám phá cho tới khi đoàn được cứu hoặc bị mất; trùm mang huy hiệu đầu lâu có sừng phía trên tên và thanh máu. Cả hai trông như nhau trên cả hai đường vẽ. Tù trưởng Nanh Nghiến có ngoại hình riêng: mũ sắt có sừng, khiên đỏ, rìu hai lưỡi và lá cờ hiệu của toán quân trên lưng.
+
+<!-- gameplay-preparation:start -->
+
+Anh hùng so sánh cửa hàng có thể tới, giá cả và sức chứa lưu trú thực tế. Sau khi rút lui, họ hồi phục trước khi trở lại việc nguy hiểm; chi tiết viễn chinh cho biết chuẩn bị và chỗ nghỉ có thể tới. Màn chơi tùy chỉnh có thể có tối đa ba phương án thắng hoàn chỉnh và vẫn yêu cầu điều kiện chung.
+
+<!-- gameplay-preparation:end -->

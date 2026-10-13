@@ -185,7 +185,7 @@ Mười hai đồ trang trí có giá cố định 10, 25 hoặc 50 vàng mỗi 
 
 Chỉ trang trí: không có dịch vụ, va chạm, thu nhập hay lợi ích chiến đấu. Di chuyển và xoay miễn phí.
 
-Đài phun nước, vườn và tháp chuông đã chuyển vào Làm đẹp thị trấn → Đồ trang trí, giữ nguyên chức năng và giá công trình. Đường thường nằm trong Đường miễn phí.
+Đài phun nước, vườn và tháp chuông xuất hiện cùng biểu tượng và giá thực tế trong cùng danh sách Làm đẹp thị trấn → Đồ trang trí. Chọn một mục sẽ dùng cách đặt công trình thông thường, giữ nguyên chức năng, giá và điều kiện mở khóa. Đường thường nằm trong Đường miễn phí.
 
 Chọn đồ trang trí rồi nhấp vào đất, hoặc kéo và thả một nét đường. Chọn → Di chuyển chỉnh món hiện có. R xoay, Esc hủy, Delete gỡ món đã chọn. Ctrl+Z / Ctrl+Y chỉ hoàn tác hoặc làm lại kiểu đường; đường mới vẫn còn. Trình sửa bản đồ dùng cùng công cụ; đồ do tác giả đặt không có tiền hoàn lại.
 

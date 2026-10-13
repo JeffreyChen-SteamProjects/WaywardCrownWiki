@@ -125,3 +125,47 @@ Wyzwania (`campaigns/demo_challenges/`, `"linear": false`) są zapisywane w ten 
 5. W `campaign.json` pole `roster` wymienia potwory wędrujące po mapie, a `blocked_events` zdarzenia losowe, które nigdy nie są losowane.
 6. Zweryfikuj: kontrole wskazują po polu błędny poziom zamku, limit czasu, opcjonalne znalezisko, wpis obsady lub zdarzenie. Potem zagraj poziom z obszaru roboczego; wybrana tam trudność ustala wielkość najazdów, fal i złota na start.
 7. Najpierw opublikuj prywatnie, a publicznie udostępnij, gdy gra się tak, jak chcesz.
+
+<!-- gameplay-preparation:start -->
+
+Bohaterowie porównują dostępne sklepy, ceny i rzeczywistą liczbę miejsc noclegowych. Po odwrocie regenerują się przed niebezpieczną pracą; szczegóły wyprawy pokazują przygotowanie i dostępny odpoczynek. Własne poziomy mogą oferować do trzech kompletnych planów zwycięstwa z zachowaniem wspólnych wymagań.
+
+```json
+{
+  "victory": "free",
+  "objectives": [
+    {
+      "victory": "protect_building",
+      "target": "trade-post"
+    }
+  ],
+  "victory_plans": [
+    {
+      "id": "commerce",
+      "title": "i18n:victory_kind_caravan_rounds",
+      "objectives": [
+        {
+          "victory": "caravan_rounds",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": "assault",
+      "title": "i18n:victory_kind_destroy_building",
+      "objectives": [
+        {
+          "victory": "destroy_building",
+          "target": "GOBLIN_TENT"
+        }
+      ]
+    }
+  ]
+}
+```
+
+```json
+{"type": "TRADING_POST", "x": 100, "y": 80, "objective_id": "trade-post"}
+```
+
+<!-- gameplay-preparation:end -->

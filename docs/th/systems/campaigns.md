@@ -125,3 +125,47 @@ campaigns/
 5. ใน `campaign.json` ค่า `roster` ระบุมอนสเตอร์ที่เร่ร่อนบนแผนที่ และ `blocked_events` ระบุเหตุการณ์สุ่มที่ไม่ถูกสุ่ม
 6. ตรวจสอบ: การตรวจจะชี้ระดับปราสาท จำกัดเวลา เป้าหมายเสริม รายชื่อ หรือเหตุการณ์ที่ผิดตามช่องของมัน จากนั้นเล่นด่านจากพื้นที่ทำงาน ความยากที่เลือกที่นั่นกำหนดขนาดการปล้น คลื่นศัตรู และทองเริ่มต้น
 7. เผยแพร่แบบส่วนตัวก่อน แล้วค่อยเปิดสาธารณะเมื่อเล่นได้อย่างที่ตั้งใจ
+
+<!-- gameplay-preparation:start -->
+
+ฮีโร่เปรียบเทียบร้านที่ไปถึง ราคา และความจุที่พักจริง หลังถอยจะฟื้นตัวก่อนกลับไปทำงานอันตราย รายละเอียดการเดินทางแสดงการเตรียมตัวและที่พักที่ไปถึงได้ ด่านที่สร้างเองมีแผนชนะที่ครบถ้วนได้สูงสุดสามแผน โดยยังต้องผ่านเงื่อนไขร่วม
+
+```json
+{
+  "victory": "free",
+  "objectives": [
+    {
+      "victory": "protect_building",
+      "target": "trade-post"
+    }
+  ],
+  "victory_plans": [
+    {
+      "id": "commerce",
+      "title": "i18n:victory_kind_caravan_rounds",
+      "objectives": [
+        {
+          "victory": "caravan_rounds",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": "assault",
+      "title": "i18n:victory_kind_destroy_building",
+      "objectives": [
+        {
+          "victory": "destroy_building",
+          "target": "GOBLIN_TENT"
+        }
+      ]
+    }
+  ]
+}
+```
+
+```json
+{"type": "TRADING_POST", "x": 100, "y": 80, "objective_id": "trade-post"}
+```
+
+<!-- gameplay-preparation:end -->

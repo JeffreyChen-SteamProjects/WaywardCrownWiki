@@ -125,3 +125,47 @@ Các thử thách (`campaigns/demo_challenges/`, `"linear": false`) được ghi
 5. Trong `campaign.json`, `roster` nêu các quái vật lang thang trên bản đồ và `blocked_events` nêu các sự kiện ngẫu nhiên không bao giờ gieo.
 6. Kiểm tra: các phép kiểm chỉ ra theo trường một cấp lâu đài, giới hạn thời gian, phát hiện tùy chọn, mục đội hình hay sự kiện sai. Sau đó chơi màn từ không gian làm việc; độ khó chọn ở đó quyết định độ lớn của các đợt cướp, các đợt theo kịch bản và vàng khởi đầu.
 7. Hãy đăng ở chế độ riêng tư trước, rồi công khai khi nó chơi đúng như ý bạn.
+
+<!-- gameplay-preparation:start -->
+
+Anh hùng so sánh cửa hàng có thể tới, giá cả và sức chứa lưu trú thực tế. Sau khi rút lui, họ hồi phục trước khi trở lại việc nguy hiểm; chi tiết viễn chinh cho biết chuẩn bị và chỗ nghỉ có thể tới. Màn chơi tùy chỉnh có thể có tối đa ba phương án thắng hoàn chỉnh và vẫn yêu cầu điều kiện chung.
+
+```json
+{
+  "victory": "free",
+  "objectives": [
+    {
+      "victory": "protect_building",
+      "target": "trade-post"
+    }
+  ],
+  "victory_plans": [
+    {
+      "id": "commerce",
+      "title": "i18n:victory_kind_caravan_rounds",
+      "objectives": [
+        {
+          "victory": "caravan_rounds",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": "assault",
+      "title": "i18n:victory_kind_destroy_building",
+      "objectives": [
+        {
+          "victory": "destroy_building",
+          "target": "GOBLIN_TENT"
+        }
+      ]
+    }
+  ]
+}
+```
+
+```json
+{"type": "TRADING_POST", "x": 100, "y": 80, "objective_id": "trade-post"}
+```
+
+<!-- gameplay-preparation:end -->

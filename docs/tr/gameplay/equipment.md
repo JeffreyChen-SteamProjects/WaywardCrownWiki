@@ -107,3 +107,9 @@ Her altının hesabı tutulur:
 - **Her birimin bir sesi var**: bir kahraman haline göre yanıt verdiği gibi, bir canavar, bir vergi tahsildarı, bir kervan ve bir köylü de tıklamaya kendi türünün sesiyle yanıt verir ve haritada yürüyen her şey düştüğünde duyulur. Bir kahraman ve tacın diğer insanları (vergi tahsildarları, kervanlar, tacın işçileri, yıkılan bir evin köylüleri) görüş nerede olursa olsun duyulur; bir canavar görüşten uzaklaştıkça kısılır, aynı tür en fazla iki saniyede bir duyulur ve bu seslerden en fazla ikisi üst üste biner. Hiçbir birim sesi bir saniyeden kısa değildir.
 - **Müzik**: menünün ve oyunun kendi parçaları vardır ve karışık sırayla çalınır: herhangi biri ilk parça olabilir ve her parça, biri tekrarlanmadan önce bir kez çalar. Adı olan bir boss sahadayken onun müziği çalar, boss düşünce oyunun müziği geri gelir; düşen kalenin de kendi müziği vardır.
 - **Haritada görünür**: mahsur kalmış bir ikmal kolunun arabası, bir tekerleği çıkmış ve yükü yarı boşaltılmış hâlde, yeri keşfedildiği andan kola ulaşılana ya da kol kaybedilene kadar orada durur; boss'un adının ve can çubuğunun üstünde boynuzlu kafatası nişanı vardır. İkisi de her iki çizim yolunda aynı görünür. Reis Gıcırdiş'in kendine özgü bir görünümü var: boynuzlu miğfer, kırmızı kalkan, çift ağızlı balta ve sırtında savaş çetesinin sancağı.
+
+<!-- gameplay-preparation:start -->
+
+Kahramanlar ulaşılabilir dükkânları, fiyatları ve gerçek konaklama kapasitesini karşılaştırır. Geri çekildikten sonra tehlikeli işe dönmeden önce toparlanırlar; sefer ayrıntıları hazırlığı ve ulaşılabilir dinlenme yerlerini gösterir. Özel bölümler, ortak gereksinimler korunarak en fazla üç tam zafer planı sunabilir.
+
+<!-- gameplay-preparation:end -->

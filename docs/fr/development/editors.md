@@ -102,7 +102,7 @@ Douze décorations coûtent chacune 10, 25 ou 50 or, sans hausse selon la quanti
 
 Aspect uniquement : ni services, collision, revenus ou bonus de combat. Déplacement et rotation gratuits.
 
-Fontaines, jardins et beffrois sont dans Embellir la ville → Décorations et gardent leurs fonctions et prix de bâtiment. La route standard est dans Routes gratuites.
+Fontaines, jardins et beffrois figurent avec leur icône et leur prix réel dans la même liste Embellir la ville → Décorations. Leur sélection utilise le placement normal des bâtiments et conserve fonctions, prix et conditions de déblocage. La route standard est dans Routes gratuites.
 
 Choisissez une décoration puis cliquez au sol, ou tracez une route et relâchez. Sélectionner → Déplacer modifie un objet existant. R tourne, Échap quitte, Suppr retire la décoration sélectionnée. Ctrl+Z / Ctrl+Y annulent ou rétablissent l’aspect des routes ; les nouvelles routes restent. L’éditeur utilise les mêmes outils et les décorations de l’auteur n’ont aucune valeur de remboursement.
 

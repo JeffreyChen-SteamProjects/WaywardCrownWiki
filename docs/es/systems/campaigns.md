@@ -125,3 +125,47 @@ Los desafíos (`campaigns/demo_challenges/`, `"linear": false`) se escriben del 
 5. En `campaign.json`, `roster` nombra los monstruos que vagan por el mapa y `blocked_events` los eventos aleatorios que nunca se lanzan.
 6. Valida: las comprobaciones señalan por su campo un nivel de castillo, un límite de tiempo, un hallazgo opcional, una entrada del elenco o un evento incorrectos. Luego juega el nivel desde el espacio de trabajo; la dificultad elegida allí fija las incursiones, las oleadas y el oro inicial.
 7. Publícalo primero en privado y hazlo público cuando se juegue como quieres.
+
+<!-- gameplay-preparation:start -->
+
+Los héroes comparan tiendas accesibles, precios y plazas reales de alojamiento. Tras retirarse, se recuperan antes de volver a trabajos peligrosos; los detalles de expedición muestran la preparación y los descansos accesibles. Los niveles personalizados pueden ofrecer hasta tres planes completos de victoria y mantienen los requisitos comunes.
+
+```json
+{
+  "victory": "free",
+  "objectives": [
+    {
+      "victory": "protect_building",
+      "target": "trade-post"
+    }
+  ],
+  "victory_plans": [
+    {
+      "id": "commerce",
+      "title": "i18n:victory_kind_caravan_rounds",
+      "objectives": [
+        {
+          "victory": "caravan_rounds",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": "assault",
+      "title": "i18n:victory_kind_destroy_building",
+      "objectives": [
+        {
+          "victory": "destroy_building",
+          "target": "GOBLIN_TENT"
+        }
+      ]
+    }
+  ]
+}
+```
+
+```json
+{"type": "TRADING_POST", "x": 100, "y": 80, "objective_id": "trade-post"}
+```
+
+<!-- gameplay-preparation:end -->

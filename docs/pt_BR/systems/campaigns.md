@@ -125,3 +125,47 @@ Os desafios (`campaigns/demo_challenges/`, `"linear": false`) são escritos da m
 5. Em `campaign.json`, `roster` nomeia os monstros que vagam pelo mapa e `blocked_events` os eventos aleatórios nunca sorteados.
 6. Valide: as verificações apontam pelo campo um nível de castelo, um limite de tempo, um achado opcional, uma entrada do elenco ou um evento errados. Depois jogue a fase pela área de trabalho; a dificuldade escolhida ali define os ataques, as ondas e o ouro inicial.
 7. Publique primeiro em privado e torne público quando jogar do jeito que você quer.
+
+<!-- gameplay-preparation:start -->
+
+Os heróis comparam lojas acessíveis, preços e vagas reais de hospedagem. Após recuar, recuperam-se antes de voltar ao trabalho perigoso; os detalhes da expedição mostram a preparação e os descansos acessíveis. Fases personalizadas podem oferecer até três planos completos de vitória, mantendo os requisitos comuns.
+
+```json
+{
+  "victory": "free",
+  "objectives": [
+    {
+      "victory": "protect_building",
+      "target": "trade-post"
+    }
+  ],
+  "victory_plans": [
+    {
+      "id": "commerce",
+      "title": "i18n:victory_kind_caravan_rounds",
+      "objectives": [
+        {
+          "victory": "caravan_rounds",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": "assault",
+      "title": "i18n:victory_kind_destroy_building",
+      "objectives": [
+        {
+          "victory": "destroy_building",
+          "target": "GOBLIN_TENT"
+        }
+      ]
+    }
+  ]
+}
+```
+
+```json
+{"type": "TRADING_POST", "x": 100, "y": 80, "objective_id": "trade-post"}
+```
+
+<!-- gameplay-preparation:end -->

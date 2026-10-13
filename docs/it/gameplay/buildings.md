@@ -185,7 +185,7 @@ Dodici decorazioni costano 10, 25 o 50 oro ciascuna, senza rincari per quantità
 
 Solo aspetto: nessun servizio, collisione, reddito o bonus in battaglia. Spostare e ruotare è gratis.
 
-Fontane, giardini e campanili sono in Abbellire la città → Decorazioni e conservano funzioni e prezzi degli edifici. La strada normale è in Strade gratuite.
+Fontane, giardini e campanili compaiono con icona e prezzo attuale nella stessa lista Abbellire la città → Decorazioni. La selezione usa il normale posizionamento degli edifici e conserva funzioni, prezzi e condizioni di sblocco. La strada normale è in Strade gratuite.
 
 Scegli una decorazione e clicca sul terreno, oppure trascina e rilascia un tratto di strada. Seleziona → Sposta modifica un oggetto esistente. R ruota, Esc annulla, Delete rimuove la decorazione scelta. Ctrl+Z / Ctrl+Y cambiano solo l’aspetto stradale; le nuove strade rimangono. L’editor usa gli stessi strumenti e le decorazioni dell’autore non hanno valore di rimborso.
 

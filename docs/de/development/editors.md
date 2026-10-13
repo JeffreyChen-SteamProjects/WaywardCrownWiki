@@ -102,7 +102,7 @@ Zwölf Dekorationen kosten jeweils 10, 25 oder 50 Gold, ohne Mengenaufschlag. Ac
 
 Nur Aussehen: keine Dienste, Kollision, Einnahmen oder Kampfboni. Verschieben und Drehen sind kostenlos.
 
-Brunnen, Gärten und Glockentürme stehen unter Stadtverschönerung → Dekorationen und behalten ihre Gebäudefunktionen und Preise. Der Standardweg steht unter Kostenlose Wege.
+Brunnen, Gärten und Glockentürme erscheinen mit Symbol und aktuellem Preis in derselben Liste Stadtverschönerung → Dekorationen. Die Auswahl nutzt die normale Gebäudeplatzierung und behält Funktionen, Preise und Freischaltbedingungen bei. Der Standardweg steht unter Kostenlose Wege.
 
 Dekoration wählen und den Boden anklicken, oder einen Wegstrich ziehen und loslassen. Auswählen → Verschieben bearbeitet bestehende Objekte. R dreht, Esc bricht ab, Entf entfernt die gewählte Dekoration. Ctrl+Z / Ctrl+Y ändern nur das Aussehen der Wege; neue Wege bleiben bestehen. Der Karteneditor nutzt dieselben Werkzeuge und vom Autor platzierte Dekorationen haben keinen Erstattungswert.
 

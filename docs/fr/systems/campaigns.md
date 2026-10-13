@@ -125,3 +125,47 @@ Les défis (`campaigns/demo_challenges/`, `"linear": false`) sont écrits de la 
 5. Dans `campaign.json`, `roster` nomme les monstres qui errent sur la carte et `blocked_events` les événements aléatoires jamais tirés.
 6. Validez : les contrôles désignent par leur champ un niveau de château, une limite de temps, une découverte facultative, une entrée de distribution ou un événement erronés. Jouez ensuite le niveau depuis l'espace de travail ; la difficulté choisie y règle les raids, les vagues et l'or de départ.
 7. Publiez-le d'abord en privé, puis rendez-le public quand il se joue comme vous l'entendez.
+
+<!-- gameplay-preparation:start -->
+
+Les héros comparent les boutiques accessibles, les prix et la capacité réelle des logements. Après une retraite, ils récupèrent avant de reprendre un travail dangereux ; les détails d’expédition montrent la préparation et les repos accessibles. Les niveaux personnalisés peuvent proposer jusqu’à trois plans de victoire complets, tout en conservant les conditions communes.
+
+```json
+{
+  "victory": "free",
+  "objectives": [
+    {
+      "victory": "protect_building",
+      "target": "trade-post"
+    }
+  ],
+  "victory_plans": [
+    {
+      "id": "commerce",
+      "title": "i18n:victory_kind_caravan_rounds",
+      "objectives": [
+        {
+          "victory": "caravan_rounds",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": "assault",
+      "title": "i18n:victory_kind_destroy_building",
+      "objectives": [
+        {
+          "victory": "destroy_building",
+          "target": "GOBLIN_TENT"
+        }
+      ]
+    }
+  ]
+}
+```
+
+```json
+{"type": "TRADING_POST", "x": 100, "y": 80, "objective_id": "trade-post"}
+```
+
+<!-- gameplay-preparation:end -->

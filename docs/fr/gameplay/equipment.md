@@ -107,3 +107,9 @@ Chaque pièce est comptabilisée :
 - **Chaque unité a une voix** : un monstre, un percepteur, une caravane et un villageois répondent à un clic par le son de leur espèce, comme un héros répond selon son humeur, et tout ce qui marche sur la carte s'entend quand il tombe. Un héros et les autres gens de la couronne (percepteurs, caravanes, les ouvriers de la couronne, les villageois d'une maison abattue) s'entendent où que soit la vue ; un monstre s'atténue avec la distance à la vue, la même espèce s'entend au plus une fois toutes les deux secondes, et au plus deux de ces sons se chevauchent. Aucun son d'unité ne dure moins d'une seconde.
 - **Musique** : le menu et la partie ont chacun leurs morceaux, joués dans un ordre aléatoire : n'importe lequel peut ouvrir, et chaque morceau passe une fois avant qu'un seul ne se répète. Tant qu'un boss nommé est sur le terrain, sa propre musique joue, et celle de la partie revient quand il tombe ; un château tombé a aussi la sienne.
 - **Visible sur la carte** : le chariot d'un convoi de ravitaillement bloqué, une roue tombée et sa cargaison à moitié déchargée, se tient sur son site dès que celui-ci est exploré et jusqu'à ce que le convoi soit rejoint ou perdu ; un boss porte un insigne de crâne cornu au-dessus de son nom et de sa barre de vie. Les deux sont identiques sur les deux chemins de rendu. Le Chef Croc-Grinçant a une apparence qui lui est propre : casque à cornes, bouclier rouge, hache à double tranchant et l'étendard de sa bande dans le dos.
+
+<!-- gameplay-preparation:start -->
+
+Les héros comparent les boutiques accessibles, les prix et la capacité réelle des logements. Après une retraite, ils récupèrent avant de reprendre un travail dangereux ; les détails d’expédition montrent la préparation et les repos accessibles. Les niveaux personnalisés peuvent proposer jusqu’à trois plans de victoire complets, tout en conservant les conditions communes.
+
+<!-- gameplay-preparation:end -->

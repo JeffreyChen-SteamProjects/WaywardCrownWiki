@@ -185,7 +185,7 @@ Twelve decorations cost 10, 25 or 50 gold each, without quantity increases. Eigh
 
 Visual only: no services, collision, income or combat benefits. Move and rotate for free.
 
-Fountains, gardens and belfries are now in Town beautification → Decorations and keep their building functions and prices. The standard road is in Free roads.
+Fountains, gardens and belfries appear as icon-and-price entries in the same Town beautification → Decorations list. Selecting one uses normal building placement and retains its functions, prices and unlock restrictions. The standard road is in Free roads.
 
 Select a decoration to place it, or drag a road stroke and release to apply. Select → Move edits an existing object. R rotates, Esc cancels, Delete removes the selected decoration, and Ctrl+Z / Ctrl+Y undo or redo road appearance edits. New roads remain after undo. The map editor uses the same tools and saves authored decorations with no refund value.
 

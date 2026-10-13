@@ -102,7 +102,7 @@ Doze decorações custam 10, 25 ou 50 de ouro por peça, sem aumento por quantid
 
 Somente aparência: sem serviços, colisão, renda ou bônus de combate. Mover e girar é grátis.
 
-Fontes, jardins e campanários estão em Embelezar a cidade → Decorações e mantêm as funções e preços de construção. A estrada padrão está em Estradas gratuitas.
+Fontes, jardins e campanários aparecem com ícone e preço real na mesma lista Embelezar a cidade → Decorações. A seleção usa a colocação normal de edifícios, mantendo funções, preços e restrições de desbloqueio. A estrada padrão está em Estradas gratuitas.
 
 Escolha uma decoração e clique no chão, ou arraste e solte um trecho de estrada. Selecionar → Mover edita um objeto existente. R gira, Esc cancela e Delete remove a decoração escolhida. Ctrl+Z / Ctrl+Y desfazem ou refazem a aparência da estrada; as novas estradas permanecem. O editor usa as mesmas ferramentas e as decorações do autor não têm valor de reembolso.
 

@@ -125,3 +125,47 @@ campaigns/
 5. `campaign.json` では、キャンペーンの `roster` がマップをうろつく魔物を、`blocked_events` が発生させないランダムイベントを指定します。
 6. 検証します。チェックは誤った城レベル、制限時間、任意目標、顔ぶれ、イベント名をフィールドごとに示します。次にワークスペースからレベルを遊びます。そこで選んだ難易度が襲撃、波、開始時のゴールドの大きさを決めます。
 7. まず非公開で公開し、思いどおりに遊べるようになってから一般公開します。
+
+<!-- gameplay-preparation:start -->
+
+英雄は到達可能な経路、価格、実際の宿泊定員で店を選びます。撤退後は回復してから危険な仕事に戻り、遠征詳細には準備状況と到達可能な休養所が表示されます。自作ステージには最大三つの完全な勝利方針を設定でき、共通の必須条件も満たす必要があります。
+
+```json
+{
+  "victory": "free",
+  "objectives": [
+    {
+      "victory": "protect_building",
+      "target": "trade-post"
+    }
+  ],
+  "victory_plans": [
+    {
+      "id": "commerce",
+      "title": "i18n:victory_kind_caravan_rounds",
+      "objectives": [
+        {
+          "victory": "caravan_rounds",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": "assault",
+      "title": "i18n:victory_kind_destroy_building",
+      "objectives": [
+        {
+          "victory": "destroy_building",
+          "target": "GOBLIN_TENT"
+        }
+      ]
+    }
+  ]
+}
+```
+
+```json
+{"type": "TRADING_POST", "x": 100, "y": 80, "objective_id": "trade-post"}
+```
+
+<!-- gameplay-preparation:end -->

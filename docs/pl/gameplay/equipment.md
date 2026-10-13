@@ -107,3 +107,9 @@ Każda moneta jest rozliczana:
 - **Każda jednostka ma głos**: potwór, poborca podatków, karawana i wieśniak odpowiadają na kliknięcie dźwiękiem swojego gatunku, tak jak bohater odpowiada zależnie od nastroju, a wszystko, co chodzi po mapie, słychać, gdy pada. Bohatera i pozostałych ludzi korony (poborców podatków, karawany, robotników korony, mieszkańców zburzonego domu) słychać niezależnie od położenia widoku; potwór cichnie wraz z odległością od widoku, ten sam gatunek słychać najwyżej raz na dwie sekundy, a nakładają się najwyżej dwa takie dźwięki. Żaden dźwięk jednostki nie trwa krócej niż sekundę.
 - **Muzyka**: menu i gra mają własne utwory, odtwarzane w losowej kolejności: każdy może być pierwszy, a każdy utwór gra raz, zanim którykolwiek się powtórzy. Dopóki nazwany boss jest w polu, gra jego własna muzyka, a muzyka gry wraca, gdy padnie; upadły zamek też ma swoją.
 - **Widoczne na mapie**: wóz uwięzionego taboru z zaopatrzeniem, z odpadniętym kołem i na wpół rozładowanym ładunkiem, stoi na swoim miejscu od chwili jego zbadania, aż tabor zostanie osiągnięty lub stracony; boss nosi nad imieniem i paskiem zdrowia odznakę rogatej czaszki. Oba wyglądają tak samo na obu ścieżkach rysowania. Wódz Zgrzytokieł ma własny wygląd: rogaty hełm, czerwoną tarczę, dwusieczny topór i sztandar swojej bandy na plecach.
+
+<!-- gameplay-preparation:start -->
+
+Bohaterowie porównują dostępne sklepy, ceny i rzeczywistą liczbę miejsc noclegowych. Po odwrocie regenerują się przed niebezpieczną pracą; szczegóły wyprawy pokazują przygotowanie i dostępny odpoczynek. Własne poziomy mogą oferować do trzech kompletnych planów zwycięstwa z zachowaniem wspólnych wymagań.
+
+<!-- gameplay-preparation:end -->

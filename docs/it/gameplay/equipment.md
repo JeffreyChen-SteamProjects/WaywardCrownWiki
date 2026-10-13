@@ -107,3 +107,9 @@ Ogni moneta è registrata:
 - **Ogni unità ha una voce**: un mostro, un esattore, una carovana e un abitante rispondono a un clic con il suono della propria specie, come un eroe risponde secondo il suo umore, e tutto ciò che cammina sulla mappa si sente quando cade. Un eroe e l'altra gente della corona (esattori, carovane, gli operai della corona, gli abitanti di una casa abbattuta) si sentono ovunque sia la visuale; un mostro si attenua con la distanza dalla visuale, la stessa specie si sente al massimo una volta ogni due secondi e al massimo due di questi suoni si sovrappongono. Nessun suono di un'unità dura meno di un secondo.
 - **Musica**: il menu e la partita hanno ciascuno i propri brani, in ordine casuale: uno qualsiasi può aprire, e ogni brano suona una volta prima che uno si ripeta. Finché un boss con un nome è in campo suona la sua musica, e quella della partita torna quando cade; anche un castello caduto ha la sua.
 - **Visibile sulla mappa**: il carro di un convoglio di rifornimenti bloccato, una ruota staccata e il carico mezzo scaricato, sta nel suo luogo da quando questo è esplorato finché il convoglio non è raggiunto o perso; un boss porta uno stemma a teschio cornuto sopra il nome e la barra della vita. Entrambi appaiono uguali su tutti e due i percorsi di disegno. Il Capo Zannastridente ha un aspetto tutto suo: elmo cornuto, scudo rosso, ascia bipenne e lo stendardo della sua banda sulla schiena.
+
+<!-- gameplay-preparation:start -->
+
+Gli eroi confrontano negozi raggiungibili, prezzi e capacità reale degli alloggi. Dopo la ritirata recuperano prima di riprendere lavori pericolosi; i dettagli delle spedizioni mostrano preparativi e riposi raggiungibili. I livelli personalizzati possono offrire fino a tre piani di vittoria completi, mantenendo i requisiti comuni.
+
+<!-- gameplay-preparation:end -->

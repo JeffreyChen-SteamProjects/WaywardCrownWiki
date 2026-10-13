@@ -125,3 +125,47 @@ campaigns/
 5. 在 `campaign.json` 裡，戰役的 `roster` 列出會在地圖上遊蕩的怪物，`blocked_events` 列出不會擲出的隨機事件。
 6. 驗證：檢查會依欄位指出寫錯的城堡等級、時限、可選目標、陣容或事件名稱。接著從工作區試玩這一關；在那裡選的難度會決定襲擊、敵波與起始金幣的大小。
 7. 先以私人方式發布，玩起來符合你的想法之後再公開。
+
+<!-- gameplay-preparation:start -->
+
+英雄依可達路程、價格與實際住宿容量選店。撤退後先恢復再接危險工作；遠征詳情顯示準備狀態與可達休養點。自訂關卡最多提供三個完整勝利方案，共同必要條件仍須完成。
+
+```json
+{
+  "victory": "free",
+  "objectives": [
+    {
+      "victory": "protect_building",
+      "target": "trade-post"
+    }
+  ],
+  "victory_plans": [
+    {
+      "id": "commerce",
+      "title": "i18n:victory_kind_caravan_rounds",
+      "objectives": [
+        {
+          "victory": "caravan_rounds",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": "assault",
+      "title": "i18n:victory_kind_destroy_building",
+      "objectives": [
+        {
+          "victory": "destroy_building",
+          "target": "GOBLIN_TENT"
+        }
+      ]
+    }
+  ]
+}
+```
+
+```json
+{"type": "TRADING_POST", "x": 100, "y": 80, "objective_id": "trade-post"}
+```
+
+<!-- gameplay-preparation:end -->

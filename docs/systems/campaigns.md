@@ -125,3 +125,47 @@ The challenges (`campaigns/demo_challenges/`, `"linear": false`) are written the
 5. In `campaign.json`, the campaign's `roster` names the monsters that wander the map and `blocked_events` the random events it never rolls.
 6. Validate: the checks name a wrong castle level, time limit, optional find, roster entry or event by its field. Then play the level from the workspace; the difficulty chosen there sizes the raids, the waves and the starting gold.
 7. Publish it privately first, and make it public when it plays the way you mean it to.
+
+<!-- gameplay-preparation:start -->
+
+Heroes compare reachable shops, prices and genuine lodging capacity. Retreating heroes recover before returning to dangerous work; expedition details show preparation and reachable rest. Custom levels may offer up to three complete victory plans, with common requirements still enforced.
+
+```json
+{
+  "victory": "free",
+  "objectives": [
+    {
+      "victory": "protect_building",
+      "target": "trade-post"
+    }
+  ],
+  "victory_plans": [
+    {
+      "id": "commerce",
+      "title": "i18n:victory_kind_caravan_rounds",
+      "objectives": [
+        {
+          "victory": "caravan_rounds",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": "assault",
+      "title": "i18n:victory_kind_destroy_building",
+      "objectives": [
+        {
+          "victory": "destroy_building",
+          "target": "GOBLIN_TENT"
+        }
+      ]
+    }
+  ]
+}
+```
+
+```json
+{"type": "TRADING_POST", "x": 100, "y": 80, "objective_id": "trade-post"}
+```
+
+<!-- gameplay-preparation:end -->

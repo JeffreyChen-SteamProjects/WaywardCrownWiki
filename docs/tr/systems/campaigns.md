@@ -125,3 +125,47 @@ Meydan okumalar (`campaigns/demo_challenges/`, `"linear": false`) aynı şekilde
 5. `campaign.json` içinde `roster` haritada dolaşan canavarları, `blocked_events` hiç çekilmeyen rastgele olayları belirtir.
 6. Doğrula: denetimler yanlış şato seviyesini, süre sınırını, isteğe bağlı buluntuyu, kadro girdisini ya da olayı alanıyla gösterir. Sonra seviyeyi çalışma alanından oyna; orada seçilen zorluk baskınların, dalgaların ve başlangıç altınının büyüklüğünü belirler.
 7. Önce özel olarak yayımla, istediğin gibi oynandığında herkese aç.
+
+<!-- gameplay-preparation:start -->
+
+Kahramanlar ulaşılabilir dükkânları, fiyatları ve gerçek konaklama kapasitesini karşılaştırır. Geri çekildikten sonra tehlikeli işe dönmeden önce toparlanırlar; sefer ayrıntıları hazırlığı ve ulaşılabilir dinlenme yerlerini gösterir. Özel bölümler, ortak gereksinimler korunarak en fazla üç tam zafer planı sunabilir.
+
+```json
+{
+  "victory": "free",
+  "objectives": [
+    {
+      "victory": "protect_building",
+      "target": "trade-post"
+    }
+  ],
+  "victory_plans": [
+    {
+      "id": "commerce",
+      "title": "i18n:victory_kind_caravan_rounds",
+      "objectives": [
+        {
+          "victory": "caravan_rounds",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": "assault",
+      "title": "i18n:victory_kind_destroy_building",
+      "objectives": [
+        {
+          "victory": "destroy_building",
+          "target": "GOBLIN_TENT"
+        }
+      ]
+    }
+  ]
+}
+```
+
+```json
+{"type": "TRADING_POST", "x": 100, "y": 80, "objective_id": "trade-post"}
+```
+
+<!-- gameplay-preparation:end -->
