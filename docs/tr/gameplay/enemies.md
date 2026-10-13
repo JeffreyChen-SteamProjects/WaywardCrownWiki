@@ -33,9 +33,13 @@ Düşmanlar harita genelindeki vahşi bölgelerde doğal olarak ortaya çıkar v
 | **Haydut sabotajcı** | 140 | 5 | 3 | 1.0 | 32 | 20 | 3 | 16 | Orman | 3 |
 | **Zehirli akrep** | 130 | 6 | 5 | 0.9 | 34 | 18 | 3 | 14 | Çöl | 3 |
 | **Kumtaşı muhafızı** | 360 | 11 | 15 | 0.5 | 82 | 42 | 3 | 14 | Çöl | 4 |
-| **Goblin ikmal taşıyıcısı** | 110 | 4 | 3 | 1.0 | 15 | 12 | 3 | 12 | Dağ | 2 |
+| **Goblin ikmal taşıyıcısı** | 110 | 4 | 3 | 1.0 | 15 | 12 | 3 | 12 | — | 2 |
 | **Düşman nekromans** | 180 | 7 | 4 | 0.7 | 55 | 30 | 3 | 16 | Dağ | 4 |
 | **Hayalet avcısı** | 125 | 14 | 3 | 1.5 | 50 | 26 | 3 | 18 | Dağ | 4 |
+| **Zehir tükürücü** | 150 | 6 | 4 | 0.65 | 48 | 28 | 8 | 16 | Bataklık | 4 |
+| **Lanet bağlayıcı** | 110 | 8 | 3 | 0.8 | 52 | 32 | 9 | 16 | Orman | 4 |
+| **Vampir yarasa** | 80 | 10 | 2 | 1.8 | 30 | 16 | 3 | 16 | Dağ | 3 |
+| **Bölünen balçık** | 240 | 10 | 5 | 0.6 | 58 | 28 | 3 | 12 | Bataklık | 3 |
 
 **Ordu**: dört düşman bir hat ve kuşatma birliği olarak savaşır. Mızrakçı vurduğu kahramanı bir an için yavaşlatır. Kalkan Taşıyıcı ara sıra kendisinin ve yanındaki canavarların üzerine kalkan kaldırır. Lağımcı, patlamadan önce yerde işaretlenen bir patlayıcı yerleştirir (önce kendisi düşerse hiç patlamaz) ve binalara üç kat sert vurur. Kuşatma Canavarı yavaştır, zor devrilir ve binalara dört kat sert vurur.
 
@@ -124,3 +128,13 @@ Ejderhalar ve Troller en tehlikeli düşmanlardır (tehlike seviyesi 5). 16 sald
 **Baskınlarda taktik takviyeler**: Goblin Kalesi → Goblin şamanı; Haydut Kampı → Haydut sabotajcı; Kum Mezarı → Zehirli akrep, Kumtaşı muhafızı; Ölümsüz Kalesi → Düşman nekromans, Hayalet avcısı.
 
 Sefer baskınları seferin düşman listesine uyar; özgür krallıklar tüm in birliklerini kullanır.
+
+**Zehir tükürücü** — En çok 8 kareden 2 kare yarıçaplı alanı seçer, 3sn uyarıdan sonra 5sn boyunca 4 can/sn zehir verir; aralık 18sn. Zayıf tükürücüyü isabetten önce öldürün, uyarıdan çıkın veya panzehir ve arınma sağlayın.
+
+**Lanet bağlayıcı** — En çok 9 kareden yarıçap 2 alanı seçer, 2sn uyarıdan sonra 4sn alınan hasarı %25 artırır; aralık 20sn. Birikmez, arındırılır. Bağlayıcıyı önce öldürün veya ön hattı destekleyin.
+
+**Vampir yarasa** — Hızlı ve kırılgan. Yakın dövüşte gerçek can kaybından isabet başına en çok 4, ömür boyu 60 can iyileşir; azami canı aşmaz. Kalkanlar iyileşmeyi önler. Kanatlar da kara yolunu kullanır; menzilli odak ve yavaşlatma karşı koyar.
+
+**Bölünen balçık** — Ölünce bir kez en çok iki sıradan balçığa bölünür. Her yavru annenin azami canının %35’ine, saldırı ve savunmasının yarısına sahiptir; rütbe dahildir. Tekrar bölünmez, altın veya öldürme XP’si vermez. Dünyada en çok 64 canlı yavru. Alan hasarı kullanın ve ikinci cepheyi bekleyin.
+
+Adlandırılmış dalgayı temizlemek çağrılan iskeletleri ve balçık yavrularını da yenmeyi gerektirir; yalnız kaynağı öldürmek yetmez.

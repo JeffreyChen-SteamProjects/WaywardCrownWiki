@@ -33,9 +33,13 @@ Os inimigos surgem naturalmente em áreas selvagens pelo mapa, ameaçando seus a
 | **Sabotador bandido** | 140 | 5 | 3 | 1.0 | 32 | 20 | 3 | 16 | Floresta | 3 |
 | **Escorpião venenoso** | 130 | 6 | 5 | 0.9 | 34 | 18 | 3 | 14 | Deserto | 3 |
 | **Guardião de arenito** | 360 | 11 | 15 | 0.5 | 82 | 42 | 3 | 14 | Deserto | 4 |
-| **Transportador goblin** | 110 | 4 | 3 | 1.0 | 15 | 12 | 3 | 12 | Montanha | 2 |
+| **Transportador goblin** | 110 | 4 | 3 | 1.0 | 15 | 12 | 3 | 12 | — | 2 |
 | **Necromante inimigo** | 180 | 7 | 4 | 0.7 | 55 | 30 | 3 | 16 | Montanha | 4 |
 | **Caçador espectral** | 125 | 14 | 3 | 1.5 | 50 | 26 | 3 | 18 | Montanha | 4 |
+| **Cuspidor de veneno** | 150 | 6 | 4 | 0.65 | 48 | 28 | 8 | 16 | Pântano | 4 |
+| **Vinculador de maldições** | 110 | 8 | 3 | 0.8 | 52 | 32 | 9 | 16 | Floresta | 4 |
+| **Morcego vampiro** | 80 | 10 | 2 | 1.8 | 30 | 16 | 3 | 16 | Montanha | 3 |
+| **Limo físsil** | 240 | 10 | 5 | 0.6 | 58 | 28 | 3 | 12 | Pântano | 3 |
 
 **A hoste**: quatro inimigos lutam como linha e como tropa de cerco. O golpe de um Piqueiro segura por um momento o herói atingido. Um Porta-escudo ergue de vez em quando um escudo sobre si e os monstros ao lado. Um Sapador planta uma carga que é marcada no chão antes de explodir (nunca explode se ele cair antes) e atinge construções três vezes mais forte. Uma Besta de cerco é lenta, difícil de derrubar e atinge construções quatro vezes mais forte.
 
@@ -124,3 +128,13 @@ Os dragões e os trolls são os inimigos mais perigosos (nível de perigo 5). Co
 **Reforços táticos em ataques**: Fortaleza Goblin → Xamã goblin; Acampamento de Bandidos → Sabotador bandido; Tumba de Areia → Escorpião venenoso, Guardião de arenito; Castelo dos Mortos-Vivos → Necromante inimigo, Caçador espectral.
 
 Ataques de campanha respeitam sua lista de inimigos; reinos livres usam todas as tropas do covil.
+
+**Cuspidor de veneno** — Avisa por 3s antes de envenenar raio de 2 casas a até 8 casas: 4 PV/s por 5s, a cada 18s. Mate o frágil cuspidor antes do impacto, saia do aviso ou prepare antídotos e purificação.
+
+**Vinculador de maldições** — Marca raio de 2 a até 9 casas, avisa por 2s e aumenta dano recebido em 25% por 4s, a cada 20s. Não acumula e pode ser purificado. Priorize o vinculador ou apoie a frente.
+
+**Morcego vampiro** — Rápido e frágil. A perda real de PV por seu golpe corpo a corpo cura no máximo 4 PV por golpe e 60 por vida, sem passar do máximo. Escudos negam a cura. As asas ainda usam caminhos terrestres; foco à distância e lentidão ajudam.
+
+**Limo físsil** — Na morte divide uma vez em até dois limos comuns, cada um com 35% dos PV máximos e metade do ataque e defesa da mãe, incluindo patente. Filhos não dividem nem dão ouro ou XP por morte. Até 64 filhos vivos no mundo. Use dano em área e espere uma segunda frente.
+
+Limpar uma onda nomeada também exige derrotar seus esqueletos invocados e limos filhos; matar só a fonte não basta.

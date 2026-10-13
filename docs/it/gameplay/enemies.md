@@ -33,9 +33,13 @@ I nemici appaiono naturalmente nelle aree selvagge della mappa, minacciando i tu
 | **Sabotatore bandito** | 140 | 5 | 3 | 1.0 | 32 | 20 | 3 | 16 | Foresta | 3 |
 | **Scorpione velenoso** | 130 | 6 | 5 | 0.9 | 34 | 18 | 3 | 14 | Deserto | 3 |
 | **Guardiano di arenaria** | 360 | 11 | 15 | 0.5 | 82 | 42 | 3 | 14 | Deserto | 4 |
-| **Trasportatore goblin** | 110 | 4 | 3 | 1.0 | 15 | 12 | 3 | 12 | Montagna | 2 |
+| **Trasportatore goblin** | 110 | 4 | 3 | 1.0 | 15 | 12 | 3 | 12 | — | 2 |
 | **Necromante nemico** | 180 | 7 | 4 | 0.7 | 55 | 30 | 3 | 16 | Montagna | 4 |
 | **Cacciatore spettrale** | 125 | 14 | 3 | 1.5 | 50 | 26 | 3 | 18 | Montagna | 4 |
+| **Sputatore di veleno** | 150 | 6 | 4 | 0.65 | 48 | 28 | 8 | 16 | Palude | 4 |
+| **Vincolatore di malefici** | 110 | 8 | 3 | 0.8 | 52 | 32 | 9 | 16 | Foresta | 4 |
+| **Pipistrello vampiro** | 80 | 10 | 2 | 1.8 | 30 | 16 | 3 | 16 | Montagna | 3 |
+| **Melma fissile** | 240 | 10 | 5 | 0.6 | 58 | 28 | 3 | 12 | Palude | 3 |
 
 **L'armata**: quattro nemici combattono come linea e come truppa d'assedio. Il colpo di un Picchiere trattiene per un momento l'eroe che lo riceve. Un Portascudo alza ogni tanto uno scudo su di sé e sui mostri accanto. Un Guastatore piazza una carica segnata sul terreno prima di esplodere (non esplode mai se cade prima) e colpisce gli edifici tre volte più forte. Una Bestia d'assedio è lenta, dura da abbattere e colpisce gli edifici quattro volte più forte.
 
@@ -124,3 +128,13 @@ Draghi e Troll sono i nemici più pericolosi (livello di pericolo 5). Con una gi
 **Rinforzi tattici nelle incursioni**: Fortezza goblin → Sciamano goblin; Accampamento dei banditi → Sabotatore bandito; Tomba delle sabbie → Scorpione velenoso, Guardiano di arenaria; Castello dei non-morti → Necromante nemico, Cacciatore spettrale.
 
 Le incursioni della campagna seguono il suo elenco di nemici; i regni liberi usano tutte le truppe del covo.
+
+**Sputatore di veleno** — Avvisa per 3s prima di avvelenare raggio 2 da massimo 8 caselle: 4 PV/s per 5s, ogni 18s. Uccidi il fragile sputatore prima dell’impatto, esci dall’avviso o prepara antidoti e purificazione.
+
+**Vincolatore di malefici** — Marca raggio 2 da massimo 9 caselle, avvisa 2s e aumenta i danni subiti del 25% per 4s, ogni 20s. Non si accumula e si purifica. Dai priorità al vincolatore o sostieni il fronte.
+
+**Pipistrello vampiro** — Rapido e fragile. Cura dalla perdita reale di PV dei colpi in mischia, massimo 4 PV per colpo e 60 per vita, mai oltre il massimo. Gli scudi negano la cura. Le ali seguono percorsi terrestri; fuoco concentrato e rallentamento aiutano.
+
+**Melma fissile** — Alla morte si divide una volta in massimo due melme normali, ciascuna con 35% dei PV massimi e metà attacco e difesa della madre, rango incluso. Non si dividono né danno oro o XP di uccisione. Massimo 64 figli vivi nel mondo. Usa danni ad area e prepara un secondo fronte.
+
+Eliminare un’ondata nominata richiede anche scheletri evocati e melme figlie; uccidere solo la fonte non basta.

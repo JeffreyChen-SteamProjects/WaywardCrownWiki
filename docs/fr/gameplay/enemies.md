@@ -33,9 +33,13 @@ Les ennemis apparaissent naturellement dans les zones sauvages à travers la car
 | **Saboteur bandit** | 140 | 5 | 3 | 1.0 | 32 | 20 | 3 | 16 | Forêt | 3 |
 | **Scorpion venimeux** | 130 | 6 | 5 | 0.9 | 34 | 18 | 3 | 14 | Désert | 3 |
 | **Gardien de grès** | 360 | 11 | 15 | 0.5 | 82 | 42 | 3 | 14 | Désert | 4 |
-| **Transporteur gobelin** | 110 | 4 | 3 | 1.0 | 15 | 12 | 3 | 12 | Montagne | 2 |
+| **Transporteur gobelin** | 110 | 4 | 3 | 1.0 | 15 | 12 | 3 | 12 | — | 2 |
 | **Nécromancien ennemi** | 180 | 7 | 4 | 0.7 | 55 | 30 | 3 | 16 | Montagne | 4 |
 | **Chasseur spectral** | 125 | 14 | 3 | 1.5 | 50 | 26 | 3 | 18 | Montagne | 4 |
+| **Cracheur de venin** | 150 | 6 | 4 | 0.65 | 48 | 28 | 8 | 16 | Marécage | 4 |
+| **Lie-sorts** | 110 | 8 | 3 | 0.8 | 52 | 32 | 9 | 16 | Forêt | 4 |
+| **Chauve-souris vampire** | 80 | 10 | 2 | 1.8 | 30 | 16 | 3 | 16 | Montagne | 3 |
+| **Gelée fissile** | 240 | 10 | 5 | 0.6 | 58 | 28 | 3 | 12 | Marécage | 3 |
 
 **L'ost** : quatre ennemis combattent en ligne et en troupe de siège. Le coup d'un Piquier retient un instant le héros qu'il touche. Un Porte-bouclier lève de temps à autre un bouclier sur lui-même et les monstres à ses côtés. Un Sapeur pose une charge marquée au sol avant d'exploser (elle n'explose jamais s'il tombe avant) et frappe les bâtiments trois fois plus fort. Une Bête de siège est lente, difficile à abattre et frappe les bâtiments quatre fois plus fort.
 
@@ -124,3 +128,13 @@ Les Dragons et les Trolls sont les ennemis les plus dangereux (niveau de danger 
 **Renforts tactiques des raids**: Forteresse gobeline → Chaman gobelin; Camp de bandits → Saboteur bandit; Tombeau des sables → Scorpion venimeux, Gardien de grès; Château mort-vivant → Nécromancien ennemi, Chasseur spectral.
 
 Les raids de campagne respectent sa liste d’ennemis ; les royaumes libres utilisent toutes les troupes du repaire.
+
+**Cracheur de venin** — Prévient 3s avant d’empoisonner un rayon de 2 cases depuis 8 cases au plus : 4 PV/s pour 5s, toutes les 18s. Tuez le fragile cracheur avant l’impact, quittez l’avertissement ou préparez antidotes et purification.
+
+**Lie-sorts** — Marque un rayon de 2 depuis 9 cases au plus, prévient 2s, puis inflige 25% de dégâts subis supplémentaires pour 4s, toutes les 20s. Sans cumul, purifiable. Visez le lie-sorts ou soutenez la première ligne.
+
+**Chauve-souris vampire** — Rapide et fragile. Se soigne selon les PV réellement perdus en mêlée : au plus 4 PV par coup et 60 par vie, sans dépasser le maximum. Les boucliers empêchent le soin. Ses ailes suivent les chemins terrestres ; tirs concentrés et ralentissement sont efficaces.
+
+**Gelée fissile** — À sa mort se divise une fois en deux gelées ordinaires au plus, chacune avec 35% des PV maximaux et moitié de l’attaque et de la défense de la mère, rang compris. Sans nouvelle division ni or ou XP de mort. Au plus 64 enfants vivants dans le monde. Utilisez les dégâts de zone et prévoyez une seconde ligne.
+
+Éliminer une vague nommée exige aussi ses squelettes invoqués et ses petites gelées ; tuer seulement la source ne suffit pas.

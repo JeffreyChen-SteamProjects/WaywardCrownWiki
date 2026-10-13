@@ -33,9 +33,13 @@ Enemies spawn naturally in wilderness areas across the map, threatening your adv
 | **Bandit saboteur** | 140 | 5 | 3 | 1.0 | 32 | 20 | 3 | 16 | Forest | 3 |
 | **Venom scorpion** | 130 | 6 | 5 | 0.9 | 34 | 18 | 3 | 14 | Desert | 3 |
 | **Sand guardian** | 360 | 11 | 15 | 0.5 | 82 | 42 | 3 | 14 | Desert | 4 |
-| **Goblin supply courier** | 110 | 4 | 3 | 1.0 | 15 | 12 | 3 | 12 | Mountain | 2 |
+| **Goblin supply courier** | 110 | 4 | 3 | 1.0 | 15 | 12 | 3 | 12 | — | 2 |
 | **Enemy necromancer** | 180 | 7 | 4 | 0.7 | 55 | 30 | 3 | 16 | Mountain | 4 |
 | **Wraith hunter** | 125 | 14 | 3 | 1.5 | 50 | 26 | 3 | 18 | Mountain | 4 |
+| **Venom spitter** | 150 | 6 | 4 | 0.65 | 48 | 28 | 8 | 16 | Swamp | 4 |
+| **Hex binder** | 110 | 8 | 3 | 0.8 | 52 | 32 | 9 | 16 | Forest | 4 |
+| **Vampire bat** | 80 | 10 | 2 | 1.8 | 30 | 16 | 3 | 16 | Mountain | 3 |
+| **Fission slime** | 240 | 10 | 5 | 0.6 | 58 | 28 | 3 | 12 | Swamp | 3 |
 
 **The host**: four enemies fight as a line and its siege. A Pikeman's blow holds the hero it lands on back for a moment. A Shieldbearer now and then raises a shield over itself and the monsters beside it. A Sapper lays a charge that is marked on the ground before it goes off (it never does if the Sapper falls first) and hits buildings three times as hard. A Siege Beast is slow, hard to bring down, and hits buildings four times as hard.
 
@@ -124,3 +128,13 @@ Dragons and Trolls are the most dangerous enemies (danger level 5). With an atta
 **Tactical reinforcements in raids**: Goblin Fortress → Goblin shaman; Bandit Camp → Bandit saboteur; Sand Tomb → Venom scorpion, Sand guardian; Undead Castle → Enemy necromancer, Wraith hunter.
 
 Campaign raids obey the campaign enemy list; free kingdoms use the full lair troop pool.
+
+**Venom spitter** — Warns for 3s before poisoning a 2-tile zone from up to 8 tiles away: 4 HP/s for 5s, every 18s. Kill the fragile spitter before impact, leave the warning, or provide antidotes and cleansing.
+
+**Hex binder** — Marks a 2-tile zone from up to 9 tiles away, warns for 2s, then causes 25% extra incoming damage for 4s, every 20s. It does not stack and can be cleansed. Prioritize the binder or keep support near the front.
+
+**Vampire bat** — Fast and fragile. Actual melee HP loss heals it by at most 4 HP per hit and 60 HP over its life, never above maximum HP. Shields deny healing. Its winged appearance still uses ground paths; ranged focus and slows counter it.
+
+**Fission slime** — On death splits once into at most two ordinary slimes, each with 35% of its maximum HP and half its attack and defense, including rank. Children cannot split and drop no gold or kill XP. At most 64 living children globally. Use area damage and expect a second front.
+
+Clearing a named wave also requires defeating its called skeletons and slime children; killing their source alone does not clear the wave.

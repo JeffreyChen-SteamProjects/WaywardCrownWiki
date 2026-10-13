@@ -33,9 +33,13 @@ Feinde erscheinen natürlich in Wildnisgebieten auf der gesamten Karte und bedro
 | **Banditensaboteur** | 140 | 5 | 3 | 1.0 | 32 | 20 | 3 | 16 | Wald | 3 |
 | **Giftskorpion** | 130 | 6 | 5 | 0.9 | 34 | 18 | 3 | 14 | Wüste | 3 |
 | **Sandsteinwächter** | 360 | 11 | 15 | 0.5 | 82 | 42 | 3 | 14 | Wüste | 4 |
-| **Goblin-Versorgungsträger** | 110 | 4 | 3 | 1.0 | 15 | 12 | 3 | 12 | Gebirge | 2 |
+| **Goblin-Versorgungsträger** | 110 | 4 | 3 | 1.0 | 15 | 12 | 3 | 12 | — | 2 |
 | **Feindlicher Nekromant** | 180 | 7 | 4 | 0.7 | 55 | 30 | 3 | 16 | Gebirge | 4 |
 | **Geisterjäger** | 125 | 14 | 3 | 1.5 | 50 | 26 | 3 | 18 | Gebirge | 4 |
+| **Giftspucker** | 150 | 6 | 4 | 0.65 | 48 | 28 | 8 | 16 | Sumpf | 4 |
+| **Fluchbinder** | 110 | 8 | 3 | 0.8 | 52 | 32 | 9 | 16 | Wald | 4 |
+| **Vampirfledermaus** | 80 | 10 | 2 | 1.8 | 30 | 16 | 3 | 16 | Gebirge | 3 |
+| **Spaltungsschleim** | 240 | 10 | 5 | 0.6 | 58 | 28 | 3 | 12 | Sumpf | 3 |
 
 **Das Heer**: Vier Gegner kämpfen als Linie und Belagerungstrupp. Der Hieb eines Pikeniers hält den getroffenen Helden einen Moment lang auf. Ein Schildträger hebt hin und wieder einen Schild über sich und die Monster neben ihm. Ein Sprengmeister legt eine Ladung, die auf dem Boden markiert wird, bevor sie hochgeht (fällt er vorher, geht sie nie hoch), und trifft Gebäude dreimal so hart. Eine Belagerungsbestie ist langsam, schwer zu fällen und trifft Gebäude viermal so hart.
 
@@ -124,3 +128,13 @@ Drachen und Trolle sind die gefährlichsten Feinde (Gefahrenstufe 5). Mit einer 
 **Taktische Verstärkung bei Überfällen**: Goblinfestung → Goblin-Schamane; Banditenlager → Banditensaboteur; Sandgrab → Giftskorpion, Sandsteinwächter; Untotenborg → Feindlicher Nekromant, Geisterjäger.
 
 Kampagnenüberfälle beachten die Feindliste der Kampagne; freie Königreiche nutzen alle Truppen des Verstecks.
+
+**Giftspucker** — Warnt 3s vor Gift in einer Zone mit Radius 2, aus bis zu 8 Feldern: 4 LP/s für 5s, alle 18s. Den schwachen Spucker vor dem Einschlag töten, die Warnung verlassen oder Gegenmittel und Reinigung bereitstellen.
+
+**Fluchbinder** — Markiert Radius 2 aus bis zu 9 Feldern, warnt 2s, dann 25% mehr erlittener Schaden für 4s, alle 20s. Stapelt nicht und ist reinigbar. Den Binder zuerst töten oder die Front unterstützen.
+
+**Vampirfledermaus** — Schnell und schwach. Heilt aus tatsächlichem Nahkampf-LP-Verlust höchstens 4 LP pro Treffer und 60 im Leben, nie über maximale LP. Schilde verhindern Heilung. Flügel ändern die Bodenwege nicht; Fernkampffokus und Verlangsamung helfen.
+
+**Spaltungsschleim** — Spaltet beim Tod einmal in bis zu zwei normale Schleime mit je 35% der maximalen LP und halbem Angriff und Schutz der Mutter, einschließlich Rang. Kinder spalten nicht und geben weder Gold noch Tötungs-EP. Weltweit höchstens 64 lebende Kinder. Flächenschaden nutzen und eine zweite Front erwarten.
+
+Eine benannte Welle ist erst nach ihren gerufenen Skeletten und Schleimkindern besiegt; nur die Quelle zu töten reicht nicht.

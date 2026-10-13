@@ -33,9 +33,13 @@ Wrogowie pojawiają się naturalnie na dzikich obszarach mapy, zagrażając twoi
 | **Bandycki sabotażysta** | 140 | 5 | 3 | 1.0 | 32 | 20 | 3 | 16 | Las | 3 |
 | **Jadowity skorpion** | 130 | 6 | 5 | 0.9 | 34 | 18 | 3 | 14 | Pustynia | 3 |
 | **Piaskowcowy strażnik** | 360 | 11 | 15 | 0.5 | 82 | 42 | 3 | 14 | Pustynia | 4 |
-| **Gobliński przewoźnik** | 110 | 4 | 3 | 1.0 | 15 | 12 | 3 | 12 | Góry | 2 |
+| **Gobliński przewoźnik** | 110 | 4 | 3 | 1.0 | 15 | 12 | 3 | 12 | — | 2 |
 | **Wrogi nekromanta** | 180 | 7 | 4 | 0.7 | 55 | 30 | 3 | 16 | Góry | 4 |
 | **Łowca widm** | 125 | 14 | 3 | 1.5 | 50 | 26 | 3 | 18 | Góry | 4 |
+| **Plujnik jadu** | 150 | 6 | 4 | 0.65 | 48 | 28 | 8 | 16 | Bagno | 4 |
+| **Wiązacz klątw** | 110 | 8 | 3 | 0.8 | 52 | 32 | 9 | 16 | Las | 4 |
+| **Nietoperz wampir** | 80 | 10 | 2 | 1.8 | 30 | 16 | 3 | 16 | Góry | 3 |
+| **Dzielący się śluz** | 240 | 10 | 5 | 0.6 | 58 | 28 | 3 | 12 | Bagno | 3 |
 
 **Zastęp**: czterech wrogów walczy jako szyk i oddział oblężniczy. Cios, który zadaje Pikinier, na chwilę spowalnia trafionego bohatera. Tarczownik co jakiś czas wznosi tarczę nad sobą i potworami obok. Saper podkłada ładunek, który przed wybuchem jest zaznaczony na ziemi (nie wybucha, jeśli Saper padnie wcześniej), i uderza w budynki trzy razy mocniej. Bestia oblężnicza jest powolna, trudna do powalenia i uderza w budynki cztery razy mocniej.
 
@@ -124,3 +128,13 @@ Smoki i Trolle to najgroźniejsi wrogowie (poziom zagrożenia 5). Ze Smokami, kt
 **Taktyczne posiłki najazdów**: Forteca goblinów → Gobliński szaman; Obóz bandytów → Bandycki sabotażysta; Piaskowy grobowiec → Jadowity skorpion, Piaskowcowy strażnik; Zamek nieumarłych → Wrogi nekromanta, Łowca widm.
 
 Najazdy kampanii stosują jej listę wrogów; wolne królestwa używają wszystkich oddziałów kryjówki.
+
+**Plujnik jadu** — Ostrzega przez 3s przed trucizną w promieniu 2 pól z odległości do 8: 4 PŻ/s na 5s, co 18s. Zabij słabego plujnika przed trafieniem, opuść ostrzeżenie lub przygotuj antidotum i oczyszczenie.
+
+**Wiązacz klątw** — Zaznacza promień 2 z odległości do 9, ostrzega 2s i zwiększa otrzymywany obrażenia o 25% na 4s, co 20s. Bez kumulacji, możliwe oczyszczenie. Najpierw zabij wiązacza lub wspieraj front.
+
+**Nietoperz wampir** — Szybki i słaby. Faktyczna utrata PŻ od jego ciosu wręcz leczy do 4 PŻ na cios i 60 za życia, nigdy ponad maksimum. Tarcze blokują leczenie. Skrzydła nadal korzystają z dróg naziemnych; skupiony ostrzał i spowolnienie pomagają.
+
+**Dzielący się śluz** — Przy śmierci raz dzieli się na najwyżej dwa zwykłe śluzy, każdy z 35% maksymalnych PŻ i połową ataku i obrony matki, z rangą. Nie dzielą się i nie dają złota ani PD za zabicie. Najwyżej 64 żywe dzieci na świecie. Użyj obrażeń obszarowych i przygotuj drugi front.
+
+Pokonanie nazwanej fali obejmuje jej przyzwane szkielety i małe śluzy; zabicie samego źródła nie kończy fali.

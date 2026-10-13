@@ -33,9 +33,13 @@ Los enemigos aparecen naturalmente en las zonas salvajes del mapa, amenazando a 
 | **Saboteador bandido** | 140 | 5 | 3 | 1.0 | 32 | 20 | 3 | 16 | Bosque | 3 |
 | **Escorpión venenoso** | 130 | 6 | 5 | 0.9 | 34 | 18 | 3 | 14 | Desierto | 3 |
 | **Guardián de arenisca** | 360 | 11 | 15 | 0.5 | 82 | 42 | 3 | 14 | Desierto | 4 |
-| **Transportista de suministros goblin** | 110 | 4 | 3 | 1.0 | 15 | 12 | 3 | 12 | Montaña | 2 |
+| **Transportista de suministros goblin** | 110 | 4 | 3 | 1.0 | 15 | 12 | 3 | 12 | — | 2 |
 | **Nigromante enemigo** | 180 | 7 | 4 | 0.7 | 55 | 30 | 3 | 16 | Montaña | 4 |
 | **Cazador espectral** | 125 | 14 | 3 | 1.5 | 50 | 26 | 3 | 18 | Montaña | 4 |
+| **Escupidor de veneno** | 150 | 6 | 4 | 0.65 | 48 | 28 | 8 | 16 | Pantano | 4 |
+| **Ligador de maleficios** | 110 | 8 | 3 | 0.8 | 52 | 32 | 9 | 16 | Bosque | 4 |
+| **Murciélago vampiro** | 80 | 10 | 2 | 1.8 | 30 | 16 | 3 | 16 | Montaña | 3 |
+| **Limo fisible** | 240 | 10 | 5 | 0.6 | 58 | 28 | 3 | 12 | Pantano | 3 |
 
 **La hueste**: cuatro enemigos luchan como línea y como tropa de asedio. El golpe de un Piquero frena un momento al héroe que lo recibe. Un Portaescudo levanta de vez en cuando un escudo sobre sí mismo y los monstruos a su lado. Un Zapador coloca una carga que se marca en el suelo antes de estallar (nunca estalla si cae antes) y golpea los edificios tres veces más fuerte. Una Bestia de asedio es lenta, difícil de abatir y golpea los edificios cuatro veces más fuerte.
 
@@ -124,3 +128,13 @@ Los dragones y los troles son los enemigos más peligrosos (nivel de peligro 5).
 **Refuerzos tácticos en incursiones**: Fortaleza Goblin → Chamán goblin; Campamento Bandido → Saboteador bandido; Tumba de Arena → Escorpión venenoso, Guardián de arenisca; Castillo No-muerto → Nigromante enemigo, Cazador espectral.
 
 Las incursiones de campaña respetan su lista de enemigos; los reinos libres usan todas las tropas de la guarida.
+
+**Escupidor de veneno** — Avisa 3s antes de envenenar una zona de radio 2 desde hasta 8 casillas: 4 PV/s por 5s, cada 18s. Mata al frágil escupidor antes del impacto, sal del aviso o prepara antídotos y purificación.
+
+**Ligador de maleficios** — Marca radio 2 desde hasta 9 casillas, avisa 2s y aumenta el daño recibido un 25% por 4s, cada 20s. No se acumula y se purifica. Prioriza al ligador o apoya la primera línea.
+
+**Murciélago vampiro** — Rápido y frágil. La pérdida real de PV por su golpe cuerpo a cuerpo lo cura hasta 4 PV por golpe y 60 por vida, sin superar el máximo. Los escudos impiden la cura. Sus alas usan caminos terrestres; concentración a distancia y ralentización lo contrarrestan.
+
+**Limo fisible** — Al morir se divide una vez en hasta dos limos normales, cada uno con 35% de PV máximos y la mitad del ataque y defensa de la madre, incluido rango. No se dividen ni dan oro o XP de muerte. Máximo 64 hijos vivos en el mundo. Usa daño de área y espera otra primera línea.
+
+Eliminar una oleada nombrada incluye sus esqueletos invocados y limos hijos; matar solo la fuente no completa la oleada.

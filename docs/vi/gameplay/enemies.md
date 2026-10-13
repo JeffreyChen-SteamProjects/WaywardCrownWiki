@@ -33,9 +33,13 @@ Kẻ thù xuất hiện tự nhiên trong các vùng hoang dã trên bản đồ
 | **Kẻ phá hoại cướp** | 140 | 5 | 3 | 1.0 | 32 | 20 | 3 | 16 | Rừng | 3 |
 | **Bọ cạp độc** | 130 | 6 | 5 | 0.9 | 34 | 18 | 3 | 14 | Sa mạc | 3 |
 | **Vệ binh sa thạch** | 360 | 11 | 15 | 0.5 | 82 | 42 | 3 | 14 | Sa mạc | 4 |
-| **Goblin vận chuyển tiếp tế** | 110 | 4 | 3 | 1.0 | 15 | 12 | 3 | 12 | Núi | 2 |
+| **Goblin vận chuyển tiếp tế** | 110 | 4 | 3 | 1.0 | 15 | 12 | 3 | 12 | — | 2 |
 | **Thuật sĩ gọi hồn địch** | 180 | 7 | 4 | 0.7 | 55 | 30 | 3 | 16 | Núi | 4 |
 | **Thợ săn vong hồn** | 125 | 14 | 3 | 1.5 | 50 | 26 | 3 | 18 | Núi | 4 |
+| **Kẻ phun nọc** | 150 | 6 | 4 | 0.65 | 48 | 28 | 8 | 16 | Đầm lầy | 4 |
+| **Kẻ trói nguyền** | 110 | 8 | 3 | 0.8 | 52 | 32 | 9 | 16 | Rừng | 4 |
+| **Dơi hút máu** | 80 | 10 | 2 | 1.8 | 30 | 16 | 3 | 16 | Núi | 3 |
+| **Chất nhầy phân đôi** | 240 | 10 | 5 | 0.6 | 58 | 28 | 3 | 12 | Đầm lầy | 3 |
 
 **Đạo quân**: bốn loại kẻ địch chiến đấu thành hàng ngũ và đội công thành. Đòn đánh của Lính giáo dài làm anh hùng trúng đòn chậm lại trong chốc lát. Lính khiên thỉnh thoảng dựng khiên cho mình và quái vật bên cạnh. Lính phá hoại đặt thuốc nổ, được đánh dấu trên mặt đất trước khi nổ (không bao giờ nổ nếu Lính phá hoại gục trước) và đánh công trình mạnh gấp ba. Quái thú công thành chậm, khó hạ và đánh công trình mạnh gấp bốn.
 
@@ -124,3 +128,13 @@ Rồng và Troll là những kẻ thù nguy hiểm nhất (mức nguy hiểm 5).
 **Viện binh chiến thuật khi đột kích**: Pháo đài Goblin → Pháp sư goblin; Trại Thổ phỉ → Kẻ phá hoại cướp; Lăng mộ Cát → Bọ cạp độc, Vệ binh sa thạch; Lâu đài Bất tử → Thuật sĩ gọi hồn địch, Thợ săn vong hồn.
 
 Đột kích chiến dịch tuân theo danh sách địch của chiến dịch; vương quốc tự do dùng toàn bộ quân của ổ.
+
+**Kẻ phun nọc** — Đánh dấu bán kính 2 ô từ xa tối đa 8 ô, cảnh báo 3 giây rồi gây độc 4 HP/giây trong 5 giây, mỗi 18 giây. Hạ kẻ phun yếu trước khi trúng, rời cảnh báo hoặc chuẩn bị giải độc và thanh tẩy.
+
+**Kẻ trói nguyền** — Đánh dấu bán kính 2 từ xa tối đa 9 ô, cảnh báo 2 giây rồi tăng sát thương nhận 25% trong 4 giây, mỗi 20 giây. Không cộng dồn, có thể thanh tẩy. Ưu tiên hạ kẻ trói hoặc hỗ trợ tiền tuyến.
+
+**Dơi hút máu** — Nhanh và yếu. Chỉ hồi từ HP thực mất bởi đòn cận chiến, tối đa 4 HP mỗi đòn và 60 HP suốt đời, không vượt HP tối đa. Khiên ngăn hồi máu. Có cánh vẫn đi đường bộ; tập trung bắn và làm chậm để đối phó.
+
+**Chất nhầy phân đôi** — Khi chết chỉ chia một lần thành tối đa hai chất nhầy thường, mỗi con có 35% HP tối đa và nửa công, thủ của mẹ, tính cả cấp bậc. Không chia tiếp, không cho vàng hay XP hạ gục. Tối đa 64 con còn sống trên thế giới. Dùng sát thương vùng và dự phòng tuyến thứ hai.
+
+Dọn đợt địch được chỉ định cũng cần hạ bộ xương được gọi và chất nhầy con; chỉ hạ nguồn không kết thúc đợt.
