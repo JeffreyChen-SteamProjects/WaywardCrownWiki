@@ -122,3 +122,5 @@ Jedes Mal, wenn ein Abenteurer einen Feind trifft — ob im Nahkampf oder mit ei
 5. Andere Gebäude
 
 Gift behält beim Speichern seine Restdauer, den nächsten Schaden und die Zuordnung des Sieges. Die Reinigung am Altar oder im Badehaus entfernt auch Diebesgift, aber keine Schilde. Nach dem Grundwiderstand des Bosses dauern wiederholte Kontrolleffekte in einem festen Zehnsekundenfenster 100 %, 50 % und 25 %; weitere Versuche wirken bis zum Ende des Fensters nicht. Kürzere erneute Anwendungen verkürzen vorhandene Kontrolle nicht, und Versuche verschieben die Rücksetzung nicht. Normale Gegner erhalten diese Immunität nicht.
+
+Missionen erlauben bis zu acht geordnete Phasen mit Pflicht- und Zusatzzielen. Abgeschlossene Phasen und Zusatzergebnisse werden gespeichert; ein gescheitertes Zusatzziel verhindert den Grundsieg nicht. Benannte Gegner und Festungen müssen wirklich fallen: das Entfernen lebender Ziele zählt nicht. Schutz verfolgt die ursprüngliche verbündete Einheit oder das Gebäude bis zum Missionsende, ohne Ersatz anzunehmen. Autoren können Ruhmschwellen, endliche Wellen und Ziellisten nutzen; fehlende Verweise werden vor Spielbeginn abgewiesen.

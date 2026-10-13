@@ -122,3 +122,5 @@ Bir maceraperest her düşmana vurduğunda — yakın dövüş veya mermiyle —
 5. Diğer binalar
 
 Zehir, kayıtta kalan süresini, sonraki hasar anını ve öldürme sahibini korur. Hırsız zehri sunak veya hamamda arındırılır; kalkanlar kalır. Bossun temel kontrol direncinden sonra sabit 10 saniyelik aralıkta tekrarlanan kontroller %100, %50 ve %25 süreyle işler; sonraki denemeler aralık bitene kadar etkisizdir. Daha kısa yeniden uygulama mevcut kontrolü kısaltmaz; denemeler sıfırlamayı ertelemez. Normal düşmanlar bu bağışıklığı kazanmaz.
+
+Görevler, zorunlu ve isteğe bağlı hedefler içeren en fazla sekiz sıralı aşamaya sahip olabilir. Tamamlanan aşamalar ve ek sonuçlar kaydedilir; ek hedefin başarısızlığı temel zaferi engellemez. Adlandırılmış düşman ve kaleler gerçekten ölmelidir: yaşayan hedefi kaldırmak tamamlanma sayılmaz. Koruma, görev sonuna kadar ilk dost birimi veya binayı izler; yerine konanı kabul etmez. Yazarlar şöhret, sonlu dalgalar ve hedef listeleri kullanabilir; eksik başvurular oyundan önce reddedilir.

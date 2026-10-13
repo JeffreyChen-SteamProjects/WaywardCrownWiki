@@ -122,3 +122,5 @@ Cada vez que un aventurero golpea a un enemigo — ya sea cuerpo a cuerpo o con 
 5. Otros edificios
 
 El veneno conserva su duración restante, el próximo daño y el crédito de la muerte al guardar. El veneno del ladrón se limpia con el altar o los baños sin quitar escudos. Tras la resistencia básica del jefe, los controles repetidos en un intervalo fijo de 10 segundos duran el 100%, 50% y 25%; los siguientes no tienen efecto hasta terminar el intervalo. Una reaplicación más corta no acorta el control existente, y los intentos no retrasan el reinicio. Los enemigos normales no obtienen esta inmunidad.
+
+Las misiones admiten hasta ocho etapas ordenadas con objetivos obligatorios y opcionales. Las etapas y los resultados opcionales se guardan; fallar un extra no impide la victoria básica. Los enemigos y fortalezas designados deben morir realmente: eliminar un objetivo vivo no cumple la meta. La protección aliada sigue a la unidad o edificio original hasta terminar, sin aceptar sustitutos. Los creadores pueden usar renombre, oleadas finitas y listas de objetivos; las referencias ausentes se rechazan antes de jugar.

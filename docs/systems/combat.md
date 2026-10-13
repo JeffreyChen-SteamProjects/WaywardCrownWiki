@@ -122,3 +122,5 @@ Every time an adventurer hits an enemy — whether by melee or projectile — th
 5. Other buildings
 
 Poison keeps its remaining duration, next bite and kill credit through saving and loading. Thief poison uses the same cleansing as the altar and bathhouse; cleansing leaves shields intact. After a boss's base control resistance, repeated controls within a fixed 10-second window use 100%, 50%, then 25% duration; further attempts are ineffective until the window ends. A shorter reapplication never shortens an existing control, and repeated attempts do not postpone the reset. Ordinary enemies do not gain this immunity.
+
+Missions may contain up to eight ordered stages, with required and optional objectives in each. Completed stages and optional results survive saving; optional failures do not prevent the basic victory. Named enemies and strongholds must really die, and removing a living target never completes its goal. Friendly protection follows the original unit or building until the mission ends, so a replacement cannot satisfy it. Creators can use renown thresholds, finite scripted waves and target lists; missing references are rejected before play.

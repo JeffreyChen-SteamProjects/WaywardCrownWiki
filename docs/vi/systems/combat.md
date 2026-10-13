@@ -122,3 +122,5 @@ Mỗi lần nhà phiêu lưu đánh trúng kẻ thù — dù bằng cận chiế
 5. Các công trình khác
 
 Chất độc giữ thời gian còn lại, thời điểm gây sát thương tiếp theo và người được ghi công khi lưu. Độc của đạo tặc được bàn thờ hoặc nhà tắm thanh tẩy mà không mất lá chắn. Sau kháng khống chế cơ bản của trùm, khống chế lặp lại trong cửa sổ cố định 10 giây có thời lượng 100%, 50%, rồi 25%; lần sau vô hiệu tới hết cửa sổ. Áp dụng lại ngắn hơn không rút ngắn hiệu ứng đang có và không trì hoãn việc đặt lại. Kẻ địch thường không nhận miễn nhiễm này.
+
+Nhiệm vụ có tối đa tám giai đoạn theo thứ tự với mục tiêu bắt buộc và tùy chọn. Giai đoạn hoàn tất và kết quả tùy chọn được lưu; thất bại mục tiêu phụ không chặn chiến thắng cơ bản. Địch và cứ điểm chỉ định phải thực sự chết: xóa mục tiêu còn sống không hoàn thành mục tiêu. Bảo vệ theo đơn vị hoặc công trình đồng minh ban đầu tới hết nhiệm vụ, không chấp nhận thay thế. Tác giả dùng danh tiếng, đợt địch hữu hạn và danh sách mục tiêu; tham chiếu thiếu bị từ chối trước khi chơi.

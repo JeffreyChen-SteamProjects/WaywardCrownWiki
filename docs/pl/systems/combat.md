@@ -122,3 +122,5 @@ Za każdym razem, gdy poszukiwacz przygód trafia wroga — czy to wręcz, czy p
 5. Inne budynki
 
 Trucizna zachowuje w zapisie pozostały czas, termin następnych obrażeń i przypisanie zabójstwa. Truciznę złodzieja usuwa oczyszczenie przy ołtarzu lub w łaźni, pozostawiając tarcze. Po bazowej odporności bossa powtarzane kontrole w stałym oknie 10 sekund trwają 100%, 50% i 25%; dalsze próby są nieskuteczne do końca okna. Krótsze ponowne nałożenie nie skraca istniejącej kontroli, a próby nie opóźniają resetu. Zwykli wrogowie nie zyskują tej odporności.
+
+Misje mogą mieć osiem kolejnych etapów z celami obowiązkowymi i dodatkowymi. Ukończone etapy i wyniki dodatkowe są zapisywane; porażka dodatkowego celu nie blokuje podstawowego zwycięstwa. Nazwani wrogowie i twierdze muszą rzeczywiście paść: usunięcie żywego celu nie wystarcza. Ochrona śledzi oryginalną sojuszniczą jednostkę lub budynek do końca misji, bez zamienników. Autorzy mogą używać sławy, skończonych fal i list celów; brakujące odwołania są odrzucane przed grą.
