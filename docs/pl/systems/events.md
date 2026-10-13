@@ -121,6 +121,7 @@ Wolną grę można zacząć z płynącym dniem, z pogodą albo z jednym i drugim
 - **Wiatr** odbiera jedną dziesiątą obrażeń strzał, bełtów i oszczepów. Zaklęć wiatr nie znosi.
 - **Burza piaskowa lub gęsta mgła** zajmuje miejsce pogody tam, gdzie rządzi tym samym: nigdy się nie sumują.
 - **Potwory mają swoje pory.** Szkielety, zombie, upiory, kultyści, pająki i szczury są ospałe za dnia; gobliny, orkowie, bandyci, harpie i piechota legionu nocą. Trolle, wilki i smok nie mają pór.
+- **Ostatnio widziany.** Potwór, który wychodzi z pola widzenia królestwa, zostawia blednący znak zapytania tam, gdzie widziano go ostatnio. To znak, nie potwór: znika, gdy potwór znów zostanie zauważony albo gdy to miejsce zostanie obejrzane.
 
 ## Strategie radzenia sobie
 

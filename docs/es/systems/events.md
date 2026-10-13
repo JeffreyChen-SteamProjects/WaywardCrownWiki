@@ -121,6 +121,7 @@ Una partida libre puede empezar con el día en marcha, con clima o con ambos; ca
 - **El viento** quita una décima parte del daño de flechas, virotes y jabalinas. A los hechizos no los mueve el viento.
 - **Una tormenta de arena o una niebla densa** ocupan el lugar del clima donde mandan sobre lo mismo: nunca se suman.
 - **Los monstruos tienen sus horas.** Esqueletos, zombis, espectros, cultistas, arañas y ratas van lentos de día; goblins, orcos, bandidos, arpías y la infantería de la legión, de noche. Trolls, lobos y el dragón no tienen horas.
+- **Visto por última vez.** Un monstruo que sale de la vista de tu reino deja un signo de interrogación que se desvanece donde se le vio por última vez. Es una marca, no el monstruo: desaparece cuando se le vuelve a ver o se mira el lugar.
 
 ## Estrategias de Afrontamiento
 

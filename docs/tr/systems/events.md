@@ -121,6 +121,7 @@ Serbest oyun, dönen bir günle, havayla ya da ikisiyle birlikte başlatılabili
 - **Rüzgâr**, okların, arbalet oklarının ve ciritlerin hasarının onda birini alır. Büyüler rüzgârdan etkilenmez.
 - **Kum fırtınası ya da yoğun sis**, aynı şeyi yönettiği yerde havanın yerini alır: ikisi asla üst üste eklenmez.
 - **Canavarların kendi saatleri vardır.** İskeletler, zombiler, hayaletler, tarikatçılar, örümcekler ve fareler gündüz ağırdır; goblinler, orklar, haydutlar, harpiler ve lejyonun piyadesi gece. Troller, kurtlar ve ejderha saat tanımaz.
+- **Son görüldüğü yer.** Krallığının görüşünden çıkan bir canavar, son görüldüğü yerde solan bir soru işareti bırakır. Bu bir işarettir, canavarın kendisi değil: canavar yeniden görüldüğünde ya da oraya bakıldığında kaybolur.
 
 ## Başa Çıkma Stratejileri
 

@@ -121,6 +121,7 @@ Una partita libera può iniziare con il giorno che scorre, con il meteo o con en
 - **Il vento** toglie un decimo del danno di frecce, dardi e giavellotti. Gli incantesimi non vengono spostati.
 - **Una tempesta di sabbia o una nebbia fitta** prende il posto del meteo dove regola la stessa cosa: le due non si sommano mai.
 - **I mostri hanno i loro orari.** Scheletri, zombi, spettri, cultisti, ragni e ratti sono lenti di giorno; goblin, orchi, banditi, arpie e la fanteria della legione di notte. Troll, lupi e il drago non ne hanno.
+- **Visto l'ultima volta.** Un mostro che esce dalla vista del tuo regno lascia un punto interrogativo che svanisce dove è stato visto l'ultima volta. È un segno, non il mostro: sparisce quando lo si rivede o si guarda quel punto.
 
 ## Strategie di risposta
 

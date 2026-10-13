@@ -121,6 +121,7 @@ Une partie libre peut commencer avec le jour qui tourne, avec la météo, ou ave
 - **Le vent** retire un dixième des dégâts des flèches, carreaux et javelots. Les sorts ne sont pas emportés.
 - **Une tempête de sable ou un brouillard épais** prend la place de la météo là où il règle la même chose : les deux ne s'additionnent jamais.
 - **Les monstres ont leurs heures.** Squelettes, zombies, spectres, cultistes, araignées et rats sont lents le jour ; gobelins, orques, bandits, harpies et fantassins de la légion, la nuit. Trolls, loups et le dragon n'en ont pas.
+- **Vu pour la dernière fois.** Un monstre qui sort de la vue de votre royaume laisse un point d'interrogation qui s'estompe là où il a été vu pour la dernière fois. C'est une marque, pas le monstre : elle disparaît quand il est revu ou que l'endroit est regardé.
 
 ## Stratégies d'adaptation
 

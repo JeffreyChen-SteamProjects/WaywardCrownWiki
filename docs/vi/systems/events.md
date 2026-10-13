@@ -121,6 +121,7 @@ Một ván chơi tự do có thể bắt đầu với ngày đêm luân chuyển
 - **Gió** lấy đi một phần mười sát thương của tên, tên nỏ và lao. Phép thuật không bị gió thổi lệch.
 - **Bão cát hoặc sương mù dày đặc** thay chỗ thời tiết ở nơi nó chi phối cùng một thứ: hai thứ không bao giờ cộng dồn.
 - **Quái vật có giờ giấc riêng.** Bộ xương, thây ma, hồn ma, giáo đồ, nhện và chuột chậm chạp vào ban ngày; yêu tinh, orc, cướp, harpy và bộ binh quân đoàn chậm chạp vào ban đêm. Quỷ khổng lồ, sói và rồng thì không kể ngày đêm.
+- **Lần cuối nhìn thấy.** Quái vật đi khỏi tầm nhìn của vương quốc sẽ để lại một dấu hỏi mờ dần ở nơi nó được thấy lần cuối. Đó là dấu hiệu, không phải quái vật: nó biến mất khi quái vật được thấy lại hoặc khi nơi đó được quan sát.
 
 ## Chiến lược đối phó
 

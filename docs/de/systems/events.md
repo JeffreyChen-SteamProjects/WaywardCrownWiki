@@ -121,6 +121,7 @@ Ein freies Spiel kann mit laufendem Tag, mit Wetter oder mit beidem begonnen wer
 - **Wind** nimmt Pfeilen, Bolzen und Wurfspeeren ein Zehntel des Schadens. Zauber werden nicht verweht.
 - **Ein Sandsturm oder dichter Nebel** tritt an die Stelle des Wetters, wo er dasselbe bestimmt: Beides wird nie addiert.
 - **Monster haben ihre Zeiten.** Skelette, Zombies, Geister, Kultisten, Spinnen und Ratten sind am Tag träge; Goblins, Orks, Banditen, Harpyien und das Fußvolk der Legion in der Nacht. Trolle, Wölfe und der Drache kennen keine.
+- **Zuletzt gesehen.** Ein Monster, das aus der Sicht deines Reichs läuft, hinterlässt ein verblassendes Fragezeichen dort, wo es zuletzt gesehen wurde. Es ist eine Markierung, nicht das Monster: Sie verschwindet, wenn es wieder gesehen oder die Stelle angesehen wird.
 
 ## Bewältigungsstrategien
 

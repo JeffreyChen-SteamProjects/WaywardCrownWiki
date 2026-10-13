@@ -121,6 +121,7 @@ Um jogo livre pode começar com o dia girando, com clima, ou com os dois; cada u
 - **O vento** tira um décimo do dano de flechas, virotes e dardos. Feitiços não são levados pelo vento.
 - **Uma tempestade de areia ou uma névoa densa** toma o lugar do clima onde manda na mesma coisa: os dois nunca se somam.
 - **Os monstros têm os seus horários.** Esqueletos, zumbis, espectros, cultistas, aranhas e ratos ficam lentos de dia; goblins, orcs, bandidos, harpias e a infantaria da legião, à noite. Trolls, lobos e o dragão não têm horário.
+- **Visto por último.** Um monstro que sai da vista do seu reino deixa um ponto de interrogação que some aos poucos onde foi visto pela última vez. É uma marca, não o monstro: some quando ele é visto de novo ou quando o lugar é observado.
 
 ## Estratégias de Enfrentamento
 

@@ -121,6 +121,7 @@ A free game may be started with a turning day, with weather, or with both; each 
 - **Wind** takes a tenth of the damage of arrows, bolts and javelins. Spells are not blown about.
 - **A sandstorm or a dense fog** takes the weather's place where it rules the same thing: the two are never added together.
 - **Monsters keep hours.** Skeletons, zombies, wraiths, cultists, spiders and rats are sluggish by day; goblins, orcs, bandits, harpies and the legion's foot by night. Trolls, wolves and the dragon keep none.
+- **Last seen.** A monster that walks out of your kingdom's sight leaves a fading question mark where it was last seen. It is a mark, not the monster: it goes when the monster is seen again or the place is looked at.
 
 ## Coping Strategies
 
