@@ -29,6 +29,13 @@ Os inimigos surgem naturalmente em áreas selvagens pelo mapa, ameaçando seus a
 | **Porta-escudo** | 220 | 7 | 10 | 0.8 | 40 | 20 | 3 | 12 | Montanha | 4 |
 | **Sapador** | 90 | 5 | 3 | 1.0 | 36 | 22 | 3 | 12 | Floresta | 4 |
 | **Besta de cerco** | 520 | 16 | 9 | 0.5 | 110 | 55 | 3 | 12 | Montanha | 5 |
+| **Xamã goblin** | 100 | 4 | 2 | 0.8 | 26 | 15 | 3 | 12 | Floresta | 2 |
+| **Sabotador bandido** | 140 | 5 | 3 | 1.0 | 32 | 20 | 3 | 16 | Floresta | 3 |
+| **Escorpião venenoso** | 130 | 6 | 5 | 0.9 | 34 | 18 | 3 | 14 | Deserto | 3 |
+| **Guardião de arenito** | 360 | 11 | 15 | 0.5 | 82 | 42 | 3 | 14 | Deserto | 4 |
+| **Transportador goblin** | 110 | 4 | 3 | 1.0 | 15 | 12 | 3 | 12 | Montanha | 2 |
+| **Necromante inimigo** | 180 | 7 | 4 | 0.7 | 55 | 30 | 3 | 16 | Montanha | 4 |
+| **Caçador espectral** | 125 | 14 | 3 | 1.5 | 50 | 26 | 3 | 18 | Montanha | 4 |
 
 **A hoste**: quatro inimigos lutam como linha e como tropa de cerco. O golpe de um Piqueiro segura por um momento o herói atingido. Um Porta-escudo ergue de vez em quando um escudo sobre si e os monstros ao lado. Um Sapador planta uma carga que é marcada no chão antes de explodir (nunca explode se ele cair antes) e atinge construções três vezes mais forte. Uma Besta de cerco é lenta, difícil de derrubar e atinge construções quatro vezes mais forte.
 
@@ -109,3 +116,11 @@ Os dragões e os trolls são os inimigos mais perigosos (nível de perigo 5). Co
 **Escorpião venenoso** — Uma ferroada acertada deixa veneno de 3 PV/s por 5s, sem acumular. Antídotos e purificação o removem; escolte heróis frágeis em áreas de escorpiões.
 
 **Guardião de arenito** — Lento e bem blindado. Com metade da vida recebe uma única vez um escudo próprio de 80 PV por 10s. Use desgaste à distância ou veneno contra a frente resistente.
+
+**Necromante inimigo** — Invoca dois esqueletos comuns a cada 30s ao ver um herói hostil: quatro por vida, no máximo 32 invocados vivos no mundo. Um anel verde de ossos marca a magia. Mate cedo o invocador frágil; os esqueletos existentes ficam e não invocam mais.
+
+**Caçador espectral** — Caçador corpo a corpo rápido e frágil que persegue primeiro heróis visíveis de alcance, cura ou comando. Intercepte com a frente ou desacelere. Guardas mantêm o raio; o espectro usa caminhos terrestres e não cruza água.
+
+**Reforços táticos em ataques**: Fortaleza Goblin → Xamã goblin; Acampamento de Bandidos → Sabotador bandido; Tumba de Areia → Escorpião venenoso, Guardião de arenito; Castelo dos Mortos-Vivos → Necromante inimigo, Caçador espectral.
+
+Ataques de campanha respeitam sua lista de inimigos; reinos livres usam todas as tropas do covil.

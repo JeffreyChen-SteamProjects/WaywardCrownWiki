@@ -10,25 +10,32 @@ Wrogowie pojawiają się naturalnie na dzikich obszarach mapy, zagrażając twoi
 
 | Wróg | HP | ATK | DEF | Szybkość | XP | Złoto | Zasięg ataku | Wizja | Teren pojawienia | Poziom zagrożenia |
 |------|-----|-----|-----|----------|-----|-------|-------------|-------|-----------------|-------------------|
-| **Szlam** | 60 | 3 | 2 | 0,6 | 10 | 5 | 3 | 12 | Las | 1 |
-| **Goblin** | 110 | 6 | 4 | 1,0 | 25 | 12 | 3 | 20 | Góry | 2 |
-| **Szkielet** | 160 | 9 | 6 | 0,9 | 40 | 20 | 3 | 22 | Góry | 3 |
-| **Zombie** | 260 | 12 | 10 | 0,6 | 60 | 30 | 3 | 16 | Las | 4 |
-| **Smok** | 550 | 20 | 18 | 1,4 | 150 | 80 | 16 | 32 | Góry | 5 |
-| **Wilkor** | 90 | 8 | 3 | 1,6 | 28 | 10 | 3 | 26 | Las | 2 |
-| **Ork siłacz** | 320 | 15 | 12 | 0,8 | 70 | 35 | 3 | 18 | Góry | 4 |
-| **Goblin łucznik** | 85 | 9 | 3 | 1,0 | 35 | 15 | 10 | 24 | Góry | 3 |
-| **Piaskowa zjawa** | 140 | 10 | 5 | 1,0 | 38 | 22 | 3 | 13 | Pustynia | 3 |
-| **Mroczny kultysta** | 80 | 14 | 2 | 0,8 | 42 | 25 | 11 | 16 | Las | 3 |
-| **Troll** | 620 | 22 | 12 | 0,7 | 160 | 90 | 3 | 12 | Góry | 5 |
-| **Olbrzymi pająk** | 75 | 7 | 3 | 1,3 | 24 | 9 | 3 | 11 | Las | 2 |
-| **Olbrzymi szczur** | 45 | 4 | 1 | 1,4 | 12 | 4 | 3 | 10 | Łąka | 1 |
-| **Bandyta** | 100 | 7 | 4 | 1,1 | 26 | 16 | 3 | 12 | Łąka | 2 |
-| **Harpia** | 95 | 11 | 3 | 1,8 | 36 | 18 | 3 | 14 | Łąka | 3 |
-| **Pikinier** | 150 | 9 | 6 | 0,9 | 34 | 18 | 3 | 12 | Góry | 3 |
-| **Tarczownik** | 220 | 7 | 10 | 0,8 | 40 | 20 | 3 | 12 | Góry | 4 |
-| **Saper** | 90 | 5 | 3 | 1,0 | 36 | 22 | 3 | 12 | Las | 4 |
-| **Bestia oblężnicza** | 520 | 16 | 9 | 0,5 | 110 | 55 | 3 | 12 | Góry | 5 |
+| **Szlam** | 60 | 3 | 2 | 0.6 | 10 | 5 | 3 | 12 | Las | 1 |
+| **Goblin** | 110 | 6 | 4 | 1.0 | 25 | 12 | 3 | 20 | Góry | 2 |
+| **Szkielet** | 160 | 9 | 6 | 0.9 | 40 | 20 | 3 | 22 | Góry | 3 |
+| **Zombie** | 260 | 12 | 10 | 0.6 | 60 | 30 | 3 | 16 | Las | 4 |
+| **Smok** | 550 | 20 | 18 | 1.4 | 150 | 80 | 16 | 32 | Góry | 5 |
+| **Wilkor** | 90 | 8 | 3 | 1.6 | 28 | 10 | 3 | 26 | Las | 2 |
+| **Ork siłacz** | 320 | 15 | 12 | 0.8 | 70 | 35 | 3 | 18 | Góry | 4 |
+| **Goblin łucznik** | 85 | 9 | 3 | 1.0 | 35 | 15 | 10 | 24 | Góry | 3 |
+| **Piaskowa zjawa** | 140 | 10 | 5 | 1.0 | 38 | 22 | 3 | 13 | Pustynia | 3 |
+| **Mroczny kultysta** | 80 | 14 | 2 | 0.8 | 42 | 25 | 11 | 16 | Las | 3 |
+| **Troll** | 620 | 22 | 12 | 0.7 | 160 | 90 | 3 | 12 | Góry | 5 |
+| **Olbrzymi pająk** | 75 | 7 | 3 | 1.3 | 24 | 9 | 3 | 11 | Las | 2 |
+| **Olbrzymi szczur** | 45 | 4 | 1 | 1.4 | 12 | 4 | 3 | 10 | Łąka | 1 |
+| **Bandyta** | 100 | 7 | 4 | 1.1 | 26 | 16 | 3 | 12 | Łąka | 2 |
+| **Harpia** | 95 | 11 | 3 | 1.8 | 36 | 18 | 3 | 14 | Łąka | 3 |
+| **Pikinier** | 150 | 9 | 6 | 0.9 | 34 | 18 | 3 | 12 | Góry | 3 |
+| **Tarczownik** | 220 | 7 | 10 | 0.8 | 40 | 20 | 3 | 12 | Góry | 4 |
+| **Saper** | 90 | 5 | 3 | 1.0 | 36 | 22 | 3 | 12 | Las | 4 |
+| **Bestia oblężnicza** | 520 | 16 | 9 | 0.5 | 110 | 55 | 3 | 12 | Góry | 5 |
+| **Gobliński szaman** | 100 | 4 | 2 | 0.8 | 26 | 15 | 3 | 12 | Las | 2 |
+| **Bandycki sabotażysta** | 140 | 5 | 3 | 1.0 | 32 | 20 | 3 | 16 | Las | 3 |
+| **Jadowity skorpion** | 130 | 6 | 5 | 0.9 | 34 | 18 | 3 | 14 | Pustynia | 3 |
+| **Piaskowcowy strażnik** | 360 | 11 | 15 | 0.5 | 82 | 42 | 3 | 14 | Pustynia | 4 |
+| **Gobliński przewoźnik** | 110 | 4 | 3 | 1.0 | 15 | 12 | 3 | 12 | Góry | 2 |
+| **Wrogi nekromanta** | 180 | 7 | 4 | 0.7 | 55 | 30 | 3 | 16 | Góry | 4 |
+| **Łowca widm** | 125 | 14 | 3 | 1.5 | 50 | 26 | 3 | 18 | Góry | 4 |
 
 **Zastęp**: czterech wrogów walczy jako szyk i oddział oblężniczy. Cios, który zadaje Pikinier, na chwilę spowalnia trafionego bohatera. Tarczownik co jakiś czas wznosi tarczę nad sobą i potworami obok. Saper podkłada ładunek, który przed wybuchem jest zaznaczony na ziemi (nie wybucha, jeśli Saper padnie wcześniej), i uderza w budynki trzy razy mocniej. Bestia oblężnicza jest powolna, trudna do powalenia i uderza w budynki cztery razy mocniej.
 
@@ -109,3 +116,11 @@ Smoki i Trolle to najgroźniejsi wrogowie (poziom zagrożenia 5). Ze Smokami, kt
 **Jadowity skorpion** — Trafione żądło zostawia truciznę 3 PŻ/s na 5s, bez kumulacji. Antidotum i oczyszczenie ją usuwają; eskortuj słabych bohaterów na ziemiach skorpionów.
 
 **Piaskowcowy strażnik** — Wolny i ciężko opancerzony. Przy połowie zdrowia raz za życia otrzymuje własną tarczę 80 PŻ na 10s. Korzystaj z ostrzału lub trucizny.
+
+**Wrogi nekromanta** — Gdy widzi wrogiego bohatera, co 30s przyzywa dwa zwykłe szkielety: cztery za życia, najwyżej 32 żywe przyzwane szkielety na świecie. Rzut oznacza zielony krąg kości. Zabij słabego przyzywacza wcześnie; istniejące szkielety zostają i nie przyzywają kolejnych.
+
+**Łowca widm** — Szybki, słaby wojownik wręcz, który najpierw ściga widocznych strzelców, medyków i dowódców. Przechwyć go pierwszą linią lub spowolnij. Straż trzyma zasięg; widmo używa naziemnych ścieżek i nie przekracza wody.
+
+**Taktyczne posiłki najazdów**: Forteca goblinów → Gobliński szaman; Obóz bandytów → Bandycki sabotażysta; Piaskowy grobowiec → Jadowity skorpion, Piaskowcowy strażnik; Zamek nieumarłych → Wrogi nekromanta, Łowca widm.
+
+Najazdy kampanii stosują jej listę wrogów; wolne królestwa używają wszystkich oddziałów kryjówki.

@@ -29,6 +29,13 @@ Los enemigos aparecen naturalmente en las zonas salvajes del mapa, amenazando a 
 | **Portaescudo** | 220 | 7 | 10 | 0.8 | 40 | 20 | 3 | 12 | Montaña | 4 |
 | **Zapador** | 90 | 5 | 3 | 1.0 | 36 | 22 | 3 | 12 | Bosque | 4 |
 | **Bestia de asedio** | 520 | 16 | 9 | 0.5 | 110 | 55 | 3 | 12 | Montaña | 5 |
+| **Chamán goblin** | 100 | 4 | 2 | 0.8 | 26 | 15 | 3 | 12 | Bosque | 2 |
+| **Saboteador bandido** | 140 | 5 | 3 | 1.0 | 32 | 20 | 3 | 16 | Bosque | 3 |
+| **Escorpión venenoso** | 130 | 6 | 5 | 0.9 | 34 | 18 | 3 | 14 | Desierto | 3 |
+| **Guardián de arenisca** | 360 | 11 | 15 | 0.5 | 82 | 42 | 3 | 14 | Desierto | 4 |
+| **Transportista de suministros goblin** | 110 | 4 | 3 | 1.0 | 15 | 12 | 3 | 12 | Montaña | 2 |
+| **Nigromante enemigo** | 180 | 7 | 4 | 0.7 | 55 | 30 | 3 | 16 | Montaña | 4 |
+| **Cazador espectral** | 125 | 14 | 3 | 1.5 | 50 | 26 | 3 | 18 | Montaña | 4 |
 
 **La hueste**: cuatro enemigos luchan como línea y como tropa de asedio. El golpe de un Piquero frena un momento al héroe que lo recibe. Un Portaescudo levanta de vez en cuando un escudo sobre sí mismo y los monstruos a su lado. Un Zapador coloca una carga que se marca en el suelo antes de estallar (nunca estalla si cae antes) y golpea los edificios tres veces más fuerte. Una Bestia de asedio es lenta, difícil de abatir y golpea los edificios cuatro veces más fuerte.
 
@@ -109,3 +116,11 @@ Los dragones y los troles son los enemigos más peligrosos (nivel de peligro 5).
 **Escorpión venenoso** — Un aguijonazo acertado deja veneno de 3 PV/s durante 5s, sin acumular. Antídotos y purificación lo eliminan; escolta héroes frágiles en terreno de escorpiones.
 
 **Guardián de arenisca** — Lento y muy blindado. A media vida obtiene una sola vez un escudo propio de 80 PV durante 10s. Usa desgaste a distancia o veneno contra su frente duro.
+
+**Nigromante enemigo** — Invoca dos esqueletos normales cada 30s al ver un héroe hostil: cuatro por vida y como máximo 32 invocados vivos en el mundo. Un anillo verde de huesos marca el hechizo. Mata pronto al invocador frágil; los esqueletos existentes permanecen y no invocan.
+
+**Cazador espectral** — Cazador cuerpo a cuerpo rápido y frágil que persigue primero a héroes visibles de alcance, sanación o mando. Intercepta con la primera línea o ralentiza. Los guardias respetan su radio; el espectro usa caminos terrestres y no cruza agua.
+
+**Refuerzos tácticos en incursiones**: Fortaleza Goblin → Chamán goblin; Campamento Bandido → Saboteador bandido; Tumba de Arena → Escorpión venenoso, Guardián de arenisca; Castillo No-muerto → Nigromante enemigo, Cazador espectral.
+
+Las incursiones de campaña respetan su lista de enemigos; los reinos libres usan todas las tropas de la guarida.

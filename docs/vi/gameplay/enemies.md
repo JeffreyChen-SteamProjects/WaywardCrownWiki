@@ -29,6 +29,13 @@ Kẻ thù xuất hiện tự nhiên trong các vùng hoang dã trên bản đồ
 | **Lính khiên** | 220 | 7 | 10 | 0.8 | 40 | 20 | 3 | 12 | Núi | 4 |
 | **Lính phá hoại** | 90 | 5 | 3 | 1.0 | 36 | 22 | 3 | 12 | Rừng | 4 |
 | **Quái thú công thành** | 520 | 16 | 9 | 0.5 | 110 | 55 | 3 | 12 | Núi | 5 |
+| **Pháp sư goblin** | 100 | 4 | 2 | 0.8 | 26 | 15 | 3 | 12 | Rừng | 2 |
+| **Kẻ phá hoại cướp** | 140 | 5 | 3 | 1.0 | 32 | 20 | 3 | 16 | Rừng | 3 |
+| **Bọ cạp độc** | 130 | 6 | 5 | 0.9 | 34 | 18 | 3 | 14 | Sa mạc | 3 |
+| **Vệ binh sa thạch** | 360 | 11 | 15 | 0.5 | 82 | 42 | 3 | 14 | Sa mạc | 4 |
+| **Goblin vận chuyển tiếp tế** | 110 | 4 | 3 | 1.0 | 15 | 12 | 3 | 12 | Núi | 2 |
+| **Thuật sĩ gọi hồn địch** | 180 | 7 | 4 | 0.7 | 55 | 30 | 3 | 16 | Núi | 4 |
+| **Thợ săn vong hồn** | 125 | 14 | 3 | 1.5 | 50 | 26 | 3 | 18 | Núi | 4 |
 
 **Đạo quân**: bốn loại kẻ địch chiến đấu thành hàng ngũ và đội công thành. Đòn đánh của Lính giáo dài làm anh hùng trúng đòn chậm lại trong chốc lát. Lính khiên thỉnh thoảng dựng khiên cho mình và quái vật bên cạnh. Lính phá hoại đặt thuốc nổ, được đánh dấu trên mặt đất trước khi nổ (không bao giờ nổ nếu Lính phá hoại gục trước) và đánh công trình mạnh gấp ba. Quái thú công thành chậm, khó hạ và đánh công trình mạnh gấp bốn.
 
@@ -109,3 +116,11 @@ Rồng và Troll là những kẻ thù nguy hiểm nhất (mức nguy hiểm 5).
 **Bọ cạp độc** — Đòn chích trúng để lại độc 3 HP/giây trong 5 giây, không cộng dồn. Thuốc giải và thanh tẩy loại bỏ độc; hộ tống anh hùng yếu qua vùng bọ cạp.
 
 **Vệ binh sa thạch** — Chậm và giáp nặng. Khi còn nửa máu nhận lá chắn 80 HP trong 10 giây cho riêng mình, chỉ một lần suốt đời. Dùng tiêu hao từ xa hoặc độc để đối phó.
+
+**Thuật sĩ gọi hồn địch** — Gọi hai bộ xương thường mỗi 30 giây khi thấy anh hùng thù địch: bốn con suốt đời, tối đa 32 bộ xương được gọi còn sống trên thế giới. Vòng xương xanh đánh dấu lần dùng phép. Hạ thuật sĩ yếu sớm; bộ xương đã gọi vẫn ở lại và không gọi thêm.
+
+**Thợ săn vong hồn** — Thợ săn cận chiến nhanh, yếu, ưu tiên đuổi anh hùng tầm xa, y tế hay chỉ huy trong tầm nhìn. Chặn bằng tiền tuyến hoặc làm chậm. Lính gác giữ phạm vi; vong hồn đi đường bộ và không vượt nước.
+
+**Viện binh chiến thuật khi đột kích**: Pháo đài Goblin → Pháp sư goblin; Trại Thổ phỉ → Kẻ phá hoại cướp; Lăng mộ Cát → Bọ cạp độc, Vệ binh sa thạch; Lâu đài Bất tử → Thuật sĩ gọi hồn địch, Thợ săn vong hồn.
+
+Đột kích chiến dịch tuân theo danh sách địch của chiến dịch; vương quốc tự do dùng toàn bộ quân của ổ.

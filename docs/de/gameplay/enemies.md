@@ -10,25 +10,32 @@ Feinde erscheinen natürlich in Wildnisgebieten auf der gesamten Karte und bedro
 
 | Feind | HP | ATK | DEF | Geschwindigkeit | XP | Gold | Angriffsreichweite | Sicht | Erscheinungsgelände | Gefahrenstufe |
 |-------|-----|-----|-----|----------------|-----|------|-------------------|-------|-------------------|--------------|
-| **Schleim** | 60 | 3 | 2 | 0,6 | 10 | 5 | 3 | 12 | Wald | 1 |
-| **Goblin** | 110 | 6 | 4 | 1,0 | 25 | 12 | 3 | 20 | Gebirge | 2 |
-| **Skelett** | 160 | 9 | 6 | 0,9 | 40 | 20 | 3 | 22 | Gebirge | 3 |
-| **Zombie** | 260 | 12 | 10 | 0,6 | 60 | 30 | 3 | 16 | Wald | 4 |
-| **Drache** | 550 | 20 | 18 | 1,4 | 150 | 80 | 16 | 32 | Gebirge | 5 |
-| **Schattenwolf** | 90 | 8 | 3 | 1,6 | 28 | 10 | 3 | 26 | Wald | 2 |
-| **Ork-Schläger** | 320 | 15 | 12 | 0,8 | 70 | 35 | 3 | 18 | Gebirge | 4 |
-| **Goblin-Bogenschütze** | 85 | 9 | 3 | 1,0 | 35 | 15 | 10 | 24 | Gebirge | 3 |
-| **Sandgeist** | 140 | 10 | 5 | 1,0 | 38 | 22 | 3 | 13 | Wüste | 3 |
-| **Dunkler Kultist** | 80 | 14 | 2 | 0,8 | 42 | 25 | 11 | 16 | Wald | 3 |
-| **Troll** | 620 | 22 | 12 | 0,7 | 160 | 90 | 3 | 12 | Gebirge | 5 |
-| **Riesenspinne** | 75 | 7 | 3 | 1,3 | 24 | 9 | 3 | 11 | Wald | 2 |
-| **Riesenratte** | 45 | 4 | 1 | 1,4 | 12 | 4 | 3 | 10 | Grasland | 1 |
-| **Bandit** | 100 | 7 | 4 | 1,1 | 26 | 16 | 3 | 12 | Grasland | 2 |
-| **Harpyie** | 95 | 11 | 3 | 1,8 | 36 | 18 | 3 | 14 | Grasland | 3 |
-| **Pikenier** | 150 | 9 | 6 | 0,9 | 34 | 18 | 3 | 12 | Gebirge | 3 |
-| **Schildträger** | 220 | 7 | 10 | 0,8 | 40 | 20 | 3 | 12 | Gebirge | 4 |
-| **Sprengmeister** | 90 | 5 | 3 | 1,0 | 36 | 22 | 3 | 12 | Wald | 4 |
-| **Belagerungsbestie** | 520 | 16 | 9 | 0,5 | 110 | 55 | 3 | 12 | Gebirge | 5 |
+| **Schleim** | 60 | 3 | 2 | 0.6 | 10 | 5 | 3 | 12 | Wald | 1 |
+| **Goblin** | 110 | 6 | 4 | 1.0 | 25 | 12 | 3 | 20 | Gebirge | 2 |
+| **Skelett** | 160 | 9 | 6 | 0.9 | 40 | 20 | 3 | 22 | Gebirge | 3 |
+| **Zombie** | 260 | 12 | 10 | 0.6 | 60 | 30 | 3 | 16 | Wald | 4 |
+| **Drache** | 550 | 20 | 18 | 1.4 | 150 | 80 | 16 | 32 | Gebirge | 5 |
+| **Schattenwolf** | 90 | 8 | 3 | 1.6 | 28 | 10 | 3 | 26 | Wald | 2 |
+| **Ork-Schläger** | 320 | 15 | 12 | 0.8 | 70 | 35 | 3 | 18 | Gebirge | 4 |
+| **Goblin-Bogenschütze** | 85 | 9 | 3 | 1.0 | 35 | 15 | 10 | 24 | Gebirge | 3 |
+| **Sandgeist** | 140 | 10 | 5 | 1.0 | 38 | 22 | 3 | 13 | Wüste | 3 |
+| **Dunkler Kultist** | 80 | 14 | 2 | 0.8 | 42 | 25 | 11 | 16 | Wald | 3 |
+| **Troll** | 620 | 22 | 12 | 0.7 | 160 | 90 | 3 | 12 | Gebirge | 5 |
+| **Riesenspinne** | 75 | 7 | 3 | 1.3 | 24 | 9 | 3 | 11 | Wald | 2 |
+| **Riesenratte** | 45 | 4 | 1 | 1.4 | 12 | 4 | 3 | 10 | Grasland | 1 |
+| **Bandit** | 100 | 7 | 4 | 1.1 | 26 | 16 | 3 | 12 | Grasland | 2 |
+| **Harpyie** | 95 | 11 | 3 | 1.8 | 36 | 18 | 3 | 14 | Grasland | 3 |
+| **Pikenier** | 150 | 9 | 6 | 0.9 | 34 | 18 | 3 | 12 | Gebirge | 3 |
+| **Schildträger** | 220 | 7 | 10 | 0.8 | 40 | 20 | 3 | 12 | Gebirge | 4 |
+| **Sprengmeister** | 90 | 5 | 3 | 1.0 | 36 | 22 | 3 | 12 | Wald | 4 |
+| **Belagerungsbestie** | 520 | 16 | 9 | 0.5 | 110 | 55 | 3 | 12 | Gebirge | 5 |
+| **Goblin-Schamane** | 100 | 4 | 2 | 0.8 | 26 | 15 | 3 | 12 | Wald | 2 |
+| **Banditensaboteur** | 140 | 5 | 3 | 1.0 | 32 | 20 | 3 | 16 | Wald | 3 |
+| **Giftskorpion** | 130 | 6 | 5 | 0.9 | 34 | 18 | 3 | 14 | Wüste | 3 |
+| **Sandsteinwächter** | 360 | 11 | 15 | 0.5 | 82 | 42 | 3 | 14 | Wüste | 4 |
+| **Goblin-Versorgungsträger** | 110 | 4 | 3 | 1.0 | 15 | 12 | 3 | 12 | Gebirge | 2 |
+| **Feindlicher Nekromant** | 180 | 7 | 4 | 0.7 | 55 | 30 | 3 | 16 | Gebirge | 4 |
+| **Geisterjäger** | 125 | 14 | 3 | 1.5 | 50 | 26 | 3 | 18 | Gebirge | 4 |
 
 **Das Heer**: Vier Gegner kämpfen als Linie und Belagerungstrupp. Der Hieb eines Pikeniers hält den getroffenen Helden einen Moment lang auf. Ein Schildträger hebt hin und wieder einen Schild über sich und die Monster neben ihm. Ein Sprengmeister legt eine Ladung, die auf dem Boden markiert wird, bevor sie hochgeht (fällt er vorher, geht sie nie hoch), und trifft Gebäude dreimal so hart. Eine Belagerungsbestie ist langsam, schwer zu fällen und trifft Gebäude viermal so hart.
 
@@ -109,3 +116,11 @@ Drachen und Trolle sind die gefährlichsten Feinde (Gefahrenstufe 5). Mit einer 
 **Giftskorpion** — Ein treffender Stich verursacht 5s lang 3 LP/s Gift, ohne Stapeln. Gegenmittel und Reinigung entfernen es; schwache Helden im Skorpiongebiet eskortieren.
 
 **Sandsteinwächter** — Langsam und schwer gepanzert. Bei halber Gesundheit einmal im Leben ein eigener Schild von 80 LP für 10s. Fernkampf und Gift helfen gegen die harte Front.
+
+**Feindlicher Nekromant** — Ruft bei sichtbarem feindlichem Helden alle 30s zwei normale Skelette: vier pro Leben, weltweit höchstens 32 lebende beschworene Skelette. Ein grüner Knochenring zeigt den Zauber. Den schwachen Rufer früh töten; vorhandene Skelette bleiben und beschwören nicht weiter.
+
+**Geisterjäger** — Schneller, schwacher Nahkämpfer, der sichtbare Fernkampf-, Heil- und Führungskräfte zuerst verfolgt. Mit der Front abfangen oder verlangsamen. Wachen halten ihren Radius; der Geist nutzt Bodenwege und überquert kein Wasser.
+
+**Taktische Verstärkung bei Überfällen**: Goblinfestung → Goblin-Schamane; Banditenlager → Banditensaboteur; Sandgrab → Giftskorpion, Sandsteinwächter; Untotenborg → Feindlicher Nekromant, Geisterjäger.
+
+Kampagnenüberfälle beachten die Feindliste der Kampagne; freie Königreiche nutzen alle Truppen des Verstecks.

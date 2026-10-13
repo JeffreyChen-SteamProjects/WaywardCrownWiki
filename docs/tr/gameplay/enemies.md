@@ -29,6 +29,13 @@ Düşmanlar harita genelindeki vahşi bölgelerde doğal olarak ortaya çıkar v
 | **Kalkan Taşıyıcı** | 220 | 7 | 10 | 0.8 | 40 | 20 | 3 | 12 | Dağ | 4 |
 | **Lağımcı** | 90 | 5 | 3 | 1.0 | 36 | 22 | 3 | 12 | Orman | 4 |
 | **Kuşatma Canavarı** | 520 | 16 | 9 | 0.5 | 110 | 55 | 3 | 12 | Dağ | 5 |
+| **Goblin şamanı** | 100 | 4 | 2 | 0.8 | 26 | 15 | 3 | 12 | Orman | 2 |
+| **Haydut sabotajcı** | 140 | 5 | 3 | 1.0 | 32 | 20 | 3 | 16 | Orman | 3 |
+| **Zehirli akrep** | 130 | 6 | 5 | 0.9 | 34 | 18 | 3 | 14 | Çöl | 3 |
+| **Kumtaşı muhafızı** | 360 | 11 | 15 | 0.5 | 82 | 42 | 3 | 14 | Çöl | 4 |
+| **Goblin ikmal taşıyıcısı** | 110 | 4 | 3 | 1.0 | 15 | 12 | 3 | 12 | Dağ | 2 |
+| **Düşman nekromans** | 180 | 7 | 4 | 0.7 | 55 | 30 | 3 | 16 | Dağ | 4 |
+| **Hayalet avcısı** | 125 | 14 | 3 | 1.5 | 50 | 26 | 3 | 18 | Dağ | 4 |
 
 **Ordu**: dört düşman bir hat ve kuşatma birliği olarak savaşır. Mızrakçı vurduğu kahramanı bir an için yavaşlatır. Kalkan Taşıyıcı ara sıra kendisinin ve yanındaki canavarların üzerine kalkan kaldırır. Lağımcı, patlamadan önce yerde işaretlenen bir patlayıcı yerleştirir (önce kendisi düşerse hiç patlamaz) ve binalara üç kat sert vurur. Kuşatma Canavarı yavaştır, zor devrilir ve binalara dört kat sert vurur.
 
@@ -109,3 +116,11 @@ Ejderhalar ve Troller en tehlikeli düşmanlardır (tehlike seviyesi 5). 16 sald
 **Zehirli akrep** — İsabetli iğne 5sn boyunca 3 can/sn zehir bırakır, birikmez. Panzehir ve arınma kaldırır; akrep bölgesinde zayıf kahramanları koruyun.
 
 **Kumtaşı muhafızı** — Yavaş ve ağır zırhlı. Yarı candayken yaşamı boyunca bir kez kendine 10sn için 80 canlık kalkan alır. Cepheden vurmak yerine uzaktan yıpratma veya zehir kullanın.
+
+**Düşman nekromans** — Düşman kahraman görünürken her 30sn iki sıradan iskelet çağırır: ömür boyu dört, dünyada en çok 32 canlı çağrılmış iskelet. Büyü yeşil kemik halkasıyla görünür. Zayıf çağırıcıyı erken öldürün; mevcut iskeletler kalır ve yeniden çağrı yapmaz.
+
+**Hayalet avcısı** — Görünen menzilli, sağlık veya komuta kahramanlarını önce izleyen hızlı, kırılgan yakın dövüş avcısı. Ön hatla durdurun veya yavaşlatın. Nöbetçiler alanlarını korur; hayalet kara yollarını kullanır ve suyu aşamaz.
+
+**Baskınlarda taktik takviyeler**: Goblin Kalesi → Goblin şamanı; Haydut Kampı → Haydut sabotajcı; Kum Mezarı → Zehirli akrep, Kumtaşı muhafızı; Ölümsüz Kalesi → Düşman nekromans, Hayalet avcısı.
+
+Sefer baskınları seferin düşman listesine uyar; özgür krallıklar tüm in birliklerini kullanır.

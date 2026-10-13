@@ -22,13 +22,20 @@ Enemies spawn naturally in wilderness areas across the map, threatening your adv
 | **Dark Cultist** | 80 | 14 | 2 | 0.8 | 42 | 25 | 11 | 16 | Forest | 3 |
 | **Troll** | 620 | 22 | 12 | 0.7 | 160 | 90 | 3 | 12 | Mountain | 5 |
 | **Giant Spider** | 75 | 7 | 3 | 1.3 | 24 | 9 | 3 | 11 | Forest | 2 |
-| **Giant Rat** | 45 | 4 | 1 | 1.4 | 12 | 4 | 3 | 10 | Grass | 1 |
-| **Bandit** | 100 | 7 | 4 | 1.1 | 26 | 16 | 3 | 12 | Grass | 2 |
-| **Harpy** | 95 | 11 | 3 | 1.8 | 36 | 18 | 3 | 14 | Grass | 3 |
+| **Giant Rat** | 45 | 4 | 1 | 1.4 | 12 | 4 | 3 | 10 | Grassland | 1 |
+| **Bandit** | 100 | 7 | 4 | 1.1 | 26 | 16 | 3 | 12 | Grassland | 2 |
+| **Harpy** | 95 | 11 | 3 | 1.8 | 36 | 18 | 3 | 14 | Grassland | 3 |
 | **Pikeman** | 150 | 9 | 6 | 0.9 | 34 | 18 | 3 | 12 | Mountain | 3 |
 | **Shieldbearer** | 220 | 7 | 10 | 0.8 | 40 | 20 | 3 | 12 | Mountain | 4 |
 | **Sapper** | 90 | 5 | 3 | 1.0 | 36 | 22 | 3 | 12 | Forest | 4 |
 | **Siege Beast** | 520 | 16 | 9 | 0.5 | 110 | 55 | 3 | 12 | Mountain | 5 |
+| **Goblin shaman** | 100 | 4 | 2 | 0.8 | 26 | 15 | 3 | 12 | Forest | 2 |
+| **Bandit saboteur** | 140 | 5 | 3 | 1.0 | 32 | 20 | 3 | 16 | Forest | 3 |
+| **Venom scorpion** | 130 | 6 | 5 | 0.9 | 34 | 18 | 3 | 14 | Desert | 3 |
+| **Sand guardian** | 360 | 11 | 15 | 0.5 | 82 | 42 | 3 | 14 | Desert | 4 |
+| **Goblin supply courier** | 110 | 4 | 3 | 1.0 | 15 | 12 | 3 | 12 | Mountain | 2 |
+| **Enemy necromancer** | 180 | 7 | 4 | 0.7 | 55 | 30 | 3 | 16 | Mountain | 4 |
+| **Wraith hunter** | 125 | 14 | 3 | 1.5 | 50 | 26 | 3 | 18 | Mountain | 4 |
 
 **The host**: four enemies fight as a line and its siege. A Pikeman's blow holds the hero it lands on back for a moment. A Shieldbearer now and then raises a shield over itself and the monsters beside it. A Sapper lays a charge that is marked on the ground before it goes off (it never does if the Sapper falls first) and hits buildings three times as hard. A Siege Beast is slow, hard to bring down, and hits buildings four times as hard.
 
@@ -109,3 +116,11 @@ Dragons and Trolls are the most dangerous enemies (danger level 5). With an atta
 **Venom scorpion** — A landed sting leaves one poison dose: 3 HP/s for 5s, without stacking. Antidotes and cleansing remove it; escort fragile heroes through scorpion ground.
 
 **Sand guardian** — Slow and heavily armored. At half health, gains an 80-HP shield for 10s once in its life, only on itself. Use ranged attrition or poison rather than repeated frontal blows.
+
+**Enemy necromancer** — Calls two ordinary skeletons every 30s while a hostile hero is visible: four per life, at most 32 living called skeletons worldwide. A green bone ring marks the cast. Kill the fragile caller early; its existing skeletons remain and cannot call more.
+
+**Wraith hunter** — Fast, fragile melee hunter that chases visible ranged and medical or command heroes first. Intercept it with a front line or slow it. Guards keep their leash; the spectral body uses ground paths and cannot cross water.
+
+**Tactical reinforcements in raids**: Goblin Fortress → Goblin shaman; Bandit Camp → Bandit saboteur; Sand Tomb → Venom scorpion, Sand guardian; Undead Castle → Enemy necromancer, Wraith hunter.
+
+Campaign raids obey the campaign enemy list; free kingdoms use the full lair troop pool.

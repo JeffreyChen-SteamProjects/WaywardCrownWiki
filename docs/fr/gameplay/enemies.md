@@ -10,25 +10,32 @@ Les ennemis apparaissent naturellement dans les zones sauvages à travers la car
 
 | Ennemi | HP | ATK | DEF | Vitesse | XP | Or | Portée d'attaque | Vision | Terrain d'apparition | Niveau de danger |
 |--------|-----|-----|-----|---------|-----|------|-----------------|--------|---------------------|-----------------|
-| **Slime** | 60 | 3 | 2 | 0,6 | 10 | 5 | 3 | 12 | Forêt | 1 |
-| **Gobelin** | 110 | 6 | 4 | 1,0 | 25 | 12 | 3 | 20 | Montagne | 2 |
-| **Squelette** | 160 | 9 | 6 | 0,9 | 40 | 20 | 3 | 22 | Montagne | 3 |
-| **Zombie** | 260 | 12 | 10 | 0,6 | 60 | 30 | 3 | 16 | Forêt | 4 |
-| **Dragon** | 550 | 20 | 18 | 1,4 | 150 | 80 | 16 | 32 | Montagne | 5 |
-| **Loup sinistre** | 90 | 8 | 3 | 1,6 | 28 | 10 | 3 | 26 | Forêt | 2 |
-| **Brute orque** | 320 | 15 | 12 | 0,8 | 70 | 35 | 3 | 18 | Montagne | 4 |
-| **Archer gobelin** | 85 | 9 | 3 | 1,0 | 35 | 15 | 10 | 24 | Montagne | 3 |
-| **Spectre des sables** | 140 | 10 | 5 | 1,0 | 38 | 22 | 3 | 13 | Désert | 3 |
-| **Cultiste sombre** | 80 | 14 | 2 | 0,8 | 42 | 25 | 11 | 16 | Forêt | 3 |
-| **Troll** | 620 | 22 | 12 | 0,7 | 160 | 90 | 3 | 12 | Montagne | 5 |
-| **Araignée géante** | 75 | 7 | 3 | 1,3 | 24 | 9 | 3 | 11 | Forêt | 2 |
-| **Rat géant** | 45 | 4 | 1 | 1,4 | 12 | 4 | 3 | 10 | Prairie | 1 |
-| **Bandit** | 100 | 7 | 4 | 1,1 | 26 | 16 | 3 | 12 | Prairie | 2 |
-| **Harpie** | 95 | 11 | 3 | 1,8 | 36 | 18 | 3 | 14 | Prairie | 3 |
-| **Piquier** | 150 | 9 | 6 | 0,9 | 34 | 18 | 3 | 12 | Montagne | 3 |
-| **Porte-bouclier** | 220 | 7 | 10 | 0,8 | 40 | 20 | 3 | 12 | Montagne | 4 |
-| **Sapeur** | 90 | 5 | 3 | 1,0 | 36 | 22 | 3 | 12 | Forêt | 4 |
-| **Bête de siège** | 520 | 16 | 9 | 0,5 | 110 | 55 | 3 | 12 | Montagne | 5 |
+| **Slime** | 60 | 3 | 2 | 0.6 | 10 | 5 | 3 | 12 | Forêt | 1 |
+| **Gobelin** | 110 | 6 | 4 | 1.0 | 25 | 12 | 3 | 20 | Montagne | 2 |
+| **Squelette** | 160 | 9 | 6 | 0.9 | 40 | 20 | 3 | 22 | Montagne | 3 |
+| **Zombie** | 260 | 12 | 10 | 0.6 | 60 | 30 | 3 | 16 | Forêt | 4 |
+| **Dragon** | 550 | 20 | 18 | 1.4 | 150 | 80 | 16 | 32 | Montagne | 5 |
+| **Loup sinistre** | 90 | 8 | 3 | 1.6 | 28 | 10 | 3 | 26 | Forêt | 2 |
+| **Brute orque** | 320 | 15 | 12 | 0.8 | 70 | 35 | 3 | 18 | Montagne | 4 |
+| **Archer gobelin** | 85 | 9 | 3 | 1.0 | 35 | 15 | 10 | 24 | Montagne | 3 |
+| **Spectre des sables** | 140 | 10 | 5 | 1.0 | 38 | 22 | 3 | 13 | Désert | 3 |
+| **Cultiste sombre** | 80 | 14 | 2 | 0.8 | 42 | 25 | 11 | 16 | Forêt | 3 |
+| **Troll** | 620 | 22 | 12 | 0.7 | 160 | 90 | 3 | 12 | Montagne | 5 |
+| **Araignée géante** | 75 | 7 | 3 | 1.3 | 24 | 9 | 3 | 11 | Forêt | 2 |
+| **Rat géant** | 45 | 4 | 1 | 1.4 | 12 | 4 | 3 | 10 | Prairie | 1 |
+| **Bandit** | 100 | 7 | 4 | 1.1 | 26 | 16 | 3 | 12 | Prairie | 2 |
+| **Harpie** | 95 | 11 | 3 | 1.8 | 36 | 18 | 3 | 14 | Prairie | 3 |
+| **Piquier** | 150 | 9 | 6 | 0.9 | 34 | 18 | 3 | 12 | Montagne | 3 |
+| **Porte-bouclier** | 220 | 7 | 10 | 0.8 | 40 | 20 | 3 | 12 | Montagne | 4 |
+| **Sapeur** | 90 | 5 | 3 | 1.0 | 36 | 22 | 3 | 12 | Forêt | 4 |
+| **Bête de siège** | 520 | 16 | 9 | 0.5 | 110 | 55 | 3 | 12 | Montagne | 5 |
+| **Chaman gobelin** | 100 | 4 | 2 | 0.8 | 26 | 15 | 3 | 12 | Forêt | 2 |
+| **Saboteur bandit** | 140 | 5 | 3 | 1.0 | 32 | 20 | 3 | 16 | Forêt | 3 |
+| **Scorpion venimeux** | 130 | 6 | 5 | 0.9 | 34 | 18 | 3 | 14 | Désert | 3 |
+| **Gardien de grès** | 360 | 11 | 15 | 0.5 | 82 | 42 | 3 | 14 | Désert | 4 |
+| **Transporteur gobelin** | 110 | 4 | 3 | 1.0 | 15 | 12 | 3 | 12 | Montagne | 2 |
+| **Nécromancien ennemi** | 180 | 7 | 4 | 0.7 | 55 | 30 | 3 | 16 | Montagne | 4 |
+| **Chasseur spectral** | 125 | 14 | 3 | 1.5 | 50 | 26 | 3 | 18 | Montagne | 4 |
 
 **L'ost** : quatre ennemis combattent en ligne et en troupe de siège. Le coup d'un Piquier retient un instant le héros qu'il touche. Un Porte-bouclier lève de temps à autre un bouclier sur lui-même et les monstres à ses côtés. Un Sapeur pose une charge marquée au sol avant d'exploser (elle n'explose jamais s'il tombe avant) et frappe les bâtiments trois fois plus fort. Une Bête de siège est lente, difficile à abattre et frappe les bâtiments quatre fois plus fort.
 
@@ -109,3 +116,11 @@ Les Dragons et les Trolls sont les ennemis les plus dangereux (niveau de danger 
 **Scorpion venimeux** — Une piqûre réussie laisse 3 PV/s de poison pendant 5s, sans cumul. Antidotes et purification le retirent ; escortez les héros fragiles en terrain de scorpions.
 
 **Gardien de grès** — Lent et lourdement blindé. À mi-vie, obtient une seule fois un bouclier personnel de 80 PV pour 10s. Privilégiez l’usure à distance ou le poison.
+
+**Nécromancien ennemi** — Invoque deux squelettes ordinaires toutes les 30s en voyant un héros hostile : quatre par vie, au plus 32 invoqués vivants dans le monde. Un cercle osseux vert marque le sort. Tuez vite le fragile invocateur ; les squelettes restent et ne peuvent invoquer.
+
+**Chasseur spectral** — Chasseur de mêlée rapide et fragile, visant d’abord les héros visibles à distance, de soin ou de commandement. Interceptez-le avec la première ligne ou ralentissez-le. Les gardes gardent leur rayon ; le spectre suit les chemins terrestres et ne traverse pas l’eau.
+
+**Renforts tactiques des raids**: Forteresse gobeline → Chaman gobelin; Camp de bandits → Saboteur bandit; Tombeau des sables → Scorpion venimeux, Gardien de grès; Château mort-vivant → Nécromancien ennemi, Chasseur spectral.
+
+Les raids de campagne respectent sa liste d’ennemis ; les royaumes libres utilisent toutes les troupes du repaire.

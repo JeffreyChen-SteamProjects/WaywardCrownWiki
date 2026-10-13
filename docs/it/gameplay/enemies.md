@@ -10,25 +10,32 @@ I nemici appaiono naturalmente nelle aree selvagge della mappa, minacciando i tu
 
 | Nemico | HP | ATK | DEF | Velocità | XP | Oro | Gittata d'attacco | Visione | Terreno di comparsa | Livello di pericolo |
 |--------|-----|-----|-----|----------|-----|------|-------------------|---------|---------------------|---------------------|
-| **Slime** | 60 | 3 | 2 | 0,6 | 10 | 5 | 3 | 12 | Foresta | 1 |
-| **Goblin** | 110 | 6 | 4 | 1,0 | 25 | 12 | 3 | 20 | Montagna | 2 |
-| **Scheletro** | 160 | 9 | 6 | 0,9 | 40 | 20 | 3 | 22 | Montagna | 3 |
-| **Zombie** | 260 | 12 | 10 | 0,6 | 60 | 30 | 3 | 16 | Foresta | 4 |
-| **Drago** | 550 | 20 | 18 | 1,4 | 150 | 80 | 16 | 32 | Montagna | 5 |
-| **Lupo crudele** | 90 | 8 | 3 | 1,6 | 28 | 10 | 3 | 26 | Foresta | 2 |
-| **Bruto orchesco** | 320 | 15 | 12 | 0,8 | 70 | 35 | 3 | 18 | Montagna | 4 |
-| **Arciere goblin** | 85 | 9 | 3 | 1,0 | 35 | 15 | 10 | 24 | Montagna | 3 |
-| **Spettro delle sabbie** | 140 | 10 | 5 | 1,0 | 38 | 22 | 3 | 13 | Deserto | 3 |
-| **Cultista oscuro** | 80 | 14 | 2 | 0,8 | 42 | 25 | 11 | 16 | Foresta | 3 |
-| **Troll** | 620 | 22 | 12 | 0,7 | 160 | 90 | 3 | 12 | Montagna | 5 |
-| **Ragno gigante** | 75 | 7 | 3 | 1,3 | 24 | 9 | 3 | 11 | Foresta | 2 |
-| **Ratto gigante** | 45 | 4 | 1 | 1,4 | 12 | 4 | 3 | 10 | Prateria | 1 |
-| **Bandito** | 100 | 7 | 4 | 1,1 | 26 | 16 | 3 | 12 | Prateria | 2 |
-| **Arpia** | 95 | 11 | 3 | 1,8 | 36 | 18 | 3 | 14 | Prateria | 3 |
-| **Picchiere** | 150 | 9 | 6 | 0,9 | 34 | 18 | 3 | 12 | Montagna | 3 |
-| **Portascudo** | 220 | 7 | 10 | 0,8 | 40 | 20 | 3 | 12 | Montagna | 4 |
-| **Guastatore** | 90 | 5 | 3 | 1,0 | 36 | 22 | 3 | 12 | Foresta | 4 |
-| **Bestia d'assedio** | 520 | 16 | 9 | 0,5 | 110 | 55 | 3 | 12 | Montagna | 5 |
+| **Slime** | 60 | 3 | 2 | 0.6 | 10 | 5 | 3 | 12 | Foresta | 1 |
+| **Goblin** | 110 | 6 | 4 | 1.0 | 25 | 12 | 3 | 20 | Montagna | 2 |
+| **Scheletro** | 160 | 9 | 6 | 0.9 | 40 | 20 | 3 | 22 | Montagna | 3 |
+| **Zombie** | 260 | 12 | 10 | 0.6 | 60 | 30 | 3 | 16 | Foresta | 4 |
+| **Drago** | 550 | 20 | 18 | 1.4 | 150 | 80 | 16 | 32 | Montagna | 5 |
+| **Lupo crudele** | 90 | 8 | 3 | 1.6 | 28 | 10 | 3 | 26 | Foresta | 2 |
+| **Bruto orchesco** | 320 | 15 | 12 | 0.8 | 70 | 35 | 3 | 18 | Montagna | 4 |
+| **Arciere goblin** | 85 | 9 | 3 | 1.0 | 35 | 15 | 10 | 24 | Montagna | 3 |
+| **Spettro delle sabbie** | 140 | 10 | 5 | 1.0 | 38 | 22 | 3 | 13 | Deserto | 3 |
+| **Cultista oscuro** | 80 | 14 | 2 | 0.8 | 42 | 25 | 11 | 16 | Foresta | 3 |
+| **Troll** | 620 | 22 | 12 | 0.7 | 160 | 90 | 3 | 12 | Montagna | 5 |
+| **Ragno gigante** | 75 | 7 | 3 | 1.3 | 24 | 9 | 3 | 11 | Foresta | 2 |
+| **Ratto gigante** | 45 | 4 | 1 | 1.4 | 12 | 4 | 3 | 10 | Prateria | 1 |
+| **Bandito** | 100 | 7 | 4 | 1.1 | 26 | 16 | 3 | 12 | Prateria | 2 |
+| **Arpia** | 95 | 11 | 3 | 1.8 | 36 | 18 | 3 | 14 | Prateria | 3 |
+| **Picchiere** | 150 | 9 | 6 | 0.9 | 34 | 18 | 3 | 12 | Montagna | 3 |
+| **Portascudo** | 220 | 7 | 10 | 0.8 | 40 | 20 | 3 | 12 | Montagna | 4 |
+| **Guastatore** | 90 | 5 | 3 | 1.0 | 36 | 22 | 3 | 12 | Foresta | 4 |
+| **Bestia d'assedio** | 520 | 16 | 9 | 0.5 | 110 | 55 | 3 | 12 | Montagna | 5 |
+| **Sciamano goblin** | 100 | 4 | 2 | 0.8 | 26 | 15 | 3 | 12 | Foresta | 2 |
+| **Sabotatore bandito** | 140 | 5 | 3 | 1.0 | 32 | 20 | 3 | 16 | Foresta | 3 |
+| **Scorpione velenoso** | 130 | 6 | 5 | 0.9 | 34 | 18 | 3 | 14 | Deserto | 3 |
+| **Guardiano di arenaria** | 360 | 11 | 15 | 0.5 | 82 | 42 | 3 | 14 | Deserto | 4 |
+| **Trasportatore goblin** | 110 | 4 | 3 | 1.0 | 15 | 12 | 3 | 12 | Montagna | 2 |
+| **Necromante nemico** | 180 | 7 | 4 | 0.7 | 55 | 30 | 3 | 16 | Montagna | 4 |
+| **Cacciatore spettrale** | 125 | 14 | 3 | 1.5 | 50 | 26 | 3 | 18 | Montagna | 4 |
 
 **L'armata**: quattro nemici combattono come linea e come truppa d'assedio. Il colpo di un Picchiere trattiene per un momento l'eroe che lo riceve. Un Portascudo alza ogni tanto uno scudo su di sé e sui mostri accanto. Un Guastatore piazza una carica segnata sul terreno prima di esplodere (non esplode mai se cade prima) e colpisce gli edifici tre volte più forte. Una Bestia d'assedio è lenta, dura da abbattere e colpisce gli edifici quattro volte più forte.
 
@@ -109,3 +116,11 @@ Draghi e Troll sono i nemici più pericolosi (livello di pericolo 5). Con una gi
 **Scorpione velenoso** — Un colpo del pungiglione lascia veleno di 3 PV/s per 5s, senza accumulo. Antidoti e purificazione lo rimuovono; scorta gli eroi fragili nelle zone degli scorpioni.
 
 **Guardiano di arenaria** — Lento e corazzato. A metà salute ottiene una volta nella vita uno scudo personale di 80 PV per 10s. Usa logoramento a distanza o veleno.
+
+**Necromante nemico** — Evoca due scheletri ordinari ogni 30s quando vede un eroe ostile: quattro per vita, al massimo 32 evocati vivi nel mondo. Un anello verde di ossa segnala il lancio. Uccidi presto il fragile evocatore; gli scheletri restano e non evocano altri.
+
+**Cacciatore spettrale** — Cacciatore da mischia rapido e fragile che insegue prima eroi visibili a distanza, di cura o comando. Intercettalo con la prima linea o rallentalo. Le guardie rispettano il raggio; lo spettro segue percorsi terrestri e non attraversa acqua.
+
+**Rinforzi tattici nelle incursioni**: Fortezza goblin → Sciamano goblin; Accampamento dei banditi → Sabotatore bandito; Tomba delle sabbie → Scorpione velenoso, Guardiano di arenaria; Castello dei non-morti → Necromante nemico, Cacciatore spettrale.
+
+Le incursioni della campagna seguono il suo elenco di nemici; i regni liberi usano tutte le truppe del covo.
