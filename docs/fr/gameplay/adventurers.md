@@ -280,3 +280,5 @@ Un héros désœuvré compare tout ce qui s'offre à lui et choisit le mieux : u
 ## Aventuriers et factions
 
 Les rebelles, traîtres et espions humains utilisent les mêmes classes, compétences apprises, équipements et potions que les aventuriers recrutés. Ils combattent et soutiennent selon les relations entre factions, dépensent les fonds et provisions limités de leur propre guilde et récupèrent dans un camp encore debout. Un traître conserve son nom et son histoire ; la faction d’un espion non démasqué reste inconnue. Les héros étrangers ne partagent ni les recherches ni les places de recrutement de la Couronne. Le pinceau de héros de l’éditeur permet de placer des aventuriers royaux, alliés, neutres ou hostiles.
+
+**Ours brun · Faucon de chasse** — Appelle un chien. Dès le niveau 8, choisit un faucon agile contre les tireurs, un ours robuste contre les armures lourdes ou groupes de trois, sinon un chien. Limite commune de 12 invocations sur la carte. Suit le maître sur terrain praticable, sans entretien ni butin, et reste lors du changement de mission.

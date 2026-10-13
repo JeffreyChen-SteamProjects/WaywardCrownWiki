@@ -280,3 +280,5 @@ Yapacak işi olmayan bir kahraman önündeki her seçeneği tartar ve en iyisini
 ## Maceracılar ve taraflar
 
 İsyancılar, hainler ve insan casuslar, işe alınan maceracılarla aynı sınıfları, öğrenilmiş becerileri, ekipmanı ve iksirleri kullanır. Taraf ilişkilerine göre savaşır ve yardım eder, kendi loncalarının sınırlı parasını ve erzağını harcar, ayakta kalan kamplarda iyileşirler. Hainler adlarını ve geçmişlerini korur; açığa çıkmamış casusun tarafı bilinmiyor olarak gösterilir. Yabancı kahramanlar Krallığın araştırmalarını veya işe alım kapasitesini paylaşmaz. Düzenleyicideki kahraman fırçası Krallığa ait, dost, tarafsız veya düşman maceracılar yerleştirebilir.
+
+**Boz ayı · Av şahini** — Bir tazı çağırır. Seviye 8’den sonra menzilli düşmanlara çevik şahin, ağır zırh veya üçlü gruplara dayanıklı ayı, diğer durumlarda tazı seçer. Haritanın 12 çağrı sınırını paylaşırlar; yürünebilir zeminde sahibini izler, bakım gerektirmez, ganimet vermez ve sonraki göreve taşınmazlar.

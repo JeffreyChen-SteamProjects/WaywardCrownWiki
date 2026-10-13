@@ -280,3 +280,5 @@ Bohater, który nie ma nic do roboty, porównuje wszystko, co może zrobić, i w
 ## Poszukiwacze przygód i frakcje
 
 Buntownicy, zdrajcy i ludzcy szpiedzy używają tych samych klas, poznanych umiejętności, wyposażenia i mikstur co zwerbowani bohaterowie. Walczą i wspierają zgodnie z relacjami frakcji, korzystają z ograniczonych funduszy i zapasów swojej gildii oraz odpoczywają w ocalałym obozie. Zdrajca zachowuje imię i historię; frakcja nierozpoznanego szpiega pozostaje nieznana. Obcy bohaterowie nie korzystają z badań ani miejsc rekrutacji Korony. Pędzel bohaterów w edytorze pozwala umieszczać bohaterów Korony, przyjaznych, neutralnych lub wrogich.
+
+**Niedźwiedź brunatny · Jastrząb łowiecki** — Przyzywa ogara. Od poziomu 8 wybiera zwinnego jastrzębia przeciw strzelcom, mocnego niedźwiedzia przeciw ciężkiej zbroi lub grupom od trzech, inaczej ogara. Wspólny limit mapy wynosi 12 przyzwanych. Podążają za właścicielem po dostępnej ziemi, bez utrzymania i łupów, nie przechodzą do kolejnej misji.

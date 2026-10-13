@@ -280,3 +280,5 @@ A hero with nothing to do weighs everything open to it and takes the best: a bou
 ## Adventurers and factions
 
 Rebel guild members, turncoats and human spies use the same classes, learned skills, equipment and potions as recruited adventurers. They fight and support according to faction relations, use their own guild’s limited money and supplies, and recover at a surviving camp. A turncoat keeps the same name and history. An unrevealed spy’s faction is shown as unknown. Foreign heroes do not share the crown’s research or recruitment capacity. The editor’s hero brush can place crown, friendly, neutral or hostile adventurers.
+
+**Brown bear · Hunting hawk** — Calls one hound. From level 8, chooses a nimble hawk against ranged foes, a sturdy bear against heavy armor or packs of three, otherwise a hound. Shares the 12-summon map cap; all follow their owner on walkable ground, cost no upkeep, leave no loot and stay behind on a new mission.

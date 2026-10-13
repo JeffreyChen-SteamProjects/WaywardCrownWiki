@@ -280,3 +280,5 @@ Un héroe sin nada que hacer compara todo lo que tiene a su alcance y elige lo m
 ## Aventureros y facciones
 
 Los rebeldes, traidores y espías humanos usan las mismas clases, habilidades aprendidas, equipo y pociones que los aventureros reclutados. Combaten y ayudan según las relaciones entre facciones, gastan el dinero y los suministros limitados de su propio gremio y se recuperan en un campamento que siga en pie. Los traidores conservan su nombre e historia; la facción de un espía no descubierto se muestra como desconocida. Los héroes externos no comparten las investigaciones ni los cupos de reclutamiento de la Corona. El pincel de héroes del editor permite colocar aventureros de la Corona, aliados, neutrales u hostiles.
+
+**Oso pardo · Halcón cazador** — Llama a un sabueso. Desde nivel 8 elige un halcón ágil ante enemigos a distancia, un oso resistente ante armadura pesada o grupos de tres, y un sabueso en otros casos. Comparten el límite de 12 invocaciones del mapa, siguen al dueño por terreno transitable, no cuestan mantenimiento ni dan botín y no pasan a otra misión.

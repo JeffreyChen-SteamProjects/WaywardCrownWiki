@@ -280,3 +280,5 @@ Một anh hùng không có việc gì làm sẽ cân nhắc mọi lựa chọn v
 ## Nhà thám hiểm và các phe
 
 Thành viên hội nổi loạn, kẻ phản bội và gián điệp loài người dùng cùng nghề, kỹ năng đã học, trang bị và thuốc với nhà thám hiểm được tuyển. Họ chiến đấu và hỗ trợ theo quan hệ phe, dùng tiền và vật tư hữu hạn của hội mình, rồi hồi phục tại trại còn tồn tại. Kẻ phản bội giữ tên và lịch sử; phe của gián điệp chưa lộ diện được ghi là chưa rõ. Anh hùng bên ngoài không dùng chung nghiên cứu hay chỉ tiêu tuyển quân của vương quốc. Cọ anh hùng trong trình chỉnh sửa đặt được nhà thám hiểm của vương quốc, đồng minh, trung lập hoặc thù địch.
+
+**Gấu nâu · Chim ưng săn mồi** — Gọi một chó săn. Từ cấp 8 chọn chim ưng linh hoạt khi gặp địch đánh xa, gấu khỏe khi gặp giáp nặng hoặc nhóm từ ba, còn lại chọn chó săn. Chung giới hạn 12 đơn vị triệu hồi trên bản đồ; theo chủ trên đất đi được, không tốn phí duy trì, không để lại chiến lợi phẩm và không sang nhiệm vụ mới.

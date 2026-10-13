@@ -280,3 +280,5 @@ Un eroe senza nulla da fare valuta tutto ciò che può fare e sceglie il meglio:
 ## Avventurieri e fazioni
 
 Ribelli, traditori e spie umane usano le stesse classi, abilità apprese, attrezzature e pozioni degli avventurieri reclutati. Combattono e aiutano in base alle relazioni fra fazioni, consumano il denaro e le scorte limitate della propria gilda e si riprendono in un accampamento ancora esistente. I traditori conservano nome e storia; la fazione delle spie non scoperte resta sconosciuta. Gli eroi esterni non condividono ricerche né posti di reclutamento della Corona. Il pennello degli eroi nell’editor può collocare avventurieri della Corona, alleati, neutrali o ostili.
+
+**Orso bruno · Falco da caccia** — Chiama un segugio. Dal livello 8 sceglie un falco agile contro nemici a distanza, un orso robusto contro armature pesanti o gruppi di tre, altrimenti un segugio. Condividono il limite di 12 evocazioni sulla mappa, seguono il padrone su terreno percorribile, senza mantenimento né bottino, e restano nella missione precedente.

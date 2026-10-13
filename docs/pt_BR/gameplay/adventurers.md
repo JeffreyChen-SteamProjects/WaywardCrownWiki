@@ -280,3 +280,5 @@ Um herói sem nada para fazer compara tudo o que está ao seu alcance e escolhe 
 ## Aventureiros e facções
 
 Rebeldes, traidores e espiões humanos usam as mesmas classes, habilidades aprendidas, equipamentos e poções dos aventureiros recrutados. Lutam e ajudam conforme as relações entre facções, gastam o dinheiro e os suprimentos limitados da própria guilda e se recuperam em um acampamento que ainda exista. Traidores mantêm nome e histórico; a facção de um espião não revelado aparece como desconhecida. Heróis externos não compartilham pesquisas nem vagas de recrutamento da Coroa. O pincel de heróis do editor permite colocar aventureiros da Coroa, aliados, neutros ou hostis.
+
+**Urso pardo · Falcão de caça** — Chama um cão. Do nível 8 em diante, escolhe um falcão ágil contra inimigos à distância, um urso resistente contra armadura pesada ou grupos de três, e um cão nos demais casos. Compartilham o limite de 12 invocações no mapa, seguem o dono em terreno transitável, não custam manutenção nem dão saque e ficam para trás na próxima missão.

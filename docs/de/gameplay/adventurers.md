@@ -280,3 +280,5 @@ Ein Held ohne Aufgabe wägt alles ab, was ihm offensteht, und nimmt das Beste: e
 ## Abenteurer und Fraktionen
 
 Rebellen, Überläufer und menschliche Spione nutzen dieselben Klassen, erlernten Fähigkeiten, Ausrüstung und Tränke wie rekrutierte Abenteurer. Ihre Fraktionsbeziehungen bestimmen Kampf und Unterstützung. Sie verbrauchen das begrenzte Geld und die Vorräte ihrer eigenen Gilde und erholen sich in einem bestehenden Lager. Überläufer behalten Namen und Geschichte; bei unenttarnten Spionen bleibt die Fraktion unbekannt. Fremde Helden teilen weder Forschung noch Rekrutierungsplätze der Krone. Der Heldenpinsel im Editor setzt königliche, verbündete, neutrale oder feindliche Abenteurer.
+
+**Braunbär · Jagdfalke** — Ruft einen Hund. Ab Stufe 8 wird gegen Fernkämpfer ein wendiger Falke, gegen schwere Rüstung oder Gruppen ab drei ein kräftiger Bär gewählt, sonst ein Hund. Alle teilen das Kartenlimit von 12 Beschworenen, folgen auf begehbarem Boden, kosten keinen Unterhalt, geben keine Beute und bleiben beim Missionswechsel zurück.
