@@ -282,3 +282,66 @@ Yapacak işi olmayan bir kahraman önündeki her seçeneği tartar ve en iyisini
 İsyancılar, hainler ve insan casuslar, işe alınan maceracılarla aynı sınıfları, öğrenilmiş becerileri, ekipmanı ve iksirleri kullanır. Taraf ilişkilerine göre savaşır ve yardım eder, kendi loncalarının sınırlı parasını ve erzağını harcar, ayakta kalan kamplarda iyileşirler. Hainler adlarını ve geçmişlerini korur; açığa çıkmamış casusun tarafı bilinmiyor olarak gösterilir. Yabancı kahramanlar Krallığın araştırmalarını veya işe alım kapasitesini paylaşmaz. Düzenleyicideki kahraman fırçası Krallığa ait, dost, tarafsız veya düşman maceracılar yerleştirebilir.
 
 **Boz ayı · Av şahini** — Bir tazı çağırır. Seviye 8’den sonra menzilli düşmanlara çevik şahin, ağır zırh veya üçlü gruplara dayanıklı ayı, diğer durumlarda tazı seçer. Haritanın 12 çağrı sınırını paylaşırlar; yürünebilir zeminde sahibini izler, bakım gerektirmez, ganimet vermez ve sonraki göreve taşınmazlar.
+
+<!-- BEGIN COMBAT PAIRINGS -->
+### Savaş birleşimleri
+
+Her bağımsız deneme sekiz adet seviye 8 kahramanla başlar. Toplam 7000 altın sermaye; binaları, gerekli yükseltmeleri, araştırmayı, kişi başı bir iksiri, sınırlı reaktif veya kuşatma ikmalini ve kişi başı 200 altını içerir. Kalanı hazinededir. Kahramanlar hareket ve becerileri kendileri seçer; bina ve ödüllerle yönlendir.
+
+İki seçenek de 17 ve 73 tohumlarında kazandı. Süreler ilk karşılaşmayı anlatır, tüm seferi değil. Kamp yıkılınca yaşayan muhafızlar kalır.
+
+#### Kalkan dayanıklılığı
+
+Kalkan ve şifa, zırha karşı saldırganlar ister.
+
+| # | Kahramanlar | Binalar | Araştırma | Sermaye | Süre (sn) | Yaşayan | Hasar/sn | Şifa / kalkan emişi |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Kalkan Şövalyesi ×2, Hospitalye ×2, Kolcu ×2, Büyücü ×2 | Burç, Sığınak Tapınağı, Büyücü Kulesi | Kalkan örgüsü, Şifa disiplini | 7000 | 17–22.6 | 7 | 136.28–181.18 | 34 / 103, 130 / 257 |
+| 2 | Savaşçı ×2, Büyücü ×2, Kolcu ×4 | Kışla, Büyücü Kulesi, Kolcu Kulübesi | Savaş Taktikleri, Arkan Yakınlık | 7000 | 10.6–13.6 | 7 | 226.47–290.57 | 0 / 0, 0 / 0 |
+
+#### Zehir kontrolü
+
+Zehir ücretli reaktif ister; arındırma ve dağınık hedefler etkisini azaltır.
+
+| # | Kahramanlar | Binalar | Araştırma | Sermaye | Süre (sn) | Yaşayan | Hasar/sn | Şifa / kalkan emişi |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Simyacı ×2, Kalkan Şövalyesi ×2, Hospitalye ×2, Kolcu ×2 | Simyacılar loncası, Burç, Sığınak Tapınağı, Arınma Sunağı | Aşındırıcı reaktifler, Kalkan örgüsü, Arındırma menzili | 7000 | 10.6–11.6 | 8 | 132.59–145.09 | 0 / 205, 31 / 164 |
+| 2 | Büyücü ×3, Kolcu ×3, Savaşçı ×2 | Büyücü Kulesi, Kolcu Kulübesi, Arınma Sunağı | Arkan Yakınlık, Keskin Gözler, Arındırma menzili | 7000 | 8.6–9.6 | 8 | 160.21–178.84 | 0 / 0, 0 / 0 |
+
+#### Menzilli kuleler
+
+Kuleler sabit alanı korur; avcılar ve istihkâmcılar açık arka safları tehdit eder.
+
+| # | Kahramanlar | Binalar | Araştırma | Sermaye | Süre (sn) | Yaşayan | Hasar/sn | Şifa / kalkan emişi |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Muhafız ×2, Kolcu ×4, Yol Bekçisi ×2 | Muhafız Mevzisi, Kolcu Kulübesi, Geçiş Karakolu, Ok Kulesi, Ok Kulesi, Ayaz Kulesi, İşaret Ateşi | Don kafesi, İşaret mercekleri, Keskin Gözler | 7000 | 7.6–8 | 8 | 93.75–98.68 | 0 / 66, 0 / 0 |
+| 2 | Savaşçı ×3, Büyücü ×2, Kolcu ×3 | Kışla, Büyücü Kulesi, Ok Kulesi, Ayaz Kulesi | Savaş Taktikleri, Don kafesi | 7000 | 5–5 | 8 | 150–150 | 0 / 0, 0 / 0 |
+
+#### Hayvanlı sefer
+
+Hayvanlar yaşayan muhafıza bağlıdır; sağlam ön saflar saldırıyı geciktirir.
+
+| # | Kahramanlar | Binalar | Araştırma | Sermaye | Süre (sn) | Yaşayan | Hasar/sn | Şifa / kalkan emişi |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Hayvan Bekçisi ×3, İz Sürücü ×3, Kolcu ×2 | Hayvan Ocağı, Yaban kampı, Kolcu Kulübesi | Sürü eğitimi, Canavar muhafızı, İsabetli uçuş | 7000 | 2–2.6 | 8 | 484.62–630 | 0 / 0, 0 / 0 |
+| 2 | Savaşçı ×2, Kolcu ×3, Büyücü ×3 | Kışla, Kolcu Kulübesi, Büyücü Kulesi | Keskin Gözler, Savaş Taktikleri | 7000 | 7.6–7.6 | 8 | 165.79–165.79 | 0 / 0, 0 / 0 |
+
+#### Yakın dövüş akını
+
+Yakın akın zehir alanlarına ve çapraz ateşe açıktır.
+
+| # | Kahramanlar | Binalar | Araştırma | Sermaye | Süre (sn) | Yaşayan | Hasar/sn | Şifa / kalkan emişi |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Yeminli Savaşçı ×4, Sancaktar ×2, Kolcu ×2 | Savaş Salonu, Levazım Deposu, Kolcu Kulübesi | Kan yemini, Sancak muhafızı | 7000 | 4–4 | 8 | 165–169.5 | 0 / 0, 0 / 0 |
+| 2 | Savaşçı ×4, Büyücü ×2, Kolcu ×2 | Kışla, Büyücü Kulesi, Kolcu Kulübesi | Savaş Taktikleri, Demir Deri | 7000 | 4–4.6 | 8 | 147.39–165 | 0 / 0, 0 / 0 |
+
+#### Kuşatma yarma
+
+Kuşatma ikmali sınırlıdır. İkmal yolunu koru ve yeni muhafızlar gelmeden kampı yık.
+
+| # | Kahramanlar | Binalar | Araştırma | Sermaye | Süre (sn) | Yaşayan | Hasar/sn | Şifa / kalkan emişi |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Sancaktar ×2, Yeminli Savaşçı ×2, Kolcu ×4 | Levazım Deposu, Savaş Salonu, Kolcu Kulübesi | Kuşatma ikmali, Kan yemini | 7000 | 39.6–40.8 | 8 | 92.16–98.36 | 0 / 0, 0 / 0 |
+| 2 | Kolcu ×4, Savaşçı ×2, Büyücü ×2 | Kolcu Kulübesi, Kışla, Büyücü Kulesi | Keskin Gözler, Savaş Taktikleri | 7000 | 37.2–48 | 8 | 80.69–100.94 | 0 / 0, 0 / 0 |
+
+<!-- END COMBAT PAIRINGS -->

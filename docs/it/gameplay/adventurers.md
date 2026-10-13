@@ -282,3 +282,66 @@ Un eroe senza nulla da fare valuta tutto ciò che può fare e sceglie il meglio:
 Ribelli, traditori e spie umane usano le stesse classi, abilità apprese, attrezzature e pozioni degli avventurieri reclutati. Combattono e aiutano in base alle relazioni fra fazioni, consumano il denaro e le scorte limitate della propria gilda e si riprendono in un accampamento ancora esistente. I traditori conservano nome e storia; la fazione delle spie non scoperte resta sconosciuta. Gli eroi esterni non condividono ricerche né posti di reclutamento della Corona. Il pennello degli eroi nell’editor può collocare avventurieri della Corona, alleati, neutrali o ostili.
 
 **Orso bruno · Falco da caccia** — Chiama un segugio. Dal livello 8 sceglie un falco agile contro nemici a distanza, un orso robusto contro armature pesanti o gruppi di tre, altrimenti un segugio. Condividono il limite di 12 evocazioni sulla mappa, seguono il padrone su terreno percorribile, senza mantenimento né bottino, e restano nella missione precedente.
+
+<!-- BEGIN COMBAT PAIRINGS -->
+### Combinazioni di battaglia
+
+Ogni prova indipendente inizia con otto eroi di livello 8. Il capitale totale di 7000 oro include edifici, potenziamenti necessari, ricerche, una pozione per eroe, reagenti o scorte finite e 200 oro per eroe. Il resto rimane nel tesoro. Gli eroi decidono movimento e abilità; guidali con edifici e taglie.
+
+Entrambe le varianti hanno vinto con semi 17 e 73. I tempi riguardano lo scontro iniziale, non un’intera campagna. I difensori vivi restano dopo la caduta del campo.
+
+#### Resistenza con scudi
+
+Scudi e cure richiedono attaccanti contro le armature.
+
+| # | Eroi | Edifici | Ricerca | Capitale | Tempo (s) | Vivi | Danni/s | Cure / assorbimento scudi |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Cavaliere dello Scudo ×2, Ospitaliere ×2, Ranger ×2, Mago ×2 | Bastione, Santuario, Torre del mago | Tessitura protettiva, Disciplina curativa | 7000 | 17–22.6 | 7 | 136.28–181.18 | 34 / 103, 130 / 257 |
+| 2 | Guerriero ×2, Mago ×2, Ranger ×4 | Caserma, Torre del mago, Capanna del ranger | Tattiche di battaglia, Affinità arcana | 7000 | 10.6–13.6 | 7 | 226.47–290.57 | 0 / 0, 0 / 0 |
+
+#### Controllo velenoso
+
+Il veleno richiede reagenti pagati e soffre purificazione e bersagli dispersi.
+
+| # | Eroi | Edifici | Ricerca | Capitale | Tempo (s) | Vivi | Danni/s | Cure / assorbimento scudi |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Alchimista ×2, Cavaliere dello Scudo ×2, Ospitaliere ×2, Ranger ×2 | Gilda degli alchimisti, Bastione, Santuario, Altare della purificazione | Reagenti caustici, Tessitura protettiva, Raggio purificante | 7000 | 10.6–11.6 | 8 | 132.59–145.09 | 0 / 205, 31 / 164 |
+| 2 | Mago ×3, Ranger ×3, Guerriero ×2 | Torre del mago, Capanna del ranger, Altare della purificazione | Affinità arcana, Occhio acuto, Raggio purificante | 7000 | 8.6–9.6 | 8 | 160.21–178.84 | 0 / 0, 0 / 0 |
+
+#### Torri a distanza
+
+Le torri coprono zone fisse; cacciatori e guastatori minacciano il retro esposto.
+
+| # | Eroi | Edifici | Ricerca | Capitale | Tempo (s) | Vivi | Danni/s | Cure / assorbimento scudi |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Guardia ×2, Ranger ×4, Guardia delle Strade ×2 | Posto di guardia, Capanna del ranger, Posto di Pedaggio, Torre di frecce, Torre di frecce, Torre del gelo, Fanale | Reticolo di gelo, Lenti del faro, Occhio acuto | 7000 | 7.6–8 | 8 | 93.75–98.68 | 0 / 66, 0 / 0 |
+| 2 | Guerriero ×3, Mago ×2, Ranger ×3 | Caserma, Torre del mago, Torre di frecce, Torre del gelo | Tattiche di battaglia, Reticolo di gelo | 7000 | 5–5 | 8 | 150–150 | 0 / 0, 0 / 0 |
+
+#### Spedizione animale
+
+Gli animali dipendono da custodi vivi; fronti robusti rallentano la loro forza.
+
+| # | Eroi | Edifici | Ricerca | Capitale | Tempo (s) | Vivi | Danni/s | Cure / assorbimento scudi |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Custode delle Bestie ×3, Battistrada ×3, Ranger ×2 | Rifugio delle Bestie, Campo selvaggio, Capanna del ranger | Addestramento del branco, Guardia delle bestie, Volo sicuro | 7000 | 2–2.6 | 8 | 484.62–630 | 0 / 0, 0 / 0 |
+| 2 | Guerriero ×2, Ranger ×3, Mago ×3 | Caserma, Capanna del ranger, Torre del mago | Occhio acuto, Tattiche di battaglia | 7000 | 7.6–7.6 | 8 | 165.79–165.79 | 0 / 0, 0 / 0 |
+
+#### Assalto ravvicinato
+
+L’assalto ravvicinato è vulnerabile a zone velenose e fuoco incrociato.
+
+| # | Eroi | Edifici | Ricerca | Capitale | Tempo (s) | Vivi | Danni/s | Cure / assorbimento scudi |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Giurato ×4, Alfiere ×2, Ranger ×2 | Sala della Guerra, Intendenza, Capanna del ranger | Giuramento di sangue, Guardia dello stendardo | 7000 | 4–4 | 8 | 165–169.5 | 0 / 0, 0 / 0 |
+| 2 | Guerriero ×4, Mago ×2, Ranger ×2 | Caserma, Torre del mago, Capanna del ranger | Tattiche di battaglia, Pelle di ferro | 7000 | 4–4.6 | 8 | 147.39–165 | 0 / 0, 0 / 0 |
+
+#### Breccia d’assedio
+
+Le scorte d’assedio sono finite. Difendi la via dei rifornimenti e distruggi il campo prima dei rinforzi.
+
+| # | Eroi | Edifici | Ricerca | Capitale | Tempo (s) | Vivi | Danni/s | Cure / assorbimento scudi |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Alfiere ×2, Giurato ×2, Ranger ×4 | Intendenza, Sala della Guerra, Capanna del ranger | Scorte d’assedio, Giuramento di sangue | 7000 | 39.6–40.8 | 8 | 92.16–98.36 | 0 / 0, 0 / 0 |
+| 2 | Ranger ×4, Guerriero ×2, Mago ×2 | Capanna del ranger, Caserma, Torre del mago | Occhio acuto, Tattiche di battaglia | 7000 | 37.2–48 | 8 | 80.69–100.94 | 0 / 0, 0 / 0 |
+
+<!-- END COMBAT PAIRINGS -->

@@ -282,3 +282,66 @@ Un héroe sin nada que hacer compara todo lo que tiene a su alcance y elige lo m
 Los rebeldes, traidores y espías humanos usan las mismas clases, habilidades aprendidas, equipo y pociones que los aventureros reclutados. Combaten y ayudan según las relaciones entre facciones, gastan el dinero y los suministros limitados de su propio gremio y se recuperan en un campamento que siga en pie. Los traidores conservan su nombre e historia; la facción de un espía no descubierto se muestra como desconocida. Los héroes externos no comparten las investigaciones ni los cupos de reclutamiento de la Corona. El pincel de héroes del editor permite colocar aventureros de la Corona, aliados, neutrales u hostiles.
 
 **Oso pardo · Halcón cazador** — Llama a un sabueso. Desde nivel 8 elige un halcón ágil ante enemigos a distancia, un oso resistente ante armadura pesada o grupos de tres, y un sabueso en otros casos. Comparten el límite de 12 invocaciones del mapa, siguen al dueño por terreno transitable, no cuestan mantenimiento ni dan botín y no pasan a otra misión.
+
+<!-- BEGIN COMBAT PAIRINGS -->
+### Combinaciones de combate
+
+Cada prueba independiente empieza con ocho héroes de nivel 8. El capital total de 7000 oro incluye edificios, mejoras necesarias, investigaciones, una poción por héroe, reactivos o suministros finitos y 200 oro por héroe. El resto queda en el tesoro. Los héroes deciden sus movimientos y habilidades; guíalos con edificios y recompensas.
+
+Ambas variantes ganaron con las semillas 17 y 73. Los tiempos representan el encuentro inicial, no una campaña entera. Los defensores vivos permanecen tras caer el puesto.
+
+#### Resistencia con escudos
+
+Escudos y curación necesitan atacantes contra armaduras.
+
+| # | Héroes | Edificios | Investigación | Capital | Tiempo (s) | Vivos | Daño/s | Curación / escudos absorbidos |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Caballero del Escudo ×2, Hospitalario ×2, Explorador ×2, Mago ×2 | Bastión, Santuario, Torre del mago | Tejido protector, Disciplina curativa | 7000 | 17–22.6 | 7 | 136.28–181.18 | 34 / 103, 130 / 257 |
+| 2 | Guerrero ×2, Mago ×2, Explorador ×4 | Cuartel, Torre del mago, Refugio del explorador | Tácticas de combate, Afinidad arcana | 7000 | 10.6–13.6 | 7 | 226.47–290.57 | 0 / 0, 0 / 0 |
+
+#### Control con veneno
+
+El veneno requiere reactivos pagados y pierde valor ante purificación y objetivos dispersos.
+
+| # | Héroes | Edificios | Investigación | Capital | Tiempo (s) | Vivos | Daño/s | Curación / escudos absorbidos |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Alquimista ×2, Caballero del Escudo ×2, Hospitalario ×2, Explorador ×2 | Gremio de alquimia, Bastión, Santuario, Altar de purificación | Reactivos cáusticos, Tejido protector, Alcance purificador | 7000 | 10.6–11.6 | 8 | 132.59–145.09 | 0 / 205, 31 / 164 |
+| 2 | Mago ×3, Explorador ×3, Guerrero ×2 | Torre del mago, Refugio del explorador, Altar de purificación | Afinidad arcana, Ojos agudos, Alcance purificador | 7000 | 8.6–9.6 | 8 | 160.21–178.84 | 0 / 0, 0 / 0 |
+
+#### Torres a distancia
+
+Las torres cubren zonas fijas; cazadores y zapadores amenazan la retaguardia expuesta.
+
+| # | Héroes | Edificios | Investigación | Capital | Tiempo (s) | Vivos | Daño/s | Curación / escudos absorbidos |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Guardia ×2, Explorador ×4, Guardacaminos ×2 | Puesto de guardia, Refugio del explorador, Puesto de Peaje, Torre de arqueros, Torre de arqueros, Torre de escarcha, Almenara | Red de escarcha, Lentes de almenara, Ojos agudos | 7000 | 7.6–8 | 8 | 93.75–98.68 | 0 / 66, 0 / 0 |
+| 2 | Guerrero ×3, Mago ×2, Explorador ×3 | Cuartel, Torre del mago, Torre de arqueros, Torre de escarcha | Tácticas de combate, Red de escarcha | 7000 | 5–5 | 8 | 150–150 | 0 / 0, 0 / 0 |
+
+#### Expedición con animales
+
+Los animales dependen de guardianes vivos; un frente resistente retrasa su ataque.
+
+| # | Héroes | Edificios | Investigación | Capital | Tiempo (s) | Vivos | Daño/s | Curación / escudos absorbidos |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Guardián de Bestias ×3, Batidor ×3, Explorador ×2 | Refugio de Bestias, Campamento salvaje, Refugio del explorador | Adiestramiento de manada, Guardia de bestias, Vuelo certero | 7000 | 2–2.6 | 8 | 484.62–630 | 0 / 0, 0 / 0 |
+| 2 | Guerrero ×2, Explorador ×3, Mago ×3 | Cuartel, Refugio del explorador, Torre del mago | Ojos agudos, Tácticas de combate | 7000 | 7.6–7.6 | 8 | 165.79–165.79 | 0 / 0, 0 / 0 |
+
+#### Asalto cuerpo a cuerpo
+
+El asalto cuerpo a cuerpo es vulnerable a zonas venenosas y fuego cruzado.
+
+| # | Héroes | Edificios | Investigación | Capital | Tiempo (s) | Vivos | Daño/s | Curación / escudos absorbidos |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Juramentado ×4, Abanderado ×2, Explorador ×2 | Salón de Guerra, Intendencia, Refugio del explorador | Juramento de sangre, Guardia del estandarte | 7000 | 4–4 | 8 | 165–169.5 | 0 / 0, 0 / 0 |
+| 2 | Guerrero ×4, Mago ×2, Explorador ×2 | Cuartel, Torre del mago, Refugio del explorador | Tácticas de combate, Piel de hierro | 7000 | 4–4.6 | 8 | 147.39–165 | 0 / 0, 0 / 0 |
+
+#### Brecha de asedio
+
+Los suministros de asedio son finitos. Protege su ruta y derriba el puesto antes de los refuerzos.
+
+| # | Héroes | Edificios | Investigación | Capital | Tiempo (s) | Vivos | Daño/s | Curación / escudos absorbidos |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Abanderado ×2, Juramentado ×2, Explorador ×4 | Intendencia, Salón de Guerra, Refugio del explorador | Provisión de asedio, Juramento de sangre | 7000 | 39.6–40.8 | 8 | 92.16–98.36 | 0 / 0, 0 / 0 |
+| 2 | Explorador ×4, Guerrero ×2, Mago ×2 | Refugio del explorador, Cuartel, Torre del mago | Ojos agudos, Tácticas de combate | 7000 | 37.2–48 | 8 | 80.69–100.94 | 0 / 0, 0 / 0 |
+
+<!-- END COMBAT PAIRINGS -->

@@ -282,3 +282,66 @@ Um herói sem nada para fazer compara tudo o que está ao seu alcance e escolhe 
 Rebeldes, traidores e espiões humanos usam as mesmas classes, habilidades aprendidas, equipamentos e poções dos aventureiros recrutados. Lutam e ajudam conforme as relações entre facções, gastam o dinheiro e os suprimentos limitados da própria guilda e se recuperam em um acampamento que ainda exista. Traidores mantêm nome e histórico; a facção de um espião não revelado aparece como desconhecida. Heróis externos não compartilham pesquisas nem vagas de recrutamento da Coroa. O pincel de heróis do editor permite colocar aventureiros da Coroa, aliados, neutros ou hostis.
 
 **Urso pardo · Falcão de caça** — Chama um cão. Do nível 8 em diante, escolhe um falcão ágil contra inimigos à distância, um urso resistente contra armadura pesada ou grupos de três, e um cão nos demais casos. Compartilham o limite de 12 invocações no mapa, seguem o dono em terreno transitável, não custam manutenção nem dão saque e ficam para trás na próxima missão.
+
+<!-- BEGIN COMBAT PAIRINGS -->
+### Combinações de combate
+
+Cada prova independente começa com oito heróis de nível 8. O capital total de 7000 ouro inclui edifícios, melhorias necessárias, pesquisas, uma poção por herói, reagentes ou suprimentos finitos e 200 ouro por herói. O restante fica no tesouro. Heróis decidem seus movimentos e habilidades; guie-os com edifícios e recompensas.
+
+Ambas as variantes venceram com sementes 17 e 73. Os tempos descrevem o encontro inicial, não uma campanha inteira. Defensores vivos permanecem após a queda do posto.
+
+#### Sustentação com escudos
+
+Escudos e cura precisam de atacantes contra armaduras.
+
+| # | Heróis | Edifícios | Pesquisa | Capital | Tempo (s) | Vivos | Dano/s | Cura / absorção dos escudos |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Cavaleiro do Escudo ×2, Hospitalário ×2, Patrulheiro ×2, Mago ×2 | Bastião, Santuário, Torre do Mago | Trama protetora, Disciplina curativa | 7000 | 17–22.6 | 7 | 136.28–181.18 | 34 / 103, 130 / 257 |
+| 2 | Guerreiro ×2, Mago ×2, Patrulheiro ×4 | Quartel, Torre do Mago, Abrigo do Patrulheiro | Táticas de Batalha, Afinidade Arcana | 7000 | 10.6–13.6 | 7 | 226.47–290.57 | 0 / 0, 0 / 0 |
+
+#### Controle venenoso
+
+Veneno exige reagentes pagos e perde valor contra purificação e alvos dispersos.
+
+| # | Heróis | Edifícios | Pesquisa | Capital | Tempo (s) | Vivos | Dano/s | Cura / absorção dos escudos |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Alquimista ×2, Cavaleiro do Escudo ×2, Hospitalário ×2, Patrulheiro ×2 | Guilda de alquimia, Bastião, Santuário, Altar de purificação | Reagentes cáusticos, Trama protetora, Alcance purificador | 7000 | 10.6–11.6 | 8 | 132.59–145.09 | 0 / 205, 31 / 164 |
+| 2 | Mago ×3, Patrulheiro ×3, Guerreiro ×2 | Torre do Mago, Abrigo do Patrulheiro, Altar de purificação | Afinidade Arcana, Olhos Aguçados, Alcance purificador | 7000 | 8.6–9.6 | 8 | 160.21–178.84 | 0 / 0, 0 / 0 |
+
+#### Torres a distância
+
+Torres cobrem áreas fixas; caçadores e sapadores ameaçam a retaguarda exposta.
+
+| # | Heróis | Edifícios | Pesquisa | Capital | Tempo (s) | Vivos | Dano/s | Cura / absorção dos escudos |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Guarda ×2, Patrulheiro ×4, Guarda das Estradas ×2 | Posto de Guarda, Abrigo do Patrulheiro, Posto de Pedágio, Torre de Flechas, Torre de Flechas, Torre de geada, Farol de aviso | Grade de gelo, Lentes do farol, Olhos Aguçados | 7000 | 7.6–8 | 8 | 93.75–98.68 | 0 / 66, 0 / 0 |
+| 2 | Guerreiro ×3, Mago ×2, Patrulheiro ×3 | Quartel, Torre do Mago, Torre de Flechas, Torre de geada | Táticas de Batalha, Grade de gelo | 7000 | 5–5 | 8 | 150–150 | 0 / 0, 0 / 0 |
+
+#### Expedição animal
+
+Animais dependem de guardiões vivos; frentes resistentes atrasam sua explosão.
+
+| # | Heróis | Edifícios | Pesquisa | Capital | Tempo (s) | Vivos | Dano/s | Cura / absorção dos escudos |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Guardião das Feras ×3, Batedor ×3, Patrulheiro ×2 | Abrigo das Feras, Acampamento selvagem, Abrigo do Patrulheiro | Treino da matilha, Guarda das feras, Voo certeiro | 7000 | 2–2.6 | 8 | 484.62–630 | 0 / 0, 0 / 0 |
+| 2 | Guerreiro ×2, Patrulheiro ×3, Mago ×3 | Quartel, Abrigo do Patrulheiro, Torre do Mago | Olhos Aguçados, Táticas de Batalha | 7000 | 7.6–7.6 | 8 | 165.79–165.79 | 0 / 0, 0 / 0 |
+
+#### Avanço corpo a corpo
+
+Avanços corpo a corpo sofrem com zonas de veneno e fogo cruzado.
+
+| # | Heróis | Edifícios | Pesquisa | Capital | Tempo (s) | Vivos | Dano/s | Cura / absorção dos escudos |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Juramentado ×4, Porta-estandarte ×2, Patrulheiro ×2 | Salão de Guerra, Intendência, Abrigo do Patrulheiro | Juramento de sangue, Guarda do estandarte | 7000 | 4–4 | 8 | 165–169.5 | 0 / 0, 0 / 0 |
+| 2 | Guerreiro ×4, Mago ×2, Patrulheiro ×2 | Quartel, Torre do Mago, Abrigo do Patrulheiro | Táticas de Batalha, Pele de Ferro | 7000 | 4–4.6 | 8 | 147.39–165 | 0 / 0, 0 / 0 |
+
+#### Ruptura de cerco
+
+Suprimentos de cerco são finitos. Proteja a rota e destrua o posto antes de novos guardas.
+
+| # | Heróis | Edifícios | Pesquisa | Capital | Tempo (s) | Vivos | Dano/s | Cura / absorção dos escudos |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Porta-estandarte ×2, Juramentado ×2, Patrulheiro ×4 | Intendência, Salão de Guerra, Abrigo do Patrulheiro | Provisão de cerco, Juramento de sangue | 7000 | 39.6–40.8 | 8 | 92.16–98.36 | 0 / 0, 0 / 0 |
+| 2 | Patrulheiro ×4, Guerreiro ×2, Mago ×2 | Abrigo do Patrulheiro, Quartel, Torre do Mago | Olhos Aguçados, Táticas de Batalha | 7000 | 37.2–48 | 8 | 80.69–100.94 | 0 / 0, 0 / 0 |
+
+<!-- END COMBAT PAIRINGS -->

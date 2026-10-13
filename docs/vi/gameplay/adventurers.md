@@ -282,3 +282,66 @@ Một anh hùng không có việc gì làm sẽ cân nhắc mọi lựa chọn v
 Thành viên hội nổi loạn, kẻ phản bội và gián điệp loài người dùng cùng nghề, kỹ năng đã học, trang bị và thuốc với nhà thám hiểm được tuyển. Họ chiến đấu và hỗ trợ theo quan hệ phe, dùng tiền và vật tư hữu hạn của hội mình, rồi hồi phục tại trại còn tồn tại. Kẻ phản bội giữ tên và lịch sử; phe của gián điệp chưa lộ diện được ghi là chưa rõ. Anh hùng bên ngoài không dùng chung nghiên cứu hay chỉ tiêu tuyển quân của vương quốc. Cọ anh hùng trong trình chỉnh sửa đặt được nhà thám hiểm của vương quốc, đồng minh, trung lập hoặc thù địch.
 
 **Gấu nâu · Chim ưng săn mồi** — Gọi một chó săn. Từ cấp 8 chọn chim ưng linh hoạt khi gặp địch đánh xa, gấu khỏe khi gặp giáp nặng hoặc nhóm từ ba, còn lại chọn chó săn. Chung giới hạn 12 đơn vị triệu hồi trên bản đồ; theo chủ trên đất đi được, không tốn phí duy trì, không để lại chiến lợi phẩm và không sang nhiệm vụ mới.
+
+<!-- BEGIN COMBAT PAIRINGS -->
+### Phối hợp chiến đấu
+
+Mỗi thử thách độc lập bắt đầu với tám anh hùng cấp 8. Tổng vốn 7000 vàng gồm công trình, nâng cấp cần thiết, nghiên cứu, mỗi người một bình thuốc, thuốc độc hoặc tiếp tế công thành có hạn và mỗi anh hùng 200 vàng. Phần dư nằm trong kho. Anh hùng tự chọn di chuyển và kỹ năng; dẫn dắt bằng công trình và tiền thưởng.
+
+Cả hai cách đã thắng với hạt giống 17 và 73. Thời gian chỉ mô tả cuộc chạm trán đầu, không phải cả chiến dịch. Lính còn sống vẫn ở lại khi trại bị phá.
+
+#### Duy trì bằng khiên
+
+Khiên và chữa trị vẫn cần người gây sát thương chống giáp.
+
+| # | Anh hùng | Công trình | Nghiên cứu | Vốn | Thời gian (giây) | Sống | Sát thương/giây | Chữa trị / khiên hấp thụ |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Kỵ sĩ Khiên ×2, Tu sĩ Cứu thương ×2, Xạ thủ ×2, Pháp sư ×2 | Pháo đài, Thánh đường, Tháp Pháp sư | Dệt lá chắn, Rèn chữa trị | 7000 | 17–22.6 | 7 | 136.28–181.18 | 34 / 103, 130 / 257 |
+| 2 | Chiến binh ×2, Pháp sư ×2, Xạ thủ ×4 | Doanh trại, Tháp Pháp sư, Nhà Xạ thủ | Chiến thuật, Ái lực huyền bí | 7000 | 10.6–13.6 | 7 | 226.47–290.57 | 0 / 0, 0 / 0 |
+
+#### Khống chế bằng độc
+
+Độc cần thuốc trả tiền và yếu trước thanh tẩy hay mục tiêu phân tán.
+
+| # | Anh hùng | Công trình | Nghiên cứu | Vốn | Thời gian (giây) | Sống | Sát thương/giây | Chữa trị / khiên hấp thụ |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Nhà giả kim ×2, Kỵ sĩ Khiên ×2, Tu sĩ Cứu thương ×2, Xạ thủ ×2 | Hội giả kim, Pháo đài, Thánh đường, Bàn thờ thanh tẩy | Thuốc ăn mòn, Dệt lá chắn, Tầm thanh tẩy | 7000 | 10.6–11.6 | 8 | 132.59–145.09 | 0 / 205, 31 / 164 |
+| 2 | Pháp sư ×3, Xạ thủ ×3, Chiến binh ×2 | Tháp Pháp sư, Nhà Xạ thủ, Bàn thờ thanh tẩy | Ái lực huyền bí, Mắt tinh, Tầm thanh tẩy | 7000 | 8.6–9.6 | 8 | 160.21–178.84 | 0 / 0, 0 / 0 |
+
+#### Tháp tầm xa
+
+Tháp chỉ che vùng cố định; thợ săn và công binh đe dọa hậu tuyến hở.
+
+| # | Anh hùng | Công trình | Nghiên cứu | Vốn | Thời gian (giây) | Sống | Sát thương/giây | Chữa trị / khiên hấp thụ |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Vệ binh ×2, Xạ thủ ×4, Người gác đường ×2 | Trạm gác, Nhà Xạ thủ, Trạm thu thuế, Tháp bắn tên, Tháp bắn tên, Tháp băng giá, Đài lửa hiệu | Lưới băng, Thấu kính hiệu, Mắt tinh | 7000 | 7.6–8 | 8 | 93.75–98.68 | 0 / 66, 0 / 0 |
+| 2 | Chiến binh ×3, Pháp sư ×2, Xạ thủ ×3 | Doanh trại, Tháp Pháp sư, Tháp bắn tên, Tháp băng giá | Chiến thuật, Lưới băng | 7000 | 5–5 | 8 | 150–150 | 0 / 0, 0 / 0 |
+
+#### Viễn chinh cùng thú
+
+Thú cần hộ vệ còn sống; tiền tuyến bền bỉ trì hoãn sức bùng nổ.
+
+| # | Anh hùng | Công trình | Nghiên cứu | Vốn | Thời gian (giây) | Sống | Sát thương/giây | Chữa trị / khiên hấp thụ |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Người giữ thú ×3, Người dẫn đường ×3, Xạ thủ ×2 | Trại thú, Trại hoang, Nhà Xạ thủ | Huấn luyện bầy, Hộ vệ thú, Đường tên thẳng | 7000 | 2–2.6 | 8 | 484.62–630 | 0 / 0, 0 / 0 |
+| 2 | Chiến binh ×2, Xạ thủ ×3, Pháp sư ×3 | Doanh trại, Nhà Xạ thủ, Tháp Pháp sư | Mắt tinh, Chiến thuật | 7000 | 7.6–7.6 | 8 | 165.79–165.79 | 0 / 0, 0 / 0 |
+
+#### Xung kích cận chiến
+
+Xung kích cận chiến yếu trước vùng độc và hỏa lực chéo.
+
+| # | Anh hùng | Công trình | Nghiên cứu | Vốn | Thời gian (giây) | Sống | Sát thương/giây | Chữa trị / khiên hấp thụ |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Chiến binh Thệ nguyện ×4, Người cầm cờ ×2, Xạ thủ ×2 | Chiến đường, Kho quân nhu, Nhà Xạ thủ | Huyết thệ, Hộ kỳ | 7000 | 4–4 | 8 | 165–169.5 | 0 / 0, 0 / 0 |
+| 2 | Chiến binh ×4, Pháp sư ×2, Xạ thủ ×2 | Doanh trại, Tháp Pháp sư, Nhà Xạ thủ | Chiến thuật, Da sắt | 7000 | 4–4.6 | 8 | 147.39–165 | 0 / 0, 0 / 0 |
+
+#### Phá vây công thành
+
+Tiếp tế công thành có hạn. Giữ đường tiếp tế và phá trại trước khi lính thay thế đến.
+
+| # | Anh hùng | Công trình | Nghiên cứu | Vốn | Thời gian (giây) | Sống | Sát thương/giây | Chữa trị / khiên hấp thụ |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Người cầm cờ ×2, Chiến binh Thệ nguyện ×2, Xạ thủ ×4 | Kho quân nhu, Chiến đường, Nhà Xạ thủ | Tiếp tế công thành, Huyết thệ | 7000 | 39.6–40.8 | 8 | 92.16–98.36 | 0 / 0, 0 / 0 |
+| 2 | Xạ thủ ×4, Chiến binh ×2, Pháp sư ×2 | Nhà Xạ thủ, Doanh trại, Tháp Pháp sư | Mắt tinh, Chiến thuật | 7000 | 37.2–48 | 8 | 80.69–100.94 | 0 / 0, 0 / 0 |
+
+<!-- END COMBAT PAIRINGS -->

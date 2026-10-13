@@ -282,3 +282,66 @@ A hero with nothing to do weighs everything open to it and takes the best: a bou
 Rebel guild members, turncoats and human spies use the same classes, learned skills, equipment and potions as recruited adventurers. They fight and support according to faction relations, use their own guild’s limited money and supplies, and recover at a surviving camp. A turncoat keeps the same name and history. An unrevealed spy’s faction is shown as unknown. Foreign heroes do not share the crown’s research or recruitment capacity. The editor’s hero brush can place crown, friendly, neutral or hostile adventurers.
 
 **Brown bear · Hunting hawk** — Calls one hound. From level 8, chooses a nimble hawk against ranged foes, a sturdy bear against heavy armor or packs of three, otherwise a hound. Shares the 12-summon map cap; all follow their owner on walkable ground, cost no upkeep, leave no loot and stay behind on a new mission.
+
+<!-- BEGIN COMBAT PAIRINGS -->
+### Battle pairings
+
+Each independent trial starts with eight level-8 heroes. Total capital is 7000 gold, including buildings, required upgrades, research, one potion per hero, finite reagents or siege supplies, and 200 gold per hero. The unspent part remains in the treasury. Heroes decide their own movement and skills; use buildings and bounties to guide them.
+
+Both alternatives have won on seeds 17 and 73. Times describe this starting encounter, not a whole campaign. Living defenders remain after a lair falls.
+
+#### Shield sustain
+
+Shield and healing need damage dealers against armor.
+
+| # | Heroes | Buildings | Research | Capital | Time (s) | Alive | Damage/s | Healing / absorbed shields |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Shield Knight ×2, Hospitaller ×2, Ranger ×2, Mage ×2 | Bastion, Sanctuary, Mage Tower | Shield weaving, Mending discipline | 7000 | 17–22.6 | 7 | 136.28–181.18 | 34 / 103, 130 / 257 |
+| 2 | Warrior ×2, Mage ×2, Ranger ×4 | Barracks, Mage Tower, Ranger Lodge | Battle Tactics, Arcane Affinity | 7000 | 10.6–13.6 | 7 | 226.47–290.57 | 0 / 0, 0 / 0 |
+
+#### Poison control
+
+Poison needs paid vials and loses value against cleansing and dispersed targets.
+
+| # | Heroes | Buildings | Research | Capital | Time (s) | Alive | Damage/s | Healing / absorbed shields |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Alchemist ×2, Shield Knight ×2, Hospitaller ×2, Ranger ×2 | Alchemy Guild, Bastion, Sanctuary, Cleansing Altar | Caustic reagents, Shield weaving, Cleansing reach | 7000 | 10.6–11.6 | 8 | 132.59–145.09 | 0 / 205, 31 / 164 |
+| 2 | Mage ×3, Ranger ×3, Warrior ×2 | Mage Tower, Ranger Lodge, Cleansing Altar | Arcane Affinity, Keen Eyes, Cleansing reach | 7000 | 8.6–9.6 | 8 | 160.21–178.84 | 0 / 0, 0 / 0 |
+
+#### Ranged towers
+
+Towers cover fixed ground; hunters and sappers punish an exposed rear.
+
+| # | Heroes | Buildings | Research | Capital | Time (s) | Alive | Damage/s | Healing / absorbed shields |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Guard ×2, Ranger ×4, Roadwarden ×2 | Guard Post, Ranger Lodge, Toll Post, Arrow Tower, Arrow Tower, Frost Tower, Beacon | Frost lattice, Beacon lenses, Keen Eyes | 7000 | 7.6–8 | 8 | 93.75–98.68 | 0 / 66, 0 / 0 |
+| 2 | Warrior ×3, Mage ×2, Ranger ×3 | Barracks, Mage Tower, Arrow Tower, Frost Tower | Battle Tactics, Frost lattice | 7000 | 5–5 | 8 | 150–150 | 0 / 0, 0 / 0 |
+
+#### Companion expedition
+
+Companions depend on living wardens; durable fronts delay their burst.
+
+| # | Heroes | Buildings | Research | Capital | Time (s) | Alive | Damage/s | Healing / absorbed shields |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Beast Warden ×3, Pathfinder ×3, Ranger ×2 | Beast Lodge, Wild Camp, Ranger Lodge | Pack training, Warden guard, True Flight | 7000 | 2–2.6 | 8 | 484.62–630 | 0 / 0, 0 / 0 |
+| 2 | Warrior ×2, Ranger ×3, Mage ×3 | Barracks, Ranger Lodge, Mage Tower | Keen Eyes, Battle Tactics | 7000 | 7.6–7.6 | 8 | 165.79–165.79 | 0 / 0, 0 / 0 |
+
+#### Melee rush
+
+A fast melee advance is vulnerable to poison zones and crossfire.
+
+| # | Heroes | Buildings | Research | Capital | Time (s) | Alive | Damage/s | Healing / absorbed shields |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Oathsworn ×4, Bannerman ×2, Ranger ×2 | War Hall, Quartermaster, Ranger Lodge | Blood Oath, Banner Guard | 7000 | 4–4 | 8 | 165–169.5 | 0 / 0, 0 / 0 |
+| 2 | Warrior ×4, Mage ×2, Ranger ×2 | Barracks, Mage Tower, Ranger Lodge | Battle Tactics, Iron Skin | 7000 | 4–4.6 | 8 | 147.39–165 | 0 / 0, 0 / 0 |
+
+#### Siege breach
+
+Wall supplies are finite; defend the supply route and finish the lair before replacements arrive.
+
+| # | Heroes | Buildings | Research | Capital | Time (s) | Alive | Damage/s | Healing / absorbed shields |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Bannerman ×2, Oathsworn ×2, Ranger ×4 | Quartermaster, War Hall, Ranger Lodge | Siege provisioning, Blood Oath | 7000 | 39.6–40.8 | 8 | 92.16–98.36 | 0 / 0, 0 / 0 |
+| 2 | Ranger ×4, Warrior ×2, Mage ×2 | Ranger Lodge, Barracks, Mage Tower | Keen Eyes, Battle Tactics | 7000 | 37.2–48 | 8 | 80.69–100.94 | 0 / 0, 0 / 0 |
+
+<!-- END COMBAT PAIRINGS -->

@@ -282,3 +282,66 @@ Un héros désœuvré compare tout ce qui s'offre à lui et choisit le mieux : u
 Les rebelles, traîtres et espions humains utilisent les mêmes classes, compétences apprises, équipements et potions que les aventuriers recrutés. Ils combattent et soutiennent selon les relations entre factions, dépensent les fonds et provisions limités de leur propre guilde et récupèrent dans un camp encore debout. Un traître conserve son nom et son histoire ; la faction d’un espion non démasqué reste inconnue. Les héros étrangers ne partagent ni les recherches ni les places de recrutement de la Couronne. Le pinceau de héros de l’éditeur permet de placer des aventuriers royaux, alliés, neutres ou hostiles.
 
 **Ours brun · Faucon de chasse** — Appelle un chien. Dès le niveau 8, choisit un faucon agile contre les tireurs, un ours robuste contre les armures lourdes ou groupes de trois, sinon un chien. Limite commune de 12 invocations sur la carte. Suit le maître sur terrain praticable, sans entretien ni butin, et reste lors du changement de mission.
+
+<!-- BEGIN COMBAT PAIRINGS -->
+### Associations de combat
+
+Chaque épreuve indépendante commence avec huit héros de niveau 8. Le capital total de 7000 or comprend bâtiments, améliorations nécessaires, recherches, une potion par héros, réactifs ou ravitaillement limités et 200 or par héros. Le reste demeure au trésor. Les héros décident de leurs déplacements et compétences ; guidez-les par les bâtiments et primes.
+
+Les deux variantes ont gagné avec les graines 17 et 73. Les temps concernent la rencontre initiale, pas toute une campagne. Les gardes vivants restent après la chute du camp.
+
+#### Endurance des boucliers
+
+Boucliers et soins demandent des attaquants contre les armures.
+
+| # | Héros | Bâtiments | Recherche | Capital | Temps (s) | Vivants | Dégâts/s | Soins / absorption des boucliers |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Chevalier au bouclier ×2, Hospitalier ×2, Rôdeur ×2, Mage ×2 | Bastion, Sanctuaire, Tour de mage | Tissage protecteur, Discipline curative | 7000 | 17–22.6 | 7 | 136.28–181.18 | 34 / 103, 130 / 257 |
+| 2 | Guerrier ×2, Mage ×2, Rôdeur ×4 | Caserne, Tour de mage, Cabane du rôdeur | Tactiques de combat, Affinité arcanique | 7000 | 10.6–13.6 | 7 | 226.47–290.57 | 0 / 0, 0 / 0 |
+
+#### Contrôle par poison
+
+Le poison exige des réactifs payés ; purification et dispersion le réduisent.
+
+| # | Héros | Bâtiments | Recherche | Capital | Temps (s) | Vivants | Dégâts/s | Soins / absorption des boucliers |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Alchimiste ×2, Chevalier au bouclier ×2, Hospitalier ×2, Rôdeur ×2 | Guilde des alchimistes, Bastion, Sanctuaire, Autel de purification | Réactifs caustiques, Tissage protecteur, Portée purifiante | 7000 | 10.6–11.6 | 8 | 132.59–145.09 | 0 / 205, 31 / 164 |
+| 2 | Mage ×3, Rôdeur ×3, Guerrier ×2 | Tour de mage, Cabane du rôdeur, Autel de purification | Affinité arcanique, Yeux perçants, Portée purifiante | 7000 | 8.6–9.6 | 8 | 160.21–178.84 | 0 / 0, 0 / 0 |
+
+#### Tours à distance
+
+Les tours couvrent un lieu fixe ; chasseurs et sapeurs menacent un arrière exposé.
+
+| # | Héros | Bâtiments | Recherche | Capital | Temps (s) | Vivants | Dégâts/s | Soins / absorption des boucliers |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Garde ×2, Rôdeur ×4, Garde des routes ×2 | Poste de garde, Cabane du rôdeur, Poste de péage, Tour à flèches, Tour à flèches, Tour de givre, Fanal | Treillis de givre, Lentilles de balise, Yeux perçants | 7000 | 7.6–8 | 8 | 93.75–98.68 | 0 / 66, 0 / 0 |
+| 2 | Guerrier ×3, Mage ×2, Rôdeur ×3 | Caserne, Tour de mage, Tour à flèches, Tour de givre | Tactiques de combat, Treillis de givre | 7000 | 5–5 | 8 | 150–150 | 0 / 0, 0 / 0 |
+
+#### Expédition animale
+
+Les compagnons dépendent de gardiens vivants ; les fronts robustes ralentissent leur frappe.
+
+| # | Héros | Bâtiments | Recherche | Capital | Temps (s) | Vivants | Dégâts/s | Soins / absorption des boucliers |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Gardien des bêtes ×3, Éclaireur ×3, Rôdeur ×2 | Pavillon des bêtes, Camp sauvage, Cabane du rôdeur | Dressage de meute, Garde bestiale, Vol juste | 7000 | 2–2.6 | 8 | 484.62–630 | 0 / 0, 0 / 0 |
+| 2 | Guerrier ×2, Rôdeur ×3, Mage ×3 | Caserne, Cabane du rôdeur, Tour de mage | Yeux perçants, Tactiques de combat | 7000 | 7.6–7.6 | 8 | 165.79–165.79 | 0 / 0, 0 / 0 |
+
+#### Assaut au contact
+
+L’assaut au contact craint les zones de poison et les tirs croisés.
+
+| # | Héros | Bâtiments | Recherche | Capital | Temps (s) | Vivants | Dégâts/s | Soins / absorption des boucliers |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Juré de guerre ×4, Porte-bannière ×2, Rôdeur ×2 | Halle de guerre, Intendance, Cabane du rôdeur | Serment de sang, Garde de la bannière | 7000 | 4–4 | 8 | 165–169.5 | 0 / 0, 0 / 0 |
+| 2 | Guerrier ×4, Mage ×2, Rôdeur ×2 | Caserne, Tour de mage, Cabane du rôdeur | Tactiques de combat, Peau de fer | 7000 | 4–4.6 | 8 | 147.39–165 | 0 / 0, 0 / 0 |
+
+#### Percée de siège
+
+Le ravitaillement de siège est limité. Protégez sa route et rasez le camp avant le remplacement des gardes.
+
+| # | Héros | Bâtiments | Recherche | Capital | Temps (s) | Vivants | Dégâts/s | Soins / absorption des boucliers |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Porte-bannière ×2, Juré de guerre ×2, Rôdeur ×4 | Intendance, Halle de guerre, Cabane du rôdeur | Ravitaillement de siège, Serment de sang | 7000 | 39.6–40.8 | 8 | 92.16–98.36 | 0 / 0, 0 / 0 |
+| 2 | Rôdeur ×4, Guerrier ×2, Mage ×2 | Cabane du rôdeur, Caserne, Tour de mage | Yeux perçants, Tactiques de combat | 7000 | 37.2–48 | 8 | 80.69–100.94 | 0 / 0, 0 / 0 |
+
+<!-- END COMBAT PAIRINGS -->

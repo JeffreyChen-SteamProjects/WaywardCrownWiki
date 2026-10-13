@@ -282,3 +282,66 @@ Bohater, który nie ma nic do roboty, porównuje wszystko, co może zrobić, i w
 Buntownicy, zdrajcy i ludzcy szpiedzy używają tych samych klas, poznanych umiejętności, wyposażenia i mikstur co zwerbowani bohaterowie. Walczą i wspierają zgodnie z relacjami frakcji, korzystają z ograniczonych funduszy i zapasów swojej gildii oraz odpoczywają w ocalałym obozie. Zdrajca zachowuje imię i historię; frakcja nierozpoznanego szpiega pozostaje nieznana. Obcy bohaterowie nie korzystają z badań ani miejsc rekrutacji Korony. Pędzel bohaterów w edytorze pozwala umieszczać bohaterów Korony, przyjaznych, neutralnych lub wrogich.
 
 **Niedźwiedź brunatny · Jastrząb łowiecki** — Przyzywa ogara. Od poziomu 8 wybiera zwinnego jastrzębia przeciw strzelcom, mocnego niedźwiedzia przeciw ciężkiej zbroi lub grupom od trzech, inaczej ogara. Wspólny limit mapy wynosi 12 przyzwanych. Podążają za właścicielem po dostępnej ziemi, bez utrzymania i łupów, nie przechodzą do kolejnej misji.
+
+<!-- BEGIN COMBAT PAIRINGS -->
+### Zestawienia bojowe
+
+Każda niezależna próba zaczyna się od ośmiu bohaterów poziomu 8. Łączny kapitał 7000 złota obejmuje budynki, wymagane ulepszenia, badania, jedną miksturę na bohatera, ograniczone odczynniki lub zapasy i 200 złota na bohatera. Reszta zostaje w skarbcu. Bohaterowie sami wybierają ruch i umiejętności; kieruj ich budynkami i nagrodami.
+
+Oba warianty wygrały przy ziarnach 17 i 73. Czasy dotyczą początkowego starcia, nie całej kampanii. Żywi strażnicy pozostają po upadku obozu.
+
+#### Wytrzymałość tarcz
+
+Tarcze i leczenie potrzebują ataku przeciw pancerzom.
+
+| # | Bohaterowie | Budynki | Badania | Kapitał | Czas (s) | Żywi | Obrażenia/s | Leczenie / pochłonięcie tarcz |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Rycerz Tarczy ×2, Szpitalnik ×2, Łowca ×2, Mag ×2 | Bastion, Sanktuarium, Wieża maga | Splot osłony, Dyscyplina leczenia | 7000 | 17–22.6 | 7 | 136.28–181.18 | 34 / 103, 130 / 257 |
+| 2 | Wojownik ×2, Mag ×2, Łowca ×4 | Koszary, Wieża maga, Chata łowcy | Taktyka bitewna, Arkaniczna więź | 7000 | 10.6–13.6 | 7 | 226.47–290.57 | 0 / 0, 0 / 0 |
+
+#### Kontrola trucizną
+
+Trucizna wymaga płatnych odczynników; oczyszczenie i rozproszone cele ją osłabiają.
+
+| # | Bohaterowie | Budynki | Badania | Kapitał | Czas (s) | Żywi | Obrażenia/s | Leczenie / pochłonięcie tarcz |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Alchemik ×2, Rycerz Tarczy ×2, Szpitalnik ×2, Łowca ×2 | Gildia alchemików, Bastion, Sanktuarium, Ołtarz oczyszczenia | Żrące odczynniki, Splot osłony, Zasięg oczyszczenia | 7000 | 10.6–11.6 | 8 | 132.59–145.09 | 0 / 205, 31 / 164 |
+| 2 | Mag ×3, Łowca ×3, Wojownik ×2 | Wieża maga, Chata łowcy, Ołtarz oczyszczenia | Arkaniczna więź, Sokole oko, Zasięg oczyszczenia | 7000 | 8.6–9.6 | 8 | 160.21–178.84 | 0 / 0, 0 / 0 |
+
+#### Wieże dystansowe
+
+Wieże osłaniają stały teren; łowcy i saperzy zagrażają odsłoniętym tyłom.
+
+| # | Bohaterowie | Budynki | Badania | Kapitał | Czas (s) | Żywi | Obrażenia/s | Leczenie / pochłonięcie tarcz |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Strażnik ×2, Łowca ×4, Strażnik Traktów ×2 | Posterunek strażnika, Chata łowcy, Rogatka, Wieża strzelnicza, Wieża strzelnicza, Wieża mrozu, Stos sygnałowy | Siatka mrozu, Soczewki sygnałowe, Sokole oko | 7000 | 7.6–8 | 8 | 93.75–98.68 | 0 / 66, 0 / 0 |
+| 2 | Wojownik ×3, Mag ×2, Łowca ×3 | Koszary, Wieża maga, Wieża strzelnicza, Wieża mrozu | Taktyka bitewna, Siatka mrozu | 7000 | 5–5 | 8 | 150–150 | 0 / 0, 0 / 0 |
+
+#### Wyprawa ze zwierzętami
+
+Zwierzęta zależą od żywych strażników; mocne fronty opóźniają ich atak.
+
+| # | Bohaterowie | Budynki | Badania | Kapitał | Czas (s) | Żywi | Obrażenia/s | Leczenie / pochłonięcie tarcz |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Opiekun Bestii ×3, Tropiciel ×3, Łowca ×2 | Leśna Zagroda, Dziki obóz, Chata łowcy | Szkolenie stada, Straż bestii, Celny lot | 7000 | 2–2.6 | 8 | 484.62–630 | 0 / 0, 0 / 0 |
+| 2 | Wojownik ×2, Łowca ×3, Mag ×3 | Koszary, Chata łowcy, Wieża maga | Sokole oko, Taktyka bitewna | 7000 | 7.6–7.6 | 8 | 165.79–165.79 | 0 / 0, 0 / 0 |
+
+#### Szturm wręcz
+
+Szturm wręcz jest podatny na truciznę i ogień krzyżowy.
+
+| # | Bohaterowie | Budynki | Badania | Kapitał | Czas (s) | Żywi | Obrażenia/s | Leczenie / pochłonięcie tarcz |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Zaprzysiężony ×4, Chorąży ×2, Łowca ×2 | Hala Wojenna, Kwatermistrzostwo, Chata łowcy | Przysięga krwi, Straż chorągwi | 7000 | 4–4 | 8 | 165–169.5 | 0 / 0, 0 / 0 |
+| 2 | Wojownik ×4, Mag ×2, Łowca ×2 | Koszary, Wieża maga, Chata łowcy | Taktyka bitewna, Żelazna skóra | 7000 | 4–4.6 | 8 | 147.39–165 | 0 / 0, 0 / 0 |
+
+#### Przełamanie oblężenia
+
+Zapasy oblężnicze są ograniczone. Chroń drogę zaopatrzenia i zburz obóz przed nowymi strażnikami.
+
+| # | Bohaterowie | Budynki | Badania | Kapitał | Czas (s) | Żywi | Obrażenia/s | Leczenie / pochłonięcie tarcz |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Chorąży ×2, Zaprzysiężony ×2, Łowca ×4 | Kwatermistrzostwo, Hala Wojenna, Chata łowcy | Zaopatrzenie oblężnicze, Przysięga krwi | 7000 | 39.6–40.8 | 8 | 92.16–98.36 | 0 / 0, 0 / 0 |
+| 2 | Łowca ×4, Wojownik ×2, Mag ×2 | Chata łowcy, Koszary, Wieża maga | Sokole oko, Taktyka bitewna | 7000 | 37.2–48 | 8 | 80.69–100.94 | 0 / 0, 0 / 0 |
+
+<!-- END COMBAT PAIRINGS -->

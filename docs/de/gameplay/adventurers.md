@@ -282,3 +282,66 @@ Ein Held ohne Aufgabe wägt alles ab, was ihm offensteht, und nimmt das Beste: e
 Rebellen, Überläufer und menschliche Spione nutzen dieselben Klassen, erlernten Fähigkeiten, Ausrüstung und Tränke wie rekrutierte Abenteurer. Ihre Fraktionsbeziehungen bestimmen Kampf und Unterstützung. Sie verbrauchen das begrenzte Geld und die Vorräte ihrer eigenen Gilde und erholen sich in einem bestehenden Lager. Überläufer behalten Namen und Geschichte; bei unenttarnten Spionen bleibt die Fraktion unbekannt. Fremde Helden teilen weder Forschung noch Rekrutierungsplätze der Krone. Der Heldenpinsel im Editor setzt königliche, verbündete, neutrale oder feindliche Abenteurer.
 
 **Braunbär · Jagdfalke** — Ruft einen Hund. Ab Stufe 8 wird gegen Fernkämpfer ein wendiger Falke, gegen schwere Rüstung oder Gruppen ab drei ein kräftiger Bär gewählt, sonst ein Hund. Alle teilen das Kartenlimit von 12 Beschworenen, folgen auf begehbarem Boden, kosten keinen Unterhalt, geben keine Beute und bleiben beim Missionswechsel zurück.
+
+<!-- BEGIN COMBAT PAIRINGS -->
+### Kampfzusammenstellungen
+
+Jede unabhängige Prüfung beginnt mit acht Helden der Stufe 8. Das Gesamtkapital von 7000 Gold umfasst Gebäude, nötige Ausbauten, Forschung, je einen Trank, endliche Reagenzien oder Belagerungsvorräte und je 200 Gold. Der Rest bleibt in der Kasse. Helden wählen Wege und Fähigkeiten selbst; Gebäude und Kopfgelder leiten sie.
+
+Beide Varianten gewannen mit den Startwerten 17 und 73. Die Zeiten gelten nur für diese Anfangsbegegnung, nicht für eine ganze Kampagne. Lebende Wachen bleiben nach dem Fall eines Lagers.
+
+#### Schildausdauer
+
+Schilde und Heilung brauchen Schaden gegen Rüstung.
+
+| # | Helden | Gebäude | Forschung | Kapital | Zeit (s) | Lebend | Schaden/s | Heilung / Schildabsorption |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Schildritter ×2, Hospitaliter ×2, Waldläufer ×2, Magier ×2 | Bastion, Heiligtum, Magierturm | Schildgewebe, Heilschulung | 7000 | 17–22.6 | 7 | 136.28–181.18 | 34 / 103, 130 / 257 |
+| 2 | Krieger ×2, Magier ×2, Waldläufer ×4 | Kaserne, Magierturm, Waldläuferhütte | Kampftaktik, Arkane Affinität | 7000 | 10.6–13.6 | 7 | 226.47–290.57 | 0 / 0, 0 / 0 |
+
+#### Giftkontrolle
+
+Gift braucht bezahlte Reagenzien; Reinigung und verstreute Ziele schwächen es.
+
+| # | Helden | Gebäude | Forschung | Kapital | Zeit (s) | Lebend | Schaden/s | Heilung / Schildabsorption |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Alchemist ×2, Schildritter ×2, Hospitaliter ×2, Waldläufer ×2 | Alchemistengilde, Bastion, Heiligtum, Altar der Reinigung | Ätzmittel, Schildgewebe, Reinigungsweite | 7000 | 10.6–11.6 | 8 | 132.59–145.09 | 0 / 205, 31 / 164 |
+| 2 | Magier ×3, Waldläufer ×3, Krieger ×2 | Magierturm, Waldläuferhütte, Altar der Reinigung | Arkane Affinität, Scharfe Augen, Reinigungsweite | 7000 | 8.6–9.6 | 8 | 160.21–178.84 | 0 / 0, 0 / 0 |
+
+#### Fernkampftürme
+
+Türme decken feste Orte; Jäger und Sprengmeister bedrohen die offene Rückseite.
+
+| # | Helden | Gebäude | Forschung | Kapital | Zeit (s) | Lebend | Schaden/s | Heilung / Schildabsorption |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Wache ×2, Waldläufer ×4, Straßenwächter ×2 | Wachposten, Waldläuferhütte, Zollposten, Pfeilturm, Pfeilturm, Frostturm, Leuchtfeuer | Frostgitter, Signaloptik, Scharfe Augen | 7000 | 7.6–8 | 8 | 93.75–98.68 | 0 / 66, 0 / 0 |
+| 2 | Krieger ×3, Magier ×2, Waldläufer ×3 | Kaserne, Magierturm, Pfeilturm, Frostturm | Kampftaktik, Frostgitter | 7000 | 5–5 | 8 | 150–150 | 0 / 0, 0 / 0 |
+
+#### Begleiterexpedition
+
+Begleiter brauchen lebende Wildhüter; robuste Fronten verzögern ihren Angriff.
+
+| # | Helden | Gebäude | Forschung | Kapital | Zeit (s) | Lebend | Schaden/s | Heilung / Schildabsorption |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Tierhüter ×3, Pfadfinder ×3, Waldläufer ×2 | Bestienhütte, Wildlager, Waldläuferhütte | Rudeltraining, Wildhüterwache, Gerader Flug | 7000 | 2–2.6 | 8 | 484.62–630 | 0 / 0, 0 / 0 |
+| 2 | Krieger ×2, Waldläufer ×3, Magier ×3 | Kaserne, Waldläuferhütte, Magierturm | Scharfe Augen, Kampftaktik | 7000 | 7.6–7.6 | 8 | 165.79–165.79 | 0 / 0, 0 / 0 |
+
+#### Nahkampfsturm
+
+Nahkampfstürme sind gegen Giftflächen und Kreuzfeuer anfällig.
+
+| # | Helden | Gebäude | Forschung | Kapital | Zeit (s) | Lebend | Schaden/s | Heilung / Schildabsorption |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Eidkrieger ×4, Bannerträger ×2, Waldläufer ×2 | Kriegshalle, Quartiermeisterei, Waldläuferhütte | Blutschwur, Bannerwache | 7000 | 4–4 | 8 | 165–169.5 | 0 / 0, 0 / 0 |
+| 2 | Krieger ×4, Magier ×2, Waldläufer ×2 | Kaserne, Magierturm, Waldläuferhütte | Kampftaktik, Eisenhaut | 7000 | 4–4.6 | 8 | 147.39–165 | 0 / 0, 0 / 0 |
+
+#### Belagerungsdurchbruch
+
+Belagerungsvorräte sind endlich. Sichere den Nachschub und zerstöre das Lager vor Ersatzwachen.
+
+| # | Helden | Gebäude | Forschung | Kapital | Zeit (s) | Lebend | Schaden/s | Heilung / Schildabsorption |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Bannerträger ×2, Eidkrieger ×2, Waldläufer ×4 | Quartiermeisterei, Kriegshalle, Waldläuferhütte | Belagerungsvorrat, Blutschwur | 7000 | 39.6–40.8 | 8 | 92.16–98.36 | 0 / 0, 0 / 0 |
+| 2 | Waldläufer ×4, Krieger ×2, Magier ×2 | Waldläuferhütte, Kaserne, Magierturm | Scharfe Augen, Kampftaktik | 7000 | 37.2–48 | 8 | 80.69–100.94 | 0 / 0, 0 / 0 |
+
+<!-- END COMBAT PAIRINGS -->
