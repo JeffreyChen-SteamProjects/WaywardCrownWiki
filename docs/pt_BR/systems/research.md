@@ -28,14 +28,20 @@ A pesquisa é comprada no edifício a que pertence: a de uma classe em sua guild
 | Biblioteca | 3 | **Treinamento heroico** | Todas as Classes | 900 | Todos os aventureiros ganham +15% de experiência. |
 | Templo | 2 | **Médico de campanha** | Todas as Classes | 400 | Aventureiros em descanso se curam 50% mais rápido. |
 | Bastião | 1 | **Escudos-torre** | Cavaleiro do Escudo | 300 | Cavaleiro do Escudo: +4 de defesa. |
+| Bastião | 1 | **Golpe de escudo** | Cavaleiro do Escudo | 350 | Cavaleiro do escudo: +3 ataque. |
+| Bastião | 1 | **Trama protetora** | Cavaleiro do Escudo | 450 | Cavaleiro do escudo: escudo do juramento +20%, máximo 50% da vida do conjurador; mesma duração, sem acúmulo. |
 | Acampamento selvagem | 1 | **Voo certeiro** | Batedor | 300 | Batedor: +4 de ataque. |
 | Ossuário | 1 | **Couraça imorredoura** | Cavaleiro Sepulcral | 300 | Cavaleiro Sepulcral: +4 de defesa. |
 | Santuário | 1 | **Treino de Baluarte** | Todas as Classes | 350 | Bastião: a proteção alcança 5 casas a mais. |
 | Santuário | 1 | **Cirurgia de Campanha** | Todas as Classes | 400 | Santuário e Prece Curativa curam 50% a mais. |
 | Santuário | 1 | **Juramento do curador** | Hospitalário | 300 | Hospitalário: +3 de defesa. |
+| Santuário | 1 | **Disciplina curativa** | Hospitalário | 400 | Hospitalário: cura própria +20%; cura coletiva inalterada. |
+| Santuário | 1 | **Armadura do curador** | Hospitalário | 300 | Hospitalário: +2 defesa. |
 | Abrigo das Feras | 1 | **Saber das Trilhas** | Todas as Classes | 300 | Os heróis exploram 15% mais longe do castelo. |
 | Abrigo das Feras | 1 | **Remédios de Ervas** | Todas as Classes | 350 | As estalagens e o templo da cidade voltam a curar no ritmo normal. |
 | Abrigo das Feras | 1 | **Peles de fera** | Guardião das Feras | 300 | Guardião das Feras: +3 de defesa. |
+| Abrigo das Feras | 1 | **Treino da matilha** | Guardião das Feras | 450 | Cães, ursos e falcões vivos de um guardião das feras vivo: +2 ataque. Quantidade e manutenção inalteradas. |
+| Abrigo das Feras | 1 | **Guarda das feras** | Guardião das Feras | 300 | Guardião das feras: +3 defesa. |
 | Cripta | 1 | **Pacto Sepulcral** | Todas as Classes | 350 | A manutenção de um guarda invocado cai pela metade. |
 | Cripta | 1 | **Vínculo de Medula** | Todas as Classes | 400 | Ossuário: mantém um guarda a mais. |
 | Cripta | 1 | **Tomos proibidos** | Necromante | 300 | Necromante: +5 de ataque. |
@@ -47,6 +53,7 @@ A pesquisa é comprada no edifício a que pertence: a de uma classe em sua guild
 | Salão de Guerra | 1 | **Salão de Troféus** | Todas as Classes | 400 | Cada abate paga 15% a mais de ouro. |
 | Salão de Guerra | 1 | **Juramento de sangue** | Juramentado | 300 | Juramentado: +5 de ataque. |
 | Intendência | 1 | **Guarda do estandarte** | Porta-estandarte | 300 | Porta-estandarte: +3 de defesa. |
+| Intendência | 1 | **Provisão de cerco** | Porta-estandarte | 500 | Porta-estandartes abastecidos: +25% dano às muralhas; cada golpe ainda gasta um suprimento. |
 | Academia | 1 | **Sintonia Telúrica** | Todas as Classes | 350 | Os feitiços reais custam 20% a menos. |
 | Academia | 1 | **Vínculo Rúnico** | Todas as Classes | 400 | As habilidades ativas dos heróis ficam prontas 15% mais cedo. |
 | Academia | 1 | **Gume rúnico** | Lâmina Arcana | 300 | Lâmina Arcana: +4 de ataque. |
@@ -64,6 +71,11 @@ A pesquisa é comprada no edifício a que pertence: a de uma classe em sua guild
 | Instituto de Feitiços | 1 | **Autocura** | Todas as Classes | 350 | Heróis de qualquer classe podem aprender Autocura no Instituto de Feitiços. |
 | Instituto de Feitiços | 2 | **Resguardo** | Todas as Classes | 350 | Heróis de qualquer classe podem aprender Resguardo no Instituto de Feitiços. |
 | Instituto de Feitiços | 3 | **Faísca** | Todas as Classes | 400 | Heróis de qualquer classe podem aprender Faísca no Instituto de Feitiços. |
+| Torre de geada | 1 | **Grade de gelo** | Todas as Classes | 400 | Torres de gelo: lentidão de 8 para 10 s; resistência do chefe continua válida, sem dano extra. |
+| Farol de aviso | 1 | **Lentes do farol** | Todas as Classes | 250 | Faróis: +6 casas de visão; sem ataque ou acúmulo. |
+| Altar de purificação | 1 | **Alcance purificador** | Todas as Classes | 350 | Altares purificadores: raio de 7 para 9; sem cura, remoção de escudos ou reinício de resistência. |
+| Guilda de alquimia | 1 | **Frascos selados** | Alquimista | 300 | Alquimista: +3 defesa; preço e estoque inalterados. |
+| Guilda de alquimia | 2 | **Reagentes cáusticos** | Alquimista | 450 | Alquimista: +1 dano por dose de veneno; cinco doses, um frasco pago, limite de seis frascos. |
 
 - **Médico de campanha**: Não é vendido a um reino no caminho Morto-vivo
 
@@ -79,6 +91,7 @@ A pesquisa é comprada no edifício a que pertence: a de uma classe em sua guild
 | Biblioteca | 250 → 400 → 600 |
 | Templo | 220 → 300 → 450 |
 | Instituto de Feitiços | 320 → 480 → 720 |
+| Guilda de alquimia | 230 → 320 → 480 |
 <!-- research-places:end -->
 
 ---

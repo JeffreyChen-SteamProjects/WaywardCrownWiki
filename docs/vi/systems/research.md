@@ -28,14 +28,20 @@ Nghiên cứu được mua ở công trình mà nó thuộc về: của một l�
 | Thư viện | 3 | **Huấn luyện anh hùng** | Mọi lớp | 900 | Mọi nhà thám hiểm +15% kinh nghiệm. |
 | Đền thờ | 2 | **Y tá dã chiến** | Mọi lớp | 400 | Nhà thám hiểm nghỉ trong công trình hồi phục nhanh hơn 50%. |
 | Pháo đài | 1 | **Khiên tháp** | Kỵ sĩ Khiên | 300 | Kỵ sĩ Khiên: +4 phòng thủ. |
+| Pháo đài | 1 | **Đòn khiên** | Kỵ sĩ Khiên | 350 | Kỵ sĩ khiên: +3 tấn công. |
+| Pháo đài | 1 | **Dệt lá chắn** | Kỵ sĩ Khiên | 450 | Kỵ sĩ khiên: lá chắn lời thề +20%, tối đa 50% máu tối đa người dùng; thời gian giữ nguyên, không cộng dồn. |
 | Trại hoang | 1 | **Đường tên thẳng** | Người dẫn đường | 300 | Người dẫn đường: +4 tấn công. |
 | Nhà hài cốt | 1 | **Giáp bất tử** | Kỵ sĩ Mộ phần | 300 | Kỵ sĩ Mộ phần: +4 phòng thủ. |
 | Thánh đường | 1 | **Luyện tập Thành lũy** | Mọi lớp | 350 | Pháo đài: sự che chở vươn xa thêm 5 ô. |
 | Thánh đường | 1 | **Phẫu thuật Dã chiến** | Mọi lớp | 400 | Thánh đường và Lời nguyện Chữa lành hồi phục nhiều hơn 50%. |
 | Thánh đường | 1 | **Lời thề người chữa trị** | Tu sĩ Cứu thương | 300 | Tu sĩ Cứu thương: +3 phòng thủ. |
+| Thánh đường | 1 | **Rèn chữa trị** | Tu sĩ Cứu thương | 400 | Kỵ sĩ cứu tế: chữa trị của bản thân +20%; chữa trị chung giữ nguyên. |
+| Thánh đường | 1 | **Giáp người chữa trị** | Tu sĩ Cứu thương | 300 | Kỵ sĩ cứu tế: +2 phòng thủ. |
 | Trại thú | 1 | **Tri thức Đường mòn** | Mọi lớp | 300 | Anh hùng thám hiểm xa lâu đài hơn 15%. |
 | Trại thú | 1 | **Thuốc Thảo dược** | Mọi lớp | 350 | Quán trọ và đền trong thị trấn chữa lành với tốc độ đầy đủ trở lại. |
 | Trại thú | 1 | **Da thú** | Người giữ thú | 300 | Người giữ thú: +3 phòng thủ. |
+| Trại thú | 1 | **Huấn luyện bầy** | Người giữ thú | 450 | Chó, gấu và diều hâu còn sống của hộ vệ thú còn sống: +2 tấn công. Số lượng và phí duy trì giữ nguyên. |
+| Trại thú | 1 | **Hộ vệ thú** | Người giữ thú | 300 | Hộ vệ thú: +3 phòng thủ. |
 | Hầm mộ | 1 | **Khế ước Mộ phần** | Mọi lớp | 350 | Phí duy trì của vệ binh triệu hồi giảm một nửa. |
 | Hầm mộ | 1 | **Trói buộc Cốt tủy** | Mọi lớp | 400 | Nhà hài cốt: duy trì thêm một vệ binh. |
 | Hầm mộ | 1 | **Sách cấm** | Tử linh sư | 300 | Tử linh sư: +5 tấn công. |
@@ -47,6 +53,7 @@ Nghiên cứu được mua ở công trình mà nó thuộc về: của một l�
 | Chiến đường | 1 | **Sảnh Chiến lợi phẩm** | Mọi lớp | 400 | Mỗi lần hạ gục trả nhiều vàng hơn 15%. |
 | Chiến đường | 1 | **Huyết thệ** | Chiến binh Thệ nguyện | 300 | Chiến binh Thệ nguyện: +5 tấn công. |
 | Kho quân nhu | 1 | **Hộ kỳ** | Người cầm cờ | 300 | Người cầm cờ: +3 phòng thủ. |
+| Kho quân nhu | 1 | **Tiếp tế công thành** | Người cầm cờ | 500 | Người cầm cờ có tiếp tế công thành: +25% sát thương tường; mỗi đòn vẫn dùng một tiếp tế. |
 | Học viện | 1 | **Điều hòa Địa mạch** | Mọi lớp | 350 | Phép hoàng gia tốn ít hơn 20%. |
 | Học viện | 1 | **Trói buộc Cổ tự** | Mọi lớp | 400 | Kỹ năng chủ động của anh hùng sẵn sàng lại sớm hơn 15%. |
 | Học viện | 1 | **Lưỡi kiếm cổ tự** | Ma kiếm sĩ | 300 | Ma kiếm sĩ: +4 tấn công. |
@@ -64,6 +71,11 @@ Nghiên cứu được mua ở công trình mà nó thuộc về: của một l�
 | Viện Phép thuật | 1 | **Tự chữa lành** | Mọi lớp | 350 | Anh hùng thuộc mọi lớp đều có thể học Tự chữa lành tại Viện Phép thuật. |
 | Viện Phép thuật | 2 | **Hộ thân** | Mọi lớp | 350 | Anh hùng thuộc mọi lớp đều có thể học Hộ thân tại Viện Phép thuật. |
 | Viện Phép thuật | 3 | **Tia lửa** | Mọi lớp | 400 | Anh hùng thuộc mọi lớp đều có thể học Tia lửa tại Viện Phép thuật. |
+| Tháp băng giá | 1 | **Lưới băng** | Mọi lớp | 400 | Tháp băng: làm chậm 10 thay vì 8 giây; kháng khống chế của trùm vẫn áp dụng, không thêm sát thương. |
+| Đài lửa hiệu | 1 | **Thấu kính hiệu** | Mọi lớp | 250 | Tháp hiệu: +6 ô tầm nhìn; không tấn công hay cộng dồn. |
+| Bàn thờ thanh tẩy | 1 | **Tầm thanh tẩy** | Mọi lớp | 350 | Bàn thanh tẩy: bán kính 9 thay vì 7; không chữa máu, xóa lá chắn hay đặt lại kháng khống chế. |
+| Hội giả kim | 1 | **Lọ kín** | Nhà giả kim | 300 | Nhà giả kim: +3 phòng thủ; giá và kho thuốc giữ nguyên. |
+| Hội giả kim | 2 | **Thuốc ăn mòn** | Nhà giả kim | 450 | Nhà giả kim: +1 sát thương mỗi liều độc; vẫn năm liều, một lọ mua bằng tiền, tối đa sáu lọ. |
 
 - **Y tá dã chiến**: Không bán cho vương quốc theo con đường Bất tử
 
@@ -79,6 +91,7 @@ Nghiên cứu được mua ở công trình mà nó thuộc về: của một l�
 | Thư viện | 250 → 400 → 600 |
 | Đền thờ | 220 → 300 → 450 |
 | Viện Phép thuật | 320 → 480 → 720 |
+| Hội giả kim | 230 → 320 → 480 |
 <!-- research-places:end -->
 
 ---

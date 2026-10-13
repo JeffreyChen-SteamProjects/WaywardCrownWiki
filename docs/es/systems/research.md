@@ -28,14 +28,20 @@ La investigación se compra en el edificio al que pertenece: la de una clase en 
 | Biblioteca | 3 | **Entrenamiento heroico** | Todas las clases | 900 | Todos los aventureros ganan +15% de experiencia. |
 | Templo | 2 | **Médico de campaña** | Todas las clases | 400 | Los aventureros que descansan curan un 50% más rápido. |
 | Bastión | 1 | **Escudos torre** | Caballero del Escudo | 300 | Caballero del Escudo: +4 de defensa. |
+| Bastión | 1 | **Golpe de escudo** | Caballero del Escudo | 350 | Caballero del escudo: +3 ataque. |
+| Bastión | 1 | **Tejido protector** | Caballero del Escudo | 450 | Caballero del escudo: escudo de juramento +20%, máximo 50% de vida del lanzador; misma duración, sin acumulación. |
 | Campamento salvaje | 1 | **Vuelo certero** | Batidor | 300 | Batidor: +4 de ataque. |
 | Osario | 1 | **Coraza imperecedera** | Caballero Sepulcral | 300 | Caballero Sepulcral: +4 de defensa. |
 | Santuario | 1 | **Instrucción de Baluarte** | Todas las clases | 350 | Bastión: su protección alcanza 5 casillas más. |
 | Santuario | 1 | **Cirugía de Campaña** | Todas las clases | 400 | Santuario y Plegaria Sanadora curan un 50 % más. |
 | Santuario | 1 | **Juramento del sanador** | Hospitalario | 300 | Hospitalario: +3 de defensa. |
+| Santuario | 1 | **Disciplina curativa** | Hospitalario | 400 | Hospitalario: curación propia +20%; curación común sin cambios. |
+| Santuario | 1 | **Armadura del sanador** | Hospitalario | 300 | Hospitalario: +2 defensa. |
 | Refugio de Bestias | 1 | **Saber de Sendas** | Todas las clases | 300 | Los héroes exploran un 15 % más lejos del castillo. |
 | Refugio de Bestias | 1 | **Remedios de Hierbas** | Todas las clases | 350 | Las posadas y el templo del pueblo vuelven a curar a su ritmo completo. |
 | Refugio de Bestias | 1 | **Pieles de bestia** | Guardián de Bestias | 300 | Guardián de Bestias: +3 de defensa. |
+| Refugio de Bestias | 1 | **Adiestramiento de manada** | Guardián de Bestias | 450 | Perros, osos y halcones vivos de un guardián de bestias vivo: +2 ataque. Mismo límite y mantenimiento. |
+| Refugio de Bestias | 1 | **Guardia de bestias** | Guardián de Bestias | 300 | Guardián de bestias: +3 defensa. |
 | Cripta | 1 | **Pacto Sepulcral** | Todas las clases | 350 | El mantenimiento de un guardia invocado se reduce a la mitad. |
 | Cripta | 1 | **Atadura de Médula** | Todas las clases | 400 | Osario: mantiene un guardia más. |
 | Cripta | 1 | **Tomos prohibidos** | Nigromante | 300 | Nigromante: +5 de ataque. |
@@ -47,6 +53,7 @@ La investigación se compra en el edificio al que pertenece: la de una clase en 
 | Salón de Guerra | 1 | **Sala de Trofeos** | Todas las clases | 400 | Cada muerte paga un 15 % más de oro. |
 | Salón de Guerra | 1 | **Juramento de sangre** | Juramentado | 300 | Juramentado: +5 de ataque. |
 | Intendencia | 1 | **Guardia del estandarte** | Abanderado | 300 | Abanderado: +3 de defensa. |
+| Intendencia | 1 | **Provisión de asedio** | Abanderado | 500 | Abanderados abastecidos: +25% daño a muros; cada golpe sigue gastando un suministro. |
 | Academia | 1 | **Sintonía Telúrica** | Todas las clases | 350 | Los hechizos reales cuestan un 20 % menos. |
 | Academia | 1 | **Atadura Rúnica** | Todas las clases | 400 | Las habilidades activas de los héroes vuelven a estar listas un 15 % antes. |
 | Academia | 1 | **Filo rúnico** | Espadachín Arcano | 300 | Espadachín Arcano: +4 de ataque. |
@@ -64,6 +71,11 @@ La investigación se compra en el edificio al que pertenece: la de una clase en 
 | Instituto de Hechizos | 1 | **Autocuración** | Todas las clases | 350 | Los héroes de cualquier clase pueden aprender Autocuración en el Instituto de Hechizos. |
 | Instituto de Hechizos | 2 | **Resguardo** | Todas las clases | 350 | Los héroes de cualquier clase pueden aprender Resguardo en el Instituto de Hechizos. |
 | Instituto de Hechizos | 3 | **Chispa** | Todas las clases | 400 | Los héroes de cualquier clase pueden aprender Chispa en el Instituto de Hechizos. |
+| Torre de escarcha | 1 | **Red de escarcha** | Todas las clases | 400 | Torres de escarcha: ralentización de 8 a 10 s; resistencia del jefe vigente, sin daño adicional. |
+| Almenara | 1 | **Lentes de almenara** | Todas las clases | 250 | Almenaras: +6 casillas de visión; sin ataques ni acumulación. |
+| Altar de purificación | 1 | **Alcance purificador** | Todas las clases | 350 | Altares purificadores: radio de 7 a 9; sin curación, retirada de escudos ni reinicio de resistencia. |
+| Gremio de alquimia | 1 | **Viales sellados** | Alquimista | 300 | Alquimista: +3 defensa; mismo precio y existencias. |
+| Gremio de alquimia | 2 | **Reactivos cáusticos** | Alquimista | 450 | Alquimista: +1 daño por dosis de veneno; cinco dosis, un vial pagado, máximo seis viales. |
 
 - **Médico de campaña**: No se vende a un reino en la senda No muerto
 
@@ -79,6 +91,7 @@ La investigación se compra en el edificio al que pertenece: la de una clase en 
 | Biblioteca | 250 → 400 → 600 |
 | Templo | 220 → 300 → 450 |
 | Instituto de Hechizos | 320 → 480 → 720 |
+| Gremio de alquimia | 230 → 320 → 480 |
 <!-- research-places:end -->
 
 ---

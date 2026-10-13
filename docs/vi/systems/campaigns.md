@@ -187,3 +187,5 @@ Giới hạn tiền đồn chung của bản đồ từ một đến bốn. Đo�
 Lớp tình báo tiếp tế địch chỉ hiện điểm đường và địa điểm đã quan sát. Sản xuất, máu, kho và phòng thủ sào huyệt, giai đoạn/tiến độ tiền đồn và vị trí đoàn có thời gian quan sát riêng. Ngoài tầm nhìn giữ giá trị cuối; xây hoặc phá ẩn không đổi hình đã biết. Trinh sát lại sẽ cập nhật. Tuyến nhớ tối đa mười sáu điểm. Thông báo không lặp sau tải; bản hướng dẫn giải thích bốn chiến lược đối phó ngân sách hữu hạn.
 
 Chơi tự do có tùy chọn mở rộng lều goblin hữu hạn, mặc định tắt. Trò chơi hỗn hợp hoặc chỉ goblin dành một vị trí trong số sào huyệt đã chọn cho lều và liên kết tối đa bốn lều có sẵn, không tăng tổng số. Chủng tộc khác không nhận nguồn mới. Chiến dịch dùng cấu hình của tác giả.
+
+Giàn giáo, kho và phế tích có hình dáng riêng cùng vải chuyển động; giảm chuyển động giữ vải đứng yên. Người vận chuyển chỉ gõ búa khi xây dựng thực sự tiến triển. Phát hiện đoàn và quan sát công trình, hoàn tất, phế tích có biểu tượng và âm thanh riêng. Thay đổi ẩn và tải không lặp thông báo. Biểu mẫu nhỏ và thông tin có thể cuộn, bảng thông tin cũng cuộn bằng bàn phím.

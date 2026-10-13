@@ -28,14 +28,20 @@ Badania kupuje się w budynku, do którego należą: badania klasy w jej gildii,
 | Biblioteka | 3 | **Szkolenie bohaterów** | Wszystkie klasy | 900 | Wszyscy poszukiwacze zyskują +15% doświadczenia. |
 | Świątynia | 2 | **Medyk polowy** | Wszystkie klasy | 400 | Odpoczywający poszukiwacze leczą się o 50% szybciej. |
 | Bastion | 1 | **Tarcze wieżowe** | Rycerz Tarczy | 300 | Rycerz Tarczy: +4 do obrony. |
+| Bastion | 1 | **Uderzenie tarczą** | Rycerz Tarczy | 350 | Rycerz tarczy: +3 ataku. |
+| Bastion | 1 | **Splot osłony** | Rycerz Tarczy | 450 | Rycerz tarczy: osłona przysięgi +20%, najwyżej 50% maks. PŻ rzucającego; bez zmiany czasu i kumulacji. |
 | Dziki obóz | 1 | **Celny lot** | Tropiciel | 300 | Tropiciel: +4 do ataku. |
 | Ossuarium | 1 | **Nieśmiertelna zbroja** | Rycerz Grobów | 300 | Rycerz Grobów: +4 do obrony. |
 | Sanktuarium | 1 | **Musztra Bastionu** | Wszystkie klasy | 350 | Bastion: ochrona sięga o 5 pól dalej. |
 | Sanktuarium | 1 | **Chirurgia Polowa** | Wszystkie klasy | 400 | Sanktuarium i Modlitwa Uzdrowienia leczą o 50% więcej. |
 | Sanktuarium | 1 | **Przysięga uzdrowiciela** | Szpitalnik | 300 | Szpitalnik: +3 do obrony. |
+| Sanktuarium | 1 | **Dyscyplina leczenia** | Szpitalnik | 400 | Szpitalnik: własne leczenie +20%; wspólne leczenie bez zmian. |
+| Sanktuarium | 1 | **Pancerz uzdrowiciela** | Szpitalnik | 300 | Szpitalnik: +2 obrony. |
 | Leśna Zagroda | 1 | **Wiedza o Szlakach** | Wszystkie klasy | 300 | Bohaterowie zwiadują o 15% dalej od zamku. |
 | Leśna Zagroda | 1 | **Ziołowe Leki** | Wszystkie klasy | 350 | Karczmy i świątynia w mieście znów leczą w pełnym tempie. |
 | Leśna Zagroda | 1 | **Skóry bestii** | Opiekun Bestii | 300 | Opiekun Bestii: +3 do obrony. |
+| Leśna Zagroda | 1 | **Szkolenie stada** | Opiekun Bestii | 450 | Żywe psy, niedźwiedzie i jastrzębie żywego strażnika bestii: +2 ataku. Liczba i utrzymanie bez zmian. |
+| Leśna Zagroda | 1 | **Straż bestii** | Opiekun Bestii | 300 | Strażnik bestii: +3 obrony. |
 | Krypta | 1 | **Pakt Grobów** | Wszystkie klasy | 350 | Utrzymanie przyzwanego strażnika spada o połowę. |
 | Krypta | 1 | **Więź Szpiku** | Wszystkie klasy | 400 | Ossuarium: utrzymuje o jednego strażnika więcej. |
 | Krypta | 1 | **Zakazane księgi** | Nekromanta | 300 | Nekromanta: +5 do ataku. |
@@ -47,6 +53,7 @@ Badania kupuje się w budynku, do którego należą: badania klasy w jej gildii,
 | Hala Wojenna | 1 | **Sala Trofeów** | Wszystkie klasy | 400 | Zabójstwo daje o 15% więcej złota. |
 | Hala Wojenna | 1 | **Przysięga krwi** | Zaprzysiężony | 300 | Zaprzysiężony: +5 do ataku. |
 | Kwatermistrzostwo | 1 | **Straż chorągwi** | Chorąży | 300 | Chorąży: +3 do obrony. |
+| Kwatermistrzostwo | 1 | **Zaopatrzenie oblężnicze** | Chorąży | 500 | Zaopatrzeni chorążowie: +25% obrażeń murom; każdy cios nadal zużywa jeden zapas. |
 | Akademia | 1 | **Dostrojenie do Żył Mocy** | Wszystkie klasy | 350 | Zaklęcia królewskie kosztują o 20% mniej. |
 | Akademia | 1 | **Runiczne Więzy** | Wszystkie klasy | 400 | Aktywne umiejętności bohaterów są gotowe o 15% szybciej. |
 | Akademia | 1 | **Runiczne ostrze** | Ostrze Zaklęć | 300 | Ostrze Zaklęć: +4 do ataku. |
@@ -64,6 +71,11 @@ Badania kupuje się w budynku, do którego należą: badania klasy w jej gildii,
 | Instytut Zaklęć | 1 | **Samoleczenie** | Wszystkie klasy | 350 | Bohaterowie każdej klasy mogą nauczyć się zaklęcia Samoleczenie w Instytucie Zaklęć. |
 | Instytut Zaklęć | 2 | **Osłona** | Wszystkie klasy | 350 | Bohaterowie każdej klasy mogą nauczyć się zaklęcia Osłona w Instytucie Zaklęć. |
 | Instytut Zaklęć | 3 | **Iskra** | Wszystkie klasy | 400 | Bohaterowie każdej klasy mogą nauczyć się zaklęcia Iskra w Instytucie Zaklęć. |
+| Wieża mrozu | 1 | **Siatka mrozu** | Wszystkie klasy | 400 | Wieże mrozu: spowolnienie 10 zamiast 8 s; odporność bossa nadal działa, bez dodatkowych obrażeń. |
+| Stos sygnałowy | 1 | **Soczewki sygnałowe** | Wszystkie klasy | 250 | Wieże sygnałowe: +6 pól widzenia; bez ataku i kumulacji. |
+| Ołtarz oczyszczenia | 1 | **Zasięg oczyszczenia** | Wszystkie klasy | 350 | Ołtarze oczyszczenia: promień 9 zamiast 7; bez leczenia, usuwania osłon i resetu odporności. |
+| Gildia alchemików | 1 | **Zamknięte fiolki** | Alchemik | 300 | Alchemik: +3 obrony; cena i zapas bez zmian. |
+| Gildia alchemików | 2 | **Żrące odczynniki** | Alchemik | 450 | Alchemik: +1 obrażeń na dawkę trucizny; pięć dawek, jedna płatna fiolka, zapas najwyżej sześć. |
 
 - **Medyk polowy**: Nie sprzedaje się królestwu na drodze Nieumarli
 
@@ -79,6 +91,7 @@ Badania kupuje się w budynku, do którego należą: badania klasy w jej gildii,
 | Biblioteka | 250 → 400 → 600 |
 | Świątynia | 220 → 300 → 450 |
 | Instytut Zaklęć | 320 → 480 → 720 |
+| Gildia alchemików | 230 → 320 → 480 |
 <!-- research-places:end -->
 
 ---

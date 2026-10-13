@@ -28,14 +28,20 @@ La recherche s'achète dans le bâtiment auquel elle appartient : celle d'une cl
 | Bibliothèque | 3 | **Entraînement héroïque** | Toutes les classes | 900 | Tous les aventuriers gagnent +15 % d'expérience. |
 | Temple | 2 | **Médecin de campagne** | Toutes les classes | 400 | Les aventuriers au repos guérissent 50 % plus vite. |
 | Bastion | 1 | **Pavois** | Chevalier au bouclier | 300 | Chevalier au bouclier : +4 en défense. |
+| Bastion | 1 | **Frappe du bouclier** | Chevalier au bouclier | 350 | Chevalier du bouclier : +3 attaque. |
+| Bastion | 1 | **Tissage protecteur** | Chevalier au bouclier | 450 | Chevalier du bouclier : bouclier du serment +20%, au plus 50% des PV maximaux du lanceur ; durée inchangée, non cumulable. |
 | Camp sauvage | 1 | **Vol juste** | Éclaireur | 300 | Éclaireur : +4 en attaque. |
 | Ossuaire | 1 | **Harnois sans mort** | Chevalier des tombes | 300 | Chevalier des tombes : +4 en défense. |
 | Sanctuaire | 1 | **Exercice du rempart** | Toutes les classes | 350 | Bastion : sa protection porte 5 cases plus loin. |
 | Sanctuaire | 1 | **Chirurgie de campagne** | Toutes les classes | 400 | Sanctuaire et Prière de guérison soignent 50 % de plus. |
 | Sanctuaire | 1 | **Serment du soigneur** | Hospitalier | 300 | Hospitalier : +3 en défense. |
+| Sanctuaire | 1 | **Discipline curative** | Hospitalier | 400 | Hospitalier : ses soins +20% ; soins collectifs inchangés. |
+| Sanctuaire | 1 | **Armure du soigneur** | Hospitalier | 300 | Hospitalier : +2 défense. |
 | Pavillon des bêtes | 1 | **Science des pistes** | Toutes les classes | 300 | Les héros explorent 15 % plus loin du château. |
 | Pavillon des bêtes | 1 | **Remèdes d'herboriste** | Toutes les classes | 350 | Les auberges et le temple de la ville soignent de nouveau à plein rythme. |
 | Pavillon des bêtes | 1 | **Peaux de bête** | Gardien des bêtes | 300 | Gardien des bêtes : +3 en défense. |
+| Pavillon des bêtes | 1 | **Dressage de meute** | Gardien des bêtes | 450 | Chiens, ours et faucons vivants d’un gardien des bêtes vivant : +2 attaque. Nombre et entretien inchangés. |
+| Pavillon des bêtes | 1 | **Garde bestiale** | Gardien des bêtes | 300 | Gardien des bêtes : +3 défense. |
 | Crypte | 1 | **Pacte des tombes** | Toutes les classes | 350 | L'entretien d'un garde invoqué est réduit de moitié. |
 | Crypte | 1 | **Lien de moelle** | Toutes les classes | 400 | Ossuaire : entretient un garde de plus. |
 | Crypte | 1 | **Grimoires interdits** | Nécromancien | 300 | Nécromancien : +5 en attaque. |
@@ -47,6 +53,7 @@ La recherche s'achète dans le bâtiment auquel elle appartient : celle d'une cl
 | Halle de guerre | 1 | **Salle des trophées** | Toutes les classes | 400 | Chaque ennemi tué rapporte 15 % d'or de plus. |
 | Halle de guerre | 1 | **Serment de sang** | Juré de guerre | 300 | Juré de guerre : +5 en attaque. |
 | Intendance | 1 | **Garde de la bannière** | Porte-bannière | 300 | Porte-bannière : +3 en défense. |
+| Intendance | 1 | **Ravitaillement de siège** | Porte-bannière | 500 | Porte-étendards approvisionnés : +25% dégâts aux murs ; chaque frappe consomme toujours un ravitaillement. |
 | Académie | 1 | **Harmonisation tellurique** | Toutes les classes | 350 | Les sorts royaux coûtent 20 % de moins. |
 | Académie | 1 | **Lien runique** | Toutes les classes | 400 | Les compétences actives des héros sont de nouveau prêtes 15 % plus tôt. |
 | Académie | 1 | **Tranchant runique** | Lame-sort | 300 | Lame-sort : +4 en attaque. |
@@ -64,6 +71,11 @@ La recherche s'achète dans le bâtiment auquel elle appartient : celle d'une cl
 | Institut des sorts | 1 | **Autoguérison** | Toutes les classes | 350 | Les héros de toute classe peuvent apprendre Autoguérison à l'Institut des sorts. |
 | Institut des sorts | 2 | **Protection** | Toutes les classes | 350 | Les héros de toute classe peuvent apprendre Protection à l'Institut des sorts. |
 | Institut des sorts | 3 | **Étincelle** | Toutes les classes | 400 | Les héros de toute classe peuvent apprendre Étincelle à l'Institut des sorts. |
+| Tour de givre | 1 | **Treillis de givre** | Toutes les classes | 400 | Tours de givre : ralentissement de 8 à 10 s ; résistance du boss maintenue, sans dégâts supplémentaires. |
+| Fanal | 1 | **Lentilles de balise** | Toutes les classes | 250 | Balises : +6 cases de vision ; sans attaque ni cumul. |
+| Autel de purification | 1 | **Portée purifiante** | Toutes les classes | 350 | Autels purifiants : rayon de 7 à 9 ; sans soins, retrait des boucliers ou remise à zéro de résistance. |
+| Guilde des alchimistes | 1 | **Fioles scellées** | Alchimiste | 300 | Alchimiste : +3 défense ; prix et réserve inchangés. |
+| Guilde des alchimistes | 2 | **Réactifs caustiques** | Alchimiste | 450 | Alchimiste : +1 dégât par dose de poison ; cinq doses, une fiole payée, réserve limitée à six. |
 
 - **Médecin de campagne**: N'est pas vendu à un royaume sur la voie Mort-vivant
 
@@ -79,6 +91,7 @@ La recherche s'achète dans le bâtiment auquel elle appartient : celle d'une cl
 | Bibliothèque | 250 → 400 → 600 |
 | Temple | 220 → 300 → 450 |
 | Institut des sorts | 320 → 480 → 720 |
+| Guilde des alchimistes | 230 → 320 → 480 |
 <!-- research-places:end -->
 
 ---

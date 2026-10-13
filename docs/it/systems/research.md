@@ -28,14 +28,20 @@ La ricerca si compra nell'edificio a cui appartiene: quella di una classe nella 
 | Biblioteca | 3 | **Addestramento eroico** | Tutte le classi | 900 | Tutti gli avventurieri ottengono +15% esperienza. |
 | Tempio | 2 | **Medico da campo** | Tutte le classi | 400 | Gli avventurieri a riposo guariscono il 50% più in fretta. |
 | Bastione | 1 | **Scudi torre** | Cavaliere dello Scudo | 300 | Cavaliere dello Scudo: +4 difesa. |
+| Bastione | 1 | **Colpo di scudo** | Cavaliere dello Scudo | 350 | Cavaliere dello scudo: +3 attacco. |
+| Bastione | 1 | **Tessitura protettiva** | Cavaliere dello Scudo | 450 | Cavaliere dello scudo: scudo del giuramento +20%, massimo 50% dei PV del lanciatore; durata invariata, non cumulabile. |
 | Campo selvaggio | 1 | **Volo sicuro** | Battistrada | 300 | Battistrada: +4 attacco. |
 | Ossario | 1 | **Corazza senza morte** | Cavaliere Sepolcrale | 300 | Cavaliere Sepolcrale: +4 difesa. |
 | Santuario | 1 | **Addestramento del Baluardo** | Tutte le classi | 350 | Bastione: la sua protezione arriva 5 caselle più lontano. |
 | Santuario | 1 | **Chirurgia da Campo** | Tutte le classi | 400 | Santuario e Preghiera Risanatrice curano il 50% in più. |
 | Santuario | 1 | **Giuramento del guaritore** | Ospitaliere | 300 | Ospitaliere: +3 difesa. |
+| Santuario | 1 | **Disciplina curativa** | Ospitaliere | 400 | Ospitaliere: cure proprie +20%; cure comuni invariate. |
+| Santuario | 1 | **Armatura del guaritore** | Ospitaliere | 300 | Ospitaliere: +2 difesa. |
 | Rifugio delle Bestie | 1 | **Sapere dei Sentieri** | Tutte le classi | 300 | Gli eroi esplorano il 15% più lontano dal castello. |
 | Rifugio delle Bestie | 1 | **Rimedi Erboristici** | Tutte le classi | 350 | Le locande e il tempio della città tornano a curare a pieno ritmo. |
 | Rifugio delle Bestie | 1 | **Pelli di bestia** | Custode delle Bestie | 300 | Custode delle Bestie: +3 difesa. |
+| Rifugio delle Bestie | 1 | **Addestramento del branco** | Custode delle Bestie | 450 | Cani, orsi e falchi vivi di un custode delle bestie vivo: +2 attacco. Numero e mantenimento invariati. |
+| Rifugio delle Bestie | 1 | **Guardia delle bestie** | Custode delle Bestie | 300 | Custode delle bestie: +3 difesa. |
 | Cripta | 1 | **Patto Sepolcrale** | Tutte le classi | 350 | Il mantenimento di una guardia evocata è dimezzato. |
 | Cripta | 1 | **Legame del Midollo** | Tutte le classi | 400 | Ossario: mantiene una guardia in più. |
 | Cripta | 1 | **Tomi proibiti** | Negromante | 300 | Negromante: +5 attacco. |
@@ -47,6 +53,7 @@ La ricerca si compra nell'edificio a cui appartiene: quella di una classe nella 
 | Sala della Guerra | 1 | **Sala dei Trofei** | Tutte le classi | 400 | Ogni uccisione paga il 15% di oro in più. |
 | Sala della Guerra | 1 | **Giuramento di sangue** | Giurato | 300 | Giurato: +5 attacco. |
 | Intendenza | 1 | **Guardia dello stendardo** | Alfiere | 300 | Alfiere: +3 difesa. |
+| Intendenza | 1 | **Scorte d’assedio** | Alfiere | 500 | Alfieri riforniti: +25% danni alle mura; ogni colpo consuma ancora una scorta. |
 | Accademia | 1 | **Sintonia delle Linee** | Tutte le classi | 350 | Gli incantesimi reali costano il 20% in meno. |
 | Accademia | 1 | **Legame Runico** | Tutte le classi | 400 | Le abilità attive degli eroi tornano pronte il 15% prima. |
 | Accademia | 1 | **Filo runico** | Lama Arcana | 300 | Lama Arcana: +4 attacco. |
@@ -64,6 +71,11 @@ La ricerca si compra nell'edificio a cui appartiene: quella di una classe nella 
 | Istituto degli incantesimi | 1 | **Autoguarigione** | Tutte le classi | 350 | Gli eroi di qualsiasi classe possono imparare Autoguarigione all'Istituto degli incantesimi. |
 | Istituto degli incantesimi | 2 | **Protezione** | Tutte le classi | 350 | Gli eroi di qualsiasi classe possono imparare Protezione all'Istituto degli incantesimi. |
 | Istituto degli incantesimi | 3 | **Scintilla** | Tutte le classi | 400 | Gli eroi di qualsiasi classe possono imparare Scintilla all'Istituto degli incantesimi. |
+| Torre del gelo | 1 | **Reticolo di gelo** | Tutte le classi | 400 | Torri del gelo: rallentamento da 8 a 10 s; resistenza del boss valida, nessun danno aggiuntivo. |
+| Fanale | 1 | **Lenti del faro** | Tutte le classi | 250 | Fari: +6 caselle di visione; nessun attacco o cumulo. |
+| Altare della purificazione | 1 | **Raggio purificante** | Tutte le classi | 350 | Altari purificanti: raggio da 7 a 9; niente cure, rimozione degli scudi o azzeramento della resistenza. |
+| Gilda degli alchimisti | 1 | **Fiale sigillate** | Alchimista | 300 | Alchimista: +3 difesa; prezzo e scorte invariati. |
+| Gilda degli alchimisti | 2 | **Reagenti caustici** | Alchimista | 450 | Alchimista: +1 danno per dose di veleno; cinque dosi, una fiala pagata, massimo sei fiale. |
 
 - **Medico da campo**: Non si vende a un regno sulla via Non morto
 
@@ -79,6 +91,7 @@ La ricerca si compra nell'edificio a cui appartiene: quella di una classe nella 
 | Biblioteca | 250 → 400 → 600 |
 | Tempio | 220 → 300 → 450 |
 | Istituto degli incantesimi | 320 → 480 → 720 |
+| Gilda degli alchimisti | 230 → 320 → 480 |
 <!-- research-places:end -->
 
 ---
