@@ -77,3 +77,7 @@ Formularz Rozbudowa kryjówek służy mapom i kampaniom: do czterech namiotów g
 Wspólny limit posterunków mapy wynosi od jednego do czterech. Konwój dla nowej budowy rezerwuje miejsce przed wyjściem; przy pełnym limicie inne źródła czekają bez tworzenia jednostek i gromadzenia najazdów. Żywy osierocony posterunek zajmuje miejsce do zniszczenia.
 
 W ostrzeganych umiejętnościach potworów i BOSS opcjonalny cast_range (1–32 pola) wybiera cel; radius nadal oznacza obszar trafienia. Śmierć rzucającego anuluje ostrzeżenie.
+
+Warstwa wywiadu zaopatrzenia pokazuje tylko obserwowane punkty i miejsca. Produkcja, zdrowie, skarb i obrońcy kryjówki, etap/postęp posterunku i pozycje konwoju mają osobne czasy obserwacji. Poza widokiem zostaje ostatnia wartość; ukryta budowa lub rozbiórka nie zmienia znanego obrazu. Ponowny zwiad aktualizuje dane. Trasa pamięta do szesnastu punktów. Powiadomienia pozostają jednorazowe po wczytaniu; odprawa wyjaśnia cztery strategie przeciw skończonemu budżetowi.
+
+Swobodna gra oferuje ograniczoną ekspansję namiotów goblinów, domyślnie wyłączoną. Gra mieszana lub z goblinami rezerwuje jeden z wybranych slotów kryjówek na namiot i wiąże do czterech istniejących namiotów, bez zwiększania liczby kryjówek. Inne rasy nie otrzymują dodatkowych źródeł. Kampanie używają ustawień autora.

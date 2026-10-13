@@ -77,3 +77,7 @@ The map and campaign editors share a Lair expansion form: choose up to four exis
 The shared map outpost limit is adjustable from one to four. A convoy funding a new site reserves its slot before departure; other sources wait at capacity without issuing units or accumulating raids. A living orphaned outpost keeps its slot until destroyed.
 
 For warned monster and boss skills, optional cast_range (1–32 tiles) selects the target; radius remains the impact area. A fallen caster cancels its warning.
+
+Enemy supply intelligence is a map layer of observed waypoints and sites. Main-lair production, health, hoard and defenders, outpost stage/progress and convoy positions keep separate observation times. Outside crown sight they stay at the last observed value; hidden construction or demolition does not change the known image. Scouting the site again refreshes it. Routes remember at most sixteen observed waypoints. Discovery notices are deduplicated across saves, and the briefing explains interception, outpost destruction, main-lair destruction and holding against a finite budget.
+
+Free play offers an optional finite Goblin Tent expansion switch, off by default. Mixed or goblin-only games reserve one of the chosen lair slots for a Goblin Tent and bind at most four existing tents; the total lair count stays unchanged. Other races have no synthetic source. Campaigns use their authored settings instead of this preference.

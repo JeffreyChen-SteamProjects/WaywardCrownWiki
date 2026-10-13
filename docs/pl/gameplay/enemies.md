@@ -149,3 +149,9 @@ Pokonanie nazwanej fali obejmuje jej przyzwane szkielety i małe śluzy; zabicie
 **Bestia oblężnicza** — Wolny ciężki wojownik uderza w budynki za ×4 połowy ataku już zmienionego rangą. Zatrzymaj frontem i skup ostrzał; wysoka obrona utrudnia szturm wręcz bez wsparcia.
 
 Gnashfang przywołuje jedną pikę i jedną tarczę naraz, cztery za życia. Śledzą środek jego straży i przeżywają jego śmierć. Cios ostrzega 2,4s, wybiera do 4 pól i uderza promień 2; ostatni dwaj łucznicy to osobne ograniczone wezwanie.
+
+**Pancerne koszary** — Pancerny front, łucznicy i ograniczone leczenie. Najpierw zabij medyka lub użyj ostrzału i trucizny. 3200 HP. Garnizon: Tarczownik, Goblin łucznik, Gobliński szaman. Cykl najazdu: Tarczownik, Pikinier, Goblin łucznik, Gobliński szaman, Pikinier, Goblin łucznik. Rodzima ziemia: Las, Góry. Pierwszy najazd 9:00, potem co 6:00; początkowo 4 żołnierzy, po jednym więcej do 8. Zburzenie zatrzymuje nowe straże i najazdy; żywi żołnierze zostają.
+
+**Wylęgarnia zarazy** — Dzielący się front z ostrzeganym jadem i klątwami. Omijaj strefy, oczyszczaj i przygotuj się na ograniczone dzieci. 2200 HP. Garnizon: Dzielący się śluz, Plujnik jadu, Wiązacz klątw. Cykl najazdu: Dzielący się śluz, Plujnik jadu, Wiązacz klątw, Nietoperz wampir, Plujnik jadu, Dzielący się śluz. Rodzima ziemia: Las, Bagno. Pierwszy najazd 8:00, potem co 5:30; początkowo 3 żołnierzy, po jednym więcej do 7. Zburzenie zatrzymuje nowe straże i najazdy; żywi żołnierze zostają.
+
+**Obóz oblężniczy** — Bestia oblężnicza, łucznicy i tarcze pilnują obozu. Saperzy atakują budowy, a bez budów zamek. Przechwyć i zniszcz źródło. 3800 HP. Garnizon: Bestia oblężnicza, Goblin łucznik, Tarczownik. Cykl najazdu: Bestia oblężnicza, Saper, Goblin łucznik, Tarczownik, Saper, Goblin łucznik. Rodzima ziemia: Pustynia, Łąka. Pierwszy najazd 12:00, potem co 8:00; początkowo 3 żołnierzy, po jednym więcej do 6. Zburzenie zatrzymuje nowe straże i najazdy; żywi żołnierze zostają.

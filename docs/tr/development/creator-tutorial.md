@@ -77,3 +77,7 @@ Yuva genişlemesi formu harita ve kampanyalarda ortaktır: dört Goblin Çadır�
 Ortak harita karakol sınırı birden dörde ayarlanır. Yeni alanı finanse eden konvoy çıkmadan yer ayırır; sınır dolunca diğer kaynaklar birlik çıkarmadan veya baskın biriktirmeden bekler. Yaşayan sahipsiz karakol yıkılana kadar yerini tutar.
 
 Uyarılı canavar ve BOSS becerilerinde isteğe bağlı cast_range (1–32 kare) hedefi seçer; radius isabet alanıdır. Büyücü ölürse uyarı iptal edilir.
+
+Düşman ikmal istihbaratı yalnızca gözlenen noktaları ve alanları gösterir. Ana yuvanın üretim, sağlık, hazine ve savunucuları, karakol aşaması/ilerlemesi ve konvoy konumları ayrı gözlem saatleri tutar. Görüş dışında son değer kalır; gizli inşaat veya yıkım bilinen görüntüyü değiştirmez. Yeniden keşif günceller. Rota en fazla on altı gözlenmiş nokta tutar. Yükleme sonrası bildirim tekrarlanmaz; brifing sonlu bütçeye karşı dört stratejiyi açıklar.
+
+Serbest oyunda sonlu goblin çadırı genişlemesi isteğe bağlıdır ve başlangıçta kapalıdır. Karma veya goblin oyunları seçilen yuva sayısından bir yeri çadıra ayırır ve en fazla dört mevcut çadırı bağlar; toplam artmaz. Diğer ırklara yeni kaynak eklenmez. Seferler yazar ayarlarını kullanır.

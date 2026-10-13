@@ -149,3 +149,9 @@ Dọn đợt địch được chỉ định cũng cần hạ bộ xương đư�
 **Quái thú công thành** — Đơn vị nặng chậm, đánh công trình bằng bốn lần nửa công đã tính cấp bậc. Chặn bằng tiền tuyến và tập trung bắn; thủ cao khiến đột kích cận chiến thiếu hỗ trợ tốn kém.
 
 Gnashfang gọi một giáo và một khiên mỗi lần, bốn suốt đời. Họ theo tâm phòng thủ và còn sống sau khi thủ lĩnh chết. Đòn nặng cảnh báo 2,4 giây, chọn trong 4 ô, trúng bán kính 2; hai cung thủ cuối là lần gọi hữu hạn riêng.
+
+**Doanh trại thiết giáp** — Tiền tuyến giáp nặng, cung thủ và hồi máu hữu hạn. Hạ người chữa trị trước hoặc dùng tầm xa và độc. 3200 HP. Lính giữ: Lính khiên, Cung thủ Goblin, Pháp sư goblin. Chu kỳ đột kích: Lính khiên, Lính giáo dài, Cung thủ Goblin, Pháp sư goblin, Lính giáo dài, Cung thủ Goblin. Địa hình gốc: Rừng, Núi. Đợt đầu 9:00, sau đó mỗi 6:00; đầu tiên 4 quân, tăng từng một đến 8. Phá ổ ngừng lính gác và đợt mới; quân đang sống vẫn ở lại.
+
+**Ổ ấp dịch bệnh** — Tiền tuyến phân đôi với vùng nọc có cảnh báo và bùa nguyền. Tránh vùng, thanh tẩy và chuẩn bị hạ con hữu hạn. 2200 HP. Lính giữ: Chất nhầy phân đôi, Kẻ phun nọc, Kẻ trói nguyền. Chu kỳ đột kích: Chất nhầy phân đôi, Kẻ phun nọc, Kẻ trói nguyền, Dơi hút máu, Kẻ phun nọc, Chất nhầy phân đôi. Địa hình gốc: Rừng, Đầm lầy. Đợt đầu 8:00, sau đó mỗi 5:30; đầu tiên 3 quân, tăng từng một đến 7. Phá ổ ngừng lính gác và đợt mới; quân đang sống vẫn ở lại.
+
+**Trại công thành** — Thú công thành, cung thủ và khiên giữ trại. Kẻ đặt thuốc nổ đánh công trường, hoặc thành nếu không có công việc. Chặn và phá nguồn. 3800 HP. Lính giữ: Quái thú công thành, Cung thủ Goblin, Lính khiên. Chu kỳ đột kích: Quái thú công thành, Lính phá hoại, Cung thủ Goblin, Lính khiên, Lính phá hoại, Cung thủ Goblin. Địa hình gốc: Sa mạc, Đồng cỏ. Đợt đầu 12:00, sau đó mỗi 8:00; đầu tiên 3 quân, tăng từng một đến 6. Phá ổ ngừng lính gác và đợt mới; quân đang sống vẫn ở lại.

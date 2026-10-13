@@ -77,3 +77,7 @@ Das Formular Lagererweiterung gilt für Karten und Kampagnen: bis zu vier Goblin
 Das gemeinsame Außenpostenlimit der Karte ist von eins bis vier einstellbar. Ein Konvoi für einen neuen Standort reserviert vor Abreise einen Platz; bei voller Belegung warten andere Quellen ohne neue Einheiten oder angesammelte Überfälle. Ein lebender verwaister Außenposten belegt seinen Platz bis zur Zerstörung.
 
 Bei gewarnten Monster- und Bossfertigkeiten wählt das optionale cast_range (1–32 Felder) das Ziel; radius bleibt das Einschlaggebiet. Ein gefallener Zauberer löscht seine Warnung.
+
+Die feindlichen Versorgungsinformationen zeigen nur beobachtete Wegpunkte und Standorte. Produktion, Gesundheit, Schatz und Verteidiger des Hauptlagers, Baustufe/Fortschritt und Konvoipositionen haben getrennte Beobachtungszeiten. Außerhalb der Sicht bleibt der letzte Wert; verborgener Bau oder Abriss ändert das bekannte Bild nicht. Erneute Erkundung aktualisiert es. Wege speichern höchstens sechzehn beobachtete Punkte. Hinweise bleiben nach Laden einmalig; das Briefing erklärt die vier Strategien gegen ein endliches Budget.
+
+Im freien Spiel ist eine endliche Goblinzelt-Erweiterung optional und zunächst ausgeschaltet. Gemischte oder Goblin-Spiele reservieren einen der gewählten Lagerplätze für ein Zelt und binden höchstens vier vorhandene Zelte ein; die Gesamtzahl bleibt gleich. Andere Völker erhalten keine künstliche Quelle. Kampagnen nutzen die Einstellungen des Autors.

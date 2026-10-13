@@ -77,3 +77,7 @@ El formulario Expansión de guaridas sirve para mapas y campañas: elige hasta c
 El límite compartido de puestos del mapa se ajusta de uno a cuatro. Un convoy para un sitio nuevo reserva su plaza antes de salir; al llenarse, otros orígenes esperan sin emitir unidades ni acumular incursiones. Un puesto huérfano vivo ocupa su plaza hasta ser destruido.
 
 En habilidades con aviso de monstruos y jefes, cast_range opcional (1–32 casillas) selecciona el objetivo; radius sigue siendo el área de impacto. La muerte del lanzador cancela el aviso.
+
+La capa de inteligencia de suministro enemigo muestra solo puntos y sitios observados. Producción, salud, tesoro y defensores de la base, etapa/progreso del puesto y posiciones del convoy guardan tiempos separados. Fuera de la vista conservan el último valor; obras o demoliciones ocultas no cambian la imagen conocida. Otro reconocimiento actualiza los datos. La ruta recuerda dieciséis puntos observados como máximo. Avisos sin duplicados tras cargar y briefing con las cuatro estrategias de presupuesto finito.
+
+El juego libre permite activar la expansión finita de tiendas goblin; está desactivada por defecto. Las partidas mixtas o goblin reservan una de las guaridas elegidas para una tienda y vinculan hasta cuatro existentes, sin aumentar el total. Otras razas no reciben fuentes nuevas. Las campañas usan la configuración del autor.

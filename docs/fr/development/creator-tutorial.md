@@ -77,3 +77,7 @@ Le formulaire Expansion des repaires est commun aux cartes et campagnes : choisi
 La limite commune des postes de la carte va de un à quatre. Un convoi finançant un nouveau chantier réserve sa place avant de partir ; à capacité pleine, les autres sources attendent sans produire d’unités ni accumuler de raids. Un poste isolé vivant garde sa place jusqu’à sa destruction.
 
 Pour les compétences annoncées des monstres et BOSS, cast_range optionnel (1–32 cases) sélectionne la cible ; radius reste la zone d’impact. Un lanceur mort annule son avertissement.
+
+La couche de renseignements sur le ravitaillement montre uniquement les points et sites observés. Production, santé, trésor et défenseurs de la base, stade/progrès du poste et positions du convoi gardent des heures séparées. Hors de vue, la dernière valeur reste ; construction ou démolition cachée ne change pas l’image connue. Une nouvelle reconnaissance actualise les données. La route retient seize points observés au plus. Les avis restent uniques après chargement et le briefing explique les quatre stratégies à budget fini.
+
+Le jeu libre propose une expansion limitée des tentes gobelines, désactivée par défaut. Les parties mixtes ou gobelines réservent une des places de repaire choisies à une tente et relient au plus quatre tentes existantes, sans augmenter le total. Les autres races ne reçoivent aucune source ajoutée. Les campagnes utilisent les réglages de leur auteur.

@@ -77,3 +77,7 @@ Il modulo Espansione delle tane è condiviso da mappe e campagne: fino a quattro
 Il limite condiviso degli avamposti va da uno a quattro per mappa. Un convoglio per un nuovo sito prenota il posto prima di partire; al limite, le altre origini attendono senza emettere unità o accumulare incursioni. Un avamposto orfano vivo mantiene il posto fino alla distruzione.
 
 Per abilità annunciate di mostri e BOSS, cast_range opzionale (1–32 caselle) sceglie il bersaglio; radius resta l’area d’impatto. La morte del lanciatore annulla l’avviso.
+
+Il livello dei rifornimenti nemici mostra solo punti e siti osservati. Produzione, salute, tesoro e difensori della base, fase/progresso del posto e posizioni del convoglio hanno tempi separati. Fuori vista resta l’ultimo valore; costruzione o demolizione nascosta non cambia l’immagine nota. Un’altra ricognizione aggiorna i dati. La rotta conserva al massimo sedici punti osservati. Avvisi unici dopo il caricamento; briefing sulle quattro strategie contro il budget finito.
+
+Il gioco libero offre un’espansione finita delle tende goblin, disattivata inizialmente. Le partite miste o goblin riservano uno dei posti scelti a una tenda e collegano fino a quattro tende esistenti, senza aumentare i covi totali. Altre razze non ricevono fonti aggiunte. Le campagne usano le impostazioni dell’autore.

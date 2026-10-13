@@ -149,3 +149,9 @@ Adlandırılmış dalgayı temizlemek çağrılan iskeletleri ve balçık yavrul
 **Kuşatma Canavarı** — Yavaş ağır birlik, yapılara rütbeli yarım saldırısının bir kez ×4’üyle vurur. Ön hatla durdurup uzaktan odaklanın; savunması desteksiz yakın hücumu pahalı kılar.
 
 Gnashfang bir mızrak ve bir kalkan çağırır, ömür boyu dört. Muhafız merkeziyle ilerler ve ölümünden sonra kalırlar. Darbe 2,4sn uyarır, 4 kareden seçer ve yarıçap 2 vurur; son iki okçu ayrı sınırlı çağrıdır.
+
+**Zırhlı kışla** — Zırhlı ön hat, okçular ve sınırlı iyileştirme. Şifacıyı önce öldürün veya menzil ve zehir kullanın. 3200 HP. Garnizon: Kalkan Taşıyıcı, Goblin Okçu, Goblin şamanı. Baskın döngüsü: Kalkan Taşıyıcı, Mızrakçı, Goblin Okçu, Goblin şamanı, Mızrakçı, Goblin Okçu. Yerel arazi: Orman, Dağ. İlk baskın 9:00, sonra her 6:00; başlangıçta 4 asker, her defasında bir artıp 8. Yıkmak yeni muhafız ve baskınları durdurur; canlı askerler kalır.
+
+**Veba kuluçkası** — Bölünen ön hat, uyarılı zehir alanları ve lanetler. Alanlardan kaçının, arının ve sınırlı yavrulara hazırlanın. 2200 HP. Garnizon: Bölünen balçık, Zehir tükürücü, Lanet bağlayıcı. Baskın döngüsü: Bölünen balçık, Zehir tükürücü, Lanet bağlayıcı, Vampir yarasa, Zehir tükürücü, Bölünen balçık. Yerel arazi: Orman, Bataklık. İlk baskın 8:00, sonra her 5:30; başlangıçta 3 asker, her defasında bir artıp 7. Yıkmak yeni muhafız ve baskınları durdurur; canlı askerler kalır.
+
+**Kuşatma kampı** — Kuşatma canavarı, okçular ve kalkanlar kampı korur. Lağımcılar inşaata, iş yoksa kaleye saldırır. Durdurun ve kaynağı yıkın. 3800 HP. Garnizon: Kuşatma Canavarı, Goblin Okçu, Kalkan Taşıyıcı. Baskın döngüsü: Kuşatma Canavarı, Lağımcı, Goblin Okçu, Kalkan Taşıyıcı, Lağımcı, Goblin Okçu. Yerel arazi: Çöl, Çayırlık. İlk baskın 12:00, sonra her 8:00; başlangıçta 3 asker, her defasında bir artıp 6. Yıkmak yeni muhafız ve baskınları durdurur; canlı askerler kalır.

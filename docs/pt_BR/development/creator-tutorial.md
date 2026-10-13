@@ -77,3 +77,7 @@ O formulário Expansão de covis serve para mapas e campanhas: escolha até quat
 O limite compartilhado de postos do mapa vai de um a quatro. Um comboio para um novo local reserva a vaga antes de sair; ao atingir o limite, outras origens esperam sem emitir unidades ou acumular ataques. Um posto órfão vivo ocupa sua vaga até ser destruído.
 
 Em habilidades anunciadas de monstros e BOSS, cast_range opcional (1–32 casas) seleciona o alvo; radius continua como área de impacto. Um conjurador morto cancela seu aviso.
+
+A camada de informações de suprimentos inimigos só mostra pontos e locais observados. Produção, vida, tesouro e defensores da base, etapa/progresso do posto e posições do comboio guardam horários separados. Fora da visão mantêm o último valor; construção ou destruição oculta não muda a imagem conhecida. Reconhecer novamente atualiza os dados. A rota guarda até dezesseis pontos observados. Avisos não duplicam após carregar e o briefing explica quatro estratégias contra orçamento finito.
+
+O jogo livre oferece expansão finita das tendas goblins, desligada por padrão. Partidas mistas ou de goblins reservam uma das vagas escolhidas para uma tenda e vinculam até quatro tendas existentes, sem aumentar o total de covis. Outras raças não recebem fontes extras. Campanhas usam a configuração do autor.

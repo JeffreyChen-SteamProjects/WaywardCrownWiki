@@ -77,3 +77,7 @@ Biểu mẫu Mở rộng sào huyệt dùng chung cho bản đồ và chiến d�
 Giới hạn tiền đồn chung của bản đồ từ một đến bốn. Đoàn tiếp tế cho địa điểm mới giữ chỗ trước khi xuất phát; khi đầy, nguồn khác chờ mà không tạo đơn vị hay tích đợt tập kích. Tiền đồn mồ côi còn sống giữ chỗ đến khi bị phá.
 
 Kỹ năng có cảnh báo của quái và BOSS có thể dùng cast_range (1–32 ô) để chọn tầm nhắm; radius vẫn là vùng trúng. Kẻ dùng phép chết sẽ hủy cảnh báo.
+
+Lớp tình báo tiếp tế địch chỉ hiện điểm đường và địa điểm đã quan sát. Sản xuất, máu, kho và phòng thủ sào huyệt, giai đoạn/tiến độ tiền đồn và vị trí đoàn có thời gian quan sát riêng. Ngoài tầm nhìn giữ giá trị cuối; xây hoặc phá ẩn không đổi hình đã biết. Trinh sát lại sẽ cập nhật. Tuyến nhớ tối đa mười sáu điểm. Thông báo không lặp sau tải; bản hướng dẫn giải thích bốn chiến lược đối phó ngân sách hữu hạn.
+
+Chơi tự do có tùy chọn mở rộng lều goblin hữu hạn, mặc định tắt. Trò chơi hỗn hợp hoặc chỉ goblin dành một vị trí trong số sào huyệt đã chọn cho lều và liên kết tối đa bốn lều có sẵn, không tăng tổng số. Chủng tộc khác không nhận nguồn mới. Chiến dịch dùng cấu hình của tác giả.

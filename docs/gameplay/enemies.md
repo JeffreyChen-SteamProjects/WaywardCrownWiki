@@ -149,3 +149,9 @@ Clearing a named wave also requires defeating its called skeletons and slime chi
 **Siege Beast** — Slow heavy that hits structures at ×4 of its already ranked half attack. Intercept with a front line and focus it from range; its high defense makes an unsupported melee rush costly.
 
 Gnashfang calls one pikeman and one shieldbearer per call, four over his life. They follow his guard center and survive his death. His cleave warns for 2.4s, aims within 4 tiles and hits radius 2; the final two archers remain a separate finite call.
+
+**Armored barracks** — Armored front, archers and finite healing support. Kill the healer first or use ranged damage and poison. 3200 HP. Garrison: Shieldbearer, Goblin Archer, Goblin shaman. Raid cycle: Shieldbearer, Pikeman, Goblin Archer, Goblin shaman, Pikeman, Goblin Archer. Native terrain: Forest, Mountain. First raid 9:00; then every 6:00; 4 troops initially, growing by one up to 8. Razing stops new guards and raids; living troops remain.
+
+**Plague hatchery** — A splitting front with warned venom and hex support. Evade zones, cleanse and prepare for the finite children. 2200 HP. Garrison: Fission slime, Venom spitter, Hex binder. Raid cycle: Fission slime, Venom spitter, Hex binder, Vampire bat, Venom spitter, Fission slime. Native terrain: Forest, Swamp. First raid 8:00; then every 5:30; 3 troops initially, growing by one up to 7. Razing stops new guards and raids; living troops remain.
+
+**Siege camp** — A siege beast, archers and shields guard the camp; sappers join raids against construction, or the castle while no work is underway. Intercept and destroy the source. 3800 HP. Garrison: Siege Beast, Goblin Archer, Shieldbearer. Raid cycle: Siege Beast, Sapper, Goblin Archer, Shieldbearer, Sapper, Goblin Archer. Native terrain: Desert, Grassland. First raid 12:00; then every 8:00; 3 troops initially, growing by one up to 6. Razing stops new guards and raids; living troops remain.
