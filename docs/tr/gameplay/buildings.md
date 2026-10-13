@@ -208,3 +208,5 @@ Bir süsleme seçip yere tıkla veya yol çizgisini sürükleyip bırak. Seç �
 
 Ücretsiz yollar: Sıkıştırılmış toprak, Çakıl, Arnavut kaldırımı, Taş plakalar, Kırmızı tuğla, Açık renk döşeme, Çimli taşlar, Ahşap yürüyüş yolu.
 <!-- town-beautification:end -->
+
+**Simyacı · Simyacılar loncası** — 230 Altın, HP 750, Lv.2 → 320, Lv.3 → 480. Menzil 8 kare. Önce müttefiklerden yalnızca zehri temizler. Zehir, 2 kare yarıçapında en fazla 8 düşmana 5sn boyunca 4 can/sn uygular. En fazla 6 şişe, pazar veya loncada tanesi 30 altın. Boss zehri sınırlıdır; malzemesiz iğne atar.

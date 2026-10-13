@@ -61,3 +61,9 @@ Mẫu này là một ví dụ hoàn chỉnh để tháo ra xem: một gói nội
 ## Những gì mẫu không bao giờ có
 
 Mẫu không có ID vật phẩm Workshop thật, tài khoản Steam hay đường dẫn tuyệt đối nào: ID dự án được tạo mới trên máy của bạn và mọi tệp được đặt tên tương đối theo dự án.
+
+## Dữ liệu di tích tùy chọn
+
+Bản đồ và màn chiến dịch nhận tối đa hai mục `relics` với khả năng `relics`. Mỗi mục có `id` duy nhất, loại `ancient_beacon`, `sealed_tomb` hoặc `lost_station`, cùng `target` khớp `objective_id` của công trình hiện có. Các lựa chọn cố định cho phép tối đa hai quyết định; mã lệnh tùy ý và nhánh lặp bị từ chối. Chỉ khám phá không trừ tiền hay bắt đầu thời hạn. Bản lưu giữ lựa chọn đã chấp nhận, chi phí, hoàn tiền và phần thưởng một lần.
+
+Địa điểm mẫu yêu cầu `type: BEACON`.

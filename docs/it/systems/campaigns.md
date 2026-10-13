@@ -171,3 +171,7 @@ Gli eroi confrontano negozi raggiungibili, prezzi e capacità reale degli allogg
 I dettagli della spedizione collegano negozi di pozioni e riposi raggiungibili e contano cure e scudi alleati appresi. I negozi registrano arrivi totali, viaggio medio e attacchi. I risultati indicano un piano di vittoria principale e imprese simultanee, con un solo saldo di base.
 
 <!-- gameplay-preparation:end -->
+
+## Faro antico
+
+Nelle mappe con un faro antico, seleziona il luogo scoperto per vedere costi, scadenza e scelte nei dettagli. Riparare richiede una squadra o costruttore sul posto e si ferma a metà per finanziare ancora o ritirarsi. Il completamento avvisa di nemici scoperti entro 20 caselle. Recuperare tesoro richiede che un eroe accetti la bandiera di esplorazione, arrivi e lavori; tesoro reale e lavoratore sono pagati una volta. Ignorare non avvia scadenze; ritirarsi restituisce solo fondi inutilizzati. La rovina non recluta né potenzia bandiere.

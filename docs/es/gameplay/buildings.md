@@ -208,3 +208,5 @@ Aspectos de camino gratuitos con la velocidad habitual. Arrastra y suelta para p
 
 Caminos gratuitos: Tierra apisonada, Grava, Adoquines, Losas, Ladrillo rojo, Pavimento claro, Piedras con hierba, Pasarela de madera.
 <!-- town-beautification:end -->
+
+**Alquimista · Gremio de alquimia** — 230 Oro, HP 750, Lv.2 → 320, Lv.3 → 480. Alcance de 8 casillas. Prioriza quitar solo el veneno de aliados. El veneno cubre radio 2, hasta 8 enemigos durante 5s a 4 PV/s. Lleva hasta 6 frascos, 30 de oro cada uno en mercado o gremio. El veneno de jefes tiene límite; sin frascos usa agujas.

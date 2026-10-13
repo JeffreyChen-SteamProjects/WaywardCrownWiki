@@ -48,6 +48,7 @@ Oyundaki her kahraman sınıfı, oyunun verilerinden yazılmıştır: her krall�
 | **Kervancı** | Ticaret | Kervan Deposu | 55–115 | ÇVK | 3 | Hassas Atış, Kaçınma, Çoklu Atış, Kartal Gözü, Yol İşareti |
 | **Engizitör** | Zorbalık | Mahkeme | 65–130 | ZKA | 3 | Ateş Oku, Mana Kalkanı, Kışkırtma, Baş Büyücü, Dehşet Damgası, Demir Yemin |
 | **İnfazcı** | Zorbalık | Haraç Dairesi | 90–170 | GÜÇ | 3 | Güçlü Darbe, Kalkan Duvarı, Berserker, Savaş Lordu, Zincir Hükmü |
+| **Simyacı** | — | Simyacılar loncası | 45–85 | ZKA | 8 | İsabetli iğneler, Saha önlüğü, Hassas karışım, Damıtma ustası, Saha simyası |
 <!-- hero-classes:end -->
 
 ---

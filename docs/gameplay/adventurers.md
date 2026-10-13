@@ -48,6 +48,7 @@ Every hero class in the game, written from its data: the six that any kingdom re
 | **Caravaneer** | Commerce | Depot | 55–115 | AGI | 3 | Precise Shot, Evasion, Multi Shot, Eagle Eye, Route Mark |
 | **Inquisitor** | Tyranny | Tribunal | 65–130 | INT | 3 | Fire Bolt, Mana Shield, Taunt, Archmage, Dread Brand, Iron Oath |
 | **Enforcer** | Tyranny | Levy Office | 90–170 | STR | 3 | Power Strike, Shield Wall, Berserker, Warlord, Chain Verdict |
+| **Alchemist** | — | Alchemy Guild | 45–85 | INT | 8 | Measured darts, Field apron, Precise mixing, Master distiller, Field alchemy |
 <!-- hero-classes:end -->
 
 ---

@@ -171,3 +171,7 @@ Heroes compare reachable shops, prices and genuine lodging capacity. Retreating 
 Expedition details link to reachable potion shops and rest, and count learnt healing and ally shields. Shops record total arrivals, average journey time and attacks. Results name one primary victory plan and any simultaneous feats, with one basic settlement.
 
 <!-- gameplay-preparation:end -->
+
+## Ancient beacon
+
+On maps with an ancient beacon, select its discovered site to see costs, the deadline and choices in the details panel. Repair requires a crew or builder on site and pauses halfway for extra funding or withdrawal. Completion warns about discovered enemies within 20 tiles. Salvage needs a hero to accept the explore flag, arrive and work; the crown and worker are paid once. Ignoring the offer starts no deadline. Withdrawal refunds only unspent funds. The relic gives no recruitment or flag bonus.

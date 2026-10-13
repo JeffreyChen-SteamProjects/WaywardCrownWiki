@@ -61,3 +61,9 @@ Die Vorlage ist ein fertiges Beispiel zum Auseinandernehmen: ein Inhaltspaket mi
 ## Was Vorlagen nie enthalten
 
 Eine Vorlage enthält keine echte Workshop-Artikel-ID, kein Steam-Konto und keinen absoluten Pfad: Projekt-IDs entstehen neu auf deinem Computer, und jede Datei wird relativ zum Projekt benannt.
+
+## Optionale Ruinendaten
+
+Karten und Kampagnenlevel akzeptieren mit der Fähigkeit `relics` höchstens zwei `relics`-Einträge. Jeder Eintrag besitzt eine eindeutige `id`, den Typ `ancient_beacon`, `sealed_tomb` oder `lost_station` und ein `target`, das der `objective_id` eines vorhandenen Gebäudes entspricht. Feste Optionen erlauben höchstens zwei Entscheidungen; beliebige Skripte und zyklische Zweige werden abgewiesen. Die Entdeckung allein kostet nichts und startet keine Frist. Spielstände erhalten angenommene Entscheidungen, Kosten, Rückerstattungen und einmalige Belohnungen.
+
+Der Prototyp benötigt einen Ort mit `type: BEACON`.

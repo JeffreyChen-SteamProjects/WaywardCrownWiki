@@ -171,3 +171,7 @@ Bohaterowie porównują dostępne sklepy, ceny i rzeczywistą liczbę miejsc noc
 Szczegóły wyprawy prowadzą do dostępnych sklepów z miksturami i odpoczynków oraz pokazują nauczone leczenie i tarcze sojuszników. Sklepy zapisują wizyty, średni czas podróży i ataki. Wyniki podają jeden główny plan zwycięstwa i jednoczesne osiągnięcia, z jednorazowym rozliczeniem podstawowym.
 
 <!-- gameplay-preparation:end -->
+
+## Starożytna latarnia
+
+Na mapach ze starożytną latarnią wybierz odkryte miejsce, aby zobaczyć koszty, termin i opcje w szczegółach. Naprawa wymaga ekipy lub budowniczego na miejscu i zatrzymuje się w połowie na dodatkowe fundusze lub wycofanie. Ukończenie ostrzega o odkrytych wrogach w promieniu 20 pól. Skarb wymaga, by bohater dobrowolnie przyjął flagę eksploracji, dotarł i pracował; skarbiec i pracownik otrzymują po jednej wypłacie. Ignorowanie nie uruchamia terminu; wycofanie zwraca tylko niewykorzystane środki. Ruina nie rekrutuje ani nie wzmacnia flag.

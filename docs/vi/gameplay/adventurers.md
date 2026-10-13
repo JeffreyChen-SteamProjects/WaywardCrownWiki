@@ -48,6 +48,7 @@ Mọi lớp anh hùng trong trò chơi, viết từ dữ liệu của nó: sáu 
 | **Trưởng đoàn buôn** | Thương mại | Kho hàng | 55–115 | NHẸ | 3 | Bắn chính xác, Né tránh, Bắn loạt, Mắt đại bàng, Dấu Thương lộ |
 | **Thẩm phán Hắc thệ** | Bạo chúa | Tòa Hắc thệ | 65–130 | TRÍ | 3 | Tia lửa, Khiên mana, Khiêu khích, Đại pháp sư, Ấn Kinh hãi, Thiết thệ Hộ vệ |
 | **Người cưỡng chế** | Bạo chúa | Sở Trưng thu | 90–170 | SỨC | 3 | Đánh mạnh, Tường khiên, Cuồng chiến, Lãnh chúa, Phán quyết Xiềng xích |
+| **Nhà giả kim** | — | Hội giả kim | 45–85 | TRÍ | 8 | Kim phóng chính xác, Tạp dề chiến trường, Pha chế chính xác, Bậc thầy chưng cất, Giả kim chiến trường |
 <!-- hero-classes:end -->
 
 ---

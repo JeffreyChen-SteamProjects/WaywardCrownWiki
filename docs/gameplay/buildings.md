@@ -208,3 +208,5 @@ Free road appearances use ordinary road speed. Drag and release to paint; cleari
 
 Free roads: Packed earth, Gravel, Cobblestone, Flagstone, Red brick, Pale pavers, Grass stones, Boardwalk.
 <!-- town-beautification:end -->
+
+**Alchemist · Alchemy Guild** — 230 Gold, HP 750, Lv.2 → 320, Lv.3 → 480. Throws within 8 tiles: antidote first removes only poison from allies; poison covers a 2-tile radius, up to 8 enemies for 5s at 4 HP/s. Carries 6 vials, 30 gold each at a market or guild. Boss poison is capped; empty kits still throw darts.

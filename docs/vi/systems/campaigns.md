@@ -171,3 +171,7 @@ Anh hùng so sánh cửa hàng có thể tới, giá cả và sức chứa lưu 
 Chi tiết viễn chinh dẫn đến tiệm thuốc và nơi nghỉ có thể tới, đồng thời đếm kỹ năng hồi máu và khiên đồng đội đã học. Tiệm ghi tổng lượt đến, thời gian đi trung bình và các cuộc tấn công. Kết quả nêu một kế hoạch thắng chính cùng thành tích đồng thời, chỉ quyết toán cơ bản một lần.
 
 <!-- gameplay-preparation:end -->
+
+## Đài hiệu lửa cổ
+
+Ở bản đồ có đài hiệu lửa cổ, chọn địa điểm đã khám phá để xem chi phí, thời hạn và lựa chọn trong bảng chi tiết. Sửa chữa cần đội thợ hoặc thợ xây thật sự đến nơi và dừng ở nửa tiến độ để chờ tài trợ thêm hay rút lui. Hoàn thành cảnh báo kẻ địch đã khám phá trong 20 ô. Lấy kho báu cần anh hùng tự nhận cờ khám phá, đến nơi và làm việc; ngân khố và người làm nhận thưởng một lần. Bỏ qua không bắt đầu thời hạn; rút lui chỉ hoàn tiền chưa dùng. Di tích không tuyển người hay tăng sức mạnh cờ.

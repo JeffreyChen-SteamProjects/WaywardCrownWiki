@@ -208,3 +208,5 @@ Aspects de route gratuits, avec la vitesse habituelle. Faites glisser puis relâ
 
 Routes gratuites: Terre battue, Gravier, Pavés, Dalles, Briques rouges, Pavés clairs, Pierres dans l’herbe, Promenade en bois.
 <!-- town-beautification:end -->
+
+**Alchimiste · Guilde des alchimistes** — 230 Or, HP 750, Lv.2 → 320, Lv.3 → 480. Portée de 8 cases. Retire en priorité uniquement le poison des alliés. Le poison couvre un rayon de 2, jusqu’à 8 ennemis pendant 5s à 4 PV/s. Jusqu’à 6 fioles, 30 pièces chacune au marché ou à la guilde. Poison limité sur les boss ; sans réserve, lance des aiguilles.

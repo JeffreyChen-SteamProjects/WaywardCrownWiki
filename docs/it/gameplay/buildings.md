@@ -208,3 +208,5 @@ Aspetti gratuiti con la normale velocità della strada. Trascina e rilascia; can
 
 Strade gratuite: Terra battuta, Ghiaia, Ciottoli, Lastre, Mattoni rossi, Pavimentazione chiara, Pietre nell’erba, Passerella in legno.
 <!-- town-beautification:end -->
+
+**Alchimista · Gilda degli alchimisti** — 230 Oro, HP 750, Lv.2 → 320, Lv.3 → 480. Gittata 8 caselle. Prima rimuove solo il veleno dagli alleati. Veleno in raggio 2, fino a 8 nemici per 5s a 4 PV/s. Massimo 6 fiale, 30 monete ciascuna al mercato o in gilda. Veleno sui boss limitato; senza scorte usa aghi.

@@ -61,3 +61,9 @@ O modelo é um exemplo pronto para desmontar: um pacote de conteúdo com uma cla
 ## O que um modelo nunca tem
 
 Um modelo não tem nenhum ID real de item da Oficina, nenhuma conta da Steam e nenhum caminho absoluto: os IDs de projeto são criados novos no seu computador e cada arquivo é nomeado em relação ao projeto.
+
+## Dados opcionais de ruínas
+
+Mapas e níveis de campanha aceitam até duas entradas `relics` com a capacidade `relics`. Cada entrada tem um `id` exclusivo, um tipo `ancient_beacon`, `sealed_tomb` ou `lost_station` e um `target` correspondente ao `objective_id` de uma construção existente. As opções fixas permitem no máximo duas decisões; scripts arbitrários e ramificações cíclicas são rejeitados. Descobrir não cobra nem inicia um prazo. As partidas salvas preservam escolhas aceitas, custos, reembolsos e recompensas únicas.
+
+O local do protótipo exige `type: BEACON`.

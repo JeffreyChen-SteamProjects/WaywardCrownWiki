@@ -48,6 +48,7 @@ Todas las clases de héroe del juego, escritas a partir de sus datos: las seis q
 | **Caravanero** | Comercio | Depósito | 55–115 | AGI | 3 | Disparo preciso, Evasión, Disparo múltiple, Ojo de águila, Marca de Ruta |
 | **Inquisidor** | Tiranía | Tribunal | 65–130 | INT | 3 | Dardo de fuego, Escudo de maná, Provocar, Archimago, Marca del Terror, Juramento de Hierro |
 | **Ejecutor** | Tiranía | Oficina de Tributos | 90–170 | FUE | 3 | Golpe poderoso, Muro de escudos, Berserker, Señor de la guerra, Veredicto de Cadenas |
+| **Alquimista** | — | Gremio de alquimia | 45–85 | INT | 8 | Agujas precisas, Delantal de campo, Mezcla precisa, Maestro destilador, Alquimia de campo |
 <!-- hero-classes:end -->
 
 ---

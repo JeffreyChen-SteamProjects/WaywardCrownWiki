@@ -171,3 +171,7 @@ Les héros comparent les boutiques accessibles, les prix et la capacité réelle
 Les détails des expéditions indiquent les boutiques de potions et les repos accessibles, ainsi que les soins et boucliers alliés appris. Les boutiques comptent les visites, la durée moyenne du trajet et les attaques. Le bilan nomme un plan de victoire principal et les exploits simultanés, avec un seul règlement de base.
 
 <!-- gameplay-preparation:end -->
+
+## Phare ancien
+
+Sur les cartes avec un phare ancien, sélectionnez le lieu découvert pour voir coûts, délai et choix dans les détails. Réparer exige une équipe ou un bâtisseur sur place ; à mi-chemin, choisissez un financement supplémentaire ou le retrait. La fin des travaux signale les ennemis découverts à 20 cases. Récupérer le trésor exige qu’un héros accepte le drapeau d’exploration, arrive et travaille ; le trésor royal et le travailleur sont payés une fois. Ignorer ne lance aucun délai ; le retrait rembourse seulement les fonds inutilisés. La ruine ne recrute pas et ne renforce pas les drapeaux.

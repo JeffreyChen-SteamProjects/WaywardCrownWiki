@@ -48,6 +48,7 @@ Wszystkie klasy bohaterów w grze, spisane z jej danych: sześć, które werbuje
 | **Karawaniarz** | Handel | Skład | 55–115 | ZRC | 3 | Precyzyjny strzał, Uniki, Wielostrzał, Orle oko, Znak Szlaku |
 | **Inkwizytor** | Tyrania | Trybunał | 65–130 | INT | 3 | Ognisty pocisk, Tarcza many, Prowokacja, Arcymag, Piętno Grozy, Żelazna Przysięga |
 | **Egzekutor** | Tyrania | Urząd Poboru | 90–170 | SIŁ | 3 | Potężne uderzenie, Ściana tarcz, Berserker, Wódz wojenny, Wyrok Łańcuchów |
+| **Alchemik** | — | Gildia alchemików | 45–85 | INT | 8 | Celne igły, Fartuch polowy, Precyzyjne mieszanie, Mistrz destylacji, Alchemia polowa |
 <!-- hero-classes:end -->
 
 ---

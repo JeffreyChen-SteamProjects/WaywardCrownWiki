@@ -171,3 +171,7 @@ Helden vergleichen erreichbare Läden, Preise und die tatsächliche Bettenzahl. 
 Expeditionsdetails verlinken erreichbare Trankläden und Ruheplätze und zählen erlernte Heilung und Verbündetenschilde. Läden erfassen Besuche, mittlere Reisezeit und Angriffe. Ergebnisse nennen einen Hauptsiegesplan und gleichzeitige Leistungen bei einmaliger Grundabrechnung.
 
 <!-- gameplay-preparation:end -->
+
+## Antikes Leuchtfeuer
+
+Auf Karten mit einem antiken Leuchtfeuer zeigt die Auswahl des entdeckten Orts Kosten, Frist und Optionen in den Details. Eine Bautruppe oder ein Baumeister muss zur Reparatur vor Ort sein; auf halbem Weg wartet die Arbeit auf Zusatzmittel oder Rückzug. Der Abschluss warnt vor entdeckten Feinden innerhalb von 20 Feldern. Zur Bergung muss ein Held die Erkundungsflagge freiwillig annehmen, ankommen und arbeiten; Schatzkammer und Arbeiter werden einmal bezahlt. Ignorieren startet keine Frist; Rückzug erstattet nur ungenutzte Mittel. Die Ruine rekrutiert nicht und verbessert keine Flaggen.

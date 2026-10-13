@@ -61,3 +61,9 @@ The template is a finished example to take apart: a content pack with a hero cla
 ## What templates never hold
 
 A template holds no real Workshop item ID, no Steam account and no absolute path: project IDs are made fresh on your computer and every file is named relative to the project.
+
+## Optional relic author data
+
+Map files and campaign levels accept an optional `relics` list of at most two entries with the `relics` capability. Each entry has a unique `id`, one of `ancient_beacon`, `sealed_tomb` or `lost_station`, and a `target` matching an existing building’s `objective_id`. Fixed options permit at most two decisions; arbitrary scripts and cyclic branches are rejected. Discovery alone charges nothing and starts no deadline. Saves preserve accepted choices, costs, refunds and one-time rewards.
+
+Prototype sources require `type: BEACON`.

@@ -208,3 +208,5 @@ Darmowe style zachowują zwykłą prędkość drogi. Przeciągnij i puść; czys
 
 Darmowe drogi: Ubita ziemia, Żwir, Bruk, Płyty kamienne, Czerwona cegła, Jasna kostka, Kamienie w trawie, Drewniana ścieżka.
 <!-- town-beautification:end -->
+
+**Alchemik · Gildia alchemików** — 230 Złoto, HP 750, Lv.2 → 320, Lv.3 → 480. Zasięg 8 pól. Najpierw usuwa tylko truciznę z sojuszników. Trucizna w promieniu 2 trafia do 8 wrogów przez 5s po 4 PŻ/s. Do 6 fiolek, każda za 30 złota na rynku lub w gildii. Trucizna na bossach ma limit; bez zapasu rzuca igłami.

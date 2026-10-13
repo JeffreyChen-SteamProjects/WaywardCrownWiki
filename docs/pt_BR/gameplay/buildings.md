@@ -208,3 +208,5 @@ Aparências gratuitas com a velocidade normal da estrada. Arraste e solte para p
 
 Estradas gratuitas: Terra batida, Cascalho, Pedras arredondadas, Lajes, Tijolos vermelhos, Piso claro, Pedras com grama, Passarela de madeira.
 <!-- town-beautification:end -->
+
+**Alquimista · Guilda de alquimia** — 230 Ouro, HP 750, Lv.2 → 320, Lv.3 → 480. Alcance de 8 casas. Prioriza remover somente veneno dos aliados. Veneno em raio 2, até 8 inimigos por 5s a 4 PV/s. Até 6 frascos, 30 de ouro cada no mercado ou guilda. Veneno em chefes tem limite; sem estoque ainda lança agulhas.

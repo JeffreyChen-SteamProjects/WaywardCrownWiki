@@ -208,3 +208,5 @@ Kiểu đường miễn phí dùng tốc độ đường thường. Kéo rồi t
 
 Đường miễn phí: Đường đất nện, Đường sỏi, Đường đá cuội, Đường phiến đá, Đường gạch đỏ, Đường lát sáng, Lối đá xen cỏ, Lối ván gỗ.
 <!-- town-beautification:end -->
+
+**Nhà giả kim · Hội giả kim** — 230 Vàng, HP 750, Lv.2 → 320, Lv.3 → 480. Tầm ném 8 ô. Ưu tiên chỉ giải độc cho đồng minh. Độc bán kính 2 ô, tối đa 8 kẻ địch trong 5 giây, 4 HP/giây. Tối đa 6 lọ, mỗi lọ 30 vàng tại chợ hoặc hội. Độc lên trùm có giới hạn; hết thuốc vẫn phóng kim.

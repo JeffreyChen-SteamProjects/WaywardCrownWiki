@@ -208,3 +208,5 @@ Kostenlose Wegdarstellungen mit normaler Geschwindigkeit. Ziehen und loslassen; 
 
 Kostenlose Wege: Stampflehm, Kies, Kopfsteinpflaster, Steinplatten, Rote Ziegel, Helle Pflastersteine, Grassteinweg, Holzweg.
 <!-- town-beautification:end -->
+
+**Alchemist · Alchemistengilde** — 230 Gold, HP 750, Lv.2 → 320, Lv.3 → 480. Wurfweite 8 Felder. Gegenmittel entfernen zuerst nur Gift bei Verbündeten. Gift trifft bis zu 8 Gegner im Radius 2 für 5s mit 4 LP/s. Höchstens 6 Fläschchen, je 30 Gold am Markt oder in der Gilde. Bossgift ist begrenzt; ohne Vorrat bleiben Wurfnadeln.

@@ -61,3 +61,9 @@ La plantilla es un ejemplo terminado para desmontar: un paquete de contenido con
 ## Lo que una plantilla nunca tiene
 
 Una plantilla no tiene ningún ID real de elemento del Workshop, ninguna cuenta de Steam ni ninguna ruta absoluta: los ID de proyecto se crean nuevos en tu ordenador y cada archivo se nombra en relación con el proyecto.
+
+## Datos opcionales de ruinas
+
+Los mapas y niveles de campaña admiten hasta dos entradas `relics` con la capacidad `relics`. Cada entrada tiene un `id` único, un tipo `ancient_beacon`, `sealed_tomb` o `lost_station` y un `target` que coincide con el `objective_id` de un edificio existente. Las opciones fijas permiten como máximo dos decisiones; se rechazan los scripts arbitrarios y las ramas cíclicas. Descubrir no cobra ni inicia un plazo. Las partidas guardan las decisiones aceptadas, los costes, los reembolsos y las recompensas únicas.
+
+El lugar del prototipo requiere `type: BEACON`.

@@ -48,6 +48,7 @@ Tutte le classi di eroi del gioco, scritte dai suoi dati: le sei che ogni regno 
 | **Carovaniere** | Commercio | Deposito | 55–115 | AGI | 3 | Tiro preciso, Evasione, Tiro multiplo, Occhio d'aquila, Segno di Rotta |
 | **Inquisitore** | Tirannia | Tribunale | 65–130 | INT | 3 | Dardo infuocato, Scudo di mana, Provocazione, Arcimago, Marchio del Terrore, Giuramento di Ferro |
 | **Esattore di Ferro** | Tirannia | Ufficio dei Tributi | 90–170 | FOR | 3 | Colpo potente, Muro di scudi, Berserker, Signore della guerra, Verdetto delle Catene |
+| **Alchimista** | — | Gilda degli alchimisti | 45–85 | INT | 8 | Aghi precisi, Grembiule da campo, Miscela precisa, Maestro distillatore, Alchimia da campo |
 <!-- hero-classes:end -->
 
 ---

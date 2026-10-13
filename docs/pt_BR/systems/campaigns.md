@@ -171,3 +171,7 @@ Os heróis comparam lojas acessíveis, preços e vagas reais de hospedagem. Apó
 Os detalhes da expedição indicam lojas de poções e descansos acessíveis, além da cura e dos escudos aliados aprendidos. As lojas registram visitas totais, trajeto médio e ataques. Os resultados mostram um plano principal e feitos simultâneos, com uma única liquidação básica.
 
 <!-- gameplay-preparation:end -->
+
+## Farol antigo
+
+Em mapas com um farol antigo, selecione o local descoberto para ver custos, prazo e escolhas nos detalhes. Reparar exige equipe ou construtor no local e pausa na metade para financiar mais ou retirar-se. A conclusão avisa sobre inimigos descobertos em 20 casas. Recuperar tesouro exige que um herói aceite a bandeira de exploração, chegue e trabalhe; tesouro real e trabalhador recebem uma vez. Ignorar não inicia prazo; retirar-se devolve só fundos não usados. A ruína não recruta nem melhora bandeiras.

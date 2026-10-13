@@ -171,3 +171,7 @@ Kahramanlar ulaşılabilir dükkânları, fiyatları ve gerçek konaklama kapasi
 Sefer ayrıntıları ulaşılabilir iksir dükkânlarını ve dinlenme yerlerini gösterir; öğrenilen iyileştirme ve müttefik kalkanlarını sayar. Dükkânlar toplam ziyaretleri, ortalama yolculuk süresini ve saldırıları kaydeder. Sonuçlar bir ana zafer planını ve eşzamanlı başarıları gösterir; temel hesaplaşma bir kez yapılır.
 
 <!-- gameplay-preparation:end -->
+
+## Antik işaret kulesi
+
+Antik işaret kulesi olan haritalarda keşfedilen alanı seçerek ayrıntılarda masrafı, süreyi ve seçenekleri görün. Onarım için ekip veya inşaatçı alana gelmeli; iş yarıda ek finansman veya çekilme için durur. Tamamlanınca 20 karedeki keşfedilmiş düşmanlar bildirilir. Hazine için kahraman keşif bayrağını kendisi kabul edip gelmeli ve çalışmalı; hazine ve çalışan birer kez ödeme alır. Bekletmek süre başlatmaz; çekilmek yalnızca kullanılmamış fonları iade eder. Harabe asker almaz ve bayrakları güçlendirmez.

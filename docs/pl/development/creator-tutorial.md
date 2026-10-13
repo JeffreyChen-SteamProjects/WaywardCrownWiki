@@ -61,3 +61,9 @@ Szablon to gotowy przykład do rozebrania na części: pakiet zawartości z klas
 ## Czego szablony nigdy nie zawierają
 
 Szablon nie zawiera prawdziwego ID elementu Warsztatu, konta Steam ani ścieżki bezwzględnej: ID projektów powstają od nowa na twoim komputerze, a każdy plik jest nazwany względem projektu.
+
+## Opcjonalne dane ruin
+
+Mapy i poziomy kampanii przyjmują najwyżej dwa wpisy `relics` z funkcją `relics`. Każdy wpis ma unikatowe `id`, typ `ancient_beacon`, `sealed_tomb` lub `lost_station` oraz `target` zgodny z `objective_id` istniejącego budynku. Stałe opcje pozwalają na najwyżej dwie decyzje; dowolne skrypty i cykliczne odgałęzienia są odrzucane. Samo odkrycie nic nie kosztuje i nie uruchamia terminu. Zapisy zachowują przyjęte wybory, koszty, zwroty i jednorazowe nagrody.
+
+Miejsce prototypu wymaga `type: BEACON`.

@@ -61,3 +61,9 @@ Il modello è un esempio finito da smontare: un pacchetto di contenuti con una c
 ## Cosa un modello non contiene mai
 
 Un modello non contiene nessun vero ID di elemento del Workshop, nessun account Steam e nessun percorso assoluto: gli ID di progetto nascono nuovi sul tuo computer e ogni file è indicato relativamente al progetto.
+
+## Dati facoltativi delle rovine
+
+Mappe e livelli della campagna accettano al massimo due voci `relics` con la capacità `relics`. Ogni voce ha un `id` univoco, un tipo `ancient_beacon`, `sealed_tomb` o `lost_station` e un `target` corrispondente all’`objective_id` di un edificio esistente. Le opzioni fisse consentono al massimo due decisioni; script arbitrari e rami ciclici vengono rifiutati. La scoperta da sola non addebita costi né avvia una scadenza. I salvataggi conservano scelte accettate, costi, rimborsi e ricompense uniche.
+
+Il luogo del prototipo richiede `type: BEACON`.

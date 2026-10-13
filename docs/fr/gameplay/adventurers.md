@@ -48,6 +48,7 @@ Toutes les classes de héros du jeu, écrites à partir de ses données : les si
 | **Caravanier** | Commerce | Dépôt caravanier | 55–115 | AGI | 3 | Tir précis, Évasion, Tir multiple, Œil de l'aigle, Marque de route |
 | **Inquisiteur** | Tyrannie | Tribunal | 65–130 | INT | 3 | Trait de feu, Bouclier de mana, Provocation, Archimage, Marque d'effroi, Serment de fer |
 | **Exécuteur** | Tyrannie | Bureau des levées | 90–170 | FOR | 3 | Frappe puissante, Mur de boucliers, Berserker, Seigneur de guerre, Verdict des chaînes |
+| **Alchimiste** | — | Guilde des alchimistes | 45–85 | INT | 8 | Aiguilles précises, Tablier de terrain, Mélange précis, Maître distillateur, Alchimie de terrain |
 <!-- hero-classes:end -->
 
 ---

@@ -61,3 +61,9 @@ Le modèle est un exemple terminé à démonter : un pack de contenu avec une cl
 ## Ce qu'un modèle ne contient jamais
 
 Un modèle ne contient aucun vrai ID d'élément du Workshop, aucun compte Steam et aucun chemin absolu : les ID de projet sont créés à neuf sur votre ordinateur et chaque fichier est nommé relativement au projet.
+
+## Données facultatives de ruines
+
+Les cartes et niveaux de campagne acceptent au plus deux entrées `relics` avec la capacité `relics`. Chaque entrée possède un `id` unique, un type `ancient_beacon`, `sealed_tomb` ou `lost_station` et un `target` correspondant à l’`objective_id` d’un bâtiment existant. Les options fixes permettent au plus deux décisions ; les scripts arbitraires et les branches cycliques sont refusés. La découverte seule ne coûte rien et ne lance aucun délai. Les sauvegardes conservent les choix acceptés, les coûts, les remboursements et les récompenses uniques.
+
+Le lieu du prototype exige `type: BEACON`.

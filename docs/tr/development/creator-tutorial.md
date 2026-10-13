@@ -61,3 +61,9 @@ Her şablon **Yaratıcı ve Steam Atölyesi** içinde (ana menü, harita yöneti
 ## Şablonlarda asla bulunmayanlar
 
 Bir şablonda gerçek bir Atölye öğe kimliği, bir Steam hesabı ya da mutlak bir yol bulunmaz: proje kimlikleri bilgisayarınızda yeniden oluşturulur ve her dosya projeye göre adlandırılır.
+
+## İsteğe bağlı harabe verileri
+
+Haritalar ve sefer bölümleri, `relics` yeteneğiyle en fazla iki `relics` girdisi kabul eder. Her girdinin benzersiz bir `id` değeri, `ancient_beacon`, `sealed_tomb` veya `lost_station` türü ve mevcut bir binanın `objective_id` değeriyle eşleşen `target` değeri vardır. Sabit seçenekler en fazla iki karara izin verir; keyfi betikler ve döngülü dallar reddedilir. Keşif tek başına ücret almaz veya süre başlatmaz. Kayıtlar kabul edilen seçimleri, masrafları, iadeleri ve tek seferlik ödülleri korur.
+
+Prototip alanı `type: BEACON` gerektirir.

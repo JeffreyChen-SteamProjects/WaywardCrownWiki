@@ -171,3 +171,7 @@ Los héroes comparan tiendas accesibles, precios y plazas reales de alojamiento.
 Los detalles de expedición enlazan tiendas de pociones y descansos accesibles e indican la curación y los escudos aliados aprendidos. Las tiendas registran visitas totales, trayecto medio y ataques. Los resultados muestran un plan principal y hazañas simultáneas, con una sola liquidación básica.
 
 <!-- gameplay-preparation:end -->
+
+## Faro antiguo
+
+En mapas con un faro antiguo, selecciona el lugar descubierto para ver costes, plazo y opciones en los detalles. Reparar requiere una cuadrilla o constructor allí y se pausa a mitad para financiar más o retirarse. Al terminar avisa de enemigos descubiertos a 20 casillas. Recuperar tesoro requiere que un héroe acepte la bandera de exploración, llegue y trabaje; el tesoro real y el trabajador cobran una vez. Ignorar no inicia plazo; retirarse devuelve solo fondos sin usar. La ruina no recluta ni mejora banderas.

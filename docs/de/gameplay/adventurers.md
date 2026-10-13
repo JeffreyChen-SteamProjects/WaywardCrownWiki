@@ -48,6 +48,7 @@ Jede Heldenklasse des Spiels, aus seinen Daten geschrieben: die sechs, die jedes
 | **Karawanenführer** | Handel | Warenlager | 55–115 | GES | 3 | Präziser Schuss, Ausweichmanöver, Mehrfachschuss, Adlerauge, Wegmarke |
 | **Inquisitor** | Tyrannei | Tribunal | 65–130 | INT | 3 | Feuerblitz, Mana-Schild, Provozieren, Erzmagier, Schreckensmal, Eiserner Eid |
 | **Vollstrecker** | Tyrannei | Abgabenamt | 90–170 | STR | 3 | Kraftvoller Schlag, Schildwall, Berserker, Kriegsherr, Kettenurteil |
+| **Alchemist** | — | Alchemistengilde | 45–85 | INT | 8 | Gezielte Wurfnadeln, Feldschürze, Präzises Mischen, Meisterdestillateur, Feldalchemie |
 <!-- hero-classes:end -->
 
 ---
