@@ -28,8 +28,8 @@ A pesquisa é comprada no edifício a que pertence: a de uma classe em sua guild
 | Biblioteca | 3 | **Treinamento heroico** | Todas as Classes | 900 | Todos os aventureiros ganham +15% de experiência. |
 | Templo | 2 | **Médico de campanha** | Todas as Classes | 400 | Aventureiros em descanso se curam 50% mais rápido. |
 | Bastião | 1 | **Escudos-torre** | Cavaleiro do Escudo | 300 | Cavaleiro do Escudo: +4 de defesa. |
-| Bastião | 1 | **Golpe de escudo** | Cavaleiro do Escudo | 350 | Cavaleiro do escudo: +3 ataque. |
-| Bastião | 1 | **Trama protetora** | Cavaleiro do Escudo | 450 | Cavaleiro do escudo: escudo do juramento +20%, máximo 50% da vida do conjurador; mesma duração, sem acúmulo. |
+| Bastião | 1 | **Golpe de escudo** | Cavaleiro do Escudo | 350 | Cavaleiro do Escudo: +3 ataque. |
+| Bastião | 1 | **Trama protetora** | Cavaleiro do Escudo | 450 | Cavaleiro do Escudo: escudo do juramento +20%, máximo 50% da vida do conjurador; mesma duração, sem acúmulo. |
 | Acampamento selvagem | 1 | **Voo certeiro** | Batedor | 300 | Batedor: +4 de ataque. |
 | Ossuário | 1 | **Couraça imorredoura** | Cavaleiro Sepulcral | 300 | Cavaleiro Sepulcral: +4 de defesa. |
 | Santuário | 1 | **Treino de Baluarte** | Todas as Classes | 350 | Bastião: a proteção alcança 5 casas a mais. |
@@ -40,8 +40,8 @@ A pesquisa é comprada no edifício a que pertence: a de uma classe em sua guild
 | Abrigo das Feras | 1 | **Saber das Trilhas** | Todas as Classes | 300 | Os heróis exploram 15% mais longe do castelo. |
 | Abrigo das Feras | 1 | **Remédios de Ervas** | Todas as Classes | 350 | As estalagens e o templo da cidade voltam a curar no ritmo normal. |
 | Abrigo das Feras | 1 | **Peles de fera** | Guardião das Feras | 300 | Guardião das Feras: +3 de defesa. |
-| Abrigo das Feras | 1 | **Treino da matilha** | Guardião das Feras | 450 | Cães, ursos e falcões vivos de um guardião das feras vivo: +2 ataque. Quantidade e manutenção inalteradas. |
-| Abrigo das Feras | 1 | **Guarda das feras** | Guardião das Feras | 300 | Guardião das feras: +3 defesa. |
+| Abrigo das Feras | 1 | **Treino da matilha** | Guardião das Feras | 450 | Cães, ursos e falcões vivos de um Guardião das Feras vivo: +2 ataque. Quantidade e manutenção inalteradas. |
+| Abrigo das Feras | 1 | **Guarda das feras** | Guardião das Feras | 300 | Guardião das Feras: +3 defesa. |
 | Cripta | 1 | **Pacto Sepulcral** | Todas as Classes | 350 | A manutenção de um guarda invocado cai pela metade. |
 | Cripta | 1 | **Vínculo de Medula** | Todas as Classes | 400 | Ossuário: mantém um guarda a mais. |
 | Cripta | 1 | **Tomos proibidos** | Necromante | 300 | Necromante: +5 de ataque. |

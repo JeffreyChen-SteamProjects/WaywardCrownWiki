@@ -155,3 +155,21 @@ Gnashfang przywołuje jedną pikę i jedną tarczę naraz, cztery za życia. Śl
 **Wylęgarnia zarazy** — Dzielący się front z ostrzeganym jadem i klątwami. Omijaj strefy, oczyszczaj i przygotuj się na ograniczone dzieci. 2200 HP. Garnizon: Dzielący się śluz, Plujnik jadu, Wiązacz klątw. Cykl najazdu: Dzielący się śluz, Plujnik jadu, Wiązacz klątw, Nietoperz wampir, Plujnik jadu, Dzielący się śluz. Rodzima ziemia: Las, Bagno. Pierwszy najazd 8:00, potem co 5:30; początkowo 3 żołnierzy, po jednym więcej do 7. Zburzenie zatrzymuje nowe straże i najazdy; żywi żołnierze zostają.
 
 **Obóz oblężniczy** — Bestia oblężnicza, łucznicy i tarcze pilnują obozu. Saperzy atakują budowy, a bez budów zamek. Przechwyć i zniszcz źródło. 3800 HP. Garnizon: Bestia oblężnicza, Goblin łucznik, Tarczownik. Cykl najazdu: Bestia oblężnicza, Saper, Goblin łucznik, Tarczownik, Saper, Goblin łucznik. Rodzima ziemia: Pustynia, Łąka. Pierwszy najazd 12:00, potem co 8:00; początkowo 3 żołnierzy, po jednym więcej do 6. Zburzenie zatrzymuje nowe straże i najazdy; żywi żołnierze zostają.
+
+**Chata szamana** — Gobliński szaman trzyma bandę chaty na nogach i leczy jej rannych najwyżej sześć razy; gobliny i łucznicy idą z jego najazdami. Najpierw zabij szamana.
+
+**Kryjówka sabotażystów** — Sabotażyści napadają na to, co się buduje, a na zamek, gdy nic się nie buduje: szybko burzą mury, ale noszą lekki pancerz. Pilnuj dalekiej budowy albo przechwyć ich po drodze.
+
+**Nora skorpionów** — Jadowite skorpiony polują blisko nory i zostawiają miasto w spokoju. Ich żądło truje: przed oczyszczeniem nory weź odtrutki albo ołtarz oczyszczenia.
+
+**Zasypane sanktuarium** — Piaskowcowi strażnicy budzą się w sanktuarium i powoli maszerują na miasto. Każdy raz osłania się przy połowie zdrowia: wykrwaw ich z dystansu albo trucizną.
+
+**Krypta nekromanty** — Nekromanci przywołują szkielety, póki widzą bohaterów, więc ich najazdy rosną w marszu. Najpierw zabij przywołującego; jego szkielety nie przywołają kolejnych.
+
+**Kurhan widm** — Łowcy widm mijają pierwszą linię i biegną do łuczników, magów i uzdrowicieli. Trzymaj słabszych za ścianą tarcz albo spowolnij łowców.
+
+**Bagno plujników** — Plujniki jadu zatruwają ziemię z daleka, trzy sekundy po ostrzeżeniu. Wyjdź z oznaczenia, miej odtrutki i najpierw zabij plujniki.
+
+**Krąg klątw** — Wiązacze klątw znaczą bohaterów, którzy przez chwilę dostają więcej obrażeń, a kultyści maszerują obok nich. Oczyszczenie zmywa klątwę; uderz w wiązaczy, zanim spadnie.
+
+**Jaskinia nietoperzy** — Nietoperze wampiry szybko wylatują roją i leczą się tym, co ugryzą. Tarcze odbierają im posiłek; łucznicy i wieże je strącają.

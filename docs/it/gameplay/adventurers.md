@@ -283,6 +283,22 @@ Ribelli, traditori e spie umane usano le stesse classi, abilità apprese, attrez
 
 **Orso bruno · Falco da caccia** — Chiama un segugio. Dal livello 8 sceglie un falco agile contro nemici a distanza, un orso robusto contro armature pesanti o gruppi di tre, altrimenti un segugio. Condividono il limite di 12 evocazioni sulla mappa, seguono il padrone su terreno percorribile, senza mantenimento né bottino, e restano nella missione precedente.
 
+### Compagni duraturi
+
+I contributi reali a un combattimento condiviso pericoloso creano cameratismo reciproco. Cure efficaci, danni assorbiti da uno scudo o danni subiti per un eroe in condizioni critiche possono lasciare un debito di salvezza a chi è stato aiutato; una collaborazione complementare ripetuta può formare un sodalizio reciproco. Ogni eroe conserva al massimo tre compagni importanti nei salvataggi e nei livelli che trasferiscono gli eroi. I legami deboli si attenuano senza contatti; morte o partenza definitiva elimina i legami coinvolti. La sola spartizione del bottino, stare vicini, aiuti inefficaci e bandiere annullate non rafforzano i rapporti. I lavori comuni completati compaiono nella storia dell’eroe; i rapporti non danno bonus permanenti ad attacco o armatura.
+
+### Inviti tra compagni
+
+Un eroe volontario per una taglia contro una roccaforte può invitare fino a tre compagni vicini e liberi. Ognuno valuta salute attuale, provviste, pericolo, percorso e quota prevista della ricompensa e può scegliere altro lavoro. Gli inviti in attesa riservano posti limitati al raduno e lasciano spazio ad altri volontari. Scadono e hanno un intervallo tra gli inviti, senza riavviare il raduno né interrompere riposo, soccorso, combattimento o altre attività. Accettare o rifiutare non cambia la forza del legame. Il salvataggio conserva gli inviti attuali; la nuova mappa della campagna cancella inviti e attese, mantenendo le identità.
+
+### Compagni in viaggio
+
+Gli eroi mantengono percorsi e decisioni di ritirata propri. In una marcia sicura verso una fortezza aspettano una volta un compagno vicino rimasto indietro, per non più di otto secondi. I sostenitori preferiscono compagni raggiungibili senza rischi, smettono di seguirli se il lavoro cambia o diventa pericoloso e non superano la distanza abituale. Una perdita lascia breve cautela locale limitata e una voce nella storia, senza aumentare il malcontento. Il salvataggio conserva la scadenza originale; la nuova mappa cancella l’attesa.
+
+### Capire i compagni
+
+I dettagli dell’eroe mostrano fino a tre compagni, l’origine del legame e se lavorano insieme, altrove nel regno o in riserva. La ricompensa mostra risposte, motivi del rifiuto e tempo originale rimasto. I nomi dei compagni vivi permettono di trovarli. Soccorsi, collaborazione e perdite importanti entrano nella cronaca e nelle storie finali; le notizie ripetute sono unite, mentre morte e partenza definitiva sono distinte.
+
 <!-- BEGIN COMBAT PAIRINGS -->
 ### Combinazioni di battaglia
 

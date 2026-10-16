@@ -174,7 +174,7 @@ I dettagli della spedizione collegano negozi di pozioni e riposi raggiungibili e
 
 ## Faro antico
 
-Nelle mappe con un faro antico, seleziona il luogo scoperto per vedere costi, scadenza e scelte nei dettagli. Riparare richiede una squadra o costruttore sul posto e si ferma a metà per finanziare ancora o ritirarsi. Il completamento avvisa di nemici scoperti entro 20 caselle. Recuperare tesoro richiede che un eroe accetti la bandiera di esplorazione, arrivi e lavori; tesoro reale e lavoratore sono pagati una volta. Ignorare non avvia scadenze; ritirarsi restituisce solo fondi inutilizzati. La rovina non recluta né potenzia bandiere.
+Nelle mappe con un faro antico, seleziona il luogo scoperto per vedere costi, scadenza e scelte nei dettagli. Riparare richiede una squadra o costruttore sul posto e si ferma a metà per finanziare ancora o ritirarsi. Il completamento avvisa di nemici scoperti entro 20 caselle. Recuperare tesoro richiede che un eroe accetti la bandiera di esplorazione, arrivi e lavori; tesoro reale e lavoratore sono pagati una volta. Ignorare non avvia scadenze; ritirarsi restituisce solo fondi inutilizzati. La rovina non recluta né potenzia bandiere. Lasciare il livello abbandona il lavoro accettato su una reliquia e restituisce i fondi non spesi, come un ritiro; gli effetti di una reliquia restano sulla sua mappa e solo ciò che la campagna conserva (oro, eroi, ricerca) passa al livello successivo.
 
 ## Logistica goblin facoltativa
 
@@ -189,3 +189,26 @@ Il livello dei rifornimenti nemici mostra solo punti e siti osservati. Produzion
 Il gioco libero offre un’espansione finita delle tende goblin, disattivata inizialmente. Le partite miste o goblin riservano uno dei posti scelti a una tenda e collegano fino a quattro tende esistenti, senza aumentare i covi totali. Altre razze non ricevono fonti aggiunte. Le campagne usano le impostazioni dell’autore.
 
 Impalcatura, deposito e rovina hanno sagome distinte e stoffa animata, ferma con movimento ridotto. Il corriere martella solo durante lavoro reale. Avvistamento di convoglio e osservazione di cantiere, completamento e rovina hanno icone e suoni propri; cambiamenti nascosti e caricamento non ripetono avvisi. Moduli compatti e informazioni scorrono, il pannello anche da tastiera.
+
+I corrieri attendono che le unità mobili liberino l’area del nuovo avamposto senza prolungare la scadenza di consegna. Corrieri e scorte si fermano fuori dall’area prevista.
+
+Dopo il recupero dei materiali da un antico faro, le squadre non lo restaurano gratuitamente; recupero e riparazione sono scelte alternative.
+
+Queste sono le condizioni predefinite di tomba e stazione. Seleziona un sito scoperto per costi reali, scadenza originale restante e risultati; il gioco continua durante la scelta.
+
+La sezione facoltativa della cronaca segue le reliquie scoperte, il ramo scelto, i progressi, gli ostacoli, la scadenza originale restante e i risultati reali. Mostra individua il luogo originale senza accettare scelte né spendere oro. Una reliquia che entra in vista è una notizia, come il lavoro accettato che si ferma a metà, fallisce o finisce; un ritiro che scegli è una riga del registro. Un luogo mostra a che punto è: una rovina finché non si accetta un lavoro, impalcature e materiale accatastato mentre la corona vi lavora, ciò che lascia la scelta compiuta (un faro acceso o smantellato, una tomba sigillata o aperta, una stazione ricostruita) oppure macerie se il lavoro è fallito. Ciò che ferma il lavoro è detto con precisione: nessun eroe che lo prenda, il motivo degli eroi per rifiutarlo, mostri vicino al luogo, un altro lavoro della squadra prima (con il posto del luogo nell’ordine) oppure acqua, scogliere o edifici che lo chiudono.
+
+Siti di reliquie facoltativi: 0 disattiva la generazione. Fino a due reliquie diverse su terreno aperto raggiungibile fuori dalla zona sicura del castello, senza bloccare strade e percorsi. Nessun pagamento o lavoro prima di accettare. I siti distano 21–80 caselle dal castello e devono superare la verifica del normale percorso degli operai.
+
+Regole della mappa e livelli condividono un editor per due siti originali al massimo, opzioni fisse e costi, ricompense, lavoro e scadenze limitati. Annulla conserva la bozza; Applica verifica le fonti senza avviare il gioco. Una lista vuota eredita la mappa; `relics_disabled: true` disattiva tale eredità. Svuotare le reliquie di una mappa singola ne elimina i modelli al salvataggio.
+
+**Tomba sigillata**
+
+- Rafforzare il sigillo: Dopo il finanziamento extra sopprime solo 2 incursioni previste di Cimitero / Castello dei non-morti. Guardie, nemici ambientali e altre fonti restano normali. La fonte originale deve sopravvivere.
+- Finanziare la ricerca: Uno sblocco idoneo di Affinità arcana, oppure 80 oro se non disponibile o già noto. Valgono i requisiti ordinari della torre dei maghi e della ricerca. Pausa a metà: finanziare ancora o ritirarsi.
+- Aprire la tomba: Un tesoro di 240 oro dopo vera esplorazione e la sconfitta di 3 guardie scheletro. Finanziare apre la tomba; le guardie vive restano dopo ritiro o scadenza.
+
+**Stazione perduta**
+
+- Ricostruire i rifornimenti: Ripristina 6 acquisti condivisi a pagamento di livello 1: cure, pozioni o reagenti ai prezzi ordinari. Nessun reddito periodico o potenziamento. Ricostruzione e soccorso si escludono.
+- Scortare il superstite: Volontari devono scortare il superstite originale al castello sicuro. Probabilità di adesione 75%, fissata al finanziamento: un ranger solo con classe e via consentite e posto in un rifugio completato all'arrivo. Il tesoro riceve 0 oro con o senza adesione; nessun reclutamento in attesa. Soccorso e ricostruzione si escludono.

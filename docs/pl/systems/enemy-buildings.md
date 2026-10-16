@@ -10,22 +10,34 @@ Twierdze wrogów to bazy wroga rozmieszczone na mapie. Utrzymują własnych stra
 
 | Twierdza | Odradzani wrogowie | Rozmiar | Ograniczenie |
 |----------|---------------------|---------|--------------|
-| **Sadzawka szlamów** | Szlam | 11 pól | -- |
+| **Sadzawka szlamów** | Szlam / Dzielący się śluz | 11 pól | -- |
 | **Obóz goblinów** | Goblin / Wilkor / Goblin łucznik | 11 pól | -- |
-| **Forteca goblinów** | Goblin / Ork siłacz / Goblin łucznik / Troll | 23 pól | Jedna na mapę |
+| **Forteca goblinów** | Goblin / Ork siłacz / Goblin łucznik / Troll / Pikinier / Tarczownik / Saper / Bestia oblężnicza / Gobliński szaman | 23 pól | Jedna na mapę |
 | **Cmentarz** | Szkielet / Zombie | 11 pól | -- |
-| **Zamek nieumarłych** | Zombie / Szkielet / Mroczny kultysta | 23 pól | Jedna na mapę |
+| **Zamek nieumarłych** | Szkielet / Zombie / Mroczny kultysta / Wrogi nekromanta / Łowca widm / Nietoperz wampir | 23 pól | Jedna na mapę |
 | **Gniazdo smoka** | Smok / Harpia | 16 pól | -- |
-| **Gniazdo pająków** | Olbrzymi pająk / Olbrzymi szczur | 11 pól | -- |
-| **Obóz bandytów** | Bandyta / Wilkor | 11 pól | -- |
-| **Piaskowy grobowiec** | Piaskowa zjawa / Szkielet | 13 pól | -- |
+| **Gniazdo pająków** | Olbrzymi pająk / Olbrzymi szczur / Plujnik jadu | 11 pól | -- |
+| **Obóz bandytów** | Bandyta / Wilkor / Bandycki sabotażysta | 11 pól | -- |
+| **Piaskowy grobowiec** | Piaskowa zjawa / Szkielet / Jadowity skorpion / Piaskowcowy strażnik | 13 pól | -- |
 | **Wilcza nora** | Wilkor | 11 pól | -- |
-| **Orczy obóz wojenny** | Ork siłacz / Goblin | 13 pól | -- |
+| **Orczy obóz wojenny** | Ork siłacz / Goblin / Pikinier / Tarczownik / Saper / Bestia oblężnicza | 13 pól | -- |
 | **Strażnica goblinów** | Goblin łucznik / Goblin | 9 pól | -- |
-| **Mroczna kaplica** | Mroczny kultysta / Szkielet | 11 pól | -- |
+| **Mroczna kaplica** | Mroczny kultysta / Szkielet / Wiązacz klątw | 11 pól | -- |
 | **Jaskinia trolla** | Troll | 13 pól | -- |
 | **Szczurza nora** | Olbrzymi szczur | 9 pól | -- |
 | **Gniazdo harpii** | Harpia | 11 pól | -- |
+| **Pancerne koszary** | Tarczownik / Pikinier / Goblin łucznik / Gobliński szaman | 13 pól | -- |
+| **Wylęgarnia zarazy** | Dzielący się śluz / Plujnik jadu / Wiązacz klątw / Nietoperz wampir | 11 pól | -- |
+| **Obóz oblężniczy** | Bestia oblężnicza / Saper / Goblin łucznik / Tarczownik | 15 pól | -- |
+| **Chata szamana** | Gobliński szaman / Goblin / Goblin łucznik | 9 pól | -- |
+| **Kryjówka sabotażystów** | Bandycki sabotażysta / Bandyta | 9 pól | -- |
+| **Nora skorpionów** | Jadowity skorpion | 11 pól | -- |
+| **Zasypane sanktuarium** | Piaskowcowy strażnik / Szkielet | 13 pól | -- |
+| **Krypta nekromanty** | Wrogi nekromanta / Szkielet / Zombie | 11 pól | -- |
+| **Kurhan widm** | Łowca widm / Szkielet | 11 pól | -- |
+| **Bagno plujników** | Plujnik jadu / Szlam | 11 pól | -- |
+| **Krąg klątw** | Wiązacz klątw / Mroczny kultysta | 11 pól | -- |
+| **Jaskinia nietoperzy** | Nietoperz wampir | 11 pól | -- |
 | **Zbuntowana gildia** | Bandyta | 9 pól | Tylko z wydarzenia |
 
 :::note[Jeden na mapę]
@@ -89,13 +101,14 @@ Twierdze są pogrupowane według frakcji. W trybie piaskownicy możesz wybrać k
 
 | Frakcja | Zawarte twierdze |
 |---------|------------------|
-| **Szlam** | Sadzawka szlamów |
-| **Goblin** | Obóz goblinów, Forteca goblinów, Strażnica goblinów, Orczy obóz wojenny |
-| **Nieumarli** | Cmentarz, Zamek nieumarłych, Mroczna kaplica |
+| **Szlam** | Sadzawka szlamów, Wylęgarnia zarazy, Bagno plujników |
+| **Goblin** | Obóz goblinów, Forteca goblinów, Strażnica goblinów, Orczy obóz wojenny, Chata szamana |
+| **Nieumarli** | Cmentarz, Zamek nieumarłych, Mroczna kaplica, Krypta nekromanty, Kurhan widm, Krąg klątw |
 | **Smok** | Gniazdo smoka |
-| **Bestie** | Gniazdo pająków, Wilcza nora, Szczurza nora, Jaskinia trolla, Gniazdo harpii |
-| **Bandyci** | Obóz bandytów |
-| **Pustynia** | Piaskowy grobowiec |
+| **Bestie** | Gniazdo pająków, Wilcza nora, Szczurza nora, Jaskinia trolla, Gniazdo harpii, Jaskinia nietoperzy |
+| **Bandyci** | Obóz bandytów, Kryjówka sabotażystów |
+| **Pustynia** | Piaskowy grobowiec, Nora skorpionów, Zasypane sanktuarium |
+| **Legion** | Pancerne koszary, Obóz oblężniczy |
 
 ---
 
@@ -109,11 +122,23 @@ Każda twierdza najeżdża według swojego rodzaju:
 | **Obóz goblinów** | 8:00 | 5:00 | 3, o jednego więcej przy każdym najeździe, najwyżej 6 | miasto |
 | **Obóz bandytów** | 6:00 | 4:00 | 2, o jednego więcej przy każdym najeździe, najwyżej 5 | szlak handlowy (najbliższa Faktoria), inaczej miasto |
 | **Forteca goblinów** | 11:00 | 6:00 | 4, o jednego więcej przy każdym najeździe, najwyżej 8 | miasto |
-| **Orczy obóz wojenny** | 10:00 | 6:00 | 2, o jednego więcej przy każdym najeździe, najwyżej 5 | miasto |
+| **Orczy obóz wojenny** | 10:00 | 6:00 | 2, o jednego więcej przy każdym najeździe, najwyżej 5 | to, co jest budowane, a jeśli nic — zamek |
 | **Strażnica goblinów** | 8:00 | 5:00 | 3, o jednego więcej przy każdym najeździe, najwyżej 6 | miasto |
 | **Mroczna kaplica** | 11:00 | 7:00 | 2, o jednego więcej przy każdym najeździe, najwyżej 4 | miasto |
 | **Jaskinia trolla** | 14:00 | 10:00 | 1 | miasto |
 | **Gniazdo harpii** | 9:00 | 6:00 | 2, o jednego więcej przy każdym najeździe, najwyżej 4 | miasto |
+| **Pancerne koszary** | 9:00 | 6:00 | 4, o jednego więcej przy każdym najeździe, najwyżej 8 | miasto |
+| **Wylęgarnia zarazy** | 8:00 | 5:30 | 3, o jednego więcej przy każdym najeździe, najwyżej 7 | miasto |
+| **Obóz oblężniczy** | 12:00 | 8:00 | 3, o jednego więcej przy każdym najeździe, najwyżej 6 | to, co jest budowane, a jeśli nic — zamek |
+| **Chata szamana** | 9:00 | 6:00 | 2, o jednego więcej przy każdym najeździe, najwyżej 5 | miasto |
+| **Kryjówka sabotażystów** | 8:00 | 5:00 | 2, o jednego więcej przy każdym najeździe, najwyżej 4 | to, co jest budowane, a jeśli nic — zamek |
+| **Nora skorpionów** | — | — | brak | — |
+| **Zasypane sanktuarium** | 12:00 | 8:00 | 2, o jednego więcej przy każdym najeździe, najwyżej 4 | miasto |
+| **Krypta nekromanty** | 11:00 | 7:00 | 2, o jednego więcej przy każdym najeździe, najwyżej 5 | miasto |
+| **Kurhan widm** | 10:00 | 6:30 | 2, o jednego więcej przy każdym najeździe, najwyżej 4 | miasto |
+| **Bagno plujników** | 9:00 | 6:00 | 2, o jednego więcej przy każdym najeździe, najwyżej 4 | miasto |
+| **Krąg klątw** | 11:00 | 7:00 | 2, o jednego więcej przy każdym najeździe, najwyżej 4 | miasto |
+| **Jaskinia nietoperzy** | 8:00 | 5:00 | 3, o jednego więcej przy każdym najeździe, najwyżej 6 | miasto |
 
 - Każdy najazd jest zapowiadany w kronice 30 sekund wcześniej, z miejscem leża, gdy twoi bohaterowie już je widzieli; niewidziane leże jest zapowiadane bez miejsca, więc zwiad się opłaca.
 - Najazd wyrusza jako jeden oddział spod leża. Na łatwym o jednego najeźdźcę mniej, na trudnym o dwóch więcej.

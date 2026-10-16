@@ -283,6 +283,22 @@ Rebel guild members, turncoats and human spies use the same classes, learned ski
 
 **Brown bear · Hunting hawk** — Calls one hound. From level 8, chooses a nimble hawk against ranged foes, a sturdy bear against heavy armor or packs of three, otherwise a hound. Shares the 12-summon map cap; all follow their owner on walkable ground, cost no upkeep, leave no loot and stay behind on a new mission.
 
+### Persistent companions
+
+Real contributions to dangerous shared combat create mutual comradeship. Effective healing, absorbed shields or damage borne for a critically wounded hero can leave a one-way rescue debt; repeated complementary work can establish a mutual partnership. Each hero keeps at most three important companions, preserved through saves and campaign levels that carry heroes. Weaker idle bonds fade, and death or permanent departure clears their links. Loot sharing alone, standing nearby, ineffective aid and cancelled flags add no relationship strength. Completed shared work is recorded in the hero’s history; relationships give no permanent attack or armor bonus.
+
+### Companion invitations
+
+A hero volunteering for a stronghold bounty can invite up to three nearby idle companions. Each independently weighs current health, supplies, danger, the walk and its expected share of the reward, and may choose other work. Pending offers reserve finite muster slots but leave room for other volunteers. They expire and have a cooldown, never restart the muster, and cannot commandeer resting, rescuing, fighting or busy heroes. Accepting or refusing changes no relationship strength. Saves keep current offers; a new campaign level clears invitations and their cooldowns while preserving companion identities.
+
+### Travelling companions
+
+Heroes keep their own routes and retreat decisions. On a safe stronghold march, a hero may wait once for a nearby lagging companion, for at most eight seconds. Supporting heroes prefer companions they can safely reach, stop following when the work changes or becomes unsafe, and never chase beyond their normal range. Losing a companion leaves a brief, limited local caution and a lasting history entry; it does not increase grievance. Saves retain the original wait deadline; another campaign map clears the wait.
+
+### Reading companion choices
+
+Hero details show up to three companions, why they matter and whether they are working together, elsewhere in the kingdom or in reserve. Bounty details show invitation replies, refusal reasons and the original time remaining. Living companions can be located through their names. Important rescues, cooperation and losses enter the chronicle and settlement stories, with repeated news combined; death and permanent departure are distinct.
+
 <!-- BEGIN COMBAT PAIRINGS -->
 ### Battle pairings
 
@@ -296,7 +312,7 @@ Shield and healing need damage dealers against armor.
 
 | # | Heroes | Buildings | Research | Capital | Time (s) | Alive | Damage/s | Healing / absorbed shields |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Shield Knight ×2, Hospitaller ×2, Ranger ×2, Mage ×2 | Bastion, Sanctuary, Mage Tower | Shield weaving, Mending discipline | 7000 | 17–22.6 | 7 | 136.28–181.18 | 34 / 103, 130 / 257 |
+| 1 | Shield Knight ×2, Hospitaller ×2, Ranger ×2, Mage ×2 | Bastion, Sanctuary, Mage Tower | Shield Weaving, Mending Discipline | 7000 | 17–22.6 | 7 | 136.28–181.18 | 34 / 103, 130 / 257 |
 | 2 | Warrior ×2, Mage ×2, Ranger ×4 | Barracks, Mage Tower, Ranger Lodge | Battle Tactics, Arcane Affinity | 7000 | 10.6–13.6 | 7 | 226.47–290.57 | 0 / 0, 0 / 0 |
 
 #### Poison control
@@ -305,8 +321,8 @@ Poison needs paid vials and loses value against cleansing and dispersed targets.
 
 | # | Heroes | Buildings | Research | Capital | Time (s) | Alive | Damage/s | Healing / absorbed shields |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Alchemist ×2, Shield Knight ×2, Hospitaller ×2, Ranger ×2 | Alchemy Guild, Bastion, Sanctuary, Cleansing Altar | Caustic reagents, Shield weaving, Cleansing reach | 7000 | 10.6–11.6 | 8 | 132.59–145.09 | 0 / 205, 31 / 164 |
-| 2 | Mage ×3, Ranger ×3, Warrior ×2 | Mage Tower, Ranger Lodge, Cleansing Altar | Arcane Affinity, Keen Eyes, Cleansing reach | 7000 | 8.6–9.6 | 8 | 160.21–178.84 | 0 / 0, 0 / 0 |
+| 1 | Alchemist ×2, Shield Knight ×2, Hospitaller ×2, Ranger ×2 | Alchemy Guild, Bastion, Sanctuary, Cleansing Altar | Caustic Reagents, Shield Weaving, Cleansing Reach | 7000 | 10.6–11.6 | 8 | 132.59–145.09 | 0 / 205, 31 / 164 |
+| 2 | Mage ×3, Ranger ×3, Warrior ×2 | Mage Tower, Ranger Lodge, Cleansing Altar | Arcane Affinity, Keen Eyes, Cleansing Reach | 7000 | 8.6–9.6 | 8 | 160.21–178.84 | 0 / 0, 0 / 0 |
 
 #### Ranged towers
 
@@ -314,8 +330,8 @@ Towers cover fixed ground; hunters and sappers punish an exposed rear.
 
 | # | Heroes | Buildings | Research | Capital | Time (s) | Alive | Damage/s | Healing / absorbed shields |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Guard ×2, Ranger ×4, Roadwarden ×2 | Guard Post, Ranger Lodge, Toll Post, Arrow Tower, Arrow Tower, Frost Tower, Beacon | Frost lattice, Beacon lenses, Keen Eyes | 7000 | 7.6–8 | 8 | 93.75–98.68 | 0 / 66, 0 / 0 |
-| 2 | Warrior ×3, Mage ×2, Ranger ×3 | Barracks, Mage Tower, Arrow Tower, Frost Tower | Battle Tactics, Frost lattice | 7000 | 5–5 | 8 | 150–150 | 0 / 0, 0 / 0 |
+| 1 | Guard ×2, Ranger ×4, Roadwarden ×2 | Guard Post, Ranger Lodge, Toll Post, Arrow Tower, Arrow Tower, Frost Tower, Beacon | Frost Lattice, Beacon Lenses, Keen Eyes | 7000 | 7.6–8 | 8 | 93.75–98.68 | 0 / 66, 0 / 0 |
+| 2 | Warrior ×3, Mage ×2, Ranger ×3 | Barracks, Mage Tower, Arrow Tower, Frost Tower | Battle Tactics, Frost Lattice | 7000 | 5–5 | 8 | 150–150 | 0 / 0, 0 / 0 |
 
 #### Companion expedition
 
@@ -323,7 +339,7 @@ Companions depend on living wardens; durable fronts delay their burst.
 
 | # | Heroes | Buildings | Research | Capital | Time (s) | Alive | Damage/s | Healing / absorbed shields |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Beast Warden ×3, Pathfinder ×3, Ranger ×2 | Beast Lodge, Wild Camp, Ranger Lodge | Pack training, Warden guard, True Flight | 7000 | 2–2.6 | 8 | 484.62–630 | 0 / 0, 0 / 0 |
+| 1 | Beast Warden ×3, Pathfinder ×3, Ranger ×2 | Beast Lodge, Wild Camp, Ranger Lodge | Pack Training, Warden Guard, True Flight | 7000 | 2–2.6 | 8 | 484.62–630 | 0 / 0, 0 / 0 |
 | 2 | Warrior ×2, Ranger ×3, Mage ×3 | Barracks, Ranger Lodge, Mage Tower | Keen Eyes, Battle Tactics | 7000 | 7.6–7.6 | 8 | 165.79–165.79 | 0 / 0, 0 / 0 |
 
 #### Melee rush
@@ -341,7 +357,7 @@ Wall supplies are finite; defend the supply route and finish the lair before rep
 
 | # | Heroes | Buildings | Research | Capital | Time (s) | Alive | Damage/s | Healing / absorbed shields |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Bannerman ×2, Oathsworn ×2, Ranger ×4 | Quartermaster, War Hall, Ranger Lodge | Siege provisioning, Blood Oath | 7000 | 39.6–40.8 | 8 | 92.16–98.36 | 0 / 0, 0 / 0 |
+| 1 | Bannerman ×2, Oathsworn ×2, Ranger ×4 | Quartermaster, War Hall, Ranger Lodge | Siege Provisioning, Blood Oath | 7000 | 39.6–40.8 | 8 | 92.16–98.36 | 0 / 0, 0 / 0 |
 | 2 | Ranger ×4, Warrior ×2, Mage ×2 | Ranger Lodge, Barracks, Mage Tower | Keen Eyes, Battle Tactics | 7000 | 37.2–48 | 8 | 80.69–100.94 | 0 / 0, 0 / 0 |
 
 <!-- END COMBAT PAIRINGS -->

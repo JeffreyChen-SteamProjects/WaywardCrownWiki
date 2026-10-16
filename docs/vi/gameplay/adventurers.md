@@ -283,6 +283,22 @@ Thành viên hội nổi loạn, kẻ phản bội và gián điệp loài ngư�
 
 **Gấu nâu · Chim ưng săn mồi** — Gọi một chó săn. Từ cấp 8 chọn chim ưng linh hoạt khi gặp địch đánh xa, gấu khỏe khi gặp giáp nặng hoặc nhóm từ ba, còn lại chọn chó săn. Chung giới hạn 12 đơn vị triệu hồi trên bản đồ; theo chủ trên đất đi được, không tốn phí duy trì, không để lại chiến lợi phẩm và không sang nhiệm vụ mới.
 
+### Bạn đồng hành lâu dài
+
+Đóng góp thực tế trong giao tranh chung nguy hiểm tạo tình đồng đội hai chiều. Hồi máu hiệu quả, sát thương được lá chắn hấp thụ hoặc nhận thay cho một anh hùng nguy kịch có thể để lại món nợ cứu mạng từ người được giúp; hợp tác bổ trợ lặp lại có thể tạo quan hệ cộng sự hai chiều. Mỗi anh hùng giữ tối đa ba người bạn quan trọng qua bản lưu và các màn chiến dịch cho phép chuyển anh hùng. Quan hệ yếu phai dần khi không tương tác; cái chết hoặc rời đi vĩnh viễn xóa các liên kết liên quan. Chỉ nhận phần chiến lợi phẩm, đứng gần, giúp đỡ không hiệu quả và hủy cờ không làm quan hệ mạnh hơn. Công việc chung đã hoàn thành được ghi vào lịch sử anh hùng; quan hệ không tăng vĩnh viễn sức tấn công hay giáp.
+
+### Lời mời đồng đội
+
+Anh hùng tự nguyện nhận nhiệm vụ tiền thưởng đánh cứ điểm địch có thể mời tối đa ba đồng đội rảnh ở gần. Mỗi người tự cân nhắc sức khỏe hiện tại, tiếp tế, nguy hiểm, quãng đường và phần thưởng dự kiến, đồng thời có thể chọn việc khác. Lời mời đang chờ giữ một số chỗ tập kết hữu hạn nhưng vẫn để chỗ cho người tình nguyện khác. Chúng có hạn và thời gian chờ mời lại, không đặt lại thời gian tập kết hay giành anh hùng đang nghỉ, cứu hộ, chiến đấu hoặc làm việc khác. Nhận hay từ chối không đổi độ bền quan hệ. Bản lưu giữ lời mời hiện tại; bản đồ chiến dịch mới xóa lời mời và thời gian chờ nhưng giữ danh tính đồng đội.
+
+### Đồng đội cùng đường
+
+Anh hùng giữ đường đi và quyết định rút lui riêng. Khi hành quân an toàn đến cứ điểm, họ có thể đợi một đồng đội gần đó bị tụt lại một lần, tối đa tám giây. Người hỗ trợ ưu tiên đồng đội có thể đến an toàn, ngừng theo khi đổi việc hoặc nguy hiểm và không đuổi ngoài tầm thường. Mất đồng đội để lại sự thận trọng cục bộ ngắn hạn có giới hạn và một mục lịch sử, không tăng bất mãn. Lưu giữ hạn đợi ban đầu; bản đồ mới xóa việc đợi.
+
+### Hiểu lựa chọn của đồng đội
+
+Chi tiết anh hùng hiển thị tối đa ba đồng đội, nguồn gốc quan hệ và việc cùng làm, ở nơi khác trong vương quốc hay hậu phương. Chi tiết tiền thưởng hiển thị trả lời, lý do từ chối và thời gian còn lại theo hạn gốc. Có thể tìm vị trí đồng đội còn sống qua tên. Cứu hộ, hợp tác và mất mát quan trọng vào biên niên sử cùng chuyện kết toán; tin lặp được gộp, cái chết và rời đi vĩnh viễn được phân biệt.
+
 <!-- BEGIN COMBAT PAIRINGS -->
 ### Phối hợp chiến đấu
 

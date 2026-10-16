@@ -4,6 +4,10 @@ title: "Sự kiện ngẫu nhiên"
 
 Trò chơi kích hoạt các sự kiện ngẫu nhiên theo khoảng thời gian đều đặn, tạo thêm tính bất ngờ cho lối chơi. Cường độ sự kiện tăng giảm linh hoạt dựa trên số lượng nhà phiêu lưu của bạn. Chiến dịch hướng dẫn có sẵn không bao giờ gieo ra động đất hay sự kiện đặt một công trình mới lên bản đồ.
 
+Thẻ khoản vay có biểu tượng thư niêm phong; lời mời mới chỉ phát một âm báo nhẹ theo âm lượng hiệu ứng đã đặt. Thẻ Sự kiện vương quốc trong bảng ghi chép hiển thị lời mời và các khoản cho vay chưa hoàn trả mà không tạm dừng trò chơi. Thẻ khoản vay nêu tiền gốc cần trả ngay, thời hạn, khoản hoàn trả và tổn thất tối đa; từ chối hoặc bỏ qua lời mời không mất phí. Trình sửa bản đồ và chiến dịch lưu nhóm sự kiện: thiết lập màn chơi ưu tiên hơn chiến dịch, rồi đến bản đồ; kế thừa khác với tắt tất cả nhóm. Hiện chỉ nhóm “Kinh tế và dịch vụ” thêm một sự kiện ngẫu nhiên là hội chợ mùa màng; các nhóm khác chưa thêm sự kiện nào. Thẻ khoản vay xuống dòng theo chiều rộng thanh bên và có thể cuộn dọc khi cần để đọc đầy đủ mọi điều kiện.
+
+Khi còn khoản vay chưa tất toán, phần xem trước màn tiếp theo tách riêng ngân khố hiện tại, vốn gốc hoàn lại không lãi và vàng dự kiến chuyển sang. Áp dụng quy tắc ngân khố của màn đích; xem trước không trả tiền.
+
 ---
 
 ## Quy tắc kích hoạt sự kiện
@@ -108,6 +112,12 @@ Tạo ra các cấu trúc bản đồ lâu dài.
 | **Phường hội nổi loạn** | 400 | Một phường hội thù địch xuất hiện và sinh ra kẻ thù. Phá hủy nó! |
 | **Tàn tích cổ đại** | 450 | Tàn tích xuất hiện trên bản đồ. Ai đến trước nhận thưởng! |
 | **Khe nứt chiều không** | 300 | Cổng dịch chuyển xuất hiện và dịch chuyển nhà phiêu lưu ngẫu nhiên |
+
+---
+
+## Hội chợ mùa màng
+
+Khi bật nhóm “Kinh tế và dịch vụ”, một hội chợ mùa màng có thể đến một ngôi nhà trong làng của bạn. Bạn được báo trước 20 giây và hội chợ mở trong 120 giây. Bạn không cần phái ai đi: anh hùng bị thương, thiếu thuốc hay muốn có một tối thư giãn sẽ tự đến, miễn là không bị việc khác giữ chân (một trận đánh, một lá cờ, một nhóm đang chờ). Mỗi lần phục vụ bốn người. Mỗi vị khách nghỉ 5 giây, được hồi 40 máu miễn phí, mua thuốc còn thiếu với giá thường (cả hội chợ chỉ mang 24 lọ) và trả tiền một tối thư giãn nếu muốn. Anh hùng rời đi sớm không phải trả gì. Khi hội chợ đang mở, bạn có thể gia hạn thêm 60 giây một lần với giá 150 vàng; thuốc không được bổ sung. Thẻ của hội chợ trong Sự kiện vương quốc cho biết khi nào mở và đóng, ai đang ở các sạp và còn bao nhiêu lọ thuốc; khi đã thấy địa điểm, nút Hiển thị sẽ đưa bạn đến đó.
 
 ---
 

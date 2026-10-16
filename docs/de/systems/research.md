@@ -40,8 +40,8 @@ Forschung wird in dem Gebäude gekauft, zu dem sie gehört: die einer Klasse in 
 | Bestienhütte | 1 | **Pfadkunde** | Alle Klassen | 300 | Helden erkunden 15 % weiter von der Burg entfernt. |
 | Bestienhütte | 1 | **Kräuterheilkunde** | Alle Klassen | 350 | Gasthäuser und Tempel der Stadt heilen wieder mit voller Kraft. |
 | Bestienhütte | 1 | **Tierhäute** | Tierhüter | 300 | Tierhüter: +3 Verteidigung. |
-| Bestienhütte | 1 | **Rudeltraining** | Tierhüter | 450 | Lebende Hunde, Bären und Falken eines lebenden Wildhüters: +2 Angriff. Anzahl und Unterhalt unverändert. |
-| Bestienhütte | 1 | **Wildhüterwache** | Tierhüter | 300 | Wildhüter: +3 Verteidigung. |
+| Bestienhütte | 1 | **Rudeltraining** | Tierhüter | 450 | Lebende Hunde, Bären und Falken eines lebenden Tierhüters: +2 Angriff. Anzahl und Unterhalt unverändert. |
+| Bestienhütte | 1 | **Wildhüterwache** | Tierhüter | 300 | Tierhüter: +3 Verteidigung. |
 | Gruft | 1 | **Grabpakt** | Alle Klassen | 350 | Der Unterhalt einer beschworenen Wache wird halbiert. |
 | Gruft | 1 | **Markbindung** | Alle Klassen | 400 | Beinhaus: hält eine Wache mehr. |
 | Gruft | 1 | **Verbotene Folianten** | Nekromant | 300 | Nekromant: +5 Angriff. |

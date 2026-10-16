@@ -283,6 +283,22 @@ Los rebeldes, traidores y espías humanos usan las mismas clases, habilidades ap
 
 **Oso pardo · Halcón cazador** — Llama a un sabueso. Desde nivel 8 elige un halcón ágil ante enemigos a distancia, un oso resistente ante armadura pesada o grupos de tres, y un sabueso en otros casos. Comparten el límite de 12 invocaciones del mapa, siguen al dueño por terreno transitable, no cuestan mantenimiento ni dan botín y no pasan a otra misión.
 
+### Compañeros duraderos
+
+Las contribuciones reales a un combate compartido peligroso crean camaradería mutua. La curación efectiva, los escudos que absorben daño o el daño recibido por un héroe en estado crítico pueden dejar una deuda de rescate en quien fue ayudado; el trabajo complementario repetido puede formar una asociación mutua. Cada héroe conserva hasta tres compañeros importantes al guardar y en los niveles de campaña que trasladan héroes. Los vínculos débiles se atenúan sin contacto y se eliminan al morir o marcharse definitivamente. Compartir botín sin contribuir, estar cerca, la ayuda ineficaz y cancelar banderas no fortalecen relaciones. El trabajo compartido completado queda en la historia del héroe; las relaciones no dan bonificaciones permanentes de ataque o armadura.
+
+### Invitaciones a compañeros
+
+Un héroe que se ofrece para una recompensa contra una fortaleza puede invitar hasta tres compañeros cercanos desocupados. Cada uno decide según su salud actual, suministros, peligro, distancia y parte prevista del premio, y puede elegir otro trabajo. Las ofertas pendientes reservan plazas limitadas de reunión y dejan espacio para otros voluntarios. Tienen vencimiento y espera entre invitaciones, no reinician la reunión ni interrumpen descanso, rescates, combate u otras tareas. Aceptar o rechazar no cambia la fuerza del vínculo. La partida guarda las ofertas actuales; el siguiente mapa de campaña borra invitaciones y esperas, pero conserva las identidades.
+
+### Compañeros de viaje
+
+Los héroes conservan sus rutas y decisiones de retirada. En una marcha segura contra una fortaleza pueden esperar una vez a un compañero cercano rezagado, como máximo ocho segundos. Los apoyos prefieren compañeros a los que puedan llegar con seguridad; dejan de seguirlos si cambia el trabajo o se vuelve peligroso y nunca superan su alcance normal. Una pérdida deja cautela local breve y limitada y un registro histórico, sin aumentar el descontento. Guardar conserva el plazo original; el siguiente mapa borra la espera.
+
+### Entender a los compañeros
+
+Los detalles del héroe muestran hasta tres compañeros, el origen del vínculo y si trabajan juntos, están en otra parte del reino o en reserva. La recompensa muestra respuestas, motivos de rechazo y el tiempo original restante. Los nombres de compañeros vivos permiten localizarlos. Rescates, cooperación y pérdidas importantes aparecen en la crónica y las historias finales; las noticias repetidas se combinan y muerte y partida definitiva se distinguen.
+
 <!-- BEGIN COMBAT PAIRINGS -->
 ### Combinaciones de combate
 

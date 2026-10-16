@@ -28,8 +28,8 @@ La ricerca si compra nell'edificio a cui appartiene: quella di una classe nella 
 | Biblioteca | 3 | **Addestramento eroico** | Tutte le classi | 900 | Tutti gli avventurieri ottengono +15% esperienza. |
 | Tempio | 2 | **Medico da campo** | Tutte le classi | 400 | Gli avventurieri a riposo guariscono il 50% più in fretta. |
 | Bastione | 1 | **Scudi torre** | Cavaliere dello Scudo | 300 | Cavaliere dello Scudo: +4 difesa. |
-| Bastione | 1 | **Colpo di scudo** | Cavaliere dello Scudo | 350 | Cavaliere dello scudo: +3 attacco. |
-| Bastione | 1 | **Tessitura protettiva** | Cavaliere dello Scudo | 450 | Cavaliere dello scudo: scudo del giuramento +20%, massimo 50% dei PV del lanciatore; durata invariata, non cumulabile. |
+| Bastione | 1 | **Colpo di scudo** | Cavaliere dello Scudo | 350 | Cavaliere dello Scudo: +3 attacco. |
+| Bastione | 1 | **Tessitura protettiva** | Cavaliere dello Scudo | 450 | Cavaliere dello Scudo: scudo del giuramento +20%, massimo 50% dei PV del lanciatore; durata invariata, non cumulabile. |
 | Campo selvaggio | 1 | **Volo sicuro** | Battistrada | 300 | Battistrada: +4 attacco. |
 | Ossario | 1 | **Corazza senza morte** | Cavaliere Sepolcrale | 300 | Cavaliere Sepolcrale: +4 difesa. |
 | Santuario | 1 | **Addestramento del Baluardo** | Tutte le classi | 350 | Bastione: la sua protezione arriva 5 caselle più lontano. |
@@ -40,8 +40,8 @@ La ricerca si compra nell'edificio a cui appartiene: quella di una classe nella 
 | Rifugio delle Bestie | 1 | **Sapere dei Sentieri** | Tutte le classi | 300 | Gli eroi esplorano il 15% più lontano dal castello. |
 | Rifugio delle Bestie | 1 | **Rimedi Erboristici** | Tutte le classi | 350 | Le locande e il tempio della città tornano a curare a pieno ritmo. |
 | Rifugio delle Bestie | 1 | **Pelli di bestia** | Custode delle Bestie | 300 | Custode delle Bestie: +3 difesa. |
-| Rifugio delle Bestie | 1 | **Addestramento del branco** | Custode delle Bestie | 450 | Cani, orsi e falchi vivi di un custode delle bestie vivo: +2 attacco. Numero e mantenimento invariati. |
-| Rifugio delle Bestie | 1 | **Guardia delle bestie** | Custode delle Bestie | 300 | Custode delle bestie: +3 difesa. |
+| Rifugio delle Bestie | 1 | **Addestramento del branco** | Custode delle Bestie | 450 | Cani, orsi e falchi vivi di un Custode delle Bestie vivo: +2 attacco. Numero e mantenimento invariati. |
+| Rifugio delle Bestie | 1 | **Guardia delle bestie** | Custode delle Bestie | 300 | Custode delle Bestie: +3 difesa. |
 | Cripta | 1 | **Patto Sepolcrale** | Tutte le classi | 350 | Il mantenimento di una guardia evocata è dimezzato. |
 | Cripta | 1 | **Legame del Midollo** | Tutte le classi | 400 | Ossario: mantiene una guardia in più. |
 | Cripta | 1 | **Tomi proibiti** | Negromante | 300 | Negromante: +5 attacco. |

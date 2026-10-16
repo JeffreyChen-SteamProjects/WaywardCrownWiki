@@ -283,6 +283,22 @@ Rebeldes, traidores e espiões humanos usam as mesmas classes, habilidades apren
 
 **Urso pardo · Falcão de caça** — Chama um cão. Do nível 8 em diante, escolhe um falcão ágil contra inimigos à distância, um urso resistente contra armadura pesada ou grupos de três, e um cão nos demais casos. Compartilham o limite de 12 invocações no mapa, seguem o dono em terreno transitável, não custam manutenção nem dão saque e ficam para trás na próxima missão.
 
+### Companheiros duradouros
+
+Contribuições reais em combates conjuntos perigosos criam camaradagem mútua. Cura efetiva, escudos que absorvem dano ou dano recebido por um herói em estado crítico podem deixar uma dívida de resgate em quem foi ajudado; cooperação complementar repetida pode formar uma parceria mútua. Cada herói mantém até três companheiros importantes nos jogos salvos e nas fases de campanha que transportam heróis. Laços fracos diminuem sem interação; morte ou partida definitiva remove os vínculos envolvidos. Apenas dividir saques, ficar por perto, ajuda ineficaz e cancelar bandeiras não fortalecem relações. Trabalhos conjuntos concluídos ficam no histórico do herói; relações não concedem bônus permanentes de ataque ou armadura.
+
+### Convites entre companheiros
+
+Um herói que se oferece para uma recompensa contra uma fortaleza pode convidar até três companheiros próximos e livres. Cada um decide com base na saúde atual, provisões, perigo, trajeto e parcela prevista da recompensa, podendo escolher outro trabalho. Convites pendentes reservam vagas limitadas de reunião e deixam espaço para outros voluntários. Eles expiram e têm intervalo entre convites, sem reiniciar a reunião nem interromper descanso, resgate, combate ou outras tarefas. Aceitar ou recusar não muda a força do vínculo. A partida salva conserva os convites atuais; o próximo mapa da campanha limpa convites e intervalos, mas mantém as identidades.
+
+### Companheiros em viagem
+
+Heróis mantêm suas rotas e decisões de recuo. Em uma marcha segura contra uma fortaleza podem esperar uma vez por um companheiro próximo atrasado, por no máximo oito segundos. Apoios preferem companheiros alcançáveis com segurança, param de seguir quando o trabalho muda ou fica perigoso e não ultrapassam seu alcance normal. Uma perda deixa cautela local breve e limitada e um registro histórico, sem aumentar o descontentamento. Salvar mantém o prazo original; o próximo mapa limpa a espera.
+
+### Entender os companheiros
+
+Os detalhes do herói mostram até três companheiros, a origem do vínculo e se trabalham juntos, estão em outro lugar do reino ou na reserva. A recompensa mostra respostas, motivos de recusa e o prazo original restante. Nomes de companheiros vivos permitem localizá-los. Resgates, cooperação e perdas importantes entram na crônica e nas histórias finais; notícias repetidas são agrupadas e morte e partida permanente são distintas.
+
 <!-- BEGIN COMBAT PAIRINGS -->
 ### Combinações de combate
 

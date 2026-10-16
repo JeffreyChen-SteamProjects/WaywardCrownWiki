@@ -28,8 +28,8 @@ La recherche s'achète dans le bâtiment auquel elle appartient : celle d'une cl
 | Bibliothèque | 3 | **Entraînement héroïque** | Toutes les classes | 900 | Tous les aventuriers gagnent +15 % d'expérience. |
 | Temple | 2 | **Médecin de campagne** | Toutes les classes | 400 | Les aventuriers au repos guérissent 50 % plus vite. |
 | Bastion | 1 | **Pavois** | Chevalier au bouclier | 300 | Chevalier au bouclier : +4 en défense. |
-| Bastion | 1 | **Frappe du bouclier** | Chevalier au bouclier | 350 | Chevalier du bouclier : +3 attaque. |
-| Bastion | 1 | **Tissage protecteur** | Chevalier au bouclier | 450 | Chevalier du bouclier : bouclier du serment +20%, au plus 50% des PV maximaux du lanceur ; durée inchangée, non cumulable. |
+| Bastion | 1 | **Frappe du bouclier** | Chevalier au bouclier | 350 | Chevalier au bouclier : +3 attaque. |
+| Bastion | 1 | **Tissage protecteur** | Chevalier au bouclier | 450 | Chevalier au bouclier : bouclier du serment +20%, au plus 50% des PV maximaux du lanceur ; durée inchangée, non cumulable. |
 | Camp sauvage | 1 | **Vol juste** | Éclaireur | 300 | Éclaireur : +4 en attaque. |
 | Ossuaire | 1 | **Harnois sans mort** | Chevalier des tombes | 300 | Chevalier des tombes : +4 en défense. |
 | Sanctuaire | 1 | **Exercice du rempart** | Toutes les classes | 350 | Bastion : sa protection porte 5 cases plus loin. |
@@ -53,7 +53,7 @@ La recherche s'achète dans le bâtiment auquel elle appartient : celle d'une cl
 | Halle de guerre | 1 | **Salle des trophées** | Toutes les classes | 400 | Chaque ennemi tué rapporte 15 % d'or de plus. |
 | Halle de guerre | 1 | **Serment de sang** | Juré de guerre | 300 | Juré de guerre : +5 en attaque. |
 | Intendance | 1 | **Garde de la bannière** | Porte-bannière | 300 | Porte-bannière : +3 en défense. |
-| Intendance | 1 | **Ravitaillement de siège** | Porte-bannière | 500 | Porte-étendards approvisionnés : +25% dégâts aux murs ; chaque frappe consomme toujours un ravitaillement. |
+| Intendance | 1 | **Ravitaillement de siège** | Porte-bannière | 500 | Porte-bannières approvisionnés : +25% dégâts aux murs ; chaque frappe consomme toujours un ravitaillement. |
 | Académie | 1 | **Harmonisation tellurique** | Toutes les classes | 350 | Les sorts royaux coûtent 20 % de moins. |
 | Académie | 1 | **Lien runique** | Toutes les classes | 400 | Les compétences actives des héros sont de nouveau prêtes 15 % plus tôt. |
 | Académie | 1 | **Tranchant runique** | Lame-sort | 300 | Lame-sort : +4 en attaque. |

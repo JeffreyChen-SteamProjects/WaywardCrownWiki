@@ -4,6 +4,10 @@ title: "Random Events"
 
 The game triggers random events at regular intervals, adding unpredictability to gameplay. Event intensity scales dynamically based on your number of adventurers. The built-in tutorial never rolls an earthquake or an event that puts a new structure on the map.
 
+Loan cards carry a sealed-letter icon; a new invitation sounds once, quietly, at the effects volume setting. The Records panel's Kingdom events tab shows invitations and outstanding loans without pausing the game. Loan cards state the upfront principal, deadline, repayments and maximum loss; declining or ignoring an invitation is free. The map and campaign editors save event pool choices: level settings override campaign settings, then map settings, and inheriting differs from disabling every pool. So far only the Economy and services pool adds a random event, the harvest fair; the other pools add none yet. Loan cards wrap within a narrow sidebar and scroll vertically when needed, keeping every term readable.
+
+When a loan is outstanding, the next-level preview separates current treasury, principal returned without interest, and projected carried gold. The destination’s treasury rule applies; previewing makes no payment.
+
 ---
 
 ## Event Trigger Rules
@@ -108,6 +112,12 @@ Spawn persistent map structures.
 | **Rebel Guild** | 400 | A hostile guild appears and spawns enemies. Destroy it! |
 | **Ancient Ruins** | 450 | Ruins appear on the map. First to arrive gets rewards! |
 | **Dimensional Rift** | 300 | Portals appear and randomly teleport adventurers |
+
+---
+
+## Harvest Fair
+
+With the Economy and services pool on, a harvest fair can come to one of your village houses. You hear about it 20 seconds ahead, and it stays open for 120 seconds. You don't send anyone: heroes who are hurt, short of potions or after an evening off walk over on their own, as long as nothing else holds them (a fight, a flag, a party they're waiting for). It serves four at a time. Each guest rests for 5 seconds and gets 40 HP back for free, buys the potions it's missing at the usual price (the fair brings 24 for its whole stay) and pays for an evening off if it wants one. A hero that leaves early pays nothing. While the fair is open, you can keep it open 60 seconds longer once, for 150 gold; the potions aren't restocked. Its card under Kingdom events shows when it opens and closes, who's at the stalls and how many potions are left, and Show takes you there once you've seen the spot.
 
 ---
 

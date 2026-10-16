@@ -28,20 +28,20 @@ Nghiên cứu được mua ở công trình mà nó thuộc về: của một l�
 | Thư viện | 3 | **Huấn luyện anh hùng** | Mọi lớp | 900 | Mọi nhà thám hiểm +15% kinh nghiệm. |
 | Đền thờ | 2 | **Y tá dã chiến** | Mọi lớp | 400 | Nhà thám hiểm nghỉ trong công trình hồi phục nhanh hơn 50%. |
 | Pháo đài | 1 | **Khiên tháp** | Kỵ sĩ Khiên | 300 | Kỵ sĩ Khiên: +4 phòng thủ. |
-| Pháo đài | 1 | **Đòn khiên** | Kỵ sĩ Khiên | 350 | Kỵ sĩ khiên: +3 tấn công. |
-| Pháo đài | 1 | **Dệt lá chắn** | Kỵ sĩ Khiên | 450 | Kỵ sĩ khiên: lá chắn lời thề +20%, tối đa 50% máu tối đa người dùng; thời gian giữ nguyên, không cộng dồn. |
+| Pháo đài | 1 | **Đòn khiên** | Kỵ sĩ Khiên | 350 | Kỵ sĩ Khiên: +3 tấn công. |
+| Pháo đài | 1 | **Dệt lá chắn** | Kỵ sĩ Khiên | 450 | Kỵ sĩ Khiên: lá chắn lời thề +20%, tối đa 50% máu tối đa người dùng; thời gian giữ nguyên, không cộng dồn. |
 | Trại hoang | 1 | **Đường tên thẳng** | Người dẫn đường | 300 | Người dẫn đường: +4 tấn công. |
 | Nhà hài cốt | 1 | **Giáp bất tử** | Kỵ sĩ Mộ phần | 300 | Kỵ sĩ Mộ phần: +4 phòng thủ. |
 | Thánh đường | 1 | **Luyện tập Thành lũy** | Mọi lớp | 350 | Pháo đài: sự che chở vươn xa thêm 5 ô. |
 | Thánh đường | 1 | **Phẫu thuật Dã chiến** | Mọi lớp | 400 | Thánh đường và Lời nguyện Chữa lành hồi phục nhiều hơn 50%. |
 | Thánh đường | 1 | **Lời thề người chữa trị** | Tu sĩ Cứu thương | 300 | Tu sĩ Cứu thương: +3 phòng thủ. |
-| Thánh đường | 1 | **Rèn chữa trị** | Tu sĩ Cứu thương | 400 | Kỵ sĩ cứu tế: chữa trị của bản thân +20%; chữa trị chung giữ nguyên. |
-| Thánh đường | 1 | **Giáp người chữa trị** | Tu sĩ Cứu thương | 300 | Kỵ sĩ cứu tế: +2 phòng thủ. |
+| Thánh đường | 1 | **Rèn chữa trị** | Tu sĩ Cứu thương | 400 | Tu sĩ Cứu thương: chữa trị của bản thân +20%; chữa trị chung giữ nguyên. |
+| Thánh đường | 1 | **Giáp người chữa trị** | Tu sĩ Cứu thương | 300 | Tu sĩ Cứu thương: +2 phòng thủ. |
 | Trại thú | 1 | **Tri thức Đường mòn** | Mọi lớp | 300 | Anh hùng thám hiểm xa lâu đài hơn 15%. |
 | Trại thú | 1 | **Thuốc Thảo dược** | Mọi lớp | 350 | Quán trọ và đền trong thị trấn chữa lành với tốc độ đầy đủ trở lại. |
 | Trại thú | 1 | **Da thú** | Người giữ thú | 300 | Người giữ thú: +3 phòng thủ. |
-| Trại thú | 1 | **Huấn luyện bầy** | Người giữ thú | 450 | Chó, gấu và diều hâu còn sống của hộ vệ thú còn sống: +2 tấn công. Số lượng và phí duy trì giữ nguyên. |
-| Trại thú | 1 | **Hộ vệ thú** | Người giữ thú | 300 | Hộ vệ thú: +3 phòng thủ. |
+| Trại thú | 1 | **Huấn luyện bầy** | Người giữ thú | 450 | Chó, gấu và diều hâu còn sống của Người giữ thú còn sống: +2 tấn công. Số lượng và phí duy trì giữ nguyên. |
+| Trại thú | 1 | **Hộ vệ thú** | Người giữ thú | 300 | Người giữ thú: +3 phòng thủ. |
 | Hầm mộ | 1 | **Khế ước Mộ phần** | Mọi lớp | 350 | Phí duy trì của vệ binh triệu hồi giảm một nửa. |
 | Hầm mộ | 1 | **Trói buộc Cốt tủy** | Mọi lớp | 400 | Nhà hài cốt: duy trì thêm một vệ binh. |
 | Hầm mộ | 1 | **Sách cấm** | Tử linh sư | 300 | Tử linh sư: +5 tấn công. |

@@ -174,7 +174,7 @@ Szczegóły wyprawy prowadzą do dostępnych sklepów z miksturami i odpoczynkó
 
 ## Starożytna latarnia
 
-Na mapach ze starożytną latarnią wybierz odkryte miejsce, aby zobaczyć koszty, termin i opcje w szczegółach. Naprawa wymaga ekipy lub budowniczego na miejscu i zatrzymuje się w połowie na dodatkowe fundusze lub wycofanie. Ukończenie ostrzega o odkrytych wrogach w promieniu 20 pól. Skarb wymaga, by bohater dobrowolnie przyjął flagę eksploracji, dotarł i pracował; skarbiec i pracownik otrzymują po jednej wypłacie. Ignorowanie nie uruchamia terminu; wycofanie zwraca tylko niewykorzystane środki. Ruina nie rekrutuje ani nie wzmacnia flag.
+Na mapach ze starożytną latarnią wybierz odkryte miejsce, aby zobaczyć koszty, termin i opcje w szczegółach. Naprawa wymaga ekipy lub budowniczego na miejscu i zatrzymuje się w połowie na dodatkowe fundusze lub wycofanie. Ukończenie ostrzega o odkrytych wrogach w promieniu 20 pól. Skarb wymaga, by bohater dobrowolnie przyjął flagę eksploracji, dotarł i pracował; skarbiec i pracownik otrzymują po jednej wypłacie. Ignorowanie nie uruchamia terminu; wycofanie zwraca tylko niewykorzystane środki. Ruina nie rekrutuje ani nie wzmacnia flag. Opuszczenie poziomu porzuca przyjęte prace przy relikcie i zwraca niewydane środki, tak jak wycofanie; skutki reliktu zostają na jego mapie, a na kolejny poziom przechodzi tylko to, co przenosi kampania (złoto, bohaterowie, badania).
 
 ## Opcjonalne zaopatrzenie goblinów
 
@@ -189,3 +189,26 @@ Warstwa wywiadu zaopatrzenia pokazuje tylko obserwowane punkty i miejsca. Produk
 Swobodna gra oferuje ograniczoną ekspansję namiotów goblinów, domyślnie wyłączoną. Gra mieszana lub z goblinami rezerwuje jeden z wybranych slotów kryjówek na namiot i wiąże do czterech istniejących namiotów, bez zwiększania liczby kryjówek. Inne rasy nie otrzymują dodatkowych źródeł. Kampanie używają ustawień autora.
 
 Rusztowanie, magazyn i ruina mają odrębne sylwetki i ruchomą tkaninę, nieruchomą przy ograniczeniu ruchu. Kurier używa młotka tylko podczas rzeczywistej pracy. Dostrzeganie konwoju, budowy, ukończenia i ruiny ma własne ikony i dźwięki. Ukryte zmiany i wczytanie nie powtarzają powiadomień. Małe formularze i wywiad można przewijać, panel również klawiaturą.
+
+Kurierzy czekają, aż ruchome jednostki opuszczą teren nowej placówki, bez przedłużania terminu dostawy. Kurierzy i eskorta zatrzymują się poza planowanym terenem.
+
+Po odzyskaniu materiałów ze starożytnej wieży sygnałowej ekipy nie odbudują jej za darmo; odzysk i naprawa wykluczają się wzajemnie.
+
+Poniżej domyślne warunki grobowca i stacji. Wybierz odkryte miejsce, aby zobaczyć rzeczywiste koszty autora, pozostały pierwotny termin i wyniki; gra trwa podczas wyborów.
+
+Sekcja opcjonalna kroniki śledzi odkryte relikty, wybraną gałąź, postęp, przeszkody, pozostały pierwotny termin i rzeczywiste wyniki. Pokaż wskazuje pierwotne miejsce bez przyjmowania wyboru ani wydawania złota. Relikt, który pojawia się w zasięgu wzroku, to wiadomość, podobnie jak przyjęte prace, które stają w połowie, kończą się niepowodzeniem lub zostają ukończone; wycofanie, które wybierzesz, zapisuje się jako wiersz dziennika. Miejsce pokazuje swój stan: ruina, dopóki nie przyjmiesz pracy, rusztowania i ułożone materiały, gdy korona tam pracuje, to, co zostawia ukończony wybór (zapalona lub rozebrana latarnia, zapieczętowany lub otwarty grobowiec, odbudowana stacja), albo gruzy, gdy praca się nie powiodła. To, co wstrzymuje prace, jest podane dokładnie: brak bohatera, który by się ich podjął, powód odmowy bohaterów, potwory przy miejscu, inna praca ekipy najpierw (wraz z miejscem w kolejce) albo woda, urwiska lub budynki zamykające miejsce.
+
+Liczba opcjonalnych reliktów: 0 wyłącza generowanie. Do dwóch różnych reliktów na dostępnym otwartym terenie poza bezpieczną strefą zamku; drogi i trasy pozostają wolne. Bez płatności ani prac przed przyjęciem wyboru. Miejsca leżą 21–80 pól od zamku i muszą przejść sprawdzenie zwykłej trasy robotników.
+
+Reguły mapy i poziomy korzystają z edytora do dwóch pierwotnych miejsc, stałych opcji oraz ograniczonych kosztów, nagród, pracy i terminów. Anuluj zachowuje szkic; Zastosuj sprawdza źródła bez uruchamiania gry. Pusta lista poziomu dziedziczy mapę; `relics_disabled: true` wyłącza dziedziczenie. Wyczyszczenie reliktów osobnej mapy usuwa szablony przy zapisie.
+
+**Zapieczętowany grobowiec**
+
+- Wzmocnij pieczęć: Po dopłacie tłumi tylko 2 zaplanowanych najazdów z Cmentarz / Zamek nieumarłych. Strażnicy, zwykli wrogowie i inne źródła bez zmian. Pierwotne źródło musi przetrwać.
+- Sfinansuj badania: Jedno dozwolone odblokowanie Arkaniczna więź albo 80 złota, gdy jest niedostępne lub już znane. Obowiązują zwykłe wymagania wieży magów i badań. Postój w połowie: dopłać lub wycofaj się.
+- Otwórz grobowiec: Jeden skarb 240 złota po rzeczywistej eksploracji i pokonaniu 3 szkieletowych strażników. Finansowanie otwiera grobowiec; żywi strażnicy zostają po wycofaniu lub terminie.
+
+**Opuszczona stacja**
+
+- Odbuduj zaopatrzenie: Przywraca 6 wspólnych płatnych zakupów poziomu 1: leczenie, mikstury lub odczynniki po zwykłych cenach. Brak okresowego dochodu i ulepszeń. Odbudowa i ratunek wykluczają się.
+- Eskortuj ocalałego: Ochotnicy muszą eskortować pierwotnego ocalałego do bezpiecznego zamku. Szansa dołączenia 75% jest ustalana przy finansowaniu: jeden zwiadowca tylko przy dozwolonej klasie i drodze oraz wolnym miejscu w ukończonej siedzibie po przybyciu. Skarbiec otrzymuje 0 złota niezależnie od dołączenia; brak oczekującego naboru. Ratunek wyklucza odbudowę.

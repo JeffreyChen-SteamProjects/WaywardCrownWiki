@@ -283,6 +283,22 @@ Yapacak işi olmayan bir kahraman önündeki her seçeneği tartar ve en iyisini
 
 **Boz ayı · Av şahini** — Bir tazı çağırır. Seviye 8’den sonra menzilli düşmanlara çevik şahin, ağır zırh veya üçlü gruplara dayanıklı ayı, diğer durumlarda tazı seçer. Haritanın 12 çağrı sınırını paylaşırlar; yürünebilir zeminde sahibini izler, bakım gerektirmez, ganimet vermez ve sonraki göreve taşınmazlar.
 
+### Kalıcı yoldaşlar
+
+Tehlikeli ortak çatışmaya gerçek katkı, karşılıklı silah arkadaşlığı kurar. Etkili iyileştirme, kalkanın emdiği hasar veya kritik durumdaki bir kahraman adına üstlenilen hasar, kurtarılanın yardım edene borç duymasını sağlayabilir; tekrarlanan tamamlayıcı iş birliği karşılıklı ortaklık kurabilir. Her kahraman en fazla üç önemli yoldaşı kayıtlarda ve kahramanları devralan sefer bölümlerinde korur. Zayıf bağlar etkileşim olmazsa zayıflar; ölüm veya kalıcı ayrılış ilgili bağları temizler. Yalnızca ganimet paylaşımı, yakında durmak, etkisiz yardım ve iptal edilen bayraklar bağı güçlendirmez. Tamamlanan ortak iş kahramanın geçmişine yazılır; ilişkiler kalıcı saldırı veya zırh bonusu vermez.
+
+### Yoldaş davetleri
+
+Bir düşman üssünün ödüllü görevine gönüllü olan kahraman, yakındaki boşta duran en fazla üç yoldaşı davet edebilir. Her biri mevcut sağlık, erzak, tehlike, yol ve beklenen ödül payını değerlendirir; başka işi seçebilir. Bekleyen davetler sınırlı toplanma yerlerini ayırırken diğer gönüllülere de yer bırakır. Süreleri ve yeniden davet beklemeleri vardır; toplanmayı yeniden başlatmaz, dinlenme, kurtarma, savaş veya başka işleri kesmezler. Kabul ve ret bağın gücünü değiştirmez. Kayıt mevcut davetleri saklar; yeni sefer haritası davetleri ve beklemeleri temizler, yoldaş kimliklerini korur.
+
+### Yoldaki yoldaşlar
+
+Kahramanlar kendi yollarını ve geri çekilme kararlarını korur. Güvenli bir üs yürüyüşünde yakındaki geri kalan yoldaşı bir kez, en fazla sekiz saniye beklerler. Destekçiler güvenle ulaşabildikleri yoldaşları seçer, iş değişince veya tehlikeli olunca takibi bırakır ve normal menzili aşmaz. Kayıp, kısa ve sınırlı yerel temkin ile tarih kaydı bırakır, hoşnutsuzluğu artırmaz. Kayıt ilk bekleme süresini korur; yeni harita beklemeyi temizler.
+
+### Yoldaşları anlamak
+
+Kahraman ayrıntıları en fazla üç yoldaşı, bağın kaynağını ve birlikte çalışıp çalışmadıklarını, krallıkta başka yerde veya yedekte olduklarını gösterir. Ödül ayrıntıları yanıtları, ret nedenlerini ve ilk sürenin kalanını gösterir. Yaşayan yoldaşların adları yerlerini bulur. Önemli kurtarma, işbirliği ve kayıplar günceye ve sonuç hikâyelerine girer; tekrarlanan haberler birleşir, ölüm ve kalıcı ayrılış ayrı kaydedilir.
+
 <!-- BEGIN COMBAT PAIRINGS -->
 ### Savaş birleşimleri
 

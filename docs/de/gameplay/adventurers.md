@@ -283,6 +283,22 @@ Rebellen, Überläufer und menschliche Spione nutzen dieselben Klassen, erlernte
 
 **Braunbär · Jagdfalke** — Ruft einen Hund. Ab Stufe 8 wird gegen Fernkämpfer ein wendiger Falke, gegen schwere Rüstung oder Gruppen ab drei ein kräftiger Bär gewählt, sonst ein Hund. Alle teilen das Kartenlimit von 12 Beschworenen, folgen auf begehbarem Boden, kosten keinen Unterhalt, geben keine Beute und bleiben beim Missionswechsel zurück.
 
+### Dauerhafte Gefährten
+
+Echte Beiträge zu gefährlichen gemeinsamen Kämpfen schaffen gegenseitige Kameradschaft. Wirksame Heilung, tatsächlich absorbierter Schildschaden oder für einen schwer verwundeten Helden getragener Schaden können eine einseitige Lebensschuld begründen; wiederholte ergänzende Zusammenarbeit kann eine gegenseitige Partnerschaft bilden. Jeder Held behält höchstens drei wichtige Gefährten, auch in Spielständen und Kampagnenabschnitten mit Heldenübernahme. Schwächere Beziehungen verblassen ohne Kontakt; Tod oder endgültiger Abschied entfernt betroffene Verbindungen. Beuteanteile allein, bloße Nähe, unwirksame Hilfe und abgebrochene Aufträge stärken keine Beziehung. Abgeschlossene gemeinsame Arbeit steht im Werdegang; Beziehungen gewähren keinen dauerhaften Angriffs- oder Rüstungsbonus.
+
+### Einladungen unter Gefährten
+
+Ein Held, der sich für ein Kopfgeld gegen einen Stützpunkt meldet, kann bis zu drei nahe untätige Gefährten einladen. Jeder entscheidet nach aktueller Gesundheit, Vorräten, Gefahr, Weg und erwartetem Anteil am Lohn und darf andere Arbeit wählen. Offene Einladungen reservieren begrenzte Sammelplätze und lassen Raum für weitere Freiwillige. Sie laufen aus und haben eine Wartezeit; sie starten die Sammlung nicht neu und unterbrechen weder Ruhe, Rettung, Kampf noch andere Aufgaben. Annahme und Ablehnung ändern die Bindungsstärke nicht. Speicherstände behalten aktuelle Angebote; die nächste Kampagnenkarte löscht Einladungen und Wartezeiten, erhält aber die Identitäten.
+
+### Gefährten unterwegs
+
+Helden behalten ihre eigenen Wege und Rückzugsentscheidungen. Auf einem sicheren Marsch zu einem Stützpunkt warten sie einmal auf einen nahen zurückgebliebenen Gefährten, höchstens acht Sekunden. Unterstützer bevorzugen sicher erreichbare Gefährten, folgen bei geänderter oder gefährlicher Arbeit nicht weiter und überschreiten ihre normale Reichweite nicht. Ein Verlust hinterlässt kurze begrenzte örtliche Vorsicht und einen Geschichtseintrag, ohne den Unmut zu erhöhen. Speichern erhält die ursprüngliche Frist; die nächste Karte löscht die Wartezeit.
+
+### Gefährten verstehen
+
+Heldendetails zeigen bis zu drei Gefährten, den Ursprung ihrer Bindung und ob sie zusammen arbeiten, anderswo im Königreich oder in Reserve sind. Kopfgelddetails zeigen Antworten, Ablehnungsgründe und die ursprüngliche Restzeit. Lebende Gefährten lassen sich über ihren Namen finden. Wichtige Rettungen, Zusammenarbeit und Verluste stehen in Chronik und Abschlussgeschichten; wiederholte Nachrichten werden gebündelt, Tod und dauerhafter Fortzug getrennt erfasst.
+
 <!-- BEGIN COMBAT PAIRINGS -->
 ### Kampfzusammenstellungen
 

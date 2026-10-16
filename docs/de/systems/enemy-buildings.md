@@ -10,22 +10,34 @@ Feindliche Festungen sind über die Karte verstreute Feindbasen. Sie halten eige
 
 | Festung | Erzeugte Feinde | Größe | Einschränkung |
 |---------|----------------|-------|---------------|
-| **Schleimtümpel** | Schleim | 11 Felder | -- |
+| **Schleimtümpel** | Schleim / Spaltungsschleim | 11 Felder | -- |
 | **Goblinlager** | Goblin / Schattenwolf / Goblin-Bogenschütze | 11 Felder | -- |
-| **Goblinfestung** | Goblin / Ork-Schläger / Goblin-Bogenschütze / Troll | 23 Felder | Einmal pro Karte |
+| **Goblinfestung** | Goblin / Ork-Schläger / Goblin-Bogenschütze / Troll / Pikenier / Schildträger / Sprengmeister / Belagerungsbestie / Goblin-Schamane | 23 Felder | Einmal pro Karte |
 | **Friedhof** | Skelett / Zombie | 11 Felder | -- |
-| **Untotenborg** | Zombie / Skelett / Dunkler Kultist | 23 Felder | Einmal pro Karte |
+| **Untotenborg** | Skelett / Zombie / Dunkler Kultist / Feindlicher Nekromant / Geisterjäger / Vampirfledermaus | 23 Felder | Einmal pro Karte |
 | **Drachennest** | Drache / Harpyie | 16 Felder | -- |
-| **Spinnennest** | Riesenspinne / Riesenratte | 11 Felder | -- |
-| **Banditenlager** | Bandit / Schattenwolf | 11 Felder | -- |
-| **Sandgrab** | Sandgeist / Skelett | 13 Felder | -- |
+| **Spinnennest** | Riesenspinne / Riesenratte / Giftspucker | 11 Felder | -- |
+| **Banditenlager** | Bandit / Schattenwolf / Banditensaboteur | 11 Felder | -- |
+| **Sandgrab** | Sandgeist / Skelett / Giftskorpion / Sandsteinwächter | 13 Felder | -- |
 | **Wolfsbau** | Schattenwolf | 11 Felder | -- |
-| **Ork-Kriegslager** | Ork-Schläger / Goblin | 13 Felder | -- |
+| **Ork-Kriegslager** | Ork-Schläger / Goblin / Pikenier / Schildträger / Sprengmeister / Belagerungsbestie | 13 Felder | -- |
 | **Goblin-Wachturm** | Goblin-Bogenschütze / Goblin | 9 Felder | -- |
-| **Dunkler Schrein** | Dunkler Kultist / Skelett | 11 Felder | -- |
+| **Dunkler Schrein** | Dunkler Kultist / Skelett / Fluchbinder | 11 Felder | -- |
 | **Trollhöhle** | Troll | 13 Felder | -- |
 | **Rattenbau** | Riesenratte | 9 Felder | -- |
 | **Harpyienhorst** | Harpyie | 11 Felder | -- |
+| **Panzerkaserne** | Schildträger / Pikenier / Goblin-Bogenschütze / Goblin-Schamane | 13 Felder | -- |
+| **Seuchenbrutstätte** | Spaltungsschleim / Giftspucker / Fluchbinder / Vampirfledermaus | 11 Felder | -- |
+| **Belagerungslager** | Belagerungsbestie / Sprengmeister / Goblin-Bogenschütze / Schildträger | 15 Felder | -- |
+| **Schamanenhütte** | Goblin-Schamane / Goblin / Goblin-Bogenschütze | 9 Felder | -- |
+| **Saboteursversteck** | Banditensaboteur / Bandit | 9 Felder | -- |
+| **Skorpionbau** | Giftskorpion | 11 Felder | -- |
+| **Versunkenes Heiligtum** | Sandsteinwächter / Skelett | 13 Felder | -- |
+| **Nekromantengruft** | Feindlicher Nekromant / Skelett / Zombie | 11 Felder | -- |
+| **Geisterhügelgrab** | Geisterjäger / Skelett | 11 Felder | -- |
+| **Giftspuckersumpf** | Giftspucker / Schleim | 11 Felder | -- |
+| **Fluchsteinkreis** | Fluchbinder / Dunkler Kultist | 11 Felder | -- |
+| **Fledermaushöhle** | Vampirfledermaus | 11 Felder | -- |
 | **Rebellengilde** | Bandit | 9 Felder | Nur durch Ereignis |
 
 :::note[Einmal pro Karte]
@@ -89,13 +101,14 @@ Festungen sind nach Fraktionen gruppiert. Im Sandkasten-Modus kannst du bestimmt
 
 | Fraktion | Enthaltene Festungen |
 |----------|---------------------|
-| **Schleim** | Schleimtümpel |
-| **Goblin** | Goblinlager, Goblinfestung, Goblin-Wachturm, Ork-Kriegslager |
-| **Untote** | Friedhof, Untotenborg, Dunkler Schrein |
+| **Schleim** | Schleimtümpel, Seuchenbrutstätte, Giftspuckersumpf |
+| **Goblin** | Goblinlager, Goblinfestung, Goblin-Wachturm, Ork-Kriegslager, Schamanenhütte |
+| **Untote** | Friedhof, Untotenborg, Dunkler Schrein, Nekromantengruft, Geisterhügelgrab, Fluchsteinkreis |
 | **Drache** | Drachennest |
-| **Bestien** | Spinnennest, Wolfsbau, Rattenbau, Trollhöhle, Harpyienhorst |
-| **Banditen** | Banditenlager |
-| **Wüste** | Sandgrab |
+| **Bestien** | Spinnennest, Wolfsbau, Rattenbau, Trollhöhle, Harpyienhorst, Fledermaushöhle |
+| **Banditen** | Banditenlager, Saboteursversteck |
+| **Wüste** | Sandgrab, Skorpionbau, Versunkenes Heiligtum |
+| **Legion** | Panzerkaserne, Belagerungslager |
 
 ---
 
@@ -109,11 +122,23 @@ Jede Festung überfällt nach ihrer Art:
 | **Goblinlager** | 8:00 | 5:00 | 3, bei jedem Raubzug einer mehr, höchstens 6 | die Stadt |
 | **Banditenlager** | 6:00 | 4:00 | 2, bei jedem Raubzug einer mehr, höchstens 5 | die Handelsstraße (der nächste Handelsposten), sonst die Stadt |
 | **Goblinfestung** | 11:00 | 6:00 | 4, bei jedem Raubzug einer mehr, höchstens 8 | die Stadt |
-| **Ork-Kriegslager** | 10:00 | 6:00 | 2, bei jedem Raubzug einer mehr, höchstens 5 | die Stadt |
+| **Ork-Kriegslager** | 10:00 | 6:00 | 2, bei jedem Raubzug einer mehr, höchstens 5 | was gerade gebaut wird, sonst die Burg |
 | **Goblin-Wachturm** | 8:00 | 5:00 | 3, bei jedem Raubzug einer mehr, höchstens 6 | die Stadt |
 | **Dunkler Schrein** | 11:00 | 7:00 | 2, bei jedem Raubzug einer mehr, höchstens 4 | die Stadt |
 | **Trollhöhle** | 14:00 | 10:00 | 1 | die Stadt |
 | **Harpyienhorst** | 9:00 | 6:00 | 2, bei jedem Raubzug einer mehr, höchstens 4 | die Stadt |
+| **Panzerkaserne** | 9:00 | 6:00 | 4, bei jedem Raubzug einer mehr, höchstens 8 | die Stadt |
+| **Seuchenbrutstätte** | 8:00 | 5:30 | 3, bei jedem Raubzug einer mehr, höchstens 7 | die Stadt |
+| **Belagerungslager** | 12:00 | 8:00 | 3, bei jedem Raubzug einer mehr, höchstens 6 | was gerade gebaut wird, sonst die Burg |
+| **Schamanenhütte** | 9:00 | 6:00 | 2, bei jedem Raubzug einer mehr, höchstens 5 | die Stadt |
+| **Saboteursversteck** | 8:00 | 5:00 | 2, bei jedem Raubzug einer mehr, höchstens 4 | was gerade gebaut wird, sonst die Burg |
+| **Skorpionbau** | — | — | keine | — |
+| **Versunkenes Heiligtum** | 12:00 | 8:00 | 2, bei jedem Raubzug einer mehr, höchstens 4 | die Stadt |
+| **Nekromantengruft** | 11:00 | 7:00 | 2, bei jedem Raubzug einer mehr, höchstens 5 | die Stadt |
+| **Geisterhügelgrab** | 10:00 | 6:30 | 2, bei jedem Raubzug einer mehr, höchstens 4 | die Stadt |
+| **Giftspuckersumpf** | 9:00 | 6:00 | 2, bei jedem Raubzug einer mehr, höchstens 4 | die Stadt |
+| **Fluchsteinkreis** | 11:00 | 7:00 | 2, bei jedem Raubzug einer mehr, höchstens 4 | die Stadt |
+| **Fledermaushöhle** | 8:00 | 5:00 | 3, bei jedem Raubzug einer mehr, höchstens 6 | die Stadt |
 
 - Jeder Raubzug wird 30 Sekunden vorher in der Chronik angekündigt, mit dem Ort des Unterschlupfs, sobald deine Helden ihn gesehen haben; ein ungesehener wird ohne Ort angekündigt, Erkunden lohnt sich also.
 - Ein Raubzug bricht als ein Trupp neben dem Unterschlupf auf. Leicht schickt einen Angreifer weniger, schwer zwei mehr.

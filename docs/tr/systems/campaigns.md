@@ -174,7 +174,7 @@ Sefer ayrıntıları ulaşılabilir iksir dükkânlarını ve dinlenme yerlerini
 
 ## Antik işaret kulesi
 
-Antik işaret kulesi olan haritalarda keşfedilen alanı seçerek ayrıntılarda masrafı, süreyi ve seçenekleri görün. Onarım için ekip veya inşaatçı alana gelmeli; iş yarıda ek finansman veya çekilme için durur. Tamamlanınca 20 karedeki keşfedilmiş düşmanlar bildirilir. Hazine için kahraman keşif bayrağını kendisi kabul edip gelmeli ve çalışmalı; hazine ve çalışan birer kez ödeme alır. Bekletmek süre başlatmaz; çekilmek yalnızca kullanılmamış fonları iade eder. Harabe asker almaz ve bayrakları güçlendirmez.
+Antik işaret kulesi olan haritalarda keşfedilen alanı seçerek ayrıntılarda masrafı, süreyi ve seçenekleri görün. Onarım için ekip veya inşaatçı alana gelmeli; iş yarıda ek finansman veya çekilme için durur. Tamamlanınca 20 karedeki keşfedilmiş düşmanlar bildirilir. Hazine için kahraman keşif bayrağını kendisi kabul edip gelmeli ve çalışmalı; hazine ve çalışan birer kez ödeme alır. Bekletmek süre başlatmaz; çekilmek yalnızca kullanılmamış fonları iade eder. Harabe asker almaz ve bayrakları güçlendirmez. Bölümden ayrılmak, bir kalıntıda kabul edilmiş çalışmayı bırakır ve harcanmamış parayı geri çekilmedeki gibi iade eder; bir kalıntının etkileri haritasında kalır, sonraki bölüme yalnızca seferin taşıdıkları (altın, kahramanlar, araştırma) geçer.
 
 ## İsteğe bağlı goblin ikmali
 
@@ -189,3 +189,26 @@ Düşman ikmal istihbaratı yalnızca gözlenen noktaları ve alanları gösteri
 Serbest oyunda sonlu goblin çadırı genişlemesi isteğe bağlıdır ve başlangıçta kapalıdır. Karma veya goblin oyunları seçilen yuva sayısından bir yeri çadıra ayırır ve en fazla dört mevcut çadırı bağlar; toplam artmaz. Diğer ırklara yeni kaynak eklenmez. Seferler yazar ayarlarını kullanır.
 
 İskele, depo ve harabe ayrı siluetler ve hareketli kumaş taşır; azaltılmış hareket kumaşı durdurur. Kurye yalnızca gerçek çalışma ilerlerken çekiç kullanır. Konvoy keşfi ve gözlenen inşaat, tamamlanma ve harabe kendi simge ve seslerine sahiptir. Gizli değişimler ve yükleme bildirimleri tekrarlamaz. Küçük yazar formları ve istihbarat kaydırılabilir; bilgi paneli klavyeyle de kaydırılır.
+
+Kuryeler hareketli birimlerin yeni karakol alanından çıkmasını bekler; teslim süresi uzatılmaz. Kuryeler ve muhafızlar planlanan alanın dışında durur.
+
+Antik işaret kulesinden malzeme toplandıktan sonra ekipler onu ücretsiz onaramaz; malzeme toplama ve onarım birbirini dışlayan seçeneklerdir.
+
+Aşağıdakiler mezar ve istasyonun varsayılan koşullarıdır. Keşfedilmiş yeri seçerek yazarın gerçek bedellerini, asıl süreye kalan zamanı ve sonuçları gör; seçim sırasında oyun devam eder.
+
+Günlüğün isteğe bağlı bölümü keşfedilen kalıntıları, seçilen dalı, ilerlemeyi, engelleri, ilk süreden kalan zamanı ve gerçek sonuçları izler. Göster bağlantısı seçim kabul etmeden veya altın harcamadan ilk konumu gösterir. Görüş alanına giren bir kalıntı haber olur; kabul edilmiş bir çalışmanın yarıda durması, başarısız olması ya da bitmesi de öyle. Kendi seçtiğiniz bir geri çekilme günlüğe bir satır olarak düşer. Bir alan nerede olduğunu görünüşüyle gösterir: iş kabul edilene kadar harabe, taç orada çalışırken iskele ve yığılmış malzeme, biten seçimin bıraktığı hâl (yanan ya da sökülmüş bir işaret kulesi, mühürlenmiş ya da açılmış bir mezar, yeniden kurulmuş bir istasyon) ya da iş başarısız olursa enkaz. İşi neyin durdurduğu açıkça söylenir: işi alacak kahraman yok, kahramanların reddetme gerekçesi, alanın yakınındaki canavarlar, ekibin önce yaptığı başka iş (ve alanın sıradaki yeri) ya da alanı çevreleyen su, uçurum veya binalar.
+
+İsteğe bağlı kalıntı sayısı: 0 üretimi kapatır. Kale güvenli alanı dışındaki ulaşılabilir açık zemine en çok iki farklı kalıntı yerleştirilir; yollar korunur. Seçim kabul edilmeden ödeme veya çalışma başlamaz. Konumlar kaleden 21–80 kare uzaktadır ve normal işçi rotası denetimini geçmelidir.
+
+Harita kuralları ve bölümler en çok iki ilk konumu, sabit seçenekleri ve sınırlı ücret, ödül, iş ve süreleri düzenleyen ortak bir kalıntı düzenleyicisi kullanır. İptal taslağı korur; Uygula kaynakları doğrular, oyunu çalıştırmaz. Boş bölüm listesi haritayı devralır; `relics_disabled: true` devralmayı kapatır. Bağımsız harita kalıntıları temizlendiğinde kayıt şablonları kaldırır.
+
+**Mühürlü mezar**
+
+- Mührü güçlendir: Ek finansmandan sonra yalnız Mezarlık / Ölümsüz Kalesi kaynağının planlı 2 baskınını engeller. Muhafızlar, ortam düşmanları ve diğer kaynaklar değişmez. Asıl kaynak yaşamalıdır.
+- Araştırmayı finanse et: Uygun bir Arkan Yakınlık açılımı; kullanılamazsa veya zaten biliniyorsa 80 altın. Normal büyücü kulesi ve araştırma ön koşulları geçerlidir. Yarıda durur: ek finansman veya çekilme.
+- Mezarı aç: Gerçek keşif ve 3 İskelet muhafızın yenilmesinden sonra bir kez 240 altın hazine. Finansman mezarı açar; yaşayan muhafızlar çekilme veya süre dolunca kalır.
+
+**Kayıp istasyon**
+
+- İkmali yeniden kur: Normal fiyatlarla tedavi, iksir veya simya malzemesi için ortak 6 ücretli seviye 1 alımını yeniler. Dönemsel gelir veya yükseltme yoktur. Yeniden kurma ve kurtarma birbirini dışlar.
+- Sağ kalana eşlik et: Gönüllüler asıl sağ kalanı güvenli kaleye götürmelidir. Katılım şansı %75, finansmanda sabitlenir: izinli sınıf ve yol ile varışta tamamlanmış Kolcu locasında boş yer varsa bir normal Kolcu katılır. Katılımdan bağımsız olarak hazine 0 altın alır; bekleyen alım yoktur. Kurtarma yeniden kurmayı dışlar.

@@ -10,22 +10,34 @@ Căn cứ kẻ thù là các cơ sở của kẻ thù nằm rải rác trên b�
 
 | Căn cứ | Kẻ thù sinh ra | Kích thước | Giới hạn |
 |--------|----------------|------------|----------|
-| **Ao Slime** | Slime | 11 ô | -- |
+| **Ao Slime** | Slime / Chất nhầy phân đôi | 11 ô | -- |
 | **Trại Goblin** | Goblin / Sói dữ / Cung thủ Goblin | 11 ô | -- |
-| **Pháo đài Goblin** | Goblin / Orc lực lưỡng / Cung thủ Goblin / Troll | 23 ô | Một trên mỗi bản đồ |
+| **Pháo đài Goblin** | Goblin / Orc lực lưỡng / Cung thủ Goblin / Troll / Lính giáo dài / Lính khiên / Lính phá hoại / Quái thú công thành / Pháp sư goblin | 23 ô | Một trên mỗi bản đồ |
 | **Nghĩa trang** | Bộ xương / Zombie | 11 ô | -- |
-| **Lâu đài Bất tử** | Zombie / Bộ xương / Giáo đồ bóng tối | 23 ô | Một trên mỗi bản đồ |
+| **Lâu đài Bất tử** | Bộ xương / Zombie / Giáo đồ bóng tối / Thuật sĩ gọi hồn địch / Thợ săn vong hồn / Dơi hút máu | 23 ô | Một trên mỗi bản đồ |
 | **Hang Rồng** | Rồng / Harpy | 16 ô | -- |
-| **Tổ Nhện** | Nhện khổng lồ / Chuột khổng lồ | 11 ô | -- |
-| **Trại Thổ phỉ** | Thổ phỉ / Sói dữ | 11 ô | -- |
-| **Lăng mộ Cát** | Oan hồn cát / Bộ xương | 13 ô | -- |
+| **Tổ Nhện** | Nhện khổng lồ / Chuột khổng lồ / Kẻ phun nọc | 11 ô | -- |
+| **Trại Thổ phỉ** | Thổ phỉ / Sói dữ / Kẻ phá hoại cướp | 11 ô | -- |
+| **Lăng mộ Cát** | Oan hồn cát / Bộ xương / Bọ cạp độc / Vệ binh sa thạch | 13 ô | -- |
 | **Hang Sói** | Sói dữ | 11 ô | -- |
-| **Trại Chiến Orc** | Orc lực lưỡng / Goblin | 13 ô | -- |
+| **Trại Chiến Orc** | Orc lực lưỡng / Goblin / Lính giáo dài / Lính khiên / Lính phá hoại / Quái thú công thành | 13 ô | -- |
 | **Tháp Canh Goblin** | Cung thủ Goblin / Goblin | 9 ô | -- |
-| **Điện Thờ Bóng Tối** | Giáo đồ bóng tối / Bộ xương | 11 ô | -- |
+| **Điện Thờ Bóng Tối** | Giáo đồ bóng tối / Bộ xương / Kẻ trói nguyền | 11 ô | -- |
 | **Hang Troll** | Troll | 13 ô | -- |
 | **Ổ Chuột** | Chuột khổng lồ | 9 ô | -- |
 | **Tổ Harpy** | Harpy | 11 ô | -- |
+| **Doanh trại thiết giáp** | Lính khiên / Lính giáo dài / Cung thủ Goblin / Pháp sư goblin | 13 ô | -- |
+| **Ổ ấp dịch bệnh** | Chất nhầy phân đôi / Kẻ phun nọc / Kẻ trói nguyền / Dơi hút máu | 11 ô | -- |
+| **Trại công thành** | Quái thú công thành / Lính phá hoại / Cung thủ Goblin / Lính khiên | 15 ô | -- |
+| **Lều Pháp Sư** | Pháp sư goblin / Goblin / Cung thủ Goblin | 9 ô | -- |
+| **Hang Ổ Kẻ Phá Hoại** | Kẻ phá hoại cướp / Thổ phỉ | 9 ô | -- |
+| **Hang Bọ Cạp** | Bọ cạp độc | 11 ô | -- |
+| **Thánh Điện Vùi Cát** | Vệ binh sa thạch / Bộ xương | 13 ô | -- |
+| **Hầm Mộ Thuật Sĩ Gọi Hồn** | Thuật sĩ gọi hồn địch / Bộ xương / Zombie | 11 ô | -- |
+| **Gò Mộ Vong Hồn** | Thợ săn vong hồn / Bộ xương | 11 ô | -- |
+| **Đầm Phun Nọc** | Kẻ phun nọc / Slime | 11 ô | -- |
+| **Vòng Đá Nguyền** | Kẻ trói nguyền / Giáo đồ bóng tối | 11 ô | -- |
+| **Hang Dơi** | Dơi hút máu | 11 ô | -- |
 | **Phường hội nổi loạn** | Thổ phỉ | 9 ô | Chỉ từ sự kiện |
 
 :::note[Một trên mỗi bản đồ]
@@ -89,13 +101,14 @@ Các căn cứ được nhóm theo phe phái. Trong Chế độ tự do, bạn c
 
 | Phe phái | Căn cứ bao gồm |
 |----------|----------------|
-| **Slime** | Ao Slime |
-| **Goblin** | Trại Goblin, Pháo đài Goblin, Tháp Canh Goblin, Trại Chiến Orc |
-| **Bất tử** | Nghĩa trang, Lâu đài Bất tử, Điện Thờ Bóng Tối |
+| **Slime** | Ao Slime, Ổ ấp dịch bệnh, Đầm Phun Nọc |
+| **Goblin** | Trại Goblin, Pháo đài Goblin, Tháp Canh Goblin, Trại Chiến Orc, Lều Pháp Sư |
+| **Bất tử** | Nghĩa trang, Lâu đài Bất tử, Điện Thờ Bóng Tối, Hầm Mộ Thuật Sĩ Gọi Hồn, Gò Mộ Vong Hồn, Vòng Đá Nguyền |
 | **Rồng** | Hang Rồng |
-| **Dã thú** | Tổ Nhện, Hang Sói, Ổ Chuột, Hang Troll, Tổ Harpy |
-| **Thổ phỉ** | Trại Thổ phỉ |
-| **Sa mạc** | Lăng mộ Cát |
+| **Dã thú** | Tổ Nhện, Hang Sói, Ổ Chuột, Hang Troll, Tổ Harpy, Hang Dơi |
+| **Thổ phỉ** | Trại Thổ phỉ, Hang Ổ Kẻ Phá Hoại |
+| **Sa mạc** | Lăng mộ Cát, Hang Bọ Cạp, Thánh Điện Vùi Cát |
+| **Quân đoàn** | Doanh trại thiết giáp, Trại công thành |
 
 ---
 
@@ -109,11 +122,23 @@ Mỗi cứ điểm đi cướp theo loại của mình:
 | **Trại Goblin** | 8:00 | 5:00 | 3 tên, mỗi đợt thêm một, nhiều nhất 6 | thị trấn |
 | **Trại Thổ phỉ** | 6:00 | 4:00 | 2 tên, mỗi đợt thêm một, nhiều nhất 5 | đường buôn (Trạm giao thương gần nhất), nếu không thì thị trấn |
 | **Pháo đài Goblin** | 11:00 | 6:00 | 4 tên, mỗi đợt thêm một, nhiều nhất 8 | thị trấn |
-| **Trại Chiến Orc** | 10:00 | 6:00 | 2 tên, mỗi đợt thêm một, nhiều nhất 5 | thị trấn |
+| **Trại Chiến Orc** | 10:00 | 6:00 | 2 tên, mỗi đợt thêm một, nhiều nhất 5 | công trình đang xây, nếu không thì lâu đài |
 | **Tháp Canh Goblin** | 8:00 | 5:00 | 3 tên, mỗi đợt thêm một, nhiều nhất 6 | thị trấn |
 | **Điện Thờ Bóng Tối** | 11:00 | 7:00 | 2 tên, mỗi đợt thêm một, nhiều nhất 4 | thị trấn |
 | **Hang Troll** | 14:00 | 10:00 | 1 | thị trấn |
 | **Tổ Harpy** | 9:00 | 6:00 | 2 tên, mỗi đợt thêm một, nhiều nhất 4 | thị trấn |
+| **Doanh trại thiết giáp** | 9:00 | 6:00 | 4 tên, mỗi đợt thêm một, nhiều nhất 8 | thị trấn |
+| **Ổ ấp dịch bệnh** | 8:00 | 5:30 | 3 tên, mỗi đợt thêm một, nhiều nhất 7 | thị trấn |
+| **Trại công thành** | 12:00 | 8:00 | 3 tên, mỗi đợt thêm một, nhiều nhất 6 | công trình đang xây, nếu không thì lâu đài |
+| **Lều Pháp Sư** | 9:00 | 6:00 | 2 tên, mỗi đợt thêm một, nhiều nhất 5 | thị trấn |
+| **Hang Ổ Kẻ Phá Hoại** | 8:00 | 5:00 | 2 tên, mỗi đợt thêm một, nhiều nhất 4 | công trình đang xây, nếu không thì lâu đài |
+| **Hang Bọ Cạp** | — | — | không | — |
+| **Thánh Điện Vùi Cát** | 12:00 | 8:00 | 2 tên, mỗi đợt thêm một, nhiều nhất 4 | thị trấn |
+| **Hầm Mộ Thuật Sĩ Gọi Hồn** | 11:00 | 7:00 | 2 tên, mỗi đợt thêm một, nhiều nhất 5 | thị trấn |
+| **Gò Mộ Vong Hồn** | 10:00 | 6:30 | 2 tên, mỗi đợt thêm một, nhiều nhất 4 | thị trấn |
+| **Đầm Phun Nọc** | 9:00 | 6:00 | 2 tên, mỗi đợt thêm một, nhiều nhất 4 | thị trấn |
+| **Vòng Đá Nguyền** | 11:00 | 7:00 | 2 tên, mỗi đợt thêm một, nhiều nhất 4 | thị trấn |
+| **Hang Dơi** | 8:00 | 5:00 | 3 tên, mỗi đợt thêm một, nhiều nhất 6 | thị trấn |
 
 - Mỗi đợt cướp được báo trước 30 giây trong biên niên sử, kèm vị trí sào huyệt nếu anh hùng của bạn đã thấy nó; sào huyệt chưa thấy thì báo không kèm vị trí, nên trinh sát rất đáng giá.
 - Một đợt cướp xuất phát thành một toán từ cạnh sào huyệt. Mức dễ ít hơn một tên, mức khó nhiều hơn hai tên.

@@ -155,3 +155,21 @@ Gnashfang appelle un lancier et un porteur de bouclier à la fois, quatre par vi
 **Écloserie pestilentielle** — Front qui se divise, avec zones de venin annoncées et maléfices. Évitez les zones, purifiez et préparez les petites gelées limitées. 2200 HP. Garnison : Gelée fissile, Cracheur de venin, Lie-sorts. Cycle de raid : Gelée fissile, Cracheur de venin, Lie-sorts, Chauve-souris vampire, Cracheur de venin, Gelée fissile. Terrain natal : Forêt, Marécage. Premier raid 8:00, puis toutes les 5:30 ; 3 troupes au départ, une de plus jusqu’à 7. Raser arrête nouvelles gardes et raids ; les troupes vivantes restent.
 
 **Camp de siège** — Bête de siège, archers et boucliers gardent le camp. Les sapeurs attaquent les chantiers, ou le château sans travaux. Interceptez et détruisez la source. 3800 HP. Garnison : Bête de siège, Archer gobelin, Porte-bouclier. Cycle de raid : Bête de siège, Sapeur, Archer gobelin, Porte-bouclier, Sapeur, Archer gobelin. Terrain natal : Désert, Prairie. Premier raid 12:00, puis toutes les 8:00 ; 3 troupes au départ, une de plus jusqu’à 6. Raser arrête nouvelles gardes et raids ; les troupes vivantes restent.
+
+**Hutte du chaman** — Un chaman gobelin garde la bande de la hutte debout et soigne ses blessés six fois au plus ; gobelins et archers marchent avec ses raids. Tuez d’abord le chaman.
+
+**Planque des saboteurs** — Les saboteurs attaquent ce qui est en construction, et le château quand rien ne l’est : ils abattent vite les murs mais portent une armure légère. Gardez le chantier lointain ou interceptez-les en chemin.
+
+**Terrier de scorpions** — Les scorpions venimeux chassent près de leur terrier et laissent la ville tranquille. Leur dard empoisonne : prévoyez des antidotes, ou un autel de purification, avant de le nettoyer.
+
+**Sanctuaire ensablé** — Les gardiens de grès s’éveillent dans le sanctuaire et marchent lentement sur la ville. Chacun se protège une fois à mi-vie : usez-les à distance ou par le poison.
+
+**Crypte du nécromancien** — Les nécromanciens relèvent des squelettes tant qu’ils voient des héros, si bien que leurs raids grossissent en chemin. Tuez d’abord l’invocateur ; ses squelettes n’en relèvent pas d’autres.
+
+**Tumulus spectral** — Les chasseurs spectraux dépassent la ligne de front pour viser archers, mages et soigneurs. Gardez les plus fragiles derrière un mur de boucliers, ou ralentissez les chasseurs.
+
+**Marais des cracheurs** — Les cracheurs de venin souillent le sol de loin, trois secondes après l’alerte. Sortez de la marque, emportez des antidotes et tuez d’abord les cracheurs.
+
+**Cercle des maléfices** — Les lie-sorts marquent les héros, qui subissent un moment plus de dégâts, et des cultistes marchent avec eux. Une purification efface le maléfice ; frappez les lie-sorts avant qu’il ne tombe.
+
+**Grotte aux chauves-souris** — Les chauves-souris vampires jaillissent vite et se soignent sur ce qu’elles mordent. Les boucliers les privent de repas ; archers et tours les abattent.

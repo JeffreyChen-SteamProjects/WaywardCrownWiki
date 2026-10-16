@@ -4,6 +4,10 @@ title: "Zufallsereignisse"
 
 Das Spiel löst in regelmäßigen Abständen Zufallsereignisse aus, die dem Spielverlauf Unvorhersehbarkeit verleihen. Die Intensität der Ereignisse skaliert dynamisch mit der Anzahl deiner Abenteurer. Das eingebaute Tutorial würfelt nie ein Erdbeben und kein Ereignis, das ein neues Bauwerk auf die Karte setzt.
 
+Kreditkarten zeigen einen versiegelten Brief; eine neue Einladung erklingt einmal leise mit der eingestellten Effektlautstärke. Der Reiter „Ereignisse im Königreich“ im Aufzeichnungsbereich zeigt Einladungen und offene Darlehen, ohne das Spiel anzuhalten. Darlehenskarten nennen den sofort zu zahlenden Betrag, die Frist, Rückzahlungen und den maximalen Verlust; Ablehnen oder Ignorieren ist kostenlos. Karten- und Kampagneneditoren speichern die Ereignisgruppen: Level-Einstellungen haben Vorrang vor der Kampagne und danach der Karte, und Übernehmen unterscheidet sich vom Abschalten aller Gruppen. Bisher bringt nur die Gruppe „Wirtschaft und öffentliche Dienste“ ein Zufallsereignis, den Erntemarkt; die anderen Gruppen bringen noch keines. Kreditkarten brechen in schmalen Seitenleisten um und lassen sich bei Bedarf vertikal scrollen, sodass alle Bedingungen lesbar bleiben.
+
+Bei einem offenen Kredit trennt die Vorschau des nächsten Levels den aktuellen Staatsschatz, die zinsfrei zurückgezahlte Summe und das voraussichtlich übertragene Gold. Es gilt die Goldregel des Ziellevels; die Vorschau zahlt nichts aus.
+
 ---
 
 ## Auslöseregeln
@@ -108,6 +112,12 @@ Erzeugen dauerhafte Kartenstrukturen.
 | **Rebellengilde** | 400 | Eine feindliche Gilde erscheint und gebiert Feinde. Zerstöre sie! |
 | **Antike Ruinen** | 450 | Ruinen erscheinen auf der Karte. Wer zuerst da ist, kassiert Belohnungen! |
 | **Dimensionsriss** | 300 | Portale erscheinen und teleportieren Helden zufällig |
+
+---
+
+## Erntemarkt
+
+Ist die Gruppe „Wirtschaft und öffentliche Dienste“ an, kann ein Erntemarkt zu einem deiner Dorfhäuser kommen. Du erfährst es 20 Sekunden vorher, und er bleibt 120 Sekunden offen. Schicken musst du niemanden: Verletzte Helden, Helden mit zu wenig Tränken oder mit Lust auf einen freien Abend gehen von selbst hin, solange sie nichts anderes festhält (ein Kampf, eine Flagge, eine Gruppe, auf die sie warten). Bedient werden vier auf einmal. Jeder Gast ruht sich 5 Sekunden aus, bekommt 40 LP gratis zurück, kauft fehlende Tränke zum üblichen Preis (der Markt bringt für seine ganze Zeit 24 mit) und bezahlt einen freien Abend, wenn er will. Wer früher geht, zahlt nichts. Solange der Markt offen ist, kannst du ihn einmal für 150 Gold 60 Sekunden länger offen halten; Tränke kommen nicht nach. Seine Karte unter „Ereignisse im Königreich“ zeigt, wann er öffnet und schließt, wer an den Ständen steht und wie viele Tränke übrig sind, und „Zeigen“ bringt dich hin, sobald du den Ort gesehen hast.
 
 ---
 

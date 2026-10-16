@@ -28,8 +28,8 @@ La investigación se compra en el edificio al que pertenece: la de una clase en 
 | Biblioteca | 3 | **Entrenamiento heroico** | Todas las clases | 900 | Todos los aventureros ganan +15% de experiencia. |
 | Templo | 2 | **Médico de campaña** | Todas las clases | 400 | Los aventureros que descansan curan un 50% más rápido. |
 | Bastión | 1 | **Escudos torre** | Caballero del Escudo | 300 | Caballero del Escudo: +4 de defensa. |
-| Bastión | 1 | **Golpe de escudo** | Caballero del Escudo | 350 | Caballero del escudo: +3 ataque. |
-| Bastión | 1 | **Tejido protector** | Caballero del Escudo | 450 | Caballero del escudo: escudo de juramento +20%, máximo 50% de vida del lanzador; misma duración, sin acumulación. |
+| Bastión | 1 | **Golpe de escudo** | Caballero del Escudo | 350 | Caballero del Escudo: +3 ataque. |
+| Bastión | 1 | **Tejido protector** | Caballero del Escudo | 450 | Caballero del Escudo: escudo de juramento +20%, máximo 50% de vida del lanzador; misma duración, sin acumulación. |
 | Campamento salvaje | 1 | **Vuelo certero** | Batidor | 300 | Batidor: +4 de ataque. |
 | Osario | 1 | **Coraza imperecedera** | Caballero Sepulcral | 300 | Caballero Sepulcral: +4 de defensa. |
 | Santuario | 1 | **Instrucción de Baluarte** | Todas las clases | 350 | Bastión: su protección alcanza 5 casillas más. |
@@ -40,8 +40,8 @@ La investigación se compra en el edificio al que pertenece: la de una clase en 
 | Refugio de Bestias | 1 | **Saber de Sendas** | Todas las clases | 300 | Los héroes exploran un 15 % más lejos del castillo. |
 | Refugio de Bestias | 1 | **Remedios de Hierbas** | Todas las clases | 350 | Las posadas y el templo del pueblo vuelven a curar a su ritmo completo. |
 | Refugio de Bestias | 1 | **Pieles de bestia** | Guardián de Bestias | 300 | Guardián de Bestias: +3 de defensa. |
-| Refugio de Bestias | 1 | **Adiestramiento de manada** | Guardián de Bestias | 450 | Perros, osos y halcones vivos de un guardián de bestias vivo: +2 ataque. Mismo límite y mantenimiento. |
-| Refugio de Bestias | 1 | **Guardia de bestias** | Guardián de Bestias | 300 | Guardián de bestias: +3 defensa. |
+| Refugio de Bestias | 1 | **Adiestramiento de manada** | Guardián de Bestias | 450 | Perros, osos y halcones vivos de un Guardián de Bestias vivo: +2 ataque. Mismo límite y mantenimiento. |
+| Refugio de Bestias | 1 | **Guardia de bestias** | Guardián de Bestias | 300 | Guardián de Bestias: +3 defensa. |
 | Cripta | 1 | **Pacto Sepulcral** | Todas las clases | 350 | El mantenimiento de un guardia invocado se reduce a la mitad. |
 | Cripta | 1 | **Atadura de Médula** | Todas las clases | 400 | Osario: mantiene un guardia más. |
 | Cripta | 1 | **Tomos prohibidos** | Nigromante | 300 | Nigromante: +5 de ataque. |

@@ -28,20 +28,20 @@ Research is bought at the building it belongs to: a class's at its guild, faith'
 | Library | 3 | **Hero Training** | All Classes | 900 | Every adventurer gains +15% experience. |
 | Temple | 2 | **Field Medic** | All Classes | 400 | Adventurers resting in buildings heal 50% faster. |
 | Bastion | 1 | **Tower Shields** | Shield Knight | 300 | Shield Knight: +4 defence. |
-| Bastion | 1 | **Shield impact** | Shield Knight | 350 | Shield knight: +3 attack. |
-| Bastion | 1 | **Shield weaving** | Shield Knight | 450 | Shield knight: Oath Shield +20%, capped at 50% of caster HP; unchanged duration, no stacking. |
+| Bastion | 1 | **Shield Impact** | Shield Knight | 350 | Shield Knight: +3 attack. |
+| Bastion | 1 | **Shield Weaving** | Shield Knight | 450 | Shield Knight: Oath Shield +20%, capped at 50% of caster HP; unchanged duration, no stacking. |
 | Wild Camp | 1 | **True Flight** | Pathfinder | 300 | Pathfinder: +4 attack. |
 | Ossuary | 1 | **Deathless Plate** | Grave Knight | 300 | Grave Knight: +4 defence. |
 | Sanctuary | 1 | **Bulwark Drill** | All Classes | 350 | The Bastion shields defenders 5 tiles further out. |
 | Sanctuary | 1 | **Field Surgery** | All Classes | 400 | The Sanctuary and Mending Prayer heal 50% more. |
 | Sanctuary | 1 | **Healer's Oath** | Hospitaller | 300 | Hospitaller: +3 defence. |
-| Sanctuary | 1 | **Mending discipline** | Hospitaller | 400 | Hospitaller: own healing +20%; communal healing unchanged. |
-| Sanctuary | 1 | **Healer mail** | Hospitaller | 300 | Hospitaller: +2 defense. |
+| Sanctuary | 1 | **Mending Discipline** | Hospitaller | 400 | Hospitaller: own healing +20%; communal healing unchanged. |
+| Sanctuary | 1 | **Healer Mail** | Hospitaller | 300 | Hospitaller: +2 defence. |
 | Beast Lodge | 1 | **Trail Lore** | All Classes | 300 | Heroes explore 15% further from the castle. |
 | Beast Lodge | 1 | **Herbal Remedies** | All Classes | 350 | The town's inns and temple heal at their full rate again. |
 | Beast Lodge | 1 | **Beast Hides** | Beast Warden | 300 | Beast Warden: +3 defence. |
-| Beast Lodge | 1 | **Pack training** | Beast Warden | 450 | Living hounds, bears and hawks of a living Beast Warden: +2 attack. No additional summons or upkeep change. |
-| Beast Lodge | 1 | **Warden guard** | Beast Warden | 300 | Beast Warden: +3 defense. |
+| Beast Lodge | 1 | **Pack Training** | Beast Warden | 450 | Living hounds, bears and hawks of a living Beast Warden: +2 attack. No additional summons or upkeep change. |
+| Beast Lodge | 1 | **Warden Guard** | Beast Warden | 300 | Beast Warden: +3 defence. |
 | Crypt | 1 | **Grave Pact** | All Classes | 350 | A summoned guard's upkeep is halved. |
 | Crypt | 1 | **Marrow Binding** | All Classes | 400 | Each Ossuary keeps one more guard. |
 | Crypt | 1 | **Forbidden Tomes** | Necromancer | 300 | Necromancer: +5 attack. |
@@ -53,7 +53,7 @@ Research is bought at the building it belongs to: a class's at its guild, faith'
 | War Hall | 1 | **Trophy Hall** | All Classes | 400 | A kill pays 15% more gold. |
 | War Hall | 1 | **Blood Oath** | Oathsworn | 300 | Oathsworn: +5 attack. |
 | Quartermaster | 1 | **Banner Guard** | Bannerman | 300 | Bannerman: +3 defence. |
-| Quartermaster | 1 | **Siege provisioning** | Bannerman | 500 | Supplied Bannermen: +25% wall damage; each blow still consumes one assault supply. |
+| Quartermaster | 1 | **Siege Provisioning** | Bannerman | 500 | Supplied Bannermen: +25% wall damage; each blow still consumes one assault supply. |
 | Academy | 1 | **Ley Attunement** | All Classes | 350 | Royal spells cost 20% less. |
 | Academy | 1 | **Runic Binding** | All Classes | 400 | Heroes' active skills are ready again 15% sooner. |
 | Academy | 1 | **Runed Edge** | Spellblade | 300 | Spellblade: +4 attack. |
@@ -71,11 +71,11 @@ Research is bought at the building it belongs to: a class's at its guild, faith'
 | Spell Institute | 1 | **Mending** | All Classes | 350 | Heroes of any class may learn Mending at the Spell Institute. |
 | Spell Institute | 2 | **Warding** | All Classes | 350 | Heroes of any class may learn Warding at the Spell Institute. |
 | Spell Institute | 3 | **Spark** | All Classes | 400 | Heroes of any class may learn Spark at the Spell Institute. |
-| Frost Tower | 1 | **Frost lattice** | All Classes | 400 | Frost towers: slow lasts 10s instead of 8s; boss control resistance still applies, no additional damage. |
-| Beacon | 1 | **Beacon lenses** | All Classes | 250 | Beacons: +6 sight tiles; no attack or stacking. |
-| Cleansing Altar | 1 | **Cleansing reach** | All Classes | 350 | Cleansing altars: radius 9 instead of 7; no healing, shields or control-resistance reset. |
-| Alchemy Guild | 1 | **Sealed vials** | Alchemist | 300 | Alchemist: +3 defense; reagent cost and stock unchanged. |
-| Alchemy Guild | 2 | **Caustic reagents** | Alchemist | 450 | Alchemist: poison bottles +1 damage per dose; still five doses and one paid vial, six-vial limit. |
+| Frost Tower | 1 | **Frost Lattice** | All Classes | 400 | Frost towers: slow lasts 10s instead of 8s; boss control resistance still applies, no additional damage. |
+| Beacon | 1 | **Beacon Lenses** | All Classes | 250 | Beacons: +6 sight tiles; no attack or stacking. |
+| Cleansing Altar | 1 | **Cleansing Reach** | All Classes | 350 | Cleansing altars: radius 9 instead of 7; no healing, shields or control-resistance reset. |
+| Alchemy Guild | 1 | **Sealed Vials** | Alchemist | 300 | Alchemist: +3 defence; reagent cost and stock unchanged. |
+| Alchemy Guild | 2 | **Caustic Reagents** | Alchemist | 450 | Alchemist: poison bottles +1 damage per dose; still five doses and one paid vial, six-vial limit. |
 
 - **Field Medic**: Not sold to a kingdom on the Undead path
 

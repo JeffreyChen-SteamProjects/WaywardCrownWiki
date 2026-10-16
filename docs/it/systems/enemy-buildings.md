@@ -10,22 +10,34 @@ Le roccaforti nemiche sono basi nemiche sparse per la mappa. Mantengono guardie 
 
 | Roccaforte | Nemici generati | Dimensione | Restrizione |
 |------------|----------------|------------|-------------|
-| **Pozza di slime** | Slime | 11 caselle | -- |
+| **Pozza di slime** | Slime / Melma fissile | 11 caselle | -- |
 | **Accampamento goblin** | Goblin / Lupo crudele / Arciere goblin | 11 caselle | -- |
-| **Fortezza goblin** | Goblin / Bruto orchesco / Arciere goblin / Troll | 23 caselle | Una per mappa |
+| **Fortezza goblin** | Goblin / Bruto orchesco / Arciere goblin / Troll / Picchiere / Portascudo / Guastatore / Bestia d'assedio / Sciamano goblin | 23 caselle | Una per mappa |
 | **Cimitero** | Scheletro / Zombie | 11 caselle | -- |
-| **Castello dei non-morti** | Zombie / Scheletro / Cultista oscuro | 23 caselle | Una per mappa |
+| **Castello dei non-morti** | Scheletro / Zombie / Cultista oscuro / Necromante nemico / Cacciatore spettrale / Pipistrello vampiro | 23 caselle | Una per mappa |
 | **Nido di draghi** | Drago / Arpia | 16 caselle | -- |
-| **Nido di ragni** | Ragno gigante / Ratto gigante | 11 caselle | -- |
-| **Accampamento dei banditi** | Bandito / Lupo crudele | 11 caselle | -- |
-| **Tomba delle sabbie** | Spettro delle sabbie / Scheletro | 13 caselle | -- |
+| **Nido di ragni** | Ragno gigante / Ratto gigante / Sputatore di veleno | 11 caselle | -- |
+| **Accampamento dei banditi** | Bandito / Lupo crudele / Sabotatore bandito | 11 caselle | -- |
+| **Tomba delle sabbie** | Spettro delle sabbie / Scheletro / Scorpione velenoso / Guardiano di arenaria | 13 caselle | -- |
 | **Tana dei lupi** | Lupo crudele | 11 caselle | -- |
-| **Accampamento di guerra orchesco** | Bruto orchesco / Goblin | 13 caselle | -- |
+| **Accampamento di guerra orchesco** | Bruto orchesco / Goblin / Picchiere / Portascudo / Guastatore / Bestia d'assedio | 13 caselle | -- |
 | **Torre di guardia goblin** | Arciere goblin / Goblin | 9 caselle | -- |
-| **Santuario oscuro** | Cultista oscuro / Scheletro | 11 caselle | -- |
+| **Santuario oscuro** | Cultista oscuro / Scheletro / Vincolatore di malefici | 11 caselle | -- |
 | **Caverna del troll** | Troll | 13 caselle | -- |
 | **Tana dei ratti** | Ratto gigante | 9 caselle | -- |
 | **Nido delle arpie** | Arpia | 11 caselle | -- |
+| **Caserma corazzata** | Portascudo / Picchiere / Arciere goblin / Sciamano goblin | 13 caselle | -- |
+| **Incubatrice pestilenziale** | Melma fissile / Sputatore di veleno / Vincolatore di malefici / Pipistrello vampiro | 11 caselle | -- |
+| **Campo d’assedio** | Bestia d'assedio / Guastatore / Arciere goblin / Portascudo | 15 caselle | -- |
+| **Capanna dello sciamano** | Sciamano goblin / Goblin / Arciere goblin | 9 caselle | -- |
+| **Covo dei sabotatori** | Sabotatore bandito / Bandito | 9 caselle | -- |
+| **Tana degli scorpioni** | Scorpione velenoso | 11 caselle | -- |
+| **Santuario sepolto** | Guardiano di arenaria / Scheletro | 13 caselle | -- |
+| **Cripta del necromante** | Necromante nemico / Scheletro / Zombie | 11 caselle | -- |
+| **Tumulo spettrale** | Cacciatore spettrale / Scheletro | 11 caselle | -- |
+| **Palude degli sputatori** | Sputatore di veleno / Slime | 11 caselle | -- |
+| **Cerchio dei malefici** | Vincolatore di malefici / Cultista oscuro | 11 caselle | -- |
+| **Grotta dei pipistrelli** | Pipistrello vampiro | 11 caselle | -- |
 | **Gilda ribelle** | Bandito | 9 caselle | Solo tramite evento |
 
 :::note[Una per mappa]
@@ -89,13 +101,14 @@ Le roccaforti sono raggruppate per fazione. Nella modalità sandbox puoi selezio
 
 | Fazione | Roccaforti incluse |
 |---------|-------------------|
-| **Slime** | Pozza di slime |
-| **Goblin** | Accampamento goblin, Fortezza goblin, Torre di guardia goblin, Accampamento di guerra orchesco |
-| **Non-morti** | Cimitero, Castello dei non-morti, Santuario oscuro |
+| **Slime** | Pozza di slime, Incubatrice pestilenziale, Palude degli sputatori |
+| **Goblin** | Accampamento goblin, Fortezza goblin, Torre di guardia goblin, Accampamento di guerra orchesco, Capanna dello sciamano |
+| **Non-morti** | Cimitero, Castello dei non-morti, Santuario oscuro, Cripta del necromante, Tumulo spettrale, Cerchio dei malefici |
 | **Drago** | Nido di draghi |
-| **Bestie** | Nido di ragni, Tana dei lupi, Tana dei ratti, Caverna del troll, Nido delle arpie |
-| **Banditi** | Accampamento dei banditi |
-| **Deserto** | Tomba delle sabbie |
+| **Bestie** | Nido di ragni, Tana dei lupi, Tana dei ratti, Caverna del troll, Nido delle arpie, Grotta dei pipistrelli |
+| **Banditi** | Accampamento dei banditi, Covo dei sabotatori |
+| **Deserto** | Tomba delle sabbie, Tana degli scorpioni, Santuario sepolto |
+| **Legione** | Caserma corazzata, Campo d’assedio |
 
 ---
 
@@ -109,11 +122,23 @@ Ogni roccaforte fa incursioni secondo il suo tipo:
 | **Accampamento goblin** | 8:00 | 5:00 | 3, uno in più a ogni incursione, 6 al massimo | la città |
 | **Accampamento dei banditi** | 6:00 | 4:00 | 2, uno in più a ogni incursione, 5 al massimo | la strada commerciale (la Stazione commerciale più vicina), altrimenti la città |
 | **Fortezza goblin** | 11:00 | 6:00 | 4, uno in più a ogni incursione, 8 al massimo | la città |
-| **Accampamento di guerra orchesco** | 10:00 | 6:00 | 2, uno in più a ogni incursione, 5 al massimo | la città |
+| **Accampamento di guerra orchesco** | 10:00 | 6:00 | 2, uno in più a ogni incursione, 5 al massimo | ciò che è in costruzione, altrimenti il castello |
 | **Torre di guardia goblin** | 8:00 | 5:00 | 3, uno in più a ogni incursione, 6 al massimo | la città |
 | **Santuario oscuro** | 11:00 | 7:00 | 2, uno in più a ogni incursione, 4 al massimo | la città |
 | **Caverna del troll** | 14:00 | 10:00 | 1 | la città |
 | **Nido delle arpie** | 9:00 | 6:00 | 2, uno in più a ogni incursione, 4 al massimo | la città |
+| **Caserma corazzata** | 9:00 | 6:00 | 4, uno in più a ogni incursione, 8 al massimo | la città |
+| **Incubatrice pestilenziale** | 8:00 | 5:30 | 3, uno in più a ogni incursione, 7 al massimo | la città |
+| **Campo d’assedio** | 12:00 | 8:00 | 3, uno in più a ogni incursione, 6 al massimo | ciò che è in costruzione, altrimenti il castello |
+| **Capanna dello sciamano** | 9:00 | 6:00 | 2, uno in più a ogni incursione, 5 al massimo | la città |
+| **Covo dei sabotatori** | 8:00 | 5:00 | 2, uno in più a ogni incursione, 4 al massimo | ciò che è in costruzione, altrimenti il castello |
+| **Tana degli scorpioni** | — | — | nessuno | — |
+| **Santuario sepolto** | 12:00 | 8:00 | 2, uno in più a ogni incursione, 4 al massimo | la città |
+| **Cripta del necromante** | 11:00 | 7:00 | 2, uno in più a ogni incursione, 5 al massimo | la città |
+| **Tumulo spettrale** | 10:00 | 6:30 | 2, uno in più a ogni incursione, 4 al massimo | la città |
+| **Palude degli sputatori** | 9:00 | 6:00 | 2, uno in più a ogni incursione, 4 al massimo | la città |
+| **Cerchio dei malefici** | 11:00 | 7:00 | 2, uno in più a ogni incursione, 4 al massimo | la città |
+| **Grotta dei pipistrelli** | 8:00 | 5:00 | 3, uno in più a ogni incursione, 6 al massimo | la città |
 
 - Ogni incursione è annunciata 30 secondi prima nella cronaca, con la posizione del covo quando i tuoi eroi l'hanno visto; un covo mai visto è annunciato senza posizione, quindi esplorare paga.
 - Un'incursione parte come un'unica squadra da accanto al covo. A facile un predone in meno, a difficile due in più.

@@ -174,7 +174,7 @@ Expedition details link to reachable potion shops and rest, and count learnt hea
 
 ## Ancient beacon
 
-On maps with an ancient beacon, select its discovered site to see costs, the deadline and choices in the details panel. Repair requires a crew or builder on site and pauses halfway for extra funding or withdrawal. Completion warns about discovered enemies within 20 tiles. Salvage needs a hero to accept the explore flag, arrive and work; the crown and worker are paid once. Ignoring the offer starts no deadline. Withdrawal refunds only unspent funds. The relic gives no recruitment or flag bonus.
+On maps with an ancient beacon, select its discovered site to see costs, the deadline and choices in the details panel. Repair requires a crew or builder on site and pauses halfway for extra funding or withdrawal. Completion warns about discovered enemies within 20 tiles. Salvage needs a hero to accept the explore flag, arrive and work; the crown and worker are paid once. Ignoring the offer starts no deadline. Withdrawal refunds only unspent funds. The relic gives no recruitment or flag bonus. Leaving the level abandons accepted relic work and returns its unspent funds, as a withdrawal would; a relic's effects stay with its map, and only what the campaign carries over (gold, heroes, research) goes on to the next level.
 
 ## Optional Goblin logistics
 
@@ -189,3 +189,26 @@ Enemy supply intelligence is a map layer of observed waypoints and sites. Main-l
 Free play offers an optional finite Goblin Tent expansion switch, off by default. Mixed or goblin-only games reserve one of the chosen lair slots for a Goblin Tent and bind at most four existing tents; the total lair count stays unchanged. Other races have no synthetic source. Campaigns use their authored settings instead of this preference.
 
 Logistics sites show distinct scaffolding, depot and ruin silhouettes with moving cloth; reduced motion holds the cloth still. The courier hammers only while real construction advances. Convoy discovery and observed construction, completion and ruin have their own icons and sounds; hidden changes stay silent, and loading does not repeat an observed notice. Author forms scroll at small sizes, and the intelligence panel supports keyboard scrolling.
+
+Couriers wait for moving units to clear a new outpost's footprint without extending the delivery deadline. Couriers and escorts stop outside the planned site.
+
+After salvaging an ancient beacon, crews cannot restore it for free; salvage and repair remain mutually exclusive.
+
+Default tomb and station terms are below. Select a discovered site to see its actual authored costs, remaining original deadline and results; the controls keep the game running.
+
+The chronicle’s Optional section tracks discovered relics, their chosen branch, progress, blockers, original remaining deadline and actual results. Show locates the original site without accepting a choice or spending gold. A relic coming into sight is news, and so is accepted work that stops halfway, fails or is done; a withdrawal you make is a line of the log. A site shows where it stands: a ruin until work is accepted, scaffolding and stacked materials while the crown works there, what the finished choice leaves (a lit beacon or a stripped one, a sealed tomb or an opened one, a rebuilt station), or rubble when the work failed. What holds work up is said precisely: no hero to take it, the heroes' own reason for turning it down, monsters near the site, the crew's other work first (and the site's place in the order), or water, cliffs or buildings closing the site in.
+
+Optional relic sites: 0 disables generation. Place up to two different relics on reachable open ground outside the castle safe zone, preserving roads and routes. Choices remain unfunded until accepted. Sites are 21–80 tiles from the castle and must pass an ordinary crew route check.
+
+Map rules and campaign levels share a relic editor for up to two original sites, fixed option subsets and bounded fees, rewards, work and deadlines. Cancel retains the draft; Apply validates sources before accepting it and runs no gameplay. Empty level overrides inherit the map; `relics_disabled: true` explicitly disables that inheritance. Clearing standalone map relics removes their templates on save.
+
+**Sealed tomb**
+
+- Strengthen the seal: After extra funding, suppress only 2 scheduled raids from Graveyard / Undead Castle. Guards, ambient enemies and other sources remain ordinary. The original source must survive.
+- Fund research: One eligible Arcane Affinity unlock, or 80 gold if unavailable or already known. Ordinary Mage Tower and research prerequisites apply. Work pauses halfway for extra funding or withdrawal.
+- Open the tomb: One treasure of 240 gold after real exploration and defeating 3 Skeleton guards. Funding opens the tomb; surviving guards remain after withdrawal or expiry.
+
+**Lost station**
+
+- Rebuild supplies: Restore 6 shared paid level-one supply purchases: healing, potions or alchemy reagents at ordinary prices. No periodic income or upgrades. Rebuilding excludes rescue.
+- Escort the survivor: Volunteers must escort the original survivor to the safe castle. Joining chance 75%, fixed when funded: one Ranger only with permitted class, path and a finished Ranger Lodge vacancy at arrival. The crown reward is 0 gold regardless of joining; no waiting recruit. Rescue excludes rebuilding.

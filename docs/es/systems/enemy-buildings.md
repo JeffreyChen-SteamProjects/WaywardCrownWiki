@@ -10,22 +10,34 @@ Las Fortalezas Enemigas son bases enemigas dispersas por el mapa. Mantienen sus 
 
 | Fortaleza | Enemigos Generados | Tamaño | Restricción |
 |-----------|--------------------|--------|-------------|
-| **Poza de Slimes** | Limo | 11 casillas | -- |
+| **Poza de Slimes** | Limo / Limo fisible | 11 casillas | -- |
 | **Campamento Goblin** | Goblin / Lobo huargo / Arquero goblin | 11 casillas | -- |
-| **Fortaleza Goblin** | Goblin / Bruto orco / Arquero goblin / Trol | 23 casillas | Una por mapa |
+| **Fortaleza Goblin** | Goblin / Bruto orco / Arquero goblin / Trol / Piquero / Portaescudo / Zapador / Bestia de asedio / Chamán goblin | 23 casillas | Una por mapa |
 | **Cementerio** | Esqueleto / Zombi | 11 casillas | -- |
-| **Castillo No-muerto** | Zombi / Esqueleto / Cultista oscuro | 23 casillas | Una por mapa |
+| **Castillo No-muerto** | Esqueleto / Zombi / Cultista oscuro / Nigromante enemigo / Cazador espectral / Murciélago vampiro | 23 casillas | Una por mapa |
 | **Nido de Dragones** | Dragón / Arpía | 16 casillas | -- |
-| **Nido de Arañas** | Araña gigante / Rata gigante | 11 casillas | -- |
-| **Campamento Bandido** | Bandido / Lobo huargo | 11 casillas | -- |
-| **Tumba de Arena** | Espectro de arena / Esqueleto | 13 casillas | -- |
+| **Nido de Arañas** | Araña gigante / Rata gigante / Escupidor de veneno | 11 casillas | -- |
+| **Campamento Bandido** | Bandido / Lobo huargo / Saboteador bandido | 11 casillas | -- |
+| **Tumba de Arena** | Espectro de arena / Esqueleto / Escorpión venenoso / Guardián de arenisca | 13 casillas | -- |
 | **Guarida de Lobos** | Lobo huargo | 11 casillas | -- |
-| **Campamento de Guerra Orco** | Bruto orco / Goblin | 13 casillas | -- |
+| **Campamento de Guerra Orco** | Bruto orco / Goblin / Piquero / Portaescudo / Zapador / Bestia de asedio | 13 casillas | -- |
 | **Atalaya Goblin** | Arquero goblin / Goblin | 9 casillas | -- |
-| **Santuario Oscuro** | Cultista oscuro / Esqueleto | 11 casillas | -- |
+| **Santuario Oscuro** | Cultista oscuro / Esqueleto / Ligador de maleficios | 11 casillas | -- |
 | **Cueva del Trol** | Trol | 13 casillas | -- |
 | **Madriguera de Ratas** | Rata gigante | 9 casillas | -- |
 | **Nido de Arpías** | Arpía | 11 casillas | -- |
+| **Cuartel acorazado** | Portaescudo / Piquero / Arquero goblin / Chamán goblin | 13 casillas | -- |
+| **Criadero de peste** | Limo fisible / Escupidor de veneno / Ligador de maleficios / Murciélago vampiro | 11 casillas | -- |
+| **Campamento de asedio** | Bestia de asedio / Zapador / Arquero goblin / Portaescudo | 15 casillas | -- |
+| **Choza del Chamán** | Chamán goblin / Goblin / Arquero goblin | 9 casillas | -- |
+| **Escondite del Saboteador** | Saboteador bandido / Bandido | 9 casillas | -- |
+| **Madriguera de Escorpiones** | Escorpión venenoso | 11 casillas | -- |
+| **Santuario Hundido** | Guardián de arenisca / Esqueleto | 13 casillas | -- |
+| **Cripta del Nigromante** | Nigromante enemigo / Esqueleto / Zombi | 11 casillas | -- |
+| **Túmulo Espectral** | Cazador espectral / Esqueleto | 11 casillas | -- |
+| **Ciénaga del Escupidor** | Escupidor de veneno / Limo | 11 casillas | -- |
+| **Círculo de Maleficios** | Ligador de maleficios / Cultista oscuro | 11 casillas | -- |
+| **Cueva de Murciélagos** | Murciélago vampiro | 11 casillas | -- |
 | **Gremio rebelde** | Bandido | 9 casillas | Solo por evento |
 
 :::note[Una por Mapa]
@@ -89,13 +101,14 @@ Las fortalezas se agrupan por facción. En el modo libre, puedes seleccionar fac
 
 | Facción | Fortalezas Incluidas |
 |---------|---------------------|
-| **Slime** | Poza de Slimes |
-| **Goblin** | Campamento Goblin, Fortaleza Goblin, Atalaya Goblin, Campamento de Guerra Orco |
-| **No-muerto** | Cementerio, Castillo No-muerto, Santuario Oscuro |
+| **Slime** | Poza de Slimes, Criadero de peste, Ciénaga del Escupidor |
+| **Goblin** | Campamento Goblin, Fortaleza Goblin, Atalaya Goblin, Campamento de Guerra Orco, Choza del Chamán |
+| **No-muerto** | Cementerio, Castillo No-muerto, Santuario Oscuro, Cripta del Nigromante, Túmulo Espectral, Círculo de Maleficios |
 | **Dragón** | Nido de Dragones |
-| **Bestia** | Nido de Arañas, Guarida de Lobos, Madriguera de Ratas, Cueva del Trol, Nido de Arpías |
-| **Bandido** | Campamento Bandido |
-| **Desierto** | Tumba de Arena |
+| **Bestia** | Nido de Arañas, Guarida de Lobos, Madriguera de Ratas, Cueva del Trol, Nido de Arpías, Cueva de Murciélagos |
+| **Bandido** | Campamento Bandido, Escondite del Saboteador |
+| **Desierto** | Tumba de Arena, Madriguera de Escorpiones, Santuario Hundido |
+| **Legión** | Cuartel acorazado, Campamento de asedio |
 
 ---
 
@@ -109,11 +122,23 @@ Cada fortaleza hace incursiones según su tipo:
 | **Campamento Goblin** | 8:00 | 5:00 | 3, uno más en cada incursión, 6 como máximo | el pueblo |
 | **Campamento Bandido** | 6:00 | 4:00 | 2, uno más en cada incursión, 5 como máximo | el camino comercial (el Puesto comercial más cercano); si no, el pueblo |
 | **Fortaleza Goblin** | 11:00 | 6:00 | 4, uno más en cada incursión, 8 como máximo | el pueblo |
-| **Campamento de Guerra Orco** | 10:00 | 6:00 | 2, uno más en cada incursión, 5 como máximo | el pueblo |
+| **Campamento de Guerra Orco** | 10:00 | 6:00 | 2, uno más en cada incursión, 5 como máximo | lo que se está construyendo, si no el castillo |
 | **Atalaya Goblin** | 8:00 | 5:00 | 3, uno más en cada incursión, 6 como máximo | el pueblo |
 | **Santuario Oscuro** | 11:00 | 7:00 | 2, uno más en cada incursión, 4 como máximo | el pueblo |
 | **Cueva del Trol** | 14:00 | 10:00 | 1 | el pueblo |
 | **Nido de Arpías** | 9:00 | 6:00 | 2, uno más en cada incursión, 4 como máximo | el pueblo |
+| **Cuartel acorazado** | 9:00 | 6:00 | 4, uno más en cada incursión, 8 como máximo | el pueblo |
+| **Criadero de peste** | 8:00 | 5:30 | 3, uno más en cada incursión, 7 como máximo | el pueblo |
+| **Campamento de asedio** | 12:00 | 8:00 | 3, uno más en cada incursión, 6 como máximo | lo que se está construyendo, si no el castillo |
+| **Choza del Chamán** | 9:00 | 6:00 | 2, uno más en cada incursión, 5 como máximo | el pueblo |
+| **Escondite del Saboteador** | 8:00 | 5:00 | 2, uno más en cada incursión, 4 como máximo | lo que se está construyendo, si no el castillo |
+| **Madriguera de Escorpiones** | — | — | ninguno | — |
+| **Santuario Hundido** | 12:00 | 8:00 | 2, uno más en cada incursión, 4 como máximo | el pueblo |
+| **Cripta del Nigromante** | 11:00 | 7:00 | 2, uno más en cada incursión, 5 como máximo | el pueblo |
+| **Túmulo Espectral** | 10:00 | 6:30 | 2, uno más en cada incursión, 4 como máximo | el pueblo |
+| **Ciénaga del Escupidor** | 9:00 | 6:00 | 2, uno más en cada incursión, 4 como máximo | el pueblo |
+| **Círculo de Maleficios** | 11:00 | 7:00 | 2, uno más en cada incursión, 4 como máximo | el pueblo |
+| **Cueva de Murciélagos** | 8:00 | 5:00 | 3, uno más en cada incursión, 6 como máximo | el pueblo |
 
 - Cada incursión se anuncia 30 segundos antes en la crónica, con el lugar de la guarida cuando tus héroes ya la han visto; una guarida no vista se anuncia sin lugar, así que explorar compensa.
 - Una incursión sale como un solo grupo desde junto a la guarida. En fácil, un asaltante menos; en difícil, dos más.

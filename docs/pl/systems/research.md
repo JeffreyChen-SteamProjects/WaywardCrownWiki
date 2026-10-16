@@ -28,8 +28,8 @@ Badania kupuje się w budynku, do którego należą: badania klasy w jej gildii,
 | Biblioteka | 3 | **Szkolenie bohaterów** | Wszystkie klasy | 900 | Wszyscy poszukiwacze zyskują +15% doświadczenia. |
 | Świątynia | 2 | **Medyk polowy** | Wszystkie klasy | 400 | Odpoczywający poszukiwacze leczą się o 50% szybciej. |
 | Bastion | 1 | **Tarcze wieżowe** | Rycerz Tarczy | 300 | Rycerz Tarczy: +4 do obrony. |
-| Bastion | 1 | **Uderzenie tarczą** | Rycerz Tarczy | 350 | Rycerz tarczy: +3 ataku. |
-| Bastion | 1 | **Splot osłony** | Rycerz Tarczy | 450 | Rycerz tarczy: osłona przysięgi +20%, najwyżej 50% maks. PŻ rzucającego; bez zmiany czasu i kumulacji. |
+| Bastion | 1 | **Uderzenie tarczą** | Rycerz Tarczy | 350 | Rycerz Tarczy: +3 ataku. |
+| Bastion | 1 | **Splot osłony** | Rycerz Tarczy | 450 | Rycerz Tarczy: osłona przysięgi +20%, najwyżej 50% maks. PŻ rzucającego; bez zmiany czasu i kumulacji. |
 | Dziki obóz | 1 | **Celny lot** | Tropiciel | 300 | Tropiciel: +4 do ataku. |
 | Ossuarium | 1 | **Nieśmiertelna zbroja** | Rycerz Grobów | 300 | Rycerz Grobów: +4 do obrony. |
 | Sanktuarium | 1 | **Musztra Bastionu** | Wszystkie klasy | 350 | Bastion: ochrona sięga o 5 pól dalej. |
@@ -40,8 +40,8 @@ Badania kupuje się w budynku, do którego należą: badania klasy w jej gildii,
 | Leśna Zagroda | 1 | **Wiedza o Szlakach** | Wszystkie klasy | 300 | Bohaterowie zwiadują o 15% dalej od zamku. |
 | Leśna Zagroda | 1 | **Ziołowe Leki** | Wszystkie klasy | 350 | Karczmy i świątynia w mieście znów leczą w pełnym tempie. |
 | Leśna Zagroda | 1 | **Skóry bestii** | Opiekun Bestii | 300 | Opiekun Bestii: +3 do obrony. |
-| Leśna Zagroda | 1 | **Szkolenie stada** | Opiekun Bestii | 450 | Żywe psy, niedźwiedzie i jastrzębie żywego strażnika bestii: +2 ataku. Liczba i utrzymanie bez zmian. |
-| Leśna Zagroda | 1 | **Straż bestii** | Opiekun Bestii | 300 | Strażnik bestii: +3 obrony. |
+| Leśna Zagroda | 1 | **Szkolenie stada** | Opiekun Bestii | 450 | Żywe psy, niedźwiedzie i jastrzębie żywego Opiekuna Bestii: +2 ataku. Liczba i utrzymanie bez zmian. |
+| Leśna Zagroda | 1 | **Straż bestii** | Opiekun Bestii | 300 | Opiekun Bestii: +3 obrony. |
 | Krypta | 1 | **Pakt Grobów** | Wszystkie klasy | 350 | Utrzymanie przyzwanego strażnika spada o połowę. |
 | Krypta | 1 | **Więź Szpiku** | Wszystkie klasy | 400 | Ossuarium: utrzymuje o jednego strażnika więcej. |
 | Krypta | 1 | **Zakazane księgi** | Nekromanta | 300 | Nekromanta: +5 do ataku. |

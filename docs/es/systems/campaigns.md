@@ -174,7 +174,7 @@ Los detalles de expedición enlazan tiendas de pociones y descansos accesibles e
 
 ## Faro antiguo
 
-En mapas con un faro antiguo, selecciona el lugar descubierto para ver costes, plazo y opciones en los detalles. Reparar requiere una cuadrilla o constructor allí y se pausa a mitad para financiar más o retirarse. Al terminar avisa de enemigos descubiertos a 20 casillas. Recuperar tesoro requiere que un héroe acepte la bandera de exploración, llegue y trabaje; el tesoro real y el trabajador cobran una vez. Ignorar no inicia plazo; retirarse devuelve solo fondos sin usar. La ruina no recluta ni mejora banderas.
+En mapas con un faro antiguo, selecciona el lugar descubierto para ver costes, plazo y opciones en los detalles. Reparar requiere una cuadrilla o constructor allí y se pausa a mitad para financiar más o retirarse. Al terminar avisa de enemigos descubiertos a 20 casillas. Recuperar tesoro requiere que un héroe acepte la bandera de exploración, llegue y trabaje; el tesoro real y el trabajador cobran una vez. Ignorar no inicia plazo; retirarse devuelve solo fondos sin usar. La ruina no recluta ni mejora banderas. Salir del nivel abandona el trabajo aceptado en una reliquia y devuelve los fondos sin gastar, como una retirada; los efectos de una reliquia se quedan en su mapa y solo lo que la campaña conserva (oro, héroes, investigación) pasa al nivel siguiente.
 
 ## Logística goblin opcional
 
@@ -189,3 +189,26 @@ La capa de inteligencia de suministro enemigo muestra solo puntos y sitios obser
 El juego libre permite activar la expansión finita de tiendas goblin; está desactivada por defecto. Las partidas mixtas o goblin reservan una de las guaridas elegidas para una tienda y vinculan hasta cuatro existentes, sin aumentar el total. Otras razas no reciben fuentes nuevas. Las campañas usan la configuración del autor.
 
 Andamio, depósito y ruina tienen siluetas distintas y tela animada, inmóvil con movimiento reducido. El mensajero martilla solo durante trabajo real. Descubrir convoyes y observar obras, finalización o ruinas tiene iconos y sonidos propios; cambios ocultos y cargar no repiten avisos. Formularios compactos y panel de inteligencia permiten desplazamiento, también por teclado en el panel.
+
+Los mensajeros esperan a que las unidades móviles despejen el terreno del nuevo puesto sin ampliar el plazo de entrega. Los mensajeros y sus escoltas se detienen fuera del terreno previsto.
+
+Tras recuperar materiales de una antigua almenara, las cuadrillas no la restauran gratis; la recuperación y la reparación son opciones excluyentes.
+
+Estas son las condiciones predeterminadas de tumba y puesto. Selecciona un lugar descubierto para ver sus costes reales, el plazo original restante y resultados; el juego sigue durante los controles.
+
+La sección opcional de la crónica sigue las reliquias descubiertas, la rama elegida, el progreso, los bloqueos, el plazo original restante y los resultados reales. Mostrar localiza el lugar original sin aceptar una opción ni gastar oro. Una reliquia que aparece a la vista es noticia, y también el trabajo aceptado que se detiene a medias, fracasa o termina; una retirada que elijas queda como una línea del registro. Un lugar muestra cómo está: una ruina hasta que se acepta un trabajo, andamios y material apilado mientras la corona trabaja allí, lo que deja la opción terminada (un faro encendido o desmantelado, una tumba sellada o abierta, una posta reconstruida) o escombros si el trabajo fracasó. Lo que detiene el trabajo se dice con precisión: ningún héroe que lo acepte, el motivo propio de los héroes para rechazarlo, monstruos cerca del lugar, otro trabajo de la cuadrilla primero (y el puesto del lugar en el orden) o agua, acantilados o edificios que lo encierran.
+
+Sitios de reliquias opcionales: 0 desactiva la generación. Hasta dos reliquias distintas en terreno abierto accesible fuera de la zona segura del castillo, conservando caminos y rutas. No se paga ni trabaja antes de aceptar. Los sitios están a 21–80 casillas del castillo y deben permitir una ruta normal de obreros.
+
+Las reglas de mapa y los niveles comparten un editor para hasta dos sitios originales, opciones fijas y costes, recompensas, trabajo y plazos limitados. Cancelar conserva el borrador; Aplicar valida fuentes sin ejecutar el juego. Una lista de nivel vacía hereda el mapa; `relics_disabled: true` desactiva esa herencia. Vaciar las reliquias de un mapa independiente elimina sus plantillas al guardar.
+
+**Tumba sellada**
+
+- Reforzar el sello: Tras financiación extra, suprime solo 2 incursiones previstas de Cementerio / Castillo No-muerto. Guardias, enemigos ambientales y otras fuentes siguen igual. La fuente original debe sobrevivir.
+- Financiar investigación: Un desbloqueo válido de Afinidad arcana, o 80 de oro si no está disponible o ya se conoce. Se aplican los requisitos normales de torre de magos e investigación. Pausa a mitad: aportar más o retirarse.
+- Abrir la tumba: Un tesoro de 240 de oro tras explorar realmente y derrotar a 3 guardias esqueleto. Financiar abre la tumba; los guardias vivos permanecen tras retirarse o vencer el plazo.
+
+**Puesto perdido**
+
+- Reconstruir suministros: Restaura 6 compras pagadas compartidas de nivel 1: curación, pociones o reactivos a precios normales. Sin ingresos periódicos ni mejoras. Reconstrucción y rescate se excluyen.
+- Escoltar al superviviente: Voluntarios deben escoltar al superviviente original al castillo seguro. Probabilidad de unión 75%, fijada al financiar: un explorador solo con clase y senda permitidas y una plaza en un refugio terminado al llegar. La corona recibe 0 de oro con o sin unión; no hay reclutamiento pendiente. Rescate y reconstrucción se excluyen.

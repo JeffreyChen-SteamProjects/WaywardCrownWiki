@@ -283,6 +283,22 @@ Les rebelles, traîtres et espions humains utilisent les mêmes classes, compét
 
 **Ours brun · Faucon de chasse** — Appelle un chien. Dès le niveau 8, choisit un faucon agile contre les tireurs, un ours robuste contre les armures lourdes ou groupes de trois, sinon un chien. Limite commune de 12 invocations sur la carte. Suit le maître sur terrain praticable, sans entretien ni butin, et reste lors du changement de mission.
 
+### Compagnons durables
+
+Une contribution réelle à un combat commun dangereux crée une camaraderie réciproque. Des soins efficaces, un bouclier ayant absorbé des dégâts ou des dégâts subis pour un héros en péril peuvent laisser une dette de sauvetage chez le bénéficiaire ; une coopération complémentaire répétée peut former un partenariat réciproque. Chaque héros conserve au plus trois compagnons importants, dans les sauvegardes et les niveaux qui reprennent les héros. Les liens faibles s’estompent sans interaction ; la mort ou un départ définitif efface les liens concernés. Le seul partage du butin, rester à proximité, une aide inefficace ou annuler une bannière ne renforce aucun lien. Le travail commun accompli figure dans l’histoire du héros ; les relations ne donnent aucun bonus permanent d’attaque ou d’armure.
+
+### Invitations entre compagnons
+
+Un héros volontaire pour une prime contre une forteresse peut inviter jusqu’à trois compagnons proches et disponibles. Chacun décide selon sa santé actuelle, ses provisions, le danger, le trajet et sa part prévue de la prime, et peut choisir un autre travail. Les invitations en attente réservent un nombre limité de places tout en laissant de la place aux autres volontaires. Elles expirent et imposent un délai entre invitations, sans relancer le rassemblement ni interrompre repos, secours, combat ou autres tâches. Accepter ou refuser ne change pas le lien. La sauvegarde conserve les invitations actuelles ; la carte suivante efface invitations et délais, mais conserve les identités.
+
+### Compagnons de route
+
+Les héros gardent leurs itinéraires et leurs décisions de retraite. Pendant une marche sûre contre une forteresse, ils peuvent attendre une fois un compagnon proche en retard, pendant huit secondes au maximum. Les soutiens préfèrent les compagnons accessibles sans danger ; ils cessent de suivre si le travail change ou devient dangereux, sans dépasser leur portée habituelle. Une perte laisse une prudence locale brève et limitée et une trace historique, sans augmenter le mécontentement. La sauvegarde garde le délai initial ; la carte suivante efface l’attente.
+
+### Comprendre les compagnons
+
+Les détails du héros montrent jusqu’à trois compagnons, l’origine du lien et leur présence au même travail, ailleurs dans le royaume ou en réserve. La prime montre les réponses, les raisons de refus et le temps initial restant. Les noms des compagnons vivants permettent de les localiser. Secours, coopération et pertes importants rejoignent la chronique et les récits de fin ; les nouvelles répétées sont regroupées, et mort et départ définitif sont distincts.
+
 <!-- BEGIN COMBAT PAIRINGS -->
 ### Associations de combat
 

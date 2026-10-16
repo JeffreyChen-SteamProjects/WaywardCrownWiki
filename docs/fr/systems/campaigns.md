@@ -174,7 +174,7 @@ Les détails des expéditions indiquent les boutiques de potions et les repos ac
 
 ## Phare ancien
 
-Sur les cartes avec un phare ancien, sélectionnez le lieu découvert pour voir coûts, délai et choix dans les détails. Réparer exige une équipe ou un bâtisseur sur place ; à mi-chemin, choisissez un financement supplémentaire ou le retrait. La fin des travaux signale les ennemis découverts à 20 cases. Récupérer le trésor exige qu’un héros accepte le drapeau d’exploration, arrive et travaille ; le trésor royal et le travailleur sont payés une fois. Ignorer ne lance aucun délai ; le retrait rembourse seulement les fonds inutilisés. La ruine ne recrute pas et ne renforce pas les drapeaux.
+Sur les cartes avec un phare ancien, sélectionnez le lieu découvert pour voir coûts, délai et choix dans les détails. Réparer exige une équipe ou un bâtisseur sur place ; à mi-chemin, choisissez un financement supplémentaire ou le retrait. La fin des travaux signale les ennemis découverts à 20 cases. Récupérer le trésor exige qu’un héros accepte le drapeau d’exploration, arrive et travaille ; le trésor royal et le travailleur sont payés une fois. Ignorer ne lance aucun délai ; le retrait rembourse seulement les fonds inutilisés. La ruine ne recrute pas et ne renforce pas les drapeaux. Quitter le niveau abandonne les travaux acceptés sur une relique et rend les fonds non dépensés, comme un retrait ; les effets d’une relique restent sur sa carte, et seul ce que la campagne conserve (or, héros, recherche) passe au niveau suivant.
 
 ## Logistique gobeline facultative
 
@@ -189,3 +189,26 @@ La couche de renseignements sur le ravitaillement montre uniquement les points e
 Le jeu libre propose une expansion limitée des tentes gobelines, désactivée par défaut. Les parties mixtes ou gobelines réservent une des places de repaire choisies à une tente et relient au plus quatre tentes existantes, sans augmenter le total. Les autres races ne reçoivent aucune source ajoutée. Les campagnes utilisent les réglages de leur auteur.
 
 Échafaudage, dépôt et ruine ont des silhouettes distinctes et une étoffe animée, fixe en mouvement réduit. Le messager martèle seulement pendant le travail réel. Découverte de convoi et observation de chantier, achèvement ou ruine ont leurs icônes et sons ; changements cachés et chargement ne répètent pas les avis. Les formulaires compacts et les renseignements défilent, aussi au clavier dans le panneau.
+
+Les coursiers attendent que les unités mobiles quittent le terrain du nouvel avant-poste, sans prolonger le délai de livraison. Les coursiers et leurs escortes s’arrêtent hors du terrain prévu.
+
+Après la récupération des matériaux d’une ancienne balise, les équipes ne la restaurent pas gratuitement ; récupération et réparation restent incompatibles.
+
+Voici les conditions par défaut de la tombe et du relais. Sélectionnez un site découvert pour ses coûts réels, le délai original restant et les résultats ; le jeu continue pendant les choix.
+
+La section facultative de la chronique suit les reliques découvertes, la branche choisie, la progression, les blocages, le délai original restant et les résultats réels. Le lien Afficher situe le lieu original sans accepter de choix ni dépenser d’or. Une relique qui entre dans le champ de vision fait l’objet d’une nouvelle, tout comme les travaux acceptés qui s’arrêtent à mi-chemin, échouent ou se terminent ; un retrait que vous choisissez est noté d’une ligne dans le journal. Un lieu montre où il en est : une ruine tant qu’aucun travail n’est accepté, des échafaudages et des matériaux empilés pendant que la couronne y travaille, ce que laisse le choix achevé (un phare allumé ou démonté, un tombeau scellé ou ouvert, un relais reconstruit), ou des décombres si le travail a échoué. Ce qui retient le travail est dit précisément : aucun héros pour le prendre, la raison propre des héros qui le refusent, des monstres près du lieu, un autre chantier de l’équipe d’abord (avec la place du lieu dans l’ordre), ou l’eau, des falaises ou des bâtiments qui l’enferment.
+
+Sites de reliques facultatifs: 0 désactive la génération. Placez au plus deux reliques différentes sur un terrain dégagé accessible hors de la zone sûre du château, sans couper les routes. Aucun paiement ni travail avant acceptation. Les sites sont à 21–80 cases du château et doivent permettre un trajet normal des ouvriers.
+
+Les règles de carte et les niveaux partagent un éditeur pour deux sites originaux au plus, des choix fixes et des coûts, récompenses, travaux et délais bornés. Annuler garde le brouillon ; Appliquer valide les sources sans lancer le jeu. Une liste de niveau vide hérite de la carte ; `relics_disabled: true` désactive cet héritage. Vider les reliques d’une carte autonome retire ses modèles à la sauvegarde.
+
+**Tombe scellée**
+
+- Renforcer le sceau: Après financement supplémentaire, supprime seulement 2 raids prévus de Cimetière / Château mort-vivant. Gardes, apparitions ordinaires et autres sources restent normaux. La source d'origine doit survivre.
+- Financer la recherche: Un déblocage admissible de Affinité arcanique, sinon 80 pièces si indisponible ou déjà connu. Conditions ordinaires de la tour des mages et de recherche. Arrêt à mi-parcours : financer davantage ou se retirer.
+- Ouvrir la tombe: Un trésor de 240 pièces après une exploration réelle et la défaite de 3 gardes squelettes. Le financement ouvre la tombe ; les gardes survivants restent après retrait ou expiration.
+
+**Relais perdu**
+
+- Reconstruire le ravitaillement: Rétablit 6 achats payants partagés de niveau 1 : soins, potions ou réactifs aux prix ordinaires. Aucun revenu périodique ni amélioration. Reconstruction et secours s'excluent.
+- Escorter le survivant: Des volontaires doivent escorter le survivant d'origine au château sûr. Chance d'adhésion 75%, fixée au financement : un rôdeur seulement si classe et voie sont autorisées et un pavillon achevé a une place à l'arrivée. Le trésor reçoit 0 pièces, avec ou sans adhésion ; aucun recrutement différé. Secours et reconstruction s’excluent.

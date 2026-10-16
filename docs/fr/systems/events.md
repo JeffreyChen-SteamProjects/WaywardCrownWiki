@@ -4,6 +4,10 @@ title: "Événements aléatoires"
 
 Le jeu déclenche des événements aléatoires à intervalles réguliers, ajoutant de l'imprévisibilité au gameplay. L'intensité des événements s'adapte dynamiquement en fonction de votre nombre d'aventuriers. Le tutoriel intégré ne tire jamais de tremblement de terre ni d'événement qui pose une nouvelle structure sur la carte.
 
+Les cartes de prêt portent une lettre scellée ; une nouvelle invitation émet un seul signal discret, au volume des effets. L'onglet Événements du royaume du panneau des registres affiche les invitations et les prêts en cours sans mettre le jeu en pause. Les cartes de prêt indiquent le capital à verser immédiatement, le délai, les remboursements et la perte maximale ; refuser ou ignorer une invitation est gratuit. Les éditeurs de cartes et de campagnes enregistrent les groupes d'événements : les réglages du niveau priment sur ceux de la campagne, puis de la carte, et hériter des réglages diffère de désactiver tous les groupes. Pour l'instant, seul le groupe « Économie et services » ajoute un événement aléatoire, la foire des moissons ; les autres groupes n'en ajoutent pas encore. Les cartes de prêt s’adaptent à la largeur du panneau latéral et défilent verticalement pour garder toutes les conditions lisibles.
+
+Avec un prêt en cours, l’aperçu du niveau suivant distingue le trésor actuel, le capital rendu sans intérêts et l’or prévu à transférer. La règle du niveau de destination s’applique ; l’aperçu ne verse rien.
+
 ---
 
 ## Règles de déclenchement
@@ -108,6 +112,12 @@ Font apparaître des structures persistantes sur la carte.
 | **Guilde rebelle** | 400 | Une guilde hostile apparaît et génère des ennemis. Détruisez-la ! |
 | **Ruines antiques** | 450 | Des ruines apparaissent. Le premier arrivé remporte les récompenses ! |
 | **Faille dimensionnelle** | 300 | Des portails apparaissent et téléportent aléatoirement les aventuriers |
+
+---
+
+## Foire des moissons
+
+Avec le groupe « Économie et services » activé, une foire des moissons peut s'installer près d'une de tes maisons de village. Tu es prévenu 20 secondes avant, et elle reste ouverte 120 secondes. Inutile d'envoyer qui que ce soit : les héros blessés, à court de potions ou qui ont envie d'une soirée de détente y vont d'eux-mêmes, tant que rien d'autre ne les retient (un combat, un drapeau, un groupe qu'ils attendent). Elle sert quatre héros à la fois. Chacun se repose 5 secondes et récupère 40 PV gratuitement, achète les potions qui lui manquent au prix habituel (la foire en apporte 24 pour tout son séjour) et paie une soirée de détente s'il en a envie. Un héros qui part avant ne paie rien. Pendant qu'elle est ouverte, tu peux la prolonger une fois de 60 secondes pour 150 or ; les potions ne sont pas réapprovisionnées. Sa carte dans Événements du royaume indique quand elle ouvre et ferme, qui est aux étals et combien de potions il reste, et Afficher t'y emmène une fois l'endroit découvert.
 
 ---
 

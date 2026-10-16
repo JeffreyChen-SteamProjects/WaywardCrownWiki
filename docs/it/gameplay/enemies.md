@@ -155,3 +155,21 @@ Gnashfang richiama una picca e uno scudo per volta, quattro per vita. Seguono il
 **Incubatrice pestilenziale** — Fronte che si divide con zone di veleno annunciate e malefici. Evita le aree, purifica e prepara i figli limitati. 2200 HP. Guarnigione: Melma fissile, Sputatore di veleno, Vincolatore di malefici. Ciclo d’incursione: Melma fissile, Sputatore di veleno, Vincolatore di malefici, Pipistrello vampiro, Sputatore di veleno, Melma fissile. Terreno nativo: Foresta, Palude. Prima incursione 8:00, poi ogni 5:30; inizialmente 3 truppe, una in più fino a 7. Distruggere ferma nuove guardie e incursioni; le truppe vive restano.
 
 **Campo d’assedio** — Bestia d’assedio, arcieri e scudi sorvegliano il campo. I genieri attaccano cantieri, o il castello senza lavori. Intercetta e distruggi la fonte. 3800 HP. Guarnigione: Bestia d'assedio, Arciere goblin, Portascudo. Ciclo d’incursione: Bestia d'assedio, Guastatore, Arciere goblin, Portascudo, Guastatore, Arciere goblin. Terreno nativo: Deserto, Prateria. Prima incursione 12:00, poi ogni 8:00; inizialmente 3 truppe, una in più fino a 6. Distruggere ferma nuove guardie e incursioni; le truppe vive restano.
+
+**Capanna dello sciamano** — Uno sciamano goblin tiene in piedi la banda della capanna e cura i feriti al massimo sei volte; goblin e arcieri marciano con le sue incursioni. Uccidi prima lo sciamano.
+
+**Covo dei sabotatori** — I sabotatori assaltano ciò che è in costruzione, e il castello se non si costruisce nulla: abbattono le mura in fretta ma hanno un'armatura leggera. Sorveglia il cantiere lontano o intercettali lungo la strada.
+
+**Tana degli scorpioni** — Gli scorpioni velenosi cacciano vicino alla tana e lasciano in pace la città. Il loro pungiglione avvelena: porta antidoti, o un altare di purificazione, prima di ripulirla.
+
+**Santuario sepolto** — I guardiani di arenaria si destano nel santuario e marciano lenti sulla città. Ognuno si scherma una volta a metà salute: logorali a distanza o con il veleno.
+
+**Cripta del necromante** — I necromanti evocano scheletri finché vedono eroi, così le loro incursioni crescono in marcia. Uccidi prima l'evocatore; i suoi scheletri non ne evocano altri.
+
+**Tumulo spettrale** — I cacciatori spettrali superano la prima linea per puntare arcieri, maghi e guaritori. Tieni i più fragili dietro un muro di scudi o rallenta i cacciatori.
+
+**Palude degli sputatori** — Gli sputatori di veleno contaminano il terreno da lontano, tre secondi dopo l'avviso. Esci dal segno, porta antidoti e uccidi prima gli sputatori.
+
+**Cerchio dei malefici** — I vincolatori di malefici marchiano gli eroi, che per un momento subiscono più danni, e i cultisti marciano con loro. Una purificazione toglie il maleficio; colpisci i vincolatori prima che cada.
+
+**Grotta dei pipistrelli** — I pipistrelli vampiro escono veloci in sciame e si curano con ciò che mordono. Gli scudi negano loro il pasto; arcieri e torri li abbattono.

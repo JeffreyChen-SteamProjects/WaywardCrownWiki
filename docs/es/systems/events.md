@@ -4,6 +4,10 @@ title: "Eventos Aleatorios"
 
 El juego activa eventos aleatorios a intervalos regulares, añadiendo imprevisibilidad a la partida. La intensidad de los eventos escala dinámicamente según el número de aventureros. El tutorial integrado nunca lanza un terremoto ni un evento que ponga una estructura nueva en el mapa.
 
+Las tarjetas de préstamo muestran una carta sellada; cada invitación nueva emite una sola señal suave, según el volumen de efectos. La pestaña Sucesos del reino del panel de registros muestra invitaciones y préstamos pendientes sin pausar el juego. Las tarjetas de préstamo indican el capital que se paga de inmediato, el plazo, los reembolsos y la pérdida máxima; rechazar o ignorar una invitación es gratis. Los editores de mapas y campañas guardan los grupos de sucesos: los ajustes del nivel tienen prioridad sobre los de la campaña y después los del mapa, y heredar no equivale a desactivar todos los grupos. Por ahora solo el grupo «Economía y servicios» añade un suceso aleatorio, la feria de la cosecha; los demás grupos todavía no añaden ninguno. Las tarjetas de préstamo se ajustan al ancho de la barra lateral y permiten desplazarse verticalmente para leer todas las condiciones.
+
+Si hay un préstamo pendiente, la vista previa del siguiente nivel separa el tesoro actual, el capital devuelto sin intereses y el oro previsto para transferir. Se aplica la regla del nivel de destino; la vista previa no realiza pagos.
+
 ---
 
 ## Reglas de Activación de Eventos
@@ -108,6 +112,12 @@ Generan estructuras persistentes en el mapa.
 | **Gremio rebelde** | 400 | Aparece un gremio hostil que engendra enemigos. ¡Destrúyelo! |
 | **Ruinas antiguas** | 450 | ¡Aparecen ruinas en el mapa. El primero en llegar se lleva la recompensa! |
 | **Grieta dimensional** | 300 | Aparecen portales que teletransportan a los héroes al azar |
+
+---
+
+## Feria de la cosecha
+
+Con el grupo «Economía y servicios» activado, una feria de la cosecha puede llegar a una de tus casas de aldea. Te avisan 20 segundos antes y se queda abierta 120 segundos. No hace falta mandar a nadie: los héroes heridos, cortos de pociones o con ganas de una noche libre van por su cuenta, siempre que nada más los retenga (una pelea, una bandera, un grupo al que esperan). Atiende a cuatro a la vez. Cada cliente descansa 5 segundos y recupera 40 PV gratis, compra las pociones que le faltan al precio de siempre (la feria trae 24 para toda su estancia) y paga una noche libre si le apetece. El héroe que se va antes no paga nada. Mientras está abierta, puedes alargarla una vez 60 segundos por 150 de oro; las pociones no se reponen. Su tarjeta en Sucesos del reino muestra cuándo abre y cierra, quién está en los puestos y cuántas pociones quedan, y Mostrar te lleva allí cuando ya has visto el sitio.
 
 ---
 

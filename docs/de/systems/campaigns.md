@@ -174,7 +174,7 @@ Expeditionsdetails verlinken erreichbare Trankläden und Ruheplätze und zählen
 
 ## Antikes Leuchtfeuer
 
-Auf Karten mit einem antiken Leuchtfeuer zeigt die Auswahl des entdeckten Orts Kosten, Frist und Optionen in den Details. Eine Bautruppe oder ein Baumeister muss zur Reparatur vor Ort sein; auf halbem Weg wartet die Arbeit auf Zusatzmittel oder Rückzug. Der Abschluss warnt vor entdeckten Feinden innerhalb von 20 Feldern. Zur Bergung muss ein Held die Erkundungsflagge freiwillig annehmen, ankommen und arbeiten; Schatzkammer und Arbeiter werden einmal bezahlt. Ignorieren startet keine Frist; Rückzug erstattet nur ungenutzte Mittel. Die Ruine rekrutiert nicht und verbessert keine Flaggen.
+Auf Karten mit einem antiken Leuchtfeuer zeigt die Auswahl des entdeckten Orts Kosten, Frist und Optionen in den Details. Eine Bautruppe oder ein Baumeister muss zur Reparatur vor Ort sein; auf halbem Weg wartet die Arbeit auf Zusatzmittel oder Rückzug. Der Abschluss warnt vor entdeckten Feinden innerhalb von 20 Feldern. Zur Bergung muss ein Held die Erkundungsflagge freiwillig annehmen, ankommen und arbeiten; Schatzkammer und Arbeiter werden einmal bezahlt. Ignorieren startet keine Frist; Rückzug erstattet nur ungenutzte Mittel. Die Ruine rekrutiert nicht und verbessert keine Flaggen. Wer die Stufe verlässt, gibt angenommene Arbeit an einem Relikt auf und erhält die nicht ausgegebenen Mittel zurück, wie bei einem Rückzug; die Wirkungen eines Relikts bleiben bei seiner Karte, und nur was der Feldzug mitnimmt (Gold, Helden, Forschung), geht zur nächsten Stufe über.
 
 ## Optionale Goblin-Versorgung
 
@@ -189,3 +189,26 @@ Die feindlichen Versorgungsinformationen zeigen nur beobachtete Wegpunkte und St
 Im freien Spiel ist eine endliche Goblinzelt-Erweiterung optional und zunächst ausgeschaltet. Gemischte oder Goblin-Spiele reservieren einen der gewählten Lagerplätze für ein Zelt und binden höchstens vier vorhandene Zelte ein; die Gesamtzahl bleibt gleich. Andere Völker erhalten keine künstliche Quelle. Kampagnen nutzen die Einstellungen des Autors.
 
 Gerüst, Depot und Ruine haben eigene Silhouetten und bewegten Stoff; reduzierte Bewegung hält ihn still. Der Kurier hämmert nur bei tatsächlichem Baufortschritt. Sichtung von Konvoi, Baustelle, Fertigstellung und Ruine hat eigene Symbole und Töne. Verborgene Änderungen und Laden wiederholen keine Meldung. Kleine Autorenformulare und Informationen sind scrollbar, das Informationsfeld auch per Tastatur.
+
+Transportboten warten, bis bewegliche Einheiten die Fläche eines neuen Außenpostens verlassen; die Lieferfrist verlängert sich dadurch nicht. Boten und Begleiter halten außerhalb der geplanten Fläche.
+
+Nach der Bergung an einem alten Signalfeuer bauen Bautrupps es nicht kostenlos wieder auf; Bergung und Reparatur schließen einander aus.
+
+Dies sind die Standardbedingungen für Gruft und Station. Ein entdeckter Ort zeigt seine tatsächlichen Autorenkosten, die verbleibende ursprüngliche Frist und Ergebnisse; das Spiel läuft während der Auswahl weiter.
+
+Der optionale Abschnitt der Chronik zeigt entdeckte Relikte, den gewählten Zweig, Fortschritt, Hindernisse, die verbleibende ursprüngliche Frist und tatsächliche Ergebnisse. Anzeigen führt zum ursprünglichen Ort, ohne eine Wahl anzunehmen oder Gold auszugeben. Ein Relikt, das in Sicht kommt, ist eine Meldung, ebenso angenommene Arbeit, die auf halbem Weg stillsteht, scheitert oder fertig wird; ein Rückzug, den du wählst, steht als Zeile im Protokoll. Ein Ort zeigt, wie es um ihn steht: eine Ruine, bis Arbeit angenommen ist, Gerüst und gestapeltes Material, solange die Krone dort arbeitet, was die vollendete Wahl hinterlässt (ein brennendes oder ein abgetragenes Leuchtfeuer, ein versiegeltes oder ein geöffnetes Grab, eine wiederaufgebaute Station) oder Trümmer, wenn die Arbeit gescheitert ist. Was die Arbeit aufhält, wird genau genannt: kein Held, der sie übernimmt, der eigene Grund der Helden für ihre Ablehnung, Monster in der Nähe, andere Arbeit der Bautruppe zuerst (mit dem Platz des Ortes in der Reihenfolge) oder Wasser, Klippen oder Gebäude, die den Ort einschließen.
+
+Optionale Reliktorte: 0 schaltet die Erzeugung aus. Bis zu zwei verschiedene Relikte auf erreichbarem freiem Boden außerhalb der sicheren Burgzone; Straßen und Wege bleiben frei. Ohne Annahme weder Zahlung noch Arbeit. Die Orte liegen 21–80 Felder von der Burg entfernt und müssen für die gewöhnliche Baukolonne erreichbar sein.
+
+Kartenregeln und Kampagnenabschnitte teilen einen Relikteditor für höchstens zwei ursprüngliche Orte, feste Optionsauswahlen und begrenzte Kosten, Belohnungen, Arbeit und Fristen. Abbrechen erhält den Entwurf; Anwenden prüft Quellen, ohne das Spiel auszuführen. Leere Abschnittslisten erben die Karte; `relics_disabled: true` deaktiviert die Vererbung. Geleerte Relikte einer Einzelkarte verlieren beim Speichern ihre Vorlagen.
+
+**Versiegelte Gruft**
+
+- Siegel verstärken: Nach zusätzlicher Finanzierung werden nur 2 geplante Angriffe von Friedhof / Untotenborg unterdrückt. Wachen, gewöhnliche Gegner und andere Quellen bleiben normal. Die ursprüngliche Quelle muss bestehen.
+- Forschung finanzieren: Ein zulässiger Freischaltversuch für Arkane Affinität, sonst 80 Gold bei fehlender Verfügbarkeit oder vorhandenem Wissen. Normale Magierturm- und Forschungsvoraussetzungen gelten. Halbzeitpause: zusätzlich finanzieren oder zurückziehen.
+- Gruft öffnen: Ein Schatz von 240 Gold nach echter Erkundung und dem Sieg über 3 Skelettwachen. Finanzierung öffnet die Gruft; lebende Wachen bleiben nach Rückzug oder Fristablauf.
+
+**Verlorene Station**
+
+- Versorgung wiederaufbauen: Stellt 6 gemeinsame bezahlte Versorgungskäufe auf Stufe 1 wieder her: Heilung, Tränke oder Alchemiereagenzien zu normalen Preisen. Kein regelmäßiges Einkommen oder Ausbau. Aufbau und Rettung schließen sich aus.
+- Überlebenden begleiten: Freiwillige müssen den ursprünglichen Überlebenden zum sicheren Schloss begleiten. Beitrittschance 75%, bei Finanzierung festgelegt: ein Waldläufer nur bei erlaubter Klasse und Ausrichtung sowie freiem Platz in einer fertigen Waldläuferhütte bei Ankunft. Die Schatzkammer erhält in jedem Fall 0 Gold; keine Warteliste. Rettung und Aufbau schließen sich aus.

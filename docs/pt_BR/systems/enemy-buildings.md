@@ -10,22 +10,34 @@ As Fortalezas Inimigas são bases inimigas espalhadas pelo mapa. Elas mantêm gu
 
 | Fortaleza | Inimigos Gerados | Tamanho | Restrição |
 |-----------|------------------|---------|-----------|
-| **Poça de Slime** | Slime | 11 tiles | -- |
+| **Poça de Slime** | Slime / Limo físsil | 11 tiles | -- |
 | **Acampamento Goblin** | Goblin / Lobo atroz / Arqueiro goblin | 11 tiles | -- |
-| **Fortaleza Goblin** | Goblin / Bruto orc / Arqueiro goblin / Troll | 23 tiles | Uma por mapa |
+| **Fortaleza Goblin** | Goblin / Bruto orc / Arqueiro goblin / Troll / Piqueiro / Porta-escudo / Sapador / Besta de cerco / Xamã goblin | 23 tiles | Uma por mapa |
 | **Cemitério** | Esqueleto / Zumbi | 11 tiles | -- |
-| **Castelo dos Mortos-Vivos** | Zumbi / Esqueleto / Cultista sombrio | 23 tiles | Uma por mapa |
+| **Castelo dos Mortos-Vivos** | Esqueleto / Zumbi / Cultista sombrio / Necromante inimigo / Caçador espectral / Morcego vampiro | 23 tiles | Uma por mapa |
 | **Ninho de Dragão** | Dragão / Harpia | 16 tiles | -- |
-| **Ninho de Aranhas** | Aranha gigante / Rato gigante | 11 tiles | -- |
-| **Acampamento de Bandidos** | Bandido / Lobo atroz | 11 tiles | -- |
-| **Tumba de Areia** | Espectro da areia / Esqueleto | 13 tiles | -- |
+| **Ninho de Aranhas** | Aranha gigante / Rato gigante / Cuspidor de veneno | 11 tiles | -- |
+| **Acampamento de Bandidos** | Bandido / Lobo atroz / Sabotador bandido | 11 tiles | -- |
+| **Tumba de Areia** | Espectro da areia / Esqueleto / Escorpião venenoso / Guardião de arenito | 13 tiles | -- |
 | **Covil de Lobos** | Lobo atroz | 11 tiles | -- |
-| **Acampamento de Guerra Orc** | Bruto orc / Goblin | 13 tiles | -- |
+| **Acampamento de Guerra Orc** | Bruto orc / Goblin / Piqueiro / Porta-escudo / Sapador / Besta de cerco | 13 tiles | -- |
 | **Torre de Vigia Goblin** | Arqueiro goblin / Goblin | 9 tiles | -- |
-| **Santuário Sombrio** | Cultista sombrio / Esqueleto | 11 tiles | -- |
+| **Santuário Sombrio** | Cultista sombrio / Esqueleto / Vinculador de maldições | 11 tiles | -- |
 | **Caverna do Troll** | Troll | 13 tiles | -- |
 | **Toca de Ratos** | Rato gigante | 9 tiles | -- |
 | **Ninho de Harpias** | Harpia | 11 tiles | -- |
+| **Quartel blindado** | Porta-escudo / Piqueiro / Arqueiro goblin / Xamã goblin | 13 tiles | -- |
+| **Incubadora de praga** | Limo físsil / Cuspidor de veneno / Vinculador de maldições / Morcego vampiro | 11 tiles | -- |
+| **Acampamento de cerco** | Besta de cerco / Sapador / Arqueiro goblin / Porta-escudo | 15 tiles | -- |
+| **Cabana do Xamã** | Xamã goblin / Goblin / Arqueiro goblin | 9 tiles | -- |
+| **Esconderijo do Sabotador** | Sabotador bandido / Bandido | 9 tiles | -- |
+| **Toca de Escorpiões** | Escorpião venenoso | 11 tiles | -- |
+| **Santuário Soterrado** | Guardião de arenito / Esqueleto | 13 tiles | -- |
+| **Cripta do Necromante** | Necromante inimigo / Esqueleto / Zumbi | 11 tiles | -- |
+| **Túmulo Espectral** | Caçador espectral / Esqueleto | 11 tiles | -- |
+| **Pântano dos Cuspidores** | Cuspidor de veneno / Slime | 11 tiles | -- |
+| **Círculo de Maldições** | Vinculador de maldições / Cultista sombrio | 11 tiles | -- |
+| **Caverna de Morcegos** | Morcego vampiro | 11 tiles | -- |
 | **Guilda Rebelde** | Bandido | 9 tiles | Somente por evento |
 
 :::note[Uma por Mapa]
@@ -89,13 +101,14 @@ As fortalezas são agrupadas por facção. No modo sandbox, você pode seleciona
 
 | Facção | Fortalezas Incluídas |
 |--------|---------------------|
-| **Slime** | Poça de Slime |
-| **Goblin** | Acampamento Goblin, Fortaleza Goblin, Torre de Vigia Goblin, Acampamento de Guerra Orc |
-| **Mortos-Vivos** | Cemitério, Castelo dos Mortos-Vivos, Santuário Sombrio |
+| **Slime** | Poça de Slime, Incubadora de praga, Pântano dos Cuspidores |
+| **Goblin** | Acampamento Goblin, Fortaleza Goblin, Torre de Vigia Goblin, Acampamento de Guerra Orc, Cabana do Xamã |
+| **Mortos-Vivos** | Cemitério, Castelo dos Mortos-Vivos, Santuário Sombrio, Cripta do Necromante, Túmulo Espectral, Círculo de Maldições |
 | **Dragão** | Ninho de Dragão |
-| **Fera** | Ninho de Aranhas, Covil de Lobos, Toca de Ratos, Caverna do Troll, Ninho de Harpias |
-| **Bandido** | Acampamento de Bandidos |
-| **Deserto** | Tumba de Areia |
+| **Fera** | Ninho de Aranhas, Covil de Lobos, Toca de Ratos, Caverna do Troll, Ninho de Harpias, Caverna de Morcegos |
+| **Bandido** | Acampamento de Bandidos, Esconderijo do Sabotador |
+| **Deserto** | Tumba de Areia, Toca de Escorpiões, Santuário Soterrado |
+| **Legião** | Quartel blindado, Acampamento de cerco |
 
 ---
 
@@ -109,11 +122,23 @@ Cada fortaleza ataca conforme o seu tipo:
 | **Acampamento Goblin** | 8:00 | 5:00 | 3, mais um a cada ataque, 6 no máximo | a cidade |
 | **Acampamento de Bandidos** | 6:00 | 4:00 | 2, mais um a cada ataque, 5 no máximo | a estrada comercial (o Entreposto comercial mais próximo); senão, a cidade |
 | **Fortaleza Goblin** | 11:00 | 6:00 | 4, mais um a cada ataque, 8 no máximo | a cidade |
-| **Acampamento de Guerra Orc** | 10:00 | 6:00 | 2, mais um a cada ataque, 5 no máximo | a cidade |
+| **Acampamento de Guerra Orc** | 10:00 | 6:00 | 2, mais um a cada ataque, 5 no máximo | o que está em construção, senão o castelo |
 | **Torre de Vigia Goblin** | 8:00 | 5:00 | 3, mais um a cada ataque, 6 no máximo | a cidade |
 | **Santuário Sombrio** | 11:00 | 7:00 | 2, mais um a cada ataque, 4 no máximo | a cidade |
 | **Caverna do Troll** | 14:00 | 10:00 | 1 | a cidade |
 | **Ninho de Harpias** | 9:00 | 6:00 | 2, mais um a cada ataque, 4 no máximo | a cidade |
+| **Quartel blindado** | 9:00 | 6:00 | 4, mais um a cada ataque, 8 no máximo | a cidade |
+| **Incubadora de praga** | 8:00 | 5:30 | 3, mais um a cada ataque, 7 no máximo | a cidade |
+| **Acampamento de cerco** | 12:00 | 8:00 | 3, mais um a cada ataque, 6 no máximo | o que está em construção, senão o castelo |
+| **Cabana do Xamã** | 9:00 | 6:00 | 2, mais um a cada ataque, 5 no máximo | a cidade |
+| **Esconderijo do Sabotador** | 8:00 | 5:00 | 2, mais um a cada ataque, 4 no máximo | o que está em construção, senão o castelo |
+| **Toca de Escorpiões** | — | — | nenhum | — |
+| **Santuário Soterrado** | 12:00 | 8:00 | 2, mais um a cada ataque, 4 no máximo | a cidade |
+| **Cripta do Necromante** | 11:00 | 7:00 | 2, mais um a cada ataque, 5 no máximo | a cidade |
+| **Túmulo Espectral** | 10:00 | 6:30 | 2, mais um a cada ataque, 4 no máximo | a cidade |
+| **Pântano dos Cuspidores** | 9:00 | 6:00 | 2, mais um a cada ataque, 4 no máximo | a cidade |
+| **Círculo de Maldições** | 11:00 | 7:00 | 2, mais um a cada ataque, 4 no máximo | a cidade |
+| **Caverna de Morcegos** | 8:00 | 5:00 | 3, mais um a cada ataque, 6 no máximo | a cidade |
 
 - Cada ataque é anunciado 30 segundos antes na crônica, com o lugar do covil quando seus heróis já o viram; um covil nunca visto é anunciado sem lugar, então explorar compensa.
 - Um ataque parte como um único grupo de junto ao covil. No fácil, um saqueador a menos; no difícil, dois a mais.

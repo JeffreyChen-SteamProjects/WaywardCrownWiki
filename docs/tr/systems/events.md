@@ -4,6 +4,10 @@ title: "Rastgele Olaylar"
 
 Oyun, oynanışa beklenmediklik katmak için düzenli aralıklarla rastgele olayları tetikler. Olay yoğunluğu, maceraperest sayınıza göre dinamik olarak ölçeklenir. Yerleşik eğitim hiçbir zaman deprem ya da haritaya yeni bir yapı koyan bir olay çekmez.
 
+Kredi kartlarında mühürlü bir mektup simgesi bulunur; yeni davet, efekt ses düzeyine göre yalnızca bir kez hafifçe çalar. Kayıtlar panelindeki Krallık olayları sekmesi, oyunu duraklatmadan davetleri ve ödenmemiş borçları gösterir. Borç kartları hemen ödenecek anaparayı, süreyi, geri ödeme tutarlarını ve en yüksek kaybı belirtir; daveti reddetmek veya yok saymak ücretsizdir. Harita ve sefer düzenleyicileri olay havuzlarını kaydeder: bölüm ayarları seferden, sefer ayarları da haritadan önce gelir; ayarları devralmak tüm havuzları kapatmaktan farklıdır. Şimdilik yalnızca “Ekonomi ve hizmetler” havuzu rastgele bir olay ekliyor, hasat panayırını; diğer havuzlar henüz bir şey eklemiyor. Kredi kartları dar kenar çubuğunun genişliğine göre satırları kaydırır ve tüm koşulların okunabilmesi için gerektiğinde dikey kaydırılır.
+
+Açık bir kredi varsa sonraki bölüm önizlemesi mevcut hazineyi, faizsiz iade edilecek anaparayı ve aktarılması beklenen altını ayrı gösterir. Hedef bölümün hazine kuralı uygulanır; önizleme ödeme yapmaz.
+
 ---
 
 ## Olay Tetikleme Kuralları
@@ -108,6 +112,12 @@ Kalıcı harita yapıları oluşturur.
 | **Asi Lonca** | 400 | Düşman bir lonca belirir ve düşman doğurur. Yok et! |
 | **Antik Harabeler** | 450 | Haritada harabeler belirir. İlk ulaşan ödülleri kapar! |
 | **Boyutsal Yarık** | 300 | Portallar belirir ve maceracıları rastgele ışınlar |
+
+---
+
+## Hasat panayırı
+
+“Ekonomi ve hizmetler” havuzu açıksa köy evlerinden birine bir hasat panayırı gelebilir. Açılmadan 20 saniye önce haber alırsın ve 120 saniye açık kalır. Kimseyi göndermene gerek yok: yaralı, iksiri azalmış ya da bir akşam eğlenmek isteyen kahramanlar, onları tutan başka bir şey yoksa (bir dövüş, bir bayrak, bekledikleri bir grup) kendileri gider. Aynı anda dört kişiye hizmet verir. Her konuk 5 saniye dinlenip bedavaya 40 can kazanır, eksik iksirlerini her zamanki fiyattan alır (panayır kaldığı süre boyunca toplam 24 tane getirir) ve isterse bir akşamlık eğlencenin parasını öder. Erken ayrılan kahraman hiçbir şey ödemez. Panayır açıkken bir kez, 150 altına 60 saniye daha açık tutabilirsin; iksirler yenilenmez. Krallık olaylarındaki kartı ne zaman açılıp kapanacağını, tezgâhlarda kimin olduğunu ve kaç iksir kaldığını gösterir; yeri gördüysen Göster seni oraya götürür.
 
 ---
 

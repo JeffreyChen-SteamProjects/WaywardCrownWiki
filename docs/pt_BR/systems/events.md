@@ -4,6 +4,10 @@ title: "Eventos Aleatórios"
 
 O jogo aciona eventos aleatórios em intervalos regulares, adicionando imprevisibilidade à jogabilidade. A intensidade dos eventos escala dinamicamente com base no número de aventureiros. O tutorial embutido nunca sorteia um terremoto nem um evento que coloque uma estrutura nova no mapa.
 
+Os cartões de empréstimo mostram uma carta selada; cada novo convite emite um único som suave, conforme o volume dos efeitos. A aba Eventos do reino no painel de registros mostra convites e empréstimos pendentes sem pausar o jogo. As cartas de empréstimo indicam o capital pago imediatamente, o prazo, as devoluções e a perda máxima; recusar ou ignorar um convite é gratuito. Os editores de mapas e campanhas salvam os grupos de eventos: as configurações do nível têm prioridade sobre as da campanha e depois as do mapa, e herdar é diferente de desativar todos os grupos. Por enquanto só o grupo “Economia e serviços” acrescenta um evento aleatório, a feira da colheita; os outros grupos ainda não acrescentam nenhum. Os cartões de empréstimo ajustam o texto à largura da barra lateral e permitem rolagem vertical para ler todas as condições.
+
+Com um empréstimo pendente, a prévia do próximo nível separa o tesouro atual, o capital devolvido sem juros e o ouro previsto para transferência. Vale a regra do nível de destino; a prévia não faz pagamentos.
+
 ---
 
 ## Regras de Acionamento de Eventos
@@ -108,6 +112,12 @@ Geram estruturas persistentes no mapa.
 | **Guilda Rebelde** | 400 | Uma guilda hostil aparece e gera inimigos. Destrua-a! |
 | **Ruínas Antigas** | 450 | Ruínas aparecem no mapa. Quem chegar primeiro ganha recompensas! |
 | **Fenda Dimensional** | 300 | Portais aparecem e teleportam aventureiros aleatoriamente |
+
+---
+
+## Feira da colheita
+
+Com o grupo “Economia e serviços” ligado, uma feira da colheita pode chegar a uma das suas casas de vila. Você fica sabendo 20 segundos antes, e ela fica aberta por 120 segundos. Não precisa mandar ninguém: heróis feridos, com poucas poções ou a fim de uma noite de folga vão por conta própria, desde que nada mais os prenda (uma luta, uma bandeira, um grupo que estão esperando). Ela atende quatro de cada vez. Cada cliente descansa 5 segundos e recupera 40 de vida de graça, compra as poções que faltam pelo preço de sempre (a feira traz 24 para toda a estadia) e paga uma noite de folga se quiser. Herói que sai antes não paga nada. Enquanto ela está aberta, dá para estender uma vez por 60 segundos, por 150 de ouro; as poções não são repostas. O cartão dela em Eventos do reino mostra quando abre e fecha, quem está nas barracas e quantas poções sobram, e Mostrar leva você até lá depois que você já viu o lugar.
 
 ---
 

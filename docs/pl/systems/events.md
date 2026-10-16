@@ -4,6 +4,10 @@ title: "Losowe wydarzenia"
 
 Gra uruchamia losowe wydarzenia w regularnych odstępach czasu, dodając nieprzewidywalności do rozgrywki. Intensywność wydarzeń skaluje się dynamicznie w zależności od liczby poszukiwaczy przygód. Wbudowany samouczek nigdy nie losuje trzęsienia ziemi ani zdarzenia, które stawia na mapie nową budowlę.
 
+Karty pożyczek mają ikonę zapieczętowanego listu; nowe zaproszenie wydaje jeden cichy sygnał z ustawioną głośnością efektów. Zakładka Wydarzenia w królestwie w panelu zapisów pokazuje zaproszenia i niespłacone pożyczki bez wstrzymywania gry. Karty pożyczek podają kapitał płatny od razu, termin, kwoty zwrotu i maksymalną stratę; odmowa lub zignorowanie zaproszenia nic nie kosztuje. Edytory map i kampanii zapisują pule wydarzeń: ustawienia poziomu mają pierwszeństwo przed kampanią, a potem mapą; przejęcie ustawień różni się od wyłączenia wszystkich pul. Na razie tylko pula „Gospodarka i usługi” dodaje losowe wydarzenie — jarmark dożynkowy; pozostałe pule jeszcze nic nie dodają. Tekst kart pożyczek dopasowuje się do szerokości panelu bocznego; w razie potrzeby można przewijać je pionowo, aby przeczytać wszystkie warunki.
+
+Przy niespłaconej pożyczce podgląd następnego poziomu rozdziela obecną skarbonę, kapitał zwracany bez odsetek i przewidywane przeniesione złoto. Obowiązuje zasada poziomu docelowego; podgląd niczego nie wypłaca.
+
 ---
 
 ## Zasady wyzwalania wydarzeń
@@ -108,6 +112,12 @@ Tworzą trwałe struktury na mapie.
 | **Zbuntowana gildia** | 400 | Pojawia się wroga gildia tworząca wrogów. Zniszcz ją! |
 | **Starożytne ruiny** | 450 | Na mapie pojawiają się ruiny. Kto pierwszy dotrze, ten zdobędzie nagrody! |
 | **Rozdarcie wymiarów** | 300 | Pojawiają się portale i losowo teleportują bohaterów |
+
+---
+
+## Jarmark dożynkowy
+
+Gdy włączona jest pula „Gospodarka i usługi”, do jednego z twoich domów w wiosce może przyjechać jarmark dożynkowy. Dowiadujesz się o nim 20 sekund wcześniej, a działa przez 120 sekund. Nie musisz nikogo wysyłać: ranni bohaterowie, ci, którym brakuje mikstur, albo ci, którzy mają ochotę na wolny wieczór, idą tam sami, jeśli nic innego ich nie trzyma (walka, flaga, drużyna, na którą czekają). Obsługuje czterech naraz. Każdy gość odpoczywa 5 sekund i za darmo odzyskuje 40 PŻ, dokupuje brakujące mikstury po zwykłej cenie (jarmark ma ich 24 na cały pobyt) i płaci za wolny wieczór, jeśli ma ochotę. Bohater, który odejdzie wcześniej, nic nie płaci. Póki jarmark działa, możesz raz przedłużyć go o 60 sekund za 150 złota; mikstury nie są uzupełniane. Jego karta w Wydarzeniach w królestwie pokazuje, kiedy się otwiera i zamyka, kto stoi przy straganach i ile mikstur zostało, a Pokaż zabiera cię tam, gdy już widziałeś to miejsce.
 
 ---
 

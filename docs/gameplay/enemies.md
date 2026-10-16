@@ -29,21 +29,21 @@ Enemies spawn naturally in wilderness areas across the map, threatening your adv
 | **Shieldbearer** | 220 | 7 | 10 | 0.8 | 40 | 20 | 3 | 12 | Mountain | 4 |
 | **Sapper** | 90 | 5 | 3 | 1.0 | 36 | 22 | 3 | 12 | Forest | 4 |
 | **Siege Beast** | 520 | 16 | 9 | 0.5 | 110 | 55 | 3 | 12 | Mountain | 5 |
-| **Goblin shaman** | 100 | 4 | 2 | 0.8 | 26 | 15 | 3 | 12 | Forest | 2 |
-| **Bandit saboteur** | 140 | 5 | 3 | 1.0 | 32 | 20 | 3 | 16 | Forest | 3 |
-| **Venom scorpion** | 130 | 6 | 5 | 0.9 | 34 | 18 | 3 | 14 | Desert | 3 |
-| **Sand guardian** | 360 | 11 | 15 | 0.5 | 82 | 42 | 3 | 14 | Desert | 4 |
-| **Goblin supply courier** | 110 | 4 | 3 | 1.0 | 15 | 12 | 3 | 12 | — | 2 |
-| **Enemy necromancer** | 180 | 7 | 4 | 0.7 | 55 | 30 | 3 | 16 | Mountain | 4 |
-| **Wraith hunter** | 125 | 14 | 3 | 1.5 | 50 | 26 | 3 | 18 | Mountain | 4 |
-| **Venom spitter** | 150 | 6 | 4 | 0.65 | 48 | 28 | 8 | 16 | Swamp | 4 |
-| **Hex binder** | 110 | 8 | 3 | 0.8 | 52 | 32 | 9 | 16 | Forest | 4 |
-| **Vampire bat** | 80 | 10 | 2 | 1.8 | 30 | 16 | 3 | 16 | Mountain | 3 |
-| **Fission slime** | 240 | 10 | 5 | 0.6 | 58 | 28 | 3 | 12 | Swamp | 3 |
+| **Goblin Shaman** | 100 | 4 | 2 | 0.8 | 26 | 15 | 3 | 12 | Forest | 2 |
+| **Bandit Saboteur** | 140 | 5 | 3 | 1.0 | 32 | 20 | 3 | 16 | Forest | 3 |
+| **Venom Scorpion** | 130 | 6 | 5 | 0.9 | 34 | 18 | 3 | 14 | Desert | 3 |
+| **Sand Guardian** | 360 | 11 | 15 | 0.5 | 82 | 42 | 3 | 14 | Desert | 4 |
+| **Goblin Supply Courier** | 110 | 4 | 3 | 1.0 | 15 | 12 | 3 | 12 | — | 2 |
+| **Enemy Necromancer** | 180 | 7 | 4 | 0.7 | 55 | 30 | 3 | 16 | Mountain | 4 |
+| **Wraith Hunter** | 125 | 14 | 3 | 1.5 | 50 | 26 | 3 | 18 | Mountain | 4 |
+| **Venom Spitter** | 150 | 6 | 4 | 0.65 | 48 | 28 | 8 | 16 | Swamp | 4 |
+| **Hex Binder** | 110 | 8 | 3 | 0.8 | 52 | 32 | 9 | 16 | Forest | 4 |
+| **Vampire Bat** | 80 | 10 | 2 | 1.8 | 30 | 16 | 3 | 16 | Mountain | 3 |
+| **Fission Slime** | 240 | 10 | 5 | 0.6 | 58 | 28 | 3 | 12 | Swamp | 3 |
 
 **The host**: four enemies fight as a line and its siege. A Pikeman's blow holds the hero it lands on back for a moment. A Shieldbearer now and then raises a shield over itself and the monsters beside it. A Sapper lays a charge that is marked on the ground before it goes off (it never does if the Sapper falls first) and hits buildings three times as hard. A Siege Beast is slow, hard to bring down, and hits buildings four times as hard.
 
-Dragon, Goblin Archer, Dark Cultist, Venom spitter, Hex binder — fire their own ranged projectiles; every other ordinary kind strikes within 3 tiles.
+Dragon, Goblin Archer, Dark Cultist, Venom Spitter, Hex Binder — fire their own ranged projectiles; every other ordinary kind strikes within 3 tiles.
 
 An enemy takes its turn once every 4 ticks. Its speed gives it a step every 3 ÷ speed turns, rounded down (at least 1), and every enemy then walks three tenths faster: that wait is divided by 1.3, the fraction carried over to its next steps, and is never under one turn. So a step comes every turn at speed 1.6 and above, about two steps in 3 turns at 1.1–1.4, about three in 7 at 0.8–1.0, about one in 3 for the Troll and one in 4 or 5 at 0.5–0.6.
 
@@ -93,11 +93,11 @@ When an invasion event triggers, enemies head straight for the player's castle a
 
 Enemies spawn based on **terrain type**:
 
-- **Forest** — Slime, Zombie, Dire Wolf, Dark Cultist, Giant Spider, Sapper, Goblin shaman, Bandit saboteur, Hex binder
-- **Mountain** — Goblin, Skeleton, Dragon, Orc Brute, Goblin Archer, Troll, Pikeman, Shieldbearer, Siege Beast, Enemy necromancer, Wraith hunter, Vampire bat
+- **Forest** — Slime, Zombie, Dire Wolf, Dark Cultist, Giant Spider, Sapper, Goblin Shaman, Bandit Saboteur, Hex Binder
+- **Mountain** — Goblin, Skeleton, Dragon, Orc Brute, Goblin Archer, Troll, Pikeman, Shieldbearer, Siege Beast, Enemy Necromancer, Wraith Hunter, Vampire Bat
 - **Grassland** — Giant Rat, Bandit, Harpy
-- **Desert** — Sand Wraith, Venom scorpion, Sand guardian
-- **Swamp** — Venom spitter, Fission slime
+- **Desert** — Sand Wraith, Venom Scorpion, Sand Guardian
+- **Swamp** — Venom Spitter, Fission Slime
 
 :::note[Dragons]
 Dragons and Trolls are the most dangerous enemies (danger level 5). With an attack range of 16, 550 HP, and gouts of flame for projectiles, Dragons are best dealt with using ranged adventurers and arrow towers; the Troll has more HP and attack but must close in.
@@ -114,29 +114,29 @@ Dragons and Trolls are the most dangerous enemies (danger level 5). With an atta
 
 **Pressures**: three threats come of how the kingdom is kept, not of a lair. Each is announced a minute ahead in the chronicle and the overview, sends a pack of 3 (never more than 6 of its monsters alive, the same whatever your strength), and is called off when its cause is put right. *Squalor*: a town of 16 buildings with no fountain or garden draws giant rats; each fountain or garden answers for 6 buildings. *The restless dead*: 3 heroes lying dead with no temple rise as skeletons where the last fell; a temple, or reviving them, keeps them down, and a kingdom on the Undead path with an Ossuary takes them as guards instead. *The wilds*: a building more than 60 tiles from the castle with no arrow tower or guard post within 12 draws dire wolves; trading posts do not count, nor a Wilds kingdom's camps. Nothing presses a kingdom in its first 5 minutes, or in a level that does not allow the building that answers it. Orc Warcamps raid what is being built: the nearest site or upgrade under way.
 
-**Goblin shaman** — Heals up to four wounded allies within 4 tiles for 18 HP, every 20s, at most six times in its life. Kill the support first or outlast its remedies.
+**Goblin Shaman** — Heals up to four wounded allies within 4 tiles for 18 HP, every 20s, at most six times in its life. Kill the support first or outlast its remedies.
 
-**Bandit saboteur** — Prioritizes nearby buildings and deals 2.5× normal damage to structures. Still fights an intercepting hero; its light armor makes interception effective.
+**Bandit Saboteur** — Prioritizes nearby buildings and deals 2.5× normal damage to structures. Still fights an intercepting hero; its light armor makes interception effective.
 
-**Venom scorpion** — A landed sting leaves one poison dose: 3 HP/s for 5s, without stacking. Antidotes and cleansing remove it; escort fragile heroes through scorpion ground.
+**Venom Scorpion** — A landed sting leaves one poison dose: 3 HP/s for 5s, without stacking. Antidotes and cleansing remove it; escort fragile heroes through scorpion ground.
 
-**Sand guardian** — Slow and heavily armored. At half health, gains an 80-HP shield for 10s once in its life, only on itself. Use ranged attrition or poison rather than repeated frontal blows.
+**Sand Guardian** — Slow and heavily armored. At half health, gains an 80-HP shield for 10s once in its life, only on itself. Use ranged attrition or poison rather than repeated frontal blows.
 
-**Enemy necromancer** — Calls two ordinary skeletons every 30s while a hostile hero is visible: four per life, at most 32 living called skeletons worldwide. A green bone ring marks the cast. Kill the fragile caller early; its existing skeletons remain and cannot call more.
+**Enemy Necromancer** — Calls two ordinary skeletons every 30s while a hostile hero is visible: four per life, at most 32 living called skeletons worldwide. A green bone ring marks the cast. Kill the fragile caller early; its existing skeletons remain and cannot call more.
 
-**Wraith hunter** — Fast, fragile melee hunter that chases visible ranged and medical or command heroes first. Intercept it with a front line or slow it. Guards keep their leash; the spectral body uses ground paths and cannot cross water.
+**Wraith Hunter** — Fast, fragile melee hunter that chases visible ranged and medical or command heroes first. Intercept it with a front line or slow it. Guards keep their leash; the spectral body uses ground paths and cannot cross water.
 
-**Tactical reinforcements in raids**: Goblin Fortress → Goblin shaman; Bandit Camp → Bandit saboteur; Sand Tomb → Venom scorpion, Sand guardian; Undead Castle → Enemy necromancer, Wraith hunter.
+**Tactical reinforcements in raids**: Goblin Fortress → Goblin Shaman; Bandit Camp → Bandit Saboteur; Sand Tomb → Venom Scorpion, Sand Guardian; Undead Castle → Enemy Necromancer, Wraith Hunter.
 
 Campaign raids obey the campaign enemy list; free kingdoms use the full lair troop pool.
 
-**Venom spitter** — Warns for 3s before poisoning a 2-tile zone from up to 8 tiles away: 4 HP/s for 5s, every 18s. Kill the fragile spitter before impact, leave the warning, or provide antidotes and cleansing.
+**Venom Spitter** — Warns for 3s before poisoning a 2-tile zone from up to 8 tiles away: 4 HP/s for 5s, every 18s. Kill the fragile spitter before impact, leave the warning, or provide antidotes and cleansing.
 
-**Hex binder** — Marks a 2-tile zone from up to 9 tiles away, warns for 2s, then causes 25% extra incoming damage for 4s, every 20s. It does not stack and can be cleansed. Prioritize the binder or keep support near the front.
+**Hex Binder** — Marks a 2-tile zone from up to 9 tiles away, warns for 2s, then causes 25% extra incoming damage for 4s, every 20s. It does not stack and can be cleansed. Prioritize the binder or keep support near the front.
 
-**Vampire bat** — Fast and fragile. Actual melee HP loss heals it by at most 4 HP per hit and 60 HP over its life, never above maximum HP. Shields deny healing. Its winged appearance still uses ground paths; ranged focus and slows counter it.
+**Vampire Bat** — Fast and fragile. Actual melee HP loss heals it by at most 4 HP per hit and 60 HP over its life, never above maximum HP. Shields deny healing. Its winged appearance still uses ground paths; ranged focus and slows counter it.
 
-**Fission slime** — On death splits once into at most two ordinary slimes, each with 35% of its maximum HP and half its attack and defense, including rank. Children cannot split and drop no gold or kill XP. At most 64 living children globally. Use area damage and expect a second front.
+**Fission Slime** — On death splits once into at most two ordinary slimes, each with 35% of its maximum HP and half its attack and defense, including rank. Children cannot split and drop no gold or kill XP. At most 64 living children globally. Use area damage and expect a second front.
 
 Clearing a named wave also requires defeating its called skeletons and slime children; killing their source alone does not clear the wave.
 
@@ -150,8 +150,26 @@ Clearing a named wave also requires defeating its called skeletons and slime chi
 
 Gnashfang calls one pikeman and one shieldbearer per call, four over his life. They follow his guard center and survive his death. His cleave warns for 2.4s, aims within 4 tiles and hits radius 2; the final two archers remain a separate finite call.
 
-**Armored barracks** — Armored front, archers and finite healing support. Kill the healer first or use ranged damage and poison. 3200 HP. Garrison: Shieldbearer, Goblin Archer, Goblin shaman. Raid cycle: Shieldbearer, Pikeman, Goblin Archer, Goblin shaman, Pikeman, Goblin Archer. Native terrain: Forest, Mountain. First raid 9:00; then every 6:00; 4 troops initially, growing by one up to 8. Razing stops new guards and raids; living troops remain.
+**Armored Barracks** — Armored front, archers and finite healing support. Kill the healer first or use ranged damage and poison. 3200 HP. Garrison: Shieldbearer, Goblin Archer, Goblin Shaman. Raid cycle: Shieldbearer, Pikeman, Goblin Archer, Goblin Shaman, Pikeman, Goblin Archer. Native terrain: Forest, Mountain. First raid 9:00; then every 6:00; 4 troops initially, growing by one up to 8. Razing stops new guards and raids; living troops remain.
 
-**Plague hatchery** — A splitting front with warned venom and hex support. Evade zones, cleanse and prepare for the finite children. 2200 HP. Garrison: Fission slime, Venom spitter, Hex binder. Raid cycle: Fission slime, Venom spitter, Hex binder, Vampire bat, Venom spitter, Fission slime. Native terrain: Forest, Swamp. First raid 8:00; then every 5:30; 3 troops initially, growing by one up to 7. Razing stops new guards and raids; living troops remain.
+**Plague Hatchery** — A splitting front with warned venom and hex support. Evade zones, cleanse and prepare for the finite children. 2200 HP. Garrison: Fission Slime, Venom Spitter, Hex Binder. Raid cycle: Fission Slime, Venom Spitter, Hex Binder, Vampire Bat, Venom Spitter, Fission Slime. Native terrain: Forest, Swamp. First raid 8:00; then every 5:30; 3 troops initially, growing by one up to 7. Razing stops new guards and raids; living troops remain.
 
-**Siege camp** — A siege beast, archers and shields guard the camp; sappers join raids against construction, or the castle while no work is underway. Intercept and destroy the source. 3800 HP. Garrison: Siege Beast, Goblin Archer, Shieldbearer. Raid cycle: Siege Beast, Sapper, Goblin Archer, Shieldbearer, Sapper, Goblin Archer. Native terrain: Desert, Grassland. First raid 12:00; then every 8:00; 3 troops initially, growing by one up to 6. Razing stops new guards and raids; living troops remain.
+**Siege Camp** — A siege beast, archers and shields guard the camp; sappers join raids against construction, or the castle while no work is underway. Intercept and destroy the source. 3800 HP. Garrison: Siege Beast, Goblin Archer, Shieldbearer. Raid cycle: Siege Beast, Sapper, Goblin Archer, Shieldbearer, Sapper, Goblin Archer. Native terrain: Desert, Grassland. First raid 12:00; then every 8:00; 3 troops initially, growing by one up to 6. Razing stops new guards and raids; living troops remain.
+
+**Shaman Hut** — A goblin shaman keeps the hut's band on its feet, mending its wounded six times at most; goblins and archers march with its raids. Kill the shaman first.
+
+**Saboteur Hideout** — Saboteurs raid whatever is being built, and the castle when nothing is: they wreck walls fast but wear light armour. Guard a far site or meet them on the way.
+
+**Scorpion Burrow** — Venom scorpions hunt close to their burrow and leave the town alone. Their stings poison: bring antidotes, or a cleansing altar, before clearing it.
+
+**Sunken Sanctum** — Sand guardians wake in the sanctum and march slowly on the town. Each shields itself once at half health: wear them down from range or with poison.
+
+**Necromancer's Crypt** — Necromancers raise skeletons while heroes are in sight, so their raids grow as they march. Kill the caller first; its skeletons cannot raise more.
+
+**Wraith Barrow** — Wraith hunters run past the front line for archers, mages and healers. Keep the fragile behind a wall of shields, or slow the hunters down.
+
+**Spitter Bog** — Venom spitters foul the ground from afar, three seconds after the warning shows. Step out of the mark, carry antidotes, and kill the spitters first.
+
+**Hex Circle** — Hex binders mark heroes to take more damage for a moment, and cultists march beside them. A cleanse washes the hex off; strike the binders before it lands.
+
+**Bat Cave** — Vampire bats pour out fast and heal on what they bite. Shields deny them their meal; archers and towers bring them down.

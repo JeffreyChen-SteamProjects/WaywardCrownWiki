@@ -4,6 +4,10 @@ title: "Eventi casuali"
 
 Il gioco attiva eventi casuali a intervalli regolari, aggiungendo imprevedibilità al gameplay. L'intensità degli eventi scala dinamicamente in base al numero di avventurieri. Il tutorial integrato non estrae mai un terremoto né un evento che metta una nuova struttura sulla mappa.
 
+Le schede dei prestiti mostrano una lettera sigillata; ogni nuovo invito emette un solo suono discreto, al volume degli effetti. La scheda Eventi del regno nel pannello dei registri mostra inviti e prestiti in corso senza mettere in pausa il gioco. Le carte dei prestiti indicano il capitale da versare subito, la scadenza, i rimborsi e la perdita massima; rifiutare o ignorare un invito è gratuito. Gli editor di mappe e campagne salvano i gruppi di eventi: le impostazioni del livello hanno precedenza su quelle della campagna e poi della mappa, ed ereditare è diverso dal disattivare tutti i gruppi. Per ora solo il gruppo «Economia e servizi» aggiunge un evento casuale, la fiera del raccolto; gli altri gruppi non ne aggiungono ancora. Le schede dei prestiti adattano il testo alla larghezza della barra laterale e scorrono verticalmente per rendere leggibili tutte le condizioni.
+
+Con un prestito in corso, l’anteprima del livello successivo distingue tesoro attuale, capitale restituito senza interessi e oro previsto da trasferire. Vale la regola del livello di destinazione; l’anteprima non effettua pagamenti.
+
 ---
 
 ## Regole di attivazione degli eventi
@@ -108,6 +112,12 @@ Generano strutture persistenti sulla mappa.
 | **Gilda ribelle** | 400 | Appare una gilda ostile che genera nemici. Distruggila! |
 | **Rovine antiche** | 450 | Appaiono rovine sulla mappa. Chi arriva per primo ottiene ricompense! |
 | **Squarcio dimensionale** | 300 | Appaiono portali che teletrasportano gli avventurieri a caso |
+
+---
+
+## Fiera del raccolto
+
+Con il gruppo «Economia e servizi» attivo, una fiera del raccolto può arrivare in una delle tue case del villaggio. Lo sai 20 secondi prima e resta aperta 120 secondi. Non devi mandare nessuno: gli eroi feriti, a corto di pozioni o con voglia di una serata libera ci vanno da soli, purché nient'altro li trattenga (uno scontro, una bandiera, un gruppo che aspettano). Serve quattro eroi alla volta. Ogni cliente riposa 5 secondi e recupera 40 PS gratis, compra le pozioni che gli mancano al solito prezzo (la fiera ne porta 24 per tutta la permanenza) e paga una serata libera se ne ha voglia. Chi se ne va prima non paga niente. Finché è aperta puoi tenerla aperta 60 secondi in più, una volta sola, per 150 oro; le pozioni non vengono rifornite. La sua scheda in Eventi del regno mostra quando apre e chiude, chi c'è alle bancarelle e quante pozioni restano, e Mostra ti porta lì dopo che hai visto il posto.
 
 ---
 

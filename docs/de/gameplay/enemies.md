@@ -155,3 +155,21 @@ Gnashfang ruft je einen Speer- und Schildträger, vier im Leben. Sie folgen sein
 **Seuchenbrutstätte** — Eine spaltende Front mit gewarntem Gift und Flüchen. Zonen meiden, reinigen und die begrenzten Kinder beseitigen. 2200 HP. Garnison: Spaltungsschleim, Giftspucker, Fluchbinder. Überfallfolge: Spaltungsschleim, Giftspucker, Fluchbinder, Vampirfledermaus, Giftspucker, Spaltungsschleim. Heimisches Gelände: Wald, Sumpf. Erster Überfall 8:00, danach alle 5:30; anfangs 3 Truppen, je eine mehr bis 7. Zerstörung stoppt neue Wachen und Überfälle; lebende Truppen bleiben.
 
 **Belagerungslager** — Belagerungsbestie, Bogner und Schilde bewachen das Lager. Sapper ziehen auf Baustellen, ohne Bauarbeit auf die Burg. Abfangen und die Quelle zerstören. 3800 HP. Garnison: Belagerungsbestie, Goblin-Bogenschütze, Schildträger. Überfallfolge: Belagerungsbestie, Sprengmeister, Goblin-Bogenschütze, Schildträger, Sprengmeister, Goblin-Bogenschütze. Heimisches Gelände: Wüste, Grasland. Erster Überfall 12:00, danach alle 8:00; anfangs 3 Truppen, je eine mehr bis 6. Zerstörung stoppt neue Wachen und Überfälle; lebende Truppen bleiben.
+
+**Schamanenhütte** — Ein Goblin-Schamane hält die Bande der Hütte auf den Beinen und heilt ihre Verwundeten höchstens sechsmal; Goblins und Bogenschützen ziehen mit seinen Raubzügen. Zuerst den Schamanen töten.
+
+**Saboteursversteck** — Saboteure überfallen, was gerade gebaut wird, und die Burg, wenn nichts gebaut wird: Sie reißen Mauern schnell ein, tragen aber nur leichte Rüstung. Eine ferne Baustelle bewachen oder sie unterwegs abfangen.
+
+**Skorpionbau** — Giftskorpione jagen nahe an ihrem Bau und lassen die Stadt in Ruhe. Ihr Stich vergiftet: Vor dem Säubern Gegengifte oder einen Reinigungsaltar bereithalten.
+
+**Versunkenes Heiligtum** — Sandsteinwächter erwachen im Heiligtum und marschieren langsam auf die Stadt. Jeder schirmt sich bei halber Gesundheit einmal ab: aus der Ferne oder mit Gift zermürben.
+
+**Nekromantengruft** — Nekromanten rufen Skelette, solange Helden in Sicht sind, und ihre Raubzüge wachsen unterwegs. Zuerst den Beschwörer töten; seine Skelette rufen keine weiteren.
+
+**Geisterhügelgrab** — Geisterjäger laufen an der Front vorbei zu Bogenschützen, Magiern und Heilern. Die Schwachen hinter eine Schildwand stellen oder die Jäger verlangsamen.
+
+**Giftspuckersumpf** — Giftspucker verseuchen den Boden aus der Ferne, drei Sekunden nach der Warnung. Aus der Markierung treten, Gegengifte mitnehmen und die Spucker zuerst töten.
+
+**Fluchsteinkreis** — Fluchbinder markieren Helden, die dann kurz mehr Schaden nehmen, und Kultisten ziehen mit ihnen. Eine Reinigung wäscht den Fluch ab; die Binder treffen, bevor er wirkt.
+
+**Fledermaushöhle** — Vampirfledermäuse schwärmen schnell aus und heilen sich an dem, was sie beißen. Schilde verwehren ihnen die Mahlzeit; Bogenschützen und Türme holen sie herunter.

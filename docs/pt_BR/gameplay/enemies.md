@@ -155,3 +155,21 @@ Gnashfang chama um lanceiro e um escudeiro por vez, quatro por vida. Seguem seu 
 **Incubadora de praga** — Frente que se divide com zonas de veneno avisadas e maldições. Evite áreas, purifique e prepare os filhos limitados. 2200 HP. Guarnição: Limo físsil, Cuspidor de veneno, Vinculador de maldições. Ciclo de ataque: Limo físsil, Cuspidor de veneno, Vinculador de maldições, Morcego vampiro, Cuspidor de veneno, Limo físsil. Terreno nativo: Floresta, Pântano. Primeiro ataque 8:00, depois a cada 5:30; 3 tropas iniciais, uma a mais até 7. Destruir para novos guardas e ataques; tropas vivas ficam.
 
 **Acampamento de cerco** — Fera de cerco, arqueiros e escudos guardam o acampamento. Sapadores atacam obras, ou o castelo se não houver obras. Intercepte e destrua a fonte. 3800 HP. Guarnição: Besta de cerco, Arqueiro goblin, Porta-escudo. Ciclo de ataque: Besta de cerco, Sapador, Arqueiro goblin, Porta-escudo, Sapador, Arqueiro goblin. Terreno nativo: Deserto, Planície. Primeiro ataque 12:00, depois a cada 8:00; 3 tropas iniciais, uma a mais até 6. Destruir para novos guardas e ataques; tropas vivas ficam.
+
+**Cabana do Xamã** — Um xamã goblin mantém o bando da cabana de pé e cura os feridos no máximo seis vezes; goblins e arqueiros marcham em seus ataques. Mate o xamã primeiro.
+
+**Esconderijo do Sabotador** — Os sabotadores atacam o que está em construção, e o castelo quando nada está: derrubam muros depressa, mas usam armadura leve. Guarde a obra distante ou intercepte-os no caminho.
+
+**Toca de Escorpiões** — Os escorpiões venenosos caçam perto da toca e deixam a cidade em paz. A ferroada envenena: leve antídotos, ou um altar de purificação, antes de limpá-la.
+
+**Santuário Soterrado** — Os guardiões de arenito despertam no santuário e marcham devagar sobre a cidade. Cada um se protege uma vez com metade da vida: desgaste-os à distância ou com veneno.
+
+**Cripta do Necromante** — Os necromantes erguem esqueletos enquanto veem heróis, e seus ataques crescem na marcha. Mate primeiro quem invoca; os esqueletos dele não erguem outros.
+
+**Túmulo Espectral** — Os caçadores espectrais passam pela linha de frente atrás de arqueiros, magos e curandeiros. Mantenha os frágeis atrás de uma parede de escudos ou deixe os caçadores lentos.
+
+**Pântano dos Cuspidores** — Os cuspidores de veneno contaminam o chão de longe, três segundos depois do aviso. Saia da marca, leve antídotos e mate os cuspidores primeiro.
+
+**Círculo de Maldições** — Os vinculadores de maldições marcam heróis para receberem mais dano por um momento, e sectários marcham com eles. Uma purificação remove a maldição; ataque os vinculadores antes que ela caia.
+
+**Caverna de Morcegos** — Os morcegos vampiros saem rápido em bando e se curam com o que mordem. Escudos negam o banquete; arqueiros e torres os derrubam.

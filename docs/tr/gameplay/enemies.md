@@ -155,3 +155,21 @@ Gnashfang bir mızrak ve bir kalkan çağırır, ömür boyu dört. Muhafız mer
 **Veba kuluçkası** — Bölünen ön hat, uyarılı zehir alanları ve lanetler. Alanlardan kaçının, arının ve sınırlı yavrulara hazırlanın. 2200 HP. Garnizon: Bölünen balçık, Zehir tükürücü, Lanet bağlayıcı. Baskın döngüsü: Bölünen balçık, Zehir tükürücü, Lanet bağlayıcı, Vampir yarasa, Zehir tükürücü, Bölünen balçık. Yerel arazi: Orman, Bataklık. İlk baskın 8:00, sonra her 5:30; başlangıçta 3 asker, her defasında bir artıp 7. Yıkmak yeni muhafız ve baskınları durdurur; canlı askerler kalır.
 
 **Kuşatma kampı** — Kuşatma canavarı, okçular ve kalkanlar kampı korur. Lağımcılar inşaata, iş yoksa kaleye saldırır. Durdurun ve kaynağı yıkın. 3800 HP. Garnizon: Kuşatma Canavarı, Goblin Okçu, Kalkan Taşıyıcı. Baskın döngüsü: Kuşatma Canavarı, Lağımcı, Goblin Okçu, Kalkan Taşıyıcı, Lağımcı, Goblin Okçu. Yerel arazi: Çöl, Çayırlık. İlk baskın 12:00, sonra her 8:00; başlangıçta 3 asker, her defasında bir artıp 6. Yıkmak yeni muhafız ve baskınları durdurur; canlı askerler kalır.
+
+**Şaman Kulübesi** — Bir goblin şamanı kulübenin çetesini ayakta tutar, yaralılarını en fazla altı kez iyileştirir; goblinler ve okçular baskınlarına katılır. Önce şamanı öldürün.
+
+**Sabotajcı Sığınağı** — Sabotajcılar inşa edilmekte olana, hiçbir şey yapılmıyorsa kaleye saldırır: duvarları hızla yıkarlar ama hafif zırh giyerler. Uzaktaki şantiyeyi koruyun ya da onları yolda karşılayın.
+
+**Akrep Yuvası** — Zehirli akrepler yuvalarının yakınında avlanır ve kasabaya dokunmaz. İğneleri zehirler: temizlemeden önce panzehir ya da arınma sunağı hazırlayın.
+
+**Kuma Gömülü Tapınak** — Kumtaşı muhafızları tapınakta uyanır ve kasabaya ağır ağır yürür. Her biri canı yarıya inince bir kez kendini kalkanla korur: onları uzaktan ya da zehirle yıpratın.
+
+**Nekromans Mahzeni** — Nekromanslar kahramanları gördükçe iskelet kaldırır, baskınları yürüdükçe büyür. Önce çağıranı öldürün; çağrılan iskeletler başkasını kaldıramaz.
+
+**Hayalet Höyüğü** — Hayalet avcıları ön safı geçip okçulara, büyücülere ve şifacılara koşar. Kırılganları kalkan duvarının arkasında tutun ya da avcıları yavaşlatın.
+
+**Tükürücü Bataklığı** — Zehir tükürücüler zemini uzaktan zehirler; uyarıdan üç saniye sonra düşer. İşaretten çıkın, panzehir taşıyın ve önce tükürücüleri öldürün.
+
+**Lanet Çemberi** — Lanet bağlayıcılar kahramanları işaretler, kısa bir süre daha fazla hasar alırlar; tarikatçılar da yanlarında yürür. Arınma laneti siler; lanet düşmeden bağlayıcılara vurun.
+
+**Yarasa Mağarası** — Vampir yarasalar hızla sürü halinde çıkar ve ısırdıklarından can emer. Kalkanlar onları aç bırakır; okçular ve kuleler onları düşürür.

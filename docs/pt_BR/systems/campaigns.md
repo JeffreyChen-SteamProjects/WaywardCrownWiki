@@ -174,7 +174,7 @@ Os detalhes da expedição indicam lojas de poções e descansos acessíveis, al
 
 ## Farol antigo
 
-Em mapas com um farol antigo, selecione o local descoberto para ver custos, prazo e escolhas nos detalhes. Reparar exige equipe ou construtor no local e pausa na metade para financiar mais ou retirar-se. A conclusão avisa sobre inimigos descobertos em 20 casas. Recuperar tesouro exige que um herói aceite a bandeira de exploração, chegue e trabalhe; tesouro real e trabalhador recebem uma vez. Ignorar não inicia prazo; retirar-se devolve só fundos não usados. A ruína não recruta nem melhora bandeiras.
+Em mapas com um farol antigo, selecione o local descoberto para ver custos, prazo e escolhas nos detalhes. Reparar exige equipe ou construtor no local e pausa na metade para financiar mais ou retirar-se. A conclusão avisa sobre inimigos descobertos em 20 casas. Recuperar tesouro exige que um herói aceite a bandeira de exploração, chegue e trabalhe; tesouro real e trabalhador recebem uma vez. Ignorar não inicia prazo; retirar-se devolve só fundos não usados. A ruína não recruta nem melhora bandeiras. Sair do nível abandona o trabalho aceito numa relíquia e devolve os fundos não gastos, como uma retirada; os efeitos de uma relíquia ficam no seu mapa, e só o que a campanha carrega (ouro, heróis, pesquisa) passa para o próximo nível.
 
 ## Logística goblin opcional
 
@@ -189,3 +189,26 @@ A camada de informações de suprimentos inimigos só mostra pontos e locais obs
 O jogo livre oferece expansão finita das tendas goblins, desligada por padrão. Partidas mistas ou de goblins reservam uma das vagas escolhidas para uma tenda e vinculam até quatro tendas existentes, sem aumentar o total de covis. Outras raças não recebem fontes extras. Campanhas usam a configuração do autor.
 
 Andaime, depósito e ruína têm silhuetas distintas e tecido animado, parado com movimento reduzido. O mensageiro martela apenas durante trabalho real. Descoberta de comboio e observação de obra, conclusão e ruína têm ícones e sons próprios; mudanças ocultas e carregar não repetem avisos. Formulários compactos e painel de informações permitem rolagem, também pelo teclado no painel.
+
+Os mensageiros esperam que as unidades móveis deixem a área do novo posto sem estender o prazo de entrega. Mensageiros e escoltas param fora da área planejada.
+
+Depois de recuperar materiais de um farol antigo, as equipes não o restauram de graça; recuperação e reparo são escolhas mutuamente exclusivas.
+
+Estes são os termos padrão da tumba e estação. Selecione um local descoberto para ver custos reais, prazo original restante e resultados; o jogo continua durante as escolhas.
+
+A seção opcional da crônica acompanha relíquias descobertas, a opção escolhida, o progresso, os obstáculos, o prazo original restante e os resultados reais. Mostrar localiza o lugar original sem aceitar uma opção ou gastar ouro. Uma relíquia que entra no campo de visão vira notícia, assim como o trabalho aceito que para na metade, fracassa ou termina; uma retirada que você escolhe vira uma linha do registro. Um local mostra como está: uma ruína até que um trabalho seja aceito, andaimes e material empilhado enquanto a coroa trabalha ali, o que a escolha concluída deixa (um farol aceso ou desmontado, uma tumba selada ou aberta, uma estação reconstruída) ou escombros se o trabalho fracassou. O que segura o trabalho é dito com precisão: nenhum herói para aceitá-lo, o motivo dos heróis para recusá-lo, monstros perto do local, outra obra da equipe primeiro (com a posição do local na ordem) ou água, penhascos ou construções que o cercam.
+
+Locais de relíquias opcionais: 0 desativa a geração. Até duas relíquias diferentes em terreno aberto acessível fora da zona segura do castelo, preservando estradas e rotas. Nenhum pagamento ou trabalho antes de aceitar. Os locais ficam a 21–80 casas do castelo e precisam permitir uma rota normal da equipe de obras.
+
+Regras de mapa e fases compartilham um editor para até dois locais originais, opções fixas e custos, recompensas, trabalho e prazos limitados. Cancelar mantém o rascunho; Aplicar valida fontes sem executar o jogo. Uma lista de fase vazia herda o mapa; `relics_disabled: true` desativa a herança. Esvaziar as relíquias de um mapa independente remove seus modelos ao salvar.
+
+**Tumba selada**
+
+- Reforçar o selo: Após financiamento extra, suprime apenas 2 incursões previstas de Cemitério / Castelo dos Mortos-Vivos. Guardas, inimigos ambientais e outras fontes seguem normais. A fonte original deve sobreviver.
+- Financiar pesquisa: Um desbloqueio elegível de Afinidade Arcana, ou 80 ouro se indisponível ou já conhecido. Valem os requisitos normais da torre de magos e da pesquisa. Pausa na metade: financiar mais ou desistir.
+- Abrir a tumba: Um tesouro de 240 ouro após exploração real e derrotar 3 guardas esqueletos. Financiar abre a tumba; guardas vivos permanecem após desistência ou vencimento.
+
+**Estação perdida**
+
+- Reconstruir suprimentos: Restaura 6 compras pagas compartilhadas de nível 1: cura, poções ou reagentes a preços normais. Sem renda periódica ou melhorias. Reconstrução e resgate são exclusivos.
+- Escoltar o sobrevivente: Voluntários devem escoltar o sobrevivente original ao castelo seguro. Chance de ingresso 75%, fixada ao financiar: um patrulheiro somente com classe e caminho permitidos e vaga em alojamento concluído na chegada. O tesouro recebe 0 ouro com ou sem ingresso; sem recrutamento em espera. Resgate e reconstrução são exclusivos.

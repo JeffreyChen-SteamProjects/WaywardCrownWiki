@@ -28,20 +28,20 @@ Araştırma ait olduğu binada satın alınır: bir sınıfınki loncasında, in
 | Kütüphane | 3 | **Kahraman Eğitimi** | Tüm Sınıflar | 900 | Tüm maceracılar +%15 deneyim kazanır. |
 | Tapınak | 2 | **Saha Doktoru** | Tüm Sınıflar | 400 | Binada dinlenen maceracılar %50 daha hızlı iyileşir. |
 | Burç | 1 | **Kule kalkanlar** | Kalkan Şövalyesi | 300 | Kalkan Şövalyesi: +4 savunma. |
-| Burç | 1 | **Kalkan vuruşu** | Kalkan Şövalyesi | 350 | Kalkan şövalyesi: +3 saldırı. |
-| Burç | 1 | **Kalkan örgüsü** | Kalkan Şövalyesi | 450 | Kalkan şövalyesi: yemin kalkanı +%20, büyücünün azami canının en fazla %50’si; süre aynı, birikmez. |
+| Burç | 1 | **Kalkan vuruşu** | Kalkan Şövalyesi | 350 | Kalkan Şövalyesi: +3 saldırı. |
+| Burç | 1 | **Kalkan örgüsü** | Kalkan Şövalyesi | 450 | Kalkan Şövalyesi: yemin kalkanı +%20, büyücünün azami canının en fazla %50’si; süre aynı, birikmez. |
 | Yaban kampı | 1 | **İsabetli uçuş** | İz Sürücü | 300 | İz Sürücü: +4 saldırı. |
 | Kemiklik | 1 | **Ölümsüz zırh** | Mezar Şövalyesi | 300 | Mezar Şövalyesi: +4 savunma. |
 | Sığınak Tapınağı | 1 | **Siper Talimi** | Tüm Sınıflar | 350 | Burç: koruması 5 kare daha uzağa ulaşır. |
 | Sığınak Tapınağı | 1 | **Saha Cerrahisi** | Tüm Sınıflar | 400 | Sığınak Tapınağı ve Şifa Duası %50 daha fazla iyileştirir. |
 | Sığınak Tapınağı | 1 | **Şifacının yemini** | Hospitalye | 300 | Hospitalye: +3 savunma. |
-| Sığınak Tapınağı | 1 | **Şifa disiplini** | Hospitalye | 400 | Hastane şövalyesi: kendi şifası +%20; ortak şifa aynı. |
-| Sığınak Tapınağı | 1 | **Şifacı zırhı** | Hospitalye | 300 | Hastane şövalyesi: +2 savunma. |
+| Sığınak Tapınağı | 1 | **Şifa disiplini** | Hospitalye | 400 | Hospitalye: kendi şifası +%20; ortak şifa aynı. |
+| Sığınak Tapınağı | 1 | **Şifacı zırhı** | Hospitalye | 300 | Hospitalye: +2 savunma. |
 | Hayvan Ocağı | 1 | **İz Bilgisi** | Tüm Sınıflar | 300 | Kahramanlar şatodan %15 daha uzağı keşfeder. |
 | Hayvan Ocağı | 1 | **Şifalı Otlar** | Tüm Sınıflar | 350 | Kasabanın hanları ve tapınağı yeniden tam hızda iyileştirir. |
 | Hayvan Ocağı | 1 | **Canavar postları** | Hayvan Bekçisi | 300 | Hayvan Bekçisi: +3 savunma. |
-| Hayvan Ocağı | 1 | **Sürü eğitimi** | Hayvan Bekçisi | 450 | Yaşayan canavar muhafızının yaşayan köpek, ayı ve şahinleri: +2 saldırı. Sayı ve bakım aynı. |
-| Hayvan Ocağı | 1 | **Canavar muhafızı** | Hayvan Bekçisi | 300 | Canavar muhafızı: +3 savunma. |
+| Hayvan Ocağı | 1 | **Sürü eğitimi** | Hayvan Bekçisi | 450 | Yaşayan Hayvan Bekçisinin yaşayan köpek, ayı ve şahinleri: +2 saldırı. Sayı ve bakım aynı. |
+| Hayvan Ocağı | 1 | **Canavar muhafızı** | Hayvan Bekçisi | 300 | Hayvan Bekçisi: +3 savunma. |
 | Kripta | 1 | **Mezar Antlaşması** | Tüm Sınıflar | 350 | Çağrılan bir muhafızın bakım masrafı yarıya iner. |
 | Kripta | 1 | **İlik Bağı** | Tüm Sınıflar | 400 | Kemiklik: bir muhafız daha barındırır. |
 | Kripta | 1 | **Yasak kitaplar** | Ölüm Büyücüsü | 300 | Ölüm Büyücüsü: +5 saldırı. |

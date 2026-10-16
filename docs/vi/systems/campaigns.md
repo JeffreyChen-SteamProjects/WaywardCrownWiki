@@ -174,7 +174,7 @@ Chi tiết viễn chinh dẫn đến tiệm thuốc và nơi nghỉ có thể t�
 
 ## Đài hiệu lửa cổ
 
-Ở bản đồ có đài hiệu lửa cổ, chọn địa điểm đã khám phá để xem chi phí, thời hạn và lựa chọn trong bảng chi tiết. Sửa chữa cần đội thợ hoặc thợ xây thật sự đến nơi và dừng ở nửa tiến độ để chờ tài trợ thêm hay rút lui. Hoàn thành cảnh báo kẻ địch đã khám phá trong 20 ô. Lấy kho báu cần anh hùng tự nhận cờ khám phá, đến nơi và làm việc; ngân khố và người làm nhận thưởng một lần. Bỏ qua không bắt đầu thời hạn; rút lui chỉ hoàn tiền chưa dùng. Di tích không tuyển người hay tăng sức mạnh cờ.
+Ở bản đồ có đài hiệu lửa cổ, chọn địa điểm đã khám phá để xem chi phí, thời hạn và lựa chọn trong bảng chi tiết. Sửa chữa cần đội thợ hoặc thợ xây thật sự đến nơi và dừng ở nửa tiến độ để chờ tài trợ thêm hay rút lui. Hoàn thành cảnh báo kẻ địch đã khám phá trong 20 ô. Lấy kho báu cần anh hùng tự nhận cờ khám phá, đến nơi và làm việc; ngân khố và người làm nhận thưởng một lần. Bỏ qua không bắt đầu thời hạn; rút lui chỉ hoàn tiền chưa dùng. Di tích không tuyển người hay tăng sức mạnh cờ. Rời màn chơi là bỏ công việc đã nhận tại di tích và nhận lại số tiền chưa dùng, như khi rút lui; hiệu ứng của di tích ở lại bản đồ của nó, chỉ những gì chiến dịch mang theo (vàng, anh hùng, nghiên cứu) mới sang màn sau.
 
 ## Tiếp tế goblin tùy chọn
 
@@ -189,3 +189,26 @@ Lớp tình báo tiếp tế địch chỉ hiện điểm đường và địa �
 Chơi tự do có tùy chọn mở rộng lều goblin hữu hạn, mặc định tắt. Trò chơi hỗn hợp hoặc chỉ goblin dành một vị trí trong số sào huyệt đã chọn cho lều và liên kết tối đa bốn lều có sẵn, không tăng tổng số. Chủng tộc khác không nhận nguồn mới. Chiến dịch dùng cấu hình của tác giả.
 
 Giàn giáo, kho và phế tích có hình dáng riêng cùng vải chuyển động; giảm chuyển động giữ vải đứng yên. Người vận chuyển chỉ gõ búa khi xây dựng thực sự tiến triển. Phát hiện đoàn và quan sát công trình, hoàn tất, phế tích có biểu tượng và âm thanh riêng. Thay đổi ẩn và tải không lặp thông báo. Biểu mẫu nhỏ và thông tin có thể cuộn, bảng thông tin cũng cuộn bằng bàn phím.
+
+Người vận chuyển chờ đơn vị di chuyển rời khỏi khu đất tiền đồn mới mà không kéo dài hạn giao hàng. Người vận chuyển và hộ vệ dừng bên ngoài khu đất dự kiến.
+
+Sau khi thu hồi vật liệu từ tháp báo hiệu cổ, đội xây dựng không khôi phục miễn phí; thu hồi và sửa chữa là hai lựa chọn loại trừ nhau.
+
+Dưới đây là điều kiện mặc định của mộ và trạm. Chọn nơi đã phát hiện để xem phí thật do tác giả đặt, thời hạn gốc còn lại và kết quả; trò chơi tiếp tục khi chọn.
+
+Mục tùy chọn trong biên niên sử theo dõi di tích đã phát hiện, nhánh đã chọn, tiến độ, trở ngại, thời hạn gốc còn lại và kết quả thật. Liên kết hiển thị chỉ định vị nơi gốc, không chấp nhận lựa chọn hay tiêu vàng. Một di tích lọt vào tầm nhìn sẽ có tin báo, công việc đã nhận mà dừng giữa chừng, thất bại hay hoàn thành cũng vậy; việc rút lui do bạn chọn được ghi một dòng trong nhật ký. Hình dạng của địa điểm cho biết tình trạng: là phế tích cho tới khi nhận việc, có giàn giáo và vật liệu chất đống khi triều đình đang làm, là kết quả của lựa chọn đã xong (đài hiệu lửa được thắp hay bị tháo dỡ, lăng mộ được phong ấn hay bị mở, trạm được dựng lại), hoặc thành đống đổ nát nếu công việc thất bại. Điều cản trở công việc được nói rõ: không có anh hùng nhận việc, lý do anh hùng từ chối, quái vật gần địa điểm, đội thợ đang làm việc khác trước (và thứ tự của địa điểm này), hoặc nước, vách đá hay công trình bao quanh địa điểm.
+
+Số di tích tùy chọn: 0 tắt việc tạo. Đặt tối đa hai di tích khác nhau trên đất trống có thể đến ngoài vùng an toàn của lâu đài, giữ nguyên đường đi. Không trả tiền hay bắt đầu việc trước khi chấp nhận lựa chọn. Vị trí cách lâu đài 21–80 ô và phải vượt qua kiểm tra đường đi bình thường của đội xây dựng.
+
+Quy tắc bản đồ và màn chiến dịch dùng chung trình sửa tối đa hai vị trí gốc, tập con lựa chọn cố định cùng phí, thưởng, công việc và thời hạn có giới hạn. Hủy giữ bản nháp; Áp dụng kiểm tra nguồn mà không chạy trò chơi. Danh sách màn trống kế thừa bản đồ; `relics_disabled: true` tắt kế thừa. Xóa hết di tích của bản đồ riêng sẽ bỏ các mẫu khi lưu.
+
+**Mộ phong ấn**
+
+- Củng cố phong ấn: Sau tài trợ thêm, chỉ chặn 2 đợt đột kích đã định từ Nghĩa trang / Lâu đài Bất tử. Lính gác, quái thông thường và nguồn khác vẫn như cũ. Nguồn gốc phải còn tồn tại.
+- Tài trợ nghiên cứu: Một lần mở Ái lực huyền bí hợp lệ, hoặc 80 vàng nếu không dùng được hay đã biết. Áp dụng điều kiện tháp pháp sư và nghiên cứu thông thường. Dừng nửa chừng để tài trợ thêm hoặc rút lui.
+- Mở mộ: Một kho báu 240 vàng sau khám phá thật và hạ 3 lính gác bộ xương. Tài trợ mới mở mộ; lính gác còn sống vẫn ở lại sau rút lui hoặc hết hạn.
+
+**Trạm thất lạc**
+
+- Xây lại tiếp tế: Khôi phục 6 lượt mua tiếp tế chung có phí cấp 1: chữa trị, thuốc hoặc hóa chất luyện kim với giá thường. Không thu nhập định kỳ hay nâng cấp. Xây lại và cứu hộ loại trừ nhau.
+- Hộ tống người sống sót: Người tình nguyện phải hộ tống người sống sót gốc về lâu đài an toàn. Cơ hội gia nhập 75%, cố định lúc tài trợ: một kiểm lâm thường chỉ khi nghề và đường lối được phép, nhà kiểm lâm hoàn tất có chỗ lúc đến. Kho bạc nhận 0 vàng dù có gia nhập hay không; không giữ lượt tuyển sau. Cứu hộ loại trừ xây lại.

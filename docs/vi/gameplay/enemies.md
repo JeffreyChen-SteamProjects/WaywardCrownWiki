@@ -155,3 +155,21 @@ Gnashfang gọi một giáo và một khiên mỗi lần, bốn suốt đời. H
 **Ổ ấp dịch bệnh** — Tiền tuyến phân đôi với vùng nọc có cảnh báo và bùa nguyền. Tránh vùng, thanh tẩy và chuẩn bị hạ con hữu hạn. 2200 HP. Lính giữ: Chất nhầy phân đôi, Kẻ phun nọc, Kẻ trói nguyền. Chu kỳ đột kích: Chất nhầy phân đôi, Kẻ phun nọc, Kẻ trói nguyền, Dơi hút máu, Kẻ phun nọc, Chất nhầy phân đôi. Địa hình gốc: Rừng, Đầm lầy. Đợt đầu 8:00, sau đó mỗi 5:30; đầu tiên 3 quân, tăng từng một đến 7. Phá ổ ngừng lính gác và đợt mới; quân đang sống vẫn ở lại.
 
 **Trại công thành** — Thú công thành, cung thủ và khiên giữ trại. Kẻ đặt thuốc nổ đánh công trường, hoặc thành nếu không có công việc. Chặn và phá nguồn. 3800 HP. Lính giữ: Quái thú công thành, Cung thủ Goblin, Lính khiên. Chu kỳ đột kích: Quái thú công thành, Lính phá hoại, Cung thủ Goblin, Lính khiên, Lính phá hoại, Cung thủ Goblin. Địa hình gốc: Sa mạc, Đồng cỏ. Đợt đầu 12:00, sau đó mỗi 8:00; đầu tiên 3 quân, tăng từng một đến 6. Phá ổ ngừng lính gác và đợt mới; quân đang sống vẫn ở lại.
+
+**Lều Pháp Sư** — Pháp sư goblin giữ cho băng nhóm trong lều đứng vững, chữa thương cho đồng bọn tối đa sáu lần; goblin và cung thủ theo nó đi cướp. Hãy giết pháp sư trước.
+
+**Hang Ổ Kẻ Phá Hoại** — Kẻ phá hoại đánh vào công trình đang xây, khi không có gì đang xây thì đánh lâu đài: phá tường rất nhanh nhưng chỉ mặc giáp nhẹ. Canh công trường ở xa hoặc chặn chúng giữa đường.
+
+**Hang Bọ Cạp** — Bọ cạp độc chỉ săn gần hang và không đụng đến thị trấn. Ngòi của chúng gây độc: chuẩn bị thuốc giải hoặc bàn thờ thanh tẩy trước khi dọn hang.
+
+**Thánh Điện Vùi Cát** — Vệ binh sa thạch thức dậy trong thánh điện và chậm rãi tiến về thị trấn. Mỗi con tự tạo khiên một lần khi còn nửa máu: hãy bào mòn chúng từ xa hoặc bằng độc.
+
+**Hầm Mộ Thuật Sĩ Gọi Hồn** — Thuật sĩ gọi hồn triệu xương khô khi thấy anh hùng, nên đợt cướp càng đi càng đông. Giết kẻ triệu hồi trước; xương khô của nó không triệu thêm được.
+
+**Gò Mộ Vong Hồn** — Thợ săn vong hồn vượt qua tiền tuyến để lao vào cung thủ, pháp sư và người chữa trị. Giữ người yếu sau bức tường khiên hoặc làm chậm thợ săn.
+
+**Đầm Phun Nọc** — Kẻ phun nọc làm nhiễm độc mặt đất từ xa, ba giây sau khi cảnh báo hiện ra. Bước ra khỏi dấu, mang thuốc giải và giết kẻ phun nọc trước.
+
+**Vòng Đá Nguyền** — Kẻ trói nguyền đánh dấu anh hùng để họ chịu thêm sát thương trong chốc lát, và giáo đồ tiến quân cùng chúng. Thanh tẩy xóa được lời nguyền; hãy đánh kẻ trói nguyền trước khi nó giáng xuống.
+
+**Hang Dơi** — Dơi hút máu ùa ra rất nhanh và hồi máu từ thứ chúng cắn. Khiên khiến chúng không hút được máu; cung thủ và tháp bắn hạ chúng.

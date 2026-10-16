@@ -283,6 +283,22 @@ Buntownicy, zdrajcy i ludzcy szpiedzy używają tych samych klas, poznanych umie
 
 **Niedźwiedź brunatny · Jastrząb łowiecki** — Przyzywa ogara. Od poziomu 8 wybiera zwinnego jastrzębia przeciw strzelcom, mocnego niedźwiedzia przeciw ciężkiej zbroi lub grupom od trzech, inaczej ogara. Wspólny limit mapy wynosi 12 przyzwanych. Podążają za właścicielem po dostępnej ziemi, bez utrzymania i łupów, nie przechodzą do kolejnej misji.
 
+### Trwali towarzysze
+
+Rzeczywisty wkład we wspólną niebezpieczną walkę tworzy obustronne braterstwo. Skuteczne leczenie, obrażenia pochłonięte przez tarczę lub przyjęte za ciężko rannego bohatera mogą pozostawić dług uratowanego wobec pomocnika; powtarzana współpraca uzupełniających się ról może stworzyć obustronne partnerstwo. Bohater zachowuje do trzech ważnych towarzyszy w zapisach i etapach kampanii przenoszących bohaterów. Słabe więzi zanikają bez kontaktu; śmierć lub trwałe odejście usuwa dotyczące ich relacje. Sam udział w łupach, stanie w pobliżu, nieskuteczna pomoc i anulowane flagi nie wzmacniają więzi. Ukończona wspólna praca trafia do historii bohatera; relacje nie dają stałych premii do ataku ani pancerza.
+
+### Zaproszenia towarzyszy
+
+Bohater zgłaszający się po nagrodę za wrogą twierdzę może zaprosić do trzech pobliskich wolnych towarzyszy. Każdy ocenia aktualne zdrowie, zapasy, zagrożenie, drogę i przewidywaną część nagrody, a także może wybrać inne zajęcie. Oczekujące zaproszenia rezerwują ograniczone miejsca zbiórki, zostawiając miejsce innym ochotnikom. Wygasają i mają odstęp między kolejnymi zaproszeniami; nie zaczynają zbiórki od nowa ani nie przerywają odpoczynku, ratunku, walki czy innych zadań. Przyjęcie i odmowa nie zmieniają siły więzi. Zapis zachowuje obecne zaproszenia; nowa mapa kampanii usuwa zaproszenia i odstępy, zachowując tożsamości.
+
+### Towarzysze w drodze
+
+Bohaterowie zachowują własne trasy i decyzje o odwrocie. W bezpiecznym marszu na twierdzę czekają raz na pobliskiego spóźnionego towarzysza, najwyżej osiem sekund. Wsparcie wybiera bezpiecznie dostępnych towarzyszy, przestaje podążać, gdy praca się zmienia lub staje niebezpieczna, i nie przekracza zwykłego zasięgu. Strata pozostawia krótką ograniczoną ostrożność w miejscu śmierci oraz zapis w historii, bez wzrostu niezadowolenia. Zapis zachowuje pierwotny termin; nowa mapa usuwa oczekiwanie.
+
+### Zrozumieć towarzyszy
+
+Szczegóły bohatera pokazują do trzech towarzyszy, źródło więzi oraz wspólną pracę, pobyt gdzie indziej w królestwie lub w rezerwie. Szczegóły nagrody pokazują odpowiedzi, powody odmowy i pozostały pierwotny czas. Imiona żywych towarzyszy pozwalają ich odnaleźć. Ważne ratunki, współpraca i straty trafiają do kroniki i historii końcowych; powtarzane wiadomości są łączone, śmierć i stałe odejście rozróżniane.
+
 <!-- BEGIN COMBAT PAIRINGS -->
 ### Zestawienia bojowe
 

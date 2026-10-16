@@ -10,22 +10,34 @@ Enemy Strongholds are enemy bases scattered across the map. They keep guards of 
 
 | Stronghold | Spawned Enemies | Size | Restriction |
 |------------|----------------|------|-------------|
-| **Slime Pool** | Slime | 11 tiles | -- |
+| **Slime Pool** | Slime / Fission Slime | 11 tiles | -- |
 | **Goblin Tent** | Goblin / Dire Wolf / Goblin Archer | 11 tiles | -- |
-| **Goblin Fortress** | Goblin / Orc Brute / Goblin Archer / Troll | 23 tiles | One per map |
+| **Goblin Fortress** | Goblin / Orc Brute / Goblin Archer / Troll / Pikeman / Shieldbearer / Sapper / Siege Beast / Goblin Shaman | 23 tiles | One per map |
 | **Graveyard** | Skeleton / Zombie | 11 tiles | -- |
-| **Undead Castle** | Zombie / Skeleton / Dark Cultist | 23 tiles | One per map |
+| **Undead Castle** | Skeleton / Zombie / Dark Cultist / Enemy Necromancer / Wraith Hunter / Vampire Bat | 23 tiles | One per map |
 | **Dragon Nest** | Dragon / Harpy | 16 tiles | -- |
-| **Spider Nest** | Giant Spider / Giant Rat | 11 tiles | -- |
-| **Bandit Camp** | Bandit / Dire Wolf | 11 tiles | -- |
-| **Sand Tomb** | Sand Wraith / Skeleton | 13 tiles | -- |
+| **Spider Nest** | Giant Spider / Giant Rat / Venom Spitter | 11 tiles | -- |
+| **Bandit Camp** | Bandit / Dire Wolf / Bandit Saboteur | 11 tiles | -- |
+| **Sand Tomb** | Sand Wraith / Skeleton / Venom Scorpion / Sand Guardian | 13 tiles | -- |
 | **Wolf Den** | Dire Wolf | 11 tiles | -- |
-| **Orc War Camp** | Orc Brute / Goblin | 13 tiles | -- |
+| **Orc War Camp** | Orc Brute / Goblin / Pikeman / Shieldbearer / Sapper / Siege Beast | 13 tiles | -- |
 | **Goblin Watchtower** | Goblin Archer / Goblin | 9 tiles | -- |
-| **Dark Shrine** | Dark Cultist / Skeleton | 11 tiles | -- |
+| **Dark Shrine** | Dark Cultist / Skeleton / Hex Binder | 11 tiles | -- |
 | **Troll Cave** | Troll | 13 tiles | -- |
 | **Rat Warren** | Giant Rat | 9 tiles | -- |
 | **Harpy Roost** | Harpy | 11 tiles | -- |
+| **Armored Barracks** | Shieldbearer / Pikeman / Goblin Archer / Goblin Shaman | 13 tiles | -- |
+| **Plague Hatchery** | Fission Slime / Venom Spitter / Hex Binder / Vampire Bat | 11 tiles | -- |
+| **Siege Camp** | Siege Beast / Sapper / Goblin Archer / Shieldbearer | 15 tiles | -- |
+| **Shaman Hut** | Goblin Shaman / Goblin / Goblin Archer | 9 tiles | -- |
+| **Saboteur Hideout** | Bandit Saboteur / Bandit | 9 tiles | -- |
+| **Scorpion Burrow** | Venom Scorpion | 11 tiles | -- |
+| **Sunken Sanctum** | Sand Guardian / Skeleton | 13 tiles | -- |
+| **Necromancer's Crypt** | Enemy Necromancer / Skeleton / Zombie | 11 tiles | -- |
+| **Wraith Barrow** | Wraith Hunter / Skeleton | 11 tiles | -- |
+| **Spitter Bog** | Venom Spitter / Slime | 11 tiles | -- |
+| **Hex Circle** | Hex Binder / Dark Cultist | 11 tiles | -- |
+| **Bat Cave** | Vampire Bat | 11 tiles | -- |
 | **Rebel Guild** | Bandit | 9 tiles | Event only |
 
 :::note[One Per Map]
@@ -89,13 +101,14 @@ Strongholds are grouped by faction. In sandbox mode, you can select specific fac
 
 | Faction | Included Strongholds |
 |---------|---------------------|
-| **Slime** | Slime Pool |
-| **Goblin** | Goblin Tent, Goblin Fortress, Goblin Watchtower, Orc War Camp |
-| **Undead** | Graveyard, Undead Castle, Dark Shrine |
+| **Slime** | Slime Pool, Plague Hatchery, Spitter Bog |
+| **Goblin** | Goblin Tent, Goblin Fortress, Goblin Watchtower, Orc War Camp, Shaman Hut |
+| **Undead** | Graveyard, Undead Castle, Dark Shrine, Necromancer's Crypt, Wraith Barrow, Hex Circle |
 | **Dragon** | Dragon Nest |
-| **Beast** | Spider Nest, Wolf Den, Rat Warren, Troll Cave, Harpy Roost |
-| **Bandit** | Bandit Camp |
-| **Desert** | Sand Tomb |
+| **Beast** | Spider Nest, Wolf Den, Rat Warren, Troll Cave, Harpy Roost, Bat Cave |
+| **Bandit** | Bandit Camp, Saboteur Hideout |
+| **Desert** | Sand Tomb, Scorpion Burrow, Sunken Sanctum |
+| **Legion** | Armored Barracks, Siege Camp |
 
 ---
 
@@ -109,11 +122,23 @@ Each stronghold raids by its kind:
 | **Goblin Tent** | 8:00 | 5:00 | 3, one more each raid, 6 at most | the town |
 | **Bandit Camp** | 6:00 | 4:00 | 2, one more each raid, 5 at most | the trade road (the nearest Trading Post), else the town |
 | **Goblin Fortress** | 11:00 | 6:00 | 4, one more each raid, 8 at most | the town |
-| **Orc War Camp** | 10:00 | 6:00 | 2, one more each raid, 5 at most | the town |
+| **Orc War Camp** | 10:00 | 6:00 | 2, one more each raid, 5 at most | what is being built, else the castle |
 | **Goblin Watchtower** | 8:00 | 5:00 | 3, one more each raid, 6 at most | the town |
 | **Dark Shrine** | 11:00 | 7:00 | 2, one more each raid, 4 at most | the town |
 | **Troll Cave** | 14:00 | 10:00 | 1 | the town |
 | **Harpy Roost** | 9:00 | 6:00 | 2, one more each raid, 4 at most | the town |
+| **Armored Barracks** | 9:00 | 6:00 | 4, one more each raid, 8 at most | the town |
+| **Plague Hatchery** | 8:00 | 5:30 | 3, one more each raid, 7 at most | the town |
+| **Siege Camp** | 12:00 | 8:00 | 3, one more each raid, 6 at most | what is being built, else the castle |
+| **Shaman Hut** | 9:00 | 6:00 | 2, one more each raid, 5 at most | the town |
+| **Saboteur Hideout** | 8:00 | 5:00 | 2, one more each raid, 4 at most | what is being built, else the castle |
+| **Scorpion Burrow** | — | — | none | — |
+| **Sunken Sanctum** | 12:00 | 8:00 | 2, one more each raid, 4 at most | the town |
+| **Necromancer's Crypt** | 11:00 | 7:00 | 2, one more each raid, 5 at most | the town |
+| **Wraith Barrow** | 10:00 | 6:30 | 2, one more each raid, 4 at most | the town |
+| **Spitter Bog** | 9:00 | 6:00 | 2, one more each raid, 4 at most | the town |
+| **Hex Circle** | 11:00 | 7:00 | 2, one more each raid, 4 at most | the town |
+| **Bat Cave** | 8:00 | 5:00 | 3, one more each raid, 6 at most | the town |
 
 - Every raid is announced 30 seconds ahead in the chronicle, with the lair's place once your heroes have seen it; an unseen lair is announced without one, so scouting pays.
 - A raid sets out as one party from beside the lair. Easy sends one raider fewer, hard two more.

@@ -155,3 +155,21 @@ Gnashfang llama una pica y un escudo por vez, cuatro por vida. Siguen su centro 
 **Criadero de peste** — Frente que se divide con zonas de veneno avisadas y maleficios. Evita zonas, purifica y prepárate para los hijos limitados. 2200 HP. Guarnición: Limo fisible, Escupidor de veneno, Ligador de maleficios. Ciclo de incursión: Limo fisible, Escupidor de veneno, Ligador de maleficios, Murciélago vampiro, Escupidor de veneno, Limo fisible. Terreno nativo: Bosque, Pantano. Primera incursión 8:00, luego cada 5:30; empieza con 3 tropas, aumenta una hasta 7. Arrasar detiene nuevos guardias y ataques; las tropas vivas permanecen.
 
 **Campamento de asedio** — Bestia de asedio, arqueros y escudos protegen el campamento. Los zapadores se unen a ataques contra obras, o el castillo si no hay obras. Intercepta y destruye la fuente. 3800 HP. Guarnición: Bestia de asedio, Arquero goblin, Portaescudo. Ciclo de incursión: Bestia de asedio, Zapador, Arquero goblin, Portaescudo, Zapador, Arquero goblin. Terreno nativo: Desierto, Pradera. Primera incursión 12:00, luego cada 8:00; empieza con 3 tropas, aumenta una hasta 6. Arrasar detiene nuevos guardias y ataques; las tropas vivas permanecen.
+
+**Choza del Chamán** — Un chamán goblin mantiene en pie a la banda de la choza y cura a sus heridos seis veces como mucho; goblins y arqueros marchan en sus incursiones. Mata primero al chamán.
+
+**Escondite del Saboteador** — Los saboteadores atacan lo que se está construyendo, y el castillo cuando no hay obras: derriban muros deprisa pero llevan armadura ligera. Protege la obra lejana o sal a su encuentro.
+
+**Madriguera de Escorpiones** — Los escorpiones venenosos cazan cerca de su madriguera y dejan en paz al pueblo. Su picadura envenena: lleva antídotos, o un altar de purificación, antes de limpiarla.
+
+**Santuario Hundido** — Los guardianes de arenisca despiertan en el santuario y marchan despacio sobre el pueblo. Cada uno se escuda una vez a media vida: desgástalos a distancia o con veneno.
+
+**Cripta del Nigromante** — Los nigromantes alzan esqueletos mientras ven héroes, así que sus incursiones crecen al marchar. Mata primero al invocador; sus esqueletos no alzan más.
+
+**Túmulo Espectral** — Los cazadores espectrales rebasan la primera línea en busca de arqueros, magos y sanadores. Pon a los frágiles tras un muro de escudos o frena a los cazadores.
+
+**Ciénaga del Escupidor** — Los escupidores de veneno contaminan el suelo desde lejos, tres segundos después del aviso. Sal de la marca, lleva antídotos y mata primero a los escupidores.
+
+**Círculo de Maleficios** — Los ligadores de maleficios marcan a los héroes para que reciban más daño un momento, y los sectarios marchan con ellos. Una purificación quita el maleficio; golpea a los ligadores antes de que caiga.
+
+**Cueva de Murciélagos** — Los murciélagos vampiro salen en tropel y se curan con lo que muerden. Los escudos les niegan el festín; arqueros y torres los derriban.
