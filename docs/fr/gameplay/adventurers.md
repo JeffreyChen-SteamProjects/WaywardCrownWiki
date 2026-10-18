@@ -246,6 +246,8 @@ Chaque aventurier possède quatre valeurs de personnalité (0,0 – 1,0) qui inf
 | **Gloire (glory)** | Des valeurs élevées signifient que l'aventurier préfère les missions de combat |
 | **Curiosité (curiosity)** | Des valeurs élevées signifient que l'aventurier préfère l'exploration |
 
+Les détails d'un héros donnent chaque valeur en un mot : **faible** sous 0,35, **modérée** jusqu'à 0,7, **forte** à partir de 0,7.
+
 **Formule d'attraction des primes** :
 
 ```

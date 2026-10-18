@@ -246,6 +246,8 @@ Each adventurer has four personality values (0.0 – 1.0) that influence whether
 | **Glory (glory)** | Higher values mean the adventurer prefers combat missions |
 | **Curiosity (curiosity)** | Higher values mean the adventurer prefers exploration |
 
+A hero's details show each value as a word: **low** under 0.35, **moderate** up to 0.7, **high** from 0.7.
+
 **Bounty Attraction Formula**:
 
 ```

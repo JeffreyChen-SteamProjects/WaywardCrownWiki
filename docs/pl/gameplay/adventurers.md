@@ -246,6 +246,8 @@ Każdy poszukiwacz przygód ma cztery wartości osobowości (0,0 – 1,0), któr
 | **Chwała (glory)** | Wyższe wartości oznaczają, że poszukiwacz przygód preferuje misje bojowe |
 | **Ciekawość (curiosity)** | Wyższe wartości oznaczają, że poszukiwacz przygód preferuje eksplorację |
 
+Szczegóły bohatera podają każdą wartość słowem: **niska** poniżej 0,35, **umiarkowana** do 0,7, **wysoka** od 0,7.
+
 **Formuła atrakcyjności zlecenia**:
 
 ```

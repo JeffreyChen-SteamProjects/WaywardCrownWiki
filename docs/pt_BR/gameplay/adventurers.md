@@ -246,6 +246,8 @@ Cada aventureiro tem quatro valores de personalidade (0.0 – 1.0) que influenci
 | **Glória (glory)** | Valores mais altos significam que o aventureiro prefere missões de combate |
 | **Curiosidade (curiosity)** | Valores mais altos significam que o aventureiro prefere exploração |
 
+Os detalhes de um herói mostram cada valor em uma palavra: **baixa** abaixo de 0,35, **moderada** até 0,7 e **alta** a partir de 0,7.
+
 **Fórmula de Atração de Recompensa**:
 
 ```

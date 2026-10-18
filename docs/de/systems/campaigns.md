@@ -190,7 +190,7 @@ Im freien Spiel ist eine endliche Goblinzelt-Erweiterung optional und zunächst 
 
 Gerüst, Depot und Ruine haben eigene Silhouetten und bewegten Stoff; reduzierte Bewegung hält ihn still. Der Kurier hämmert nur bei tatsächlichem Baufortschritt. Sichtung von Konvoi, Baustelle, Fertigstellung und Ruine hat eigene Symbole und Töne. Verborgene Änderungen und Laden wiederholen keine Meldung. Kleine Autorenformulare und Informationen sind scrollbar, das Informationsfeld auch per Tastatur.
 
-Transportboten warten, bis bewegliche Einheiten die Fläche eines neuen Außenpostens verlassen; die Lieferfrist verlängert sich dadurch nicht. Boten und Begleiter halten außerhalb der geplanten Fläche.
+Transportboten warten bis zu 10 Sekunden, bis bewegliche Einheiten die Fläche eines neuen Außenpostens verlassen, nie über die Lieferfrist hinaus; danach liefern sie trotzdem, und wer noch dort steht, wird auf das nächste freie Feld versetzt. Boten und Begleiter halten außerhalb der geplanten Fläche.
 
 Nach der Bergung an einem alten Signalfeuer bauen Bautrupps es nicht kostenlos wieder auf; Bergung und Reparatur schließen einander aus.
 
@@ -211,4 +211,4 @@ Kartenregeln und Kampagnenabschnitte teilen einen Relikteditor für höchstens z
 **Verlorene Station**
 
 - Versorgung wiederaufbauen: Stellt 6 gemeinsame bezahlte Versorgungskäufe auf Stufe 1 wieder her: Heilung, Tränke oder Alchemiereagenzien zu normalen Preisen. Kein regelmäßiges Einkommen oder Ausbau. Aufbau und Rettung schließen sich aus.
-- Überlebenden begleiten: Freiwillige müssen den ursprünglichen Überlebenden zum sicheren Schloss begleiten. Beitrittschance 75%, bei Finanzierung festgelegt: ein Waldläufer nur bei erlaubter Klasse und Ausrichtung sowie freiem Platz in einer fertigen Waldläuferhütte bei Ankunft. Die Schatzkammer erhält in jedem Fall 0 Gold; keine Warteliste. Rettung und Aufbau schließen sich aus.
+- Überlebenden begleiten: Freiwillige müssen den ursprünglichen Überlebenden zum sicheren Schloss begleiten. Beitrittschance 75%, bei Finanzierung festgelegt: ein Waldläufer nur bei erlaubter Klasse und Ausrichtung sowie freiem Platz in einer fertigen Waldläuferhütte bei Ankunft. Die Schatzkammer erhält in jedem Fall 120 Gold; keine Warteliste. Rettung und Aufbau schließen sich aus.

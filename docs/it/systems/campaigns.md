@@ -190,7 +190,7 @@ Il gioco libero offre un’espansione finita delle tende goblin, disattivata ini
 
 Impalcatura, deposito e rovina hanno sagome distinte e stoffa animata, ferma con movimento ridotto. Il corriere martella solo durante lavoro reale. Avvistamento di convoglio e osservazione di cantiere, completamento e rovina hanno icone e suoni propri; cambiamenti nascosti e caricamento non ripetono avvisi. Moduli compatti e informazioni scorrono, il pannello anche da tastiera.
 
-I corrieri attendono che le unità mobili liberino l’area del nuovo avamposto senza prolungare la scadenza di consegna. Corrieri e scorte si fermano fuori dall’area prevista.
+I corrieri attendono fino a 10 secondi che le unità mobili liberino l’area del nuovo avamposto, mai oltre la scadenza di consegna; poi consegnano comunque e chi è ancora lì viene spostato sulla casella libera più vicina. Corrieri e scorte si fermano fuori dall’area prevista.
 
 Dopo il recupero dei materiali da un antico faro, le squadre non lo restaurano gratuitamente; recupero e riparazione sono scelte alternative.
 
@@ -211,4 +211,4 @@ Regole della mappa e livelli condividono un editor per due siti originali al mas
 **Stazione perduta**
 
 - Ricostruire i rifornimenti: Ripristina 6 acquisti condivisi a pagamento di livello 1: cure, pozioni o reagenti ai prezzi ordinari. Nessun reddito periodico o potenziamento. Ricostruzione e soccorso si escludono.
-- Scortare il superstite: Volontari devono scortare il superstite originale al castello sicuro. Probabilità di adesione 75%, fissata al finanziamento: un ranger solo con classe e via consentite e posto in un rifugio completato all'arrivo. Il tesoro riceve 0 oro con o senza adesione; nessun reclutamento in attesa. Soccorso e ricostruzione si escludono.
+- Scortare il superstite: Volontari devono scortare il superstite originale al castello sicuro. Probabilità di adesione 75%, fissata al finanziamento: un ranger solo con classe e via consentite e posto in un rifugio completato all'arrivo. Il tesoro riceve 120 oro con o senza adesione; nessun reclutamento in attesa. Soccorso e ricostruzione si escludono.

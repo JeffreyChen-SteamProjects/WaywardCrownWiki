@@ -190,7 +190,7 @@ Le jeu libre propose une expansion limitée des tentes gobelines, désactivée p
 
 Échafaudage, dépôt et ruine ont des silhouettes distinctes et une étoffe animée, fixe en mouvement réduit. Le messager martèle seulement pendant le travail réel. Découverte de convoi et observation de chantier, achèvement ou ruine ont leurs icônes et sons ; changements cachés et chargement ne répètent pas les avis. Les formulaires compacts et les renseignements défilent, aussi au clavier dans le panneau.
 
-Les coursiers attendent que les unités mobiles quittent le terrain du nouvel avant-poste, sans prolonger le délai de livraison. Les coursiers et leurs escortes s’arrêtent hors du terrain prévu.
+Les coursiers attendent jusqu’à 10 secondes que les unités mobiles quittent le terrain du nouvel avant-poste, jamais au-delà du délai de livraison ; ensuite ils livrent quand même et ceux qui s’y trouvent encore sont déplacés sur la case libre la plus proche. Les coursiers et leurs escortes s’arrêtent hors du terrain prévu.
 
 Après la récupération des matériaux d’une ancienne balise, les équipes ne la restaurent pas gratuitement ; récupération et réparation restent incompatibles.
 
@@ -211,4 +211,4 @@ Les règles de carte et les niveaux partagent un éditeur pour deux sites origin
 **Relais perdu**
 
 - Reconstruire le ravitaillement: Rétablit 6 achats payants partagés de niveau 1 : soins, potions ou réactifs aux prix ordinaires. Aucun revenu périodique ni amélioration. Reconstruction et secours s'excluent.
-- Escorter le survivant: Des volontaires doivent escorter le survivant d'origine au château sûr. Chance d'adhésion 75%, fixée au financement : un rôdeur seulement si classe et voie sont autorisées et un pavillon achevé a une place à l'arrivée. Le trésor reçoit 0 pièces, avec ou sans adhésion ; aucun recrutement différé. Secours et reconstruction s’excluent.
+- Escorter le survivant: Des volontaires doivent escorter le survivant d'origine au château sûr. Chance d'adhésion 75%, fixée au financement : un rôdeur seulement si classe et voie sont autorisées et un pavillon achevé a une place à l'arrivée. Le trésor reçoit 120 pièces, avec ou sans adhésion ; aucun recrutement différé. Secours et reconstruction s’excluent.

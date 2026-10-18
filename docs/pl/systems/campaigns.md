@@ -190,7 +190,7 @@ Swobodna gra oferuje ograniczoną ekspansję namiotów goblinów, domyślnie wy�
 
 Rusztowanie, magazyn i ruina mają odrębne sylwetki i ruchomą tkaninę, nieruchomą przy ograniczeniu ruchu. Kurier używa młotka tylko podczas rzeczywistej pracy. Dostrzeganie konwoju, budowy, ukończenia i ruiny ma własne ikony i dźwięki. Ukryte zmiany i wczytanie nie powtarzają powiadomień. Małe formularze i wywiad można przewijać, panel również klawiaturą.
 
-Kurierzy czekają, aż ruchome jednostki opuszczą teren nowej placówki, bez przedłużania terminu dostawy. Kurierzy i eskorta zatrzymują się poza planowanym terenem.
+Kurierzy czekają do 10 sekund, aż ruchome jednostki opuszczą teren nowej placówki, nigdy dłużej niż do terminu dostawy; potem i tak dostarczają, a kto tam jeszcze stoi, zostaje przeniesiony na najbliższe wolne pole. Kurierzy i eskorta zatrzymują się poza planowanym terenem.
 
 Po odzyskaniu materiałów ze starożytnej wieży sygnałowej ekipy nie odbudują jej za darmo; odzysk i naprawa wykluczają się wzajemnie.
 
@@ -211,4 +211,4 @@ Reguły mapy i poziomy korzystają z edytora do dwóch pierwotnych miejsc, stał
 **Opuszczona stacja**
 
 - Odbuduj zaopatrzenie: Przywraca 6 wspólnych płatnych zakupów poziomu 1: leczenie, mikstury lub odczynniki po zwykłych cenach. Brak okresowego dochodu i ulepszeń. Odbudowa i ratunek wykluczają się.
-- Eskortuj ocalałego: Ochotnicy muszą eskortować pierwotnego ocalałego do bezpiecznego zamku. Szansa dołączenia 75% jest ustalana przy finansowaniu: jeden zwiadowca tylko przy dozwolonej klasie i drodze oraz wolnym miejscu w ukończonej siedzibie po przybyciu. Skarbiec otrzymuje 0 złota niezależnie od dołączenia; brak oczekującego naboru. Ratunek wyklucza odbudowę.
+- Eskortuj ocalałego: Ochotnicy muszą eskortować pierwotnego ocalałego do bezpiecznego zamku. Szansa dołączenia 75% jest ustalana przy finansowaniu: jeden zwiadowca tylko przy dozwolonej klasie i drodze oraz wolnym miejscu w ukończonej siedzibie po przybyciu. Skarbiec otrzymuje 120 złota niezależnie od dołączenia; brak oczekującego naboru. Ratunek wyklucza odbudowę.

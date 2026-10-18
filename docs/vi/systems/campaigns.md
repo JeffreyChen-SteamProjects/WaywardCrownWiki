@@ -190,7 +190,7 @@ Chơi tự do có tùy chọn mở rộng lều goblin hữu hạn, mặc địn
 
 Giàn giáo, kho và phế tích có hình dáng riêng cùng vải chuyển động; giảm chuyển động giữ vải đứng yên. Người vận chuyển chỉ gõ búa khi xây dựng thực sự tiến triển. Phát hiện đoàn và quan sát công trình, hoàn tất, phế tích có biểu tượng và âm thanh riêng. Thay đổi ẩn và tải không lặp thông báo. Biểu mẫu nhỏ và thông tin có thể cuộn, bảng thông tin cũng cuộn bằng bàn phím.
 
-Người vận chuyển chờ đơn vị di chuyển rời khỏi khu đất tiền đồn mới mà không kéo dài hạn giao hàng. Người vận chuyển và hộ vệ dừng bên ngoài khu đất dự kiến.
+Người vận chuyển chờ tối đa 10 giây để đơn vị di chuyển rời khỏi khu đất tiền đồn mới, không bao giờ quá hạn giao hàng; sau đó vẫn giao, và ai còn đứng ở đó sẽ được dời sang ô trống gần nhất. Người vận chuyển và hộ vệ dừng bên ngoài khu đất dự kiến.
 
 Sau khi thu hồi vật liệu từ tháp báo hiệu cổ, đội xây dựng không khôi phục miễn phí; thu hồi và sửa chữa là hai lựa chọn loại trừ nhau.
 
@@ -211,4 +211,4 @@ Quy tắc bản đồ và màn chiến dịch dùng chung trình sửa tối đa
 **Trạm thất lạc**
 
 - Xây lại tiếp tế: Khôi phục 6 lượt mua tiếp tế chung có phí cấp 1: chữa trị, thuốc hoặc hóa chất luyện kim với giá thường. Không thu nhập định kỳ hay nâng cấp. Xây lại và cứu hộ loại trừ nhau.
-- Hộ tống người sống sót: Người tình nguyện phải hộ tống người sống sót gốc về lâu đài an toàn. Cơ hội gia nhập 75%, cố định lúc tài trợ: một kiểm lâm thường chỉ khi nghề và đường lối được phép, nhà kiểm lâm hoàn tất có chỗ lúc đến. Kho bạc nhận 0 vàng dù có gia nhập hay không; không giữ lượt tuyển sau. Cứu hộ loại trừ xây lại.
+- Hộ tống người sống sót: Người tình nguyện phải hộ tống người sống sót gốc về lâu đài an toàn. Cơ hội gia nhập 75%, cố định lúc tài trợ: một kiểm lâm thường chỉ khi nghề và đường lối được phép, nhà kiểm lâm hoàn tất có chỗ lúc đến. Kho bạc nhận 120 vàng dù có gia nhập hay không; không giữ lượt tuyển sau. Cứu hộ loại trừ xây lại.

@@ -246,6 +246,8 @@ Jeder Abenteurer hat vier Persönlichkeitswerte (0,0 – 1,0), die beeinflussen,
 | **Ruhm (glory)** | Höhere Werte bedeuten, dass der Abenteurer Kampfmissionen bevorzugt |
 | **Neugier (curiosity)** | Höhere Werte bedeuten, dass der Abenteurer Erkundung bevorzugt |
 
+In den Details eines Helden steht jeder Wert als Wort: **schwach** unter 0,35, **mäßig** bis 0,7, **stark** ab 0,7.
+
 **Auftragsanziehungsformel**:
 
 ```

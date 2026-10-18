@@ -190,7 +190,7 @@ O jogo livre oferece expansão finita das tendas goblins, desligada por padrão.
 
 Andaime, depósito e ruína têm silhuetas distintas e tecido animado, parado com movimento reduzido. O mensageiro martela apenas durante trabalho real. Descoberta de comboio e observação de obra, conclusão e ruína têm ícones e sons próprios; mudanças ocultas e carregar não repetem avisos. Formulários compactos e painel de informações permitem rolagem, também pelo teclado no painel.
 
-Os mensageiros esperam que as unidades móveis deixem a área do novo posto sem estender o prazo de entrega. Mensageiros e escoltas param fora da área planejada.
+Os mensageiros esperam até 10 segundos que as unidades móveis deixem a área do novo posto, nunca além do prazo de entrega; depois entregam mesmo assim e quem ainda estiver lá vai para a casa livre mais próxima. Mensageiros e escoltas param fora da área planejada.
 
 Depois de recuperar materiais de um farol antigo, as equipes não o restauram de graça; recuperação e reparo são escolhas mutuamente exclusivas.
 
@@ -211,4 +211,4 @@ Regras de mapa e fases compartilham um editor para até dois locais originais, o
 **Estação perdida**
 
 - Reconstruir suprimentos: Restaura 6 compras pagas compartilhadas de nível 1: cura, poções ou reagentes a preços normais. Sem renda periódica ou melhorias. Reconstrução e resgate são exclusivos.
-- Escoltar o sobrevivente: Voluntários devem escoltar o sobrevivente original ao castelo seguro. Chance de ingresso 75%, fixada ao financiar: um patrulheiro somente com classe e caminho permitidos e vaga em alojamento concluído na chegada. O tesouro recebe 0 ouro com ou sem ingresso; sem recrutamento em espera. Resgate e reconstrução são exclusivos.
+- Escoltar o sobrevivente: Voluntários devem escoltar o sobrevivente original ao castelo seguro. Chance de ingresso 75%, fixada ao financiar: um patrulheiro somente com classe e caminho permitidos e vaga em alojamento concluído na chegada. O tesouro recebe 120 ouro com ou sem ingresso; sem recrutamento em espera. Resgate e reconstrução são exclusivos.

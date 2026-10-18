@@ -246,6 +246,8 @@ Ogni avventuriero ha quattro valori di personalità (0,0 – 1,0) che influenzan
 | **Gloria (glory)** | Valori più alti significano che l'avventuriero preferisce missioni di combattimento |
 | **Curiosità (curiosity)** | Valori più alti significano che l'avventuriero preferisce l'esplorazione |
 
+Nei dettagli di un eroe ogni valore è una parola: **bassa** sotto 0,35, **moderata** fino a 0,7, **alta** da 0,7.
+
 **Formula di attrazione della taglia**:
 
 ```

@@ -190,7 +190,7 @@ Free play offers an optional finite Goblin Tent expansion switch, off by default
 
 Logistics sites show distinct scaffolding, depot and ruin silhouettes with moving cloth; reduced motion holds the cloth still. The courier hammers only while real construction advances. Convoy discovery and observed construction, completion and ruin have their own icons and sounds; hidden changes stay silent, and loading does not repeat an observed notice. Author forms scroll at small sizes, and the intelligence panel supports keyboard scrolling.
 
-Couriers wait for moving units to clear a new outpost's footprint without extending the delivery deadline. Couriers and escorts stop outside the planned site.
+Couriers wait up to 10 seconds for moving units to clear a new outpost's footprint, never past the delivery deadline; then they deliver anyway and whoever still stands there is moved to the nearest free tile. Couriers and escorts stop outside the planned site.
 
 After salvaging an ancient beacon, crews cannot restore it for free; salvage and repair remain mutually exclusive.
 
@@ -211,4 +211,4 @@ Map rules and campaign levels share a relic editor for up to two original sites,
 **Lost station**
 
 - Rebuild supplies: Restore 6 shared paid level-one supply purchases: healing, potions or alchemy reagents at ordinary prices. No periodic income or upgrades. Rebuilding excludes rescue.
-- Escort the survivor: Volunteers must escort the original survivor to the safe castle. Joining chance 75%, fixed when funded: one Ranger only with permitted class, path and a finished Ranger Lodge vacancy at arrival. The crown reward is 0 gold regardless of joining; no waiting recruit. Rescue excludes rebuilding.
+- Escort the survivor: Volunteers must escort the original survivor to the safe castle. Joining chance 75%, fixed when funded: one Ranger only with permitted class, path and a finished Ranger Lodge vacancy at arrival. The crown reward is 120 gold regardless of joining; no waiting recruit. Rescue excludes rebuilding.

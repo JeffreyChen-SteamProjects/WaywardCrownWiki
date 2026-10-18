@@ -190,7 +190,7 @@ El juego libre permite activar la expansión finita de tiendas goblin; está des
 
 Andamio, depósito y ruina tienen siluetas distintas y tela animada, inmóvil con movimiento reducido. El mensajero martilla solo durante trabajo real. Descubrir convoyes y observar obras, finalización o ruinas tiene iconos y sonidos propios; cambios ocultos y cargar no repiten avisos. Formularios compactos y panel de inteligencia permiten desplazamiento, también por teclado en el panel.
 
-Los mensajeros esperan a que las unidades móviles despejen el terreno del nuevo puesto sin ampliar el plazo de entrega. Los mensajeros y sus escoltas se detienen fuera del terreno previsto.
+Los mensajeros esperan hasta 10 segundos a que las unidades móviles despejen el terreno del nuevo puesto, nunca más allá del plazo de entrega; después entregan igualmente y quien siga allí pasa a la casilla libre más cercana. Los mensajeros y sus escoltas se detienen fuera del terreno previsto.
 
 Tras recuperar materiales de una antigua almenara, las cuadrillas no la restauran gratis; la recuperación y la reparación son opciones excluyentes.
 
@@ -211,4 +211,4 @@ Las reglas de mapa y los niveles comparten un editor para hasta dos sitios origi
 **Puesto perdido**
 
 - Reconstruir suministros: Restaura 6 compras pagadas compartidas de nivel 1: curación, pociones o reactivos a precios normales. Sin ingresos periódicos ni mejoras. Reconstrucción y rescate se excluyen.
-- Escoltar al superviviente: Voluntarios deben escoltar al superviviente original al castillo seguro. Probabilidad de unión 75%, fijada al financiar: un explorador solo con clase y senda permitidas y una plaza en un refugio terminado al llegar. La corona recibe 0 de oro con o sin unión; no hay reclutamiento pendiente. Rescate y reconstrucción se excluyen.
+- Escoltar al superviviente: Voluntarios deben escoltar al superviviente original al castillo seguro. Probabilidad de unión 75%, fijada al financiar: un explorador solo con clase y senda permitidas y una plaza en un refugio terminado al llegar. La corona recibe 120 de oro con o sin unión; no hay reclutamiento pendiente. Rescate y reconstrucción se excluyen.

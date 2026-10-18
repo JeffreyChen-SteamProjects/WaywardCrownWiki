@@ -190,7 +190,7 @@ Serbest oyunda sonlu goblin çadırı genişlemesi isteğe bağlıdır ve başla
 
 İskele, depo ve harabe ayrı siluetler ve hareketli kumaş taşır; azaltılmış hareket kumaşı durdurur. Kurye yalnızca gerçek çalışma ilerlerken çekiç kullanır. Konvoy keşfi ve gözlenen inşaat, tamamlanma ve harabe kendi simge ve seslerine sahiptir. Gizli değişimler ve yükleme bildirimleri tekrarlamaz. Küçük yazar formları ve istihbarat kaydırılabilir; bilgi paneli klavyeyle de kaydırılır.
 
-Kuryeler hareketli birimlerin yeni karakol alanından çıkmasını bekler; teslim süresi uzatılmaz. Kuryeler ve muhafızlar planlanan alanın dışında durur.
+Kuryeler hareketli birimlerin yeni karakol alanından çıkmasını en fazla 10 saniye bekler, teslim süresini asla aşmaz; sonra yine de teslim eder ve orada hâlâ duran olursa en yakın boş kareye taşınır. Kuryeler ve muhafızlar planlanan alanın dışında durur.
 
 Antik işaret kulesinden malzeme toplandıktan sonra ekipler onu ücretsiz onaramaz; malzeme toplama ve onarım birbirini dışlayan seçeneklerdir.
 
@@ -211,4 +211,4 @@ Harita kuralları ve bölümler en çok iki ilk konumu, sabit seçenekleri ve s�
 **Kayıp istasyon**
 
 - İkmali yeniden kur: Normal fiyatlarla tedavi, iksir veya simya malzemesi için ortak 6 ücretli seviye 1 alımını yeniler. Dönemsel gelir veya yükseltme yoktur. Yeniden kurma ve kurtarma birbirini dışlar.
-- Sağ kalana eşlik et: Gönüllüler asıl sağ kalanı güvenli kaleye götürmelidir. Katılım şansı %75, finansmanda sabitlenir: izinli sınıf ve yol ile varışta tamamlanmış Kolcu locasında boş yer varsa bir normal Kolcu katılır. Katılımdan bağımsız olarak hazine 0 altın alır; bekleyen alım yoktur. Kurtarma yeniden kurmayı dışlar.
+- Sağ kalana eşlik et: Gönüllüler asıl sağ kalanı güvenli kaleye götürmelidir. Katılım şansı %75, finansmanda sabitlenir: izinli sınıf ve yol ile varışta tamamlanmış Kolcu locasında boş yer varsa bir normal Kolcu katılır. Katılımdan bağımsız olarak hazine 120 altın alır; bekleyen alım yoktur. Kurtarma yeniden kurmayı dışlar.

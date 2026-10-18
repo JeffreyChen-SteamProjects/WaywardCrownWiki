@@ -246,6 +246,8 @@ Mỗi nhà phiêu lưu có bốn giá trị tính cách (0.0 – 1.0) ảnh hư�
 | **Vinh quang (glory)** | Giá trị cao nghĩa là nhà phiêu lưu thích nhiệm vụ chiến đấu |
 | **Ham khám phá (curiosity)** | Giá trị cao nghĩa là nhà phiêu lưu thích khám phá |
 
+Phần chi tiết của anh hùng ghi mỗi giá trị bằng một từ: dưới 0,35 là **thấp**, dưới 0,7 là **vừa**, từ 0,7 trở lên là **cao**.
+
 **Công thức sức hút lệnh truy nã**:
 
 ```

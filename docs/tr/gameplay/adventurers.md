@@ -246,6 +246,8 @@ Her maceraperestin görev kabul etme kararını etkileyen dört kişilik değeri
 | **Şan (glory)** | Değer yükseldikçe maceraperest savaş görevlerini tercih eder |
 | **Merak (curiosity)** | Değer yükseldikçe maceraperest keşif görevlerini tercih eder |
 
+Bir kahramanın ayrıntılarında her değer bir sözcükle yazılır: 0,35'in altı **düşük**, 0,7'ye kadar **orta**, 0,7 ve üstü **yüksek**.
+
 **Görev Çekicilik Formülü**:
 
 ```
