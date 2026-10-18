@@ -12,6 +12,47 @@ Oyun, yeni oyuncuları çeşitli oyun mekanikleri hakkında yönlendiren yerleş
 
 ---
 
+## Seferler
+
+Sefer, haritalarını adım adım senin seçtiğin bir rotadır. Ana menüdeki **Sefer** düğmesinden açılır.
+
+**Sınır Seferi**'nde altı harita ve dört rota vardır; her rota dört haritadan geçer:
+
+| Adım | Harita | Ne istiyor |
+|---|---|---|
+| Başlangıç | **Sınır Kampı** | Bir kasaba kur ve doğudaki goblin kampını yerle bir et. Güneybatıdaki eski işaret kulesi isteğe bağlıdır: onar ya da sökerek malzemesini al. |
+| Birinci | **Ticaret Yolu Refakati** | Güney yolunun sonunda bir ticaret karakolu aç ve iki kervan turunun ödenmesini sağla. Haydut kampı ayakta kalabilir. Sonraki haritaya 300 altın verir. |
+| Birinci | **Kayıp İstasyon** | İstasyondaki işi bitir: yeniden inşa et ya da hayatta kalanını evine götür. Sonraki haritaya 150 altın verir. |
+| İkinci | **Mühürlü Mezar** | Mezardaki işi bitir: mühürle, incele ya da yağmala. |
+| İkinci | **Düşman Sınırı** | Goblinlerin ikmal hattını kes (bir kuryeyi yükünü teslim etmeden öldür ya da onları gönderen kampı yerle bir et) ve goblin karakolunu yerle bir et. Eski işaret kulesi isteğe bağlıdır. |
+| Son | **Taç Geçidi** | İki baskını savuştur, ardından goblin kalesini yerle bir et. |
+
+Geçitteki kale üçüncü bir takviye dalgası gönderir; turun düşman sınırını kırdıysa göndermez. Mezardan geçen bir rota da kazanabilir; yalnızca bir dalga fazla savaşır. İstasyonda ve mezarda hedef harabedeki işin kendisidir; bu yüzden onu bırakma seçeneği sunulmaz. Başarısız olan ya da çekildiğin iş yeniden sunulur; haritayı yalnızca harabenin alanını kaybetmek kaybettirir.
+
+**Haritalar arasında** sefer ekranı şimdiye kadarki rotayı ve ilerideki yolları gösterir; her yolun kendi brifingi ve rotanın sonunda neyi değiştirdiği yanında yazar:
+
+- Ekibi seç: en çok **altı** kahraman yola devam eder, geri kalanlar geride bekler. Yedekte en çok **on iki** kişi kalabilir; yer açmak için birini evine gönder. Kahramanlar tam canla döner. Düşenler düşmüş olarak kalır.
+- Sonraki haritanın hazinesi, kendi bütçesi artı önceki haritada kalan altının **yarısı** (en çok **1000**) artı önceki haritanın ödülüdür. Ekran yola çıkmadan önce bunu senin için toplar.
+- Araştırma ve şato yolu tur boyunca korunur. Binalar geride kalır.
+
+Kaybedilen harita aynı başlangıçtan yeniden oynanır: aynı kahramanlar, aynı altın ve aynı harita. Tur, ana menüden devam ettirene kadar haritalar arasında bekler. **Turu bırak** turdan vazgeçer, **Bitir** ise sona ulaşmış bir turu kapatır. Bitirdiğin her rota, en iyi sürenle birlikte kayıtlarında tutulur.
+
+### Rota hazırlamak
+
+Bir kampanya, `campaign.json` dosyasının yanına bir `expedition.json` dosyası konunca sefere dönüşür. Bunu kampanya düzenleyicisinin **Sefer rotası** sekmesinde hazırla: her düğüme kampanyadan bir seviye ve sonraki düğüme verdiği altını (0 ile 2000 arası) ata, ilerideki yolları listele, sonra başlangıcı ve sonu seç. **Rotayı denetle** bunun kaç rota oluşturduğunu söyler. Atölye denetimleri her düğümün aynı kampanyanın bir seviyesini göstermesini ister. Oyun testi rotayı başlangıcından oynayabilir.
+
+```json
+{
+  "version": 1, "id": "frontier", "start": "camp", "end": "pass", "length": 4,
+  "nodes": [{"id": "trade", "campaign": "expedition.frontier", "level": "trade", "grants": {"gold": 300}}, "..."],
+  "edges": [["camp", "trade"], ["trade", "tomb"], "..."]
+}
+```
+
+Bir rota başlangıçtan sona ulaşmalı ve döngü içermemelidir; her düğüm bir rotanın üzerinde olmalı ve her rota `length` kadar uzun olmalıdır. Bir seviye `expedition_won` ve `expedition_lacks` (`{"node": "<id>"}`) tetikleyici koşullarıyla turun gidişatına göre davranır; `complete_relic` (bir kalıntının işi tamamlandı) ve `intercept_supply` (N düşman ikmal kuryesi teslim etmeden öldürüldü ya da onları gönderen kampların hepsi yerle bir edildi) hedefleri ise bir düğüme amaç verir.
+
+---
+
 ## Zafer Koşulları
 
 Her kampanya seviyesi aşağıdaki zafer koşullarından birine sahip olabilir:

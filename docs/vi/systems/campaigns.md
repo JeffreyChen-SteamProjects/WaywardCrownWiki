@@ -12,6 +12,47 @@ Trò chơi bao gồm một **Chiến dịch hướng dẫn** tích hợp (5 màn
 
 ---
 
+## Viễn chinh
+
+Viễn chinh là một lộ trình gồm nhiều bản đồ, mỗi bước tiếp theo do bạn tự chọn. Mở nó từ nút **Viễn chinh** ở menu chính.
+
+**Viễn chinh biên cương** có sáu bản đồ và bốn lộ trình, mỗi lộ trình đi qua bốn bản đồ:
+
+| Bước | Bản đồ | Yêu cầu |
+|---|---|---|
+| Khởi đầu | **Trại biên cương** | Dựng một thị trấn và san phẳng trại goblin ở phía đông. Đài hiệu lửa cũ ở phía tây nam là tùy chọn: sửa nó hoặc tháo dỡ lấy vật liệu. |
+| Thứ nhất | **Hộ tống đường buôn** | Mở một trạm giao thương ở cuối con đường phía nam và để hai chuyến khứ hồi của đoàn buôn được trả tiền. Trại thổ phỉ có thể để yên. Cho bản đồ kế tiếp 300 vàng. |
+| Thứ nhất | **Trạm thất lạc** | Hoàn tất công việc ở trạm: xây lại nó, hoặc đưa người sống sót của trạm về nhà. Cho bản đồ kế tiếp 150 vàng. |
+| Thứ hai | **Mộ phong ấn** | Hoàn tất công việc ở ngôi mộ: niêm phong, nghiên cứu hoặc cướp bóc nó. |
+| Thứ hai | **Biên giới địch** | Cắt đứt đường tiếp tế của goblin (giết một người vận chuyển trước khi nó giao hàng, hoặc san phẳng trại đã phái chúng đi), và san phẳng tiền đồn goblin. Đài hiệu lửa cũ là tùy chọn. |
+| Kết thúc | **Đèo Vương miện** | Chặn đứng hai đợt đột kích, rồi san phẳng pháo đài goblin. |
+
+Pháo đài trên đèo sẽ gửi đợt viện binh thứ ba, trừ khi lượt này của bạn đã phá vỡ biên giới địch. Lộ trình đi qua ngôi mộ vẫn có thể thắng; chỉ là phải đánh thêm một đợt. Ở trạm và ở ngôi mộ, công việc tại phế tích chính là mục tiêu, nên không có lựa chọn bỏ mặc nó. Công việc thất bại hoặc đã rút lui sẽ được đề nghị lại, và chỉ khi mất địa điểm của phế tích thì mới thua bản đồ đó.
+
+**Giữa các bản đồ**, màn hình viễn chinh cho thấy lộ trình đã đi và các ngả đường phía trước, mỗi ngả kèm bản tóm tắt và điều nó thay đổi ở cuối lộ trình:
+
+- Chọn nhóm: tối đa **sáu** anh hùng đi tiếp, số còn lại chờ ở phía sau. Hậu phương chứa tối đa **mười hai** người; hãy cho ai đó về nhà để có chỗ. Anh hùng trở lại với máu đầy. Người đã ngã xuống thì không trở lại.
+- Ngân khố của bản đồ kế tiếp là ngân sách riêng của nó, cộng **một nửa** số vàng bản đồ trước còn lại (tối đa **1000**), cộng phần thưởng của bản đồ trước. Màn hình cộng sẵn cho bạn trước khi lên đường.
+- Nghiên cứu và con đường lâu đài được giữ suốt cả lượt. Công trình thì ở lại phía sau.
+
+Bản đồ bị thua sẽ được chơi lại từ cùng điểm khởi đầu: cùng anh hùng, cùng vàng và cùng bản đồ. Một lượt sẽ dừng chờ giữa các bản đồ cho đến khi bạn tiếp tục nó từ menu chính. **Bỏ lượt này** sẽ từ bỏ lượt đó, còn **Hoàn tất** khép lại một lượt đã đi đến cuối. Mỗi lộ trình bạn hoàn thành đều được lưu trong thành tích của bạn, kèm thời gian tốt nhất.
+
+### Tạo lộ trình
+
+Một chiến dịch trở thành viễn chinh khi có tệp `expedition.json` đặt cạnh `campaign.json` của nó. Hãy dựng nó trong thẻ **Lộ trình viễn chinh** của trình biên tập chiến dịch: gán cho mỗi nút một màn của chiến dịch và số vàng nó cho nút kế tiếp (từ 0 đến 2000), liệt kê các ngả đường đi tiếp, rồi chọn điểm đầu và điểm cuối. **Kiểm tra lộ trình** cho biết nó tạo ra bao nhiêu lộ trình. Các bước kiểm tra của Workshop yêu cầu mỗi nút trỏ tới một màn của cùng chiến dịch. Chơi thử có thể chơi lộ trình từ điểm đầu của nó.
+
+```json
+{
+  "version": 1, "id": "frontier", "start": "camp", "end": "pass", "length": 4,
+  "nodes": [{"id": "trade", "campaign": "expedition.frontier", "level": "trade", "grants": {"gold": 300}}, "..."],
+  "edges": [["camp", "trade"], ["trade", "tomb"], "..."]
+}
+```
+
+Lộ trình phải đi được từ điểm đầu đến điểm cuối, không có vòng lặp; mọi nút phải nằm trên một lộ trình nào đó, và mọi lộ trình phải dài đúng bằng `length`. Một màn có thể dựa vào diễn biến của lượt chơi bằng các điều kiện kích hoạt `expedition_won` và `expedition_lacks` (`{"node": "<id>"}`), còn các mục tiêu `complete_relic` (hoàn tất công việc ở một di tích) và `intercept_supply` (giết N người vận chuyển tiếp tế của địch trước khi chúng giao hàng, hoặc san phẳng mọi trại đã phái chúng đi) cho một nút một mục đích.
+
+---
+
 ## Điều kiện chiến thắng
 
 Mỗi màn chiến dịch có thể có một trong các điều kiện chiến thắng sau:

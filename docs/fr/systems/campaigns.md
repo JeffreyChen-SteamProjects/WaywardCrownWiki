@@ -12,6 +12,47 @@ Le jeu inclut une **Campagne tutoriel** intégrée (5 niveaux) qui guide les nou
 
 ---
 
+## Expéditions
+
+Une expédition est un itinéraire de cartes dont vous choisissez chaque étape au fur et à mesure. Elle s'ouvre depuis le bouton **Expédition** du menu principal.
+
+**L'expédition de la frontière** compte six cartes et quatre itinéraires, de quatre cartes chacun :
+
+| Étape | Carte | Ce qu'elle demande |
+|---|---|---|
+| Départ | **Camp frontalier** | Bâtissez une ville et rasez le camp gobelin à l'est. Le vieux phare au sud-ouest est facultatif : réparez-le ou récupérez-en les matériaux. |
+| Première | **Escorte sur la route commerciale** | Ouvrez un comptoir commercial au bout de la route du sud et faites payer deux allers-retours de caravane. Le camp de bandits peut rester debout. Donne 300 or à la carte suivante. |
+| Première | **Relais perdu** | Achevez le chantier du relais : reconstruisez-le, ou ramenez son survivant chez lui. Donne 150 or à la carte suivante. |
+| Deuxième | **Tombe scellée** | Achevez le chantier de la tombe : scellez-la, étudiez-la ou pillez-la. |
+| Deuxième | **Frontière ennemie** | Coupez la ligne de ravitaillement gobeline (tuez un transporteur avant qu'il ne livre sa cargaison, ou rasez le camp qui les envoie) et rasez l'avant-poste gobelin. Le vieux phare est facultatif. |
+| Arrivée | **Col de la Couronne** | Repoussez deux raids, puis rasez la forteresse gobeline. |
+
+La forteresse du col envoie une troisième vague de renforts, sauf si votre partie a brisé la frontière ennemie. Un itinéraire qui passe par la tombe peut tout de même gagner ; il doit simplement affronter une vague de plus. Au relais et à la tombe, le chantier de la ruine est l'objectif : il n'est donc pas possible de le laisser de côté. Un chantier qui échoue ou dont vous vous retirez est proposé à nouveau, et seule la perte du lieu de la ruine fait perdre la carte.
+
+**Entre deux cartes**, l'écran d'expédition montre l'itinéraire parcouru et les chemins qui s'ouvrent, chacun avec son briefing et ce qu'il change au bout de l'itinéraire :
+
+- Choisissez le groupe : jusqu'à **six** héros continuent, les autres attendent à l'arrière. La réserve en accueille **douze** au plus ; renvoyez quelqu'un chez lui pour faire de la place. Les héros reviennent avec toute leur santé. Les morts restent morts.
+- Le trésor de la carte suivante est son propre budget, plus la **moitié** de l'or laissé par la carte précédente (**1000** au plus), plus la récompense de la carte précédente. L'écran fait le calcul pour vous avant le départ.
+- La recherche et la voie du château sont conservées pendant toute la partie. Les bâtiments restent derrière.
+
+Une carte perdue se rejoue depuis le même départ : mêmes héros, même or, même carte. Une partie attend entre deux cartes jusqu'à ce que vous la repreniez depuis le menu principal. **Abandonner la partie** y renonce, et **Terminer** clôt une partie arrivée au bout. Chaque itinéraire que vous terminez est conservé dans votre palmarès, avec votre meilleur temps.
+
+### Créer un itinéraire
+
+Une campagne devient une expédition grâce à un fichier `expedition.json` placé à côté de son `campaign.json`. Construisez-le dans l'onglet **Itinéraire d’expédition** de l'éditeur de campagne : donnez à chaque nœud un niveau de la campagne et l'or qu'il accorde au nœud suivant (de 0 à 2000), listez les chemins qui en partent, puis choisissez le départ et l'arrivée. **Vérifier l’itinéraire** indique combien d'itinéraires cela donne. Les vérifications du Workshop exigent que chaque nœud renvoie à un niveau de la même campagne. Un test de jeu peut jouer l'itinéraire depuis son départ.
+
+```json
+{
+  "version": 1, "id": "frontier", "start": "camp", "end": "pass", "length": 4,
+  "nodes": [{"id": "trade", "campaign": "expedition.frontier", "level": "trade", "grants": {"gold": 300}}, "..."],
+  "edges": [["camp", "trade"], ["trade", "tomb"], "..."]
+}
+```
+
+Un itinéraire doit mener du départ à l'arrivée, sans boucle ; chaque nœud doit se trouver sur au moins un itinéraire, et chaque itinéraire doit être aussi long que `length`. Un niveau peut tenir compte de la partie en cours grâce aux conditions de déclencheur `expedition_won` et `expedition_lacks` (`{"node": "<id>"}`), et les objectifs `complete_relic` (le chantier d'une relique achevé) et `intercept_supply` (N transporteurs ennemis tués avant de livrer, ou tous les camps qui les envoient rasés) donnent un but à un nœud.
+
+---
+
 ## Conditions de victoire
 
 Chaque niveau de campagne peut avoir l'une des conditions de victoire suivantes :

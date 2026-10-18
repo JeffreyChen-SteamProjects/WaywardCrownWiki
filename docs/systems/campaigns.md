@@ -12,6 +12,47 @@ The game includes a built-in **Tutorial Campaign** (5 levels) that guides new pl
 
 ---
 
+## Expeditions
+
+An expedition is a route of maps you choose one step at a time. Open it from the main menu's **Expedition** plaque.
+
+The **Frontier Expedition** has six maps and four routes, four maps on each:
+
+| Step | Map | What it asks |
+|---|---|---|
+| Start | **Frontier Camp** | Raise a town and raze the goblin tent to the east. The old beacon to the southwest is optional: repair it or salvage it. |
+| First | **Trade Road Escort** | Open a trading post at the end of the south road and see two caravan round trips paid. The bandit camp may stand. Grants the next map 300 gold. |
+| First | **Lost Station** | Finish the station's work: rebuild it, or bring its survivor home. Grants the next map 150 gold. |
+| Second | **Sealed Vault** | Finish the tomb's work: seal it, study it or loot it. |
+| Second | **Enemy Border** | Cut the goblin supply line (kill a courier before it delivers, or raze the camp that sends them) and raze the goblin outpost. The old beacon is optional. |
+| End | **Crown Pass** | Hold off two raids, then raze the goblin fortress. |
+
+The pass's fortress sends a third wave of reinforcements, unless your run broke the enemy border. A route through the vault can still win; it just fights one wave more. On the station and the vault the ruin's work is the goal, so leaving it is not offered. Work that fails or is withdrawn is offered again, and only losing the ruin's site loses the map.
+
+**Between maps** the expedition screen shows the route so far and the ways on, each with its briefing and what it changes at the end of the route:
+
+- Pick the party: up to **six** heroes go on, and the rest wait behind. The reserve holds at most **twelve**; send someone home to make room. Heroes come back to full health. The fallen stay fallen.
+- The next map's treasury is its own budget, plus **half** the gold the last map left (**1000** at most), plus the last map's reward. The screen adds it up for you before you set out.
+- Research and the castle path are kept for the whole run. Buildings stay behind.
+
+A lost map is played again from the same start: the same heroes, gold and map. A run waits between maps until you continue it from the main menu. **Abandon run** gives it up, and **Finish** closes a run that reached the end. Each route you finish is kept in your record, with your best time.
+
+### Making a route
+
+A campaign becomes an expedition with an `expedition.json` file beside its `campaign.json`. Build it in the campaign editor's **Expedition route** tab: give each node a level of the campaign and the gold it grants the next node (0 to 2000), list the ways on, then choose the start and the end. **Check route** says how many routes it makes. The Workshop's checks hold every node to a level of the same campaign. A playtest can play the route from its start.
+
+```json
+{
+  "version": 1, "id": "frontier", "start": "camp", "end": "pass", "length": 4,
+  "nodes": [{"id": "trade", "campaign": "expedition.frontier", "level": "trade", "grants": {"gold": 300}}, "..."],
+  "edges": [["camp", "trade"], ["trade", "tomb"], "..."]
+}
+```
+
+A route must reach the end from the start, with no loop, every node on some route, and every route as long as `length`. A level waits on the run with the trigger conditions `expedition_won` and `expedition_lacks` (`{"node": "<id>"}`), and the objectives `complete_relic` (a relic's work finished) and `intercept_supply` (N enemy supply couriers killed before they deliver, or every camp that sends them razed) give a node a goal.
+
+---
+
 ## Victory Conditions
 
 Each campaign level can have one of the following victory conditions:

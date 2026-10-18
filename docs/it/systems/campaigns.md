@@ -12,6 +12,47 @@ Il gioco include una **Campagna tutorial** integrata (5 livelli) che guida i nuo
 
 ---
 
+## Spedizioni
+
+Una spedizione è un percorso di mappe in cui scegli ogni tappa strada facendo. Si apre dal pulsante **Spedizione** del menu principale.
+
+**La spedizione di frontiera** ha sei mappe e quattro percorsi, ognuno di quattro mappe:
+
+| Tappa | Mappa | Cosa chiede |
+|---|---|---|
+| Partenza | **Campo di frontiera** | Costruisci una città e radi al suolo l'accampamento goblin a est. Il vecchio faro a sud-ovest è facoltativo: riparalo oppure smantellalo per recuperarne i materiali. |
+| Prima | **Scorta sulla via commerciale** | Apri una stazione commerciale in fondo alla strada a sud e fai pagare due giri di carovana. L'accampamento dei banditi può restare in piedi. Dà 300 oro alla mappa successiva. |
+| Prima | **Stazione perduta** | Porta a termine il lavoro della stazione: ricostruiscila, oppure riporta a casa il suo sopravvissuto. Dà 150 oro alla mappa successiva. |
+| Seconda | **Tomba sigillata** | Porta a termine il lavoro della tomba: sigillala, studiala o saccheggiala. |
+| Seconda | **Confine nemico** | Taglia la linea di rifornimento goblin (uccidi un trasportatore prima che consegni il carico, oppure radi al suolo l'accampamento che li manda) e radi al suolo l'avamposto goblin. Il vecchio faro è facoltativo. |
+| Arrivo | **Passo della Corona** | Resisti a due incursioni, poi radi al suolo la fortezza goblin. |
+
+La fortezza del passo manda una terza ondata di rinforzi, a meno che la tua partita non abbia spezzato il confine nemico. Anche un percorso che passa per la tomba può vincere; deve solo affrontare un'ondata in più. Nella stazione e nella tomba il lavoro della rovina è l'obiettivo, quindi non puoi lasciarlo perdere. Un lavoro fallito o da cui ti ritiri viene proposto di nuovo, e la mappa si perde solo se si perde il luogo della rovina.
+
+**Tra una mappa e l'altra** la schermata della spedizione mostra il percorso fatto finora e le strade che proseguono, ognuna con il suo briefing e con ciò che cambia alla fine del percorso:
+
+- Scegli il gruppo: fino a **sei** eroi proseguono, gli altri aspettano nelle retrovie. La riserva ne tiene al massimo **dodici**; rimanda qualcuno a casa per fare spazio. Gli eroi tornano con la salute piena. I caduti restano caduti.
+- Il tesoro della mappa successiva è il suo budget, più la **metà** dell'oro rimasto nella mappa precedente (al massimo **1000**), più la ricompensa della mappa precedente. La schermata fa il conto per te prima della partenza.
+- La ricerca e la via del castello restano per tutta la partita. Gli edifici restano indietro.
+
+Una mappa persa si rigioca dalla stessa partenza: stessi eroi, stesso oro, stessa mappa. Una partita resta in attesa tra una mappa e l'altra finché non la riprendi dal menu principale. **Abbandona la partita** vi rinuncia, e **Concludi** chiude una partita arrivata alla fine. Ogni percorso che completi resta nel tuo registro, con il tuo tempo migliore.
+
+### Creare un percorso
+
+Una campagna diventa una spedizione con un file `expedition.json` accanto al suo `campaign.json`. Costruiscilo nella scheda **Percorso della spedizione** dell'editor delle campagne: assegna a ogni nodo un livello della campagna e l'oro che concede al nodo successivo (da 0 a 2000), elenca le strade che proseguono, poi scegli partenza e arrivo. **Verifica percorso** ti dice quanti percorsi ne escono. I controlli del Workshop richiedono che ogni nodo punti a un livello della stessa campagna. Una prova di gioco può giocare il percorso dalla sua partenza.
+
+```json
+{
+  "version": 1, "id": "frontier", "start": "camp", "end": "pass", "length": 4,
+  "nodes": [{"id": "trade", "campaign": "expedition.frontier", "level": "trade", "grants": {"gold": 300}}, "..."],
+  "edges": [["camp", "trade"], ["trade", "tomb"], "..."]
+}
+```
+
+Un percorso deve portare dalla partenza all'arrivo, senza cicli; ogni nodo deve stare su qualche percorso e ogni percorso deve essere lungo quanto `length`. Un livello può regolarsi sulla partita con le condizioni dei trigger `expedition_won` ed `expedition_lacks` (`{"node": "<id>"}`), e gli obiettivi `complete_relic` (il lavoro di una reliquia portato a termine) e `intercept_supply` (N trasportatori di rifornimenti nemici uccisi prima che consegnino, oppure rasi al suolo tutti gli accampamenti che li mandano) danno uno scopo a un nodo.
+
+---
+
 ## Condizioni di vittoria
 
 Ogni livello di campagna può avere una delle seguenti condizioni di vittoria:

@@ -12,6 +12,47 @@ El juego incluye una **Campaña Tutorial** integrada (5 niveles) que guía a los
 
 ---
 
+## Expediciones
+
+Una expedición es una ruta de mapas en la que eliges cada paso sobre la marcha. Se abre desde el botón **Expedición** del menú principal.
+
+**La expedición fronteriza** tiene seis mapas y cuatro rutas, con cuatro mapas cada una:
+
+| Paso | Mapa | Qué pide |
+|---|---|---|
+| Inicio | **Campamento fronterizo** | Levanta un pueblo y arrasa el campamento goblin del este. El viejo faro del suroeste es opcional: puedes repararlo o desmantelarlo. |
+| Primero | **Escolta en la ruta comercial** | Abre un puesto comercial al final del camino del sur y consigue que se paguen dos viajes de caravana. El campamento bandido puede quedar en pie. Da 300 de oro al mapa siguiente. |
+| Primero | **Puesto perdido** | Termina el trabajo del puesto: reconstrúyelo o lleva a su superviviente a casa. Da 150 de oro al mapa siguiente. |
+| Segundo | **Tumba sellada** | Termina el trabajo de la tumba: séllala, estúdiala o saquéala. |
+| Segundo | **Frontera enemiga** | Corta la línea de suministros goblin (mata a un transportista antes de que entregue su carga, o arrasa el campamento que los envía) y arrasa el puesto avanzado goblin. El viejo faro es opcional. |
+| Final | **Paso de la Corona** | Resiste dos incursiones y luego arrasa la fortaleza goblin. |
+
+La fortaleza del paso envía una tercera oleada de refuerzos, salvo que tu partida haya roto la frontera enemiga. Una ruta que pase por la tumba también puede ganar; solo tiene que aguantar una oleada más. En el puesto y en la tumba el trabajo de la ruina es el objetivo, así que no se ofrece dejarlo de lado. Un trabajo que fracasa o del que te retiras se vuelve a ofrecer, y el mapa solo se pierde si se pierde el lugar de la ruina.
+
+**Entre mapas**, la pantalla de expedición muestra la ruta recorrida hasta ahora y los caminos que siguen, cada uno con su informe y con lo que cambia al final de la ruta:
+
+- Elige el grupo: hasta **seis** héroes siguen adelante y el resto espera atrás. La reserva admite como mucho **doce**; manda a alguien a casa para hacer sitio. Los héroes vuelven con la salud completa. Los caídos siguen caídos.
+- El tesoro del mapa siguiente es su propio presupuesto, más la **mitad** del oro que dejó el mapa anterior (**1000** como máximo), más la recompensa del mapa anterior. La pantalla te hace la cuenta antes de partir.
+- La investigación y la senda del castillo se conservan durante toda la partida. Los edificios se quedan atrás.
+
+Un mapa perdido se vuelve a jugar desde el mismo inicio: con los mismos héroes, el mismo oro y el mismo mapa. Una partida queda en espera entre mapas hasta que la continúes desde el menú principal. **Abandonar la partida** la da por perdida, y **Terminar** cierra una partida que llegó al final. Cada ruta que completas queda en tu historial, con tu mejor tiempo.
+
+### Crear una ruta
+
+Una campaña se convierte en expedición con un archivo `expedition.json` junto a su `campaign.json`. Créala en la pestaña **Ruta de expedición** del editor de campañas: asigna a cada nodo un nivel de la campaña y el oro que da al nodo siguiente (de 0 a 2000), enumera los caminos que siguen y elige el inicio y el final. **Comprobar ruta** te dice cuántas rutas salen. Las comprobaciones del Workshop exigen que cada nodo apunte a un nivel de la misma campaña. Una prueba de juego puede jugar la ruta desde su inicio.
+
+```json
+{
+  "version": 1, "id": "frontier", "start": "camp", "end": "pass", "length": 4,
+  "nodes": [{"id": "trade", "campaign": "expedition.frontier", "level": "trade", "grants": {"gold": 300}}, "..."],
+  "edges": [["camp", "trade"], ["trade", "tomb"], "..."]
+}
+```
+
+Una ruta debe llegar del inicio al final, sin bucles, con cada nodo en alguna ruta y con todas las rutas tan largas como `length`. Un nivel puede depender de lo que pasó en la partida con las condiciones de disparador `expedition_won` y `expedition_lacks` (`{"node": "<id>"}`), y los objetivos `complete_relic` (terminado el trabajo de una reliquia) e `intercept_supply` (N transportistas de suministros enemigos muertos antes de entregar, o arrasados todos los campamentos que los envían) dan una meta a un nodo.
+
+---
+
 ## Condiciones de Victoria
 
 Cada nivel de campaña puede tener una de las siguientes condiciones de victoria:

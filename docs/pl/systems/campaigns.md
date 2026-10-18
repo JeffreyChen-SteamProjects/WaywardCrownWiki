@@ -12,6 +12,47 @@ Gra zawiera wbudowaną **Kampanię samouczka** (5 poziomów), która prowadzi no
 
 ---
 
+## Wyprawy
+
+Wyprawa to trasa złożona z map, na której każdy kolejny krok wybierasz sam. Otwiera się ją przyciskiem **Wyprawa** w menu głównym.
+
+**Wyprawa na rubieże** ma sześć map i cztery trasy, po cztery mapy na każdej:
+
+| Etap | Mapa | Czego wymaga |
+|---|---|---|
+| Start | **Obóz graniczny** | Wznieś miasto i zburz obóz goblinów na wschodzie. Stara latarnia na południowym zachodzie jest opcjonalna: napraw ją albo rozbierz na materiały. |
+| Pierwszy | **Eskorta na szlaku handlowym** | Otwórz faktorię na końcu południowej drogi i doprowadź do opłacenia dwóch kursów karawany. Obóz bandytów może zostać. Daje następnej mapie 300 złota. |
+| Pierwszy | **Opuszczona stacja** | Dokończ prace przy stacji: odbuduj ją albo sprowadź jej ocalałego do domu. Daje następnej mapie 150 złota. |
+| Drugi | **Zapieczętowany grobowiec** | Dokończ prace przy grobowcu: zapieczętuj go, zbadaj albo ograb. |
+| Drugi | **Wroga granica** | Przetnij linię zaopatrzenia goblinów (zabij kuriera, zanim dostarczy ładunek, albo zburz obóz, który ich wysyła) i zburz gobliński posterunek. Stara latarnia jest opcjonalna. |
+| Koniec | **Przełęcz Korony** | Odeprzyj dwa najazdy, a potem zburz fortecę goblinów. |
+
+Forteca na przełęczy wysyła trzecią falę posiłków, chyba że twoje podejście przełamało wrogą granicę. Trasa przez grobowiec też może wygrać; po prostu walczy z jedną falą więcej. Na stacji i w grobowcu celem są prace przy ruinie, więc nie ma opcji, by je zostawić. Nieudane prace albo prace, z których się wycofasz, są proponowane ponownie, a mapę przegrywa się tylko wtedy, gdy straci się miejsce ruiny.
+
+**Między mapami** ekran wyprawy pokazuje przebytą dotąd trasę i drogi dalej, każdą z odprawą i z tym, co zmienia na końcu trasy:
+
+- Wybierz drużynę: dalej rusza do **sześciu** bohaterów, reszta czeka z tyłu. Rezerwa mieści najwyżej **dwunastu**; odeślij kogoś do domu, by zrobić miejsce. Bohaterowie wracają w pełni zdrowia. Polegli pozostają polegli.
+- Skarbiec następnej mapy to jej własny budżet plus **połowa** złota, które zostało z poprzedniej mapy (najwyżej **1000**), plus nagroda za poprzednią mapę. Ekran sumuje to za ciebie przed wymarszem.
+- Badania i droga zamku zostają na całe podejście. Budynki zostają na miejscu.
+
+Przegraną mapę gra się od nowa z tego samego startu: z tymi samymi bohaterami, złotem i mapą. Podejście czeka między mapami, aż wznowisz je z menu głównego. **Porzuć podejście** rezygnuje z niego, a **Zakończ** zamyka podejście, które dotarło do końca. Każda ukończona trasa trafia do twoich rekordów wraz z najlepszym czasem.
+
+### Tworzenie trasy
+
+Kampania staje się wyprawą, gdy obok jej `campaign.json` leży plik `expedition.json`. Zbuduj go w zakładce **Trasa wyprawy** edytora kampanii: przypisz każdemu węzłowi poziom kampanii i złoto, które daje następnemu węzłowi (od 0 do 2000), wypisz drogi dalej, a potem wybierz start i koniec. **Sprawdź trasę** mówi, ile tras z tego wychodzi. Kontrole Warsztatu wymagają, by każdy węzeł wskazywał poziom tej samej kampanii. Test gry może zagrać trasę od jej startu.
+
+```json
+{
+  "version": 1, "id": "frontier", "start": "camp", "end": "pass", "length": 4,
+  "nodes": [{"id": "trade", "campaign": "expedition.frontier", "level": "trade", "grants": {"gold": 300}}, "..."],
+  "edges": [["camp", "trade"], ["trade", "tomb"], "..."]
+}
+```
+
+Trasa musi prowadzić od startu do końca, bez pętli; każdy węzeł musi leżeć na jakiejś trasie, a każda trasa musi być tak długa jak `length`. Poziom może zależeć od przebiegu podejścia dzięki warunkom wyzwalaczy `expedition_won` i `expedition_lacks` (`{"node": "<id>"}`), a cele `complete_relic` (ukończone prace przy relikcie) i `intercept_supply` (N wrogich kurierów z zaopatrzeniem zabitych, zanim dostarczą ładunek, albo zburzone wszystkie obozy, które ich wysyłają) dają węzłowi zadanie.
+
+---
+
 ## Warunki zwycięstwa
 
 Każdy poziom kampanii może mieć jeden z następujących warunków zwycięstwa:

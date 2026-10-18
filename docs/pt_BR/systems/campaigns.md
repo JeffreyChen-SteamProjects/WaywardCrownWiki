@@ -12,6 +12,47 @@ O jogo inclui uma campanha **Tutorial** integrada (5 níveis) que guia novos jog
 
 ---
 
+## Expedições
+
+Uma expedição é uma rota de mapas em que você escolhe cada passo pelo caminho. Ela é aberta pelo botão **Expedição** do menu principal.
+
+**A expedição da fronteira** tem seis mapas e quatro rotas, com quatro mapas em cada uma:
+
+| Etapa | Mapa | O que pede |
+|---|---|---|
+| Início | **Acampamento da Fronteira** | Erga uma cidade e arrase o acampamento goblin a leste. O velho farol a sudoeste é opcional: conserte-o ou desmonte-o para aproveitar o material. |
+| Primeira | **Escolta na rota comercial** | Abra um entreposto comercial no fim da estrada do sul e faça duas viagens de caravana serem pagas. O acampamento de bandidos pode ficar de pé. Dá 300 de ouro ao mapa seguinte. |
+| Primeira | **Estação perdida** | Conclua o trabalho da estação: reconstrua-a ou leve o sobrevivente dela para casa. Dá 150 de ouro ao mapa seguinte. |
+| Segunda | **Tumba selada** | Conclua o trabalho da tumba: sele-a, estude-a ou saqueie-a. |
+| Segunda | **Fronteira inimiga** | Corte a linha de suprimentos goblin (mate um transportador antes que ele entregue a carga, ou arrase o acampamento que os envia) e arrase o posto avançado goblin. O velho farol é opcional. |
+| Fim | **Passo da Coroa** | Resista a dois ataques e depois arrase a fortaleza goblin. |
+
+A fortaleza do passo manda uma terceira onda de reforços, a menos que sua jornada tenha rompido a fronteira inimiga. Uma rota pela tumba ainda pode vencer; ela só enfrenta uma onda a mais. Na estação e na tumba, o trabalho da ruína é o objetivo, então não há a opção de deixá-lo de lado. Um trabalho que fracassa ou do qual você se retira é oferecido de novo, e só perder o local da ruína faz perder o mapa.
+
+**Entre os mapas**, a tela da expedição mostra a rota percorrida até ali e os caminhos à frente, cada um com suas instruções e o que ele muda no fim da rota:
+
+- Escolha o grupo: até **seis** heróis seguem em frente, e o resto espera na retaguarda. A reserva comporta no máximo **doze**; mande alguém para casa para abrir espaço. Os heróis voltam com a vida cheia. Quem caiu continua caído.
+- O tesouro do mapa seguinte é o orçamento dele, mais **metade** do ouro que sobrou no mapa anterior (no máximo **1000**), mais a recompensa do mapa anterior. A tela faz a conta para você antes de partir.
+- A pesquisa e o caminho do castelo são mantidos durante toda a jornada. Os edifícios ficam para trás.
+
+Um mapa perdido é jogado de novo a partir do mesmo início: os mesmos heróis, o mesmo ouro e o mesmo mapa. Uma jornada fica esperando entre os mapas até você continuá-la pelo menu principal. **Abandonar a jornada** desiste dela, e **Concluir** encerra uma jornada que chegou ao fim. Cada rota que você termina fica no seu histórico, com o seu melhor tempo.
+
+### Criando uma rota
+
+Uma campanha vira expedição com um arquivo `expedition.json` ao lado do seu `campaign.json`. Monte-o na aba **Rota da expedição** do editor de campanhas: dê a cada nó uma fase da campanha e o ouro que ele concede ao nó seguinte (de 0 a 2000), liste os caminhos à frente e depois escolha o início e o fim. **Verificar rota** diz quantas rotas isso forma. As verificações da Oficina exigem que cada nó aponte para uma fase da mesma campanha. Um teste de jogo pode jogar a rota desde o início.
+
+```json
+{
+  "version": 1, "id": "frontier", "start": "camp", "end": "pass", "length": 4,
+  "nodes": [{"id": "trade", "campaign": "expedition.frontier", "level": "trade", "grants": {"gold": 300}}, "..."],
+  "edges": [["camp", "trade"], ["trade", "tomb"], "..."]
+}
+```
+
+Uma rota precisa chegar do início ao fim, sem laços; todo nó precisa estar em alguma rota, e toda rota precisa ter o comprimento de `length`. Uma fase pode depender do que aconteceu na jornada com as condições de gatilho `expedition_won` e `expedition_lacks` (`{"node": "<id>"}`), e os objetivos `complete_relic` (o trabalho de uma relíquia concluído) e `intercept_supply` (N transportadores de suprimentos inimigos mortos antes de entregarem, ou todos os acampamentos que os enviam arrasados) dão uma meta a um nó.
+
+---
+
 ## Condições de Vitória
 
 Cada nível de campanha pode ter uma das seguintes condições de vitória:

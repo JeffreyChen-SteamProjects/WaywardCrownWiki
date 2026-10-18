@@ -12,6 +12,47 @@ Das Spiel enthält eine integrierte **Tutorial-Kampagne** (5 Level), die neue Sp
 
 ---
 
+## Expeditionen
+
+Eine Expedition ist eine Route aus Karten, deren nächste Etappe du jedes Mal selbst wählst. Du startest sie über die Schaltfläche **Expedition** im Hauptmenü.
+
+**Die Grenzexpedition** hat sechs Karten und vier Routen mit jeweils vier Karten:
+
+| Etappe | Karte | Was sie verlangt |
+|---|---|---|
+| Start | **Grenzlager** | Baue eine Stadt auf und schleife das Goblinlager im Osten. Das alte Leuchtfeuer im Südwesten ist optional: Repariere es oder schlachte es aus. |
+| Erste | **Geleit auf der Handelsstraße** | Eröffne am Ende der Südstraße einen Handelsposten und sorge dafür, dass zwei Karawanenrunden bezahlt werden. Das Banditenlager darf stehen bleiben. Gibt der nächsten Karte 300 Gold mit. |
+| Erste | **Verlorene Station** | Bring die Arbeit an der Station zu Ende: Baue sie wieder auf oder bring ihren Überlebenden nach Hause. Gibt der nächsten Karte 150 Gold mit. |
+| Zweite | **Versiegelte Gruft** | Bring die Arbeit an der Gruft zu Ende: Versiegle sie, erforsche sie oder plündere sie. |
+| Zweite | **Feindliche Grenze** | Kappe den Nachschub der Goblins (töte einen Nachschubboten, bevor er seine Ladung abliefert, oder schleife das Lager, das sie losschickt) und schleife den Goblin-Außenposten. Das alte Leuchtfeuer ist optional. |
+| Ende | **Kronenpass** | Wehre zwei Überfälle ab und schleife dann die Goblinfestung. |
+
+Die Festung am Pass schickt eine dritte Welle Verstärkung, es sei denn, dein Lauf hat die feindliche Grenze gebrochen. Auch eine Route über die Gruft kann gewinnen; sie muss nur eine Welle mehr abwehren. Auf der Station und in der Gruft ist die Arbeit an der Ruine das Ziel, deshalb kannst du sie nicht liegen lassen. Gescheiterte oder zurückgezogene Arbeit wird erneut angeboten, und verloren ist die Karte erst, wenn der Ort der Ruine verloren geht.
+
+**Zwischen den Karten** zeigt der Expeditionsbildschirm die bisherige Route und die Wege, die weiterführen, jeden mit seiner Besprechung und dem, was er am Ende der Route ändert:
+
+- Stell den Trupp zusammen: Bis zu **sechs** Helden ziehen weiter, der Rest wartet zurück. Die Reserve fasst höchstens **zwölf**; schick jemanden nach Hause, um Platz zu schaffen. Helden kehren mit voller Gesundheit zurück. Gefallene bleiben gefallen.
+- Die Schatzkammer der nächsten Karte ist ihr eigenes Budget plus die **Hälfte** des Golds, das die letzte Karte übrig gelassen hat (höchstens **1000**), plus die Belohnung der letzten Karte. Der Bildschirm rechnet dir das vor dem Aufbruch zusammen.
+- Forschung und der Burgweg bleiben für den ganzen Lauf erhalten. Gebäude bleiben zurück.
+
+Eine verlorene Karte wird vom selben Start aus noch einmal gespielt: mit denselben Helden, demselben Gold und derselben Karte. Ein Lauf wartet zwischen den Karten, bis du ihn im Hauptmenü fortsetzt. **Lauf aufgeben** gibt ihn auf, und **Abschließen** beendet einen Lauf, der das Ende erreicht hat. Jede Route, die du abschließt, wird mit deiner Bestzeit in deinen Rekorden festgehalten.
+
+### Eine Route bauen
+
+Eine Kampagne wird zur Expedition, wenn neben ihrer `campaign.json` eine Datei `expedition.json` liegt. Baue sie im Reiter **Expeditionsroute** des Kampagneneditors: Weise jedem Knoten ein Level der Kampagne und das Gold zu, das er dem nächsten Knoten mitgibt (0 bis 2000), liste die weiterführenden Wege auf und wähle dann Start und Ende. **Route prüfen** sagt dir, wie viele Routen sich daraus ergeben. Die Prüfungen des Workshops verlangen, dass jeder Knoten auf ein Level derselben Kampagne zeigt. Ein Spieltest kann die Route von ihrem Start an spielen.
+
+```json
+{
+  "version": 1, "id": "frontier", "start": "camp", "end": "pass", "length": 4,
+  "nodes": [{"id": "trade", "campaign": "expedition.frontier", "level": "trade", "grants": {"gold": 300}}, "..."],
+  "edges": [["camp", "trade"], ["trade", "tomb"], "..."]
+}
+```
+
+Eine Route muss vom Start aus das Ende erreichen und darf keine Schleife haben; jeder Knoten muss auf irgendeiner Route liegen, und jede Route muss so lang sein wie `length`. Mit den Auslösebedingungen `expedition_won` und `expedition_lacks` (`{"node": "<id>"}`) richtet sich ein Level nach dem bisherigen Lauf, und die Ziele `complete_relic` (die Arbeit an einem Relikt ist abgeschlossen) und `intercept_supply` (N feindliche Nachschubboten getötet, bevor sie abliefern, oder jedes Lager geschleift, das sie losschickt) geben einem Knoten ein Ziel.
+
+---
+
 ## Siegbedingungen
 
 Jedes Kampagnen-Level kann eine der folgenden Siegbedingungen haben:
