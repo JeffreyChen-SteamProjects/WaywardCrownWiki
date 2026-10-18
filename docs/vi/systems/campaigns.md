@@ -37,9 +37,27 @@ Pháo đài trên đèo sẽ gửi đợt viện binh thứ ba, trừ khi lượ
 
 Bản đồ bị thua sẽ được chơi lại từ cùng điểm khởi đầu: cùng anh hùng, cùng vàng và cùng bản đồ. Một lượt sẽ dừng chờ giữa các bản đồ cho đến khi bạn tiếp tục nó từ menu chính. **Bỏ lượt này** sẽ từ bỏ lượt đó, còn **Hoàn tất** khép lại một lượt đã đi đến cuối. Mỗi lộ trình bạn hoàn thành đều được lưu trong thành tích của bạn, kèm thời gian tốt nhất.
 
+### Bản đồ của bản demo
+
+Năm màn của bản demo cũng được vẽ trên một tấm bản đồ da thuộc, **bản đồ viễn chinh**. Đầu tiên là *Vương miện đầu tiên*; nó mở cùng lúc *Bóng tối trên đường buôn*, *Vàng mỏng* và *Giữ lấy con đường*, chơi theo thứ tự nào cũng được. Hai trong ba con đường mở *Đêm của Nanh Nghiến*, còn con đường thứ ba vẫn mở cho tới khi thắng màn cuối — bỏ qua nó không bao giờ là thua.
+
+| Con đường | Phần thưởng cho màn kế tiếp |
+|---|---|
+| **Bóng tối trên đường buôn** | 300 vàng vào kho bạc |
+| **Vàng mỏng** | Công trình rẻ đi một phần tư, cho tới khi tiết kiệm được 400 vàng |
+| **Giữ lấy con đường** | Mọi anh hùng bắt đầu với bình thuốc đầy, và 200 vàng được chia làm tiếp tế |
+
+Phần thưởng dùng ở màn kế tiếp rồi hết; chơi lại màn đó sẽ nhận lại. Đoàn đi theo, một nửa kho bạc (tối đa 1000), nghiên cứu và con đường lâu đài được mang theo như ở Viễn chinh biên cương.
+
+Chọn một con dấu để đọc màn của nó bên phải: cốt truyện và mục tiêu, thời gian ước chừng, kho bạc lúc đầu và phần thưởng. Vòng nét đứt là màn chưa mở (bảng cho biết còn chờ mấy con đường), vòng vàng là màn có thể lên đường, vòng đôi là màn đã xong trong lượt này. **Lên đường** bắt đầu màn; **Luyện tập** chơi riêng một màn đã thắng mà không động tới lượt viễn chinh. Những màn đã thắng trước khi có bản đồ mang con dấu của chúng. Kéo để di chuyển, lăn chuột để thu phóng, phím mũi tên để chuyển giữa các con dấu, Enter để lên đường và Home để xem toàn bộ bản đồ.
+
+### Tạo bản đồ
+
+Tệp `map_route.json` của một chiến dịch đặt các màn của nó lên bản đồ. Tạo nó trong thẻ **Bản đồ** của trình chỉnh sửa chiến dịch: mỗi điểm là một màn ở tọa độ `x`, `y` (từ 0 đến 1 tính từ góc trên bên trái), cùng các điểm nó chờ (`after`) và cần thắng bao nhiêu điểm trong đó (`need`, bỏ trống là tất cả); `minutes` là thời gian ước tính trong phần giao nhiệm vụ, `reward` là phần thưởng một lần (`trade_subsidy`, `build_discount` hoặc `escort_supply`, kèm `amount`). `links` là các nét mực, `end` là điểm cuối và `art` là ảnh: `demo_frontier`, hoặc một tệp PNG hay JPG trong thư mục chiến dịch (tối đa 8192 điểm ảnh mỗi cạnh và 16 triệu tổng cộng; nếu không thì là da thuộc trơn). **Kiểm tra lộ trình** vẽ bản xem trước. Điểm duy nhất không có `after` là điểm bắt đầu; bản đồ phải chơi được tới cuối theo một thứ tự nào đó, và Workshop yêu cầu mọi điểm là một màn của cùng chiến dịch hoặc của một chiến dịch có sẵn trong trò chơi.
+
 ### Tạo lộ trình
 
-Một chiến dịch trở thành viễn chinh khi có tệp `expedition.json` đặt cạnh `campaign.json` của nó. Hãy dựng nó trong thẻ **Lộ trình viễn chinh** của trình biên tập chiến dịch: gán cho mỗi nút một màn của chiến dịch và số vàng nó cho nút kế tiếp (từ 0 đến 2000), liệt kê các ngả đường đi tiếp, rồi chọn điểm đầu và điểm cuối. **Kiểm tra lộ trình** cho biết nó tạo ra bao nhiêu lộ trình. Các bước kiểm tra của Workshop yêu cầu mỗi nút trỏ tới một màn của cùng chiến dịch. Chơi thử có thể chơi lộ trình từ điểm đầu của nó.
+Một chiến dịch trở thành viễn chinh khi có tệp `expedition.json` đặt cạnh `campaign.json` của nó. Hãy dựng nó trong thẻ **Lộ trình viễn chinh** của trình biên tập chiến dịch: gán cho mỗi nút một màn của chiến dịch và số vàng nó cho nút kế tiếp (từ 0 đến 2000), liệt kê các ngả đường đi tiếp, rồi chọn điểm đầu và điểm cuối. **Kiểm tra lộ trình** cho biết nó tạo ra bao nhiêu lộ trình. Các bước kiểm tra của Workshop yêu cầu mỗi nút trỏ tới một màn của cùng chiến dịch hoặc của một chiến dịch có sẵn trong trò chơi. Chơi thử có thể chơi lộ trình từ điểm đầu của nó.
 
 ```json
 {
@@ -49,7 +67,7 @@ Một chiến dịch trở thành viễn chinh khi có tệp `expedition.json` �
 }
 ```
 
-Lộ trình phải đi được từ điểm đầu đến điểm cuối, không có vòng lặp; mọi nút phải nằm trên một lộ trình nào đó, và mọi lộ trình phải dài đúng bằng `length`. Một màn có thể dựa vào diễn biến của lượt chơi bằng các điều kiện kích hoạt `expedition_won` và `expedition_lacks` (`{"node": "<id>"}`), còn các mục tiêu `complete_relic` (hoàn tất công việc ở một di tích) và `intercept_supply` (giết N người vận chuyển tiếp tế của địch trước khi chúng giao hàng, hoặc san phẳng mọi trại đã phái chúng đi) cho một nút một mục đích.
+Lộ trình phải đi được từ điểm đầu đến điểm cuối, không có vòng lặp; mọi nút phải nằm trên một lộ trình nào đó, và mọi lộ trình phải dài đúng bằng `length`. `requires` liệt kê các khả năng mà lộ trình cần ngoài `expeditions` (ví dụ `relics` hoặc `lair_expansion`). Lộ trình có màn chưa được cài, hoặc phiên bản thiếu một khả năng mà nó yêu cầu, vẫn được liệt kê trên màn hình viễn chinh kèm lý do, nhưng không thể bắt đầu. Một màn có thể dựa vào diễn biến của lượt chơi bằng các điều kiện kích hoạt `expedition_won` và `expedition_lacks` (`{"node": "<id>"}`), còn các mục tiêu `complete_relic` (hoàn tất công việc ở một di tích) và `intercept_supply` (giết N người vận chuyển tiếp tế của địch trước khi chúng giao hàng, hoặc san phẳng mọi trại đã phái chúng đi) cho một nút một mục đích.
 
 ---
 
@@ -134,6 +152,7 @@ campaigns/
 | `side_quests` | Tối đa hai phát hiện tùy chọn trên màn chơi, mỗi cái là `{"kind", "x", "y"}` với kind thuộc `supply_party`, `guarded_cache`, `lair_treasure`; `enemy` hoặc `lair` có thể chỉ rõ ai ở đó |
 | `objectives` | Tối đa 8 điều kiện thắng bổ sung, mỗi điều kiện `{"victory", "value", "target", "required"}` với bất kỳ loại thắng nào trừ `free`. Màn được thắng khi điều kiện chính (nếu không phải `free`) và mọi điều kiện bắt buộc đều đạt; điều kiện tùy chọn được đếm trên dòng mục tiêu và liệt kê trong kết quả |
 | `defeats` | Tối đa 4 cách thua thêm, mỗi cách `{"kind", "value"}`: thua khi `heroes_lost`, `buildings_lost` hoặc `caravans_lost` đạt giá trị đó kể từ đầu màn |
+| `hero_bonds_disabled` | `true`: trong màn này anh hùng không kết thân thêm và không rủ đồng đội (những mối gắn bó có từ trước vẫn còn); nếu bỏ qua: gắn bó như thường |
 
 Bản thân chiến dịch có thể có `id` (tên dùng để ghi tiến trình) và `"linear": false` (các thử thách độc lập: thắng một màn không dẫn sang màn kế tiếp). Nó cũng có thể liệt kê `blocked_events`: tên các sự kiện ngẫu nhiên mà các màn của nó không bao giờ gieo ra (ví dụ `DRAGON_NEST`). Và một `roster`: các loại kẻ thù (tên như `GOBLIN`) lang thang và xâm lược trong các màn của nó; nếu bỏ qua thì là mọi loại.
 

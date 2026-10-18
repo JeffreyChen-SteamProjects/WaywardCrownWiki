@@ -37,9 +37,27 @@ La fortezza del passo manda una terza ondata di rinforzi, a meno che la tua part
 
 Una mappa persa si rigioca dalla stessa partenza: stessi eroi, stesso oro, stessa mappa. Una partita resta in attesa tra una mappa e l'altra finché non la riprendi dal menu principale. **Abbandona la partita** vi rinuncia, e **Concludi** chiude una partita arrivata alla fine. Ogni percorso che completi resta nel tuo registro, con il tuo tempo migliore.
 
+### La mappa della demo
+
+I cinque livelli della demo sono disegnati anche su un'unica mappa di pergamena, la **mappa della spedizione**. Si comincia da *La prima corona*; apre insieme *Ombre sulla via commerciale*, *Oro scarso* e *Tieni la strada*, da giocare nell'ordine che preferisci. Due delle tre aprono *La notte di Zannastridente*, e la terza resta aperta finché la fine non è vinta: saltarla non è mai una sconfitta.
+
+| Strada | La sua ricompensa per il livello seguente |
+|---|---|
+| **Ombre sulla via commerciale** | 300 d'oro nel tesoro |
+| **Oro scarso** | Edifici scontati di un quarto, fino a 400 d'oro risparmiati |
+| **Tieni la strada** | Tutti gli eroi iniziano con le pozioni piene e si distribuiscono 200 d'oro di rifornimenti |
+
+La ricompensa si usa nel livello seguente e poi sparisce; rigiocare quel livello la ridà. La compagnia, metà del tesoro (al massimo 1000), la ricerca e la via del castello passano come nella Spedizione di frontiera.
+
+Seleziona un sigillo per leggere il suo livello a destra: storia e obiettivi, durata indicativa, tesoro iniziale e ricompensa. Un anello tratteggiato è un livello non ancora aperto (il pannello dice quante strade attende ancora), un anello dorato uno verso cui partire, un anello doppio uno vinto in questa spedizione. **Parti** lo avvia; **Allenamento** gioca da solo un livello già vinto, senza toccare la spedizione. I livelli vinti prima che esistesse la mappa mostrano il loro sigillo. Trascina per spostare, rotella per lo zoom, frecce per passare da un sigillo all'altro, Invio per partire e Home per vedere tutta la mappa.
+
+### Creare una mappa
+
+Il `map_route.json` di una campagna mette i suoi livelli su una mappa. Si crea nella scheda **Mappa** dell'editor delle campagne: ogni nodo è un livello alle coordinate `x`, `y` (da 0 a 1 dall'angolo in alto a sinistra), con i nodi che attende (`after`) e quanti ne vanno vinti (`need`, tutti se omesso); `minutes` è la stima del briefing e `reward` una ricompensa unica (`trade_subsidy`, `build_discount` o `escort_supply`, con un `amount`). `links` sono le linee d'inchiostro, `end` l'ultimo nodo e `art` l'immagine: `demo_frontier`, o un PNG o JPG nella cartella della campagna (al massimo 8192 pixel per lato e 16 milioni in tutto; altrimenti pergamena semplice). **Verifica percorso** disegna un'anteprima. L'unico nodo senza `after` è l'inizio; la mappa deve essere giocabile fino alla fine in qualche ordine, e il Workshop richiede che ogni nodo sia un livello della stessa campagna o di una campagna inclusa nel gioco.
+
 ### Creare un percorso
 
-Una campagna diventa una spedizione con un file `expedition.json` accanto al suo `campaign.json`. Costruiscilo nella scheda **Percorso della spedizione** dell'editor delle campagne: assegna a ogni nodo un livello della campagna e l'oro che concede al nodo successivo (da 0 a 2000), elenca le strade che proseguono, poi scegli partenza e arrivo. **Verifica percorso** ti dice quanti percorsi ne escono. I controlli del Workshop richiedono che ogni nodo punti a un livello della stessa campagna. Una prova di gioco può giocare il percorso dalla sua partenza.
+Una campagna diventa una spedizione con un file `expedition.json` accanto al suo `campaign.json`. Costruiscilo nella scheda **Percorso della spedizione** dell'editor delle campagne: assegna a ogni nodo un livello della campagna e l'oro che concede al nodo successivo (da 0 a 2000), elenca le strade che proseguono, poi scegli partenza e arrivo. **Verifica percorso** ti dice quanti percorsi ne escono. I controlli del Workshop richiedono che ogni nodo punti a un livello della stessa campagna o di una campagna inclusa nel gioco. Una prova di gioco può giocare il percorso dalla sua partenza.
 
 ```json
 {
@@ -49,7 +67,7 @@ Una campagna diventa una spedizione con un file `expedition.json` accanto al suo
 }
 ```
 
-Un percorso deve portare dalla partenza all'arrivo, senza cicli; ogni nodo deve stare su qualche percorso e ogni percorso deve essere lungo quanto `length`. Un livello può regolarsi sulla partita con le condizioni dei trigger `expedition_won` ed `expedition_lacks` (`{"node": "<id>"}`), e gli obiettivi `complete_relic` (il lavoro di una reliquia portato a termine) e `intercept_supply` (N trasportatori di rifornimenti nemici uccisi prima che consegnino, oppure rasi al suolo tutti gli accampamenti che li mandano) danno uno scopo a un nodo.
+Un percorso deve portare dalla partenza all'arrivo, senza cicli; ogni nodo deve stare su qualche percorso e ogni percorso deve essere lungo quanto `length`. `requires` elenca le capacità di cui il percorso ha bisogno oltre a `expeditions` (per esempio `relics` o `lair_expansion`). Un percorso il cui livello non è installato, o la cui edizione non ha una capacità che richiede, resta comunque elencato nella schermata della spedizione con il motivo, ma non si può avviare. Un livello può regolarsi sulla partita con le condizioni dei trigger `expedition_won` ed `expedition_lacks` (`{"node": "<id>"}`), e gli obiettivi `complete_relic` (il lavoro di una reliquia portato a termine) e `intercept_supply` (N trasportatori di rifornimenti nemici uccisi prima che consegnino, oppure rasi al suolo tutti gli accampamenti che li mandano) danno uno scopo a un nodo.
 
 ---
 
@@ -134,6 +152,7 @@ campaigns/
 | `side_quests` | Fino a due scoperte facoltative nel livello, ciascuna `{"kind", "x", "y"}` con un kind tra `supply_party`, `guarded_cache`, `lair_treasure`; `enemy` o `lair` può indicare chi c'è |
 | `objectives` | Fino a 8 condizioni di vittoria aggiuntive, ciascuna `{"victory", "value", "target", "required"}` con qualsiasi vittoria tranne `free`. Il livello è vinto quando la vittoria principale (salvo `free`) e tutte quelle richieste sono soddisfatte; quelle facoltative sono contate nella riga dell'obiettivo ed elencate nei risultati |
 | `defeats` | Fino a 4 altri modi di perdere, ciascuno `{"kind", "value"}`: `heroes_lost`, `buildings_lost` o `caravans_lost` raggiunge il valore dall'inizio del livello |
+| `hero_bonds_disabled` | `true`: in questo livello gli eroi non stringono nuovi legami e non invitano compagni (i legami già stretti restano); se omesso: legami come di consueto |
 
 La campagna stessa può avere un `id` (il nome con cui vengono registrati i suoi progressi) e `"linear": false` (sfide indipendenti: vincerne una non porta alla successiva). Può anche elencare `blocked_events`: i nomi degli eventi casuali che i suoi livelli non estraggono mai (per esempio `DRAGON_NEST`). E un `roster`: i tipi di nemico (nomi come `GOBLIN`) che vagano e invadono nei suoi livelli; se omesso, tutti.
 

@@ -37,9 +37,27 @@ Forteca na przełęczy wysyła trzecią falę posiłków, chyba że twoje podej�
 
 Przegraną mapę gra się od nowa z tego samego startu: z tymi samymi bohaterami, złotem i mapą. Podejście czeka między mapami, aż wznowisz je z menu głównego. **Porzuć podejście** rezygnuje z niego, a **Zakończ** zamyka podejście, które dotarło do końca. Każda ukończona trasa trafia do twoich rekordów wraz z najlepszym czasem.
 
+### Mapa wersji demonstracyjnej
+
+Pięć poziomów wersji demonstracyjnej narysowano też na jednej pergaminowej mapie, **mapie wyprawy**. Najpierw jest *Pierwsza korona*; otwiera naraz *Cienie na szlaku handlowym*, *Cienkie złoto* i *Utrzymaj drogę*, w dowolnej kolejności. Dwie z trzech otwierają *Noc Zgrzytokła*, a trzecia zostaje otwarta aż do zwycięstwa w finale – pominięcie jej nigdy nie jest porażką.
+
+| Droga | Jej nagroda na następny poziom |
+|---|---|
+| **Cienie na szlaku handlowym** | 300 złota w skarbcu |
+| **Cienkie złoto** | Budynki o jedną czwartą tańsze, aż do 400 złota oszczędności |
+| **Utrzymaj drogę** | Wszyscy bohaterowie zaczynają z pełnymi miksturami, a 200 złota idzie na zaopatrzenie |
+
+Nagroda przydaje się na następnym poziomie i znika; powtórka tego poziomu daje ją znowu. Drużyna, połowa skarbca (najwyżej 1000), badania i ścieżka zamku przechodzą dalej jak w Wyprawie na rubieże.
+
+Wybierz pieczęć, by po prawej przeczytać jej poziom: fabułę i cele, przybliżony czas, skarbiec na start i nagrodę. Przerywany pierścień to poziom jeszcze zamknięty (panel mówi, na ile dróg jeszcze czeka), złoty – poziom, na który można wyruszyć, podwójny – poziom wygrany w tej wyprawie. **Wyrusz** go zaczyna; **Trening** gra osobno poziom już wygrany, nie ruszając wyprawy. Poziomy wygrane przed powstaniem mapy mają swoją pieczęć. Przeciąganie przesuwa, kółko przybliża, strzałki przechodzą między pieczęciami, Enter wyrusza, a Home pokazuje całą mapę.
+
+### Tworzenie mapy
+
+Plik `map_route.json` kampanii kładzie jej poziomy na mapie. Tworzy się go w zakładce **Mapa** edytora kampanii: każdy węzeł to poziom we współrzędnych `x`, `y` (od 0 do 1 od lewego górnego rogu), z węzłami, na które czeka (`after`), i liczbą tych, które trzeba wygrać (`need`, wszystkie, gdy pominięte); `minutes` to szacunek z odprawy, a `reward` jednorazowa nagroda (`trade_subsidy`, `build_discount` lub `escort_supply`, z `amount`). `links` to linie atramentu, `end` ostatni węzeł, a `art` obraz: `demo_frontier` albo plik PNG lub JPG w folderze kampanii (najwyżej 8192 piksele na bok i 16 milionów łącznie; inaczej gładki pergamin). **Sprawdź trasę** rysuje podgląd. Jedyny węzeł bez `after` to start; mapę musi dać się przejść do końca w jakiejś kolejności, a Warsztat wymaga, by każdy węzeł był poziomem tej samej kampanii albo kampanii dołączonej do gry.
+
 ### Tworzenie trasy
 
-Kampania staje się wyprawą, gdy obok jej `campaign.json` leży plik `expedition.json`. Zbuduj go w zakładce **Trasa wyprawy** edytora kampanii: przypisz każdemu węzłowi poziom kampanii i złoto, które daje następnemu węzłowi (od 0 do 2000), wypisz drogi dalej, a potem wybierz start i koniec. **Sprawdź trasę** mówi, ile tras z tego wychodzi. Kontrole Warsztatu wymagają, by każdy węzeł wskazywał poziom tej samej kampanii. Test gry może zagrać trasę od jej startu.
+Kampania staje się wyprawą, gdy obok jej `campaign.json` leży plik `expedition.json`. Zbuduj go w zakładce **Trasa wyprawy** edytora kampanii: przypisz każdemu węzłowi poziom kampanii i złoto, które daje następnemu węzłowi (od 0 do 2000), wypisz drogi dalej, a potem wybierz start i koniec. **Sprawdź trasę** mówi, ile tras z tego wychodzi. Kontrole Warsztatu wymagają, by każdy węzeł wskazywał poziom tej samej kampanii albo kampanii dołączonej do gry. Test gry może zagrać trasę od jej startu.
 
 ```json
 {
@@ -49,7 +67,7 @@ Kampania staje się wyprawą, gdy obok jej `campaign.json` leży plik `expeditio
 }
 ```
 
-Trasa musi prowadzić od startu do końca, bez pętli; każdy węzeł musi leżeć na jakiejś trasie, a każda trasa musi być tak długa jak `length`. Poziom może zależeć od przebiegu podejścia dzięki warunkom wyzwalaczy `expedition_won` i `expedition_lacks` (`{"node": "<id>"}`), a cele `complete_relic` (ukończone prace przy relikcie) i `intercept_supply` (N wrogich kurierów z zaopatrzeniem zabitych, zanim dostarczą ładunek, albo zburzone wszystkie obozy, które ich wysyłają) dają węzłowi zadanie.
+Trasa musi prowadzić od startu do końca, bez pętli; każdy węzeł musi leżeć na jakiejś trasie, a każda trasa musi być tak długa jak `length`. `requires` wymienia funkcje, których trasa potrzebuje poza `expeditions` (na przykład `relics` albo `lair_expansion`). Trasa, której poziom nie jest zainstalowany albo której wydaniu brakuje wymaganej funkcji, nadal widnieje na ekranie wyprawy wraz z powodem, ale nie da się jej rozpocząć. Poziom może zależeć od przebiegu podejścia dzięki warunkom wyzwalaczy `expedition_won` i `expedition_lacks` (`{"node": "<id>"}`), a cele `complete_relic` (ukończone prace przy relikcie) i `intercept_supply` (N wrogich kurierów z zaopatrzeniem zabitych, zanim dostarczą ładunek, albo zburzone wszystkie obozy, które ich wysyłają) dają węzłowi zadanie.
 
 ---
 
@@ -134,6 +152,7 @@ campaigns/
 | `side_quests` | Do dwóch opcjonalnych znalezisk na poziomie, każde `{"kind", "x", "y"}` z kind spośród `supply_party`, `guarded_cache`, `lair_treasure`; `enemy` lub `lair` może wskazać, kto tam jest |
 | `objectives` | Do 8 dodatkowych warunków zwycięstwa, każdy `{"victory", "value", "target", "required"}` z dowolnym zwycięstwem oprócz `free`. Poziom jest wygrany, gdy spełnione są zwycięstwo główne (jeśli nie `free`) i wszystkie wymagane; opcjonalne są liczone w wierszu celu i wymienione w wynikach |
 | `defeats` | Do 4 dodatkowych sposobów przegranej, każdy `{"kind", "value"}`: `heroes_lost`, `buildings_lost` lub `caravans_lost` osiąga wartość od początku poziomu |
+| `hero_bonds_disabled` | `true`: na tym poziomie bohaterowie nie zawierają nowych więzi i nie zapraszają towarzyszy (dotychczasowe więzi zostają); pominięte: więzi jak zwykle |
 
 Sama kampania może mieć `id` (nazwę, pod którą zapisywane są jej postępy) oraz `"linear": false` (niezależne wyzwania: wygrana nie prowadzi do następnego poziomu). Może też wymienić `blocked_events`: nazwy zdarzeń losowych, których jej poziomy nigdy nie losują (na przykład `DRAGON_NEST`). Oraz `roster`: rodzaje wrogów (nazwy takie jak `GOBLIN`), które wędrują i najeżdżają na jej poziomach; bez niego wszystkie.
 

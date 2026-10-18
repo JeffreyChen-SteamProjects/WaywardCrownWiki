@@ -37,9 +37,27 @@ The pass's fortress sends a third wave of reinforcements, unless your run broke 
 
 A lost map is played again from the same start: the same heroes, gold and map. A run waits between maps until you continue it from the main menu. **Abandon run** gives it up, and **Finish** closes a run that reached the end. Each route you finish is kept in your record, with your best time.
 
+### The Demo's map
+
+The Demo's five levels are also drawn on one parchment map, the **Expedition map**. *The First Crown* comes first; it opens *Shadows on the Trade Road*, *Thin Gold* and *Hold the Road* at once, to be played in any order. Any two of the three open *Night of Gnashfang*, and the third stays open until the end is won — skipping it is never a failure.
+
+| Road | Its reward for the next level |
+|---|---|
+| **Shadows on the Trade Road** | 300 gold in the treasury |
+| **Thin Gold** | Buildings a quarter cheaper, until 400 gold is saved |
+| **Hold the Road** | Every hero starts with full potions, and 200 gold is shared out for supplies |
+
+A reward is used on the next level and then gone; a retry of that level gets it again. The party, half the treasury (1000 at most), research and the castle path carry on as on the Frontier Expedition.
+
+Select a seal to read its level on the right: its story and goals, about how long it takes, the treasury it starts with and its reward. A dashed ring is a level not open yet (the panel says how many roads it still waits on), a gold ring one you can set out for, a double ring one done in this run. **Set out** starts it; **Practice** plays a level already cleared on its own, without touching the run. Levels cleared before the map existed show their stamp. Drag to pan, scroll to zoom, the arrow keys move between seals, Enter sets out and Home shows the whole map.
+
+### Making a map
+
+A campaign's `map_route.json` places its levels on a map. Make it in the campaign editor's **Map** tab: each node is a level at map coordinates `x`, `y` (0 to 1 from the top left), with the nodes it waits on (`after`) and how many of them must be won (`need`, all when left out); `minutes` is the briefing's estimate and `reward` a one-time reward (`trade_subsidy`, `build_discount` or `escort_supply`, with an `amount`). `links` are the ink lines, `end` the last node, and `art` the sheet: `demo_frontier`, or a PNG or JPG inside the campaign folder (8192 pixels a side and 16 million in all at most; plain parchment otherwise). **Check route** draws a preview. The one node with no `after` is the start; the map must be playable to its end in some order, and the Workshop holds every node to a level of the same campaign or of one the game ships.
+
 ### Making a route
 
-A campaign becomes an expedition with an `expedition.json` file beside its `campaign.json`. Build it in the campaign editor's **Expedition route** tab: give each node a level of the campaign and the gold it grants the next node (0 to 2000), list the ways on, then choose the start and the end. **Check route** says how many routes it makes. The Workshop's checks hold every node to a level of the same campaign. A playtest can play the route from its start.
+A campaign becomes an expedition with an `expedition.json` file beside its `campaign.json`. Build it in the campaign editor's **Expedition route** tab: give each node a level of the campaign and the gold it grants the next node (0 to 2000), list the ways on, then choose the start and the end. **Check route** says how many routes it makes. The Workshop's checks hold every node to a level of the same campaign or of one the game ships. A playtest can play the route from its start.
 
 ```json
 {
@@ -49,7 +67,7 @@ A campaign becomes an expedition with an `expedition.json` file beside its `camp
 }
 ```
 
-A route must reach the end from the start, with no loop, every node on some route, and every route as long as `length`. A level waits on the run with the trigger conditions `expedition_won` and `expedition_lacks` (`{"node": "<id>"}`), and the objectives `complete_relic` (a relic's work finished) and `intercept_supply` (N enemy supply couriers killed before they deliver, or every camp that sends them razed) give a node a goal.
+A route must reach the end from the start, with no loop, every node on some route, and every route as long as `length`. `requires` lists the capabilities the route needs besides `expeditions` (for example `relics` or `lair_expansion`). A route whose level is not installed, or whose edition lacks a capability it requires, is still listed on the expedition screen, with the reason, but cannot be started. A level waits on the run with the trigger conditions `expedition_won` and `expedition_lacks` (`{"node": "<id>"}`), and the objectives `complete_relic` (a relic's work finished) and `intercept_supply` (N enemy supply couriers killed before they deliver, or every camp that sends them razed) give a node a goal.
 
 ---
 
@@ -134,6 +152,7 @@ campaigns/
 | `side_quests` | Up to two optional finds on the level, each `{"kind", "x", "y"}` with a kind of `supply_party`, `guarded_cache`, `lair_treasure`; `enemy` or `lair` may name who is there |
 | `objectives` | Up to 8 further victory conditions, each `{"victory", "value", "target", "required"}` with any victory but `free`. The level is won when its main victory (unless `free`) and every required one are met; optional ones are counted on the objective line and listed in the results |
 | `defeats` | Up to 4 more ways to lose, each `{"kind", "value"}`: `heroes_lost`, `buildings_lost` or `caravans_lost` reaching the value since the level began |
+| `hero_bonds_disabled` | `true`: heroes form no new bonds and invite no companions on this level (their earlier bonds stay); left out: bonds as usual |
 
 The campaign itself may carry an `id` (the name its progress is recorded under) and `"linear": false` (independent challenges: winning one does not lead into the next). It may also list `blocked_events`: names of random events its levels never roll (for example `DRAGON_NEST`). And a `roster`: the enemy types (names such as `GOBLIN`) that wander and invade on its levels; left out, every type does.
 

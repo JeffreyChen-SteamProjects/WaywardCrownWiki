@@ -37,9 +37,27 @@ Die Festung am Pass schickt eine dritte Welle Verstärkung, es sei denn, dein La
 
 Eine verlorene Karte wird vom selben Start aus noch einmal gespielt: mit denselben Helden, demselben Gold und derselben Karte. Ein Lauf wartet zwischen den Karten, bis du ihn im Hauptmenü fortsetzt. **Lauf aufgeben** gibt ihn auf, und **Abschließen** beendet einen Lauf, der das Ende erreicht hat. Jede Route, die du abschließt, wird mit deiner Bestzeit in deinen Rekorden festgehalten.
 
+### Die Karte der Demo
+
+Die fünf Karten der Demo sind auch auf einer einzigen Pergamentkarte gezeichnet, der **Expeditionskarte**. Zuerst kommt *Die erste Krone*; sie öffnet *Schatten auf dem Handelsweg*, *Dünnes Gold* und *Halte die Straße* zugleich, in beliebiger Reihenfolge. Zwei der drei öffnen *Die Nacht des Knirschzahn*, und der dritte bleibt offen, bis das Ende gewonnen ist – ihn auszulassen ist nie eine Niederlage.
+
+| Weg | Seine Belohnung für die nächste Karte |
+|---|---|
+| **Schatten auf dem Handelsweg** | 300 Gold in der Schatzkammer |
+| **Dünnes Gold** | Gebäude um ein Viertel billiger, bis 400 Gold gespart sind |
+| **Halte die Straße** | Alle Helden beginnen mit vollen Tränken, und 200 Gold werden als Proviant verteilt |
+
+Eine Belohnung wird auf der nächsten Karte verbraucht; wer diese Karte wiederholt, bekommt sie erneut. Gefolge, die halbe Schatzkammer (höchstens 1000), Forschung und Burgpfad werden wie bei der Grenzexpedition mitgenommen.
+
+Ein Siegel auswählen zeigt seine Karte rechts: Geschichte und Ziele, ungefähre Dauer, die Schatzkammer zu Beginn und die Belohnung. Ein gestrichelter Ring ist eine noch nicht offene Karte (die Leiste sagt, auf wie viele Wege sie noch wartet), ein goldener Ring eine, zu der man aufbrechen kann, ein doppelter Ring eine in dieser Expedition gewonnene. **Aufbrechen** startet sie; **Üben** spielt eine schon gewonnene Karte allein, ohne die Expedition zu berühren. Karten, die vor der Expeditionskarte gewonnen wurden, tragen ihr Siegel. Ziehen verschiebt, das Mausrad zoomt, die Pfeiltasten wechseln zwischen Siegeln, Enter bricht auf, Pos1 zeigt die ganze Karte.
+
+### Eine Landkarte bauen
+
+Die `map_route.json` einer Kampagne legt ihre Karten auf eine Landkarte. Gebaut wird sie im Reiter **Karte** des Kampagneneditors: Jeder Knoten ist eine Karte an den Koordinaten `x`, `y` (0 bis 1 von oben links), mit den Knoten, auf die er wartet (`after`), und wie viele davon gewonnen sein müssen (`need`, ohne Angabe alle); `minutes` ist die Schätzung der Einsatzbesprechung, `reward` eine einmalige Belohnung (`trade_subsidy`, `build_discount` oder `escort_supply`, mit `amount`). `links` sind die Tintenlinien, `end` der letzte Knoten und `art` das Kartenbild: `demo_frontier` oder eine PNG- oder JPG-Datei im Kampagnenordner (höchstens 8192 Pixel je Seite und 16 Millionen insgesamt; sonst schlichtes Pergament). **Route prüfen** zeichnet eine Vorschau. Der eine Knoten ohne `after` ist der Start; die Landkarte muss in irgendeiner Reihenfolge bis zum Ende spielbar sein, und der Workshop verlangt, dass jeder Knoten eine Karte derselben Kampagne oder einer Kampagne des Spiels ist.
+
 ### Eine Route bauen
 
-Eine Kampagne wird zur Expedition, wenn neben ihrer `campaign.json` eine Datei `expedition.json` liegt. Baue sie im Reiter **Expeditionsroute** des Kampagneneditors: Weise jedem Knoten ein Level der Kampagne und das Gold zu, das er dem nächsten Knoten mitgibt (0 bis 2000), liste die weiterführenden Wege auf und wähle dann Start und Ende. **Route prüfen** sagt dir, wie viele Routen sich daraus ergeben. Die Prüfungen des Workshops verlangen, dass jeder Knoten auf ein Level derselben Kampagne zeigt. Ein Spieltest kann die Route von ihrem Start an spielen.
+Eine Kampagne wird zur Expedition, wenn neben ihrer `campaign.json` eine Datei `expedition.json` liegt. Baue sie im Reiter **Expeditionsroute** des Kampagneneditors: Weise jedem Knoten ein Level der Kampagne und das Gold zu, das er dem nächsten Knoten mitgibt (0 bis 2000), liste die weiterführenden Wege auf und wähle dann Start und Ende. **Route prüfen** sagt dir, wie viele Routen sich daraus ergeben. Die Prüfungen des Workshops verlangen, dass jeder Knoten auf ein Level derselben Kampagne oder einer Kampagne des Spiels zeigt. Ein Spieltest kann die Route von ihrem Start an spielen.
 
 ```json
 {
@@ -49,7 +67,7 @@ Eine Kampagne wird zur Expedition, wenn neben ihrer `campaign.json` eine Datei `
 }
 ```
 
-Eine Route muss vom Start aus das Ende erreichen und darf keine Schleife haben; jeder Knoten muss auf irgendeiner Route liegen, und jede Route muss so lang sein wie `length`. Mit den Auslösebedingungen `expedition_won` und `expedition_lacks` (`{"node": "<id>"}`) richtet sich ein Level nach dem bisherigen Lauf, und die Ziele `complete_relic` (die Arbeit an einem Relikt ist abgeschlossen) und `intercept_supply` (N feindliche Nachschubboten getötet, bevor sie abliefern, oder jedes Lager geschleift, das sie losschickt) geben einem Knoten ein Ziel.
+Eine Route muss vom Start aus das Ende erreichen und darf keine Schleife haben; jeder Knoten muss auf irgendeiner Route liegen, und jede Route muss so lang sein wie `length`. `requires` listet die Fähigkeiten, die die Route außer `expeditions` braucht (zum Beispiel `relics` oder `lair_expansion`). Eine Route, deren Level nicht installiert ist oder deren Edition eine benötigte Fähigkeit fehlt, steht trotzdem samt Grund auf dem Expeditionsbildschirm, kann aber nicht gestartet werden. Mit den Auslösebedingungen `expedition_won` und `expedition_lacks` (`{"node": "<id>"}`) richtet sich ein Level nach dem bisherigen Lauf, und die Ziele `complete_relic` (die Arbeit an einem Relikt ist abgeschlossen) und `intercept_supply` (N feindliche Nachschubboten getötet, bevor sie abliefern, oder jedes Lager geschleift, das sie losschickt) geben einem Knoten ein Ziel.
 
 ---
 
@@ -134,6 +152,7 @@ campaigns/
 | `side_quests` | Bis zu zwei optionale Funde auf dem Level, jeder `{"kind", "x", "y"}` mit einem kind aus `supply_party`, `guarded_cache`, `lair_treasure`; `enemy` oder `lair` kann benennen, wer dort ist |
 | `objectives` | Bis zu 8 weitere Siegbedingungen, jede `{"victory", "value", "target", "required"}` mit jedem Sieg außer `free`. Gewonnen ist das Level, wenn sein Hauptsieg (außer `free`) und alle erforderlichen erfüllt sind; optionale werden in der Zielzeile gezählt und in den Ergebnissen aufgeführt |
 | `defeats` | Bis zu 4 weitere Arten zu verlieren, jede `{"kind", "value"}`: `heroes_lost`, `buildings_lost` oder `caravans_lost` erreicht den Wert seit Levelbeginn |
+| `hero_bonds_disabled` | `true`: Helden knüpfen in diesem Level keine neuen Bande und laden keine Gefährten ein (ihre früheren Bande bleiben); weggelassen: Bande wie gewohnt |
 
 Die Kampagne selbst kann eine `id` (der Name, unter dem ihr Fortschritt gespeichert wird) und `"linear": false` tragen (unabhängige Herausforderungen: Ein Sieg führt nicht ins nächste Level). Sie kann außerdem `blocked_events` auflisten: Namen von Zufallsereignissen, die in ihren Levels nie ausgewürfelt werden (zum Beispiel `DRAGON_NEST`). Dazu ein `roster`: die Gegnerarten (Namen wie `GOBLIN`), die in ihren Leveln umherstreifen und einfallen; ohne Angabe sind es alle.
 

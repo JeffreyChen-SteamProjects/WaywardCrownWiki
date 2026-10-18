@@ -37,9 +37,27 @@ Geçitteki kale üçüncü bir takviye dalgası gönderir; turun düşman sını
 
 Kaybedilen harita aynı başlangıçtan yeniden oynanır: aynı kahramanlar, aynı altın ve aynı harita. Tur, ana menüden devam ettirene kadar haritalar arasında bekler. **Turu bırak** turdan vazgeçer, **Bitir** ise sona ulaşmış bir turu kapatır. Bitirdiğin her rota, en iyi sürenle birlikte kayıtlarında tutulur.
 
+### Demonun haritası
+
+Demonun beş bölümü tek bir parşömen haritaya, **sefer haritasına** da çizilidir. Önce *İlk taç* gelir; *Ticaret yolundaki gölgeler*, *İnce altın* ve *Yolu tut* bölümlerini aynı anda açar, istediğiniz sırayla oynanır. Üçünden ikisi *Gıcırdiş'in gecesi*ni açar, üçüncüsü son bölüm kazanılana kadar açık kalır; onu atlamak asla yenilgi sayılmaz.
+
+| Yol | Sonraki bölüm için ödülü |
+|---|---|
+| **Ticaret yolundaki gölgeler** | Hazineye 300 altın |
+| **İnce altın** | Binalar dörtte bir ucuz, 400 altın tasarruf edilene kadar |
+| **Yolu tut** | Bütün kahramanlar iksirleri dolu başlar ve erzak için 200 altın dağıtılır |
+
+Ödül sonraki bölümde kullanılır ve biter; o bölümü tekrar oynamak onu yeniden verir. Bölük, hazinenin yarısı (en fazla 1000), araştırma ve kale yolu Sınır Seferi'ndeki gibi taşınır.
+
+Bir mührü seçince bölümü sağda görünür: hikâye ve hedefler, aşağı yukarı süresi, başlangıç hazinesi ve ödülü. Kesikli halka henüz açılmamış bir bölümdür (panel daha kaç yol beklediğini söyler), altın halka yola çıkılabilecek bir bölüm, çift halka bu seferde kazanılmış bir bölüm. **Yola çık** başlatır; **Alıştırma** zaten kazanılmış bir bölümü seferi değiştirmeden tek başına oynatır. Harita gelmeden önce kazanılan bölümler mühürlerini taşır. Sürükleyerek kaydırın, tekerlekle yakınlaştırın, ok tuşlarıyla mühürler arasında gezinin, Enter ile yola çıkın, Home ile bütün haritayı görün.
+
+### Harita hazırlamak
+
+Bir seferin `map_route.json` dosyası bölümlerini bir haritaya yerleştirir. Sefer düzenleyicisinin **Harita** sekmesinde hazırlanır: her düğüm `x`, `y` koordinatlarında (sol üstten 0 ile 1 arası) bir bölümdür; beklediği düğümler (`after`) ve bunlardan kaçının kazanılması gerektiği (`need`, yazılmazsa hepsi) yazılır. `minutes` brifingdeki tahmin, `reward` tek seferlik bir ödüldür (`trade_subsidy`, `build_discount` ya da `escort_supply`, `amount` ile). `links` mürekkep çizgileri, `end` son düğüm, `art` ise resimdir: `demo_frontier` ya da sefer klasöründeki bir PNG veya JPG (kenar başına en çok 8192, toplamda 16 milyon piksel; yoksa düz parşömen). **Rotayı denetle** bir önizleme çizer. `after` içermeyen tek düğüm başlangıçtır; harita bir sırayla sonuna kadar oynanabilmelidir ve Atölye her düğümün aynı seferin ya da oyunla gelen bir seferin bölümü olmasını ister.
+
 ### Rota hazırlamak
 
-Bir kampanya, `campaign.json` dosyasının yanına bir `expedition.json` dosyası konunca sefere dönüşür. Bunu kampanya düzenleyicisinin **Sefer rotası** sekmesinde hazırla: her düğüme kampanyadan bir seviye ve sonraki düğüme verdiği altını (0 ile 2000 arası) ata, ilerideki yolları listele, sonra başlangıcı ve sonu seç. **Rotayı denetle** bunun kaç rota oluşturduğunu söyler. Atölye denetimleri her düğümün aynı kampanyanın bir seviyesini göstermesini ister. Oyun testi rotayı başlangıcından oynayabilir.
+Bir kampanya, `campaign.json` dosyasının yanına bir `expedition.json` dosyası konunca sefere dönüşür. Bunu kampanya düzenleyicisinin **Sefer rotası** sekmesinde hazırla: her düğüme kampanyadan bir seviye ve sonraki düğüme verdiği altını (0 ile 2000 arası) ata, ilerideki yolları listele, sonra başlangıcı ve sonu seç. **Rotayı denetle** bunun kaç rota oluşturduğunu söyler. Atölye denetimleri her düğümün aynı kampanyanın ya da oyunla gelen bir kampanyanın bir seviyesini göstermesini ister. Oyun testi rotayı başlangıcından oynayabilir.
 
 ```json
 {
@@ -49,7 +67,7 @@ Bir kampanya, `campaign.json` dosyasının yanına bir `expedition.json` dosyas�
 }
 ```
 
-Bir rota başlangıçtan sona ulaşmalı ve döngü içermemelidir; her düğüm bir rotanın üzerinde olmalı ve her rota `length` kadar uzun olmalıdır. Bir seviye `expedition_won` ve `expedition_lacks` (`{"node": "<id>"}`) tetikleyici koşullarıyla turun gidişatına göre davranır; `complete_relic` (bir kalıntının işi tamamlandı) ve `intercept_supply` (N düşman ikmal kuryesi teslim etmeden öldürüldü ya da onları gönderen kampların hepsi yerle bir edildi) hedefleri ise bir düğüme amaç verir.
+Bir rota başlangıçtan sona ulaşmalı ve döngü içermemelidir; her düğüm bir rotanın üzerinde olmalı ve her rota `length` kadar uzun olmalıdır. `requires`, rotanın `expeditions` dışında ihtiyaç duyduğu yetenekleri listeler (örneğin `relics` ya da `lair_expansion`). Seviyesi kurulu olmayan ya da sürümünde gerektirdiği bir yetenek bulunmayan rota, sefer ekranında nedeniyle birlikte yine listelenir ama başlatılamaz. Bir seviye `expedition_won` ve `expedition_lacks` (`{"node": "<id>"}`) tetikleyici koşullarıyla turun gidişatına göre davranır; `complete_relic` (bir kalıntının işi tamamlandı) ve `intercept_supply` (N düşman ikmal kuryesi teslim etmeden öldürüldü ya da onları gönderen kampların hepsi yerle bir edildi) hedefleri ise bir düğüme amaç verir.
 
 ---
 
@@ -134,6 +152,7 @@ campaigns/
 | `side_quests` | Seviyede en çok iki isteğe bağlı buluntu; her biri `{"kind", "x", "y"}`, kind şunlardan biri: `supply_party`, `guarded_cache`, `lair_treasure`; `enemy` ya da `lair` orada kimin olduğunu belirtebilir |
 | `objectives` | En çok 8 ek zafer koşulu; her biri `{"victory", "value", "target", "required"}`, victory `free` dışında herhangi biri olabilir. Ana zafer (`free` değilse) ve tüm zorunlu koşullar sağlandığında seviye kazanılır; isteğe bağlı olanlar hedef satırında sayılır ve sonuçlarda listelenir |
 | `defeats` | En çok 4 ek kaybetme yolu; her biri `{"kind", "value"}`: seviye başından beri `heroes_lost`, `buildings_lost` ya da `caravans_lost` değere ulaşırsa kaybedilir |
+| `hero_bonds_disabled` | `true`: bu seviyede kahramanlar yeni bağ kurmaz ve yoldaş çağırmaz (önceki bağları kalır); belirtilmezse bağlar her zamanki gibi |
 
 Kampanyanın kendisi de bir `id` (ilerlemesinin kaydedildiği ad) ve `"linear": false` (bağımsız meydan okumalar: birini kazanmak bir sonrakine geçirmez) taşıyabilir. Ayrıca `blocked_events` listeleyebilir: seviyelerinde hiç çıkmayan rastgele olayların adları (örneğin `DRAGON_NEST`). Bir de `roster`: seviyelerinde dolaşan ve istila eden düşman türleri (`GOBLIN` gibi adlar); verilmezse hepsi.
 

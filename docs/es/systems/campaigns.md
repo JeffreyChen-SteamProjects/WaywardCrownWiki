@@ -37,9 +37,27 @@ La fortaleza del paso envía una tercera oleada de refuerzos, salvo que tu parti
 
 Un mapa perdido se vuelve a jugar desde el mismo inicio: con los mismos héroes, el mismo oro y el mismo mapa. Una partida queda en espera entre mapas hasta que la continúes desde el menú principal. **Abandonar la partida** la da por perdida, y **Terminar** cierra una partida que llegó al final. Cada ruta que completas queda en tu historial, con tu mejor tiempo.
 
+### El mapa de la demo
+
+Los cinco niveles de la demo también están dibujados en un solo mapa de pergamino, el **mapa de la expedición**. Primero va *La primera corona*; abre a la vez *Sombras en la ruta comercial*, *Oro escaso* y *Defiende el camino*, en el orden que quieras. Dos de los tres abren *La noche de Colmillo Rechinante*, y el tercero sigue abierto hasta ganar el final: saltarlo nunca es una derrota.
+
+| Camino | Su recompensa para el siguiente nivel |
+|---|---|
+| **Sombras en la ruta comercial** | 300 de oro en el tesoro |
+| **Oro escaso** | Edificios un 25 % más baratos, hasta ahorrar 400 de oro |
+| **Defiende el camino** | Todos los héroes empiezan con las pociones llenas y se reparten 200 de oro en suministros |
+
+La recompensa se usa en el siguiente nivel y desaparece; repetir ese nivel la vuelve a dar. La compañía, la mitad del tesoro (1000 como máximo), la investigación y la ruta del castillo pasan como en La expedición fronteriza.
+
+Selecciona un sello para leer su nivel a la derecha: historia y objetivos, cuánto dura más o menos, el tesoro inicial y la recompensa. Un anillo discontinuo es un nivel aún cerrado (el panel dice cuántos caminos le faltan), uno dorado es un nivel al que puedes partir y uno doble es uno ganado en esta expedición. **Partir** lo empieza; **Practicar** juega solo un nivel ya superado, sin tocar la expedición. Los niveles superados antes de que existiera el mapa llevan su sello. Arrastra para mover, usa la rueda para el zoom, las flechas para pasar de un sello a otro, Intro para partir e Inicio para ver todo el mapa.
+
+### Crear un mapa
+
+El `map_route.json` de una campaña coloca sus niveles en un mapa. Se hace en la pestaña **Mapa** del editor de campañas: cada nodo es un nivel en las coordenadas `x`, `y` (de 0 a 1 desde arriba a la izquierda), con los nodos que espera (`after`) y cuántos de ellos hay que ganar (`need`, todos si se omite); `minutes` es la estimación de la sesión informativa y `reward` una recompensa única (`trade_subsidy`, `build_discount` o `escort_supply`, con un `amount`). `links` son las líneas de tinta, `end` el último nodo y `art` la imagen: `demo_frontier`, o un PNG o JPG dentro de la carpeta de la campaña (8192 píxeles por lado y 16 millones en total como máximo; si no, pergamino liso). **Comprobar ruta** dibuja una vista previa. El único nodo sin `after` es el inicio; el mapa debe poder jugarse hasta el final en algún orden, y el Workshop exige que cada nodo sea un nivel de la misma campaña o de una que trae el juego.
+
 ### Crear una ruta
 
-Una campaña se convierte en expedición con un archivo `expedition.json` junto a su `campaign.json`. Créala en la pestaña **Ruta de expedición** del editor de campañas: asigna a cada nodo un nivel de la campaña y el oro que da al nodo siguiente (de 0 a 2000), enumera los caminos que siguen y elige el inicio y el final. **Comprobar ruta** te dice cuántas rutas salen. Las comprobaciones del Workshop exigen que cada nodo apunte a un nivel de la misma campaña. Una prueba de juego puede jugar la ruta desde su inicio.
+Una campaña se convierte en expedición con un archivo `expedition.json` junto a su `campaign.json`. Créala en la pestaña **Ruta de expedición** del editor de campañas: asigna a cada nodo un nivel de la campaña y el oro que da al nodo siguiente (de 0 a 2000), enumera los caminos que siguen y elige el inicio y el final. **Comprobar ruta** te dice cuántas rutas salen. Las comprobaciones del Workshop exigen que cada nodo apunte a un nivel de la misma campaña o de una que trae el juego. Una prueba de juego puede jugar la ruta desde su inicio.
 
 ```json
 {
@@ -49,7 +67,7 @@ Una campaña se convierte en expedición con un archivo `expedition.json` junto 
 }
 ```
 
-Una ruta debe llegar del inicio al final, sin bucles, con cada nodo en alguna ruta y con todas las rutas tan largas como `length`. Un nivel puede depender de lo que pasó en la partida con las condiciones de disparador `expedition_won` y `expedition_lacks` (`{"node": "<id>"}`), y los objetivos `complete_relic` (terminado el trabajo de una reliquia) e `intercept_supply` (N transportistas de suministros enemigos muertos antes de entregar, o arrasados todos los campamentos que los envían) dan una meta a un nodo.
+Una ruta debe llegar del inicio al final, sin bucles, con cada nodo en alguna ruta y con todas las rutas tan largas como `length`. `requires` enumera las capacidades que la ruta necesita además de `expeditions` (por ejemplo `relics` o `lair_expansion`). Una ruta cuyo nivel no está instalado, o cuya edición carece de una capacidad que requiere, sigue apareciendo en la pantalla de expedición con el motivo, pero no se puede empezar. Un nivel puede depender de lo que pasó en la partida con las condiciones de disparador `expedition_won` y `expedition_lacks` (`{"node": "<id>"}`), y los objetivos `complete_relic` (terminado el trabajo de una reliquia) e `intercept_supply` (N transportistas de suministros enemigos muertos antes de entregar, o arrasados todos los campamentos que los envían) dan una meta a un nodo.
 
 ---
 
@@ -134,6 +152,7 @@ campaigns/
 | `side_quests` | Hasta dos hallazgos opcionales en el nivel, cada uno `{"kind", "x", "y"}` con un kind de `supply_party`, `guarded_cache`, `lair_treasure`; `enemy` o `lair` puede nombrar quién está allí |
 | `objectives` | Hasta 8 condiciones de victoria adicionales, cada una `{"victory", "value", "target", "required"}` con cualquier victoria salvo `free`. El nivel se gana cuando su victoria principal (salvo `free`) y todas las requeridas se cumplen; las opcionales se cuentan en la línea de objetivo y se listan en los resultados |
 | `defeats` | Hasta 4 formas más de perder, cada una `{"kind", "value"}`: `heroes_lost`, `buildings_lost` o `caravans_lost` alcanza el valor desde el inicio del nivel |
+| `hero_bonds_disabled` | `true`: en este nivel los héroes no forman vínculos nuevos ni invitan a compañeros (conservan los que ya tenían); si se omite: vínculos como de costumbre |
 
 La propia campaña puede llevar un `id` (el nombre con el que se guarda su progreso) y `"linear": false` (desafíos independientes: ganar uno no lleva al siguiente). También puede listar `blocked_events`: nombres de eventos aleatorios que sus niveles nunca sacan (por ejemplo `DRAGON_NEST`). Y un `roster`: los tipos de enemigo (nombres como `GOBLIN`) que vagan e invaden en sus niveles; si se omite, todos.
 

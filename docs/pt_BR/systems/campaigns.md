@@ -37,9 +37,27 @@ A fortaleza do passo manda uma terceira onda de reforços, a menos que sua jorna
 
 Um mapa perdido é jogado de novo a partir do mesmo início: os mesmos heróis, o mesmo ouro e o mesmo mapa. Uma jornada fica esperando entre os mapas até você continuá-la pelo menu principal. **Abandonar a jornada** desiste dela, e **Concluir** encerra uma jornada que chegou ao fim. Cada rota que você termina fica no seu histórico, com o seu melhor tempo.
 
+### O mapa da demo
+
+As cinco fases da demo também estão desenhadas num só mapa de pergaminho, o **mapa da expedição**. Primeiro vem *A primeira coroa*; ela abre ao mesmo tempo *Sombras na rota comercial*, *Ouro escasso* e *Segure a estrada*, na ordem que você quiser. Dois dos três abrem *A noite de Presa-Rangente*, e o terceiro fica aberto até o final ser vencido — pular ele nunca é derrota.
+
+| Caminho | Sua recompensa para a fase seguinte |
+|---|---|
+| **Sombras na rota comercial** | 300 de ouro no tesouro |
+| **Ouro escasso** | Construções 25% mais baratas, até economizar 400 de ouro |
+| **Segure a estrada** | Todos os heróis começam com poções cheias, e 200 de ouro são distribuídos em suprimentos |
+
+A recompensa é usada na fase seguinte e some; repetir essa fase dá ela de novo. O grupo, metade do tesouro (no máximo 1000), a pesquisa e o caminho do castelo seguem como na Expedição da fronteira.
+
+Selecione um selo para ler a fase dele à direita: história e objetivos, quanto tempo leva mais ou menos, o tesouro inicial e a recompensa. Um anel tracejado é uma fase ainda fechada (o painel diz quantos caminhos ainda faltam), um anel dourado uma fase para onde dá para partir, um anel duplo uma fase vencida nesta expedição. **Partir** começa; **Praticar** joga sozinha uma fase já vencida, sem mexer na expedição. As fases vencidas antes do mapa existir mostram o selo. Arraste para mover, use a roda para o zoom, as setas para passar de um selo a outro, Enter para partir e Home para ver o mapa todo.
+
+### Criando um mapa
+
+O `map_route.json` de uma campanha põe as fases dela num mapa. Ele é feito na aba **Mapa** do editor de campanhas: cada nó é uma fase nas coordenadas `x`, `y` (de 0 a 1 a partir do canto superior esquerdo), com os nós que ela espera (`after`) e quantos deles precisam ser vencidos (`need`, todos se omitido); `minutes` é a estimativa do briefing e `reward` uma recompensa única (`trade_subsidy`, `build_discount` ou `escort_supply`, com um `amount`). `links` são as linhas de tinta, `end` o último nó e `art` a imagem: `demo_frontier`, ou um PNG ou JPG dentro da pasta da campanha (no máximo 8192 pixels por lado e 16 milhões no total; senão, pergaminho liso). **Verificar rota** desenha uma prévia. O único nó sem `after` é o início; o mapa precisa ser jogável até o fim em alguma ordem, e a Oficina exige que cada nó seja uma fase da mesma campanha ou de uma que vem com o jogo.
+
 ### Criando uma rota
 
-Uma campanha vira expedição com um arquivo `expedition.json` ao lado do seu `campaign.json`. Monte-o na aba **Rota da expedição** do editor de campanhas: dê a cada nó uma fase da campanha e o ouro que ele concede ao nó seguinte (de 0 a 2000), liste os caminhos à frente e depois escolha o início e o fim. **Verificar rota** diz quantas rotas isso forma. As verificações da Oficina exigem que cada nó aponte para uma fase da mesma campanha. Um teste de jogo pode jogar a rota desde o início.
+Uma campanha vira expedição com um arquivo `expedition.json` ao lado do seu `campaign.json`. Monte-o na aba **Rota da expedição** do editor de campanhas: dê a cada nó uma fase da campanha e o ouro que ele concede ao nó seguinte (de 0 a 2000), liste os caminhos à frente e depois escolha o início e o fim. **Verificar rota** diz quantas rotas isso forma. As verificações da Oficina exigem que cada nó aponte para uma fase da mesma campanha ou de uma que vem com o jogo. Um teste de jogo pode jogar a rota desde o início.
 
 ```json
 {
@@ -49,7 +67,7 @@ Uma campanha vira expedição com um arquivo `expedition.json` ao lado do seu `c
 }
 ```
 
-Uma rota precisa chegar do início ao fim, sem laços; todo nó precisa estar em alguma rota, e toda rota precisa ter o comprimento de `length`. Uma fase pode depender do que aconteceu na jornada com as condições de gatilho `expedition_won` e `expedition_lacks` (`{"node": "<id>"}`), e os objetivos `complete_relic` (o trabalho de uma relíquia concluído) e `intercept_supply` (N transportadores de suprimentos inimigos mortos antes de entregarem, ou todos os acampamentos que os enviam arrasados) dão uma meta a um nó.
+Uma rota precisa chegar do início ao fim, sem laços; todo nó precisa estar em alguma rota, e toda rota precisa ter o comprimento de `length`. `requires` lista as capacidades de que a rota precisa além de `expeditions` (por exemplo `relics` ou `lair_expansion`). Uma rota cuja fase não está instalada, ou cuja edição não tem uma capacidade que ela exige, continua listada na tela da expedição, com o motivo, mas não pode ser iniciada. Uma fase pode depender do que aconteceu na jornada com as condições de gatilho `expedition_won` e `expedition_lacks` (`{"node": "<id>"}`), e os objetivos `complete_relic` (o trabalho de uma relíquia concluído) e `intercept_supply` (N transportadores de suprimentos inimigos mortos antes de entregarem, ou todos os acampamentos que os enviam arrasados) dão uma meta a um nó.
 
 ---
 
@@ -134,6 +152,7 @@ campaigns/
 | `side_quests` | Até dois achados opcionais na fase, cada um `{"kind", "x", "y"}` com um kind entre `supply_party`, `guarded_cache`, `lair_treasure`; `enemy` ou `lair` pode nomear quem está lá |
 | `objectives` | Até 8 condições de vitória adicionais, cada uma `{"victory", "value", "target", "required"}` com qualquer vitória exceto `free`. A fase é vencida quando a vitória principal (exceto `free`) e todas as obrigatórias são cumpridas; as opcionais são contadas na linha de objetivo e listadas nos resultados |
 | `defeats` | Até 4 outras formas de perder, cada uma `{"kind", "value"}`: `heroes_lost`, `buildings_lost` ou `caravans_lost` atinge o valor desde o início da fase |
+| `hero_bonds_disabled` | `true`: nesta fase os heróis não criam laços novos nem convidam companheiros (os laços anteriores continuam); omitido: laços como de costume |
 
 A própria campanha pode ter um `id` (o nome sob o qual seu progresso é registrado) e `"linear": false` (desafios independentes: vencer um não leva ao próximo). Ela também pode listar `blocked_events`: nomes de eventos aleatórios que suas fases nunca sorteiam (por exemplo `DRAGON_NEST`). E um `roster`: os tipos de inimigo (nomes como `GOBLIN`) que vagam e invadem em suas fases; se omitido, todos.
 

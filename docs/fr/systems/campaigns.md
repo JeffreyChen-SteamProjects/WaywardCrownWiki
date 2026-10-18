@@ -37,9 +37,27 @@ La forteresse du col envoie une troisième vague de renforts, sauf si votre part
 
 Une carte perdue se rejoue depuis le même départ : mêmes héros, même or, même carte. Une partie attend entre deux cartes jusqu'à ce que vous la repreniez depuis le menu principal. **Abandonner la partie** y renonce, et **Terminer** clôt une partie arrivée au bout. Chaque itinéraire que vous terminez est conservé dans votre palmarès, avec votre meilleur temps.
 
+### La carte de la démo
+
+Les cinq niveaux de la démo sont aussi dessinés sur une seule carte de parchemin, la **carte de l'expédition**. *La première couronne* vient d'abord ; elle ouvre à la fois *Des ombres sur la route commerciale*, *Or mince* et *Tenir la route*, à jouer dans l'ordre voulu. Deux des trois ouvrent *La nuit de Croc-Grinçant*, et la troisième reste ouverte jusqu'à la victoire finale : la laisser de côté n'est jamais un échec.
+
+| Route | Sa récompense pour le niveau suivant |
+|---|---|
+| **Des ombres sur la route commerciale** | 300 pièces d'or au trésor |
+| **Or mince** | Bâtiments 25 % moins chers, jusqu'à 400 pièces économisées |
+| **Tenir la route** | Tous les héros commencent avec leurs potions pleines, et 200 pièces sont réparties en ravitaillement |
+
+Une récompense sert au niveau suivant puis disparaît ; rejouer ce niveau la redonne. La compagnie, la moitié du trésor (1000 au plus), la recherche et la voie du château suivent comme dans L'expédition de la frontière.
+
+Choisissez un sceau pour lire son niveau à droite : histoire et objectifs, durée approximative, trésor de départ et récompense. Un anneau en pointillés est un niveau pas encore ouvert (le panneau dit combien de routes il attend encore), un anneau doré un niveau où partir, un double anneau un niveau gagné pendant cette expédition. **Se mettre en route** le lance ; **S'entraîner** rejoue seul un niveau déjà gagné, sans toucher l'expédition. Les niveaux gagnés avant l'arrivée de la carte portent leur sceau. Glisser pour déplacer, molette pour zoomer, flèches pour passer d'un sceau à l'autre, Entrée pour partir et Début pour voir toute la carte.
+
+### Créer une carte
+
+Le `map_route.json` d'une campagne place ses niveaux sur une carte. On le crée dans l'onglet **Carte** de l'éditeur de campagne : chaque nœud est un niveau aux coordonnées `x`, `y` (de 0 à 1 depuis le coin supérieur gauche), avec les nœuds qu'il attend (`after`) et combien doivent être gagnés (`need`, tous s'il est omis) ; `minutes` est l'estimation du briefing et `reward` une récompense unique (`trade_subsidy`, `build_discount` ou `escort_supply`, avec un `amount`). `links` sont les traits d'encre, `end` le dernier nœud et `art` l'image : `demo_frontier`, ou un PNG ou JPG dans le dossier de la campagne (8192 pixels de côté et 16 millions au total au plus ; sinon un parchemin uni). **Vérifier l'itinéraire** dessine un aperçu. Le seul nœud sans `after` est le départ ; la carte doit pouvoir se jouer jusqu'au bout dans un certain ordre, et le Workshop exige que chaque nœud soit un niveau de la même campagne ou d'une campagne fournie avec le jeu.
+
 ### Créer un itinéraire
 
-Une campagne devient une expédition grâce à un fichier `expedition.json` placé à côté de son `campaign.json`. Construisez-le dans l'onglet **Itinéraire d’expédition** de l'éditeur de campagne : donnez à chaque nœud un niveau de la campagne et l'or qu'il accorde au nœud suivant (de 0 à 2000), listez les chemins qui en partent, puis choisissez le départ et l'arrivée. **Vérifier l’itinéraire** indique combien d'itinéraires cela donne. Les vérifications du Workshop exigent que chaque nœud renvoie à un niveau de la même campagne. Un test de jeu peut jouer l'itinéraire depuis son départ.
+Une campagne devient une expédition grâce à un fichier `expedition.json` placé à côté de son `campaign.json`. Construisez-le dans l'onglet **Itinéraire d’expédition** de l'éditeur de campagne : donnez à chaque nœud un niveau de la campagne et l'or qu'il accorde au nœud suivant (de 0 à 2000), listez les chemins qui en partent, puis choisissez le départ et l'arrivée. **Vérifier l’itinéraire** indique combien d'itinéraires cela donne. Les vérifications du Workshop exigent que chaque nœud renvoie à un niveau de la même campagne ou d'une campagne fournie avec le jeu. Un test de jeu peut jouer l'itinéraire depuis son départ.
 
 ```json
 {
@@ -49,7 +67,7 @@ Une campagne devient une expédition grâce à un fichier `expedition.json` plac
 }
 ```
 
-Un itinéraire doit mener du départ à l'arrivée, sans boucle ; chaque nœud doit se trouver sur au moins un itinéraire, et chaque itinéraire doit être aussi long que `length`. Un niveau peut tenir compte de la partie en cours grâce aux conditions de déclencheur `expedition_won` et `expedition_lacks` (`{"node": "<id>"}`), et les objectifs `complete_relic` (le chantier d'une relique achevé) et `intercept_supply` (N transporteurs ennemis tués avant de livrer, ou tous les camps qui les envoient rasés) donnent un but à un nœud.
+Un itinéraire doit mener du départ à l'arrivée, sans boucle ; chaque nœud doit se trouver sur au moins un itinéraire, et chaque itinéraire doit être aussi long que `length`. `requires` liste les capacités dont l'itinéraire a besoin en plus de `expeditions` (par exemple `relics` ou `lair_expansion`). Un itinéraire dont un niveau n'est pas installé, ou dont l'édition n'a pas une capacité qu'il exige, reste affiché sur l'écran d'expédition avec la raison, mais ne peut pas être lancé. Un niveau peut tenir compte de la partie en cours grâce aux conditions de déclencheur `expedition_won` et `expedition_lacks` (`{"node": "<id>"}`), et les objectifs `complete_relic` (le chantier d'une relique achevé) et `intercept_supply` (N transporteurs ennemis tués avant de livrer, ou tous les camps qui les envoient rasés) donnent un but à un nœud.
 
 ---
 
@@ -134,6 +152,7 @@ campaigns/
 | `side_quests` | Jusqu'à deux découvertes facultatives sur le niveau, chacune `{"kind", "x", "y"}` avec un kind parmi `supply_party`, `guarded_cache`, `lair_treasure` ; `enemy` ou `lair` peut nommer qui s'y trouve |
 | `objectives` | Jusqu'à 8 conditions de victoire supplémentaires, chacune `{"victory", "value", "target", "required"}` avec toute victoire sauf `free`. Le niveau est gagné quand sa victoire principale (sauf `free`) et toutes les requises sont remplies ; les facultatives sont comptées sur la ligne d'objectif et listées dans les résultats |
 | `defeats` | Jusqu'à 4 autres façons de perdre, chacune `{"kind", "value"}` : `heroes_lost`, `buildings_lost` ou `caravans_lost` atteint la valeur depuis le début du niveau |
+| `hero_bonds_disabled` | `true` : sur ce niveau, les héros ne nouent aucun nouveau lien et n'invitent aucun compagnon (leurs liens antérieurs restent) ; omis : liens comme d'habitude |
 
 La campagne elle-même peut porter un `id` (le nom sous lequel sa progression est enregistrée) et `"linear": false` (défis indépendants : une victoire ne mène pas au niveau suivant). Elle peut aussi lister `blocked_events` : les noms des événements aléatoires que ses niveaux ne tirent jamais (par exemple `DRAGON_NEST`). Et un `roster` : les types d'ennemis (des noms comme `GOBLIN`) qui errent et envahissent dans ses niveaux ; sans lui, tous les types.
 
