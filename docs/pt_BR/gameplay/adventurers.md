@@ -13,8 +13,8 @@ Os aventureiros são o coração do jogo. Eles têm vontade própria e tomam dec
 | **Guerreiro** | STR | Força | 3 | Quartel | Alto HP, alto ataque, luta de perto |
 | **Mago** | INT | Inteligência | 12 | Torre do Mago | Ataques mágicos à distância, baixo HP |
 | **Patrulheiro** | AGI | Agilidade | 11 | Abrigo do Patrulheiro | Ataques com arco à distância, alta curiosidade |
-| **Guarda** | STR | Força | 3 | Posto de Guarda | Patrulha construções, nunca abandona seu posto |
-| **Construtor** | AGI | — | 3 | Guilda dos Construtores | Repara construções, pacifista (não luta) |
+| **Guarda** | STR | Força | 3 | Posto de Guarda | Patrulha as construções da cidade, nunca sai da cidade |
+| **Construtor** | AGI | — | 3 | Guilda dos Construtores | Repara construções; só luta contra o monstro que o ataca |
 | **Ladrão** | AGI | Agilidade | 3 | Guilda dos ladrões | Ganancioso e evasivo, baixo HP |
 
 :::note[Alcance de ataque]
@@ -153,7 +153,7 @@ Todas as classes de herói do jogo, escritas a partir dos seus dados: as seis qu
 
 **Tendências de Personalidade**: Segurança muito alta (0.8–1.0), sem Curiosidade, sem Glória
 
-**Comportamento Especial**: Pacifista — nunca entrará em combate. Viaja automaticamente até construções danificadas para repará-las.
+**Comportamento Especial**: Nunca luta por conta própria, só contra o monstro que o ataca. Viaja automaticamente até construções danificadas para repará-las.
 
 **Árvore de Habilidades**:
 
@@ -209,7 +209,7 @@ IDLE
 
 ## Sistema de Hospedagem
 
-- Os aventureiros vão descansar e se curar quando o PV está baixo, no lugar mais próximo com vaga: a própria guilda, uma estalagem, um acampamento selvagem ou o castelo. Entre lugares quase igualmente próximos, a própria guilda vem primeiro (conta 8 casas mais perto) e o castelo por último (8 casas mais longe); quem foge para salvar a vida fica com o que estiver mais perto
+- Com pouca vida, os aventureiros vão descansar e se curar no lugar mais próximo com vaga: a própria guilda (a que os recrutou ou a para onde se mudaram), uma estalagem ou um acampamento selvagem. O castelo só abriga um herói sem guilda; quem tem a guilda cheia espera lá por uma cama. Entre lugares quase tão próximos, a própria guilda vem primeiro (conta 8 casas mais perto); quem foge para salvar a vida pega o mais próximo
 - Aventureiros hospedados entram no estado **LODGING**: desaparecem do mapa e ficam invulneráveis
 - Cada construção pode hospedar até **3** hóspedes
 - Se uma construção for destruída, todos os hóspedes dentro dela são liberados imediatamente
@@ -269,14 +269,16 @@ attraction  = reward / 100 / level_scale × greed + fame × glory - danger × sa
 
 Um herói sem nada para fazer compara tudo o que está ao seu alcance e escolhe o melhor: uma recompensa, uma tarefa na cidade ou explorar.
 
-- **Tarefas**: comprar equipamento melhor na ferraria, repor poções no mercado, estudar na biblioteca, passar uma noite na estalagem (15 de ouro; uma fonte ou um jardim é grátis) ou voltar para casa quando ferido ou cansado. Cada uma exige a construção, o ouro e uma necessidade real, e o herói caminha até essa construção para fazê-la.
+- **Tarefas**: comprar equipamento melhor na ferraria, repor poções no mercado, estudar na biblioteca, passar uma noite na estalagem (15 de ouro; uma fonte ou um jardim é grátis) ou voltar para casa quando ferido ou cansado. Cada uma exige a construção, o ouro e uma necessidade real, e o herói caminha até essa construção para fazê-la. Enquanto houver um monstro à vista ou um covil conhecido de pé, um herói sadio não tira a noite de folga: vai atrás do mais próximo que ousa enfrentar (um covil em qualquer nível, inclusive o 1, se o gosto pela glória vencer a cautela) ou explora. Onde um monstro foi visto há pouco, a caça continua por três minutos, até a coroa ver o lugar vazio; o herói que não marcha sobre um covil conhecido caça ao redor dele, fora do próprio alcance do muro.
 - **Compromisso**: um herói termina a viagem que começou. Só uma exploração é abandonada, depois de 150 ticks, por algo claramente melhor. O perigo continua em primeiro lugar: um herói gravemente ferido segue para o local de descanso mais próximo.
-- **Fortalezas**: a partir do nível 3, heróis ousados marcham por conta própria contra fortalezas inimigas conhecidas quando têm coragem de enfrentar uma sozinhos; ladrões as roubam.
+- **Fortalezas**: em qualquer nível, inclusive o 1, heróis ousados marcham por conta própria contra fortalezas inimigas conhecidas quando têm coragem de enfrentar uma sozinhos; qualquer herói pode roubá-las, o ladrão mais que todos.
 - **Apoio**: um herói cuja classe cuida dos outros (cura, protege, anima ou os cobre) e que não tem trabalho próprio caminha com um grupo: o herói mais próximo em até 30 casas a caminho do trabalho de uma recompensa ou de uma marcha, ou em combate, cujo trabalho ele ousa enfrentar com esse grupo. Ele o segue quando se move e o deixa quando o grupo morre, para ou volta para casa, quando ele mesmo está ferido ou após 2 minutos.
 - **Memória**: um herói guarda algumas coisas que lhe aconteceram, cada uma por alguns minutos. Aquele cuja guilda foi atacada valoriza recompensas de defesa 30% a mais; aquele que outro herói ajudou quando estava gravemente ferido, ou que foi pago por uma recompensa ao lado de outro, valoriza mais uma recompensa que esse herói detém; aquele que voltou para casa gravemente ferido, ou viu um herói assim cair, quer chances melhores a até 12 casas do lugar. O painel do herói mostra o que ele lembra.
 - **Uma guilda perdida**: um herói cuja guilda é destruída ou demolida não se perde. Ele se muda por conta própria para o edifício mais próximo que recruta sua classe e tem lugar, inclusive uma guilda reconstruída. Até lá o castelo o abriga: 3 heróis por nível do castelo por 5 minutos, os demais por 100 segundos. Um herói cujo tempo acaba deixa o reino com o que carrega; o registro e a crônica avisam antes, e seu painel conta os segundos.
 - **O que um herói mostra**: um herói se encolhe quando é atingido, ergue a mão quando sua habilidade dispara, comemora quando sobe de nível e desaba onde cai antes que a poeira o leve. Com “reduzir movimento” (Configurações), ele não faz nada disso.
 - **Inclinações de classe**: cada classe tem seus hábitos. Guerreiros lutam até ficarem gravemente feridos e gostam de atacar fortalezas; magos ficam perto da cidade, recuam cedo e gostam de estudar; patrulheiros viajam para longe e preferem recompensas de exploração; ladrões vão atrás da recompensa mais bem paga e roubam fortalezas; guardas e construtores ficam na cidade. A cautela e a curiosidade de cada herói mudam isso um pouco, e o painel dele lista suas inclinações. O alcance de cada herói também é próprio: quanto mais ousado e curioso, mais ele se afasta do castelo, de modo que dois heróis da mesma classe não ficam no mesmo terreno. O herói procura primeiro a terra desconhecida dentro do seu alcance; quando não resta nenhuma, vai um pouco mais longe e atravessa até o outro lado do seu alcance em vez de ficar rodeando a vila.
+- **Revidar**: quando um monstro atacou um herói nos últimos dois segundos, mais ou menos (uma mordida, um golpe, uma flecha ou uma habilidade; um golpe desviado também conta), o herói revida: vai primeiro atrás daquele monstro, antes de qualquer outra coisa (a viagem, um roubo, uma tarefa), onde quer que ele esteja; se o monstro atira de fora da visão do herói, ele caminha até lá, e o enfrenta quando o tem ao alcance. Toda classe faz isso, inclusive o Construtor, que fora isso nunca luta e só enfrenta o monstro que o atacou. O revide dura enquanto aquele monstro estiver vivo e ainda puder ser encontrado: à vista do herói, ou ainda visível no mapa por ter atacado um herói. Ele acaba quando o monstro cai ou some de vista, ou quando o herói perde a coragem e decide fugir; então o herói larga a perseguição e decide de novo. Um herói a caminho de casa ou do descanso não revida. O monstro que atacou um herói aparece no mapa por 10 segundos, onde quer que esteja, para que o atacante seja visto na hora.
+- **Fugir de uma luta**: abaixo da metade do HP, um herói em combate pensa em fugir aos 50%, 40%, 30%, 20% e 10% do HP, uma vez em cada degrau, e quanto mais baixo ele está, mais provável é que fuja. A disposição para fugir vem da cautela da classe e da vontade de segurança do próprio herói; as classes que lutam até a morte (Cavaleiro Sepulcral, Juramentado, Executor, Cavaleiro do Escudo) fogem com um décimo da disposição da mais cautelosa. Chance de já ter fugido quando a luta deixa o herói com 10% do HP: Mago, cerca de 92%; Patrulheiro, 68%; Guerreiro, 55%; Juramentado, 19%. Um herói que leva o troco do monstro que atacou decide do mesmo jeito. Quando não sobra nenhum monstro por perto, o herói abaixo do ponto de retirada da classe vai se curar.
 - **Lendo um herói**: o painel de um herói diz o que ele está fazendo e por quê, para onde vai, do que precisa e como está em relação a cada recompensa aberta: a caminho, ocupado ou o motivo da recusa, com a recompensa que o faria mudar de ideia. O painel de uma recompensa agrupa os heróis por esses motivos, os mais fáceis de convencer primeiro. O painel termina com o histórico do herói, seus últimos oito feitos com a hora de jogo de cada um: o equipamento que comprou e o que estudou, as recompensas que aceitou e o que o decidiu (o pagamento, outros que já estavam nela ou o que ele lembra), quanto recebeu e ao lado de quem, quem veio em seu socorro quando estava gravemente ferido e quando voltou para casa.
 
 ## Aventureiros e facções
@@ -304,7 +306,7 @@ Os detalhes do herói mostram até três companheiros, a origem do vínculo e se
 <!-- BEGIN COMBAT PAIRINGS -->
 ### Combinações de combate
 
-Cada prova independente começa com oito heróis de nível 8. O capital total de 7000 ouro inclui edifícios, melhorias necessárias, pesquisas, uma poção por herói, reagentes ou suprimentos finitos e 200 ouro por herói. O restante fica no tesouro. Heróis decidem seus movimentos e habilidades; guie-os com edifícios e recompensas.
+Cada prova independente começa com oito heróis de nível 8. O capital total de 7000 ouro inclui edifícios, melhorias necessárias, pesquisas, uma poção por herói, reagentes ou suprimentos finitos e 200 ouro por herói. O restante fica no tesouro. Heróis decidem seus movimentos e habilidades; guie-os com edifícios e recompensas. Todo inimigo é veterano ou mais forte e marcha sobre o castelo de longe, sem ser visto; uma prova dura até 20 minutos.
 
 Ambas as variantes venceram com sementes 17 e 73. Os tempos descrevem o encontro inicial, não uma campanha inteira. Defensores vivos permanecem após a queda do posto.
 
@@ -314,8 +316,8 @@ Escudos e cura precisam de atacantes contra armaduras.
 
 | # | Heróis | Edifícios | Pesquisa | Capital | Tempo (s) | Vivos | Dano/s | Cura / absorção dos escudos |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Cavaleiro do Escudo ×2, Hospitalário ×2, Patrulheiro ×2, Mago ×2 | Bastião, Santuário, Torre do Mago | Trama protetora, Disciplina curativa | 7000 | 17–22.6 | 7 | 136.28–181.18 | 34 / 103, 130 / 257 |
-| 2 | Guerreiro ×2, Mago ×2, Patrulheiro ×4 | Quartel, Torre do Mago, Abrigo do Patrulheiro | Táticas de Batalha, Afinidade Arcana | 7000 | 10.6–13.6 | 7 | 226.47–290.57 | 0 / 0, 0 / 0 |
+| 1 | Cavaleiro do Escudo ×2, Hospitalário ×2, Patrulheiro ×2, Mago ×2 | Bastião, Santuário, Torre do Mago | Trama protetora, Disciplina curativa | 7000 | 143.6–319 | 8 | 12.9–26.28 | 0 / 3, 222 / 140 |
+| 2 | Guerreiro ×2, Mago ×2, Patrulheiro ×4 | Quartel, Torre do Mago, Abrigo do Patrulheiro | Táticas de Batalha, Afinidade Arcana | 7000 | 124.6–198.6 | 8 | 19.5–28.37 | 0 / 0, 0 / 0 |
 
 #### Controle venenoso
 
@@ -323,8 +325,8 @@ Veneno exige reagentes pagos e perde valor contra purificação e alvos disperso
 
 | # | Heróis | Edifícios | Pesquisa | Capital | Tempo (s) | Vivos | Dano/s | Cura / absorção dos escudos |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Alquimista ×2, Cavaleiro do Escudo ×2, Hospitalário ×2, Patrulheiro ×2 | Guilda de alquimia, Bastião, Santuário, Altar de purificação | Reagentes cáusticos, Trama protetora, Alcance purificador | 7000 | 10.6–11.6 | 8 | 132.59–145.09 | 0 / 205, 31 / 164 |
-| 2 | Mago ×3, Patrulheiro ×3, Guerreiro ×2 | Torre do Mago, Abrigo do Patrulheiro, Altar de purificação | Afinidade Arcana, Olhos Aguçados, Alcance purificador | 7000 | 8.6–9.6 | 8 | 160.21–178.84 | 0 / 0, 0 / 0 |
+| 1 | Alquimista ×2, Cavaleiro do Escudo ×2, Hospitalário ×2, Patrulheiro ×2 | Guilda de alquimia, Bastião, Santuário, Altar de purificação | Reagentes cáusticos, Trama protetora, Alcance purificador | 7000 | 118.6–140.6 | 8 | 19.76–21.5 | 201 / 0, 30 / 0 |
+| 2 | Mago ×3, Patrulheiro ×3, Guerreiro ×2 | Torre do Mago, Abrigo do Patrulheiro, Altar de purificação | Afinidade Arcana, Olhos Aguçados, Alcance purificador | 7000 | 91.6–106.6 | 8 | 25.98–27.67 | 0 / 0, 0 / 0 |
 
 #### Torres a distância
 
@@ -332,8 +334,8 @@ Torres cobrem áreas fixas; caçadores e sapadores ameaçam a retaguarda exposta
 
 | # | Heróis | Edifícios | Pesquisa | Capital | Tempo (s) | Vivos | Dano/s | Cura / absorção dos escudos |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Guarda ×2, Patrulheiro ×4, Guarda das Estradas ×2 | Posto de Guarda, Abrigo do Patrulheiro, Posto de Pedágio, Torre de Flechas, Torre de Flechas, Torre de geada, Farol de aviso | Grade de gelo, Lentes do farol, Olhos Aguçados | 7000 | 7.6–8 | 8 | 93.75–98.68 | 0 / 66, 0 / 0 |
-| 2 | Guerreiro ×3, Mago ×2, Patrulheiro ×3 | Quartel, Torre do Mago, Torre de Flechas, Torre de geada | Táticas de Batalha, Grade de gelo | 7000 | 5–5 | 8 | 150–150 | 0 / 0, 0 / 0 |
+| 1 | Guarda ×2, Patrulheiro ×4, Guarda das Estradas ×2 | Posto de Guarda, Abrigo do Patrulheiro, Posto de Pedágio, Torre de Flechas, Torre de Flechas, Torre de geada, Farol de aviso | Grade de gelo, Lentes do farol, Olhos Aguçados | 7000 | 35.6–104.6 | 8 | 12.88–35.51 | 0 / 0, 0 / 0 |
+| 2 | Guerreiro ×3, Mago ×2, Patrulheiro ×3 | Quartel, Torre do Mago, Torre de Flechas, Torre de geada | Táticas de Batalha, Grade de gelo | 7000 | 57.6–83.6 | 7 | 14.63–22.29 | 0 / 0, 0 / 0 |
 
 #### Expedição animal
 
@@ -341,8 +343,8 @@ Animais dependem de guardiões vivos; frentes resistentes atrasam sua explosão.
 
 | # | Heróis | Edifícios | Pesquisa | Capital | Tempo (s) | Vivos | Dano/s | Cura / absorção dos escudos |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Guardião das Feras ×3, Batedor ×3, Patrulheiro ×2 | Abrigo das Feras, Acampamento selvagem, Abrigo do Patrulheiro | Treino da matilha, Guarda das feras, Voo certeiro | 7000 | 2–2.6 | 8 | 484.62–630 | 0 / 0, 0 / 0 |
-| 2 | Guerreiro ×2, Patrulheiro ×3, Mago ×3 | Quartel, Abrigo do Patrulheiro, Torre do Mago | Olhos Aguçados, Táticas de Batalha | 7000 | 7.6–7.6 | 8 | 165.79–165.79 | 0 / 0, 0 / 0 |
+| 1 | Guardião das Feras ×3, Batedor ×3, Patrulheiro ×2 | Abrigo das Feras, Acampamento selvagem, Abrigo do Patrulheiro | Treino da matilha, Guarda das feras, Voo certeiro | 7000 | 33.4–226.6 | 8 | 15.63–51.77 | 0 / 0, 0 / 0 |
+| 2 | Guerreiro ×2, Patrulheiro ×3, Mago ×3 | Quartel, Abrigo do Patrulheiro, Torre do Mago | Olhos Aguçados, Táticas de Batalha | 7000 | 74.6–142.6 | 8 | 18.79–24.92 | 0 / 0, 0 / 0 |
 
 #### Avanço corpo a corpo
 
@@ -350,8 +352,8 @@ Avanços corpo a corpo sofrem com zonas de veneno e fogo cruzado.
 
 | # | Heróis | Edifícios | Pesquisa | Capital | Tempo (s) | Vivos | Dano/s | Cura / absorção dos escudos |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Juramentado ×4, Porta-estandarte ×2, Patrulheiro ×2 | Salão de Guerra, Intendência, Abrigo do Patrulheiro | Juramento de sangue, Guarda do estandarte | 7000 | 4–4 | 8 | 165–169.5 | 0 / 0, 0 / 0 |
-| 2 | Guerreiro ×4, Mago ×2, Patrulheiro ×2 | Quartel, Torre do Mago, Abrigo do Patrulheiro | Táticas de Batalha, Pele de Ferro | 7000 | 4–4.6 | 8 | 147.39–165 | 0 / 0, 0 / 0 |
+| 1 | Juramentado ×4, Porta-estandarte ×2, Patrulheiro ×2 | Salão de Guerra, Intendência, Abrigo do Patrulheiro | Juramento de sangue, Guarda do estandarte | 7000 | 60.6–63.6 | 7 | 20.28–25.3 | 0 / 0, 0 / 0 |
+| 2 | Guerreiro ×4, Mago ×2, Patrulheiro ×2 | Quartel, Torre do Mago, Abrigo do Patrulheiro | Táticas de Batalha, Pele de Ferro | 7000 | 43.6–108.6 | 8 | 18.49–24.38 | 0 / 0, 0 / 0 |
 
 #### Ruptura de cerco
 
@@ -359,7 +361,7 @@ Suprimentos de cerco são finitos. Proteja a rota e destrua o posto antes de nov
 
 | # | Heróis | Edifícios | Pesquisa | Capital | Tempo (s) | Vivos | Dano/s | Cura / absorção dos escudos |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Porta-estandarte ×2, Juramentado ×2, Patrulheiro ×4 | Intendência, Salão de Guerra, Abrigo do Patrulheiro | Provisão de cerco, Juramento de sangue | 7000 | 39.6–40.8 | 8 | 92.16–98.36 | 0 / 0, 0 / 0 |
-| 2 | Patrulheiro ×4, Guerreiro ×2, Mago ×2 | Abrigo do Patrulheiro, Quartel, Torre do Mago | Olhos Aguçados, Táticas de Batalha | 7000 | 37.2–48 | 8 | 80.69–100.94 | 0 / 0, 0 / 0 |
+| 1 | Porta-estandarte ×2, Juramentado ×2, Patrulheiro ×4 | Intendência, Salão de Guerra, Abrigo do Patrulheiro | Provisão de cerco, Juramento de sangue | 7000 | 51.6–102 | 8 | 42.12–81.96 | 0 / 0, 0 / 0 |
+| 2 | Patrulheiro ×4, Guerreiro ×2, Mago ×2 | Abrigo do Patrulheiro, Quartel, Torre do Mago | Olhos Aguçados, Táticas de Batalha | 7000 | 58.6–171 | 8 | 27.89–71.19 | 0 / 0, 0 / 0 |
 
 <!-- END COMBAT PAIRINGS -->

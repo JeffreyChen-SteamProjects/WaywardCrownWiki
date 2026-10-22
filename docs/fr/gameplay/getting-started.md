@@ -124,9 +124,10 @@ Facile et difficile ne changent jamais la santé des ennemis : facile retire un 
 | Échap | Annuler le placement d'un bâtiment ou d'une prime ; sinon ouvrir le menu de la partie (sauvegarder, charger, paramètres, recommencer le niveau, menu principal) |
 | Maj + clic gauche | Placer un bâtiment et le garder sélectionné |
 | Double-clic sur la carte | Poser la prime qui correspond à ce qui s'y trouve |
-| Ctrl+S / Ctrl+O | Sauvegarder / charger la partie |
+| Ctrl+S / Ctrl+O | Sauvegarder / charger la partie (le menu de chargement liste aussi les trois dernières sauvegardes auto, faites toutes les cinq minutes de jeu) |
 | Clic sur la minicarte | Aller à cet emplacement |
 | Origine | Montrer le château |
+| ← ↑ → ↓ | Déplacer la vue (tant que maintenue) |
 | P | La fenêtre des voies du château (cartes avec voies) |
 | K / C | La vue d'ensemble du royaume / la chronique |
 | L | Les registres : chaque héros, guilde, chantier et revenu de chaque bâtiment, avec des filtres |
@@ -138,6 +139,8 @@ Facile et difficile ne changent jamais la santé des ennemis : facile retire un 
 | A / S / D / G / H | Prendre un type de prime, dans l'ordre où le panneau les énumère (la même touche le repose) |
 | B | Reprendre le dernier bâtiment placé |
 | F6, puis Tab | Amener le clavier au panneau suivant et parcourir ses commandes (Échap revient à la carte) |
+
+**Quand quelque chose vous attend.** La vue d'ensemble du royaume (K) s'ouvre sur une carte pour chaque lieu attaqué : depuis quand, son dernier coup, ce qu'il a perdu et si le combat continue ou comment il a fini. Dessous, *En attente* liste au plus trois affaires encore réglables, la plus pressante d'abord : un drapeau que personne ne prend (depuis combien de temps et pourquoi les héros le laissent, selon leur propre jugement), une guilde qui ne recrute personne, un bâtiment très abîmé. Chacune dit l'étape suivante, montre le lieu au clic et peut être mise de côté jusqu'à ce qu'elle change. Une nouvelle attaque est annoncée une fois, sur place. Dans les réglages, le jeu peut se mettre en pause une fois par crise quand le château perd vite de la vie ou que deux lieux sont attaqués à la fois ; c'est désactivé tant que vous ne l'activez pas.
 
 Toutes les touches ci-dessus sauf Échap se changent dans Paramètres > Touches ; une touche donnée à deux actions sert à la première de la liste, et les paramètres le signalent ; une touche déjà prise est refusée. Un chiffre du pavé numérique compte comme le chiffre. Une touche maintenue n'agit qu'une fois.
 

@@ -13,8 +13,8 @@ Adventurers are the heart of the game. They have free will and make decisions ba
 | **Warrior** | STR | Strength | 3 | Barracks | High HP, high attack, fights up close |
 | **Mage** | INT | Intelligence | 12 | Mage Tower | Ranged magic attacks, low HP |
 | **Ranger** | AGI | Agility | 11 | Ranger Lodge | Ranged bow attacks, high curiosity |
-| **Guard** | STR | Strength | 3 | Guard Post | Patrols buildings, never leaves post |
-| **Builder** | AGI | — | 3 | Builder's Guild | Repairs buildings, pacifist (does not fight) |
+| **Guard** | STR | Strength | 3 | Guard Post | Patrols the town's buildings, never leaves the town |
+| **Builder** | AGI | — | 3 | Builder's Guild | Repairs buildings; fights only a monster that strikes it |
 | **Thief** | AGI | Agility | 3 | Thieves' Guild | Greedy and evasive, low HP |
 
 :::note[Attack range]
@@ -153,7 +153,7 @@ Every hero class in the game, written from its data: the six that any kingdom re
 
 **Personality Tendencies**: Very high Safety (0.8–1.0), no Curiosity, no Glory
 
-**Special Behavior**: Pacifist — will never enter combat. Automatically travels to damaged buildings to repair them.
+**Special Behavior**: Fights nothing of its own accord, only a monster that strikes it. Automatically travels to damaged buildings to repair them.
 
 **Skill Tree**:
 
@@ -209,7 +209,7 @@ IDLE
 
 ## Lodging System
 
-- Adventurers go to rest and heal when HP is low, at the nearest place with room: their own guild, an inn, a wild camp or the castle. Of places about as near, their own guild comes first (it counts 8 tiles nearer) and the castle last (8 tiles further); one running for its life takes whatever is nearest
+- Adventurers go to rest and heal when HP is low, at the nearest place with room: their own guild (the one that recruited them, or the one they moved into), an inn or a wild camp. The castle beds only a hero without a guild; a hero whose guild is full waits at it for a bed. Of places about as near, their own guild comes first (it counts 8 tiles nearer); one running for its life takes whatever is nearest
 - Lodging adventurers enter the **LODGING** state: they disappear from the map and become invulnerable
 - Each building can house up to **3** lodgers
 - If a building is destroyed, all lodgers inside are immediately released
@@ -269,14 +269,16 @@ attraction  = reward / 100 / level_scale × greed + fame × glory - danger × sa
 
 A hero with nothing to do weighs everything open to it and takes the best: a bounty, an errand in town, or exploring.
 
-- **Errands**: buy better gear at a blacksmith, restock potions at a market, study at a library, take an evening off at an inn (15 gold; a fountain or garden is free), or go home when wounded or tired. Each needs the building, the gold and a real need, and the hero walks to that building to do it.
+- **Errands**: buy better gear at a blacksmith, restock potions at a market, study at a library, take an evening off at an inn (15 gold; a fountain or garden is free), or go home when wounded or tired. Each needs the building, the gold and a real need, and the hero walks to that building to do it. While a monster is in sight or a known lair stands, a well hero takes no evening off: it goes after the nearest one it dares (a lair at any level, level 1 included, if its taste for glory beats its caution), or explores. A place where a monster was seen lately is hunted for three minutes after, until the crown sees it empty; a hero that will not march on a known lair hunts round it, beyond its own reach of the lair's wall.
 - **Commitment**: a hero finishes the trip it started. Only an exploring trip is given up, after 150 ticks, for something clearly better. Danger still comes first: a badly hurt hero heads for the nearest place to rest.
-- **Strongholds**: from level 3, bold heroes march on known enemy strongholds by themselves when they dare one alone; thieves rob them.
+- **Strongholds**: at any level, level 1 included, bold heroes march on known enemy strongholds by themselves when they dare one alone; every hero may rob them, a thief the keenest.
 - **Support**: a hero whose class tends others (heals, shields, cheers or stands in) and that has no work of its own walks with a party: the nearest hero within 30 tiles on its way to a bounty's work or a march, or in a fight, whose work it dares with that party. It turns after the party as it moves, and leaves when the party dies, stops or goes home, when it is hurt itself, or after 2 minutes.
 - **Memory**: a hero keeps a few things that happened to it, each for some minutes. One whose guild was attacked values defend bounties 30% more; one that another hero helped when badly hurt, or that was paid a bounty's work beside another, values a bounty that hero holds more; one that turned for home badly hurt, or saw such a hero fall, wants better odds within 12 tiles of the place. The hero's panel lists what it remembers.
 - **A lost guild**: a hero whose guild is destroyed or torn down is not lost. It moves by itself into the nearest building that recruits its class and has room, a rebuilt guild among them. Until then the castle shelters it: 3 heroes for each castle level for 5 minutes, any more for 100 seconds. A hero whose time runs out leaves the kingdom with what it carries; the log and the chronicle say so beforehand, and its panel counts the seconds.
 - **What a hero shows**: a hero flinches when it is hit, raises a hand when its skill goes off, cheers when it gains a level, and slumps where it falls before the dust takes it. With reduced motion (Settings) it does none of these.
 - **Class leanings**: every class has habits of its own. Warriors fight on until badly hurt and like storming strongholds; mages stay near town, retreat early and like studying; rangers travel far and favour explore bounties; thieves go for the best-paid bounty and rob strongholds; guards and builders stay in town. A hero's own caution and curiosity shift this a little, and its panel lists its leanings. How far a hero roams is its own as well: the bolder and more curious it is, the further from the castle it ranges, so two heroes of one class do not keep to the same ground. A hero makes for unknown land within its range first; when none is left it goes a little further out and walks across to the far side of its range rather than circling the town.
+- **Hitting back**: when a monster has struck a hero in the last two seconds or so (a bite, a blow, an arrow or a skill; a blow the hero dodges counts too), the hero answers: it goes for that very monster before anything else (its trip, a theft, an errand), wherever the monster stands; if it shoots from beyond the hero's sight, the hero walks over to it, and fights it once in reach. Every class does this, the Builder included: a Builder otherwise never fights, and fights only the monster that struck it. The answer lasts as long as that monster lives and can still be found: within the hero's sight, or still shown on the map for having struck a hero. It ends when the monster falls or is lost to sight, or when the hero's nerve gives and it decides to run; the hero then lets the chase go and decides afresh. A hero on its way home or to rest does not answer. The monster that struck a hero shows on the map for 10 seconds wherever it is, so the attacker is seen at once.
+- **Running from a fight**: below half its HP a fighting hero weighs running away at 50%, 40%, 30%, 20% and 10% of its HP, once at each step, and the lower it has sunk the likelier it runs. How readily it runs comes from its class's caution and its own wish for safety; the classes that fight to the death (Grave Knight, Oathsworn, Enforcer, Shield Knight) run a tenth as readily as the most cautious. The odds of having run by the time a fight has brought a hero down to 10% are about 92% for a Mage, 68% for a Ranger, 55% for a Warrior and 19% for an Oathsworn. A hero struck back by the monster it hit decides the same way. Once no monster is left about, a hero below its class's retreat point goes to heal.
 - **Reading a hero**: a hero's panel says what it is doing and why, where it is going, what it needs, and where it stands on each open bounty: on the way, busy, or the reason it turned the bounty down, with the reward that would change its mind. A bounty's panel lists the heroes by those reasons, the cheapest to win over first. The panel ends with the hero's history, its last eight deeds with the game time of each: the gear it bought and what it studied, the bounties it took and what tipped it (the pay, others already on it, or what it remembers), what it was paid and beside whom, who came to its aid when it was badly hurt, and when it turned for home.
 
 ## Adventurers and factions
@@ -304,7 +306,7 @@ Hero details show up to three companions, why they matter and whether they are w
 <!-- BEGIN COMBAT PAIRINGS -->
 ### Battle pairings
 
-Each independent trial starts with eight level-8 heroes. Total capital is 7000 gold, including buildings, required upgrades, research, one potion per hero, finite reagents or siege supplies, and 200 gold per hero. The unspent part remains in the treasury. Heroes decide their own movement and skills; use buildings and bounties to guide them.
+Each independent trial starts with eight level-8 heroes. Total capital is 7000 gold, including buildings, required upgrades, research, one potion per hero, finite reagents or siege supplies, and 200 gold per hero. The unspent part remains in the treasury. Heroes decide their own movement and skills; use buildings and bounties to guide them. Every foe is a veteran or stronger and marches on the castle unseen from far off; a trial lasts up to 20 minutes.
 
 Both alternatives have won on seeds 17 and 73. Times describe this starting encounter, not a whole campaign. Living defenders remain after a lair falls.
 
@@ -314,8 +316,8 @@ Shield and healing need damage dealers against armor.
 
 | # | Heroes | Buildings | Research | Capital | Time (s) | Alive | Damage/s | Healing / absorbed shields |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Shield Knight ×2, Hospitaller ×2, Ranger ×2, Mage ×2 | Bastion, Sanctuary, Mage Tower | Shield Weaving, Mending Discipline | 7000 | 17–22.6 | 7 | 136.28–181.18 | 34 / 103, 130 / 257 |
-| 2 | Warrior ×2, Mage ×2, Ranger ×4 | Barracks, Mage Tower, Ranger Lodge | Battle Tactics, Arcane Affinity | 7000 | 10.6–13.6 | 7 | 226.47–290.57 | 0 / 0, 0 / 0 |
+| 1 | Shield Knight ×2, Hospitaller ×2, Ranger ×2, Mage ×2 | Bastion, Sanctuary, Mage Tower | Shield Weaving, Mending Discipline | 7000 | 143.6–319 | 8 | 12.9–26.28 | 0 / 3, 222 / 140 |
+| 2 | Warrior ×2, Mage ×2, Ranger ×4 | Barracks, Mage Tower, Ranger Lodge | Battle Tactics, Arcane Affinity | 7000 | 124.6–198.6 | 8 | 19.5–28.37 | 0 / 0, 0 / 0 |
 
 #### Poison control
 
@@ -323,8 +325,8 @@ Poison needs paid vials and loses value against cleansing and dispersed targets.
 
 | # | Heroes | Buildings | Research | Capital | Time (s) | Alive | Damage/s | Healing / absorbed shields |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Alchemist ×2, Shield Knight ×2, Hospitaller ×2, Ranger ×2 | Alchemy Guild, Bastion, Sanctuary, Cleansing Altar | Caustic Reagents, Shield Weaving, Cleansing Reach | 7000 | 10.6–11.6 | 8 | 132.59–145.09 | 0 / 205, 31 / 164 |
-| 2 | Mage ×3, Ranger ×3, Warrior ×2 | Mage Tower, Ranger Lodge, Cleansing Altar | Arcane Affinity, Keen Eyes, Cleansing Reach | 7000 | 8.6–9.6 | 8 | 160.21–178.84 | 0 / 0, 0 / 0 |
+| 1 | Alchemist ×2, Shield Knight ×2, Hospitaller ×2, Ranger ×2 | Alchemy Guild, Bastion, Sanctuary, Cleansing Altar | Caustic Reagents, Shield Weaving, Cleansing Reach | 7000 | 118.6–140.6 | 8 | 19.76–21.5 | 201 / 0, 30 / 0 |
+| 2 | Mage ×3, Ranger ×3, Warrior ×2 | Mage Tower, Ranger Lodge, Cleansing Altar | Arcane Affinity, Keen Eyes, Cleansing Reach | 7000 | 91.6–106.6 | 8 | 25.98–27.67 | 0 / 0, 0 / 0 |
 
 #### Ranged towers
 
@@ -332,8 +334,8 @@ Towers cover fixed ground; hunters and sappers punish an exposed rear.
 
 | # | Heroes | Buildings | Research | Capital | Time (s) | Alive | Damage/s | Healing / absorbed shields |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Guard ×2, Ranger ×4, Roadwarden ×2 | Guard Post, Ranger Lodge, Toll Post, Arrow Tower, Arrow Tower, Frost Tower, Beacon | Frost Lattice, Beacon Lenses, Keen Eyes | 7000 | 7.6–8 | 8 | 93.75–98.68 | 0 / 66, 0 / 0 |
-| 2 | Warrior ×3, Mage ×2, Ranger ×3 | Barracks, Mage Tower, Arrow Tower, Frost Tower | Battle Tactics, Frost Lattice | 7000 | 5–5 | 8 | 150–150 | 0 / 0, 0 / 0 |
+| 1 | Guard ×2, Ranger ×4, Roadwarden ×2 | Guard Post, Ranger Lodge, Toll Post, Arrow Tower, Arrow Tower, Frost Tower, Beacon | Frost Lattice, Beacon Lenses, Keen Eyes | 7000 | 35.6–104.6 | 8 | 12.88–35.51 | 0 / 0, 0 / 0 |
+| 2 | Warrior ×3, Mage ×2, Ranger ×3 | Barracks, Mage Tower, Arrow Tower, Frost Tower | Battle Tactics, Frost Lattice | 7000 | 57.6–83.6 | 7 | 14.63–22.29 | 0 / 0, 0 / 0 |
 
 #### Companion expedition
 
@@ -341,8 +343,8 @@ Companions depend on living wardens; durable fronts delay their burst.
 
 | # | Heroes | Buildings | Research | Capital | Time (s) | Alive | Damage/s | Healing / absorbed shields |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Beast Warden ×3, Pathfinder ×3, Ranger ×2 | Beast Lodge, Wild Camp, Ranger Lodge | Pack Training, Warden Guard, True Flight | 7000 | 2–2.6 | 8 | 484.62–630 | 0 / 0, 0 / 0 |
-| 2 | Warrior ×2, Ranger ×3, Mage ×3 | Barracks, Ranger Lodge, Mage Tower | Keen Eyes, Battle Tactics | 7000 | 7.6–7.6 | 8 | 165.79–165.79 | 0 / 0, 0 / 0 |
+| 1 | Beast Warden ×3, Pathfinder ×3, Ranger ×2 | Beast Lodge, Wild Camp, Ranger Lodge | Pack Training, Warden Guard, True Flight | 7000 | 33.4–226.6 | 8 | 15.63–51.77 | 0 / 0, 0 / 0 |
+| 2 | Warrior ×2, Ranger ×3, Mage ×3 | Barracks, Ranger Lodge, Mage Tower | Keen Eyes, Battle Tactics | 7000 | 74.6–142.6 | 8 | 18.79–24.92 | 0 / 0, 0 / 0 |
 
 #### Melee rush
 
@@ -350,8 +352,8 @@ A fast melee advance is vulnerable to poison zones and crossfire.
 
 | # | Heroes | Buildings | Research | Capital | Time (s) | Alive | Damage/s | Healing / absorbed shields |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Oathsworn ×4, Bannerman ×2, Ranger ×2 | War Hall, Quartermaster, Ranger Lodge | Blood Oath, Banner Guard | 7000 | 4–4 | 8 | 165–169.5 | 0 / 0, 0 / 0 |
-| 2 | Warrior ×4, Mage ×2, Ranger ×2 | Barracks, Mage Tower, Ranger Lodge | Battle Tactics, Iron Skin | 7000 | 4–4.6 | 8 | 147.39–165 | 0 / 0, 0 / 0 |
+| 1 | Oathsworn ×4, Bannerman ×2, Ranger ×2 | War Hall, Quartermaster, Ranger Lodge | Blood Oath, Banner Guard | 7000 | 60.6–63.6 | 7 | 20.28–25.3 | 0 / 0, 0 / 0 |
+| 2 | Warrior ×4, Mage ×2, Ranger ×2 | Barracks, Mage Tower, Ranger Lodge | Battle Tactics, Iron Skin | 7000 | 43.6–108.6 | 8 | 18.49–24.38 | 0 / 0, 0 / 0 |
 
 #### Siege breach
 
@@ -359,7 +361,7 @@ Wall supplies are finite; defend the supply route and finish the lair before rep
 
 | # | Heroes | Buildings | Research | Capital | Time (s) | Alive | Damage/s | Healing / absorbed shields |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Bannerman ×2, Oathsworn ×2, Ranger ×4 | Quartermaster, War Hall, Ranger Lodge | Siege Provisioning, Blood Oath | 7000 | 39.6–40.8 | 8 | 92.16–98.36 | 0 / 0, 0 / 0 |
-| 2 | Ranger ×4, Warrior ×2, Mage ×2 | Ranger Lodge, Barracks, Mage Tower | Keen Eyes, Battle Tactics | 7000 | 37.2–48 | 8 | 80.69–100.94 | 0 / 0, 0 / 0 |
+| 1 | Bannerman ×2, Oathsworn ×2, Ranger ×4 | Quartermaster, War Hall, Ranger Lodge | Siege Provisioning, Blood Oath | 7000 | 51.6–102 | 8 | 42.12–81.96 | 0 / 0, 0 / 0 |
+| 2 | Ranger ×4, Warrior ×2, Mage ×2 | Ranger Lodge, Barracks, Mage Tower | Keen Eyes, Battle Tactics | 7000 | 58.6–171 | 8 | 27.89–71.19 | 0 / 0, 0 / 0 |
 
 <!-- END COMBAT PAIRINGS -->

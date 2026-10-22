@@ -125,7 +125,7 @@ Kalıcı harita yapıları oluşturur.
 
 Serbest oyun, dönen bir günle, havayla ya da ikisiyle birlikte başlatılabilir; her biri ayrı işaretlenir ve hiçbiri bir olay değildir: yanıtlanacak bir şey yoktur.
 
-- **Bir gün**, seçime göre 12, 24 ya da 48 oyun dakikası sürer: şafak, gündüz, alacakaranlık ve gece. Üst çubuk günü, bölümünü ve havayı gösterir; ipucu ise sırada ne olduğunu ve ne zaman geleceğini söyler. Tahmin her zaman gerçekleşir.
+- **Bir gün**, seçime göre 8, 12 ya da 16 oyun dakikası sürer: şafak, gündüz, alacakaranlık ve gece. Üst çubuk günü, bölümünü ve havayı gösterir; ipucu ise sırada ne olduğunu ve ne zaman geleceğini söyler. Tahmin her zaman gerçekleşir.
 - **Yağmur ve fırtına**, yol dışında yürüyen herkesi, kahraman ya da canavar, en çok on turda bir tur durdurur. Yollarda etkisi yoktur.
 - **Sis ve gece**, kahramanların ve binaların görüşünü en çok dörtte bir kısaltır. Kalenin ve krallığın binalarının yakınında pencereler aydınlıktır ve gece hiçbir şey almaz; bir okçu asla atabildiğinden daha yakını görmez.
 - **Rüzgâr**, okların, arbalet oklarının ve ciritlerin hasarının onda birini alır. Büyüler rüzgârdan etkilenmez.

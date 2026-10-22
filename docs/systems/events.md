@@ -125,7 +125,7 @@ With the Economy and services pool on, a harvest fair can come to one of your vi
 
 A free game may be started with a turning day, with weather, or with both; each is ticked by itself, and neither is an event: nothing has to be answered.
 
-- **A day** lasts 12, 24 or 48 minutes of game time, as chosen: dawn, day, dusk and night. The top bar names the day, its part and the weather, and its tooltip says what comes next and when. The forecast is always what comes.
+- **A day** lasts 8, 12 or 16 minutes of game time, as chosen: dawn, day, dusk and night. The top bar names the day, its part and the weather, and its tooltip says what comes next and when. The forecast is always what comes.
 - **Rain and thunderstorms** hold anyone walking off the roads, hero or monster, one turn in ten at the most. Roads are dry going.
 - **Mist and night** shorten what heroes and buildings see by a quarter at the most. Near the castle and the kingdom's buildings the windows are lit and the night takes nothing; an archer never sees less than it can shoot.
 - **Wind** takes a tenth of the damage of arrows, bolts and javelins. Spells are not blown about.

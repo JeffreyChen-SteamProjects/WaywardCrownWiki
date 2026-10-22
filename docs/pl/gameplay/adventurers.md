@@ -13,8 +13,8 @@ Poszukiwacze przygód są sercem gry. Mają wolną wolę i podejmują decyzje na
 | **Wojownik** | STR | Siła | 3 | Koszary | Wysokie HP, wysoki atak, walczy z bliska |
 | **Mag** | INT | Inteligencja | 12 | Wieża maga | Magiczne ataki dystansowe, niskie HP |
 | **Łowca** | AGI | Zwinność | 11 | Chata łowcy | Ataki łukiem na dystans, wysoka ciekawość |
-| **Strażnik** | STR | Siła | 3 | Posterunek strażnika | Patroluje budynki, nigdy nie opuszcza posterunku |
-| **Budowniczy** | AGI | — | 3 | Gildia budowniczych | Naprawia budynki, pacyfista (nie walczy) |
+| **Strażnik** | STR | Siła | 3 | Posterunek strażnika | Patroluje budynki miasta, nigdy nie opuszcza miasta |
+| **Budowniczy** | AGI | — | 3 | Gildia budowniczych | Naprawia budynki; walczy tylko z potworem, który go zaatakuje |
 | **Złodziej** | AGI | Zwinność | 3 | Gildia złodziei | Chciwy i unikający ciosów, niskie HP |
 
 :::note[Zasięg ataku]
@@ -153,7 +153,7 @@ Wszystkie klasy bohaterów w grze, spisane z jej danych: sześć, które werbuje
 
 **Tendencje osobowości**: Bardzo wysokie Bezpieczeństwo (0,8–1,0), brak Ciekawości, brak Chwały
 
-**Zachowanie specjalne**: Pacyfista — nigdy nie wejdzie do walki. Automatycznie udaje się do uszkodzonych budynków, aby je naprawić.
+**Zachowanie specjalne**: Sam nigdy nie walczy, tylko z potworem, który go zaatakuje. Automatycznie udaje się do uszkodzonych budynków, aby je naprawić.
 
 **Drzewo umiejętności**:
 
@@ -209,7 +209,7 @@ IDLE
 
 ## System kwater
 
-- Poszukiwacze przygód idą odpocząć i się wyleczyć, gdy mają mało PŻ, do najbliższego miejsca z wolnym miejscem: własnej gildii, karczmy, dzikiego obozu albo zamku. Spośród miejsc mniej więcej równie bliskich własna gildia jest pierwsza (liczy się o 8 pól bliżej), a zamek ostatni (o 8 pól dalej); kto ucieka, ratując życie, bierze to, co najbliżej
+- Przy niskim zdrowiu poszukiwacze przygód odpoczywają i leczą się w najbliższym miejscu z wolnym łóżkiem: we własnej gildii (tej, która ich zwerbowała, albo tej, do której się przenieśli), w gospodzie lub w dzikim obozie. Zamek przyjmuje tylko bohatera bez gildii; ten, czyja gildia jest pełna, czeka tam na łóżko. Spośród miejsc niemal równie bliskich najpierw jest własna gildia (liczy się jako 8 pól bliżej); uciekający, by ratować życie, bierze najbliższe
 - Poszukiwacze przygód w kwaterach wchodzą w stan **LODGING**: znikają z mapy i stają się nietykalni
 - Każdy budynek może pomieścić do **3** gości
 - Jeśli budynek zostanie zniszczony, wszyscy goście w środku są natychmiast uwalniani
@@ -269,14 +269,16 @@ attraction  = reward / 100 / level_scale × greed + fame × glory - danger × sa
 
 Bohater, który nie ma nic do roboty, porównuje wszystko, co może zrobić, i wybiera najlepsze: zlecenie, sprawę w mieście albo eksplorację.
 
-- **Sprawy**: kupić lepszy ekwipunek w kuźni, uzupełnić mikstury na targu, pouczyć się w bibliotece, spędzić wieczór w karczmie (15 złota; fontanna lub ogród są darmowe) albo wrócić do domu, gdy jest ranny lub zmęczony. Każda wymaga budynku, złota i prawdziwej potrzeby, a bohater idzie do tego budynku, by ją załatwić.
+- **Sprawy**: kupić lepszy ekwipunek w kuźni, uzupełnić mikstury na targu, pouczyć się w bibliotece, spędzić wieczór w karczmie (15 złota; fontanna lub ogród są darmowe) albo wrócić do domu, gdy jest ranny lub zmęczony. Każda wymaga budynku, złota i prawdziwej potrzeby, a bohater idzie do tego budynku, by ją załatwić. Dopóki widać potwora albo stoi znane legowisko, zdrowy bohater nie bierze wolnego wieczoru: rusza na najbliższy cel, na który się odważy (legowisko na każdym poziomie, także 1., jeśli żądza sławy przeważa nad ostrożnością), albo zwiedza. Tam, gdzie niedawno widziano potwora, poluje się jeszcze przez trzy minuty, aż korona zobaczy to miejsce puste; bohater, który nie ruszy na znane legowisko, poluje wokół niego, poza własnym zasięgiem do jego muru.
 - **Konsekwencja**: bohater kończy drogę, którą zaczął. Tylko eksplorację porzuci, po 150 tikach, dla czegoś wyraźnie lepszego. Niebezpieczeństwo nadal ma pierwszeństwo: ciężko ranny bohater udaje się do najbliższego miejsca odpoczynku.
-- **Twierdze**: od 3. poziomu odważni bohaterowie sami ruszają na znane wrogie twierdze, gdy odważą się na nie w pojedynkę; złodzieje je okradają.
+- **Twierdze**: na każdym poziomie, także 1., odważni bohaterowie sami ruszają na znane wrogie twierdze, gdy odważą się na nie w pojedynkę; każdy bohater może je okraść, złodziej najchętniej.
 - **Wsparcie**: bohater, którego klasa dba o innych (leczy, osłania, zagrzewa lub ich zastępuje) i który nie ma własnej pracy, idzie z drużyną: z najbliższym bohaterem w promieniu 30 pól, który zmierza do pracy z nagrody lub na wymarsz albo walczy, i którego pracy odważy się podjąć z tą drużyną. Podąża za nią, gdy się przemieszcza, a opuszcza ją, gdy drużyna zginie, zatrzyma się lub wróci do domu, gdy sam jest ranny albo po 2 minutach.
 - **Pamięć**: bohater zachowuje kilka rzeczy, które mu się przydarzyły, każdą przez kilka minut. Ten, którego gildię zaatakowano, ceni nagrody za obronę o 30% wyżej; ten, któremu inny bohater pomógł, gdy był ciężko ranny, albo który dostał zapłatę za nagrodę u boku innego, ceni wyżej nagrodę trzymaną przez tego bohatera; ten, który wrócił ciężko ranny albo widział upadek takiego bohatera, chce lepszych szans w promieniu 12 pól od tego miejsca. Panel bohatera pokazuje, co pamięta.
 - **Utracona gildia**: bohater, którego gildię zniszczono lub rozebrano, nie przepada. Sam przenosi się do najbliższego budynku, który rekrutuje jego klasę i ma miejsce, także do odbudowanej gildii. Do tego czasu daje mu schronienie zamek: 3 bohaterom na każdy poziom zamku przez 5 minut, kolejnym przez 100 sekund. Bohater, któremu skończy się czas, opuszcza królestwo z tym, co niesie; dziennik i kronika mówią o tym wcześniej, a jego panel odlicza sekundy.
 - **Co pokazuje bohater**: bohater wzdryga się po trafieniu, unosi rękę, gdy zadziała jego umiejętność, wiwatuje po zdobyciu poziomu i osuwa się tam, gdzie pada, zanim zabierze go pył. Przy opcji „Ogranicz ruch” (Ustawienia) nie robi żadnej z tych rzeczy.
 - **Skłonności klas**: każda klasa ma swoje zwyczaje. Wojownicy walczą, aż zostaną ciężko ranni, i lubią szturmować twierdze; magowie trzymają się blisko miasta, wcześnie się wycofują i lubią się uczyć; łowcy podróżują daleko i wolą zlecenia eksploracji; złodzieje wybierają najlepiej płatne zlecenie i okradają twierdze; strażnicy i budowniczowie zostają w mieście. Własna ostrożność i ciekawość bohatera nieco to zmieniają, a jego panel pokazuje skłonności. Zasięg wypraw również jest u każdego bohatera inny: im śmielszy i ciekawszy, tym dalej oddala się od zamku, więc dwóch bohaterów tej samej klasy nie trzyma się tych samych okolic. Bohater najpierw idzie na nieznane ziemie w swoim zasięgu; gdy ich zabraknie, wypuszcza się nieco dalej i przechodzi na drugą stronę swojego zasięgu, zamiast krążyć wokół miasta.
+- **Oddawanie ciosów**: gdy potwór zaatakował bohatera w ciągu mniej więcej ostatnich dwóch sekund (ugryzieniem, ciosem, strzałą albo umiejętnością; liczy się też cios, którego bohater uniknął), bohater oddaje: najpierw rusza właśnie na tego potwora, przed wszystkim innym (swoją wyprawą, kradzieżą, sprawą do załatwienia), gdziekolwiek ten stoi; jeśli strzela spoza zasięgu wzroku bohatera, bohater do niego podchodzi, a gdy ma go w zasięgu, walczy. Robi tak każda klasa, także Budowniczy, który poza tym nigdy nie walczy i bije się tylko z potworem, który go zaatakował. Odpowiedź trwa, dopóki ten potwór żyje i da się go znaleźć: jest w zasięgu wzroku bohatera albo wciąż widać go na mapie, bo zaatakował bohatera. Kończy się, gdy potwór padnie albo zniknie z oczu, albo gdy bohaterowi puszczą nerwy i postanowi uciekać; wtedy bohater porzuca pościg i decyduje od nowa. Bohater wracający do domu albo idący odpocząć nie oddaje. Potwór, który zaatakował bohatera, przez 10 sekund jest widoczny na mapie, gdziekolwiek jest, żeby od razu było widać napastnika.
+- **Ucieczka z walki**: poniżej połowy HP walczący bohater rozważa ucieczkę przy 50%, 40%, 30%, 20% i 10% HP, raz na każdym progu, a im niżej spadł, tym chętniej ucieka. Jak chętnie ucieka, zależy od ostrożności jego klasy i jego własnej potrzeby bezpieczeństwa; klasy walczące do śmierci (Rycerz Grobów, Zaprzysiężony, Egzekutor, Rycerz Tarczy) uciekają dziesięć razy mniej chętnie niż najostrożniejsza. Szansa, że bohater już uciekł, gdy walka zbiła go do 10% HP: Mag około 92%, Łowca 68%, Wojownik 55%, Zaprzysiężony 19%. Bohater, któremu oddaje potwór, którego sam zaatakował, decyduje tak samo. Gdy w pobliżu nie ma już żadnego potwora, bohater poniżej progu odwrotu swojej klasy idzie się leczyć.
 - **Czytanie bohatera**: panel bohatera mówi, co robi i dlaczego, dokąd idzie, czego potrzebuje i jak odnosi się do każdego otwartego zlecenia: w drodze, zajęty albo powód odmowy wraz z nagrodą, która zmieniłaby jego zdanie. Panel zlecenia grupuje bohaterów według tych powodów, najłatwiejszych do przekonania na początku. Panel kończą dzieje bohatera, osiem ostatnich czynów z czasem gry każdego: kupiony ekwipunek i nauka, przyjęte zlecenia i to, co przeważyło (zapłata, inni, którzy już się go podjęli, albo to, co pamięta), ile dostał i u czyjego boku, kto przyszedł mu z pomocą, gdy był ciężko ranny, i kiedy zawrócił do domu.
 
 ## Poszukiwacze przygód i frakcje
@@ -304,7 +306,7 @@ Szczegóły bohatera pokazują do trzech towarzyszy, źródło więzi oraz wspó
 <!-- BEGIN COMBAT PAIRINGS -->
 ### Zestawienia bojowe
 
-Każda niezależna próba zaczyna się od ośmiu bohaterów poziomu 8. Łączny kapitał 7000 złota obejmuje budynki, wymagane ulepszenia, badania, jedną miksturę na bohatera, ograniczone odczynniki lub zapasy i 200 złota na bohatera. Reszta zostaje w skarbcu. Bohaterowie sami wybierają ruch i umiejętności; kieruj ich budynkami i nagrodami.
+Każda niezależna próba zaczyna się od ośmiu bohaterów poziomu 8. Łączny kapitał 7000 złota obejmuje budynki, wymagane ulepszenia, badania, jedną miksturę na bohatera, ograniczone odczynniki lub zapasy i 200 złota na bohatera. Reszta zostaje w skarbcu. Bohaterowie sami wybierają ruch i umiejętności; kieruj ich budynkami i nagrodami. Każdy wróg jest co najmniej weteranem i niewidoczny maszeruje z daleka na zamek; próba trwa do 20 minut.
 
 Oba warianty wygrały przy ziarnach 17 i 73. Czasy dotyczą początkowego starcia, nie całej kampanii. Żywi strażnicy pozostają po upadku obozu.
 
@@ -314,8 +316,8 @@ Tarcze i leczenie potrzebują ataku przeciw pancerzom.
 
 | # | Bohaterowie | Budynki | Badania | Kapitał | Czas (s) | Żywi | Obrażenia/s | Leczenie / pochłonięcie tarcz |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Rycerz Tarczy ×2, Szpitalnik ×2, Łowca ×2, Mag ×2 | Bastion, Sanktuarium, Wieża maga | Splot osłony, Dyscyplina leczenia | 7000 | 17–22.6 | 7 | 136.28–181.18 | 34 / 103, 130 / 257 |
-| 2 | Wojownik ×2, Mag ×2, Łowca ×4 | Koszary, Wieża maga, Chata łowcy | Taktyka bitewna, Arkaniczna więź | 7000 | 10.6–13.6 | 7 | 226.47–290.57 | 0 / 0, 0 / 0 |
+| 1 | Rycerz Tarczy ×2, Szpitalnik ×2, Łowca ×2, Mag ×2 | Bastion, Sanktuarium, Wieża maga | Splot osłony, Dyscyplina leczenia | 7000 | 143.6–319 | 8 | 12.9–26.28 | 0 / 3, 222 / 140 |
+| 2 | Wojownik ×2, Mag ×2, Łowca ×4 | Koszary, Wieża maga, Chata łowcy | Taktyka bitewna, Arkaniczna więź | 7000 | 124.6–198.6 | 8 | 19.5–28.37 | 0 / 0, 0 / 0 |
 
 #### Kontrola trucizną
 
@@ -323,8 +325,8 @@ Trucizna wymaga płatnych odczynników; oczyszczenie i rozproszone cele ją osł
 
 | # | Bohaterowie | Budynki | Badania | Kapitał | Czas (s) | Żywi | Obrażenia/s | Leczenie / pochłonięcie tarcz |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Alchemik ×2, Rycerz Tarczy ×2, Szpitalnik ×2, Łowca ×2 | Gildia alchemików, Bastion, Sanktuarium, Ołtarz oczyszczenia | Żrące odczynniki, Splot osłony, Zasięg oczyszczenia | 7000 | 10.6–11.6 | 8 | 132.59–145.09 | 0 / 205, 31 / 164 |
-| 2 | Mag ×3, Łowca ×3, Wojownik ×2 | Wieża maga, Chata łowcy, Ołtarz oczyszczenia | Arkaniczna więź, Sokole oko, Zasięg oczyszczenia | 7000 | 8.6–9.6 | 8 | 160.21–178.84 | 0 / 0, 0 / 0 |
+| 1 | Alchemik ×2, Rycerz Tarczy ×2, Szpitalnik ×2, Łowca ×2 | Gildia alchemików, Bastion, Sanktuarium, Ołtarz oczyszczenia | Żrące odczynniki, Splot osłony, Zasięg oczyszczenia | 7000 | 118.6–140.6 | 8 | 19.76–21.5 | 201 / 0, 30 / 0 |
+| 2 | Mag ×3, Łowca ×3, Wojownik ×2 | Wieża maga, Chata łowcy, Ołtarz oczyszczenia | Arkaniczna więź, Sokole oko, Zasięg oczyszczenia | 7000 | 91.6–106.6 | 8 | 25.98–27.67 | 0 / 0, 0 / 0 |
 
 #### Wieże dystansowe
 
@@ -332,8 +334,8 @@ Wieże osłaniają stały teren; łowcy i saperzy zagrażają odsłoniętym tył
 
 | # | Bohaterowie | Budynki | Badania | Kapitał | Czas (s) | Żywi | Obrażenia/s | Leczenie / pochłonięcie tarcz |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Strażnik ×2, Łowca ×4, Strażnik Traktów ×2 | Posterunek strażnika, Chata łowcy, Rogatka, Wieża strzelnicza, Wieża strzelnicza, Wieża mrozu, Stos sygnałowy | Siatka mrozu, Soczewki sygnałowe, Sokole oko | 7000 | 7.6–8 | 8 | 93.75–98.68 | 0 / 66, 0 / 0 |
-| 2 | Wojownik ×3, Mag ×2, Łowca ×3 | Koszary, Wieża maga, Wieża strzelnicza, Wieża mrozu | Taktyka bitewna, Siatka mrozu | 7000 | 5–5 | 8 | 150–150 | 0 / 0, 0 / 0 |
+| 1 | Strażnik ×2, Łowca ×4, Strażnik Traktów ×2 | Posterunek strażnika, Chata łowcy, Rogatka, Wieża strzelnicza, Wieża strzelnicza, Wieża mrozu, Stos sygnałowy | Siatka mrozu, Soczewki sygnałowe, Sokole oko | 7000 | 35.6–104.6 | 8 | 12.88–35.51 | 0 / 0, 0 / 0 |
+| 2 | Wojownik ×3, Mag ×2, Łowca ×3 | Koszary, Wieża maga, Wieża strzelnicza, Wieża mrozu | Taktyka bitewna, Siatka mrozu | 7000 | 57.6–83.6 | 7 | 14.63–22.29 | 0 / 0, 0 / 0 |
 
 #### Wyprawa ze zwierzętami
 
@@ -341,8 +343,8 @@ Zwierzęta zależą od żywych strażników; mocne fronty opóźniają ich atak.
 
 | # | Bohaterowie | Budynki | Badania | Kapitał | Czas (s) | Żywi | Obrażenia/s | Leczenie / pochłonięcie tarcz |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Opiekun Bestii ×3, Tropiciel ×3, Łowca ×2 | Leśna Zagroda, Dziki obóz, Chata łowcy | Szkolenie stada, Straż bestii, Celny lot | 7000 | 2–2.6 | 8 | 484.62–630 | 0 / 0, 0 / 0 |
-| 2 | Wojownik ×2, Łowca ×3, Mag ×3 | Koszary, Chata łowcy, Wieża maga | Sokole oko, Taktyka bitewna | 7000 | 7.6–7.6 | 8 | 165.79–165.79 | 0 / 0, 0 / 0 |
+| 1 | Opiekun Bestii ×3, Tropiciel ×3, Łowca ×2 | Leśna Zagroda, Dziki obóz, Chata łowcy | Szkolenie stada, Straż bestii, Celny lot | 7000 | 33.4–226.6 | 8 | 15.63–51.77 | 0 / 0, 0 / 0 |
+| 2 | Wojownik ×2, Łowca ×3, Mag ×3 | Koszary, Chata łowcy, Wieża maga | Sokole oko, Taktyka bitewna | 7000 | 74.6–142.6 | 8 | 18.79–24.92 | 0 / 0, 0 / 0 |
 
 #### Szturm wręcz
 
@@ -350,8 +352,8 @@ Szturm wręcz jest podatny na truciznę i ogień krzyżowy.
 
 | # | Bohaterowie | Budynki | Badania | Kapitał | Czas (s) | Żywi | Obrażenia/s | Leczenie / pochłonięcie tarcz |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Zaprzysiężony ×4, Chorąży ×2, Łowca ×2 | Hala Wojenna, Kwatermistrzostwo, Chata łowcy | Przysięga krwi, Straż chorągwi | 7000 | 4–4 | 8 | 165–169.5 | 0 / 0, 0 / 0 |
-| 2 | Wojownik ×4, Mag ×2, Łowca ×2 | Koszary, Wieża maga, Chata łowcy | Taktyka bitewna, Żelazna skóra | 7000 | 4–4.6 | 8 | 147.39–165 | 0 / 0, 0 / 0 |
+| 1 | Zaprzysiężony ×4, Chorąży ×2, Łowca ×2 | Hala Wojenna, Kwatermistrzostwo, Chata łowcy | Przysięga krwi, Straż chorągwi | 7000 | 60.6–63.6 | 7 | 20.28–25.3 | 0 / 0, 0 / 0 |
+| 2 | Wojownik ×4, Mag ×2, Łowca ×2 | Koszary, Wieża maga, Chata łowcy | Taktyka bitewna, Żelazna skóra | 7000 | 43.6–108.6 | 8 | 18.49–24.38 | 0 / 0, 0 / 0 |
 
 #### Przełamanie oblężenia
 
@@ -359,7 +361,7 @@ Zapasy oblężnicze są ograniczone. Chroń drogę zaopatrzenia i zburz obóz pr
 
 | # | Bohaterowie | Budynki | Badania | Kapitał | Czas (s) | Żywi | Obrażenia/s | Leczenie / pochłonięcie tarcz |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Chorąży ×2, Zaprzysiężony ×2, Łowca ×4 | Kwatermistrzostwo, Hala Wojenna, Chata łowcy | Zaopatrzenie oblężnicze, Przysięga krwi | 7000 | 39.6–40.8 | 8 | 92.16–98.36 | 0 / 0, 0 / 0 |
-| 2 | Łowca ×4, Wojownik ×2, Mag ×2 | Chata łowcy, Koszary, Wieża maga | Sokole oko, Taktyka bitewna | 7000 | 37.2–48 | 8 | 80.69–100.94 | 0 / 0, 0 / 0 |
+| 1 | Chorąży ×2, Zaprzysiężony ×2, Łowca ×4 | Kwatermistrzostwo, Hala Wojenna, Chata łowcy | Zaopatrzenie oblężnicze, Przysięga krwi | 7000 | 51.6–102 | 8 | 42.12–81.96 | 0 / 0, 0 / 0 |
+| 2 | Łowca ×4, Wojownik ×2, Mag ×2 | Chata łowcy, Koszary, Wieża maga | Sokole oko, Taktyka bitewna | 7000 | 58.6–171 | 8 | 27.89–71.19 | 0 / 0, 0 / 0 |
 
 <!-- END COMBAT PAIRINGS -->

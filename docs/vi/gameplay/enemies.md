@@ -148,7 +148,9 @@ Dọn đợt địch được chỉ định cũng cần hạ bộ xương đư�
 
 **Quái thú công thành** — Đơn vị nặng chậm, đánh công trình bằng bốn lần nửa công đã tính cấp bậc. Chặn bằng tiền tuyến và tập trung bắn; thủ cao khiến đột kích cận chiến thiếu hỗ trợ tốn kém.
 
-Gnashfang gọi một giáo và một khiên mỗi lần, bốn suốt đời. Họ theo tâm phòng thủ và còn sống sau khi thủ lĩnh chết. Đòn nặng cảnh báo 2,4 giây, chọn trong 4 ô, trúng bán kính 2; hai cung thủ cuối là lần gọi hữu hạn riêng.
+Gnashfang mỗi lần gọi là triệu tập cả quân đoàn — một lính giáo, một lính khiên, một cung thủ goblin, một pháp sư goblin, một công binh và một quái thú công thành —, mười hai suốt đời. Họ theo tâm phòng thủ và còn sống sau khi thủ lĩnh chết. Đòn nặng cảnh báo 2,4 giây, chọn trong 4 ô, trúng bán kính 3; hai cung thủ cuối là lần gọi hữu hạn riêng.
+
+Bọ cạp cồn cát đào bầy con lên ở mọi giai đoạn: bốn bọ cạp độc mỗi lần gọi, mười hai suốt đời. Mang thuốc giải độc và giữ anh hùng đánh xa tránh xa các hố.
 
 **Doanh trại thiết giáp** — Tiền tuyến giáp nặng, cung thủ và hồi máu hữu hạn. Hạ người chữa trị trước hoặc dùng tầm xa và độc. 3200 HP. Lính giữ: Lính khiên, Cung thủ Goblin, Pháp sư goblin. Chu kỳ đột kích: Lính khiên, Lính giáo dài, Cung thủ Goblin, Pháp sư goblin, Lính giáo dài, Cung thủ Goblin. Địa hình gốc: Rừng, Núi. Đợt đầu 9:00, sau đó mỗi 6:00; đầu tiên 4 quân, tăng từng một đến 8. Phá ổ ngừng lính gác và đợt mới; quân đang sống vẫn ở lại.
 

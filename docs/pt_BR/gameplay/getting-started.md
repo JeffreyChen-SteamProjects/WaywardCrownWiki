@@ -124,9 +124,10 @@ Fácil e difícil nunca mudam a vida dos inimigos: fácil tira um saqueador de c
 | Esc | Cancelar o posicionamento de uma construção ou recompensa; caso contrário, abrir o menu do jogo (salvar, carregar, configurações, reiniciar a fase, menu principal) |
 | Shift + clique esquerdo | Posicionar uma construção e mantê-la selecionada |
 | Clique duplo no mapa | Publicar a recompensa adequada ao que está ali |
-| Ctrl+S / Ctrl+O | Salvar / carregar o jogo |
+| Ctrl+S / Ctrl+O | Salvar / carregar o jogo (o menu de carregar também lista os três últimos salvamentos automáticos, feitos a cada cinco minutos de jogo) |
 | Clique no minimapa | Pular para aquela localização |
 | Home | Mostrar o castelo |
+| ← ↑ → ↓ | Mover a visão (enquanto pressionada) |
 | P | A janela dos caminhos do castelo (mapas com caminhos) |
 | K / C | A visão geral do reino / a crônica |
 | L | Os registros: cada herói, guilda, obra e a renda de cada construção, com filtros |
@@ -138,6 +139,8 @@ Fácil e difícil nunca mudam a vida dos inimigos: fácil tira um saqueador de c
 | A / S / D / G / H | Pegar um tipo de recompensa, na ordem em que o painel os lista (a mesma tecla o solta) |
 | B | Pegar de novo a última construção colocada |
 | F6, depois Tab | Levar o teclado ao próximo painel e percorrer seus controles (Esc volta ao mapa) |
+
+**Quando algo precisa de você.** A visão geral do reino (K) começa com um cartão para cada lugar atacado: desde quando, o último golpe, o que perdeu e se o combate continua ou como acabou. Abaixo, *Esperando por você* lista no máximo três assuntos que você ainda pode resolver, o mais urgente primeiro: uma bandeira que ninguém aceita (há quanto tempo espera e por que os heróis a deixam, pelo julgamento deles), uma guilda que não recruta ninguém, uma construção muito danificada. Cada um diz o próximo passo, mostra o lugar ao clicar e pode ser deixado de lado até mudar. Um ataque novo é avisado uma vez, no lugar. Nas configurações, o jogo pode pausar uma vez por crise quando o castelo perde vida rápido ou dois lugares são atacados juntos; fica desligado até você ligar.
 
 Toda tecla acima exceto Esc pode ser trocada em Configurações > Teclas; uma tecla dada a duas ações vale para a primeira da lista, e as configurações avisam; uma tecla já usada é recusada. Um dígito do teclado numérico conta como o dígito. Uma tecla mantida pressionada age uma vez só.
 

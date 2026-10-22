@@ -125,7 +125,7 @@ Ist die Gruppe „Wirtschaft und öffentliche Dienste“ an, kann ein Erntemarkt
 
 Ein freies Spiel kann mit laufendem Tag, mit Wetter oder mit beidem begonnen werden; jedes wird einzeln angehakt, und keines ist ein Ereignis: Es gibt nichts zu beantworten.
 
-- **Ein Tag** dauert nach Wahl 12, 24 oder 48 Spielminuten: Morgendämmerung, Tag, Abenddämmerung und Nacht. Die obere Leiste nennt den Tag, die Tageszeit und das Wetter, ihr Tooltip sagt, was als Nächstes kommt und wann. Die Vorhersage trifft immer ein.
+- **Ein Tag** dauert nach Wahl 8, 12 oder 16 Spielminuten: Morgendämmerung, Tag, Abenddämmerung und Nacht. Die obere Leiste nennt den Tag, die Tageszeit und das Wetter, ihr Tooltip sagt, was als Nächstes kommt und wann. Die Vorhersage trifft immer ein.
 - **Regen und Gewitter** halten jeden, der abseits der Straßen geht, Held wie Monster, höchstens jede zehnte Runde auf. Auf Straßen geht es trocken voran.
 - **Nebel und Nacht** verkürzen die Sicht von Helden und Gebäuden um höchstens ein Viertel. Nahe der Burg und den Gebäuden des Reichs leuchten die Fenster, und die Nacht nimmt nichts; ein Schütze sieht nie weniger weit, als er schießt.
 - **Wind** nimmt Pfeilen, Bolzen und Wurfspeeren ein Zehntel des Schadens. Zauber werden nicht verweht.

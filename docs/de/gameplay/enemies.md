@@ -148,7 +148,9 @@ Eine benannte Welle ist erst nach ihren gerufenen Skeletten und Schleimkindern b
 
 **Belagerungsbestie** — Langsamer Schwerer, der Gebäude mit einmal ×4 seines bereits erhöhten halben Angriffs trifft. Mit der Front abfangen und aus der Ferne fokussieren; hoher Schutz macht ungestützte Nahkampfstürme teuer.
 
-Gnashfang ruft je einen Speer- und Schildträger, vier im Leben. Sie folgen seinem Wachzentrum und überleben seinen Tod. Der Hieb warnt 2,4s, wählt bis 4 Felder und trifft Radius 2; die letzten zwei Bogner sind ein eigener endlicher Ruf.
+Gnashfang ruft bei jedem Ruf die ganze Legion — Speerträger, Schildträger, Goblin-Bogner, Goblin-Schamane, Sprengmeister und Belagerungsbestie —, zwölf im Leben. Sie folgen seinem Wachzentrum und überleben seinen Tod. Der Hieb warnt 2,4s, wählt bis 4 Felder und trifft Radius 3; die letzten zwei Bogner sind ein eigener endlicher Ruf.
+
+Der Dünenskorpion gräbt in jeder Phase seine Brut aus: vier Giftskorpione je Ruf, zwölf im Leben. Bring Gegengifte mit und halte Fernkämpfer von den Löchern fern.
 
 **Panzerkaserne** — Gepanzerte Front, Bogner und begrenzte Heilhilfe. Den Heiler zuerst töten oder mit Fernkampf und Gift angreifen. 3200 HP. Garnison: Schildträger, Goblin-Bogenschütze, Goblin-Schamane. Überfallfolge: Schildträger, Pikenier, Goblin-Bogenschütze, Goblin-Schamane, Pikenier, Goblin-Bogenschütze. Heimisches Gelände: Wald, Gebirge. Erster Überfall 9:00, danach alle 6:00; anfangs 4 Truppen, je eine mehr bis 8. Zerstörung stoppt neue Wachen und Überfälle; lebende Truppen bleiben.
 

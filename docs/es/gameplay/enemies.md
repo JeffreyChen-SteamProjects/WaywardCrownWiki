@@ -148,7 +148,9 @@ Eliminar una oleada nombrada incluye sus esqueletos invocados y limos hijos; mat
 
 **Bestia de asedio** — Pesado lento que golpea estructuras a ×4 de su medio ataque ya ajustado por rango. Intercepta con la frente y concentra fuego a distancia; su defensa castiga el asalto cercano sin apoyo.
 
-Gnashfang llama una pica y un escudo por vez, cuatro por vida. Siguen su centro de guardia y sobreviven a su muerte. El tajo avisa 2,4s, elige hasta 4 casillas y alcanza radio 2; los dos últimos arqueros son otra llamada limitada.
+Gnashfang convoca en cada llamada a toda la legión —un piquero, un escudero, un arquero goblin, un chamán goblin, un zapador y una bestia de asedio—, doce por vida. Siguen su centro de guardia y sobreviven a su muerte. El tajo avisa 2,4s, elige hasta 4 casillas y alcanza radio 3; los dos últimos arqueros son otra llamada limitada.
+
+El Escorpión de las dunas desentierra su prole en cada fase: cuatro escorpiones venenosos por llamada, doce por vida. Lleva antídotos y aleja a los tiradores de los agujeros.
 
 **Cuartel acorazado** — Frente blindado, arqueros y curación limitada. Mata primero al sanador o usa alcance y veneno. 3200 HP. Guarnición: Portaescudo, Arquero goblin, Chamán goblin. Ciclo de incursión: Portaescudo, Piquero, Arquero goblin, Chamán goblin, Piquero, Arquero goblin. Terreno nativo: Bosque, Montaña. Primera incursión 9:00, luego cada 6:00; empieza con 4 tropas, aumenta una hasta 8. Arrasar detiene nuevos guardias y ataques; las tropas vivas permanecen.
 

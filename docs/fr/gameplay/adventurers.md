@@ -13,8 +13,8 @@ Les aventuriers sont le cœur du jeu. Ils ont un libre arbitre et prennent des d
 | **Guerrier** | STR | Force | 3 | Caserne | HP élevés, attaque élevée, combat au corps à corps |
 | **Mage** | INT | Intelligence | 12 | Tour de mage | Attaques magiques à distance, HP faibles |
 | **Rôdeur** | AGI | Agilité | 11 | Cabane du rôdeur | Attaques à l'arc à distance, grande curiosité |
-| **Garde** | STR | Force | 3 | Poste de garde | Patrouille les bâtiments, ne quitte jamais son poste |
-| **Bâtisseur** | AGI | — | 3 | Guilde des bâtisseurs | Répare les bâtiments, pacifiste (ne combat pas) |
+| **Garde** | STR | Force | 3 | Poste de garde | Patrouille les bâtiments de la ville, ne quitte jamais la ville |
+| **Bâtisseur** | AGI | — | 3 | Guilde des bâtisseurs | Répare les bâtiments ; ne combat que le monstre qui l'attaque |
 | **Voleur** | AGI | Agilité | 3 | Guilde des voleurs | Cupide et insaisissable, HP faibles |
 
 :::note[Portée d'attaque]
@@ -153,7 +153,7 @@ Toutes les classes de héros du jeu, écrites à partir de ses données : les si
 
 **Tendances de personnalité** : Sécurité très élevée (0,8–1,0), aucune curiosité, aucune gloire
 
-**Comportement spécial** : Pacifiste — n'entrera jamais en combat. Se déplace automatiquement vers les bâtiments endommagés pour les réparer.
+**Comportement spécial** : Ne combat jamais de lui-même, seulement le monstre qui l'attaque. Se déplace automatiquement vers les bâtiments endommagés pour les réparer.
 
 **Arbre de compétences** :
 
@@ -209,7 +209,7 @@ IDLE
 
 ## Système d'hébergement
 
-- Les aventuriers vont se reposer et se soigner quand leurs PV sont bas, à l'endroit le plus proche ayant de la place : leur propre guilde, une auberge, un camp sauvage ou le château. Entre des endroits à peu près aussi proches, leur guilde passe d'abord (elle compte 8 cases de moins) et le château en dernier (8 cases de plus) ; celui qui fuit pour sa vie prend ce qui est le plus proche
+- Les aventuriers vont se reposer et se soigner quand leurs PV sont bas, au lieu le plus proche qui a de la place : leur propre guilde (celle qui les a recrutés, ou celle où ils ont emménagé), une auberge ou un camp sauvage. Le château n'héberge qu'un héros sans guilde ; celui dont la guilde est pleine y attend un lit. Entre lieux presque aussi proches, leur guilde passe en premier (elle compte 8 cases plus près) ; celui qui fuit pour sa vie prend le plus proche
 - Les aventuriers hébergés entrent dans l'état **LODGING** : ils disparaissent de la carte et deviennent invulnérables
 - Chaque bâtiment peut héberger jusqu'à **3** occupants
 - Si un bâtiment est détruit, tous les occupants à l'intérieur sont immédiatement libérés
@@ -269,14 +269,16 @@ attraction  = reward / 100 / level_scale × greed + fame × glory - danger × sa
 
 Un héros désœuvré compare tout ce qui s'offre à lui et choisit le mieux : une prime, une course en ville ou l'exploration.
 
-- **Courses** : acheter un meilleur équipement à la forge, refaire le plein de potions au marché, étudier à la bibliothèque, passer une soirée à l'auberge (15 or ; une fontaine ou un jardin est gratuit), ou rentrer s'il est blessé ou fatigué. Chacune exige le bâtiment, l'or et un vrai besoin, et le héros se rend à ce bâtiment pour la faire.
+- **Courses** : acheter un meilleur équipement à la forge, refaire le plein de potions au marché, étudier à la bibliothèque, passer une soirée à l'auberge (15 or ; une fontaine ou un jardin est gratuit), ou rentrer s'il est blessé ou fatigué. Chacune exige le bâtiment, l'or et un vrai besoin, et le héros se rend à ce bâtiment pour la faire. Tant qu'un monstre est en vue ou qu'un repaire connu tient debout, un héros valide ne prend pas de soirée libre : il s'attaque au plus proche qu'il ose affronter (un repaire à tout niveau, le niveau 1 compris, si son goût de la gloire l'emporte sur sa prudence), ou explore. Là où un monstre a été vu récemment, on chasse encore trois minutes, jusqu'à ce que la couronne voie l'endroit vide ; un héros qui ne marche pas sur un repaire connu chasse autour, hors de sa propre portée du mur.
 - **Engagement** : un héros termine le trajet qu'il a commencé. Seule une exploration est abandonnée, après 150 ticks, pour quelque chose de nettement mieux. Le danger passe toujours d'abord : un héros gravement blessé rejoint le lieu de repos le plus proche.
-- **Forteresses** : à partir du niveau 3, les héros audacieux marchent d'eux-mêmes sur les forteresses ennemies connues quand ils osent en affronter une seuls ; les voleurs les pillent.
+- **Forteresses** : à tout niveau, le niveau 1 compris, les héros audacieux marchent d'eux-mêmes sur les forteresses ennemies connues quand ils osent en affronter une seuls ; tout héros peut les piller, le voleur plus que tout autre.
 - **Soutien** : un héros dont la classe prend soin des autres (soigne, protège, encourage ou les couvre) et qui n'a pas de travail à lui marche avec un groupe : le héros le plus proche dans un rayon de 30 cases en route vers le travail d'une prime ou une marche, ou en plein combat, et dont il ose affronter le travail avec ce groupe. Il le suit quand il se déplace et le quitte quand le groupe meurt, s'arrête ou rentre, quand il est lui-même blessé ou au bout de 2 minutes.
 - **Mémoire** : un héros garde quelques-unes des choses qui lui sont arrivées, chacune quelques minutes. Celui dont la guilde a été attaquée accorde 30 % de valeur en plus aux primes de défense ; celui qu'un autre héros a aidé alors qu'il était gravement blessé, ou qui a été payé pour une prime aux côtés d'un autre, accorde plus de valeur à une prime que tient ce héros ; celui qui est rentré gravement blessé, ou a vu tomber un tel héros, veut de meilleures chances à moins de 12 cases du lieu. Le panneau du héros indique ce dont il se souvient.
 - **Une guilde perdue** : un héros dont la guilde est détruite ou démolie n'est pas perdu. Il s'installe de lui-même dans le bâtiment le plus proche qui recrute sa classe et a de la place, y compris une guilde reconstruite. D'ici là le château l'abrite : 3 héros par niveau du château pendant 5 minutes, les autres pendant 100 secondes. Un héros dont le temps est écoulé quitte le royaume avec ce qu'il porte ; le journal et la chronique l'annoncent avant, et son panneau compte les secondes.
 - **Ce que montre un héros** : un héros tressaille quand il est touché, lève une main quand sa compétence se déclenche, jubile quand il gagne un niveau et s'affaisse là où il tombe avant que la poussière ne l'emporte. Avec « réduire les animations » (Paramètres), il ne fait rien de tout cela.
 - **Penchants des classes** : chaque classe a ses habitudes. Les guerriers se battent jusqu'à être gravement blessés et aiment attaquer les forteresses ; les mages restent près de la ville, se replient tôt et aiment étudier ; les rôdeurs voyagent loin et préfèrent les primes d'exploration ; les voleurs visent la prime la mieux payée et pillent les forteresses ; les gardes et les bâtisseurs restent en ville. La prudence et la curiosité propres à chaque héros nuancent cela, et son panneau indique ses penchants. Le rayon d'action est lui aussi propre à chaque héros : plus il est audacieux et curieux, plus il s'éloigne du château, si bien que deux héros d'une même classe ne restent pas sur le même terrain. Un héros va d'abord vers les terres inconnues de son rayon ; quand il n'en reste plus, il pousse un peu plus loin et traverse jusqu'à l'autre bout de son rayon au lieu de tourner autour de la ville.
+- **Riposter** : quand un monstre a attaqué un héros dans les deux dernières secondes environ (une morsure, un coup, une flèche ou une compétence ; un coup esquivé compte aussi), le héros riposte : il s'en prend d'abord à ce monstre-là, avant tout le reste (son trajet, un vol, une course), où qu'il se trouve ; s'il tire depuis hors de sa vue, le héros marche jusqu'à lui, et le combat une fois à portée. Toutes les classes le font, le Bâtisseur compris, qui sinon ne se bat jamais et ne combat que le monstre qui l'a frappé. La riposte dure tant que ce monstre vit et qu'on peut encore le trouver : en vue du héros, ou encore visible sur la carte pour avoir frappé un héros. Elle prend fin quand le monstre tombe ou est perdu de vue, ou quand le héros perd courage et décide de fuir ; le héros abandonne alors la poursuite et décide à nouveau. Un héros qui rentre chez lui ou va se reposer ne riposte pas. Le monstre qui a frappé un héros reste visible sur la carte pendant 10 secondes, où qu'il soit, pour qu'on voie tout de suite l'agresseur.
+- **Fuir un combat** : sous la moitié de ses HP, un héros au combat se demande s'il doit fuir à 50 %, 40 %, 30 %, 20 % et 10 % de ses HP, une fois à chaque palier, et plus il est bas, plus il a de chances de fuir. Sa facilité à fuir dépend de la prudence de sa classe et de son propre goût pour la sécurité ; les classes qui se battent jusqu'à la mort (Chevalier des tombes, Juré de guerre, Exécuteur, Chevalier au bouclier) fuient dix fois moins volontiers que la plus prudente. Chances d'avoir fui quand un combat a ramené le héros à 10 % : environ 92 % pour un Mage, 68 % pour un Rôdeur, 55 % pour un Guerrier et 19 % pour un Juré de guerre. Un héros à qui le monstre qu'il a frappé rend les coups décide de la même façon. Une fois qu'aucun monstre ne rôde plus, un héros sous le seuil de retraite de sa classe va se soigner.
 - **Lire un héros** : le panneau d'un héros indique ce qu'il fait et pourquoi, où il va, ce dont il a besoin et sa position sur chaque prime ouverte : en route, occupé, ou la raison de son refus avec la prime qui le ferait changer d'avis. Le panneau d'une prime classe les héros selon ces raisons, les plus faciles à convaincre en premier. Le panneau se termine par le parcours du héros, ses huit derniers faits avec l'heure de jeu de chacun : l'équipement acheté et ce qu'il a étudié, les primes qu'il a prises et ce qui l'a décidé (la paie, d'autres déjà dessus ou ses souvenirs), ce qu'il a touché et aux côtés de qui, qui est venu à son aide quand il était gravement blessé, et quand il est rentré.
 
 ## Aventuriers et factions
@@ -304,7 +306,7 @@ Les détails du héros montrent jusqu’à trois compagnons, l’origine du lien
 <!-- BEGIN COMBAT PAIRINGS -->
 ### Associations de combat
 
-Chaque épreuve indépendante commence avec huit héros de niveau 8. Le capital total de 7000 or comprend bâtiments, améliorations nécessaires, recherches, une potion par héros, réactifs ou ravitaillement limités et 200 or par héros. Le reste demeure au trésor. Les héros décident de leurs déplacements et compétences ; guidez-les par les bâtiments et primes.
+Chaque épreuve indépendante commence avec huit héros de niveau 8. Le capital total de 7000 or comprend bâtiments, améliorations nécessaires, recherches, une potion par héros, réactifs ou ravitaillement limités et 200 or par héros. Le reste demeure au trésor. Les héros décident de leurs déplacements et compétences ; guidez-les par les bâtiments et primes. Chaque ennemi est vétéran ou plus fort et marche sur le château depuis le lointain, sans être vu ; une épreuve dure jusqu'à 20 minutes.
 
 Les deux variantes ont gagné avec les graines 17 et 73. Les temps concernent la rencontre initiale, pas toute une campagne. Les gardes vivants restent après la chute du camp.
 
@@ -314,8 +316,8 @@ Boucliers et soins demandent des attaquants contre les armures.
 
 | # | Héros | Bâtiments | Recherche | Capital | Temps (s) | Vivants | Dégâts/s | Soins / absorption des boucliers |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Chevalier au bouclier ×2, Hospitalier ×2, Rôdeur ×2, Mage ×2 | Bastion, Sanctuaire, Tour de mage | Tissage protecteur, Discipline curative | 7000 | 17–22.6 | 7 | 136.28–181.18 | 34 / 103, 130 / 257 |
-| 2 | Guerrier ×2, Mage ×2, Rôdeur ×4 | Caserne, Tour de mage, Cabane du rôdeur | Tactiques de combat, Affinité arcanique | 7000 | 10.6–13.6 | 7 | 226.47–290.57 | 0 / 0, 0 / 0 |
+| 1 | Chevalier au bouclier ×2, Hospitalier ×2, Rôdeur ×2, Mage ×2 | Bastion, Sanctuaire, Tour de mage | Tissage protecteur, Discipline curative | 7000 | 143.6–319 | 8 | 12.9–26.28 | 0 / 3, 222 / 140 |
+| 2 | Guerrier ×2, Mage ×2, Rôdeur ×4 | Caserne, Tour de mage, Cabane du rôdeur | Tactiques de combat, Affinité arcanique | 7000 | 124.6–198.6 | 8 | 19.5–28.37 | 0 / 0, 0 / 0 |
 
 #### Contrôle par poison
 
@@ -323,8 +325,8 @@ Le poison exige des réactifs payés ; purification et dispersion le réduisent.
 
 | # | Héros | Bâtiments | Recherche | Capital | Temps (s) | Vivants | Dégâts/s | Soins / absorption des boucliers |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Alchimiste ×2, Chevalier au bouclier ×2, Hospitalier ×2, Rôdeur ×2 | Guilde des alchimistes, Bastion, Sanctuaire, Autel de purification | Réactifs caustiques, Tissage protecteur, Portée purifiante | 7000 | 10.6–11.6 | 8 | 132.59–145.09 | 0 / 205, 31 / 164 |
-| 2 | Mage ×3, Rôdeur ×3, Guerrier ×2 | Tour de mage, Cabane du rôdeur, Autel de purification | Affinité arcanique, Yeux perçants, Portée purifiante | 7000 | 8.6–9.6 | 8 | 160.21–178.84 | 0 / 0, 0 / 0 |
+| 1 | Alchimiste ×2, Chevalier au bouclier ×2, Hospitalier ×2, Rôdeur ×2 | Guilde des alchimistes, Bastion, Sanctuaire, Autel de purification | Réactifs caustiques, Tissage protecteur, Portée purifiante | 7000 | 118.6–140.6 | 8 | 19.76–21.5 | 201 / 0, 30 / 0 |
+| 2 | Mage ×3, Rôdeur ×3, Guerrier ×2 | Tour de mage, Cabane du rôdeur, Autel de purification | Affinité arcanique, Yeux perçants, Portée purifiante | 7000 | 91.6–106.6 | 8 | 25.98–27.67 | 0 / 0, 0 / 0 |
 
 #### Tours à distance
 
@@ -332,8 +334,8 @@ Les tours couvrent un lieu fixe ; chasseurs et sapeurs menacent un arrière expo
 
 | # | Héros | Bâtiments | Recherche | Capital | Temps (s) | Vivants | Dégâts/s | Soins / absorption des boucliers |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Garde ×2, Rôdeur ×4, Garde des routes ×2 | Poste de garde, Cabane du rôdeur, Poste de péage, Tour à flèches, Tour à flèches, Tour de givre, Fanal | Treillis de givre, Lentilles de balise, Yeux perçants | 7000 | 7.6–8 | 8 | 93.75–98.68 | 0 / 66, 0 / 0 |
-| 2 | Guerrier ×3, Mage ×2, Rôdeur ×3 | Caserne, Tour de mage, Tour à flèches, Tour de givre | Tactiques de combat, Treillis de givre | 7000 | 5–5 | 8 | 150–150 | 0 / 0, 0 / 0 |
+| 1 | Garde ×2, Rôdeur ×4, Garde des routes ×2 | Poste de garde, Cabane du rôdeur, Poste de péage, Tour à flèches, Tour à flèches, Tour de givre, Fanal | Treillis de givre, Lentilles de balise, Yeux perçants | 7000 | 35.6–104.6 | 8 | 12.88–35.51 | 0 / 0, 0 / 0 |
+| 2 | Guerrier ×3, Mage ×2, Rôdeur ×3 | Caserne, Tour de mage, Tour à flèches, Tour de givre | Tactiques de combat, Treillis de givre | 7000 | 57.6–83.6 | 7 | 14.63–22.29 | 0 / 0, 0 / 0 |
 
 #### Expédition animale
 
@@ -341,8 +343,8 @@ Les compagnons dépendent de gardiens vivants ; les fronts robustes ralentissent
 
 | # | Héros | Bâtiments | Recherche | Capital | Temps (s) | Vivants | Dégâts/s | Soins / absorption des boucliers |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Gardien des bêtes ×3, Éclaireur ×3, Rôdeur ×2 | Pavillon des bêtes, Camp sauvage, Cabane du rôdeur | Dressage de meute, Garde bestiale, Vol juste | 7000 | 2–2.6 | 8 | 484.62–630 | 0 / 0, 0 / 0 |
-| 2 | Guerrier ×2, Rôdeur ×3, Mage ×3 | Caserne, Cabane du rôdeur, Tour de mage | Yeux perçants, Tactiques de combat | 7000 | 7.6–7.6 | 8 | 165.79–165.79 | 0 / 0, 0 / 0 |
+| 1 | Gardien des bêtes ×3, Éclaireur ×3, Rôdeur ×2 | Pavillon des bêtes, Camp sauvage, Cabane du rôdeur | Dressage de meute, Garde bestiale, Vol juste | 7000 | 33.4–226.6 | 8 | 15.63–51.77 | 0 / 0, 0 / 0 |
+| 2 | Guerrier ×2, Rôdeur ×3, Mage ×3 | Caserne, Cabane du rôdeur, Tour de mage | Yeux perçants, Tactiques de combat | 7000 | 74.6–142.6 | 8 | 18.79–24.92 | 0 / 0, 0 / 0 |
 
 #### Assaut au contact
 
@@ -350,8 +352,8 @@ L’assaut au contact craint les zones de poison et les tirs croisés.
 
 | # | Héros | Bâtiments | Recherche | Capital | Temps (s) | Vivants | Dégâts/s | Soins / absorption des boucliers |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Juré de guerre ×4, Porte-bannière ×2, Rôdeur ×2 | Halle de guerre, Intendance, Cabane du rôdeur | Serment de sang, Garde de la bannière | 7000 | 4–4 | 8 | 165–169.5 | 0 / 0, 0 / 0 |
-| 2 | Guerrier ×4, Mage ×2, Rôdeur ×2 | Caserne, Tour de mage, Cabane du rôdeur | Tactiques de combat, Peau de fer | 7000 | 4–4.6 | 8 | 147.39–165 | 0 / 0, 0 / 0 |
+| 1 | Juré de guerre ×4, Porte-bannière ×2, Rôdeur ×2 | Halle de guerre, Intendance, Cabane du rôdeur | Serment de sang, Garde de la bannière | 7000 | 60.6–63.6 | 7 | 20.28–25.3 | 0 / 0, 0 / 0 |
+| 2 | Guerrier ×4, Mage ×2, Rôdeur ×2 | Caserne, Tour de mage, Cabane du rôdeur | Tactiques de combat, Peau de fer | 7000 | 43.6–108.6 | 8 | 18.49–24.38 | 0 / 0, 0 / 0 |
 
 #### Percée de siège
 
@@ -359,7 +361,7 @@ Le ravitaillement de siège est limité. Protégez sa route et rasez le camp ava
 
 | # | Héros | Bâtiments | Recherche | Capital | Temps (s) | Vivants | Dégâts/s | Soins / absorption des boucliers |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Porte-bannière ×2, Juré de guerre ×2, Rôdeur ×4 | Intendance, Halle de guerre, Cabane du rôdeur | Ravitaillement de siège, Serment de sang | 7000 | 39.6–40.8 | 8 | 92.16–98.36 | 0 / 0, 0 / 0 |
-| 2 | Rôdeur ×4, Guerrier ×2, Mage ×2 | Cabane du rôdeur, Caserne, Tour de mage | Yeux perçants, Tactiques de combat | 7000 | 37.2–48 | 8 | 80.69–100.94 | 0 / 0, 0 / 0 |
+| 1 | Porte-bannière ×2, Juré de guerre ×2, Rôdeur ×4 | Intendance, Halle de guerre, Cabane du rôdeur | Ravitaillement de siège, Serment de sang | 7000 | 51.6–102 | 8 | 42.12–81.96 | 0 / 0, 0 / 0 |
+| 2 | Rôdeur ×4, Guerrier ×2, Mage ×2 | Cabane du rôdeur, Caserne, Tour de mage | Yeux perçants, Tactiques de combat | 7000 | 58.6–171 | 8 | 27.89–71.19 | 0 / 0, 0 / 0 |
 
 <!-- END COMBAT PAIRINGS -->

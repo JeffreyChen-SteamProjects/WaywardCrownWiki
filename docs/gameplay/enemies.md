@@ -148,7 +148,9 @@ Clearing a named wave also requires defeating its called skeletons and slime chi
 
 **Siege Beast** — Slow heavy that hits structures at ×4 of its already ranked half attack. Intercept with a front line and focus it from range; its high defense makes an unsupported melee rush costly.
 
-Gnashfang calls one pikeman and one shieldbearer per call, four over his life. They follow his guard center and survive his death. His cleave warns for 2.4s, aims within 4 tiles and hits radius 2; the final two archers remain a separate finite call.
+Gnashfang musters the whole legion at each call — a pikeman, a shieldbearer, a goblin archer, a goblin shaman, a sapper and a siege beast — twelve over his life. They follow his guard center and survive his death. His cleave warns for 2.4s, aims within 4 tiles and hits radius 3; the final two archers remain a separate finite call.
+
+The Dune Scorpion digs up its brood in every phase: four venom scorpions a call, twelve over its life. Bring antidotes, and keep ranged heroes away from the holes.
 
 **Armored Barracks** — Armored front, archers and finite healing support. Kill the healer first or use ranged damage and poison. 3200 HP. Garrison: Shieldbearer, Goblin Archer, Goblin Shaman. Raid cycle: Shieldbearer, Pikeman, Goblin Archer, Goblin Shaman, Pikeman, Goblin Archer. Native terrain: Forest, Mountain. First raid 9:00; then every 6:00; 4 troops initially, growing by one up to 8. Razing stops new guards and raids; living troops remain.
 

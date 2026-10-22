@@ -148,7 +148,9 @@ Adlandırılmış dalgayı temizlemek çağrılan iskeletleri ve balçık yavrul
 
 **Kuşatma Canavarı** — Yavaş ağır birlik, yapılara rütbeli yarım saldırısının bir kez ×4’üyle vurur. Ön hatla durdurup uzaktan odaklanın; savunması desteksiz yakın hücumu pahalı kılar.
 
-Gnashfang bir mızrak ve bir kalkan çağırır, ömür boyu dört. Muhafız merkeziyle ilerler ve ölümünden sonra kalırlar. Darbe 2,4sn uyarır, 4 kareden seçer ve yarıçap 2 vurur; son iki okçu ayrı sınırlı çağrıdır.
+Gnashfang her çağrıda bütün lejyonu toplar — bir mızrakçı, bir kalkancı, bir goblin okçu, bir goblin şaman, bir lağımcı ve bir kuşatma canavarı —, ömür boyu on iki. Muhafız merkeziyle ilerler ve ölümünden sonra kalırlar. Darbe 2,4sn uyarır, 4 kareden seçer ve yarıçap 3 vurur; son iki okçu ayrı sınırlı çağrıdır.
+
+Kum Akrebi her evrede yavrularını topraktan çıkarır: çağrı başına dört zehirli akrep, ömür boyu on iki. Panzehir getirin ve uzaktan saldıranları deliklerden uzak tutun.
 
 **Zırhlı kışla** — Zırhlı ön hat, okçular ve sınırlı iyileştirme. Şifacıyı önce öldürün veya menzil ve zehir kullanın. 3200 HP. Garnizon: Kalkan Taşıyıcı, Goblin Okçu, Goblin şamanı. Baskın döngüsü: Kalkan Taşıyıcı, Mızrakçı, Goblin Okçu, Goblin şamanı, Mızrakçı, Goblin Okçu. Yerel arazi: Orman, Dağ. İlk baskın 9:00, sonra her 6:00; başlangıçta 4 asker, her defasında bir artıp 8. Yıkmak yeni muhafız ve baskınları durdurur; canlı askerler kalır.
 

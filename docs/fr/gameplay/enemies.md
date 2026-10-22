@@ -148,7 +148,9 @@ Les raids de campagne respectent sa liste d’ennemis ; les royaumes libres util
 
 **Bête de siège** — Lent et lourd, frappe les bâtiments à ×4 de sa demi-attaque déjà ajustée au rang. Interceptez au front et concentrez les tirs ; sa défense rend la mêlée sans soutien coûteuse.
 
-Gnashfang appelle un lancier et un porteur de bouclier à la fois, quatre par vie. Ils suivent son centre de garde et survivent à sa mort. Le coup prévient 2,4s, vise à 4 cases et touche un rayon de 2 ; les deux derniers archers sont un appel limité distinct.
+Gnashfang lève toute la légion à chaque appel — un lancier, un porteur de bouclier, un archer gobelin, un chaman gobelin, un sapeur et une bête de siège —, douze par vie. Ils suivent son centre de garde et survivent à sa mort. Le coup prévient 2,4s, vise à 4 cases et touche un rayon de 3 ; les deux derniers archers sont un appel limité distinct.
+
+Le Scorpion des dunes déterre sa couvée à chaque phase : quatre scorpions venimeux par appel, douze par vie. Prévois des antidotes et tiens les tireurs loin des trous.
 
 **Caserne blindée** — Front blindé, archers et soins limités. Tuez le soigneur d’abord ou utilisez tirs et poison. 3200 HP. Garnison : Porte-bouclier, Archer gobelin, Chaman gobelin. Cycle de raid : Porte-bouclier, Piquier, Archer gobelin, Chaman gobelin, Piquier, Archer gobelin. Terrain natal : Forêt, Montagne. Premier raid 9:00, puis toutes les 6:00 ; 4 troupes au départ, une de plus jusqu’à 8. Raser arrête nouvelles gardes et raids ; les troupes vivantes restent.
 

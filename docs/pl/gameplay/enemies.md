@@ -148,7 +148,9 @@ Pokonanie nazwanej fali obejmuje jej przyzwane szkielety i małe śluzy; zabicie
 
 **Bestia oblężnicza** — Wolny ciężki wojownik uderza w budynki za ×4 połowy ataku już zmienionego rangą. Zatrzymaj frontem i skup ostrzał; wysoka obrona utrudnia szturm wręcz bez wsparcia.
 
-Gnashfang przywołuje jedną pikę i jedną tarczę naraz, cztery za życia. Śledzą środek jego straży i przeżywają jego śmierć. Cios ostrzega 2,4s, wybiera do 4 pól i uderza promień 2; ostatni dwaj łucznicy to osobne ograniczone wezwanie.
+Gnashfang przy każdym wezwaniu zbiera cały legion — pikiniera, tarczownika, goblińskiego łucznika, goblińskiego szamana, sapera i bestię oblężniczą — dwunastu za życia. Śledzą środek jego straży i przeżywają jego śmierć. Cios ostrzega 2,4s, wybiera do 4 pól i uderza promień 3; ostatni dwaj łucznicy to osobne ograniczone wezwanie.
+
+Wydmowy skorpion w każdej fazie wykopuje swój miot: cztery jadowite skorpiony na wezwanie, dwanaście za życia. Weź antidota i trzymaj strzelców z dala od nor.
 
 **Pancerne koszary** — Pancerny front, łucznicy i ograniczone leczenie. Najpierw zabij medyka lub użyj ostrzału i trucizny. 3200 HP. Garnizon: Tarczownik, Goblin łucznik, Gobliński szaman. Cykl najazdu: Tarczownik, Pikinier, Goblin łucznik, Gobliński szaman, Pikinier, Goblin łucznik. Rodzima ziemia: Las, Góry. Pierwszy najazd 9:00, potem co 6:00; początkowo 4 żołnierzy, po jednym więcej do 8. Zburzenie zatrzymuje nowe straże i najazdy; żywi żołnierze zostają.
 

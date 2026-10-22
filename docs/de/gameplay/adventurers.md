@@ -13,8 +13,8 @@ Abenteurer sind das Herzstück des Spiels. Sie haben einen freien Willen und tre
 | **Krieger** | STR | Stärke | 3 | Kaserne | Hohe HP, hoher Angriff, kämpft aus nächster Nähe |
 | **Magier** | INT | Intelligenz | 12 | Magierturm | Magische Fernkampfangriffe, niedrige HP |
 | **Waldläufer** | AGI | Geschicklichkeit | 11 | Waldläuferhütte | Bogen-Fernkampfangriffe, hohe Neugier |
-| **Wache** | STR | Stärke | 3 | Wachposten | Patrouilliert Gebäude, verlässt niemals den Posten |
-| **Baumeister** | AGI | — | 3 | Baumeistergilde | Repariert Gebäude, Pazifist (kämpft nicht) |
+| **Wache** | STR | Stärke | 3 | Wachposten | Patrouilliert die Gebäude der Stadt, verlässt nie die Stadt |
+| **Baumeister** | AGI | — | 3 | Baumeistergilde | Repariert Gebäude; kämpft nur gegen ein Monster, das ihn angreift |
 | **Dieb** | AGI | Geschicklichkeit | 3 | Diebesgilde | Gierig und ausweichend, niedrige HP |
 
 :::note[Angriffsreichweite]
@@ -153,7 +153,7 @@ Jede Heldenklasse des Spiels, aus seinen Daten geschrieben: die sechs, die jedes
 
 **Persönlichkeitstendenzen**: Sehr hohe Sicherheit (0,8–1,0), keine Neugier, kein Ruhm
 
-**Besonderes Verhalten**: Pazifist — wird niemals kämpfen. Reist automatisch zu beschädigten Gebäuden, um sie zu reparieren.
+**Besonderes Verhalten**: Kämpft nie von sich aus, nur gegen ein Monster, das ihn angreift. Reist automatisch zu beschädigten Gebäuden, um sie zu reparieren.
 
 **Fähigkeitenbaum**:
 
@@ -209,7 +209,7 @@ IDLE
 
 ## Unterkunftssystem
 
-- Abenteurer gehen bei niedrigen HP rasten und heilen, am nächsten Ort mit Platz: die eigene Gilde, ein Gasthaus, ein Wildlager oder die Burg. Von etwa gleich nahen Orten kommt die eigene Gilde zuerst (sie zählt 8 Felder näher) und die Burg zuletzt (8 Felder weiter); wer um sein Leben rennt, nimmt, was am nächsten liegt
+- Abenteurer ruhen und heilen sich bei niedrigen LP am nächsten Ort mit Platz aus: in ihrer eigenen Gilde (der, die sie angeworben hat, oder der, in die sie umgezogen sind), einem Gasthaus oder einem Wildlager. Die Burg nimmt nur Helden ohne Gilde auf; wessen Gilde voll ist, wartet dort auf ein Bett. Von etwa gleich nahen Orten kommt die eigene Gilde zuerst (sie zählt 8 Felder näher); wer um sein Leben läuft, nimmt den nächsten
 - Untergebrachte Abenteurer wechseln in den **LODGING**-Zustand: Sie verschwinden von der Karte und werden unverwundbar
 - Jedes Gebäude kann bis zu **3** Gäste beherbergen
 - Wenn ein Gebäude zerstört wird, werden alle Gäste darin sofort freigelassen
@@ -269,14 +269,16 @@ attraction  = reward / 100 / level_scale × greed + fame × glory - danger × sa
 
 Ein Held ohne Aufgabe wägt alles ab, was ihm offensteht, und nimmt das Beste: einen Auftrag, eine Besorgung in der Stadt oder eine Erkundung.
 
-- **Besorgungen**: bessere Ausrüstung in der Schmiede kaufen, Tränke auf dem Markt auffüllen, in der Bibliothek lernen, einen Abend im Gasthaus verbringen (15 Gold; Brunnen und Garten sind kostenlos) oder verwundet bzw. müde heimkehren. Jede braucht das Gebäude, das Gold und einen echten Bedarf, und der Held geht dafür zu diesem Gebäude.
+- **Besorgungen**: bessere Ausrüstung in der Schmiede kaufen, Tränke auf dem Markt auffüllen, in der Bibliothek lernen, einen Abend im Gasthaus verbringen (15 Gold; Brunnen und Garten sind kostenlos) oder verwundet bzw. müde heimkehren. Jede braucht das Gebäude, das Gold und einen echten Bedarf, und der Held geht dafür zu diesem Gebäude. Solange ein Monster in Sicht ist oder ein bekanntes Nest steht, nimmt ein gesunder Held keinen freien Abend: Er geht auf das nächste los, das er wagt (ein Nest auf jeder Stufe, auch Stufe 1, wenn sein Ruhmeshunger seine Vorsicht übertrifft), oder erkundet. Wo zuletzt ein Monster gesehen wurde, wird noch drei Minuten gejagt, bis die Krone den Ort leer sieht; ein Held, der ein bekanntes Nest nicht angreift, jagt rundherum, außerhalb seiner eigenen Reichweite zur Mauer.
 - **Verbindlichkeit**: Ein Held beendet den Weg, den er begonnen hat. Nur eine Erkundung wird nach 150 Ticks für etwas deutlich Besseres aufgegeben. Gefahr geht weiterhin vor: Ein schwer verletzter Held sucht den nächsten Rastplatz auf.
-- **Festungen**: Ab Stufe 3 ziehen mutige Helden von sich aus gegen bekannte feindliche Festungen, wenn sie sich eine allein zutrauen; Diebe rauben sie aus.
+- **Festungen**: Auf jeder Stufe, auch Stufe 1, ziehen mutige Helden von sich aus gegen bekannte feindliche Festungen, wenn sie sich eine allein zutrauen; jeder Held kann sie ausrauben, ein Dieb am eifrigsten.
 - **Unterstützung**: Ein Held, dessen Klasse andere versorgt (heilt, beschirmt, anfeuert oder für sie einsteht) und der keine eigene Arbeit hat, geht mit einem Trupp: dem nächsten Helden im Umkreis von 30 Feldern, der zu einer Kopfgeldarbeit oder einem Marsch unterwegs ist oder kämpft und dessen Arbeit er mit diesem Trupp wagt. Er folgt dem Trupp, wenn dieser weiterzieht, und verlässt ihn, wenn der Trupp fällt, anhält oder heimgeht, wenn er selbst verwundet ist oder nach 2 Minuten.
 - **Erinnerung**: Ein Held behält einige Dinge, die ihm widerfahren sind, jeweils für einige Minuten. Wessen Gilde angegriffen wurde, dem sind Verteidigungsaufträge 30 % mehr wert; wem ein anderer Held in schwerer Not half oder wer neben einem anderen für einen Auftrag bezahlt wurde, dem ist ein Auftrag mehr wert, den dieser Held hält; wer schwer verwundet heimkehrte oder einen solchen Helden fallen sah, verlangt im Umkreis von 12 Feldern um den Ort bessere Aussichten. Die Heldenansicht zeigt, woran er sich erinnert.
 - **Eine verlorene Gilde**: Ein Held, dessen Gilde zerstört oder abgerissen wird, ist nicht verloren. Er zieht von selbst in das nächste Gebäude, das seine Klasse rekrutiert und Platz hat, auch in eine wiederaufgebaute Gilde. Bis dahin gewährt ihm die Burg Obdach: 3 Helden je Burgstufe für 5 Minuten, weitere für 100 Sekunden. Läuft die Zeit ab, verlässt der Held das Königreich mit allem, was er trägt; Protokoll und Chronik melden es vorher, und seine Ansicht zählt die Sekunden.
 - **Was ein Held zeigt**: Ein Held zuckt zusammen, wenn er getroffen wird, hebt eine Hand, wenn seine Fähigkeit auslöst, jubelt, wenn er eine Stufe aufsteigt, und sackt dort zusammen, wo er fällt, bevor der Staub ihn nimmt. Mit „Bewegung verringern“ (Einstellungen) tut er nichts davon.
 - **Neigungen der Klassen**: Jede Klasse hat ihre Gewohnheiten. Krieger kämpfen, bis sie schwer verletzt sind, und stürmen gern Festungen; Magier bleiben in Stadtnähe, ziehen sich früh zurück und lernen gern; Waldläufer reisen weit und bevorzugen Erkundungsaufträge; Diebe nehmen den bestbezahlten Auftrag und plündern Festungen; Wachen und Baumeister bleiben in der Stadt. Die eigene Vorsicht und Neugier eines Helden verschieben das ein wenig, und sein Panel nennt seine Neigungen. Auch der Aktionsradius ist bei jedem Helden anders: Je kühner und neugieriger er ist, desto weiter entfernt er sich von der Burg, sodass zwei Helden derselben Klasse nicht im selben Gebiet bleiben. Ein Held sucht zuerst unbekanntes Land in seinem Radius auf; ist keines mehr übrig, zieht er etwas weiter hinaus und wandert zur anderen Seite seines Radius, statt um die Stadt zu kreisen.
+- **Zurückschlagen**: Hat ein Monster einen Helden in den letzten etwa zwei Sekunden angegriffen (ein Biss, ein Schlag, ein Pfeil oder eine Fertigkeit; auch ein ausgewichener Angriff zählt), antwortet der Held: Er geht zuerst auf genau dieses Monster los, vor allem anderen (seinem Weg, einem Diebstahl, einer Besorgung), wo es auch steht; schießt es von außerhalb seiner Sicht, läuft er hin, und in Reichweite kämpft er. Das tut jede Klasse, auch der Baumeister: Der kämpft sonst nie und nur gegen das Monster, das ihn getroffen hat. Die Antwort dauert, solange das Monster lebt und noch zu finden ist: in Sicht des Helden oder noch auf der Karte zu sehen, weil es einen Helden angegriffen hat. Sie endet, wenn das Monster fällt oder aus der Sicht verschwindet oder wenn der Mut des Helden bricht und er fliehen will; dann lässt der Held die Verfolgung und entscheidet neu. Ein Held auf dem Heimweg oder auf dem Weg zur Rast antwortet nicht. Das Monster, das einen Helden angegriffen hat, ist 10 Sekunden lang auf der Karte zu sehen, wo es auch ist, damit der Angreifer sofort zu sehen ist.
+- **Flucht aus dem Kampf**: Unter der Hälfte seiner HP überlegt ein kämpfender Held bei 50 %, 40 %, 30 %, 20 % und 10 % seiner HP, ob er flieht, auf jeder Stufe einmal, und je tiefer er sinkt, desto eher flieht er. Wie bereitwillig er flieht, hängt von der Vorsicht seiner Klasse und seinem eigenen Sicherheitswunsch ab; Klassen, die bis zum Tod kämpfen (Grabritter, Eidkrieger, Vollstrecker, Schildritter), fliehen nur ein Zehntel so bereitwillig wie die vorsichtigste. Die Chance, schon geflohen zu sein, wenn ein Kampf den Helden auf 10 % gebracht hat: Magier etwa 92 %, Waldläufer etwa 68 %, Krieger etwa 55 %, Eidkrieger etwa 19 %. Ein Held, den das Monster zurückschlägt, das er angegriffen hat, entscheidet genauso. Ist kein Monster mehr in der Nähe, macht sich ein Held unter dem Rückzugspunkt seiner Klasse auf, um sich zu heilen.
 - **Einen Helden lesen**: Das Panel eines Helden sagt, was er gerade tut und warum, wohin er geht, was er braucht und wie er zu jedem offenen Auftrag steht: unterwegs, beschäftigt oder der Grund, aus dem er ablehnte, samt der Belohnung, die ihn umstimmen würde. Das Panel eines Auftrags listet die Helden nach diesen Gründen, die am leichtesten zu gewinnenden zuerst. Das Panel endet mit dem Werdegang des Helden, seinen letzten acht Taten samt Spielzeit: die gekaufte Ausrüstung und das Studium, die angenommenen Aufträge und was den Ausschlag gab (der Lohn, andere, die schon dabei waren, oder seine Erinnerungen), was er erhielt und an wessen Seite, wer ihm schwer verwundet zu Hilfe kam und wann er umkehrte.
 
 ## Abenteurer und Fraktionen
@@ -304,7 +306,7 @@ Heldendetails zeigen bis zu drei Gefährten, den Ursprung ihrer Bindung und ob s
 <!-- BEGIN COMBAT PAIRINGS -->
 ### Kampfzusammenstellungen
 
-Jede unabhängige Prüfung beginnt mit acht Helden der Stufe 8. Das Gesamtkapital von 7000 Gold umfasst Gebäude, nötige Ausbauten, Forschung, je einen Trank, endliche Reagenzien oder Belagerungsvorräte und je 200 Gold. Der Rest bleibt in der Kasse. Helden wählen Wege und Fähigkeiten selbst; Gebäude und Kopfgelder leiten sie.
+Jede unabhängige Prüfung beginnt mit acht Helden der Stufe 8. Das Gesamtkapital von 7000 Gold umfasst Gebäude, nötige Ausbauten, Forschung, je einen Trank, endliche Reagenzien oder Belagerungsvorräte und je 200 Gold. Der Rest bleibt in der Kasse. Helden wählen Wege und Fähigkeiten selbst; Gebäude und Kopfgelder leiten sie. Jeder Gegner ist mindestens ein Veteran und zieht ungesehen aus der Ferne gegen die Burg; ein Versuch dauert bis zu 20 Minuten.
 
 Beide Varianten gewannen mit den Startwerten 17 und 73. Die Zeiten gelten nur für diese Anfangsbegegnung, nicht für eine ganze Kampagne. Lebende Wachen bleiben nach dem Fall eines Lagers.
 
@@ -314,8 +316,8 @@ Schilde und Heilung brauchen Schaden gegen Rüstung.
 
 | # | Helden | Gebäude | Forschung | Kapital | Zeit (s) | Lebend | Schaden/s | Heilung / Schildabsorption |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Schildritter ×2, Hospitaliter ×2, Waldläufer ×2, Magier ×2 | Bastion, Heiligtum, Magierturm | Schildgewebe, Heilschulung | 7000 | 17–22.6 | 7 | 136.28–181.18 | 34 / 103, 130 / 257 |
-| 2 | Krieger ×2, Magier ×2, Waldläufer ×4 | Kaserne, Magierturm, Waldläuferhütte | Kampftaktik, Arkane Affinität | 7000 | 10.6–13.6 | 7 | 226.47–290.57 | 0 / 0, 0 / 0 |
+| 1 | Schildritter ×2, Hospitaliter ×2, Waldläufer ×2, Magier ×2 | Bastion, Heiligtum, Magierturm | Schildgewebe, Heilschulung | 7000 | 143.6–319 | 8 | 12.9–26.28 | 0 / 3, 222 / 140 |
+| 2 | Krieger ×2, Magier ×2, Waldläufer ×4 | Kaserne, Magierturm, Waldläuferhütte | Kampftaktik, Arkane Affinität | 7000 | 124.6–198.6 | 8 | 19.5–28.37 | 0 / 0, 0 / 0 |
 
 #### Giftkontrolle
 
@@ -323,8 +325,8 @@ Gift braucht bezahlte Reagenzien; Reinigung und verstreute Ziele schwächen es.
 
 | # | Helden | Gebäude | Forschung | Kapital | Zeit (s) | Lebend | Schaden/s | Heilung / Schildabsorption |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Alchemist ×2, Schildritter ×2, Hospitaliter ×2, Waldläufer ×2 | Alchemistengilde, Bastion, Heiligtum, Altar der Reinigung | Ätzmittel, Schildgewebe, Reinigungsweite | 7000 | 10.6–11.6 | 8 | 132.59–145.09 | 0 / 205, 31 / 164 |
-| 2 | Magier ×3, Waldläufer ×3, Krieger ×2 | Magierturm, Waldläuferhütte, Altar der Reinigung | Arkane Affinität, Scharfe Augen, Reinigungsweite | 7000 | 8.6–9.6 | 8 | 160.21–178.84 | 0 / 0, 0 / 0 |
+| 1 | Alchemist ×2, Schildritter ×2, Hospitaliter ×2, Waldläufer ×2 | Alchemistengilde, Bastion, Heiligtum, Altar der Reinigung | Ätzmittel, Schildgewebe, Reinigungsweite | 7000 | 118.6–140.6 | 8 | 19.76–21.5 | 201 / 0, 30 / 0 |
+| 2 | Magier ×3, Waldläufer ×3, Krieger ×2 | Magierturm, Waldläuferhütte, Altar der Reinigung | Arkane Affinität, Scharfe Augen, Reinigungsweite | 7000 | 91.6–106.6 | 8 | 25.98–27.67 | 0 / 0, 0 / 0 |
 
 #### Fernkampftürme
 
@@ -332,8 +334,8 @@ Türme decken feste Orte; Jäger und Sprengmeister bedrohen die offene Rückseit
 
 | # | Helden | Gebäude | Forschung | Kapital | Zeit (s) | Lebend | Schaden/s | Heilung / Schildabsorption |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Wache ×2, Waldläufer ×4, Straßenwächter ×2 | Wachposten, Waldläuferhütte, Zollposten, Pfeilturm, Pfeilturm, Frostturm, Leuchtfeuer | Frostgitter, Signaloptik, Scharfe Augen | 7000 | 7.6–8 | 8 | 93.75–98.68 | 0 / 66, 0 / 0 |
-| 2 | Krieger ×3, Magier ×2, Waldläufer ×3 | Kaserne, Magierturm, Pfeilturm, Frostturm | Kampftaktik, Frostgitter | 7000 | 5–5 | 8 | 150–150 | 0 / 0, 0 / 0 |
+| 1 | Wache ×2, Waldläufer ×4, Straßenwächter ×2 | Wachposten, Waldläuferhütte, Zollposten, Pfeilturm, Pfeilturm, Frostturm, Leuchtfeuer | Frostgitter, Signaloptik, Scharfe Augen | 7000 | 35.6–104.6 | 8 | 12.88–35.51 | 0 / 0, 0 / 0 |
+| 2 | Krieger ×3, Magier ×2, Waldläufer ×3 | Kaserne, Magierturm, Pfeilturm, Frostturm | Kampftaktik, Frostgitter | 7000 | 57.6–83.6 | 7 | 14.63–22.29 | 0 / 0, 0 / 0 |
 
 #### Begleiterexpedition
 
@@ -341,8 +343,8 @@ Begleiter brauchen lebende Wildhüter; robuste Fronten verzögern ihren Angriff.
 
 | # | Helden | Gebäude | Forschung | Kapital | Zeit (s) | Lebend | Schaden/s | Heilung / Schildabsorption |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Tierhüter ×3, Pfadfinder ×3, Waldläufer ×2 | Bestienhütte, Wildlager, Waldläuferhütte | Rudeltraining, Wildhüterwache, Gerader Flug | 7000 | 2–2.6 | 8 | 484.62–630 | 0 / 0, 0 / 0 |
-| 2 | Krieger ×2, Waldläufer ×3, Magier ×3 | Kaserne, Waldläuferhütte, Magierturm | Scharfe Augen, Kampftaktik | 7000 | 7.6–7.6 | 8 | 165.79–165.79 | 0 / 0, 0 / 0 |
+| 1 | Tierhüter ×3, Pfadfinder ×3, Waldläufer ×2 | Bestienhütte, Wildlager, Waldläuferhütte | Rudeltraining, Wildhüterwache, Gerader Flug | 7000 | 33.4–226.6 | 8 | 15.63–51.77 | 0 / 0, 0 / 0 |
+| 2 | Krieger ×2, Waldläufer ×3, Magier ×3 | Kaserne, Waldläuferhütte, Magierturm | Scharfe Augen, Kampftaktik | 7000 | 74.6–142.6 | 8 | 18.79–24.92 | 0 / 0, 0 / 0 |
 
 #### Nahkampfsturm
 
@@ -350,8 +352,8 @@ Nahkampfstürme sind gegen Giftflächen und Kreuzfeuer anfällig.
 
 | # | Helden | Gebäude | Forschung | Kapital | Zeit (s) | Lebend | Schaden/s | Heilung / Schildabsorption |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Eidkrieger ×4, Bannerträger ×2, Waldläufer ×2 | Kriegshalle, Quartiermeisterei, Waldläuferhütte | Blutschwur, Bannerwache | 7000 | 4–4 | 8 | 165–169.5 | 0 / 0, 0 / 0 |
-| 2 | Krieger ×4, Magier ×2, Waldläufer ×2 | Kaserne, Magierturm, Waldläuferhütte | Kampftaktik, Eisenhaut | 7000 | 4–4.6 | 8 | 147.39–165 | 0 / 0, 0 / 0 |
+| 1 | Eidkrieger ×4, Bannerträger ×2, Waldläufer ×2 | Kriegshalle, Quartiermeisterei, Waldläuferhütte | Blutschwur, Bannerwache | 7000 | 60.6–63.6 | 7 | 20.28–25.3 | 0 / 0, 0 / 0 |
+| 2 | Krieger ×4, Magier ×2, Waldläufer ×2 | Kaserne, Magierturm, Waldläuferhütte | Kampftaktik, Eisenhaut | 7000 | 43.6–108.6 | 8 | 18.49–24.38 | 0 / 0, 0 / 0 |
 
 #### Belagerungsdurchbruch
 
@@ -359,7 +361,7 @@ Belagerungsvorräte sind endlich. Sichere den Nachschub und zerstöre das Lager 
 
 | # | Helden | Gebäude | Forschung | Kapital | Zeit (s) | Lebend | Schaden/s | Heilung / Schildabsorption |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Bannerträger ×2, Eidkrieger ×2, Waldläufer ×4 | Quartiermeisterei, Kriegshalle, Waldläuferhütte | Belagerungsvorrat, Blutschwur | 7000 | 39.6–40.8 | 8 | 92.16–98.36 | 0 / 0, 0 / 0 |
-| 2 | Waldläufer ×4, Krieger ×2, Magier ×2 | Waldläuferhütte, Kaserne, Magierturm | Scharfe Augen, Kampftaktik | 7000 | 37.2–48 | 8 | 80.69–100.94 | 0 / 0, 0 / 0 |
+| 1 | Bannerträger ×2, Eidkrieger ×2, Waldläufer ×4 | Quartiermeisterei, Kriegshalle, Waldläuferhütte | Belagerungsvorrat, Blutschwur | 7000 | 51.6–102 | 8 | 42.12–81.96 | 0 / 0, 0 / 0 |
+| 2 | Waldläufer ×4, Krieger ×2, Magier ×2 | Waldläuferhütte, Kaserne, Magierturm | Scharfe Augen, Kampftaktik | 7000 | 58.6–171 | 8 | 27.89–71.19 | 0 / 0, 0 / 0 |
 
 <!-- END COMBAT PAIRINGS -->

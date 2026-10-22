@@ -92,7 +92,7 @@ The common manifest records project ID, author, version, compatibility, assets a
 | post_bounty.action_params.deadline | 0–6000 ticks |
 | adventurer_classes.profile.explore_range | 10–400 |
 | adventurer_classes.profile.retreat_hp | 0.15–0.5 |
-| adventurer_classes.profile: explore / hunt / steal / flags.* / errands.* | 0–3 |
+| adventurer_classes.profile: explore / hunt / steal / support / flags.* / errands.* | 0–3 |
 
 ```json
 {"id":"sample:grass","kind":"tiles","target":"GRASS",

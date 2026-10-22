@@ -124,9 +124,10 @@ Facile e difficile non cambiano mai la salute dei nemici: facile toglie un predo
 | Esc | Annulla il piazzamento di un edificio o di una taglia; altrimenti apre il menu di gioco (salva, carica, impostazioni, ricomincia il livello, menu principale) |
 | Maiusc + clic sinistro | Piazza un edificio e lo lascia selezionato |
 | Doppio clic sulla mappa | Pubblica la taglia adatta a ciò che c'è lì |
-| Ctrl+S / Ctrl+O | Salva / carica la partita |
+| Ctrl+S / Ctrl+O | Salva / carica la partita (il menu di caricamento elenca anche gli ultimi tre salvataggi automatici, fatti ogni cinque minuti di gioco) |
 | Clic sulla minimappa | Salta a quella posizione |
 | Home | Mostra il castello |
+| ← ↑ → ↓ | Spostare la vista (finché tenuto premuto) |
 | P | La finestra delle vie del castello (mappe con vie) |
 | K / C | La panoramica del regno / la cronaca |
 | L | I registri: ogni eroe, gilda, lavoro e l'incasso di ogni edificio, con filtri |
@@ -138,6 +139,8 @@ Facile e difficile non cambiano mai la salute dei nemici: facile toglie un predo
 | A / S / D / G / H | Prendi un tipo di taglia, nell'ordine in cui il pannello li elenca (lo stesso tasto lo ripone) |
 | B | Riprendi l'ultimo edificio piazzato |
 | F6, poi Tab | Portare la tastiera nel pannello successivo e percorrerne i controlli (Esc torna alla mappa) |
+
+**Quando qualcosa ti aspetta.** La panoramica del regno (K) si apre con una scheda per ogni luogo attaccato: da quando, l'ultimo colpo, cosa ha perso e se il combattimento continua o come è finito. Sotto, *In attesa* elenca al massimo tre questioni ancora risolvibili, la più urgente prima: una bandiera che nessuno prende (da quanto aspetta e perché gli eroi la lasciano, secondo il loro giudizio), una gilda che non recluta nessuno, un edificio gravemente danneggiato. Ognuna dice il passo successivo, mostra il luogo con un clic e può essere messa da parte finché non cambia. Un nuovo attacco viene annunciato una volta, sul posto. Nelle impostazioni puoi far mettere in pausa il gioco una volta per crisi quando il castello perde vita in fretta o due luoghi sono attaccati insieme; è spento finché non lo attivi.
 
 Ogni tasto qui sopra tranne Esc si cambia in Impostazioni > Tasti; un tasto dato a due azioni vale per la prima dell'elenco, e le impostazioni lo dicono; un tasto già usato viene rifiutato. Una cifra del tastierino conta come la cifra. Un tasto tenuto premuto agisce una volta sola.
 

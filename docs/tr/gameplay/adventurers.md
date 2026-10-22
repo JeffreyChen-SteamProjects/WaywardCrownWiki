@@ -13,8 +13,8 @@ Maceraperestler oyunun kalbidir. Özgür iradeye sahiptirler ve kişiliklerine, 
 | **Savaşçı** | STR | Güç | 3 | Kışla | Yüksek HP, yüksek saldırı, yakından savaşır |
 | **Büyücü** | INT | Zeka | 12 | Büyücü Kulesi | Uzun menzilli büyü saldırıları, düşük HP |
 | **Kolcu** | AGI | Çeviklik | 11 | Kolcu Kulübesi | Uzun menzilli ok saldırıları, yüksek merak |
-| **Muhafız** | STR | Güç | 3 | Muhafız Mevzisi | Binaları devriye gezer, görev yerini terk etmez |
-| **İnşaatçı** | AGI | — | 3 | İnşaatçılar Loncası | Binaları tamir eder, pasifist (savaşmaz) |
+| **Muhafız** | STR | Güç | 3 | Muhafız Mevzisi | Kasabanın binalarında devriye gezer, kasabadan ayrılmaz |
+| **İnşaatçı** | AGI | — | 3 | İnşaatçılar Loncası | Binaları tamir eder; yalnızca kendisine saldıran canavarla savaşır |
 | **Hırsız** | AGI | Çeviklik | 3 | Hırsızlar Loncası | Açgözlü ve kaçamak, düşük HP |
 
 :::note[Saldırı menzili]
@@ -153,7 +153,7 @@ Oyundaki her kahraman sınıfı, oyunun verilerinden yazılmıştır: her krall�
 
 **Kişilik Eğilimleri**: Çok yüksek Güvenlik (0.8–1.0), Merak yok, Şan yok
 
-**Özel Davranış**: Pasifist — asla savaşa girmez. Hasar görmüş binaları tamir etmek için otomatik olarak hareket eder.
+**Özel Davranış**: Kendiliğinden savaşmaz, yalnızca kendisine saldıran canavarla savaşır. Hasar görmüş binaları tamir etmek için otomatik olarak hareket eder.
 
 **Yetenek Ağacı**:
 
@@ -209,7 +209,7 @@ IDLE
 
 ## Konaklama Sistemi
 
-- Maceracılar canları azaldığında dinlenip iyileşmeye yeri olan en yakın yere gider: kendi loncaları, bir han, bir yaban kampı ya da şato. Aşağı yukarı aynı yakınlıktaki yerlerden kendi loncaları önce gelir (8 kare daha yakın sayılır), şato sonra (8 kare daha uzak sayılır); canını kurtarmak için kaçan en yakın olanı seçer
+- Canı azalan maceracılar yeri olan en yakın yerde dinlenip iyileşir: kendi loncaları (onları tutan ya da taşındıkları lonca), bir han ya da yaban kampı. Kale yalnızca loncası olmayan kahramanı barındırır; loncası dolu olan orada yatak bekler. Neredeyse aynı yakınlıktaki yerlerden önce kendi loncası gelir (8 kare daha yakın sayılır); canını kurtarmak için kaçan en yakını seçer
 - Konaklayan maceraperestler **LODGING** durumuna girer: haritadan kaybolur ve hasar almazlar
 - Her bina en fazla **3** konuk barındırabilir
 - Bir bina yıkılırsa, içindeki tüm konuklar anında dışarı bırakılır
@@ -269,14 +269,16 @@ attraction  = reward / 100 / level_scale × greed + fame × glory - danger × sa
 
 Yapacak işi olmayan bir kahraman önündeki her seçeneği tartar ve en iyisini seçer: bir ödül, kasabada bir iş ya da keşif.
 
-- **İşler**: demircide daha iyi ekipman almak, pazarda iksir tazelemek, kütüphanede çalışmak, handa bir akşam geçirmek (15 altın; çeşme veya bahçe ücretsiz) ya da yaralı veya yorgunken eve dönmek. Her biri için bina, altın ve gerçek bir ihtiyaç gerekir ve kahraman o binaya yürüyerek gider.
+- **İşler**: demircide daha iyi ekipman almak, pazarda iksir tazelemek, kütüphanede çalışmak, handa bir akşam geçirmek (15 altın; çeşme veya bahçe ücretsiz) ya da yaralı veya yorgunken eve dönmek. Her biri için bina, altın ve gerçek bir ihtiyaç gerekir ve kahraman o binaya yürüyerek gider. Görünürde bir canavar ya da ayakta bilinen bir in olduğu sürece sağlıklı bir kahraman boş akşam almaz: cesaret edebildiği en yakın hedefin üstüne gider (ine her seviyede, 1. seviye de dahil, şan tutkusu temkininden ağır basıyorsa) ya da keşfe çıkar. Yakın zamanda canavar görülen bir yer, taç orayı boş görene dek üç dakika daha avlanır; bilinen bir ine yürümeyen kahraman onun çevresinde, duvarına kendi menzilinin dışından avlanır.
 - **Bağlılık**: kahraman başladığı yolu bitirir. Yalnızca keşif, 150 tick sonra, açıkça daha iyi bir şey için bırakılır. Tehlike yine önce gelir: ağır yaralı bir kahraman en yakın dinlenme yerine yönelir.
-- **Kaleler**: 3. seviyeden itibaren cesur kahramanlar bilinen düşman kalelerine, tek başına göze alabildiklerinde kendiliğinden saldırır; hırsızlar onları soyar.
+- **Kaleler**: her seviyede, 1. seviye de dahil, cesur kahramanlar bilinen düşman kalelerine, tek başına göze alabildiklerinde kendiliğinden saldırır; her kahraman onları soyabilir, en hevesli olan hırsızdır.
 - **Destek**: sınıfı başkalarıyla ilgilenen (iyileştiren, koruyan, yüreklendiren ya da onların yerine duran) ve kendi işi olmayan bir kahraman bir grupla yürür: 30 kare içinde bir ödül işine ya da yürüyüşe giden veya savaşan en yakın kahraman, ki onun işini o grupla göze alabilsin. Grup hareket ettikçe peşinden gider; grup ölünce, durunca ya da eve dönünce, kendisi yaralanınca veya 2 dakika sonra ayrılır.
 - **Hafıza**: bir kahraman başına gelenlerden birkaçını, her birini birkaç dakika boyunca aklında tutar. Loncası saldırıya uğrayan, savunma ödüllerine %30 daha fazla değer verir; ağır yaralıyken başka bir kahramandan yardım gören ya da bir başkasıyla yan yana ödül ücreti alan, o kahramanın üstlendiği ödüle daha fazla değer verir; ağır yaralı eve dönen ya da böyle bir kahramanın düştüğünü gören, o yerin 12 karesi içinde daha iyi şans ister. Kahraman paneli hatırladıklarını gösterir.
 - **Kaybedilen lonca**: loncası yıkılan ya da sökülen kahraman kaybolmaz. Sınıfını toplayan ve yeri olan en yakın binaya, yeniden kurulan lonca dahil, kendi başına taşınır. O zamana dek şato onu barındırır: şatonun her seviyesi için 3 kahramanı 5 dakika, fazlasını 100 saniye. Süresi dolan kahraman taşıdıklarıyla krallıktan ayrılır; günlük ve vakayiname bunu önceden bildirir, paneli saniyeleri sayar.
 - **Bir kahramanın gösterdikleri**: kahraman darbe alınca irkilir, yeteneği devreye girince elini kaldırır, seviye atlayınca sevinir ve düştüğü yerde toz onu almadan önce yığılır. “Hareketi azalt” (Ayarlar) açıkken bunların hiçbirini yapmaz.
 - **Sınıf eğilimleri**: her sınıfın kendi alışkanlıkları vardır. Savaşçılar ağır yaralanana kadar savaşır ve kalelere saldırmayı sever; büyücüler kasabanın yakınında kalır, erken geri çekilir ve çalışmayı sever; kolcular uzaklara gider ve keşif ödüllerini tercih eder; hırsızlar en çok ödeyen ödülün peşine düşer ve kaleleri soyar; muhafızlar ve inşaatçılar kasabada kalır. Her kahramanın kendi temkini ve merakı bunu biraz değiştirir; kahraman paneli eğilimlerini gösterir. Her kahramanın menzili de kendine özgüdür: ne kadar cesur ve meraklıysa kaleden o kadar uzaklaşır, bu yüzden aynı sınıftan iki kahraman aynı yerde kalmaz. Kahraman önce menzilindeki bilinmeyen topraklara yönelir; hiç kalmayınca biraz daha uzağa gider ve kasabanın çevresinde dönüp durmak yerine menzilinin öbür ucuna yürür.
+- **Karşılık vermek**: bir canavar son iki saniye kadar içinde bir kahramana saldırdıysa (ısırık, darbe, ok ya da yetenek; kahramanın savuşturduğu darbe de sayılır), kahraman karşılık verir: her şeyden önce (yolculuğundan, bir hırsızlıktan, bir işten önce) tam o canavarın üstüne gider, canavar nerede olursa olsun; kahramanın görüşünün dışından ateş ediyorsa kahraman yürüyüp yanına gider ve menziline girince dövüşür. Her sınıf bunu yapar, İnşaatçı da; o başka zaman hiç savaşmaz, yalnızca kendisine saldıran canavarla dövüşür. Karşılık, o canavar yaşadığı ve hâlâ bulunabildiği sürece sürer: kahramanın görüşündedir ya da bir kahramana saldırdığı için hâlâ haritada görünür. Canavar düştüğünde ya da gözden kaybolduğunda, ya da kahramanın cesareti kırılıp kaçmaya karar verdiğinde biter; kahraman o zaman kovalamayı bırakır ve yeniden karar verir. Eve dönen ya da dinlenmeye giden bir kahraman karşılık vermez. Bir kahramana saldıran canavar, nerede olursa olsun 10 saniye haritada görünür; böylece saldıran hemen görülür.
+- **Savaştan kaçmak**: HP'si yarının altına düşen savaşan bir kahraman, HP'si %50, %40, %30, %20 ve %10'dayken kaçıp kaçmamayı tartar, her basamakta bir kez; ne kadar aşağı düştüyse kaçma ihtimali o kadar artar. Ne kadar kolay kaçacağı sınıfının temkinine ve kendi güvenlik isteğine bağlıdır; ölümüne savaşan sınıflar (Mezar Şövalyesi, Yeminli Savaşçı, İnfazcı, Kalkan Şövalyesi) en temkinli sınıfın onda biri kadar kaçmaya isteklidir. Bir savaş kahramanın HP'sini %10'a indirdiğinde çoktan kaçmış olma ihtimali: Büyücü yaklaşık %92, Kolcu %68, Savaşçı %55, Yeminli Savaşçı %19. Saldırdığı canavardan karşılık yiyen kahraman da aynı şekilde karar verir. Etrafta canavar kalmayınca, HP'si sınıfının geri çekilme noktasının altındaki kahraman iyileşmeye gider.
 - **Kahramanı okumak**: kahraman paneli onun ne yaptığını ve nedenini, nereye gittiğini, neye ihtiyaç duyduğunu ve her açık ödüle karşı tutumunu gösterir: yolda, meşgul ya da reddetme nedeni ve fikrini değiştirecek ödül. Ödül paneli kahramanları bu nedenlere göre gruplar; en kolay ikna edilecekler başta gelir. Panel kahramanın geçmişiyle biter: her birinin oyun saatiyle son sekiz işi; aldığı donanım ve çalıştıkları, üstlendiği ödüller ve onu neyin ikna ettiği (ücret, zaten peşinde olan başkaları ya da hatırladıkları), ne kadar aldığı ve kimin yanında, ağır yaralıyken kimin yardımına geldiği ve ne zaman eve döndüğü.
 
 ## Maceracılar ve taraflar
@@ -304,7 +306,7 @@ Kahraman ayrıntıları en fazla üç yoldaşı, bağın kaynağını ve birlikt
 <!-- BEGIN COMBAT PAIRINGS -->
 ### Savaş birleşimleri
 
-Her bağımsız deneme sekiz adet seviye 8 kahramanla başlar. Toplam 7000 altın sermaye; binaları, gerekli yükseltmeleri, araştırmayı, kişi başı bir iksiri, sınırlı reaktif veya kuşatma ikmalini ve kişi başı 200 altını içerir. Kalanı hazinededir. Kahramanlar hareket ve becerileri kendileri seçer; bina ve ödüllerle yönlendir.
+Her bağımsız deneme sekiz adet seviye 8 kahramanla başlar. Toplam 7000 altın sermaye; binaları, gerekli yükseltmeleri, araştırmayı, kişi başı bir iksiri, sınırlı reaktif veya kuşatma ikmalini ve kişi başı 200 altını içerir. Kalanı hazinededir. Kahramanlar hareket ve becerileri kendileri seçer; bina ve ödüllerle yönlendir. Her düşman en az kıdemlidir ve uzaktan görünmeden kaleye yürür; bir deneme en fazla 20 dakika sürer.
 
 İki seçenek de 17 ve 73 tohumlarında kazandı. Süreler ilk karşılaşmayı anlatır, tüm seferi değil. Kamp yıkılınca yaşayan muhafızlar kalır.
 
@@ -314,8 +316,8 @@ Kalkan ve şifa, zırha karşı saldırganlar ister.
 
 | # | Kahramanlar | Binalar | Araştırma | Sermaye | Süre (sn) | Yaşayan | Hasar/sn | Şifa / kalkan emişi |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Kalkan Şövalyesi ×2, Hospitalye ×2, Kolcu ×2, Büyücü ×2 | Burç, Sığınak Tapınağı, Büyücü Kulesi | Kalkan örgüsü, Şifa disiplini | 7000 | 17–22.6 | 7 | 136.28–181.18 | 34 / 103, 130 / 257 |
-| 2 | Savaşçı ×2, Büyücü ×2, Kolcu ×4 | Kışla, Büyücü Kulesi, Kolcu Kulübesi | Savaş Taktikleri, Arkan Yakınlık | 7000 | 10.6–13.6 | 7 | 226.47–290.57 | 0 / 0, 0 / 0 |
+| 1 | Kalkan Şövalyesi ×2, Hospitalye ×2, Kolcu ×2, Büyücü ×2 | Burç, Sığınak Tapınağı, Büyücü Kulesi | Kalkan örgüsü, Şifa disiplini | 7000 | 143.6–319 | 8 | 12.9–26.28 | 0 / 3, 222 / 140 |
+| 2 | Savaşçı ×2, Büyücü ×2, Kolcu ×4 | Kışla, Büyücü Kulesi, Kolcu Kulübesi | Savaş Taktikleri, Arkan Yakınlık | 7000 | 124.6–198.6 | 8 | 19.5–28.37 | 0 / 0, 0 / 0 |
 
 #### Zehir kontrolü
 
@@ -323,8 +325,8 @@ Zehir ücretli reaktif ister; arındırma ve dağınık hedefler etkisini azalt�
 
 | # | Kahramanlar | Binalar | Araştırma | Sermaye | Süre (sn) | Yaşayan | Hasar/sn | Şifa / kalkan emişi |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Simyacı ×2, Kalkan Şövalyesi ×2, Hospitalye ×2, Kolcu ×2 | Simyacılar loncası, Burç, Sığınak Tapınağı, Arınma Sunağı | Aşındırıcı reaktifler, Kalkan örgüsü, Arındırma menzili | 7000 | 10.6–11.6 | 8 | 132.59–145.09 | 0 / 205, 31 / 164 |
-| 2 | Büyücü ×3, Kolcu ×3, Savaşçı ×2 | Büyücü Kulesi, Kolcu Kulübesi, Arınma Sunağı | Arkan Yakınlık, Keskin Gözler, Arındırma menzili | 7000 | 8.6–9.6 | 8 | 160.21–178.84 | 0 / 0, 0 / 0 |
+| 1 | Simyacı ×2, Kalkan Şövalyesi ×2, Hospitalye ×2, Kolcu ×2 | Simyacılar loncası, Burç, Sığınak Tapınağı, Arınma Sunağı | Aşındırıcı reaktifler, Kalkan örgüsü, Arındırma menzili | 7000 | 118.6–140.6 | 8 | 19.76–21.5 | 201 / 0, 30 / 0 |
+| 2 | Büyücü ×3, Kolcu ×3, Savaşçı ×2 | Büyücü Kulesi, Kolcu Kulübesi, Arınma Sunağı | Arkan Yakınlık, Keskin Gözler, Arındırma menzili | 7000 | 91.6–106.6 | 8 | 25.98–27.67 | 0 / 0, 0 / 0 |
 
 #### Menzilli kuleler
 
@@ -332,8 +334,8 @@ Kuleler sabit alanı korur; avcılar ve istihkâmcılar açık arka safları teh
 
 | # | Kahramanlar | Binalar | Araştırma | Sermaye | Süre (sn) | Yaşayan | Hasar/sn | Şifa / kalkan emişi |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Muhafız ×2, Kolcu ×4, Yol Bekçisi ×2 | Muhafız Mevzisi, Kolcu Kulübesi, Geçiş Karakolu, Ok Kulesi, Ok Kulesi, Ayaz Kulesi, İşaret Ateşi | Don kafesi, İşaret mercekleri, Keskin Gözler | 7000 | 7.6–8 | 8 | 93.75–98.68 | 0 / 66, 0 / 0 |
-| 2 | Savaşçı ×3, Büyücü ×2, Kolcu ×3 | Kışla, Büyücü Kulesi, Ok Kulesi, Ayaz Kulesi | Savaş Taktikleri, Don kafesi | 7000 | 5–5 | 8 | 150–150 | 0 / 0, 0 / 0 |
+| 1 | Muhafız ×2, Kolcu ×4, Yol Bekçisi ×2 | Muhafız Mevzisi, Kolcu Kulübesi, Geçiş Karakolu, Ok Kulesi, Ok Kulesi, Ayaz Kulesi, İşaret Ateşi | Don kafesi, İşaret mercekleri, Keskin Gözler | 7000 | 35.6–104.6 | 8 | 12.88–35.51 | 0 / 0, 0 / 0 |
+| 2 | Savaşçı ×3, Büyücü ×2, Kolcu ×3 | Kışla, Büyücü Kulesi, Ok Kulesi, Ayaz Kulesi | Savaş Taktikleri, Don kafesi | 7000 | 57.6–83.6 | 7 | 14.63–22.29 | 0 / 0, 0 / 0 |
 
 #### Hayvanlı sefer
 
@@ -341,8 +343,8 @@ Hayvanlar yaşayan muhafıza bağlıdır; sağlam ön saflar saldırıyı gecikt
 
 | # | Kahramanlar | Binalar | Araştırma | Sermaye | Süre (sn) | Yaşayan | Hasar/sn | Şifa / kalkan emişi |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Hayvan Bekçisi ×3, İz Sürücü ×3, Kolcu ×2 | Hayvan Ocağı, Yaban kampı, Kolcu Kulübesi | Sürü eğitimi, Canavar muhafızı, İsabetli uçuş | 7000 | 2–2.6 | 8 | 484.62–630 | 0 / 0, 0 / 0 |
-| 2 | Savaşçı ×2, Kolcu ×3, Büyücü ×3 | Kışla, Kolcu Kulübesi, Büyücü Kulesi | Keskin Gözler, Savaş Taktikleri | 7000 | 7.6–7.6 | 8 | 165.79–165.79 | 0 / 0, 0 / 0 |
+| 1 | Hayvan Bekçisi ×3, İz Sürücü ×3, Kolcu ×2 | Hayvan Ocağı, Yaban kampı, Kolcu Kulübesi | Sürü eğitimi, Canavar muhafızı, İsabetli uçuş | 7000 | 33.4–226.6 | 8 | 15.63–51.77 | 0 / 0, 0 / 0 |
+| 2 | Savaşçı ×2, Kolcu ×3, Büyücü ×3 | Kışla, Kolcu Kulübesi, Büyücü Kulesi | Keskin Gözler, Savaş Taktikleri | 7000 | 74.6–142.6 | 8 | 18.79–24.92 | 0 / 0, 0 / 0 |
 
 #### Yakın dövüş akını
 
@@ -350,8 +352,8 @@ Yakın akın zehir alanlarına ve çapraz ateşe açıktır.
 
 | # | Kahramanlar | Binalar | Araştırma | Sermaye | Süre (sn) | Yaşayan | Hasar/sn | Şifa / kalkan emişi |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Yeminli Savaşçı ×4, Sancaktar ×2, Kolcu ×2 | Savaş Salonu, Levazım Deposu, Kolcu Kulübesi | Kan yemini, Sancak muhafızı | 7000 | 4–4 | 8 | 165–169.5 | 0 / 0, 0 / 0 |
-| 2 | Savaşçı ×4, Büyücü ×2, Kolcu ×2 | Kışla, Büyücü Kulesi, Kolcu Kulübesi | Savaş Taktikleri, Demir Deri | 7000 | 4–4.6 | 8 | 147.39–165 | 0 / 0, 0 / 0 |
+| 1 | Yeminli Savaşçı ×4, Sancaktar ×2, Kolcu ×2 | Savaş Salonu, Levazım Deposu, Kolcu Kulübesi | Kan yemini, Sancak muhafızı | 7000 | 60.6–63.6 | 7 | 20.28–25.3 | 0 / 0, 0 / 0 |
+| 2 | Savaşçı ×4, Büyücü ×2, Kolcu ×2 | Kışla, Büyücü Kulesi, Kolcu Kulübesi | Savaş Taktikleri, Demir Deri | 7000 | 43.6–108.6 | 8 | 18.49–24.38 | 0 / 0, 0 / 0 |
 
 #### Kuşatma yarma
 
@@ -359,7 +361,7 @@ Kuşatma ikmali sınırlıdır. İkmal yolunu koru ve yeni muhafızlar gelmeden 
 
 | # | Kahramanlar | Binalar | Araştırma | Sermaye | Süre (sn) | Yaşayan | Hasar/sn | Şifa / kalkan emişi |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Sancaktar ×2, Yeminli Savaşçı ×2, Kolcu ×4 | Levazım Deposu, Savaş Salonu, Kolcu Kulübesi | Kuşatma ikmali, Kan yemini | 7000 | 39.6–40.8 | 8 | 92.16–98.36 | 0 / 0, 0 / 0 |
-| 2 | Kolcu ×4, Savaşçı ×2, Büyücü ×2 | Kolcu Kulübesi, Kışla, Büyücü Kulesi | Keskin Gözler, Savaş Taktikleri | 7000 | 37.2–48 | 8 | 80.69–100.94 | 0 / 0, 0 / 0 |
+| 1 | Sancaktar ×2, Yeminli Savaşçı ×2, Kolcu ×4 | Levazım Deposu, Savaş Salonu, Kolcu Kulübesi | Kuşatma ikmali, Kan yemini | 7000 | 51.6–102 | 8 | 42.12–81.96 | 0 / 0, 0 / 0 |
+| 2 | Kolcu ×4, Savaşçı ×2, Büyücü ×2 | Kolcu Kulübesi, Kışla, Büyücü Kulesi | Keskin Gözler, Savaş Taktikleri | 7000 | 58.6–171 | 8 | 27.89–71.19 | 0 / 0, 0 / 0 |
 
 <!-- END COMBAT PAIRINGS -->

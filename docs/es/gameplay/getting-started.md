@@ -124,9 +124,10 @@ Fácil y difícil nunca cambian la salud de los enemigos: fácil quita un asalta
 | Esc | Cancelar la colocación de un edificio o una recompensa; si no, abrir el menú de la partida (guardar, cargar, ajustes, reiniciar nivel, menú principal) |
 | Mayús + clic izquierdo | Colocar un edificio y mantenerlo seleccionado |
 | Doble clic en el mapa | Publicar la recompensa que corresponde a lo que hay allí |
-| Ctrl+S / Ctrl+O | Guardar / cargar la partida |
+| Ctrl+S / Ctrl+O | Guardar / cargar la partida (el menú de carga también muestra los tres últimos guardados automáticos, hechos cada cinco minutos de juego) |
 | Clic en el minimapa | Saltar a esa ubicación |
 | Inicio | Mostrar el castillo |
+| ← ↑ → ↓ | Mover la vista (mientras se mantiene) |
 | P | La ventana de sendas del castillo (en mapas con sendas) |
 | K / C | El resumen del reino / la crónica |
 | L | Los registros: cada héroe, gremio, obra e ingreso de cada edificio, con filtros |
@@ -138,6 +139,8 @@ Fácil y difícil nunca cambian la salud de los enemigos: fácil quita un asalta
 | A / S / D / G / H | Tomar un tipo de misión, en el orden en que los enumera el panel (la misma tecla lo suelta) |
 | B | Tomar otra vez el último edificio colocado |
 | F6, luego Tab | Llevar el teclado al siguiente panel y recorrer sus controles (Esc vuelve al mapa) |
+
+**Cuando algo te necesita.** El resumen del reino (K) empieza con una tarjeta por cada lugar atacado: desde cuándo, su último golpe, lo que ha perdido y si sigue el combate o cómo terminó. Debajo, *Pendiente* muestra como mucho tres asuntos que aún puedes resolver, el más urgente primero: una bandera que nadie toma (cuánto ha esperado y por qué la dejan los héroes, según su propio juicio), un gremio que no recluta a nadie, un edificio muy dañado. Cada uno dice el siguiente paso, muestra el lugar al hacer clic y puede dejarse de lado hasta que cambie. Un ataque nuevo se anuncia una vez, en su lugar. En los ajustes puedes hacer que el juego se pause una vez por crisis cuando el castillo pierde vida rápido o se atacan dos lugares a la vez; está apagado hasta que lo actives.
 
 Todas las teclas de arriba salvo Esc se pueden cambiar en Ajustes > Teclas; una tecla asignada a dos acciones sirve para la primera de la lista, y los ajustes lo dicen; una tecla ya usada se rechaza. Un dígito del teclado numérico cuenta como el dígito. Una tecla mantenida pulsada actúa una sola vez.
 

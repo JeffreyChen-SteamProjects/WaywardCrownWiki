@@ -125,7 +125,7 @@ Khi bật nhóm “Kinh tế và dịch vụ”, một hội chợ mùa màng c�
 
 Một ván chơi tự do có thể bắt đầu với ngày đêm luân chuyển, với thời tiết, hoặc cả hai; mỗi thứ được chọn riêng, và không thứ nào là sự kiện: không có gì phải đáp lại.
 
-- **Một ngày** dài 12, 24 hoặc 48 phút trong game tùy chọn: bình minh, ban ngày, hoàng hôn và ban đêm. Thanh trên cùng cho biết ngày thứ mấy, buổi nào và thời tiết, còn chú thích cho biết điều gì đến tiếp theo và khi nào. Dự báo luôn đúng với điều sẽ đến.
+- **Một ngày** dài 8, 12 hoặc 16 phút trong game tùy chọn: bình minh, ban ngày, hoàng hôn và ban đêm. Thanh trên cùng cho biết ngày thứ mấy, buổi nào và thời tiết, còn chú thích cho biết điều gì đến tiếp theo và khi nào. Dự báo luôn đúng với điều sẽ đến.
 - **Mưa và giông bão** giữ chân bất kỳ ai đi ngoài đường, anh hùng hay quái vật, nhiều nhất một lượt trong mười lượt. Trên đường thì không bị ảnh hưởng.
 - **Sương mù và ban đêm** rút ngắn tầm nhìn của anh hùng và công trình nhiều nhất một phần tư. Gần lâu đài và các công trình của vương quốc, cửa sổ sáng đèn và ban đêm không lấy đi gì; cung thủ không bao giờ nhìn gần hơn tầm bắn của mình.
 - **Gió** lấy đi một phần mười sát thương của tên, tên nỏ và lao. Phép thuật không bị gió thổi lệch.

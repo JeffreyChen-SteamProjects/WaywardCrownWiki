@@ -124,9 +124,10 @@ Kolay ve zor düşmanların canını asla değiştirmez: kolay her in baskının
 | Esc | Bina veya ödül yerleştirmeyi iptal et; yerleştirme yoksa oyun menüsünü aç (kaydet, yükle, ayarlar, seviyeyi yeniden başlat, ana menü) |
 | Shift + sol tık | Bina yerleştir ve seçili bırak |
 | Haritaya çift tık | Oradakine uyan ödülü koy |
-| Ctrl+S / Ctrl+O | Oyunu kaydet / yükle |
+| Ctrl+S / Ctrl+O | Oyunu kaydet / yükle (yükleme menüsü her beş dakikalık oyunda alınan son üç otomatik kaydı da listeler) |
 | Mini haritaya tık | O konuma atla |
 | Home | Şatoyu göster |
+| ← ↑ → ↓ | Görünümü kaydır (basılı tutarken) |
 | P | Şato yolları penceresi (yolları olan haritalarda) |
 | K / C | Krallık özeti / vakayiname |
 | L | Kayıtlar: her kahraman, lonca, iş ve her binanın geliri, süzgeçlerle |
@@ -138,6 +139,8 @@ Kolay ve zor düşmanların canını asla değiştirmez: kolay her in baskının
 | A / S / D / G / H | Paneldeki sırayla bir ödül türü al (aynı tuş onu bırakır) |
 | B | Son yerleştirilen binayı yeniden al |
 | F6, sonra Tab | Klavyeyi sonraki panele götür ve denetimlerinde gez (Esc haritaya döner) |
+
+**Bir şey seni beklediğinde.** Krallık özeti (K), saldırıya uğrayan her yer için bir kartla açılır: ne zamandan beri, son darbe, ne kaybettiği ve çatışmanın sürüp sürmediği ya da nasıl bittiği. Altında *Seni bekleyenler*, hâlâ çözebileceğin en fazla üç işi, en acil olanı önce listeler: kimsenin almadığı bir bayrak (ne kadar beklediği ve kahramanların kendi değerlendirmesiyle neden bıraktığı), kimseyi toplamayan bir lonca, ağır hasarlı bir bina. Her biri sonraki adımı söyler, tıklayınca yeri gösterir ve değişene kadar bırakılabilir. Yeni bir saldırı bir kez, yeriyle duyurulur. Ayarlarda, kale hızla can kaybedince ya da iki yer aynı anda saldırıya uğrayınca oyunun her kriz için bir kez durmasını seçebilirsin; sen açana kadar kapalıdır.
 
 Esc dışındaki her tuş Ayarlar > Tuşlar'dan değiştirilebilir; iki eyleme verilen tuş listedeki ilki için çalışır ve ayarlar bunu söyler; zaten kullanılan bir tuş reddedilir. Sayısal tuş takımındaki rakam rakam sayılır. Basılı tutulan tuş bir kez işler.
 

@@ -148,7 +148,9 @@ Eliminare un’ondata nominata richiede anche scheletri evocati e melme figlie; 
 
 **Bestia d'assedio** — Pesante lento che colpisce strutture a ×4 del mezzo attacco già modificato dal rango. Intercetta al fronte e concentra il fuoco a distanza; la difesa punisce gli assalti ravvicinati senza sostegno.
 
-Gnashfang richiama una picca e uno scudo per volta, quattro per vita. Seguono il suo centro di guardia e sopravvivono alla sua morte. Il colpo avvisa 2,4s, sceglie entro 4 caselle e colpisce raggio 2; gli ultimi due arcieri sono un richiamo limitato separato.
+Gnashfang aduna a ogni richiamo l'intera legione — un picchiere, uno scudiero, un arciere goblin, uno sciamano goblin, un guastatore e una bestia d'assedio —, dodici per vita. Seguono il suo centro di guardia e sopravvivono alla sua morte. Il colpo avvisa 2,4s, sceglie entro 4 caselle e colpisce raggio 3; gli ultimi due arcieri sono un richiamo limitato separato.
+
+Lo Scorpione delle dune dissotterra la sua covata in ogni fase: quattro scorpioni velenosi per richiamo, dodici per vita. Porta antidoti e tieni i tiratori lontani dalle buche.
 
 **Caserma corazzata** — Fronte corazzato, arcieri e cure limitate. Uccidi prima il guaritore o usa distanza e veleno. 3200 HP. Guarnigione: Portascudo, Arciere goblin, Sciamano goblin. Ciclo d’incursione: Portascudo, Picchiere, Arciere goblin, Sciamano goblin, Picchiere, Arciere goblin. Terreno nativo: Foresta, Montagna. Prima incursione 9:00, poi ogni 6:00; inizialmente 4 truppe, una in più fino a 8. Distruggere ferma nuove guardie e incursioni; le truppe vive restano.
 

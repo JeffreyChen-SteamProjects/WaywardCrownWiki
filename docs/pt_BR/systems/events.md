@@ -125,7 +125,7 @@ Com o grupo “Economia e serviços” ligado, uma feira da colheita pode chegar
 
 Um jogo livre pode começar com o dia girando, com clima, ou com os dois; cada um é marcado separadamente, e nenhum é um evento: não há nada a responder.
 
-- **Um dia** dura 12, 24 ou 48 minutos de jogo, à escolha: amanhecer, dia, entardecer e noite. A barra superior mostra o dia, a parte dele e o clima, e a dica diz o que vem depois e quando. A previsão é sempre o que acontece.
+- **Um dia** dura 8, 12 ou 16 minutos de jogo, à escolha: amanhecer, dia, entardecer e noite. A barra superior mostra o dia, a parte dele e o clima, e a dica diz o que vem depois e quando. A previsão é sempre o que acontece.
 - **Chuva e tempestade** seguram quem caminha fora das estradas, herói ou monstro, um turno em dez no máximo. Nas estradas anda-se no seco.
 - **Névoa e noite** encurtam o que heróis e construções veem em um quarto no máximo. Perto do castelo e das construções do reino as janelas ficam acesas e a noite não tira nada; um arqueiro nunca vê menos longe do que atira.
 - **O vento** tira um décimo do dano de flechas, virotes e dardos. Feitiços não são levados pelo vento.

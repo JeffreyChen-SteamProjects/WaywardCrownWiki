@@ -13,8 +13,8 @@ Los aventureros son el corazón del juego. Tienen voluntad propia y toman decisi
 | **Guerrero** | STR | Fuerza | 3 | Cuartel | Alto HP, alto ataque, lucha de cerca |
 | **Mago** | INT | Inteligencia | 12 | Torre del mago | Ataques mágicos a distancia, bajo HP |
 | **Explorador** | AGI | Agilidad | 11 | Refugio del explorador | Ataques con arco a distancia, alta curiosidad |
-| **Guardia** | STR | Fuerza | 3 | Puesto de guardia | Patrulla edificios, nunca abandona su puesto |
-| **Constructor** | AGI | — | 3 | Gremio de Constructores | Repara edificios, pacifista (no lucha) |
+| **Guardia** | STR | Fuerza | 3 | Puesto de guardia | Patrulla los edificios de la ciudad, nunca sale de ella |
+| **Constructor** | AGI | — | 3 | Gremio de Constructores | Repara edificios; solo lucha contra el monstruo que lo ataca |
 | **Ladrón** | AGI | Agilidad | 3 | Gremio de ladrones | Codicioso y evasivo, bajo HP |
 
 :::note[Rango de ataque]
@@ -153,7 +153,7 @@ Todas las clases de héroe del juego, escritas a partir de sus datos: las seis q
 
 **Tendencias de Personalidad**: Seguridad muy alta (0.8–1.0), sin Curiosidad, sin Gloria
 
-**Comportamiento Especial**: Pacifista — nunca entrará en combate. Viaja automáticamente a edificios dañados para repararlos.
+**Comportamiento Especial**: Nunca lucha por iniciativa propia, solo contra el monstruo que lo ataca. Viaja automáticamente a edificios dañados para repararlos.
 
 **Árbol de Habilidades**:
 
@@ -209,7 +209,7 @@ IDLE
 
 ## Sistema de Alojamiento
 
-- Los aventureros van a descansar y curarse cuando tienen pocos PV, al lugar más cercano con sitio: su propio gremio, una posada, un campamento salvaje o el castillo. Entre lugares casi igual de cercanos, su gremio va primero (cuenta 8 casillas más cerca) y el castillo al final (8 casillas más lejos); quien huye para salvar la vida toma lo que tenga más cerca
+- Los aventureros van a descansar y curarse con poca vida al lugar más cercano con sitio: su propio gremio (el que los reclutó o al que se mudaron), una posada o un campamento salvaje. El castillo solo acoge a un héroe sin gremio; el que tiene el gremio lleno espera allí una cama. Entre lugares casi igual de cerca, su propio gremio va primero (cuenta 8 casillas más cerca); el que huye para salvar la vida toma el más cercano
 - Los aventureros alojados entran en el estado **LODGING**: desaparecen del mapa y se vuelven invulnerables
 - Cada edificio puede alojar hasta **3** huéspedes
 - Si un edificio es destruido, todos los huéspedes en su interior son liberados inmediatamente
@@ -269,14 +269,16 @@ attraction  = reward / 100 / level_scale × greed + fame × glory - danger × sa
 
 Un héroe sin nada que hacer compara todo lo que tiene a su alcance y elige lo mejor: una misión, un recado en la ciudad o explorar.
 
-- **Recados**: comprar mejor equipo en la herrería, reponer pociones en el mercado, estudiar en la biblioteca, pasar una velada en la posada (15 de oro; una fuente o un jardín es gratis) o volver a casa cuando está herido o cansado. Cada uno requiere el edificio, el oro y una necesidad real, y el héroe camina hasta ese edificio para hacerlo.
+- **Recados**: comprar mejor equipo en la herrería, reponer pociones en el mercado, estudiar en la biblioteca, pasar una velada en la posada (15 de oro; una fuente o un jardín es gratis) o volver a casa cuando está herido o cansado. Cada uno requiere el edificio, el oro y una necesidad real, y el héroe camina hasta ese edificio para hacerlo. Mientras haya un monstruo a la vista o una guarida conocida en pie, un héroe sano no se toma la tarde libre: va por el más cercano que se atreva a enfrentar (una guarida a cualquier nivel, también el 1, si su gusto por la gloria supera su cautela) o explora. Donde se vio un monstruo hace poco se sigue cazando tres minutos, hasta que la corona ve el sitio vacío; el héroe que no marcha sobre una guarida conocida caza a su alrededor, fuera de su propio alcance del muro.
 - **Compromiso**: un héroe termina el viaje que empezó. Solo abandona una exploración, pasados 150 ticks, por algo claramente mejor. El peligro sigue siendo lo primero: un héroe malherido va al lugar de descanso más cercano.
-- **Fortalezas**: desde el nivel 3, los héroes audaces marchan por su cuenta contra las fortalezas enemigas conocidas cuando se atreven con una a solas; los ladrones las saquean.
+- **Fortalezas**: a cualquier nivel, también el 1, los héroes audaces marchan por su cuenta contra las fortalezas enemigas conocidas cuando se atreven con una a solas; cualquier héroe puede saquearlas, el ladrón el que más.
 - **Apoyo**: un héroe cuya clase atiende a otros (cura, protege, anima o los cubre) y que no tiene trabajo propio camina con un grupo: el héroe más cercano en 30 casillas que va hacia el trabajo de una recompensa o una marcha, o que está en combate, y cuyo trabajo se atreve a afrontar con ese grupo. Lo sigue cuando se mueve y lo deja cuando el grupo muere, se detiene o vuelve a casa, cuando él mismo está herido o tras 2 minutos.
 - **Memoria**: un héroe guarda algunas cosas que le pasaron, cada una durante unos minutos. Aquel cuyo gremio fue atacado valora un 30 % más las recompensas de defensa; aquel a quien otro héroe ayudó estando malherido, o que cobró una recompensa junto a otro, valora más una recompensa que tenga ese héroe; aquel que volvió a casa malherido, o vio caer a un héroe así, quiere mejores probabilidades a 12 casillas del lugar. El panel del héroe muestra lo que recuerda.
 - **Un gremio perdido**: un héroe cuyo gremio es destruido o demolido no se pierde. Se muda por sí mismo al edificio más cercano que reclute su clase y tenga sitio, incluido un gremio reconstruido. Hasta entonces el castillo lo cobija: 3 héroes por cada nivel del castillo durante 5 minutos, los demás durante 100 segundos. Si se le acaba el tiempo, deja el reino con lo que lleva; el registro y la crónica lo avisan antes, y su panel cuenta los segundos.
 - **Lo que muestra un héroe**: un héroe se encoge cuando lo golpean, levanta una mano cuando se activa su habilidad, celebra cuando sube de nivel y se desploma donde cae antes de que el polvo se lo lleve. Con «reducir el movimiento» (Ajustes) no hace nada de esto.
 - **Inclinaciones de clase**: cada clase tiene sus costumbres. Los guerreros luchan hasta quedar malheridos y les gusta asaltar fortalezas; los magos se quedan cerca de la ciudad, se retiran pronto y les gusta estudiar; los exploradores viajan lejos y prefieren las misiones de exploración; los ladrones van a por la misión mejor pagada y roban en fortalezas; los guardias y los constructores se quedan en la ciudad. La cautela y la curiosidad de cada héroe lo matizan un poco, y su panel muestra sus inclinaciones. El radio de cada héroe también es propio: cuanto más audaz y curioso es, más se aleja del castillo, de modo que dos héroes de la misma clase no se quedan en el mismo terreno. El héroe busca primero la tierra desconocida dentro de su radio; cuando no queda ninguna, se aleja un poco más y cruza hasta el otro lado de su radio en lugar de dar vueltas alrededor del pueblo.
+- **Devolver el golpe**: si un monstruo ha atacado a un héroe en los últimos dos segundos más o menos (un mordisco, un golpe, una flecha o una habilidad; también cuenta un golpe esquivado), el héroe responde: va primero a por ese mismo monstruo, antes que cualquier otra cosa (su viaje, un robo, un recado), esté donde esté; si le dispara desde fuera de su vista, camina hasta él, y lo combate en cuanto lo tiene al alcance. Lo hacen todas las clases, también el Constructor, que si no nunca lucha y solo pelea contra el monstruo que lo golpeó. La respuesta dura mientras ese monstruo viva y se le pueda encontrar: a la vista del héroe, o aún visible en el mapa por haber atacado a un héroe. Termina cuando el monstruo cae o se pierde de vista, o cuando al héroe le falla el valor y decide huir; entonces el héroe deja la persecución y vuelve a decidir. Un héroe que va camino de casa o a descansar no responde. El monstruo que atacó a un héroe se ve en el mapa durante 10 segundos, esté donde esté, para que el atacante se vea enseguida.
+- **Huir de un combate**: por debajo de la mitad de sus HP, un héroe en combate se plantea huir al 50%, 40%, 30%, 20% y 10% de sus HP, una vez en cada escalón, y cuanto más bajo ha caído, más probable es que huya. Las ganas de huir dependen de la prudencia de su clase y de su propio deseo de seguridad; las clases que luchan hasta la muerte (Caballero Sepulcral, Juramentado, Ejecutor, Caballero del Escudo) huyen con una décima parte de las ganas de la más prudente. Probabilidad de haber huido cuando un combate deja al héroe al 10%: Mago, alrededor del 92%; Explorador, del 68%; Guerrero, del 55%; Juramentado, del 19%. Un héroe al que le devuelve el golpe el monstruo que atacó decide igual. Cuando ya no queda ningún monstruo cerca, un héroe por debajo del punto de retirada de su clase se va a curar.
 - **Leer a un héroe**: el panel de un héroe dice qué hace y por qué, adónde va, qué necesita y cuál es su postura ante cada misión abierta: en camino, ocupado o el motivo por el que la rechazó, con la recompensa que le haría cambiar de idea. El panel de una misión agrupa a los héroes por esos motivos, los más fáciles de convencer primero. El panel termina con el historial del héroe, sus ocho últimos hechos con la hora de juego de cada uno: el equipo que compró y lo que estudió, las misiones que aceptó y lo que lo decidió (la paga, otros que ya estaban en ella o lo que recuerda), lo que cobró y junto a quién, quién acudió en su ayuda cuando estaba malherido y cuándo volvió a casa.
 
 ## Aventureros y facciones
@@ -304,7 +306,7 @@ Los detalles del héroe muestran hasta tres compañeros, el origen del vínculo 
 <!-- BEGIN COMBAT PAIRINGS -->
 ### Combinaciones de combate
 
-Cada prueba independiente empieza con ocho héroes de nivel 8. El capital total de 7000 oro incluye edificios, mejoras necesarias, investigaciones, una poción por héroe, reactivos o suministros finitos y 200 oro por héroe. El resto queda en el tesoro. Los héroes deciden sus movimientos y habilidades; guíalos con edificios y recompensas.
+Cada prueba independiente empieza con ocho héroes de nivel 8. El capital total de 7000 oro incluye edificios, mejoras necesarias, investigaciones, una poción por héroe, reactivos o suministros finitos y 200 oro por héroe. El resto queda en el tesoro. Los héroes deciden sus movimientos y habilidades; guíalos con edificios y recompensas. Cada enemigo es veterano o más fuerte y marcha sin ser visto desde lejos contra el castillo; una prueba dura hasta 20 minutos.
 
 Ambas variantes ganaron con las semillas 17 y 73. Los tiempos representan el encuentro inicial, no una campaña entera. Los defensores vivos permanecen tras caer el puesto.
 
@@ -314,8 +316,8 @@ Escudos y curación necesitan atacantes contra armaduras.
 
 | # | Héroes | Edificios | Investigación | Capital | Tiempo (s) | Vivos | Daño/s | Curación / escudos absorbidos |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Caballero del Escudo ×2, Hospitalario ×2, Explorador ×2, Mago ×2 | Bastión, Santuario, Torre del mago | Tejido protector, Disciplina curativa | 7000 | 17–22.6 | 7 | 136.28–181.18 | 34 / 103, 130 / 257 |
-| 2 | Guerrero ×2, Mago ×2, Explorador ×4 | Cuartel, Torre del mago, Refugio del explorador | Tácticas de combate, Afinidad arcana | 7000 | 10.6–13.6 | 7 | 226.47–290.57 | 0 / 0, 0 / 0 |
+| 1 | Caballero del Escudo ×2, Hospitalario ×2, Explorador ×2, Mago ×2 | Bastión, Santuario, Torre del mago | Tejido protector, Disciplina curativa | 7000 | 143.6–319 | 8 | 12.9–26.28 | 0 / 3, 222 / 140 |
+| 2 | Guerrero ×2, Mago ×2, Explorador ×4 | Cuartel, Torre del mago, Refugio del explorador | Tácticas de combate, Afinidad arcana | 7000 | 124.6–198.6 | 8 | 19.5–28.37 | 0 / 0, 0 / 0 |
 
 #### Control con veneno
 
@@ -323,8 +325,8 @@ El veneno requiere reactivos pagados y pierde valor ante purificación y objetiv
 
 | # | Héroes | Edificios | Investigación | Capital | Tiempo (s) | Vivos | Daño/s | Curación / escudos absorbidos |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Alquimista ×2, Caballero del Escudo ×2, Hospitalario ×2, Explorador ×2 | Gremio de alquimia, Bastión, Santuario, Altar de purificación | Reactivos cáusticos, Tejido protector, Alcance purificador | 7000 | 10.6–11.6 | 8 | 132.59–145.09 | 0 / 205, 31 / 164 |
-| 2 | Mago ×3, Explorador ×3, Guerrero ×2 | Torre del mago, Refugio del explorador, Altar de purificación | Afinidad arcana, Ojos agudos, Alcance purificador | 7000 | 8.6–9.6 | 8 | 160.21–178.84 | 0 / 0, 0 / 0 |
+| 1 | Alquimista ×2, Caballero del Escudo ×2, Hospitalario ×2, Explorador ×2 | Gremio de alquimia, Bastión, Santuario, Altar de purificación | Reactivos cáusticos, Tejido protector, Alcance purificador | 7000 | 118.6–140.6 | 8 | 19.76–21.5 | 201 / 0, 30 / 0 |
+| 2 | Mago ×3, Explorador ×3, Guerrero ×2 | Torre del mago, Refugio del explorador, Altar de purificación | Afinidad arcana, Ojos agudos, Alcance purificador | 7000 | 91.6–106.6 | 8 | 25.98–27.67 | 0 / 0, 0 / 0 |
 
 #### Torres a distancia
 
@@ -332,8 +334,8 @@ Las torres cubren zonas fijas; cazadores y zapadores amenazan la retaguardia exp
 
 | # | Héroes | Edificios | Investigación | Capital | Tiempo (s) | Vivos | Daño/s | Curación / escudos absorbidos |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Guardia ×2, Explorador ×4, Guardacaminos ×2 | Puesto de guardia, Refugio del explorador, Puesto de Peaje, Torre de arqueros, Torre de arqueros, Torre de escarcha, Almenara | Red de escarcha, Lentes de almenara, Ojos agudos | 7000 | 7.6–8 | 8 | 93.75–98.68 | 0 / 66, 0 / 0 |
-| 2 | Guerrero ×3, Mago ×2, Explorador ×3 | Cuartel, Torre del mago, Torre de arqueros, Torre de escarcha | Tácticas de combate, Red de escarcha | 7000 | 5–5 | 8 | 150–150 | 0 / 0, 0 / 0 |
+| 1 | Guardia ×2, Explorador ×4, Guardacaminos ×2 | Puesto de guardia, Refugio del explorador, Puesto de Peaje, Torre de arqueros, Torre de arqueros, Torre de escarcha, Almenara | Red de escarcha, Lentes de almenara, Ojos agudos | 7000 | 35.6–104.6 | 8 | 12.88–35.51 | 0 / 0, 0 / 0 |
+| 2 | Guerrero ×3, Mago ×2, Explorador ×3 | Cuartel, Torre del mago, Torre de arqueros, Torre de escarcha | Tácticas de combate, Red de escarcha | 7000 | 57.6–83.6 | 7 | 14.63–22.29 | 0 / 0, 0 / 0 |
 
 #### Expedición con animales
 
@@ -341,8 +343,8 @@ Los animales dependen de guardianes vivos; un frente resistente retrasa su ataqu
 
 | # | Héroes | Edificios | Investigación | Capital | Tiempo (s) | Vivos | Daño/s | Curación / escudos absorbidos |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Guardián de Bestias ×3, Batidor ×3, Explorador ×2 | Refugio de Bestias, Campamento salvaje, Refugio del explorador | Adiestramiento de manada, Guardia de bestias, Vuelo certero | 7000 | 2–2.6 | 8 | 484.62–630 | 0 / 0, 0 / 0 |
-| 2 | Guerrero ×2, Explorador ×3, Mago ×3 | Cuartel, Refugio del explorador, Torre del mago | Ojos agudos, Tácticas de combate | 7000 | 7.6–7.6 | 8 | 165.79–165.79 | 0 / 0, 0 / 0 |
+| 1 | Guardián de Bestias ×3, Batidor ×3, Explorador ×2 | Refugio de Bestias, Campamento salvaje, Refugio del explorador | Adiestramiento de manada, Guardia de bestias, Vuelo certero | 7000 | 33.4–226.6 | 8 | 15.63–51.77 | 0 / 0, 0 / 0 |
+| 2 | Guerrero ×2, Explorador ×3, Mago ×3 | Cuartel, Refugio del explorador, Torre del mago | Ojos agudos, Tácticas de combate | 7000 | 74.6–142.6 | 8 | 18.79–24.92 | 0 / 0, 0 / 0 |
 
 #### Asalto cuerpo a cuerpo
 
@@ -350,8 +352,8 @@ El asalto cuerpo a cuerpo es vulnerable a zonas venenosas y fuego cruzado.
 
 | # | Héroes | Edificios | Investigación | Capital | Tiempo (s) | Vivos | Daño/s | Curación / escudos absorbidos |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Juramentado ×4, Abanderado ×2, Explorador ×2 | Salón de Guerra, Intendencia, Refugio del explorador | Juramento de sangre, Guardia del estandarte | 7000 | 4–4 | 8 | 165–169.5 | 0 / 0, 0 / 0 |
-| 2 | Guerrero ×4, Mago ×2, Explorador ×2 | Cuartel, Torre del mago, Refugio del explorador | Tácticas de combate, Piel de hierro | 7000 | 4–4.6 | 8 | 147.39–165 | 0 / 0, 0 / 0 |
+| 1 | Juramentado ×4, Abanderado ×2, Explorador ×2 | Salón de Guerra, Intendencia, Refugio del explorador | Juramento de sangre, Guardia del estandarte | 7000 | 60.6–63.6 | 7 | 20.28–25.3 | 0 / 0, 0 / 0 |
+| 2 | Guerrero ×4, Mago ×2, Explorador ×2 | Cuartel, Torre del mago, Refugio del explorador | Tácticas de combate, Piel de hierro | 7000 | 43.6–108.6 | 8 | 18.49–24.38 | 0 / 0, 0 / 0 |
 
 #### Brecha de asedio
 
@@ -359,7 +361,7 @@ Los suministros de asedio son finitos. Protege su ruta y derriba el puesto antes
 
 | # | Héroes | Edificios | Investigación | Capital | Tiempo (s) | Vivos | Daño/s | Curación / escudos absorbidos |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Abanderado ×2, Juramentado ×2, Explorador ×4 | Intendencia, Salón de Guerra, Refugio del explorador | Provisión de asedio, Juramento de sangre | 7000 | 39.6–40.8 | 8 | 92.16–98.36 | 0 / 0, 0 / 0 |
-| 2 | Explorador ×4, Guerrero ×2, Mago ×2 | Refugio del explorador, Cuartel, Torre del mago | Ojos agudos, Tácticas de combate | 7000 | 37.2–48 | 8 | 80.69–100.94 | 0 / 0, 0 / 0 |
+| 1 | Abanderado ×2, Juramentado ×2, Explorador ×4 | Intendencia, Salón de Guerra, Refugio del explorador | Provisión de asedio, Juramento de sangre | 7000 | 51.6–102 | 8 | 42.12–81.96 | 0 / 0, 0 / 0 |
+| 2 | Explorador ×4, Guerrero ×2, Mago ×2 | Refugio del explorador, Cuartel, Torre del mago | Ojos agudos, Tácticas de combate | 7000 | 58.6–171 | 8 | 27.89–71.19 | 0 / 0, 0 / 0 |
 
 <!-- END COMBAT PAIRINGS -->

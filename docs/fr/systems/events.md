@@ -125,7 +125,7 @@ Avec le groupe « Économie et services » activé, une foire des moissons peut 
 
 Une partie libre peut commencer avec le jour qui tourne, avec la météo, ou avec les deux ; chacun se coche à part, et aucun n'est un événement : il n'y a rien à quoi répondre.
 
-- **Une journée** dure 12, 24 ou 48 minutes de jeu, au choix : aube, jour, crépuscule et nuit. La barre du haut indique le jour, son moment et le temps, et son infobulle dit ce qui vient ensuite et quand. La prévision est toujours ce qui arrive.
+- **Une journée** dure 8, 12 ou 16 minutes de jeu, au choix : aube, jour, crépuscule et nuit. La barre du haut indique le jour, son moment et le temps, et son infobulle dit ce qui vient ensuite et quand. La prévision est toujours ce qui arrive.
 - **La pluie et l'orage** arrêtent quiconque marche hors des routes, héros ou monstre, un tour sur dix au plus. Sur les routes, on avance au sec.
 - **La brume et la nuit** raccourcissent d'un quart au plus ce que voient héros et bâtiments. Près du château et des bâtiments du royaume, les fenêtres sont éclairées et la nuit ne retire rien ; un archer ne voit jamais moins loin qu'il ne tire.
 - **Le vent** retire un dixième des dégâts des flèches, carreaux et javelots. Les sorts ne sont pas emportés.

@@ -13,8 +13,8 @@ Gli avventurieri sono il cuore del gioco. Hanno libero arbitrio e prendono decis
 | **Guerriero** | STR | Forza | 3 | Caserma | HP alti, attacco alto, combatte da vicino |
 | **Mago** | INT | Intelligenza | 12 | Torre del mago | Attacchi magici a distanza, HP bassi |
 | **Ranger** | AGI | Agilità | 11 | Capanna del ranger | Attacchi con arco a distanza, alta curiosità |
-| **Guardia** | STR | Forza | 3 | Posto di guardia | Pattuglia gli edifici, non abbandona mai il posto |
-| **Costruttore** | AGI | — | 3 | Gilda dei costruttori | Ripara gli edifici, pacifista (non combatte) |
+| **Guardia** | STR | Forza | 3 | Posto di guardia | Pattuglia gli edifici della città, non lascia mai la città |
+| **Costruttore** | AGI | — | 3 | Gilda dei costruttori | Ripara gli edifici; combatte solo il mostro che lo attacca |
 | **Ladro** | AGI | Agilità | 3 | Gilda dei ladri | Avido ed elusivo, HP bassi |
 
 :::note[Gittata d'attacco]
@@ -153,7 +153,7 @@ Tutte le classi di eroi del gioco, scritte dai suoi dati: le sei che ogni regno 
 
 **Tendenze della personalità**: Sicurezza molto alta (0,8–1,0), nessuna Curiosità, nessuna Gloria
 
-**Comportamento speciale**: Pacifista — non entrerà mai in combattimento. Si reca automaticamente agli edifici danneggiati per ripararli.
+**Comportamento speciale**: Non combatte mai di sua iniziativa, solo il mostro che lo attacca. Si reca automaticamente agli edifici danneggiati per ripararli.
 
 **Albero delle abilità**:
 
@@ -209,7 +209,7 @@ IDLE
 
 ## Sistema di alloggio
 
-- Gli avventurieri vanno a riposare e curarsi quando hanno pochi PV, nel posto più vicino che ha spazio: la propria gilda, una locanda, un campo selvaggio o il castello. Tra posti più o meno ugualmente vicini, la propria gilda viene prima (conta 8 caselle più vicina) e il castello per ultimo (8 caselle più lontano); chi fugge per salvarsi prende ciò che è più vicino
+- Gli avventurieri vanno a riposare e curarsi con pochi PF nel luogo più vicino con posto: la loro gilda (quella che li ha reclutati o quella in cui si sono trasferiti), una locanda o un accampamento selvaggio. Il castello ospita solo un eroe senza gilda; chi ha la gilda piena vi aspetta un letto. Tra luoghi quasi ugualmente vicini viene prima la loro gilda (conta 8 caselle più vicina); chi fugge per salvarsi prende il più vicino
 - Gli avventurieri in alloggio entrano nello stato **LODGING**: scompaiono dalla mappa e diventano invulnerabili
 - Ogni edificio può ospitare fino a **3** alloggiati
 - Se un edificio viene distrutto, tutti gli alloggiati al suo interno vengono immediatamente rilasciati
@@ -269,14 +269,16 @@ attraction  = reward / 100 / level_scale × greed + fame × glory - danger × sa
 
 Un eroe senza nulla da fare valuta tutto ciò che può fare e sceglie il meglio: una taglia, una commissione in città o l'esplorazione.
 
-- **Commissioni**: comprare equipaggiamento migliore dal fabbro, rifornirsi di pozioni al mercato, studiare in biblioteca, passare una serata alla locanda (15 oro; una fontana o un giardino sono gratuiti) o tornare a casa quando è ferito o stanco. Ognuna richiede l'edificio, l'oro e un bisogno reale, e l'eroe raggiunge a piedi quell'edificio per farla.
+- **Commissioni**: comprare equipaggiamento migliore dal fabbro, rifornirsi di pozioni al mercato, studiare in biblioteca, passare una serata alla locanda (15 oro; una fontana o un giardino sono gratuiti) o tornare a casa quando è ferito o stanco. Ognuna richiede l'edificio, l'oro e un bisogno reale, e l'eroe raggiunge a piedi quell'edificio per farla. Finché un mostro è in vista o una tana nota resta in piedi, un eroe in forze non si prende la serata libera: va contro il più vicino che osa affrontare (una tana a qualsiasi livello, anche l'1, se la sete di gloria supera la prudenza) oppure esplora. Dove si è visto da poco un mostro si caccia ancora per tre minuti, finché la corona vede il posto vuoto; un eroe che non marcia su una tana nota caccia lì attorno, fuori dalla propria portata del muro.
 - **Impegno**: un eroe porta a termine il viaggio iniziato. Solo un'esplorazione viene abbandonata, dopo 150 tick, per qualcosa di nettamente migliore. Il pericolo viene comunque prima: un eroe gravemente ferito si dirige al luogo di riposo più vicino.
-- **Roccaforti**: dal livello 3 gli eroi audaci marciano da soli contro le roccaforti nemiche conosciute quando osano affrontarne una da soli; i ladri le derubano.
+- **Roccaforti**: a qualsiasi livello, anche l'1, gli eroi audaci marciano da soli contro le roccaforti nemiche conosciute quando osano affrontarne una da soli; ogni eroe può derubarle, il ladro più di tutti.
 - **Supporto**: un eroe la cui classe si prende cura degli altri (cura, protegge, incita o li copre) e che non ha un lavoro proprio cammina con un gruppo: l'eroe più vicino entro 30 caselle diretto al lavoro di una taglia o a una marcia, o in combattimento, il cui lavoro osa affrontare con quel gruppo. Lo segue quando si sposta e lo lascia quando il gruppo muore, si ferma o torna a casa, quando è ferito lui stesso o dopo 2 minuti.
 - **Memoria**: un eroe conserva alcune cose che gli sono accadute, ciascuna per qualche minuto. Chi ha visto attaccare la propria gilda dà alle taglie di difesa il 30% di valore in più; chi è stato aiutato da un altro eroe quando era gravemente ferito, o è stato pagato per una taglia accanto a un altro, dà più valore a una taglia tenuta da quell'eroe; chi è tornato a casa gravemente ferito, o ha visto cadere un tale eroe, vuole probabilità migliori entro 12 caselle dal luogo. Il pannello dell'eroe mostra ciò che ricorda.
 - **Una gilda perduta**: un eroe la cui gilda viene distrutta o demolita non è perduto. Si trasferisce da solo nell'edificio più vicino che recluta la sua classe e ha posto, compresa una gilda ricostruita. Fino ad allora il castello lo ospita: 3 eroi per ogni livello del castello per 5 minuti, gli altri per 100 secondi. Un eroe a cui scade il tempo lascia il regno con ciò che porta; il registro e la cronaca lo dicono prima, e il suo pannello conta i secondi.
 - **Ciò che mostra un eroe**: un eroe sussulta quando viene colpito, alza una mano quando la sua abilità si attiva, esulta quando sale di livello e si accascia dove cade prima che la polvere lo porti via. Con «Riduci il movimento» (Impostazioni) non fa nulla di tutto questo.
 - **Inclinazioni di classe**: ogni classe ha le sue abitudini. I guerrieri combattono finché non sono gravemente feriti e amano assaltare le roccaforti; i maghi restano vicino alla città, si ritirano presto e amano studiare; i ranger viaggiano lontano e preferiscono le taglie di esplorazione; i ladri puntano alla taglia meglio pagata e derubano le roccaforti; le guardie e i costruttori restano in città. La prudenza e la curiosità di ciascun eroe spostano un po' queste abitudini, e il suo pannello elenca le sue inclinazioni. Anche il raggio d'azione è proprio di ogni eroe: più è audace e curioso, più si allontana dal castello, così due eroi della stessa classe non restano sullo stesso terreno. Un eroe punta prima alle terre sconosciute nel suo raggio; quando non ne restano, si spinge un po' più in là e attraversa fino al lato opposto del suo raggio invece di girare intorno al villaggio.
+- **Rispondere ai colpi**: quando un mostro ha attaccato un eroe negli ultimi due secondi circa (un morso, un colpo, una freccia o un'abilità; conta anche un colpo schivato), l'eroe risponde: va prima di tutto contro quel mostro, prima di qualsiasi altra cosa (il suo viaggio, un furto, una commissione), ovunque si trovi; se tira da fuori della sua vista, l'eroe lo raggiunge a piedi, e lo combatte appena è a portata. Lo fanno tutte le classi, anche il Costruttore, che altrimenti non combatte mai e affronta solo il mostro che l'ha colpito. La risposta dura finché quel mostro vive e si può ancora trovare: in vista dell'eroe, o ancora visibile sulla mappa per aver colpito un eroe. Finisce quando il mostro cade o si perde di vista, o quando all'eroe manca il coraggio e decide di fuggire; allora l'eroe lascia l'inseguimento e decide di nuovo. Un eroe che sta tornando a casa o va a riposare non risponde. Il mostro che ha colpito un eroe resta visibile sulla mappa per 10 secondi, ovunque sia, così l'aggressore si vede subito.
+- **Fuggire da uno scontro**: sotto metà dei suoi HP, un eroe che combatte valuta se fuggire al 50%, 40%, 30%, 20% e 10% dei suoi HP, una volta a ogni soglia, e più è sceso in basso, più è probabile che fugga. Quanto fugge volentieri dipende dalla prudenza della sua classe e dal suo desiderio di sicurezza; le classi che combattono fino alla morte (Cavaliere Sepolcrale, Giurato, Esattore di Ferro, Cavaliere dello Scudo) sono dieci volte meno propense a fuggire della più prudente. Probabilità di essere già fuggito quando uno scontro ha portato l'eroe al 10%: Mago circa 92%, Ranger 68%, Guerriero 55%, Giurato 19%. Un eroe a cui il mostro che ha colpito restituisce i colpi decide allo stesso modo. Quando non resta nessun mostro nei paraggi, un eroe sotto il punto di ritirata della sua classe va a curarsi.
 - **Leggere un eroe**: il pannello di un eroe dice cosa sta facendo e perché, dove va, di cosa ha bisogno e come si pone verso ogni taglia aperta: in arrivo, occupato, oppure il motivo del rifiuto con la ricompensa che gli farebbe cambiare idea. Il pannello di una taglia raggruppa gli eroi per questi motivi, i più facili da convincere per primi. Il pannello termina con la storia dell'eroe, le sue ultime otto imprese con l'ora di gioco di ciascuna: l'equipaggiamento comprato e ciò che ha studiato, le taglie accettate e che cosa l'ha deciso (la paga, altri già impegnati o ciò che ricorda), quanto ha ricevuto e al fianco di chi, chi è venuto in suo aiuto quando era gravemente ferito e quando è tornato a casa.
 
 ## Avventurieri e fazioni
@@ -304,7 +306,7 @@ I dettagli dell’eroe mostrano fino a tre compagni, l’origine del legame e se
 <!-- BEGIN COMBAT PAIRINGS -->
 ### Combinazioni di battaglia
 
-Ogni prova indipendente inizia con otto eroi di livello 8. Il capitale totale di 7000 oro include edifici, potenziamenti necessari, ricerche, una pozione per eroe, reagenti o scorte finite e 200 oro per eroe. Il resto rimane nel tesoro. Gli eroi decidono movimento e abilità; guidali con edifici e taglie.
+Ogni prova indipendente inizia con otto eroi di livello 8. Il capitale totale di 7000 oro include edifici, potenziamenti necessari, ricerche, una pozione per eroe, reagenti o scorte finite e 200 oro per eroe. Il resto rimane nel tesoro. Gli eroi decidono movimento e abilità; guidali con edifici e taglie. Ogni nemico è veterano o più forte e marcia sul castello da lontano senza essere visto; una prova dura fino a 20 minuti.
 
 Entrambe le varianti hanno vinto con semi 17 e 73. I tempi riguardano lo scontro iniziale, non un’intera campagna. I difensori vivi restano dopo la caduta del campo.
 
@@ -314,8 +316,8 @@ Scudi e cure richiedono attaccanti contro le armature.
 
 | # | Eroi | Edifici | Ricerca | Capitale | Tempo (s) | Vivi | Danni/s | Cure / assorbimento scudi |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Cavaliere dello Scudo ×2, Ospitaliere ×2, Ranger ×2, Mago ×2 | Bastione, Santuario, Torre del mago | Tessitura protettiva, Disciplina curativa | 7000 | 17–22.6 | 7 | 136.28–181.18 | 34 / 103, 130 / 257 |
-| 2 | Guerriero ×2, Mago ×2, Ranger ×4 | Caserma, Torre del mago, Capanna del ranger | Tattiche di battaglia, Affinità arcana | 7000 | 10.6–13.6 | 7 | 226.47–290.57 | 0 / 0, 0 / 0 |
+| 1 | Cavaliere dello Scudo ×2, Ospitaliere ×2, Ranger ×2, Mago ×2 | Bastione, Santuario, Torre del mago | Tessitura protettiva, Disciplina curativa | 7000 | 143.6–319 | 8 | 12.9–26.28 | 0 / 3, 222 / 140 |
+| 2 | Guerriero ×2, Mago ×2, Ranger ×4 | Caserma, Torre del mago, Capanna del ranger | Tattiche di battaglia, Affinità arcana | 7000 | 124.6–198.6 | 8 | 19.5–28.37 | 0 / 0, 0 / 0 |
 
 #### Controllo velenoso
 
@@ -323,8 +325,8 @@ Il veleno richiede reagenti pagati e soffre purificazione e bersagli dispersi.
 
 | # | Eroi | Edifici | Ricerca | Capitale | Tempo (s) | Vivi | Danni/s | Cure / assorbimento scudi |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Alchimista ×2, Cavaliere dello Scudo ×2, Ospitaliere ×2, Ranger ×2 | Gilda degli alchimisti, Bastione, Santuario, Altare della purificazione | Reagenti caustici, Tessitura protettiva, Raggio purificante | 7000 | 10.6–11.6 | 8 | 132.59–145.09 | 0 / 205, 31 / 164 |
-| 2 | Mago ×3, Ranger ×3, Guerriero ×2 | Torre del mago, Capanna del ranger, Altare della purificazione | Affinità arcana, Occhio acuto, Raggio purificante | 7000 | 8.6–9.6 | 8 | 160.21–178.84 | 0 / 0, 0 / 0 |
+| 1 | Alchimista ×2, Cavaliere dello Scudo ×2, Ospitaliere ×2, Ranger ×2 | Gilda degli alchimisti, Bastione, Santuario, Altare della purificazione | Reagenti caustici, Tessitura protettiva, Raggio purificante | 7000 | 118.6–140.6 | 8 | 19.76–21.5 | 201 / 0, 30 / 0 |
+| 2 | Mago ×3, Ranger ×3, Guerriero ×2 | Torre del mago, Capanna del ranger, Altare della purificazione | Affinità arcana, Occhio acuto, Raggio purificante | 7000 | 91.6–106.6 | 8 | 25.98–27.67 | 0 / 0, 0 / 0 |
 
 #### Torri a distanza
 
@@ -332,8 +334,8 @@ Le torri coprono zone fisse; cacciatori e guastatori minacciano il retro esposto
 
 | # | Eroi | Edifici | Ricerca | Capitale | Tempo (s) | Vivi | Danni/s | Cure / assorbimento scudi |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Guardia ×2, Ranger ×4, Guardia delle Strade ×2 | Posto di guardia, Capanna del ranger, Posto di Pedaggio, Torre di frecce, Torre di frecce, Torre del gelo, Fanale | Reticolo di gelo, Lenti del faro, Occhio acuto | 7000 | 7.6–8 | 8 | 93.75–98.68 | 0 / 66, 0 / 0 |
-| 2 | Guerriero ×3, Mago ×2, Ranger ×3 | Caserma, Torre del mago, Torre di frecce, Torre del gelo | Tattiche di battaglia, Reticolo di gelo | 7000 | 5–5 | 8 | 150–150 | 0 / 0, 0 / 0 |
+| 1 | Guardia ×2, Ranger ×4, Guardia delle Strade ×2 | Posto di guardia, Capanna del ranger, Posto di Pedaggio, Torre di frecce, Torre di frecce, Torre del gelo, Fanale | Reticolo di gelo, Lenti del faro, Occhio acuto | 7000 | 35.6–104.6 | 8 | 12.88–35.51 | 0 / 0, 0 / 0 |
+| 2 | Guerriero ×3, Mago ×2, Ranger ×3 | Caserma, Torre del mago, Torre di frecce, Torre del gelo | Tattiche di battaglia, Reticolo di gelo | 7000 | 57.6–83.6 | 7 | 14.63–22.29 | 0 / 0, 0 / 0 |
 
 #### Spedizione animale
 
@@ -341,8 +343,8 @@ Gli animali dipendono da custodi vivi; fronti robusti rallentano la loro forza.
 
 | # | Eroi | Edifici | Ricerca | Capitale | Tempo (s) | Vivi | Danni/s | Cure / assorbimento scudi |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Custode delle Bestie ×3, Battistrada ×3, Ranger ×2 | Rifugio delle Bestie, Campo selvaggio, Capanna del ranger | Addestramento del branco, Guardia delle bestie, Volo sicuro | 7000 | 2–2.6 | 8 | 484.62–630 | 0 / 0, 0 / 0 |
-| 2 | Guerriero ×2, Ranger ×3, Mago ×3 | Caserma, Capanna del ranger, Torre del mago | Occhio acuto, Tattiche di battaglia | 7000 | 7.6–7.6 | 8 | 165.79–165.79 | 0 / 0, 0 / 0 |
+| 1 | Custode delle Bestie ×3, Battistrada ×3, Ranger ×2 | Rifugio delle Bestie, Campo selvaggio, Capanna del ranger | Addestramento del branco, Guardia delle bestie, Volo sicuro | 7000 | 33.4–226.6 | 8 | 15.63–51.77 | 0 / 0, 0 / 0 |
+| 2 | Guerriero ×2, Ranger ×3, Mago ×3 | Caserma, Capanna del ranger, Torre del mago | Occhio acuto, Tattiche di battaglia | 7000 | 74.6–142.6 | 8 | 18.79–24.92 | 0 / 0, 0 / 0 |
 
 #### Assalto ravvicinato
 
@@ -350,8 +352,8 @@ L’assalto ravvicinato è vulnerabile a zone velenose e fuoco incrociato.
 
 | # | Eroi | Edifici | Ricerca | Capitale | Tempo (s) | Vivi | Danni/s | Cure / assorbimento scudi |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Giurato ×4, Alfiere ×2, Ranger ×2 | Sala della Guerra, Intendenza, Capanna del ranger | Giuramento di sangue, Guardia dello stendardo | 7000 | 4–4 | 8 | 165–169.5 | 0 / 0, 0 / 0 |
-| 2 | Guerriero ×4, Mago ×2, Ranger ×2 | Caserma, Torre del mago, Capanna del ranger | Tattiche di battaglia, Pelle di ferro | 7000 | 4–4.6 | 8 | 147.39–165 | 0 / 0, 0 / 0 |
+| 1 | Giurato ×4, Alfiere ×2, Ranger ×2 | Sala della Guerra, Intendenza, Capanna del ranger | Giuramento di sangue, Guardia dello stendardo | 7000 | 60.6–63.6 | 7 | 20.28–25.3 | 0 / 0, 0 / 0 |
+| 2 | Guerriero ×4, Mago ×2, Ranger ×2 | Caserma, Torre del mago, Capanna del ranger | Tattiche di battaglia, Pelle di ferro | 7000 | 43.6–108.6 | 8 | 18.49–24.38 | 0 / 0, 0 / 0 |
 
 #### Breccia d’assedio
 
@@ -359,7 +361,7 @@ Le scorte d’assedio sono finite. Difendi la via dei rifornimenti e distruggi i
 
 | # | Eroi | Edifici | Ricerca | Capitale | Tempo (s) | Vivi | Danni/s | Cure / assorbimento scudi |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Alfiere ×2, Giurato ×2, Ranger ×4 | Intendenza, Sala della Guerra, Capanna del ranger | Scorte d’assedio, Giuramento di sangue | 7000 | 39.6–40.8 | 8 | 92.16–98.36 | 0 / 0, 0 / 0 |
-| 2 | Ranger ×4, Guerriero ×2, Mago ×2 | Capanna del ranger, Caserma, Torre del mago | Occhio acuto, Tattiche di battaglia | 7000 | 37.2–48 | 8 | 80.69–100.94 | 0 / 0, 0 / 0 |
+| 1 | Alfiere ×2, Giurato ×2, Ranger ×4 | Intendenza, Sala della Guerra, Capanna del ranger | Scorte d’assedio, Giuramento di sangue | 7000 | 51.6–102 | 8 | 42.12–81.96 | 0 / 0, 0 / 0 |
+| 2 | Ranger ×4, Guerriero ×2, Mago ×2 | Capanna del ranger, Caserma, Torre del mago | Occhio acuto, Tattiche di battaglia | 7000 | 58.6–171 | 8 | 27.89–71.19 | 0 / 0, 0 / 0 |
 
 <!-- END COMBAT PAIRINGS -->

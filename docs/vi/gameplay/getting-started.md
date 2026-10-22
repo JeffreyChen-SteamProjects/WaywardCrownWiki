@@ -124,9 +124,10 @@ Dễ và khó không bao giờ thay đổi máu của kẻ thù: dễ bớt mộ
 | Esc | Hủy đặt công trình hoặc tiền thưởng; nếu không thì mở menu trò chơi (lưu, tải, cài đặt, chơi lại màn, menu chính) |
 | Shift + nhấp chuột trái | Đặt công trình và vẫn giữ nó được chọn |
 | Nhấp đúp lên bản đồ | Đăng tiền thưởng phù hợp với thứ ở đó |
-| Ctrl+S / Ctrl+O | Lưu / tải trò chơi |
+| Ctrl+S / Ctrl+O | Lưu / tải trò chơi (menu tải cũng liệt kê ba bản lưu tự động gần nhất, cứ năm phút chơi lưu một lần) |
 | Nhấp vào bản đồ thu nhỏ | Nhảy đến vị trí đó |
 | Home | Hiện lâu đài |
+| ← ↑ → ↓ | Di chuyển góc nhìn (khi giữ phím) |
 | P | Cửa sổ con đường của lâu đài (bản đồ có con đường) |
 | K / C | Tổng quan vương quốc / biên niên sử |
 | L | Sổ sách: mọi anh hùng, hội, công trình và thu nhập của từng công trình, kèm bộ lọc |
@@ -138,6 +139,8 @@ Dễ và khó không bao giờ thay đổi máu của kẻ thù: dễ bớt mộ
 | A / S / D / G / H | Chọn một loại truy nã, theo thứ tự trong bảng (bấm lại phím đó để cất đi) |
 | B | Chọn lại công trình vừa đặt |
 | F6 rồi Tab | Đưa bàn phím vào bảng tiếp theo và đi qua các điều khiển của nó (Esc quay về bản đồ) |
+
+**Khi có việc cần bạn.** Tổng quan vương quốc (K) mở đầu bằng một thẻ cho mỗi nơi bị tấn công: từ bao giờ, đòn cuối, mất những gì, và còn giao chiến hay đã kết thúc thế nào. Bên dưới, *Đang chờ bạn* liệt kê tối đa ba việc còn xử lý được, việc gấp nhất trước: một lá cờ không ai nhận (đã chờ bao lâu và vì sao các anh hùng bỏ qua, theo đánh giá của chính họ), một hội không chiêu mộ được ai, một công trình hư hại nặng. Mỗi việc nói bước tiếp theo, bấm vào để xem nơi đó, và có thể tạm bỏ qua cho tới khi nó thay đổi. Một cuộc tấn công mới chỉ được báo một lần, kèm vị trí. Trong phần cài đặt, bạn có thể để trò chơi tạm dừng một lần mỗi khủng hoảng khi lâu đài mất máu nhanh hoặc hai nơi bị tấn công cùng lúc; mặc định tắt.
 
 Mọi phím ở trên trừ Esc đều đổi được trong Cài đặt > Phím; một phím gán cho hai hành động chỉ dùng cho hành động đầu tiên trong danh sách, và phần cài đặt sẽ báo; phím đã dùng sẽ bị từ chối. Chữ số trên bàn phím số được tính là chữ số đó. Giữ một phím chỉ có tác dụng một lần.
 

@@ -125,7 +125,7 @@ Con el grupo «Economía y servicios» activado, una feria de la cosecha puede l
 
 Una partida libre puede empezar con el día en marcha, con clima o con ambos; cada uno se marca por separado y ninguno es un evento: no hay nada que responder.
 
-- **Un día** dura 12, 24 o 48 minutos de juego, a elegir: amanecer, día, atardecer y noche. La barra superior indica el día, su parte y el clima, y su descripción dice qué viene después y cuándo. El pronóstico siempre se cumple.
+- **Un día** dura 8, 12 o 16 minutos de juego, a elegir: amanecer, día, atardecer y noche. La barra superior indica el día, su parte y el clima, y su descripción dice qué viene después y cuándo. El pronóstico siempre se cumple.
 - **La lluvia y las tormentas** detienen a quien camina fuera de los caminos, héroe o monstruo, un turno de cada diez como mucho. En los caminos se anda en seco.
 - **La neblina y la noche** acortan lo que ven héroes y edificios en una cuarta parte como mucho. Cerca del castillo y de los edificios del reino las ventanas están encendidas y la noche no quita nada; un arquero nunca ve menos de lo que alcanza a disparar.
 - **El viento** quita una décima parte del daño de flechas, virotes y jabalinas. A los hechizos no los mueve el viento.

@@ -124,9 +124,10 @@ Możesz dostosować poniższe parametry, rozpoczynając nową grę:
 | Esc | Anulowanie umieszczania budynku lub nagrody; w przeciwnym razie otwarcie menu gry (zapis, wczytanie, ustawienia, rozpoczęcie poziomu od nowa, menu główne) |
 | Shift + lewy klik | Umieszczenie budynku z pozostawieniem go wybranym |
 | Dwuklik na mapie | Wystawienie nagrody pasującej do tego, co tam jest |
-| Ctrl+S / Ctrl+O | Zapis / wczytanie gry |
+| Ctrl+S / Ctrl+O | Zapis / wczytanie gry (menu wczytywania pokazuje też trzy ostatnie autozapisy, robione co pięć minut gry) |
 | Kliknięcie w minimapę | Przeskocz do tej lokalizacji |
 | Home | Pokaż zamek |
+| ← ↑ → ↓ | Przesuwanie widoku (póki wciśnięte) |
 | P | Okno dróg zamku (na mapach z drogami) |
 | K / C | Przegląd królestwa / kronika |
 | L | Rejestry: każdy bohater, gildia, praca i dochód każdego budynku, z filtrami |
@@ -138,6 +139,8 @@ Możesz dostosować poniższe parametry, rozpoczynając nową grę:
 | A / S / D / G / H | Weź rodzaj zlecenia, w kolejności z panelu (ten sam klawisz go odkłada) |
 | B | Weź ponownie ostatnio postawiony budynek |
 | F6, potem Tab | Przenieś klawiaturę do następnego panelu i przejdź po jego kontrolkach (Esc wraca do mapy) |
+
+**Gdy coś na ciebie czeka.** Przegląd królestwa (K) zaczyna się od karty dla każdego atakowanego miejsca: od kiedy, ostatni cios, co straciło i czy walka trwa, albo jak się skończyła. Pod nimi *Czeka na ciebie* wymienia najwyżej trzy sprawy, które da się jeszcze załatwić, najpilniejszą najpierw: flagę, której nikt nie bierze (jak długo czeka i dlaczego bohaterowie ją zostawiają, według własnej oceny), gildię, która nikogo nie werbuje, mocno uszkodzony budynek. Każda podaje następny krok, po kliknięciu pokazuje miejsce i można ją odłożyć, dopóki się nie zmieni. O nowym ataku informuje się raz, z miejscem. W ustawieniach gra może pauzować raz na kryzys, gdy zamek szybko traci zdrowie albo dwa miejsca są atakowane naraz; jest to wyłączone, dopóki nie włączysz.
 
 Każdy klawisz powyżej poza Esc można zmienić w Ustawienia > Klawisze; klawisz przypisany dwóm czynnościom działa dla pierwszej na liście, a ustawienia o tym mówią; klawisz już zajęty jest odrzucany. Cyfra z klawiatury numerycznej liczy się jako cyfra. Przytrzymany klawisz działa raz.
 

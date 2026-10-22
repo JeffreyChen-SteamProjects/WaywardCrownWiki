@@ -148,7 +148,9 @@ Limpar uma onda nomeada também exige derrotar seus esqueletos invocados e limos
 
 **Besta de cerco** — Pesado lento que atinge estruturas a ×4 do meio ataque já ajustado pela patente. Intercepte com a frente e foque à distância; a defesa pune ataques corpo a corpo sem apoio.
 
-Gnashfang chama um lanceiro e um escudeiro por vez, quatro por vida. Seguem seu centro de guarda e sobrevivem à sua morte. O golpe avisa 2,4s, mira a até 4 casas e atinge raio 2; os dois últimos arqueiros são outro chamado limitado.
+Gnashfang convoca a legião inteira a cada chamado — um lanceiro, um escudeiro, um arqueiro goblin, um xamã goblin, um sapador e uma fera de cerco —, doze por vida. Seguem seu centro de guarda e sobrevivem à sua morte. O golpe avisa 2,4s, mira a até 4 casas e atinge raio 3; os dois últimos arqueiros são outro chamado limitado.
+
+O Escorpião das Dunas desenterra sua ninhada em todas as fases: quatro escorpiões venenosos por chamado, doze por vida. Leve antídotos e mantenha os atiradores longe dos buracos.
 
 **Quartel blindado** — Frente blindada, arqueiros e cura limitada. Mate o curador primeiro ou use alcance e veneno. 3200 HP. Guarnição: Porta-escudo, Arqueiro goblin, Xamã goblin. Ciclo de ataque: Porta-escudo, Piqueiro, Arqueiro goblin, Xamã goblin, Piqueiro, Arqueiro goblin. Terreno nativo: Floresta, Montanha. Primeiro ataque 9:00, depois a cada 6:00; 4 tropas iniciais, uma a mais até 8. Destruir para novos guardas e ataques; tropas vivas ficam.
 

@@ -124,9 +124,10 @@ Easy and hard never change enemy health: easy takes one raider off every lair ra
 | Esc | Cancel building or bounty placement; otherwise open the game menu (save, load, settings, restart level, main menu) |
 | Shift + left-click | Place a building and keep it selected |
 | Double-click the map | Post the bounty that fits what is there |
-| Ctrl+S / Ctrl+O | Save / load the game |
+| Ctrl+S / Ctrl+O | Save / load the game (the load menu also lists the last three autosaves, made every five minutes of play) |
 | Click the minimap | Jump to that location |
 | Home | Show the castle |
+| ← ↑ → ↓ | Move the view (while held) |
 | P | The castle paths window (on maps with castle paths) |
 | K / C | The kingdom overview / the chronicle |
 | L | The rolls: every hero, guild, work and building's custom, with filters |
@@ -138,6 +139,8 @@ Easy and hard never change enemy health: easy takes one raider off every lair ra
 | A / S / D / G / H | Take up a bounty type, in the order the panel lists them (the same key again puts it away) |
 | B | Take up the building last placed again |
 | F6, then Tab | Take the keyboard into the next panel and walk its controls (Esc goes back to the map) |
+
+**When something needs you.** The kingdom overview (K) opens with a card for each place under attack: since when, its last hit, what it has lost, and whether the fight goes on, or how it ended. Under them, *Waiting on you* lists at most three matters you can still deal with, the most pressing first: a flag nobody takes (how long it has waited and why the heroes leave it, from their own judgement), a guild that recruits nobody, a building badly hurt. Each says what to do next, shows the place when clicked, and can be set aside until it changes. A new attack is announced once, where it is. In the settings you can have the game pause once a crisis when the castle loses health fast or two places are attacked at once; it is off unless you turn it on.
 
 Every key above but Esc can be changed under Settings > Keys; a key given to two actions works for the first in the list, and the settings say so; a key already in use is refused. A keypad digit counts as the digit. A key held down acts once.
 

@@ -124,9 +124,10 @@ Leicht und Schwer ändern nie die Lebenspunkte der Feinde: Leicht nimmt jedem Ra
 | Esc | Platzierung eines Gebäudes oder Kopfgelds abbrechen, sonst das Spielmenü öffnen (Speichern, Laden, Einstellungen, Level neu starten, Hauptmenü) |
 | Umschalt + Linksklick | Ein Gebäude platzieren und ausgewählt lassen |
 | Doppelklick auf die Karte | Das Kopfgeld aufgeben, das zu dem passt, was dort ist |
-| Strg+S / Strg+O | Spiel speichern / laden |
+| Strg+S / Strg+O | Spiel speichern / laden (das Lademenü listet auch die letzten drei automatischen Spielstände, alle fünf Spielminuten angelegt) |
 | Klick auf die Minikarte | Zu diesem Ort springen |
 | Pos1 | Burg zeigen |
+| ← ↑ → ↓ | Ansicht bewegen (solange gehalten) |
 | P | Fenster der Burgwege (auf Karten mit Burgwegen) |
 | K / C | Königreichsübersicht / Chronik |
 | L | Die Verzeichnisse: jeder Held, jede Gilde, jede Arbeit und die Einnahmen jedes Gebäudes, mit Filtern |
@@ -138,6 +139,8 @@ Leicht und Schwer ändern nie die Lebenspunkte der Feinde: Leicht nimmt jedem Ra
 | A / S / D / G / H | Eine Auftragsart aufnehmen, in der Reihenfolge des Reiters (dieselbe Taste legt sie wieder weg) |
 | B | Das zuletzt gebaute Gebäude noch einmal aufnehmen |
 | F6, dann Tab | Tastatur ins nächste Fenster bringen und durch seine Bedienelemente gehen (Esc zurück zur Karte) |
+
+**Wenn etwas auf dich wartet.** Die Königreichsübersicht (K) beginnt mit einer Karte für jeden angegriffenen Ort: seit wann, der letzte Treffer, was er verloren hat und ob der Kampf läuft oder wie er endete. Darunter listet *Wartet auf dich* höchstens drei Dinge, die sich noch regeln lassen, das Dringendste zuerst: ein Auftrag, den niemand annimmt (wie lange er wartet und warum die Helden ihn liegen lassen, nach ihrem eigenen Urteil), eine Gilde, die niemanden anwirbt, ein schwer beschädigtes Gebäude. Jedes nennt den nächsten Schritt, zeigt den Ort per Klick und lässt sich zurückstellen, bis es sich ändert. Ein neuer Angriff wird einmal gemeldet, am Ort. In den Einstellungen kannst du das Spiel einmal je Krise pausieren lassen, wenn die Burg schnell Leben verliert oder zwei Orte zugleich angegriffen werden; das ist aus, bis du es einschaltest.
 
 Jede Taste oben außer Esc lässt sich unter Einstellungen > Tasten ändern; eine Taste, die zwei Aktionen hat, gilt für die erste in der Liste, und die Einstellungen sagen es; eine schon belegte Taste wird abgelehnt. Eine Ziffer des Ziffernblocks zählt als die Ziffer. Eine gehaltene Taste wirkt nur einmal.
 
