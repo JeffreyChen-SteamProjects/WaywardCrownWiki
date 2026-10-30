@@ -262,6 +262,8 @@ Người vận chuyển chờ tối đa 10 giây để đơn vị di chuyển r�
 
 Sau khi thu hồi vật liệu từ tháp báo hiệu cổ, đội xây dựng không khôi phục miễn phí; thu hồi và sửa chữa là hai lựa chọn loại trừ nhau.
 
+Quái vật để yên địa điểm di tích, kể cả lính gác của chính di tích: chúng không tấn công và cũng không chọn nó làm mục tiêu. Chỉ người của bạn làm việc ở đó.
+
 Dưới đây là điều kiện mặc định của mộ và trạm. Chọn nơi đã phát hiện để xem phí thật do tác giả đặt, thời hạn gốc còn lại và kết quả; trò chơi tiếp tục khi chọn.
 
 Mục tùy chọn trong biên niên sử theo dõi di tích đã phát hiện, nhánh đã chọn, tiến độ, trở ngại, thời hạn gốc còn lại và kết quả thật. Liên kết hiển thị chỉ định vị nơi gốc, không chấp nhận lựa chọn hay tiêu vàng. Một di tích lọt vào tầm nhìn sẽ có tin báo, công việc đã nhận mà dừng giữa chừng, thất bại hay hoàn thành cũng vậy; việc rút lui do bạn chọn được ghi một dòng trong nhật ký. Hình dạng của địa điểm cho biết tình trạng: là phế tích cho tới khi nhận việc, có giàn giáo và vật liệu chất đống khi triều đình đang làm, là kết quả của lựa chọn đã xong (đài hiệu lửa được thắp hay bị tháo dỡ, lăng mộ được phong ấn hay bị mở, trạm được dựng lại), hoặc thành đống đổ nát nếu công việc thất bại. Điều cản trở công việc được nói rõ: không có anh hùng nhận việc, lý do anh hùng từ chối, quái vật gần địa điểm, đội thợ đang làm việc khác trước (và thứ tự của địa điểm này), hoặc nước, vách đá hay công trình bao quanh địa điểm.

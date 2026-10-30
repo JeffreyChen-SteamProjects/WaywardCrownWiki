@@ -262,6 +262,8 @@ Les coursiers attendent jusqu’à 10 secondes que les unités mobiles quittent 
 
 Après la récupération des matériaux d’une ancienne balise, les équipes ne la restaurent pas gratuitement ; récupération et réparation restent incompatibles.
 
+Les monstres laissent tranquille le site d’une relique, ses propres gardes compris : ils ne l’attaquent pas et ne le prennent pas pour cible. Seuls les vôtres y travaillent.
+
 Voici les conditions par défaut de la tombe et du relais. Sélectionnez un site découvert pour ses coûts réels, le délai original restant et les résultats ; le jeu continue pendant les choix.
 
 La section facultative de la chronique suit les reliques découvertes, la branche choisie, la progression, les blocages, le délai original restant et les résultats réels. Le lien Afficher situe le lieu original sans accepter de choix ni dépenser d’or. Une relique qui entre dans le champ de vision fait l’objet d’une nouvelle, tout comme les travaux acceptés qui s’arrêtent à mi-chemin, échouent ou se terminent ; un retrait que vous choisissez est noté d’une ligne dans le journal. Un lieu montre où il en est : une ruine tant qu’aucun travail n’est accepté, des échafaudages et des matériaux empilés pendant que la couronne y travaille, ce que laisse le choix achevé (un phare allumé ou démonté, un tombeau scellé ou ouvert, un relais reconstruit), ou des décombres si le travail a échoué. Ce qui retient le travail est dit précisément : aucun héros pour le prendre, la raison propre des héros qui le refusent, des monstres près du lieu, un autre chantier de l’équipe d’abord (avec la place du lieu dans l’ordre), ou l’eau, des falaises ou des bâtiments qui l’enferment.

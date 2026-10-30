@@ -262,6 +262,8 @@ Transportboten warten bis zu 10 Sekunden, bis bewegliche Einheiten die Fläche e
 
 Nach der Bergung an einem alten Signalfeuer bauen Bautrupps es nicht kostenlos wieder auf; Bergung und Reparatur schließen einander aus.
 
+Monster lassen den Ort eines Relikts in Ruhe, auch seine eigenen Wachen: Sie greifen ihn nicht an und nehmen ihn nicht ins Visier. Nur deine Leute arbeiten dort.
+
 Dies sind die Standardbedingungen für Gruft und Station. Ein entdeckter Ort zeigt seine tatsächlichen Autorenkosten, die verbleibende ursprüngliche Frist und Ergebnisse; das Spiel läuft während der Auswahl weiter.
 
 Der optionale Abschnitt der Chronik zeigt entdeckte Relikte, den gewählten Zweig, Fortschritt, Hindernisse, die verbleibende ursprüngliche Frist und tatsächliche Ergebnisse. Anzeigen führt zum ursprünglichen Ort, ohne eine Wahl anzunehmen oder Gold auszugeben. Ein Relikt, das in Sicht kommt, ist eine Meldung, ebenso angenommene Arbeit, die auf halbem Weg stillsteht, scheitert oder fertig wird; ein Rückzug, den du wählst, steht als Zeile im Protokoll. Ein Ort zeigt, wie es um ihn steht: eine Ruine, bis Arbeit angenommen ist, Gerüst und gestapeltes Material, solange die Krone dort arbeitet, was die vollendete Wahl hinterlässt (ein brennendes oder ein abgetragenes Leuchtfeuer, ein versiegeltes oder ein geöffnetes Grab, eine wiederaufgebaute Station) oder Trümmer, wenn die Arbeit gescheitert ist. Was die Arbeit aufhält, wird genau genannt: kein Held, der sie übernimmt, der eigene Grund der Helden für ihre Ablehnung, Monster in der Nähe, andere Arbeit der Bautruppe zuerst (mit dem Platz des Ortes in der Reihenfolge) oder Wasser, Klippen oder Gebäude, die den Ort einschließen.

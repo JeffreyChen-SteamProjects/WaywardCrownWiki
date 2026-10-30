@@ -262,6 +262,8 @@ Los mensajeros esperan hasta 10 segundos a que las unidades móviles despejen el
 
 Tras recuperar materiales de una antigua almenara, las cuadrillas no la restauran gratis; la recuperación y la reparación son opciones excluyentes.
 
+Los monstruos dejan en paz el lugar de una reliquia, incluidos sus propios guardias: ni lo atacan ni lo toman como objetivo. Solo tu gente trabaja en él.
+
 Estas son las condiciones predeterminadas de tumba y puesto. Selecciona un lugar descubierto para ver sus costes reales, el plazo original restante y resultados; el juego sigue durante los controles.
 
 La sección opcional de la crónica sigue las reliquias descubiertas, la rama elegida, el progreso, los bloqueos, el plazo original restante y los resultados reales. Mostrar localiza el lugar original sin aceptar una opción ni gastar oro. Una reliquia que aparece a la vista es noticia, y también el trabajo aceptado que se detiene a medias, fracasa o termina; una retirada que elijas queda como una línea del registro. Un lugar muestra cómo está: una ruina hasta que se acepta un trabajo, andamios y material apilado mientras la corona trabaja allí, lo que deja la opción terminada (un faro encendido o desmantelado, una tumba sellada o abierta, una posta reconstruida) o escombros si el trabajo fracasó. Lo que detiene el trabajo se dice con precisión: ningún héroe que lo acepte, el motivo propio de los héroes para rechazarlo, monstruos cerca del lugar, otro trabajo de la cuadrilla primero (y el puesto del lugar en el orden) o agua, acantilados o edificios que lo encierran.

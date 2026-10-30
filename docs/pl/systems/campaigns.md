@@ -262,6 +262,8 @@ Kurierzy czekają do 10 sekund, aż ruchome jednostki opuszczą teren nowej plac
 
 Po odzyskaniu materiałów ze starożytnej wieży sygnałowej ekipy nie odbudują jej za darmo; odzysk i naprawa wykluczają się wzajemnie.
 
+Potwory nie ruszają miejsca reliktu, nawet jego własni strażnicy: ani go nie atakują, ani nie biorą na cel. Pracują tam tylko twoi ludzie.
+
 Poniżej domyślne warunki grobowca i stacji. Wybierz odkryte miejsce, aby zobaczyć rzeczywiste koszty autora, pozostały pierwotny termin i wyniki; gra trwa podczas wyborów.
 
 Sekcja opcjonalna kroniki śledzi odkryte relikty, wybraną gałąź, postęp, przeszkody, pozostały pierwotny termin i rzeczywiste wyniki. Pokaż wskazuje pierwotne miejsce bez przyjmowania wyboru ani wydawania złota. Relikt, który pojawia się w zasięgu wzroku, to wiadomość, podobnie jak przyjęte prace, które stają w połowie, kończą się niepowodzeniem lub zostają ukończone; wycofanie, które wybierzesz, zapisuje się jako wiersz dziennika. Miejsce pokazuje swój stan: ruina, dopóki nie przyjmiesz pracy, rusztowania i ułożone materiały, gdy korona tam pracuje, to, co zostawia ukończony wybór (zapalona lub rozebrana latarnia, zapieczętowany lub otwarty grobowiec, odbudowana stacja), albo gruzy, gdy praca się nie powiodła. To, co wstrzymuje prace, jest podane dokładnie: brak bohatera, który by się ich podjął, powód odmowy bohaterów, potwory przy miejscu, inna praca ekipy najpierw (wraz z miejscem w kolejce) albo woda, urwiska lub budynki zamykające miejsce.
