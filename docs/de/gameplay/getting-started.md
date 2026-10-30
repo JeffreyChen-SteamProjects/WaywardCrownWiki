@@ -116,6 +116,9 @@ Leicht und Schwer ändern nie die Lebenspunkte der Feinde: Leicht nimmt jedem Ra
 | Scrollrad | Karte zoomen |
 | Rechtsklick ziehen | Kamera schwenken |
 | Linksklick auf eine Einheit | Detaillierte Infos anzeigen |
+| Linksklick ziehen über eigene Einheiten | Mehrere eigene Helden, Dorfbewohner und Träger auswählen (zum Ansehen, nicht zum Befehlen) |
+| Umschalt + Linksklick oder ziehen | Zur Gruppe hinzufügen oder einen daraus entfernen |
+| Strg + Linksklick auf eine eigene Einheit | Alle dieser Art auf dem Bildschirm auswählen |
 | Linksklick auf die Karte | Gebäude / Auftrag platzieren |
 | Linksklick ziehen | Eine Straße zeichnen (mit dem Straßenwerkzeug) |
 | Rechtsklick ohne Ziehen | Auftragsmenü öffnen |

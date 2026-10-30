@@ -116,6 +116,9 @@ Możesz dostosować poniższe parametry, rozpoczynając nową grę:
 | Kółko myszy | Przybliżanie/oddalanie mapy |
 | Przeciąganie prawym przyciskiem | Przesuwanie kamery |
 | Lewy klik na jednostkę | Wyświetl szczegółowe informacje |
+| Przeciąganie lewym przyciskiem po swoich jednostkach | Wybór kilku swoich bohaterów, wieśniaków i tragarzy (do oglądania, nie do wydawania rozkazów) |
+| Shift + lewy klik lub przeciąganie | Dodanie do grupy albo usunięcie z niej jednego |
+| Ctrl + lewy klik na swoją jednostkę | Wybór wszystkich tego rodzaju na ekranie |
 | Lewy klik na mapę | Umieść budynek / zlecenie |
 | Przeciąganie lewym przyciskiem | Rysowanie drogi (narzędziem drogi) |
 | Prawy klik bez przeciągania | Otwarcie menu zleceń |

@@ -116,6 +116,9 @@ Easy and hard never change enemy health: easy takes one raider off every lair ra
 | Scroll wheel | Zoom the map |
 | Right-click drag | Pan the camera |
 | Left-click an entity | View detailed info |
+| Left-click drag over your units | Pick several of your heroes, villagers and carriers (to look at, not to order) |
+| Shift + left-click or drag | Add to the group, or drop one from it |
+| Ctrl + left-click one of your units | Pick every one of that kind on screen |
 | Left-click the map | Place a building / bounty |
 | Left-click drag | Draw a road (with the road tool) |
 | Right-click without dragging | Open the bounty menu |

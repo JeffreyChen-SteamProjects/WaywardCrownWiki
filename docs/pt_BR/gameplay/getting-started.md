@@ -116,6 +116,9 @@ Fácil e difícil nunca mudam a vida dos inimigos: fácil tira um saqueador de c
 | Roda do mouse | Zoom no mapa |
 | Arrastar com clique direito | Mover a câmera |
 | Clique esquerdo em uma entidade | Ver informações detalhadas |
+| Arrastar com clique esquerdo sobre suas unidades | Selecionar vários dos seus heróis, aldeões e carregadores (para olhar, não para dar ordens) |
+| Shift + clique esquerdo ou arrastar | Adicionar ao grupo, ou tirar um dele |
+| Ctrl + clique esquerdo em uma de suas unidades | Selecionar todos daquele tipo na tela |
 | Clique esquerdo no mapa | Colocar uma construção / recompensa |
 | Arrastar com clique esquerdo | Desenhar uma estrada (com a ferramenta de estrada) |
 | Clique direito sem arrastar | Abrir o menu de recompensas |

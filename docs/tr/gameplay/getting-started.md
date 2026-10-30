@@ -116,6 +116,9 @@ Kolay ve zor düşmanların canını asla değiştirmez: kolay her in baskının
 | Fare tekerleği | Haritayı yakınlaştır/uzaklaştır |
 | Sağ tık sürükleme | Kamerayı kaydır |
 | Bir varlığa sol tık | Ayrıntılı bilgileri görüntüle |
+| Kendi birimlerinin üzerinde sol tık sürükleme | Kahramanlarından, köylülerinden ve taşıyıcılarından birkaçını seç (bakmak için, emir vermek için değil) |
+| Shift + sol tık veya sürükleme | Gruba ekle ya da gruptan birini çıkar |
+| Kendi birimlerinden birine Ctrl + sol tık | Ekrandaki o türden hepsini seç |
 | Haritaya sol tık | Bina / görev yerleştir |
 | Sol tık sürükleme | Yol çiz (yol aracıyla) |
 | Sürüklemeden sağ tık | Görev menüsünü aç |

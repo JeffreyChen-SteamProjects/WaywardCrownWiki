@@ -116,6 +116,9 @@ Facile e difficile non cambiano mai la salute dei nemici: facile toglie un predo
 | Rotella del mouse | Zoom della mappa |
 | Trascinamento tasto destro | Spostamento della visuale |
 | Clic sinistro su un'entità | Visualizza informazioni dettagliate |
+| Trascinamento tasto sinistro sulle tue unità | Seleziona più eroi, abitanti e portatori tuoi (per guardarli, non per dare ordini) |
+| Maiusc + clic sinistro o trascinamento | Aggiunge al gruppo, o ne toglie uno |
+| Ctrl + clic sinistro su una tua unità | Seleziona tutti quelli di quel tipo sullo schermo |
 | Clic sinistro sulla mappa | Piazza un edificio / taglia |
 | Trascinamento tasto sinistro | Traccia una strada (con lo strumento strada) |
 | Clic destro senza trascinare | Apre il menu delle taglie |

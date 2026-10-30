@@ -116,6 +116,9 @@ Facile et difficile ne changent jamais la santé des ennemis : facile retire un 
 | Molette de défilement | Zoomer sur la carte |
 | Clic droit glisser | Déplacer la caméra |
 | Clic gauche sur une entité | Afficher les informations détaillées |
+| Clic gauche glisser sur vos unités | Sélectionner plusieurs de vos héros, villageois et porteurs (pour les regarder, pas pour leur donner des ordres) |
+| Maj + clic gauche ou glisser | Ajouter au groupe, ou en retirer un |
+| Ctrl + clic gauche sur une de vos unités | Sélectionner tous ceux de ce type à l'écran |
 | Clic gauche sur la carte | Placer un bâtiment / une prime |
 | Clic gauche glisser | Tracer une route (avec l'outil route) |
 | Clic droit sans glisser | Ouvrir le menu des primes |

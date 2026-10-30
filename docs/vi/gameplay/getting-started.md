@@ -116,6 +116,9 @@ Dễ và khó không bao giờ thay đổi máu của kẻ thù: dễ bớt mộ
 | Cuộn chuột | Thu phóng bản đồ |
 | Kéo chuột phải | Di chuyển camera |
 | Nhấp trái vào đối tượng | Xem thông tin chi tiết |
+| Kéo chuột trái quanh đơn vị của mình | Chọn nhiều anh hùng, dân làng và người vận chuyển của mình (để xem, không để ra lệnh) |
+| Shift + nhấp chuột trái hoặc kéo | Thêm vào nhóm, hoặc bỏ một người ra khỏi nhóm |
+| Ctrl + nhấp chuột trái vào một đơn vị của mình | Chọn tất cả đơn vị cùng loại trên màn hình |
 | Nhấp trái vào bản đồ | Đặt công trình / lệnh truy nã |
 | Kéo chuột trái | Vẽ đường (khi dùng công cụ đường) |
 | Nhấp chuột phải không kéo | Mở menu truy nã |

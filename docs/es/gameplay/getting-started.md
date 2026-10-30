@@ -116,6 +116,9 @@ Fácil y difícil nunca cambian la salud de los enemigos: fácil quita un asalta
 | Rueda del ratón | Zoom en el mapa |
 | Arrastrar con clic derecho | Mover la cámara |
 | Clic izquierdo en una entidad | Ver información detallada |
+| Arrastrar con clic izquierdo sobre tus unidades | Seleccionar varios de tus héroes, aldeanos y portadores (para mirarlos, no para darles órdenes) |
+| Mayús + clic izquierdo o arrastrar | Añadir al grupo, o quitar a uno de él |
+| Ctrl + clic izquierdo en una de tus unidades | Seleccionar a todos los de ese tipo en pantalla |
 | Clic izquierdo en el mapa | Colocar un edificio / recompensa |
 | Arrastrar con clic izquierdo | Dibujar un camino (con la herramienta de camino) |
 | Clic derecho sin arrastrar | Abrir el menú de recompensas |
