@@ -264,6 +264,8 @@ Dopo il recupero dei materiali da un antico faro, le squadre non lo restaurano g
 
 I mostri lasciano in pace il luogo di una reliquia, comprese le sue stesse guardie: non lo attaccano né lo prendono di mira. Ci lavora solo la tua gente.
 
+Una reliquia non è una scelta unica. Puoi ritirarti da un lavoro accettato in qualsiasi momento e ciò che non è stato speso torna indietro; poi, come quando il lavoro fallisce, il luogo viene offerto di nuovo, da capo, finché resta in piedi, così puoi scegliere lo stesso ramo o un altro, fino a completarne uno. *Lascia intatto* vuol dire solo: non ora.
+
 Queste sono le condizioni predefinite di tomba e stazione. Seleziona un sito scoperto per costi reali, scadenza originale restante e risultati; il gioco continua durante la scelta.
 
 La sezione facoltativa della cronaca segue le reliquie scoperte, il ramo scelto, i progressi, gli ostacoli, la scadenza originale restante e i risultati reali. Mostra individua il luogo originale senza accettare scelte né spendere oro. Una reliquia che entra in vista è una notizia, come il lavoro accettato che si ferma a metà, fallisce o finisce; un ritiro che scegli è una riga del registro. Un luogo mostra a che punto è: una rovina finché non si accetta un lavoro, impalcature e materiale accatastato mentre la corona vi lavora, ciò che lascia la scelta compiuta (un faro acceso o smantellato, una tomba sigillata o aperta, una stazione ricostruita) oppure macerie se il lavoro è fallito. Ciò che ferma il lavoro è detto con precisione: nessun eroe che lo prenda, il motivo degli eroi per rifiutarlo, mostri vicino al luogo, un altro lavoro della squadra prima (con il posto del luogo nell’ordine) oppure acqua, scogliere o edifici che lo chiudono.

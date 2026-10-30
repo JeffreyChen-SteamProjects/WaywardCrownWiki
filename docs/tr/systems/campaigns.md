@@ -264,6 +264,8 @@ Antik işaret kulesinden malzeme toplandıktan sonra ekipler onu ücretsiz onara
 
 Canavarlar bir kalıntının alanına dokunmaz, kalıntının kendi muhafızları da: ona saldırmaz, onu hedef de almazlar. Orada yalnızca senin adamların çalışır.
 
+Bir kalıntı tek seferlik bir seçim değildir. Kabul edilmiş bir çalışmadan istediğin zaman çekilebilirsin; harcanmamış olan geri gelir. Ardından, çalışma başarısız olduğunda olduğu gibi, alan ayakta kaldığı sürece sıfırdan yeniden sunulur; böylece biri tamamlanana kadar aynı dalı ya da başka birini seçebilirsin. *Dokunma* yalnızca şu demektir: şimdi değil.
+
 Aşağıdakiler mezar ve istasyonun varsayılan koşullarıdır. Keşfedilmiş yeri seçerek yazarın gerçek bedellerini, asıl süreye kalan zamanı ve sonuçları gör; seçim sırasında oyun devam eder.
 
 Günlüğün isteğe bağlı bölümü keşfedilen kalıntıları, seçilen dalı, ilerlemeyi, engelleri, ilk süreden kalan zamanı ve gerçek sonuçları izler. Göster bağlantısı seçim kabul etmeden veya altın harcamadan ilk konumu gösterir. Görüş alanına giren bir kalıntı haber olur; kabul edilmiş bir çalışmanın yarıda durması, başarısız olması ya da bitmesi de öyle. Kendi seçtiğiniz bir geri çekilme günlüğe bir satır olarak düşer. Bir alan nerede olduğunu görünüşüyle gösterir: iş kabul edilene kadar harabe, taç orada çalışırken iskele ve yığılmış malzeme, biten seçimin bıraktığı hâl (yanan ya da sökülmüş bir işaret kulesi, mühürlenmiş ya da açılmış bir mezar, yeniden kurulmuş bir istasyon) ya da iş başarısız olursa enkaz. İşi neyin durdurduğu açıkça söylenir: işi alacak kahraman yok, kahramanların reddetme gerekçesi, alanın yakınındaki canavarlar, ekibin önce yaptığı başka iş (ve alanın sıradaki yeri) ya da alanı çevreleyen su, uçurum veya binalar.

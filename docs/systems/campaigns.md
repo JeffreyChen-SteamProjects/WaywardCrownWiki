@@ -264,6 +264,8 @@ After salvaging an ancient beacon, crews cannot restore it for free; salvage and
 
 Monsters leave a relic's site alone, its own guards included: they neither attack it nor go for it as a mark. Only your people work it.
 
+A relic is not a single choice. Withdraw accepted work at any time and what is unspent comes back; then, as when the work fails, the site is offered again, fresh, while it stands, so you can choose the same branch or another until one is done. *Leave* only means not now.
+
 Default tomb and station terms are below. Select a discovered site to see its actual authored costs, remaining original deadline and results; the controls keep the game running.
 
 The chronicle’s Optional section tracks discovered relics, their chosen branch, progress, blockers, original remaining deadline and actual results. Show locates the original site without accepting a choice or spending gold. A relic coming into sight is news, and so is accepted work that stops halfway, fails or is done; a withdrawal you make is a line of the log. A site shows where it stands: a ruin until work is accepted, scaffolding and stacked materials while the crown works there, what the finished choice leaves (a lit beacon or a stripped one, a sealed tomb or an opened one, a rebuilt station), or rubble when the work failed. What holds work up is said precisely: no hero to take it, the heroes' own reason for turning it down, monsters near the site, the crew's other work first (and the site's place in the order), or water, cliffs or buildings closing the site in.

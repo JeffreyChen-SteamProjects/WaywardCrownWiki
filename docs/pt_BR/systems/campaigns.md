@@ -264,6 +264,8 @@ Depois de recuperar materiais de um farol antigo, as equipes não o restauram de
 
 Os monstros deixam em paz o local de uma relíquia, inclusive os próprios guardas dela: não o atacam nem o tomam como alvo. Só o seu pessoal trabalha nele.
 
+Uma relíquia não é uma escolha única. Você pode se retirar de um trabalho aceito a qualquer momento, e o que não foi gasto volta; depois, como quando o trabalho fracassa, o local é oferecido de novo, do zero, enquanto continuar de pé, então você pode escolher a mesma opção ou outra até que uma seja concluída. *Deixar intacto* só quer dizer: agora não.
+
 Estes são os termos padrão da tumba e estação. Selecione um local descoberto para ver custos reais, prazo original restante e resultados; o jogo continua durante as escolhas.
 
 A seção opcional da crônica acompanha relíquias descobertas, a opção escolhida, o progresso, os obstáculos, o prazo original restante e os resultados reais. Mostrar localiza o lugar original sem aceitar uma opção ou gastar ouro. Uma relíquia que entra no campo de visão vira notícia, assim como o trabalho aceito que para na metade, fracassa ou termina; uma retirada que você escolhe vira uma linha do registro. Um local mostra como está: uma ruína até que um trabalho seja aceito, andaimes e material empilhado enquanto a coroa trabalha ali, o que a escolha concluída deixa (um farol aceso ou desmontado, uma tumba selada ou aberta, uma estação reconstruída) ou escombros se o trabalho fracassou. O que segura o trabalho é dito com precisão: nenhum herói para aceitá-lo, o motivo dos heróis para recusá-lo, monstros perto do local, outra obra da equipe primeiro (com a posição do local na ordem) ou água, penhascos ou construções que o cercam.
