@@ -67,6 +67,21 @@ Goblin Kalesi ve Ölümsüz Kalesi, tüm haritada en fazla birer kez görünebil
 | Kaleler Arası Minimum Mesafe | 30 karo |
 | Varsayılan Sayı | 3 (zorluk ayarlarından değiştirilebilir) |
 
+## Canavarların Dönüşü
+
+Haritada ayakta kale kalmadığında canavarlar birini yeniden kurmak için geri döner:
+
+| Adım | Ne olur |
+|------|-------------|
+| Bekleme | Son kale düştükten yaklaşık 3 dakika sonra |
+| Grup | Haritanın kale türlerinden birine ait beş canavar en yakın harita kenarından içeri yürür |
+| Yer | Eski kale yerlerinden biri; şatodan ve binalarınızdan uzakta |
+| Şantiye | Üçü vardığında: kale, surlarının yaklaşık üçte biriyle başlar; hiç düşman üretmez ve baskın göndermez |
+| Tamamlanma | 2 dakika sonra sıradan bir kale olarak eksiksiz ayakta durur |
+| Durdurma | Grubu yolda öldürün ya da şantiyeyi yerle bir edin; sonraki deneme 5 dakika sonra gelir |
+
+Bir harita başladığından fazla kaleyi asla geri almaz; hiç kaleyle başlamamış bir harita da hiçbir zaman kale almaz.
+
 ---
 
 ## Kalelere Saldırma

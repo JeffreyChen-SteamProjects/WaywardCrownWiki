@@ -67,6 +67,21 @@ La Fortaleza Goblin y el Castillo No-muerto pueden aparecer como máximo una vez
 | Distancia Mínima Entre Fortalezas | 30 casillas |
 | Cantidad Predeterminada | 3 (ajustable en la configuración de dificultad) |
 
+## Regreso de los Monstruos
+
+Cuando en el mapa no queda en pie ninguna fortaleza, los monstruos vuelven para reconstruir una:
+
+| Paso | Qué ocurre |
+|------|-------------|
+| Espera | Unos 3 minutos después de que caiga la última fortaleza |
+| Grupo | Cinco monstruos de uno de los tipos de fortaleza del mapa entran desde el borde más cercano del mapa |
+| Lugar | Uno de los antiguos emplazamientos de fortaleza, lejos del castillo y apartado de tus edificios |
+| Obra | Cuando llegan tres: la fortaleza con cerca de un tercio de sus muros; no genera nada ni envía incursiones |
+| Terminada | A los 2 minutos se alza entera como una fortaleza normal |
+| Detenida | Mata al grupo por el camino o arrasa la obra; el siguiente intento llega 5 minutos después |
+
+Un mapa nunca recupera más fortalezas de las que tenía al principio, y uno que empezó sin ninguna nunca recibe ninguna.
+
 ---
 
 ## Atacar Fortalezas

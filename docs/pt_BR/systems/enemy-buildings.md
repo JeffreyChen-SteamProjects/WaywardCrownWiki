@@ -67,6 +67,21 @@ A Fortaleza Goblin e o Castelo dos Mortos-Vivos podem aparecer no máximo uma ve
 | Distância Mínima entre Fortalezas | 30 tiles |
 | Quantidade Padrão | 3 (ajustável nas configurações de dificuldade) |
 
+## A Volta dos Monstros
+
+Quando nenhuma fortaleza do mapa continua de pé, os monstros voltam para reconstruir uma:
+
+| Etapa | O que acontece |
+|------|-------------|
+| Espera | Cerca de 3 minutos depois que a última fortaleza cai |
+| Grupo | Cinco monstros de um dos tipos de fortaleza do mapa entram pela borda do mapa mais próxima |
+| Local | Um dos antigos locais de fortaleza, longe do castelo e afastado das suas construções |
+| Canteiro de obras | Quando três chegam: a fortaleza com cerca de um terço das muralhas; não gera nada e não envia ataques |
+| Concluída | Depois de 2 minutos, fica inteira como uma fortaleza comum |
+| Interrompida | Mate o grupo no caminho ou arrase o canteiro de obras; a próxima tentativa vem 5 minutos depois |
+
+Um mapa nunca recupera mais fortalezas do que tinha no começo, e um mapa que começou sem nenhuma nunca ganha uma.
+
 ---
 
 ## Atacando Fortalezas

@@ -67,6 +67,21 @@ La Forteresse gobeline et le Château mort-vivant ne peuvent apparaître qu'une 
 | Distance minimale entre forteresses | 30 cases |
 | Nombre par défaut | 3 (ajustable dans les paramètres de difficulté) |
 
+## Le retour des monstres
+
+Quand plus aucune forteresse de la carte n'est debout, les monstres reviennent en reconstruire une :
+
+| Étape | Ce qui se passe |
+|------|-------------|
+| Délai | Environ 3 minutes après la chute de la dernière forteresse |
+| Groupe | Cinq monstres de l'un des types de forteresse de la carte arrivent par le bord de carte le plus proche |
+| Emplacement | L'un des anciens emplacements de forteresse, loin du château et à l'écart de vos bâtiments |
+| Chantier | Quand trois l'atteignent : la forteresse à environ un tiers de ses murs ; elle ne fait rien apparaître et n'envoie aucun raid |
+| Achevée | Au bout de 2 minutes, elle se dresse entière, comme une forteresse ordinaire |
+| Arrêtée | Tuez le groupe en chemin ou rasez le chantier ; la tentative suivante vient 5 minutes plus tard |
+
+Une carte ne récupère jamais plus de forteresses qu'elle n'en avait au départ, et une carte qui n'en avait aucune n'en reçoit jamais.
+
 ---
 
 ## Attaquer les forteresses

@@ -67,6 +67,21 @@ La Fortezza goblin e il Castello dei non-morti possono apparire al massimo una v
 | Distanza minima tra roccaforti | 30 caselle |
 | Quantità predefinita | 3 (regolabile nelle impostazioni di difficoltà) |
 
+## Il ritorno dei mostri
+
+Quando sulla mappa non resta in piedi nessuna roccaforte, i mostri tornano a ricostruirne una:
+
+| Fase | Cosa succede |
+|------|-------------|
+| Attesa | Circa 3 minuti dopo la caduta dell'ultima roccaforte |
+| Gruppo | Cinque mostri di uno dei tipi di roccaforte della mappa entrano dal bordo della mappa più vicino |
+| Luogo | Uno dei vecchi siti delle roccaforti, lontano dal castello e dai tuoi edifici |
+| Cantiere | Quando tre ci arrivano: la roccaforte con circa un terzo delle sue mura; non genera nulla e non manda incursioni |
+| Completata | Dopo 2 minuti si erge intera come una roccaforte normale |
+| Fermata | Uccidi il gruppo per strada o rada al suolo il cantiere; il tentativo successivo arriva 5 minuti dopo |
+
+Una mappa non riottiene mai più roccaforti di quante ne avesse all'inizio, e una che è partita senza non ne riceve mai.
+
 ---
 
 ## Attaccare le roccaforti

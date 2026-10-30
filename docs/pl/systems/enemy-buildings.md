@@ -67,6 +67,21 @@ Forteca goblinów i Zamek nieumarłych mogą pojawić się najwyżej raz na cał
 | Minimalna odległość między twierdzami | 30 pól |
 | Domyślna liczba | 3 (regulowana w ustawieniach trudności) |
 
+## Powrót potworów
+
+Gdy na mapie nie stoi już żadna twierdza, potwory wracają, by odbudować jedną z nich:
+
+| Etap | Co się dzieje |
+|------|-------------|
+| Opóźnienie | Około 3 minut po upadku ostatniej twierdzy |
+| Oddział | Pięć potworów jednego z rodzajów twierdz z tej mapy wchodzi od najbliższej krawędzi mapy |
+| Miejsce | Jedno z dawnych miejsc twierdz, daleko od zamku i z dala od twoich budynków |
+| Plac budowy | Gdy dotrą trzy: twierdza z około jedną trzecią murów; nic z niej nie wychodzi i nie wysyła najazdów |
+| Gotowe | Po 2 minutach stoi w całości jako zwykła twierdza |
+| Przerwane | Zabij oddział po drodze albo zburz plac budowy; następna próba przychodzi 5 minut później |
+
+Mapa nigdy nie odzyskuje więcej twierdz, niż miała na początku, a mapa, która zaczęła bez żadnej, nigdy żadnej nie dostaje.
+
 ---
 
 ## Atakowanie twierdz

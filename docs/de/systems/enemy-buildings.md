@@ -67,6 +67,21 @@ Die Goblinfestung und die Untotenborg können jeweils höchstens einmal auf der 
 | Mindestabstand zwischen Festungen | 30 Felder |
 | Standardanzahl | 3 (in den Schwierigkeitseinstellungen anpassbar) |
 
+## Die Monster kehren zurück
+
+Steht auf der Karte keine Festung mehr, kehren die Monster zurück, um eine wieder aufzubauen:
+
+| Schritt | Was passiert |
+|------|-------------|
+| Verzögerung | Etwa 3 Minuten nach dem Fall der letzten Festung |
+| Trupp | Fünf Monster einer der Festungsarten der Karte kommen vom nächsten Kartenrand herein |
+| Ort | Einer der alten Festungsplätze, weit weg von der Burg und abseits deiner Gebäude |
+| Baustelle | Sobald drei ihn erreichen: die Festung mit etwa einem Drittel ihrer Mauern; sie bringt nichts hervor und schickt keinen Raubzug |
+| Fertig | Nach 2 Minuten steht sie vollständig als gewöhnliche Festung |
+| Gestoppt | Töte den Trupp unterwegs oder schleife die Baustelle; der nächste Versuch folgt 5 Minuten später |
+
+Eine Karte bekommt nie mehr Festungen zurück, als sie zu Beginn hatte, und eine Karte, die ohne Festung begann, bekommt nie eine.
+
 ---
 
 ## Festungen angreifen

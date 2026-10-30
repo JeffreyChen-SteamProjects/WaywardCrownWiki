@@ -67,6 +67,21 @@ The Goblin Fortress and Undead Castle can each appear at most once on the entire
 | Minimum Distance Between Strongholds | 30 tiles |
 | Default Count | 3 (adjustable in difficulty settings) |
 
+## Monsters Coming Back
+
+Once no stronghold of the map is left standing, the monsters come back to rebuild one:
+
+| Step | What happens |
+|------|-------------|
+| Delay | About 3 minutes after the last stronghold falls |
+| Party | Five monsters of one of the map's stronghold kinds walk in from the nearest map edge |
+| Site | One of the old stronghold sites, far from the castle and clear of your buildings |
+| Worksite | When three reach it: the stronghold at about a third of its walls; it spawns nothing and sends no raid |
+| Done | After 2 minutes it stands whole as an ordinary stronghold |
+| Stopped | Kill the party on the way or raze the worksite; the next attempt comes 5 minutes later |
+
+A map never gets more strongholds back than it began with, and one that began with none never gets any.
+
 ---
 
 ## Attacking Strongholds

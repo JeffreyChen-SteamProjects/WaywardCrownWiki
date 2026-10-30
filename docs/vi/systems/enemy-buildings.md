@@ -67,6 +67,21 @@ Pháo đài Goblin và Lâu đài Bất tử chỉ có thể xuất hiện tối
 | Khoảng cách tối thiểu giữa các căn cứ | 30 ô |
 | Số lượng mặc định | 3 (có thể điều chỉnh trong cài đặt độ khó) |
 
+## Quái vật quay lại
+
+Khi trên bản đồ không còn căn cứ nào đứng vững, quái vật sẽ quay lại dựng lại một căn cứ:
+
+| Bước | Điều gì xảy ra |
+|------|-------------|
+| Thời gian chờ | Khoảng 3 phút sau khi căn cứ cuối cùng sụp đổ |
+| Toán quái | Năm quái vật thuộc một trong các loại căn cứ của bản đồ đi vào từ mép bản đồ gần nhất |
+| Địa điểm | Một trong các vị trí căn cứ cũ, xa lâu đài và xa các công trình của bạn |
+| Công trường | Khi ba con tới nơi: căn cứ với khoảng một phần ba tường thành; không sinh quái và không gửi đợt cướp nào |
+| Hoàn thành | Sau 2 phút căn cứ đứng vững trọn vẹn như một căn cứ bình thường |
+| Bị chặn | Giết toán quái trên đường hoặc phá hủy công trường; lần thử tiếp theo đến sau 5 phút |
+
+Một bản đồ không bao giờ nhận lại nhiều căn cứ hơn số nó có lúc đầu, và bản đồ bắt đầu không có căn cứ nào thì sẽ không bao giờ có.
+
 ---
 
 ## Tấn công căn cứ
